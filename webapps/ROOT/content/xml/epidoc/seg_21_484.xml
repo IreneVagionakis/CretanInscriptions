@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra città cretesi</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 21.484</idno>
+                        <idno type="projectNo">563</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#athens_agora_museum">Museo dell’Agora, Atene</repository> 
+                                <idno type="invNo">I 6234</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#athens">Atene, <foreign>agora</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>α αὐτοῖς ε<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>οντες καὶ αὐτ<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ασέ</unclear>ων τὰν <w lemma="φιλία">φιλία<supplied reason="lost">ν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear> <orig>λαμ<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">τ</supplied>αῖς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#unknown"><w lemma="πόλις">πόλεσιν</w></rs> συντε<supplied reason="lost">λεῖν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ι περὶ τοῦ κυριεύ<supplied reason="lost">ει</supplied>ν τᾶς ἰδίας <w lemma="πατρίς">πατρίδος</w> ἁπ<supplied reason="lost">άσας</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="object" role="law" key="nomos" ref="#unknown"><w lemma="νόμος">νόμοι</w></rs> νομίζων ἅπ<supplied reason="lost">ασ</supplied>ιν <w lemma="ἄνθρωπος">ἀνθρώποις</w> συμφέρε<supplied reason="lost">ιν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>θα<supplied reason="lost">ι π</supplied>ερὶ δὲ τῶν <w lemma="χρήματα">χρημάτων</w> ὧν ἀξιοῦντι βο<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">ν</supplied>ηλοῦν ἅπαντα ποτὶ τοὺς <w lemma="φίλος">φίλους</w> πραγμα<gap reason="lost" extent="unknown" unit="character"/>
+                           <lb n="9"/><supplied reason="lost">μ</supplied>εγάλας, <rs type="institution" subtype="object" role="law" key="nomos" ref="#unknown"><w lemma="νόμος">νόμους</w></rs> <w lemma="τίθημι">ἐθήκατο</w> περὶ τῶν πρ<gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="10"/><gap reason="illegible" quantity="1" unit="character"/>ασων δὲ πάντα γεν<supplied reason="lost">έ</supplied>σθαι <unclear>ε</unclear>ὐ<unclear>β</unclear><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="11"/>αν καὶ καθάπερ ἐν τὰν ἰδίαν α<gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="12"/><supplied reason="lost">σ</supplied>θαι καὶ <w lemma="τιμά">τιμὰς</w> τούτοις ε<gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="13"/><unclear>σ</unclear>ι τοῖς τὰ <w lemma="χρήματα">χρήματα</w> σ<gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="14"/>ησάσθων παραχρ<gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="15"/>αν ἢ <w lemma="δανείζω">δανε<supplied reason="lost">ίζειν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><gap reason="illegible" quantity="1" unit="character"/><orig>ομε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, in dialetto dorico, sembra paleograficamente riconducibile alla prima metà del II secolo a.C. (cf. <bibl><ref target="#b1834">Tracy 1990</ref>, p. 91</bibl>), sebbene i suoi contenuti sembrano rimandare al contesto della mediazione di Knossos e Roma nel conflitto in corso fra Lato e Olous nell’ultimo ventennio del II secolo a.C. (cf. <bibl><ref target="#b70">Baldwin Bowsky 1989</ref>, pp. 340-341</bibl>, in cui è proposta una datazione al 114/113 a.C.; sullo scontro fra Lato e Olous cf. <ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4">4</ref>, <ref type="ins" target="#ic1_16_5">5</ref>, <ref type="ins" target="#ic1_16_18">18</ref> e <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>, <ref type="ins" target="#chaniotis_61b">61B</ref>). Il frammento, troppo esiguo per comprenderne con esattezza i contenuti, menziona più <foreign>poleis</foreign> (l. 4) e conserva un riferimento alle loro leggi (l. 9).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1320">Meritt 1961</ref>, pp. 222-223 n. 19</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 21.484 <ptr type="seg" target="a21_484"/></bibl>); 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 164 IV</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib446"><title>Agora</title> XVI</ref> 257</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b70">Baldwin Bowsky 1989</ref>, pp. 340-341</bibl>; 
+                            <bibl><ref target="#b1834">Tracy 1990</ref>, p. 91</bibl>; 
+                            <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> p. 51</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

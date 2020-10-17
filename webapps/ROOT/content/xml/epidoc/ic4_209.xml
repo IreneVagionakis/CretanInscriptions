@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Gortyna per cittadini di Alicarnasso e Kimolos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 209</idno>
+                        <idno type="projectNo">327</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mavropapas">Basilica di Mavropapas, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Disos f. Lydamis" ref="#halicarnassus"><name nymRef="Δισός">Δισὸς</name> <name nymRef="Λύδαμις" type="patronymic">Λυδά<supplied reason="lost">μι</supplied><unclear>ο</unclear>ς</name></persName>,
+                          <lb n="2"/><persName type="honoured" key="Diomedes f. E-nos" ref="#halicarnassus"><name nymRef="Διομήδης">Διομήδης</name> <name nymRef="Ε-νος" type="patronymic">Ε<gap reason="lost" quantity="3" unit="character"/>νω</name></persName>
+                          <lb n="3"/><placeName ref="#halicarnassus" type="ethnic">Ἁλικαρνασσέες</placeName>
+                          <lb n="4"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξε<lb 
+                        break="no" n="5"/>νοι</w></rs> αὐτοὶ καὶ <w lemma="γένος">γένος</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Zopyros f. Archon"><name nymRef="Ζώπυρος"><unclear>Ζ</unclear>ώπυρον</name> <name nymRef="Ἄρχων" type="patronymic">Ἄρχωνος</name>
+                          <lb n="2"/><placeName ref="#kimolos" type="ethnic"><supplied reason="lost">Κι</supplied>μώλιον</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενον</w></rs>
+                          <lb n="3"/><supplied reason="lost">ἦμ</supplied><unclear>ε</unclear>ν <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> αὐ<lb 
+                        break="no" n="4"/><supplied reason="lost">τὸν κ</supplied>αὶ <w lemma="γένος">γένος</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Satyros f. -" ref="#unknown"><name nymRef="Σάτυρος">Σάτυρος</name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                          <lb n="2"/><persName type="honoured" key="Timokrates f. -" ref="#unknown"><name nymRef="Τιμοκράτης">Τιμοκρά<supplied reason="lost">της</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                          <lb n="3"/><persName type="honoured" key="Theodoros f. -" ref="#unknown"><name nymRef="Θεόδωρος">Θεόδωρ<supplied reason="lost">ος</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                          <lb n="4"/><persName type="honoured" key="Hikesios f. -" ref="#unknown"><name nymRef="Ἱκέσιος">Ἱκέσιος</name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                          <lb n="5"/><persName type="honoured" key="Simos f. S-" ref="#unknown"><name nymRef="Σῖμος">Σῖμος</name> <name nymRef="Σ-" type="patronymic">Σ<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                          <lb n="6"/>Χ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυ<supplied reason="lost">νίων</supplied></placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος"><supplied reason="lost">πρόξενοι</supplied></w></rs>
+                          <lb n="8"/><unclear>α</unclear><supplied reason="lost">ὐτοὶ καὶ <w lemma="γένος">γένος</w></supplied>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I tre decreti onorari si presentano tutti nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva essenzialmente del nome dell’onorato e della tipologia di onore conferitogli. Il decreto B, tuttavia, si differenzia dai documenti A e C poiché il nome dell’individuo onorato ed il termine <foreign>proxenos</foreign> si trovano al caso accusativo anziché al nominativo, accompagnati dal verbo ἦμεν, costruzione che dimostra come il testo iscritto sia un estratto del più ampio decreto originario, nel quale costituiva una proposizione subordinata alla formula di sanzione.</p>
+                    <p>In tutti i casi la concessione garantita da Gortyna consiste nella prossenia, il conferimento onorario più frequente nella città; tutti i testi, inoltre, contengono il ricordo della <foreign>polis</foreign> attraverso l’uso dell’etnico collettivo cittadino, impiegato come specificazione dell’onore conferito per compensare forse la mancata menzione delle entità istituzionali responsabili della decisione, come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 184-186 n. 15</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5028B</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 209 <ptr type="phi" target="200650"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

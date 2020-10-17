@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria da Lato relativa ad un tempio di Latona</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 22</idno>
+                        <idno type="projectNo">464</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos">Agios Nikolaos, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0200">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ὸν <rs type="institution" subtype="public_space" role="dedication" key="naos" ref="#lato"><w lemma="ναός">ναὸν</w></rs> τᾶι <persName type="divine" key="Lato">Λατῶι</persName>.
+                          <lb n="1a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, di cui si è conservata solamente la parte conclusiva, testimonia un intervento edilizio subito dal tempio di Latona a Lato, struttura alla quale fa riferimento anche il documento analogo <ref type="ins" target="#ic1_16_21"><title>IC</title> I 16 21</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#naos"><foreign>naos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, p. 649 n. 63</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5081b</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 22 <ptr type="phi" target="199230"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

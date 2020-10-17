@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epitaffio di un ostaggio di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 48.1973 n. 5</idno>
+                        <idno type="projectNo">179</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#alexandria_museum">Museo greco-romano di Alessandria</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#hydria">idria funeraria di tipo Hadra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#alexandria">Alessandria, necropoli Hadra</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0233" notAfter="-0221" precision="low">233-221 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>Π</unclear>ανήμο<unclear>υ</unclear> διὰ <unclear>Σαρ</unclear><supplied reason="lost">α<lb 
+                        break="no" n="2"/>πίων</supplied>ος Δεινομένης
+                          <lb n="3"/>Τίμαντος <placeName ref="#knossos" type="ethnic">Κνώσιος</placeName> <rs type="institution" subtype="social_status" role="dedicatee_deceased" key="homeros" ref="#knossos">τῶν <w lemma="ὅμηρος">ὁμήρων</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’urna funeraria, risalente al tardo regno di Tolemeo III Evergete, appartiene alla serie di idrie rinvenute nella necropoli Hadra di Alessandria, relative ad individui di notevole importanza di origine non alessandrina (sulla serie cf. <bibl><ref target="#b397">Cook 1966</ref></bibl>, <bibl><ref target="#b559">Enklaar 1992</ref></bibl>, <bibl><ref target="#b560">Enklaar 1998</ref></bibl>). L’individuo, Deinomenes figlio di Timas, originario di Knossos, viene identificato come «uno degli ostaggi», forse consegnato dalla propria città come garanzia durante la Guerra Cremonidea (cf. <bibl><ref target="#b561">Enklaar 1998a</ref>, p. 18</bibl>); non è chiaro, tuttavia, se costui appartenesse ad un gruppo di prigionieri provenienti tutti da Knossos o se fosse il solo ‘rappresentante’ della propria città fra più ostaggi cretesi o di differenti origini.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#homeros"><foreign>homeros</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b559">Enklaar 1992</ref>, n. 42</bibl>;
+                            <bibl><ref target="#b561">Enklaar 1998a</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 48.1973 n. 5<ptr type="seg" target="a48_1973"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

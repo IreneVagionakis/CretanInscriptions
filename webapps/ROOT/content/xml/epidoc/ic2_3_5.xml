@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Aptera per Romani e per un cittadino di Sybrita</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 5</idno>
+                        <idno type="projectNo">043</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" when="-0189">189 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω"><supplied reason="lost">ἔδ</supplied>οξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">β<supplied reason="lost">ω</supplied><unclear>λ</unclear><supplied reason="lost">ᾶι</supplied></w></rs> <supplied reason="lost">κα</supplied>ὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δ<supplied reason="lost">άμωι</supplied></w></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#aptera"><w lemma="κοσμέω"><supplied reason="lost">κοσμιόντων</supplied></w> <supplied reason="lost">τῶ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">ν</supplied> μετὰ <persName type="attested" key="Tychamenes f. -"><name nymRef="Τυχαμένης">Τυχαμένεος</name> <unclear>τ</unclear><supplied reason="lost">οῦ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs><supplied reason="lost">·</supplied> <persName type="honoured" key="Leukios Kornelios Skipion f. Poplios" ref="#rome"><supplied reason="lost"><name nymRef="Λεύκιος">Λεύκιον</name></supplied> <name nymRef="Κορνήλιος"><supplied reason="lost">Κορνή</supplied><lb 
+                        break="no" n="3"/><unclear>λ</unclear>ιον</name> <name nymRef="Πόπλιος" type="patronymic">Π<unclear>ο</unclear>πλίου</name> <name nymRef="Σκιπίων">Σκιπίων<unclear>α</unclear></name></persName> <supplied reason="lost"><w lemma="στραταγός">στραταγὸν</w> <w lemma="ὕπατος">ὕπατον</w></supplied> <placeName ref="#rome" type="ethnic"><supplied reason="lost">Ῥωμαί</supplied><lb 
+                        break="no" n="4"/>ων</placeName> καὶ <persName type="honoured" key="Poplios Kornelios Skipion f. Poplios" ref="#rome"><name nymRef="Πόπλιος">Πόπλιον</name> <name nymRef="Κορνήλιος">Κορνήλ<supplied reason="lost">ιον</supplied></name> <supplied reason="lost"><name nymRef="Πόπλιος" type="patronymic">Ποπλίου</name> <name nymRef="Σκιπίων">Σκιπίωνα</name></supplied></persName> <supplied reason="lost">καὶ</supplied>
+                        <lb n="5"/><persName type="honoured" key="Gnaios Kornelios Skipion Hispanos f. Gnaios" ref="#rome"><name nymRef="Γναῖος">Γνάϊον</name> <name nymRef="Γναῖος" type="patronymic">Γναΐου</name> <name nymRef="Κορνήλιος">Κορνήλ<supplied reason="lost">ιον</supplied></name> <supplied reason="lost"><name nymRef="Σκιπίων">Σκιπίωνα</name> <name nymRef="Ἱσπανός">Ἱσπανὸν</name></supplied></persName>
+                        <lb n="6"/>καὶ <persName type="honoured" key="Leukios Aimilios Rhegillos f. Maarkos" ref="#rome"><name nymRef="Λεύκιος">Λεύ<unclear>κ</unclear>ιον</name> <name nymRef="Μάαρκος" type="patronymic">Μαάρκου</name> <name nymRef="Αἰμύλιος">Αἰ<unclear>μ</unclear><supplied reason="lost">ύλιον</supplied></name> <name nymRef="Ῥήγιλλος"><supplied reason="lost">Ῥήγιλλον</supplied></name></persName> <supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">προξένος</w></rs></supplied>
+                        <lb n="7"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#aptera"><w lemma="εὐεργέτας">εὐεργέτας</w></rs> ἦμεν αὐτὸς καὶ <w lemma="ἔκγονος"><supplied reason="lost">ἔκγονα</supplied></w>.
+                    </ab>
+                    </div>
+                <div type="textpart" subtype="part" n="B">
+                    <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δ<supplied reason="lost">άμωι</supplied></w></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Melandrys f. Tychamenes"><name nymRef="Μελάνδρυς"><supplied reason="lost">Μελάν</supplied><lb 
+                        break="no" n="2"/>δρυς</name> <name nymRef="Τυχαμένης" type="patronymic">Τυχαμένεος</name></persName> <w lemma="λέγω">εἶπε</w></rs>· <persName type="honoured" key="-pois f. Aristophoos" cert="low"><name nymRef="-ποις"><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="3"/><unclear>π</unclear>οιν</name> <name nymRef="Ἀριστόφοος" type="patronymic">Ἀριστοφόω</name> <placeName ref="#sybrita" type="ethnic">Συβρίτ<supplied reason="lost">ιον</supplied></placeName></persName>
+                        <lb n="4"/><supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενον</w></rs> ἦμεν αὐτὸν καὶ <w lemma="ἔκγονος">ἔκγονα</w></supplied>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>Mentre il testo B onora un ignoto cittadino di Sybrita, il decreto A interessa personaggi di massimo rilievo nelle vicende storiche del tempo. I quattro Romani onorati sono infatti i due fratelli Lucio Cornelio Scipione Asiatico (console nel 190 a.C.) e Publio Cornelio Scipione Africano – rispettivamente comandante e legato nella guerra contro Antioco III –, il loro cugino Gneo Cornelio Scipione Ispallo (pretore nel 179 a.C. e console nel 176 a.C., onorato anche da Polyrrhenia in <ref type="ins" target="#ic2_23_13"><title>IC</title> II 23 13</ref>) e l’ammiraglio Lucio Emilio Regillo, in carica nel 190-189 a.C. (cf. <ref type="lit">Liv. XL 52</ref>). I Romani, di ritorno dalla vittoria nella battaglia di Magnesia dell’inverno 190/189 a.C. sul re seleucide, fanno tappa a Creta durante il viaggio verso l’Urbe dopo essere passati da Efeso (<ref type="lit">Liv. XXXVII 45</ref>, <ref type="lit">XXXVIII 12</ref>). Il transito da Creta, forse coordinato all’intervento sull’isola di Quinto Fabio Labeone (<ref type="lit">Liv. XXXVII 60.2-5</ref>), è molto probabilmente dovuto alla contemporanea presenza di Annibale a Gortyna (<ref type="lit">Nep. <title>Hann.</title> 9-10</ref>; cf. <bibl><ref target="#b1015">Kreuter 1995</ref>, p. 143</bibl>). Non è noto un episodio specifico che giustifichi tale conferimento di onori, anche se potrebbe esserne un motivo sufficiente il probabile desiderio di Aptera di instaurare prontamente legami con i nuovi signori del Mediterraneo.</p>
+                    <p>Mentre al cittadino di Sybrita viene concessa verosimilmente la sola prossenia – come nella maggior parte dei decreti onorari di Aptera –, i quattro Romani sono invece dichiarati prosseni (?) ed evergeti, combinazione di onori riservata nella città solamente ai personaggi di maggior prestigio (cf. <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref>, <ref type="ins" target="#ic2_3_4ab"><title>IC</title> II 3 4 A</ref> e <ref type="ins" target="#ic2_3_4c">C</ref>, in quest’ultimo caso senza la prossenia).</p>
+                    <p>In entrambi i decreti si conserva in posizione iniziale la formula di sanzione, dalla quale emergono sia la <foreign>bola</foreign> che il <foreign>damos</foreign> come assemblee atte alla deliberazione, in linea con quanto avviene nella maggioranza dei documenti analoghi della città (tutti tranne <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>). I documenti si differenziano tuttavia nel formulario seguente, che nel caso di A prevede la datazione, mentre in B include la menzione del proponente, come in molti altri decreti di Aptera.</p>
+                    <p>La datazione, parzialmente perduta, si fonda sulla menzione di un magistrato eponimo posto a capo di un collegio, come è possibile dedurre dalla preposizione μετά precedente il nome dell’individuo. Sebbene l’ipotesi prevalente circa la carica ricoperta da Τυχαμένης sia che si tratti di un cosmo, in realtà non è affatto da escludere che costui possa essere un <foreign>damiorgos</foreign>: mentre tutte le altre presunte occorrenze di cosmi eponimi in documenti di Aptera sono frutto di integrazione (<ref type="ins" target="#ic2_3_1"><title>IC</title> II 3 1</ref>, <ref type="ins" target="#seg_63_747"><title>SEG</title> 63.747</ref>), l’unico magistrato eponimo certamente attribuibile alla città è infatti il <foreign>damiorgos</foreign> di <ref type="ins" target="#seg_41_731"><title>SEG</title> 41.731</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), proponente (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b754">Guarducci 1929</ref>, p. 60</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 5 <ptr type="phi" target="199712"/></bibl>;
+                    <bibl><ref target="#b966">Karafotias 1998</ref>, p. 108 (A)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b274">Cavaignac 1931</ref></bibl>; 
+                    <bibl><ref target="#b1015">Kreuter 1995</ref>, pp. 135-150</bibl>; 
+                    <bibl><ref target="#b704">Ghinatti 2001</ref>, n. D</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

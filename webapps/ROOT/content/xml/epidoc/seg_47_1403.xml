@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria degli ex <foreign>naokoroi</foreign> di Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 47.1403</idno>
+                        <idno type="projectNo">228</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0140" notAfter="-0070">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><rs type="institution" subtype="board" role="builder" key="naokoros" ref="#lebena"><persName type="attested" key="- f. Antiphatas" cert="low"><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><name nymRef="Ἀντιφάτας" type="patronymic">Ἀντιφ<unclear>ά</unclear><supplied reason="lost" cert="low">τα</supplied></name></persName></rs>,
+                          <lb n="2"/><rs type="institution" subtype="board" role="builder" key="naokoros" ref="#lebena"><persName type="attested" key="Kartaidamas f. Mostylion"><name nymRef="Καρταιδάμας">Καρταιδ<unclear>ά</unclear><supplied reason="lost">μας</supplied></name>
+                          <lb n="3"/><name nymRef="Μοστυλίων" type="patronymic">Μοστυλίων<supplied reason="lost">ος</supplied></name></persName>
+                          <lb n="4"/><del rend="erasure"><orig>μα</orig></del> <w lemma="νακορέω">νακορήσαν<lb 
+                        break="no" n="5"/>τες</w></rs> <w lemma="τίθημι">ἔθηκαν</w>
+                          <lb n="6"/>τὸν <rs type="institution" subtype="public_space" role="construction" key="choros" ref="#lebena"><w lemma="χορός">χορὸν</w></rs>
+                          <lb n="7"/>ἀπὸ τῶ <rs type="institution" subtype="public_space" role="construction" key="adyton" ref="#lebena"><w lemma="ἄδυτον">ἀδύτω</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, priva di datazione, testimonia un intervento edilizio volto ad allontanare l’area dedicata alle danze rituali (<foreign>choros</foreign>) dall’<foreign>adytos</foreign>, promosso da due ex <foreign>naokoroi</foreign> dell’<foreign>Asklepieion</foreign> di Lebena, il figlio di Antiphatas e Kartaidamas figlio di Mostylion. Tali funzionari del santuario, inoltre, svolgono attività analoghe anche in <ref type="ins" target="#ic1_17_5"><title>IC</title> I 17 5</ref>, <ref type="ins" target="#ic1_17_21">21</ref>, <ref type="ins" target="#ic1_17_38">38</ref> e probabilmente <ref type="ins" target="#ic1_17_8">8</ref> (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 104-109</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#abaton"><foreign>adyton</foreign></ref>, <ref type="inst" target="#choros2"><foreign>choros</foreign></ref>, <ref type="inst" target="#naokoros"><foreign>naokoros</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1026">Kritzas 1992-1993</ref></bibl>; 
+                            <bibl><ref target="#b1028">Kritzas 1997</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 47.1403 <ptr type="phi" target="202260"/> <ptr type="seg" target="a47_1403"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 23</bibl>; 
+                            <bibl><ref target="#b1391">Naerebout 2011</ref>, p. 253</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

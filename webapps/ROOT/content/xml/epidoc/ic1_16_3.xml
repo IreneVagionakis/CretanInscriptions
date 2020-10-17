@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Lato e Olous con mediazione di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 3*</idno>
+                        <idno type="projectNo">441</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delos_museum">Museo archeologico di Delos</repository> 
+                                <idno type="invNo">Δ 461</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delos">Delos, santuario di Apollo</origPlace>
+                                    <origDate period="#hellenistic" when="-0118">118 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w>. <rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#knossos">ἐπὶ τῶν <w lemma="Αἰθαλεῖς">Αἰθαλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos"><w lemma="κοσμέω">κοσμιόντων</w> <placeName ref="#knossos">Κνωσοῖ</placeName> μὲν τῶν
+                          <lb n="2"/>σὺν <persName type="attested" key="Kydas f. Kydas (2)"><name nymRef="Κύδας">Κύδαντι</name> <supplied reason="lost">τ</supplied>ῶ <name nymRef="Κύδας" type="patronymic">Κύδαντος</name></persName></rs> <w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Welchanios" ref="#knossos"><w lemma="Ἐλχάνιος">Ἐλχανίω</w></rs>, <placeName ref="#lato">Λατοῖ</placeName> δὲ <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato">ἐπὶ τῶν
+                          <lb n="3"/>σὺν <persName type="attested" key="Diokles f. Heroidas"><name nymRef="Διοκλῆς">Διοκλεῖ</name> τῶ <name nymRef="Ἡρωίδας" type="patronymic">Ἡρώ<corr>ι</corr>δα</name></persName></rs> <w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Bakinthios" ref="#lato"><w lemma="Βακίνθιος">Βακινθίω</w></rs>, ἐν δὲ <placeName ref="#olous">Ὀλόντι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#olous">τῶν σὺν <persName type="attested" key="Telemachos f. Gnomis"><name nymRef="Τηλέμαχος">Τη<lb 
+                        break="no" n="4"/>λεμάχῳ</name> τῶ <name nymRef="Γνῶμις" type="patronymic">Γνώμιος</name></persName></rs> <w lemma="μείς">μηνὸ<supplied reason="lost">ς</supplied></w> <rs type="institution" subtype="month" role="calendar" key="Agrianios" ref="#olous"><w lemma="Ἀγριάνιος">Ἀ<supplied reason="lost">γρια</supplied>νίω</w></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#knossos"><w lemma="πρειγεύω">πρειγευσάντων</w></rs> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName>
+                          <lb n="5"/>τᾶς <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#knossos"><w lemma="πόλις">πόλιος</w></rs> ἐπί τε τὰν τῶν <placeName ref="#lato" type="ethnic">Λατίων</placeName> <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#lato"><w lemma="πόλις">πόλιν</w></rs> καὶ ἐπὶ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#olous">τὰν τῶν <placeName ref="#olous" type="ethnic">Ὀλοντί<lb 
+                        break="no" n="6"/>ων</placeName></rs> καὶ <w lemma="παρακαλέω">παρακαλεσάντων</w> τὰμ μὲν ἐνεστακυῖαν πορτ’ ἀλλάλονς
+                          <lb n="7"/>διαφορὰν καὶ ἀμειξίανς ἆραι, περὶ δὲ τῶν <w lemma="ἀμφιλλέγω">ἀμφιλλεγομένων</w>
+                          <lb n="8"/><rs type="institution" subtype="assembly" role="judicial_procedure" key="polis" ref="#lato"><rs type="institution" subtype="assembly" role="judicial_procedure" key="polis" ref="#olous"><w lemma="πόλις">πόλι</w></rs></rs> πορτὶ <rs type="institution" subtype="assembly" role="judicial_procedure" key="polis" ref="#olous"><w lemma="πόλις">πόλιν</w></rs> δόμεν αὐτοῖς τὰν <w lemma="ἐπιτροπά">ἐπιτροπάν</w>. <space extent="unknown" unit="character"/>
+                          <lb n="9"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lato"><w lemma="δοκέω">ἔδοξε</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic">Λατίοις</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName></rs> ἐπακολουθῆσαι καθῶς <w lemma="παρακαλέω">παρακα<lb 
+                        break="no" n="10"/>λίοντι</w> <placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName>· καὶ ἔδωκαν <supplied reason="lost">τ</supplied>ὰν <w lemma="ἐπιτροπά">ἐπιτροπὰν</w> πάντα περὶ
+                          <lb n="11"/>πάντων· <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">κρινόντων</w></rs> δ’ ἁ <rs type="institution" subtype="assembly" role="judicial_procedure" key="polis" ref="#knossos"><w lemma="πόλις">πόλις</w></rs> τῶν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos">οἵ κα ἐπὶ <persName type="attested" key="Kydas (2)"><name nymRef="Κύδας">Κύδαν<lb 
+                        break="no" n="12"/>τος</name></persName> <w lemma="κοσμέω">κοσμίωντι</w></rs> ἐν δεκαμήν<supplied reason="lost">ωι</supplied> ἅ κα αὐτοῖς <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">δοκῇ</w></rs> <w lemma="δίκαιος">δίκαια</w> ἦμεν·
+                          <lb n="13"/>τὰ δὲ <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">κριθέντα</w></rs> καὶ <w lemma="ἀναγράφω">ἀναγραφέ<supplied reason="lost">ντα</supplied></w> ὑπὸ τῶν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> βέβαι<supplied reason="lost">α</supplied>
+                          <lb n="14"/>καὶ κύρια ἦμεν ἐς τὸν ἅπαντα <supplied reason="lost">χρό</supplied>νον καὶ μηκέτι ὑπολεί<lb 
+                        break="no" n="15"/>πεσθαι αὐτοῖς ἔγκλημα μηθὲμ <supplied reason="lost">παρ</supplied>ευρέσει μηδεμιᾶι· καὶ <w lemma="ἀνγράφω">ἀν<lb 
+                        break="no" n="16"/>γραφήτω</w> τὰ <w lemma="εὐδοκέω">εὐδοκημένα</w> κα<gap reason="lost" quantity="4" unit="character"/>εντα <placeName ref="#knossos">Κνωσοῖ</placeName> μὲν ἐν τ<supplied reason="lost">ῶι</supplied>
+                          <lb n="17"/><rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#knossos"><w lemma="ἱαρόν">ἱαρῶι</w> τῶ <persName type="divine" key="Apollo Delphidios">Ἀπόλλωνος τῶ Δελφι<supplied reason="lost">δίω</supplied></persName></rs> καὶ ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#dera"><w lemma="ἱαρόν">ἱαρῷ</w> τῶ <persName type="divine" key="Ares">Ἄρεος</persName>
+                          <lb n="18"/><supplied reason="lost">τῶι</supplied> <placeName ref="#dera">Δέρᾳ</placeName></rs> ἐν <w lemma="στάλα">στάλαι</w>, <placeName ref="#lato">Λατοῖ</placeName> δὲ ἐν <supplied reason="lost">τῶι</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#lato"><w lemma="ἱαρόν">ἱαρῶι</w> τᾶς <persName type="divine" key="Eleuthyia">Ἐλευθυίας</persName></rs>, ἐ<supplied reason="lost">ν δὲ</supplied>
+                          <lb n="19"/><placeName ref="#olous"><supplied reason="lost">Ὀλόντ</supplied>ι</placeName> ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#olous"><w lemma="ἱαρόν">ἱαρῷ</w> τῶ <persName type="divine" key="Zeus Tallaios">Ζηνὸς τῶ <supplied reason="lost">Ταλλ</supplied>αίω</persName></rs>, <space extent="unknown" unit="character"/> ἐν δὲ <placeName ref="#delos"><supplied reason="lost">Δ</supplied>ά<supplied reason="lost">λωι</supplied></placeName>
+                          <lb n="20"/><supplied reason="lost">ἐν τῶι</supplied> <supplied reason="lost">ἱαρῶι τῶ</supplied> <persName type="divine" key="Apollo"><supplied reason="lost">Ἀπόλλω</supplied>νος</persName>· <space extent="unknown" unit="character"/> δό<supplied reason="lost">ντων</supplied> δὲ <placeName ref="#lato" type="ethnic">Λάτιοι</placeName> <supplied reason="lost">καὶ</supplied> <placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀλόν</supplied><lb 
+                        break="no" n="21"/><supplied reason="lost">τιοι</supplied></placeName> <supplied reason="lost">τούτω τῶ <w lemma="ἔγγροφος">ἐγγρόφω</w> ἑκά</supplied>τερο<supplied reason="lost">ι χέρα</supplied> τᾶι τῶ<supplied reason="lost">ν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#knossos"><w lemma="πόλις">πόλι</w></rs></supplied>
+                          <lb n="22"/><supplied reason="lost">καὶ αὐτοσαυτοῖς· ὑπὲρ δὲ</supplied> το<supplied reason="lost">ῦδε τῶ</supplied> <w lemma="ἔγγροφος"><supplied reason="lost">ἐγγρό</supplied>φω</w> ἐ<supplied reason="lost">ς <placeName ref="#delos">Δᾶλον</placeName></supplied> <w lemma="ἀποστέλλω"><supplied reason="lost">ἀποστη</supplied><lb 
+                        break="no" n="23"/><supplied reason="lost">λάντων</supplied></w><supplied reason="lost">, </supplied><gap reason="lost" extent="unknown" unit="character"/>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La stele, rinvenuta a Delos, conserva una copia di un trattato fra Lato e Olous, il primo di una serie di documenti relativi ad uno scontro in corso fra le due città nell’ultimo ventennio del II secolo a.C. (<ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>; <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>; <ref type="ins" target="#ic1_16_18"><title>IC</title> I 16 18</ref>; cf. inoltre <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>).</p>
+                    <p>Il ruolo di mediazione svolto da Knossos, in questo come in altri documenti del <foreign>dossier</foreign>, è evidente fin dalle prime linee del trattato, dove assieme alla formula datante delle due città contraenti è presente anche quella di Knossos (ll. 1-4). Le tre datazioni ricordano per ciascuna città il cosmo eponimo, Kydas figlio di Kydas della tribù degli <foreign>Aithaleis</foreign> (nota anche a Gortyna, Malla e Dreros) per Knossos, Diokles figlio di Heroidas per Lato e Telemachos figlio di Gnomis per Olous; per ciascuna <foreign>polis</foreign>, inoltre, è indicato anche il mese, rispettivamente <foreign>Elchanios</foreign> (attestato come <foreign>Welchanios</foreign> a Gortyna, cf. <ref type="ins" target="#ic4_3"><title>IC</title> IV 3</ref> e <ref type="ins" target="#ic4_184">184</ref>), <foreign>Bakinthios</foreign> (noto anche a Malla e Knossos, cf. <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> e <ref type="ins" target="#chaniotis_54-56a">Chaniotis, <title>Verträge</title> 54/56a</ref>) e <foreign>Agrianios</foreign> (non noto altrove).</p>
+                    <p>La sezione del documento alle linee 4-8 documenta l’invio di un’ambasceria da parte della <foreign>polis</foreign> di Knossos verso le città di Lato e Olous per proporsi come mediatore per risolvere la contesa in corso fra queste, offerta che viene accettata dalle contendenti.</p>
+                    <p>L’oggetto degli accordi, introdotto dalla formula di sanzione congiunta menzionante gli etnici collettivi delle due <foreign>poleis</foreign> (l. 9), informa del permesso di essere loro arbitro accordato da Lato e Olous alla <foreign>polis</foreign> di Knossos e in particolare al suo cosmo Kydas assieme ai propri colleghi, che sono tenuti ad emettere il giudizio entro dieci mesi (ll. 9-15).</p>
+                    <p>La formula di esposizione alle linee 15- 20 prevede la realizzazione di più copie iscritte del trattato e di quanto verrà stabilito tramite l’arbitrato, da collocarsi a Knossos nel santuario di Apollo <foreign>Delphidios</foreign> e in quello di Ares a Dera, a Lato in quello di Eleuthyia, a Olous in quello di Zeus <foreign>Tallaios</foreign> e a Delos in quello di Apollo; a tale scopo Lato e Olous devono scambiarsi fra loro il presente documento e devono farlo avere a Knossos e a Delos (ll. 20-23).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, mesi (<ref type="inst" target="#agrianios"><foreign>Agrianios</foreign></ref>, <ref type="inst" target="#bakinthios"><foreign>Bakinthios</foreign></ref>, <ref type="inst" target="#welchanios"><foreign>Welchanios</foreign></ref>), <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, tribù (<ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b934">Jardé – Dürrbach 1905</ref>, pp. 204-209 n. 67 (ll. 1-23)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1034-1035 n. 5 (ll. 1-23)</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 195 (ll. 1-23)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 3* <ptr type="phi" target="199211"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib24"><title>ID</title></ref> 1514</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 54</bibl>; 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 164 I</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b290">Chaniotis 1988a</ref></bibl>; 
+                            <bibl><ref target="#b70">Baldwin Bowsky 1989</ref>, p. 345</bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 57</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 491</bibl>; 
+                            <bibl><ref target="#b705">Ghinatti 2004</ref>, pp. 185-194</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

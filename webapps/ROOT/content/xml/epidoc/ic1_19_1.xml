@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Malla e Lyttos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 19 1</idno>
+                        <idno type="projectNo">476</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#malla">Malla?</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0260" notAfter="-0240"> metà III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="character"/><unclear>α</unclear>ι ἐμ <rs type="institution" subtype="public_space" role="receiving_fines" key="polis" ref="#lyttos"><rs type="institution" subtype="public_space" role="receiving_fines" key="polis" ref="#malla"><w lemma="πόλις">πό<supplied reason="lost">λι</supplied></w></rs></rs> <supplied reason="lost">ϝίκ</supplied>ατι τᾶν ϝεξήκο<supplied reason="lost">ντα ἁμε</supplied><lb 
+                        break="no" n="2"/>ρᾶν τὰν ἡμίναν, τὰν δ’ ἡμίναν ὁ <gap reason="illegible" quantity="6" unit="character"/>
+                          <lb n="3"/>πούσας· αἰ δὲ μή, αὐτοὶ ὑπόδικοι ἔ<supplied reason="lost">στων τῶ</supplied>
+                          <lb n="4"/>διπλό<corr>ω</corr>. αἰ δέ τ<supplied reason="lost">ι</supplied> κοινᾶι <w lemma="στρατεύω">στρατουόμεν<supplied reason="lost">οι</supplied></w> <w lemma="θιός"><supplied reason="lost">θιῶν</supplied></w>
+                          <lb n="5"/>θελόντων ἕλοιμεν τῶν πολεμίων ἐ<supplied reason="lost">ξοδουσάν</supplied><lb 
+                        break="no" n="6"/>των τῶν <placeName ref="#lyttos" type="ethnic">Λυττίων</placeName> καὶ <placeName ref="#malla" type="ethnic">Μαλλαίων</placeName>, λ<supplied reason="lost">αγχανόν</supplied><lb 
+                        break="no" n="7"/>των ἕκαστοι τὰ μέρια κατὰ τὸς <w lemma="ἀνήρ">ἄ<supplied reason="lost">νδρας</supplied></w>
+                          <lb n="8"/>τὸς ἑρπόντας. μὴ ἐξέστω δὲ <w lemma="συλάω">συλὲν</w> <supplied reason="lost">μήτε</supplied>
+                          <lb n="9"/>τὸν <placeName ref="#lyttos" type="ethnic">Λύττιον</placeName> ἐν τᾶι τῶν <placeName ref="#malla" type="ethnic">Μαλλαίων</placeName> μήτε τ<supplied reason="lost">ὸν</supplied> <placeName ref="#malla" type="ethnic"><supplied reason="lost">Μαλ</supplied><lb 
+                        break="no" n="10"/>λαῖον</placeName> ἐν τᾶι τῶν <placeName ref="#lyttos" type="ethnic">Λυττίων</placeName>. αἰ δέ τίς κα <w lemma="συλάω">συ<supplied reason="lost">λάσηι</supplied></w>
+                          <lb n="11"/><w lemma="ἀποτίνω">ἀποτεινύτω</w> τό τε χρέος ὅ κα <w lemma="συλάω">συλάση<supplied reason="lost">ι</supplied></w> <supplied reason="lost">καὶ</supplied> <w lemma="στατήρ"><supplied reason="lost">στατῆ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">ρ</supplied>ας</w> ἑκατόν. ὁ δὲ <rs type="institution" subtype="official" role="application_of_the_law" key="kosmos" ref="#lyttos"><rs type="institution" subtype="official" role="application_of_the_law" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμος</w></rs></rs> <w lemma="πράσσω"><supplied reason="lost">π</supplied>ραξάντω<supplied reason="lost">ν</supplied></w> <supplied reason="lost">τᾶν δέ</supplied><lb 
+                        break="no" n="13"/><supplied reason="lost">κ’</supplied> ἁμερᾶν τὸν <rs type="institution" subtype="social_status" role="possession" key="eleutheros" ref="#lyttos"><rs type="institution" subtype="social_status" role="possession" key="eleutheros" ref="#malla"><w lemma="ἐλούθερος">ἐλούθερον</w></rs></rs>· ἄλλο δ’ αἴ τ<supplied reason="lost">ις</supplied> <w lemma="συλάω"><supplied reason="lost">συλά</supplied><lb 
+                        break="no" n="14"/><supplied reason="lost">σα</supplied>ι</w> ἐν ἁμέραις ἴκατι. αἰ δὲ μὴ <w lemma="πράσσω">πράξαιεν</w> ὁ <rs type="institution" subtype="official" role="application_of_the_law" key="kosmos" ref="#lyttos"><rs type="institution" subtype="official" role="application_of_the_law" key="kosmos" ref="#malla"><w lemma="κόσμος"><unclear>κ</unclear><supplied reason="lost">όσμος</supplied></w></rs></rs>,
+                          <lb n="15"/><w lemma="ἀποτίνω">ἀποτεισάντων</w> ἕκαστος τ<supplied reason="lost">ῶ</supplied> <rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#lyttos"><rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμ<corr>ω</corr></w></rs></rs> <w lemma="στατήρ">στα<supplied reason="lost">τῆρας</supplied></w>
+                          <lb n="16"/>πε<supplied reason="lost">ν</supplied>τακατίος τᾶι <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#lyttos"><rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#malla"><w lemma="πόλις">πόλι</w></rs></rs> <supplied reason="lost">ὁ</supplied>πῶ κα <w lemma="συλάω">συλάσ<corr>η</corr><supplied reason="lost">ι</supplied></w><supplied reason="lost">.</supplied> <rs type="institution" subtype="public_space" role="reading_of_treaty" key="naos" ref="#lyttos"><rs type="institution" subtype="public_space" role="reading_of_treaty" key="naos" ref="#malla"><w lemma="ναόω"><supplied reason="lost">ναωσάν</supplied><lb 
+                        break="no" n="17"/>των</w></rs></rs> δ’ ὁ <rs type="institution" subtype="official" role="leading_reading_of_treaty" key="kosmos" ref="#lyttos"><rs type="institution" subtype="official" role="leading_reading_of_treaty" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμος</w></rs></rs> κατ’ ἕκαστον ἐ<corr>νι</corr>αυτὸν <supplied reason="lost">τὰν</supplied> <rs type="institution" subtype="age_class" role="reading_of_treaty" key="agela" ref="#lyttos"><rs type="institution" subtype="age_class" role="reading_of_treaty" key="agela" ref="#malla"><w lemma="ἀγέλα"><supplied reason="lost">ἀγέ</supplied><lb 
+                        break="no" n="18"/>λαν</w></rs></rs> τὰν τόκα <rs type="institution" subtype="age_class" role="reading_of_treaty" key="ekdyomenos" ref="#lyttos"><rs type="institution" subtype="age_class" role="reading_of_treaty" key="ekdyomenos" ref="#malla"><w lemma="ἐσδύω">ἐσδυομέναν</w></rs></rs>, οἱ μὲν <placeName ref="#lyttos" type="ethnic">Λύττι<supplied reason="lost">οι</supplied></placeName> <supplied reason="lost">ἐν</supplied> <placeName ref="#malla"><supplied reason="lost">Μάλ</supplied><lb 
+                        break="no" n="19"/>λαι</placeName> ἐπὶ <persName type="divine" key="Monnitios"><rs type="institution" subtype="public_space" role="reading_of_treaty" key="naos" ref="#malla"><w lemma="Μοννίτιον">Μοννιτί<corr>ω</corr>ι</w></rs></persName> οἱ δὲ <placeName ref="#malla" type="ethnic">Μαλλαῖοι</placeName> <placeName ref="#lyttos">Λυτ<supplied reason="lost">τοῖ</supplied></placeName> ἐπ<supplied reason="lost">ὶ <persName type="divine" key="Pytios"><rs type="institution" subtype="public_space" role="reading_of_treaty" key="naos" ref="#lyttos"><w lemma="Πύτιον">Πυτίωι</w></rs></persName></supplied>,
+                          <lb n="20"/><w lemma="ἀναγινώσκω">ἀναγινωσκόντων</w> δὲ τὰν <w lemma="στάλα"><supplied reason="lost">σ</supplied>τάλαν</w> κατ’ ἐ<supplied reason="lost">νιαυ</supplied><lb 
+                        break="no" n="21"/>τὸν <placeName ref="#lyttos">Λυττοῖ</placeName> μὲν ἐν τοῖς <rs type="institution" subtype="festivity" role="calendar" key="Periblemaia" ref="#lyttos"><w lemma="Περιβλημαῖα">Περιβλημα<supplied reason="lost">ίοις</supplied></w></rs> <supplied reason="lost">πα</supplied><lb 
+                        break="no" n="22"/>ριόντων τῶν <placeName ref="#malla" type="ethnic">Μαλλαίων</placeName>, ἐν δὲ <placeName ref="#malla">Μάλλαι</placeName> <supplied reason="lost">ἐν</supplied>
+                          <lb n="23"/>τοῖς <rs type="institution" subtype="festivity" role="calendar" key="Hyperboia" ref="#malla"><w lemma="Ὑπερβοῖα">Ὑπερβοίοις</w></rs> παριόντων τῶν <placeName ref="#lyttos" type="ethnic">Λυττ<supplied reason="lost">ίων</supplied></placeName><supplied reason="lost">. αἰ</supplied>
+                          <lb n="24"/>δὲ μὴ <rs type="institution" subtype="public_space" role="reading_of_treaty" key="naos" ref="#lyttos"><rs type="institution" subtype="public_space" role="reading_of_treaty" key="naos" ref="#malla"><w lemma="ναόω">ναώσαιεν</w></rs></rs> τὰ<supplied reason="lost">ν</supplied> <rs type="institution" subtype="age_class" role="reading_of_treaty" key="agela" ref="#lyttos"><rs type="institution" subtype="age_class" role="reading_of_treaty" key="agela" ref="#malla"><w lemma="ἀγέλα">ἀγέλαν</w></rs></rs>, <w lemma="ἀποτίνω">ἀποτε<supplied reason="lost">ι</supplied>σ<supplied reason="lost">άντων</supplied></w>
+                          <lb n="25"/>ὁ <rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#lyttos"><rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμος</w></rs></rs> ἑκατὸν <w lemma="στατήρ">στατῆρας</w>, ὁ μὲν <placeName ref="#lyttos" type="ethnic">Λύττιος</placeName> <supplied reason="lost">τοῖς</supplied> <placeName ref="#malla" type="ethnic"><supplied reason="lost">Μαλ</supplied><lb 
+                        break="no" n="26"/><supplied reason="lost">λ</supplied>αίοις</placeName>, ὁ δὲ <placeName ref="#malla" type="ethnic">Μαλλαῖος</placeName> τοῖς <placeName ref="#lyttos" type="ethnic">Λυττίοις</placeName> κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="26a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato di alleanza fra Malla e Lyttos, mutilo sia superiormente che inferiormente, si apre con una clausola relativa ad una multa, la metà del cui importo deve essere versata presso ciascuna <foreign>polis</foreign> entro sessanta giorni, pena il raddoppiamento dell’ammenda (ll. 1-4).</p>
+                    <p>Ad una clausola riguardante la spartizione del bottino nelle spedizioni congiunte (ll. 4-8) segue alle linee 8-16 la concessione reciproca dell’<foreign>asylia</foreign>, accompagnata dalla determinazione della multa di cento stateri da imporre ai contravventori. I cosmi di ciascuna città sono incaricati di obbligare costoro al pagamento (?) e alla restituzione di quanto sequestrato entro dieci giorni nel caso di individui liberi, entro venti nel caso di beni di altra natura; nell’eventualità di inadempienza da parte dei magistrati è prevista per ciascuno di loro un’ammenda dal valore di cinquecento stateri da versare alla città che ha subito la <foreign>syle</foreign>.</p>
+                    <p>La sezione alle linee 16-26 del trattato prevede che il cosmo (o più verosimilmente il collegio dei cosmi) di ciascuna città conduca ogni anno i giovani uscenti dall’<foreign>agela</foreign> (ll. 17-18, [ἀγέ]λαν τὰν τόκα ἐσδυομέναν, espressione impiegata anche in <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>; cf. inoltre il verbo <foreign>ekdyo</foreign> in <ref type="ins" target="#ic2_5_24"><title>IC</title> II 5 24</ref> da Axos e gli <foreign>Ekdysia</foreign> di Phaistos descritti in <ref type="lit" target="#AntLib">Ant. Lib. <title>Met.</title> XVII</ref>; cf. <bibl><ref target="#b1084">Leitão 1995</ref></bibl>) presso un tempio della città alleata, il <foreign>Monnition</foreign> a Malla (noto anche da <ref type="ins" target="#ic1_19_2"><title>IC</title> I 19 2</ref>) e il <foreign>Pytion</foreign> a Lyttos. I cosmi ogni anno (vi) devono promuovere la pubblica lettura del trattato in presenza degli alleati a Lyttos in occasione dei <foreign>Periblemaia</foreign> (festività non note altrove), a Malla degli <foreign>Hyperboia</foreign> (attestati anche a Hierapytna, Priansos e Dreros). Nel caso in cui non conduca al tempio l’<foreign>agela</foreign>, ciascun cosmo è soggetto al versamento di una multa dal valore di cento stateri alla città alleata.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela"><foreign>agela</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#ekdyomenos"><foreign>ekdyomenos</foreign></ref>, festività (<ref type="inst" target="#hyperboia"><foreign>Hyperboia</foreign></ref>, <ref type="inst" target="#periblemaia"><foreign>Periblemaia</foreign></ref>), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b877">Haussoullier 1885</ref>, pp. 10-13, n. 10</bibl>; 
+                            <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 635-640 n. 53</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5100</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 19 1 <ptr type="phi" target="199518"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 511</bibl>; 
+                            <bibl><ref target="#b357">Charalambakis 1977</ref>, n. 1</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 11</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 32</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b688">Gauthier 1982</ref>, pp. 573-576</bibl>; 
+                            <bibl><ref target="#b289">Chaniotis 1988</ref>, D45</bibl>; 
+                            <bibl><ref target="#b1297">Matthaiou 1992-1998</ref></bibl>; 
+                            <bibl><ref target="#b304">Chaniotis 1994</ref></bibl>; 
+                            <bibl><ref target="#b1084">Leitão 1995</ref></bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 419</bibl>; 
+                            <bibl><ref target="#b1152">Maffi 1999</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

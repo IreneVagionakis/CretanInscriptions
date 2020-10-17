@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario onorario dei soldati ausiliarii del <foreign>koinon</foreign> cretese per Tolemeo VI</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">ID 1518</idno>
+                        <idno type="projectNo">587</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delos_museum">Museo archeologico di Delos</repository> 
+                                <idno type="invNo">Δ 59, Δ 446</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delos">Delos</origPlace>
+                                    <origDate period="#hellenistic"  notBefore="-0175" notAfter="-0125">150 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>υ</orig> συγγνῶ<supplied reason="lost">ν</supplied><unclear>αι</unclear> <orig><unclear>σ</unclear></orig><gap reason="lost" quantity="12" unit="character" precision="low"/>
+                          <lb n="2"/><gap reason="illegible" quantity="4" unit="character"/>αν γεγονόσιν ἀγνοήμα<supplied reason="lost" cert="low">σιν καὶ ἀεὶ</supplied>
+                          <lb n="3"/><supplied reason="lost">χρ</supplied><unclear>ᾶ</unclear>σθ’ αὐτῶι συγγενικῶς καὶ <gap reason="illegible" quantity="7" unit="character"/>
+                          <lb n="4"/><supplied reason="lost">τ</supplied>οῖς τε πρότερον εἰς ἑαυτὸν πεπρα<supplied reason="lost">γμέ</supplied><lb 
+                        break="no" n="5"/>νοις ἀκολούθως ὑπάρχων ὁ <persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς">βασιλεὺς</w></persName> <supplied reason="lost">καὶ</supplied>
+                          <lb n="6"/>ὅσιος καὶ <w lemma="εὐσεβής">εὐσεβὴς</w> καὶ πάντων <w lemma="ἄνθρωπος">ἀνθρώ<supplied reason="lost">πων</supplied></w>
+                          <lb n="7"/>ἡμερώτατος ἐποήσατο τήν τε <w lemma="φιλία">φιλία<supplied reason="lost">ν</supplied></w> <supplied reason="lost">καὶ</supplied>
+                          <lb n="8"/>τὴν εἰρήνην, κατὰ πάντα χρησάμενο<supplied reason="lost">ς</supplied>
+                          <lb n="9"/>τοῖς πράγμασι μεγαλοψύχως, προαι<supplied reason="lost">ρούμε</supplied><lb 
+                        break="no" n="10"/>νος ἐν οἷς μάλιστα <w lemma="χαρίζω">χαρίζεσθαι</w> καὶ <placeName ref="#rome" type="ethnic">Ῥωμ<supplied reason="lost">αί</supplied><lb 
+                        break="no" n="11"/><supplied reason="lost">οι</supplied>ς</placeName>· ὅπως οὖν καὶ οἱ <rs type="institution" subtype="board" role="decreer" key="stratiotes" ref="#koinon_kretaieon"><w lemma="συμμαχέω">συμμαχήσαντες</w></rs>
+                          <lb n="12"/><supplied reason="lost">ἐν</supplied> <placeName ref="#cyprus">Κύπρωι</placeName> <persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς">βασι<corr>λ</corr>εῖ</w> <name nymRef="Πτολεμαῖος">Πτολεμαίωι</name></persName> καὶ <w lemma="μετέχω">μετε<lb 
+                        break="no" n="13"/><supplied reason="lost">σχη</supplied>κότες</w> τῶν ἐνδόξων, ἐπισημαινόμε<lb 
+                        break="no" n="14"/><supplied reason="lost">νοι</supplied> μὲν τὰ καλὰ τῶν ἔργων καὶ ἄξια <w lemma="μνήμη">μνή<lb 
+                        break="no" n="15"/><supplied reason="lost">μης</supplied></w> <supplied reason="lost">φ</supplied>αίνωνται, μὴ ἐπιλανθανόμενοι δέ
+                          <lb n="16"/><supplied reason="lost">ποτε τ</supplied>ῶι <w lemma="εὐεργεσία">εὐεργεσιῶν</w> τῶν γεγενημέ<lb 
+                        break="no" n="17"/><supplied reason="lost">νων εἰς τ</supplied>ὰς ἑαυτῶν <w lemma="πατρίς">πατρίδας</w>, ἀλλ’ ἐπ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="18"/><supplied reason="lost">ξίους ἀεὶ</supplied> <w lemma="χάρις">χάριτας</w> ἀπονέμοντες <supplied reason="lost">τοῖς</supplied>
+                          <lb n="19"/><w lemma="εὐεργετέω"><supplied reason="lost">εὐεργετήσασιν</supplied></w>· <space extent="unknown" unit="character"/> <w lemma="τύχη">τύχηι</w> ἀγαθῆι, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#koinon_kretaieon" cert="low"><w lemma="δοκέω">δεδ<supplied reason="lost">ό</supplied><lb 
+                        break="no" n="20"/><supplied reason="lost">χθαι</supplied></w></rs><supplied reason="lost">· <w lemma="ἐπαινέω">ἐπαινέσαι</w> τὸν</supplied> <persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς"><supplied reason="lost">β</supplied>ασιλέα</w> <name nymRef="Πτολεμαῖος">Πτολεμαῖο<supplied reason="lost">ν</supplied></name></persName>
+                          <lb n="21"/><supplied reason="lost">καὶ <w lemma="στεφανόω">στεφανῶσαι</w> αὐτὸν</supplied><w lemma="χρυσός"> <supplied reason="lost">χρυσ</supplied>ῶι</w> <w lemma="στέφανος">στεφάνωι</w>, <w lemma="ἵστημι">στῆ<supplied reason="lost">σαι</supplied></w>
+                          <lb n="22"/><supplied reason="lost">δ’ αὐτοῦ καὶ <w lemma="εἰκών">εἰκόνας</w></supplied> <w lemma="χάλκεος"><supplied reason="lost">χαλκ</supplied>ᾶς</w> ὡς καλλίσ<supplied reason="lost">τας</supplied>
+                          <lb n="23"/><supplied reason="lost">δύο, ὧν τὴν μὲν ἐν <placeName ref="#delos">Δήλωι</placeName>, τὴν δ’</supplied> ἐγ <placeName ref="#crete">Κρήτηι</placeName> ἐν
+                          <lb n="24"/><supplied reason="lost">τῆι <rs type="institution" subtype="public_space" role="inscription_setup" key="polis" ref="#unknown"><w lemma="πόλις">πόλει</w></rs> τῆι ὑπὸ τοῦ <rs type="institution" subtype="assembly" role="decreer" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινοῦ</w></rs></supplied> <w lemma="ἀποδείκνυμι"><supplied reason="lost">ἀποδεδ</supplied>ε<corr>ι</corr>γμέν<unclear>ηι</unclear></w>
+                          <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>ροις
+                          <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>ι
+                          <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/>ην
+                          <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>θαι
+                          <lb n="29"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>ι <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, mutilo superiormente, sembra essere emanato dai soldati inviati dal <foreign>koinon</foreign> cretese presso l’armata tolemaica come il documento analogo <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref>. La sezione relativa alle motivazioni, alle linee 1-11, e la prima parte dell’oggetto del decreto, alle linee 11-19, informano della decisione di onorare Tolemeo VI presa dai soldati che hanno combattuto con lui a Cipro (ll. 11-12, οἱ συμμαχήσαντες [ἐν] Κύπρωι βασι⟨λ⟩εῖ Πτολεμαίωι) per i suoi numerosi meriti, tra i quali figura l’<foreign>euergesia</foreign> del re nei confronti delle loro patrie (<foreign>i.e.</foreign> <foreign>poleis</foreign>, ll. 16-17).</p>
+                    <p>L’oggetto vero e proprio del decreto, introdotto da un’espressione benaugurale e da una formula di sanzione costituita dal solo verbo δεδ[όχθαι], prevede il conferimento di una corona d’oro al re e l’erezione di due sue statue bronzee, da collocarsi a Delos – sulla cui base era apposta la presente lastra – e a Creta nella <foreign>polis</foreign> (?) scelta verosimilmente dal <foreign>koinon</foreign> (ll. 19-29).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?), <ref type="inst" target="#polis1"><foreign>polis</foreign></ref> (?), <ref type="inst" target="#stratiotes"><foreign>stratiotes</foreign></ref> (<foreign>symmacheo</foreign>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b628">Fougères 1889</ref>, pp. 230-232 n. 1 (fr. a)</bibl>; 
+                            <bibl><ref target="#bib115"><title>OGIS</title></ref> 116 (fr. a)</bibl>; 
+                            <bibl><ref target="#b933">Jardé – Dürrbach 1904</ref>, p. 307 n. 59 (fr. b)</bibl>;
+                            <bibl><ref target="#b903">Holleaux 1920</ref>, n. B</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib24"><title>ID</title></ref> 1518 <ptr type="phi" target="63954"/></bibl>; 
+                            <bibl><ref target="#bib514">Pouilloux, <title>Choix</title></ref> 18</bibl>; 
+                            <bibl><ref target="#b1009">Kotsidou 2000</ref>, n. 139</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1162">Magnelli 1994-1995</ref>, pp. 47-48</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

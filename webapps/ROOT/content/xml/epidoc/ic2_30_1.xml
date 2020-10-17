@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Bionnos e Psycheion (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 30 1</idno>
+                        <idno type="projectNo">153</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#bionnos">Bionnos?</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0270">inizi III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ωχαιδε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ων τὸ <placeName ref="#psycheion">Ψυχήιον</placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><space extent="unknown" unit="character"/> ὅς <supplied reason="lost">δέ κα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρὸ</supplied> τᾶς <rs type="institution" subtype="month" role="calendar" key="Leschanoreios" ref="#bionnos" cert="low"><w lemma="Λεσχανορεῖος">Λεσχανορίας</w></rs> <supplied reason="lost"><w lemma="νεμονηία">νεμονηίας</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="public_space" role="judicial_procedure" key="dikasterion" ref="#bionnos" cert="low"><w lemma="δικαστήριον"><supplied reason="lost">δι</supplied><unclear>κ</unclear>αστηρίωι</w></rs> δὲ χρη<unclear>σ</unclear><supplied reason="lost">ιόμεθα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> καὶ ἀξίομεν δ’ <rs type="institution" subtype="board" role="judicial_procedure" key="histor" ref="#bionnos" cert="low"><w lemma="ϝίστωρ">ϝίστ<supplied reason="lost">ορανς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰς</supplied> <w lemma="πρόσοδος"><supplied reason="lost">προσό</supplied>δονς</w> καὶ τὰς <w lemma="πρᾶξις">πράξι<unclear>ν</unclear><supplied reason="lost">ς</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ϝεκάστ</supplied>ω ϝέτιος ὅτεροι μὴ λ<supplied reason="lost">είοντι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>αις <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#bionnos" cert="low"><w lemma="δοκέω">δοκῆι</w></rs> ἀποτινύ<supplied reason="lost">μεν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>τερσος μηταν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="δικάδδω"><supplied reason="lost">δι</supplied><unclear>κ</unclear>άδδεθθαι</w> δὲ τον<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἰ δέ κα μὴ</supplied> <unclear>λείω</unclear><supplied reason="lost">ντι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="2"><note><gap reason="lost" extent="unknown" unit="character"/>ων τὸ Ψυχήιον <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>, <supplied reason="lost">τ</supplied>ῶν τὸ Ψυχήιον <supplied reason="lost">ϝοικιόντων</supplied> <bibl><ref target="#bib15">Chaniotis</ref></bibl> nel commento.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il testo – rinvenuto nel villaggio di Kerame, ipoteticamente identificato con l’antica Bionnos – fornisce una delle due sole attestazioni epigrafiche della località di Psycheion, nota anche dalla lista di <foreign>theorodokoi</foreign> delfici <ref type="ins" target="#seg_26_624"><title>SEG</title> 26.624</ref>, nella quale è menzionata subito prima di Bionnos. Sebbene i nomi dei contraenti non siano chiaramente esplicitati nel frammento conservatosi, la sua provenienza porterebbe ad ipotizzare che il trattato sia stato stipulato dalla <foreign>polis</foreign> di Bionnos e dalla comunità dipendente di Psycheion, i cui abitanti potrebbero essere menzionati alla linea 2 mediante l’espressione [τ]ῶν τὸ Ψυχήιον [ϝοικιόντων] (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 382</bibl>).</p>
+                    <p>Le linee 3-12 del documento sembrano essere pertinenti ad una clausola relativa a processi fra i contraenti: viene infatti menzionata la possibilità di ricorrere ad un tribunale – comune? – e di avvalersi di testimoni (ϝίστ[ορανς], noti con tale funzione e con la medesima grafia anche in Beozia; cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 162-163</bibl>). Di tale opportunità è forse possibile usufruire solo in precisi momenti dell’anno: potrebbero essere così intesi il riferimento alla linea 4 alla luna nuova del mese <foreign>Leschanoreios</foreign> (noto anche a Gortyna da <ref type="ins" target="#ic4_181"><title>IC</title> IV 181</ref>) e l’indicazione «ogni anno» alla linea 8.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dikasterion"><foreign>dikasterion</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#histor"><foreign>histor</foreign></ref>, mese <ref type="inst" target="#leschanoreios"><foreign>Leschanoreios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1477">Pappadakis 1921</ref>, pp. 72-77</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 30 1 <ptr type="phi" target="200211"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 454</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 63</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1463">Papadakis 1995</ref></bibl>;
+                            <bibl><ref target="#b4">Ager 1996</ref>, App. 1</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 22 4</idno>
+                        <idno type="projectNo">428</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#paris_louvre">Museo del Louvre, Parigi</repository> 
+                                <idno type="invNo">MA 3061</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tredici decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0270" notAfter="-0170">270-170 a.C. ca. (A), inizi II secolo a.C. (B-C)</origDate>
+                                </origin>
+                              <provenance type="observed" resp="#iv"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><note>I</note> καὶ τοῖς ἄλλοις <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προξένοις</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέταις</w></rs>·
+                          <lb n="2"/><w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ καὶ ἐς <w lemma="στάλα">στάλαν</w> λιθίναν καὶ
+                          <lb n="3"/><w lemma="ἀνατίθημι">ἀναθέμεν</w> ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#olous"><w lemma="ἱαρόν">ἱαρὸν</w> τοῦ <persName type="divine" key="Asklepios">Ἀσκλαπιοῦ</persName></rs>, ἐφ’ οἷς
+                          <lb n="4"/><surplus>ἐφ’ οἷς</surplus> <w lemma="τιμάω">ἐτιμάθεν</w>, <persName type="honoured" key="Apollodotos f. Agesion"><name nymRef="Ἀπολλόδοτος">Ἀπολλόδοτον</name> <name nymRef="Ἀγησίων" type="patronymic">Ἀγησίωνος</name> <placeName ref="#rhodos" type="ethnic"><del rend="erasure"><unclear>Ῥόδιον</unclear></del></placeName></persName>,
+                          <lb n="5"/><persName type="honoured" key="Timaios f. Amphitimos"><name nymRef="Τίμαιος">Τίμαιον</name> <name nymRef="Ἀμφίτιμος" type="patronymic">Ἀμφιτίμου</name> <placeName ref="#rhodos" type="ethnic"><del rend="erasure"><unclear>Ῥόδιον</unclear></del></placeName></persName>, <persName type="honoured" key="Damonomos f. Ariston"><name nymRef="Δαμόνομος">Δαμόνομον</name> <name nymRef="Ἀρίστων" type="patronymic">Ἀρίστωνος</name>
+                          <lb n="6"/><placeName ref="#rhodos" type="ethnic"><del rend="erasure"><unclear>Ῥοδίος</unclear></del></placeName></persName>, <persName type="honoured" key="Aristokrates f. Apollodoros"><name nymRef="Ἀριστοκράτης">Ἀριστοκράτη</name> <name nymRef="Ἀπολλόδωρος" type="patronymic">Ἀπολλοδώρου</name> <placeName ref="#rhodos" type="ethnic"><del rend="erasure"><unclear>Ῥόδιον</unclear></del></placeName></persName>,
+                          <lb n="7"/><persName type="honoured" key="Diokritos f. Antikreon" ref="#unknown"><name nymRef="Διόκριτος">Διόκριτον</name> <name nymRef="Ἀντικρέων" type="patronymic">Ἀντικρέοντος</name></persName>, <persName type="honoured" key="Isimilion f. Eudamos" ref="#unknown"><name nymRef="Ἰσιμιλίων">Ἰσιμιλίωνα</name> <name nymRef="Εὔδαμος" type="patronymic">Εὐδάμου</name></persName>,
+                          <lb n="8"/><persName type="honoured" key="Damophilos f. Agesistratos" ref="#unknown"><name nymRef="Δαμόφιλος">Δαμόφιλον</name> <name nymRef="Ἀγησίστρατος" type="patronymic">Ἀγησιστράτου</name></persName>, <persName type="honoured" key="Euphronax f. Aristokrates" ref="#unknown" cert="low"><name nymRef="Εὐφρώναξ">Εὐφρώνακτα</name>
+                          <lb n="9"/><name nymRef="Ἀριστοκράτης" type="patronymic">Ἀριστοκράτους</name></persName>, <persName type="honoured" key="Apollodotos f. Hiarokles" ref="#unknown"><name nymRef="Ἀπολλόδοτος">Ἀπολ<corr>λ</corr>όδοτον</name> <name nymRef="Ἱαροκλῆς" type="patronymic">Ἱαροκλεῦς</name></persName>,
+                          <lb n="10"/><persName type="honoured" key="Pythodoros f. Pythokritos" ref="#unknown"><name nymRef="Πυθόδωρος">Πυθόδωρον</name> <name nymRef="Πυθόκριτος" type="patronymic">Πυθοκρίτου</name></persName>, <persName type="honoured" key="Theudotos f. Kallikrates" ref="#unknown"><name nymRef="Θεύδοτος">Θεύδοτον</name> <name nymRef="Καλλικράτης" type="patronymic">Καλλικράτευς</name></persName>,
+                          <lb n="11"/><persName type="honoured" key="Agesistratos f. Simos" ref="#unknown"><name nymRef="Ἀγησίστρατος">Ἀγησίστρατον</name> <name nymRef="Σῖμος" type="patronymic">Σίμου</name></persName>, <persName type="honoured" key="Aristomenes f. Lysios" ref="#unknown"><name nymRef="Ἀριστομένης">Ἀριστομένη<surplus>ς</surplus></name> <name nymRef="Λῦσις" type="patronymic">Λύσιος</name></persName>,
+                          <lb n="12"/><persName type="honoured" key="Hierokritos f. Pheidostratos" ref="#unknown"><name nymRef="Ἱερόκριτος">Ἱερόκριτον</name> <name nymRef="Φειδόστρατος" type="patronymic">Φειδοστράτου</name></persName>, <persName type="honoured" key="Aristophantos f. Peisistratos" ref="#unknown"><name nymRef="Ἀριστόφαντος">Ἀριστόφαντον</name>
+                          <lb n="13"/><name nymRef="Πεισίστρατος" type="patronymic">Πεισιστράτου</name></persName>, <persName type="honoured" key="Kallistratos f. Damokles" ref="#unknown"><name nymRef="Καλλίστρατος">Καλλίστρατον</name> <name nymRef="Δαμοκλῆς" type="patronymic">Δαμοκλεῦς</name></persName>,
+                          <lb n="14"/><persName type="honoured" key="Xenopolis f. Charopidamos" ref="#unknown"><name nymRef="Ξενόπολις">Ξενόπολιν</name> <name nymRef="Χαροπίδαμος" type="patronymic">Χαροπιδάμου</name></persName>, <persName type="honoured" key="Damokrates f. Damonikos" ref="#unknown"><name nymRef="Δαμοκράτης">Δαμοκράτη</name> <name nymRef="Δαμόνικος" type="patronymic">Δαμονίκου</name></persName>,
+                          <lb n="15"/><persName type="honoured" key="Antimenes f. Epikrates" ref="#unknown"><name nymRef="Ἀντιμένης">Ἀντιμένη</name> <name nymRef="Ἐπικράτης" type="patronymic">Ἐπικράτευς</name></persName>, <persName type="honoured" key="Charidamos f. Chariphanes" ref="#unknown"><name nymRef="Χαρίδαμος">Χαρίδαμον</name> <name nymRef="Χαριφάνης" type="patronymic">Χαριφάνευς</name></persName>,
+                          <lb n="16"/><persName type="honoured" key="Lysias f. Panphilidas" ref="#unknown"><name nymRef="Λυσίας"><corr>Λ</corr>υσίαν</name> <name nymRef="Πανφιλίδας" type="patronymic">Πανφιλίδα</name></persName>, <persName type="honoured" key="Akestias f. Agestratos" ref="#unknown"><name nymRef="Ἀκεστίας">Ἀκεστίαν</name> <name nymRef="Ἀγέστρατος" type="patronymic">Ἀγεστράτου</name></persName>,
+                          <lb n="17"/><persName type="honoured" key="Pratarchos f. Isodamos" ref="#unknown"><name nymRef="Πράταρχος">Πράταρχον</name> <name nymRef="Ἰσόδαμος" type="patronymic">Ἰσοδάμου</name></persName>, <persName type="honoured" key="Kleision f. Kleisirrhodos" ref="#unknown"><name nymRef="Κλεισίων">Κλεισίωνα</name> <name nymRef="Κλεισίρροδος" type="patronymic">Κλεισιρρόδου</name></persName>,
+                          <lb n="18"/><persName type="honoured" key="Menelaos f. Kallikrates" ref="#unknown"><name nymRef="Μενέλαος">Μενέλαον</name> <name nymRef="Καλλικράτης" type="patronymic">Καλλικράτευς</name></persName>, <persName type="honoured" key="Aristomedes f. Archinos" ref="#unknown"><name nymRef="Ἀριστομήδης">Ἀριστομήδη</name> <name nymRef="Ἀρχῖνος" type="patronymic">Ἀρχίνου</name></persName>,
+                          <lb n="19"/><persName type="honoured" key="Euphranor f. Timasarchos" ref="#unknown"><name nymRef="Εὐφράνωρ">Εὐφράνορα</name> <name nymRef="Τιμάσαρχος" type="patronymic">Τιμασάρχου</name></persName>, <persName type="honoured" key="Damon f. Aristodamos" ref="#unknown"><name nymRef="Δάμων">Δάμωνα</name> <name nymRef="Ἀριστόδαμος" type="patronymic">Ἀριστοδάμου</name></persName>,
+                          <lb n="20"/><persName type="honoured" key="Philios f. Zenodotos" ref="#unknown"><name nymRef="Φίλιος">Φίλιον</name> <name nymRef="Ζηνόδοτος" type="patronymic">Ζηνο<corr>δό</corr>του</name></persName>. <space extent="unknown" unit="character"/>
+                          <lb n="21"/><space extent="unknown" unit="character"/> <note>II</note> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#olous" type="ethnic">Ὀλο<lb 
+                        break="no" n="22"/>ντίων</placeName> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs> <persName type="honoured" key="Soteridas f. Mnasias" ref="#gortyn"><name nymRef="Σωτηρίδας">Σωτηρίδαν</name> <name nymRef="Μνασίας" type="patronymic">Μνασί<lb 
+                        break="no" n="23"/>α</name></persName>, <persName type="honoured" key="Philodamos f. Mnasikartes" ref="#gortyn"><name nymRef="Φιλόδαμος">Φιλόδαμον</name> <name nymRef="Μνασικάρτης" type="patronymic">Μνασικάρτιος</name></persName>,
+                          <lb n="24"/><persName type="honoured" key="Mostylion f. Petraios" ref="#gortyn"><name nymRef="Μοστυλίων">Μοστυλίωνα</name> <name nymRef="Πετραῖος" type="patronymic">Πετραίω</name></persName> <placeName ref="#gortyn" type="ethnic">Γορτυνίονς</placeName>
+                          <lb n="25"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προξένονς</w></rs> ἦμεν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέτανς</w></rs>
+                          <lb n="26"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολίτανς</w></rs>, καὶ αὐτὸνς καὶ <w lemma="ἔγγονος">ἐγγό<lb 
+                        break="no" n="27"/>νονς</w>. <space extent="unknown" unit="character"/> <note>III</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous" cert="low">ἐπὶ <persName type="attested" key="Lokrion"><name nymRef="Λοκρίων">Λοκρίωνος</name></persName></rs>·
+                          <lb n="28"/><persName type="honoured" key="Eubios f. Eubios"><name nymRef="Εὔβιος">Εὔβιος</name> <name nymRef="Εὔβιος" type="patronymic">Εὐβίου</name> <placeName ref="#messene" type="ethnic">Μεσσάνιος</placeName></persName> <w lemma="κιθαρῳδός">κιθαρῳδὸς</w>
+                          <lb n="29"/>καὶ <persName type="honoured" key="Zobios f. Eubios" ref="#messene"><name nymRef="Ζώβιος">Ζώβιος</name></persName> ὁ ἀδελφὸς αὐτοῦ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενοι</w></rs>
+                          <lb n="30"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολῖται</w></rs>, αὐτοὶ καὶ <w lemma="γένος">γένος</w>.
+                          <lb n="31"/><space extent="unknown" unit="character"/> <note>IV</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous">ἐπὶ <w lemma="δαμιοργός">δαμιοργοῦ</w> <persName type="attested" key="Leukos"><name nymRef="Λεῦκος">Λεύκου</name></persName></rs>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενοι</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐερ<lb 
+                        break="no" n="32"/>γέται</w></rs> <placeName ref="#rhodos" type="ethnic">Ῥόδιοι</placeName> <persName type="honoured" key="Teledamos f. Telembrotos" ref="#rhodos"><name nymRef="Τελέδαμος">Τελέδαμος</name> <name nymRef="Τελέμβροτος" type="patronymic">Τελεμβρότου</name></persName>,
+                          <lb n="33"/><persName type="honoured" key="Lysias f. Archelas" ref="#rhodos"><name nymRef="Λυσίας">Λυσίας</name> <name nymRef="Ἀρχέλας" type="patronymic">Ἀρχέλα</name></persName>, <persName type="honoured" key="Kleinostratos f. Epikrates" ref="#rhodos"><name nymRef="Κλεινόστρατος">Κλεινόστρατος</name> <name nymRef="Ἐπικράτης" type="patronymic">Ἐπικράτευς</name></persName>,
+                          <lb n="34"/><persName type="honoured" key="Herodotos f. Euagoras" ref="#rhodos"><name nymRef="Ἡρόδοτος">Ἡρόδοτος</name> <name nymRef="Εὐαγόρας" type="patronymic">Εὐαγόρα</name></persName>.
+                          <lb n="35"/><note>V</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous">ἐπὶ <w lemma="δαμιοργός">δαμιοργοῦ</w> <persName type="attested" key="Leukos"><name nymRef="Λεῦκος">Λεύκου</name></persName></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs> τοῖς <rs type="institution" subtype="social_group" role="decreer" key="polites" ref="#olous"><w lemma="πολίτας">πολίταις</w></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προ<lb 
+                        break="no" n="36"/>ξένος</w></rs> ἦμεν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέτας</w></rs> <persName type="honoured" key="Patroklos f. Patron"><name nymRef="Πάτροκλος">Πάτροκλον</name>
+                          <lb n="37"/><name nymRef="Πάτρων" type="patronymic">Πάτρωνος</name> <placeName ref="#macedonia" type="ethnic">Μακεδόνα</placeName></persName>, <persName type="honoured" key="Kallikrates f. Boiskos" ref="#samos"><name nymRef="Καλλικράτης">Καλλικράτη</name></persName>, <persName type="honoured" key="Perigenes f. Boiskos" ref="#samos"><name nymRef="Περιγένης">Περιγένη</name></persName>,
+                          <lb n="38"/><persName type="honoured" key="Aristonikos f. Boiskos" ref="#samos"><name nymRef="Ἀριστόνικος">Ἀριστόνικον</name> <name nymRef="Βοίσκος" type="patronymic">Βοΐσκου</name></persName> <placeName ref="#samos" type="ethnic">Σαμίος</placeName>, <persName type="honoured" key="Aristandros f. Aratokles"><name nymRef="Ἀρίστανδρος">Ἀρίστανδρον</name> <name nymRef="Ἀρατοκλῆς" type="patronymic">Ἀρατοκ<corr>λ</corr>εῦς</name>
+                          <lb n="39"/><placeName ref="#rhodos" type="ethnic"><supplied reason="lost">Ῥ</supplied>όδιον</placeName></persName>, <persName type="honoured" key="Antiochos f. Kratidas"><name nymRef="Ἀντίοχος">Ἀντίοχον</name> <name nymRef="Κρατίδας" type="patronymic"><corr>Κρ</corr>ατίδα</name> <placeName ref="#aptera" type="ethnic">Ἀπταραῖον</placeName></persName>, <persName type="honoured" key="Pausanias f. Kallianax"><name nymRef="Παυσανίας">Παυσανίαν</name>
+                          <lb n="40"/><name nymRef="Καλλιάναξ" type="patronymic"><supplied reason="lost">Κα</supplied>λλιάνακτος</name> <placeName ref="#alexandria" type="ethnic">Ἀλεξανδρῆ</placeName></persName>, <persName type="honoured" key="Kleonaios f. Damokrates"><name nymRef="Κλεωναῖος">Κλεωναῖον</name>
+                          <lb n="41"/><name nymRef="Δαμοκράτης" type="patronymic"><supplied reason="lost" cert="low">Δα</supplied><unclear>μ</unclear>οκράτους</name> <placeName ref="#rhithymna" type="ethnic">Ῥιθύμνιον</placeName></persName>, <persName type="honoured" key="Antiphilos f. Mnastokles"><name nymRef="Ἀντίφιλος">Ἀντίφιλον</name> <name nymRef="Μναστοκλῆς" type="patronymic">Μναστοκλεῦς</name>
+                          <lb n="42"/><placeName ref="#cyrene" type="ethnic"><supplied reason="lost">Κ</supplied>υραναῖον</placeName></persName>. <space extent="unknown" unit="character"/> <note>VI</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous" cert="low">ἐπὶ <persName type="attested" key="Lokrion"><name nymRef="Λοκρίων">Λοκρίωνος</name></persName></rs>·
+                          <lb n="43"/><persName type="honoured" key="Plaiilgios f. Komon" cert="low"><name nymRef="Πλαιιλγιος" cert="low">Πλα<orig><unclear>ιι</unclear></orig>λγιος </name><name nymRef="Κόμων" type="patronymic">Κόμωνος</name> <placeName ref="#pergai" type="ethnic">Περγαῖος</placeName></persName>
+                          <lb n="44"/><w lemma="κιθαρῳδός"><supplied reason="lost">κι</supplied>θ<supplied reason="lost">α</supplied>ρωιδ<supplied reason="lost">ὸ</supplied>ς</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενος</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέ<lb 
+                        break="no" n="45"/>τας</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλο<supplied reason="lost">ν</supplied>τίων</placeName></rs>, αὐτὸς καὶ <w lemma="γένος">γένος</w>.
+                          <lb n="46"/><note>VII</note> <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous" cert="low">ἐπὶ <persName type="attested" key="Damodon"><name nymRef="Δαμόδων"><supplied reason="lost">Δ</supplied>αμόδωντος</name></persName></rs> καὶ <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous" cert="low"><persName type="attested" key="Telechoros"><name nymRef="Τηλέχωρος">Τηλεχώρου</name></persName></rs>
+                          <lb n="47"/>καὶ <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous" cert="low"><persName type="attested" key="Aristomenes"><name nymRef="Ἀριστομένης">Ἀριστομένους</name></persName></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs>
+                          <lb n="48"/><placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs> <persName type="honoured" key="Alexippos f. Epigenes"><name nymRef="Ἀλέξιππος">Ἀλέ<lb 
+                        break="no" n="49"/>ξιππον</name> <name nymRef="Ἐπιγένης" type="patronymic">Ἐπιγένους</name> <placeName ref="#chalcis" type="ethnic">Χαλ<lb 
+                        break="no" n="50"/>κιδέα</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενον</w></rs> εἶναι
+                          <lb n="51"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολίτην</w></rs>, αὐτὸν καὶ <w lemma="ἔγγονος">ἐγ<lb 
+                        break="no" n="52"/>γόνους</w> καὶ <w lemma="μετέχω">μετέχειν</w>
+                          <lb n="53"/>πάν<corr>τ</corr>ων ὧνπερ οἱ ἄλλοι
+                          <lb n="54"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολῖται</w></rs>· ἦμεν δὲ αὐτῶι
+                          <lb n="55"/>καὶ <w lemma="ἀτέλεια">ἀτέλειαν</w> καθάπερ
+                          <lb n="56"/>τοῖς ἄλλοις <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προξένοις</w></rs>.
+                          <lb n="57"/><note>VIII</note> <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous">ἐπὶ <w lemma="δαμιοργός">δαμιοργοῦ</w> <persName type="attested" key="Sotimos"><name nymRef="Σώτιμος">Σωτίμου</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><persName type="attested" key="Androbolos"><name nymRef="Ἀνδρόβωλος">Ἀν<lb 
+                        break="no" n="58"/>δροβώλου</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><persName type="attested" key="Damonomos"><name nymRef="Δαμόνομος">Δαμονόμου</name></persName></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀ<lb 
+                        break="no" n="59"/>λοντίοις</placeName></rs> <persName type="honoured" key="Ikadion f. Mollis"><name nymRef="Ἰκαδίων">Ἰκάδιον</name> <name nymRef="Μόλλις" type="patronymic">Μόλλιος</name> <placeName ref="#alexandria" type="ethnic">Ἀλε<lb 
+                        break="no" n="60"/>ξανδρέα</placeName></persName> εἶναι <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολίτην</w></rs>, αὐ<lb 
+                        break="no" n="61"/>τὸν καὶ <w lemma="ἔγγονος">ἐγγόνους</w>, καθάπερ
+                          <lb n="62"/>καὶ τοὺς ἄλλους <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολίτας</w></rs>.
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="1"/><note>IX</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous"><supplied reason="lost">ἐ</supplied>πὶ <w lemma="δαμιοργός">δαμιοργοῦ</w> <persName type="attested" key="Autosthenes"><name nymRef="Αὐτοσθένης">Αὐ<lb 
+                        break="no" n="2"/>τοσθένευς</name></persName></rs> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδο<lb 
+                        break="no" n="3"/>ξε</w></rs> <placeName ref="#olous" type="ethnic">Ὀλουντίων</placeName>
+                          <lb n="4"/>τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#olous"><w lemma="κόσμος">κόσμοις</w></rs> καὶ
+                          <lb n="5"/>τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs> <persName type="honoured" key="Didymarchos f. Chaiton"><name nymRef="Διδύμαρχος">Διδύμαρ<lb 
+                        break="no" n="6"/>χον</name> <name nymRef="Χαίτων" type="patronymic">Χαίτωνος</name> <placeName ref="#rhodos" type="ethnic">Ῥό<lb 
+                        break="no" n="7"/>διον</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενον</w></rs>
+                          <lb n="8"/>εἶμεν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέ<lb 
+                        break="no" n="9"/>ταν</w></rs>, αὐτὸν καὶ <w lemma="ἔγγονος">ἐγ<lb 
+                        break="no" n="10"/>γόνους</w>· ὑπάρ<lb 
+                        break="no" n="11"/>χειν δὲ αὐτῶι καὶ
+                          <lb n="12"/><w lemma="εἰσπλέω"><supplied reason="lost">ε</supplied>ἴσπλουν</w> καὶ <w lemma="ἐκπλέω">ἔκ<lb 
+                        break="no" n="13"/><supplied reason="lost">π</supplied>λουν</w> καὶ πολέ<lb 
+                        break="no" n="14"/><supplied reason="lost">μ</supplied>ου καὶ εἰρήνας
+                          <lb n="15"/><supplied reason="lost">κ</supplied>αὶ <w lemma="ἀτέλεια">ἀτέλειαν</w> κα<lb 
+                        break="no" n="16"/><supplied reason="lost">θ</supplied>ὰ καὶ τοῖς ἄλλοις
+                          <lb n="17"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προξένοις</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐερ<lb 
+                        break="no" n="18"/>γέταις</w></rs>. <space extent="unknown" unit="character"/>
+                          <lb n="19"/><note>X</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous">ἐπὶ <w lemma="δαμιοργός">δαμιοργοῦ</w> <persName type="attested" key="Autosthenes"><name nymRef="Αὐτοσθένης">Αὐτο<lb 
+                        break="no" n="20"/>σθένευς</name></persName></rs> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs>
+                          <lb n="21"/><placeName ref="#olous" type="ethnic">Ὀλουντίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#olous"><w lemma="κόσμος">κόσ<lb 
+                        break="no" n="22"/>μοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs>
+                          <lb n="23"/><persName type="honoured" key="Eudamos f. Sosigenes"><name nymRef="Εὔδαμος">Εὔδαμον</name> <name nymRef="Σωσιγένης" type="patronymic">Σωσιγέ<lb 
+                        break="no" n="24"/>νευς</name> <placeName ref="#rhodos" type="ethnic">Ῥόδιον</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξε<lb 
+                        break="no" n="25"/>νον</w></rs> εἶμεν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐερ<lb 
+                        break="no" n="26"/>γέταν</w></rs>, αὐτὸν καὶ <w lemma="ἔγγονος">ἐγ<lb 
+                        break="no" n="27"/><supplied reason="lost">γ</supplied>όνους</w>· ὑπάρχειν
+                          <lb n="28"/><supplied reason="lost">δ</supplied>ὲ αὐτῶι καὶ <w lemma="εἰσπλέω">εἴσ<lb 
+                        break="no" n="29"/><supplied reason="lost">π</supplied>λουν</w> καὶ <w lemma="ἐκπλέω">ἔκπλου<supplied reason="lost">ν</supplied></w>
+                          <lb n="30"/><supplied reason="lost">κ</supplied>αὶ πολέμου καὶ εἰ<lb 
+                        break="no" n="31"/>ρήνας καὶ <w lemma="ἀτέλεια">ἀτέλειαν</w>
+                          <lb n="32"/>καθὰ καὶ τοῖς ἄλ<lb 
+                        break="no" n="33"/>λοις <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προξένοις</w></rs>
+                          <lb n="34"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέταις</w></rs>.
+                          <lb n="35"/><note>XI</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous">ἐπὶ <w lemma="δαμιοργός">δαμιοργοῦ</w>
+                          <lb n="36"/><persName type="attested" key="Sotadas"><name nymRef="Σωτάδας">Σωτάδα</name></persName></rs>
+                          <lb n="37"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName>
+                          <lb n="38"/><supplied reason="lost">τ</supplied>οῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#olous"><w lemma="κόσμος">κόσμοις</w></rs>
+                          <lb n="39"/><supplied reason="lost">κ</supplied>αὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs>· ἐπειδὴ
+                          <lb n="40"/><persName type="honoured" key="Damatrios f. Damatrios"><name nymRef="Δαμάτριος"><supplied reason="lost">Δ</supplied>αμάτριος</name> <name nymRef="Δαμάτριος" type="patronymic">Δαματρίου</name>
+                          <lb n="41"/><placeName ref="#astypalaia" type="ethnic"><supplied reason="lost">Ἀ</supplied>στυπαλαιεύς</placeName></persName>,
+                          <lb n="42"/><w lemma="στρατεύω"><supplied reason="lost">στ</supplied>ρατευσάμενος</w>
+                          <lb n="43"/><supplied reason="lost">π</supplied>αρ’ ἁμῖν καὶ εὐτάκ<supplied reason="lost">τως</supplied>
+                          <lb n="44"/><supplied reason="lost">πο</supplied>ι<corr>η</corr>σάμενος τὰν <w lemma="παρεπιδαμία">πα<lb 
+                        break="no" n="45"/><supplied reason="lost">ρε</supplied>πιδαμίαν</w> καὶ φρον<lb 
+                        break="no" n="46"/><supplied reason="lost">τί</supplied>ζων τᾶς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλιος</w></rs> ὑπὲρ τᾶς
+                          <lb n="47"/><w lemma="ἀσφάλεια"><supplied reason="lost">ἀ</supplied>σφαλεία</w>ς, ὅπως οὖν
+                          <lb n="48"/><w lemma="φαίνω"><supplied reason="lost">φ</supplied>αίνηται</w> καὶ ἁ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλις</w></rs>
+                          <lb n="49"/><supplied reason="lost">το</supplied>ῖς καλοῖς καὶ ἀγαθοῖς
+                          <lb n="50"/><w lemma="ἀνήρ"><supplied reason="lost">ἀν</supplied>δράσι</w> τὰς καταξί<lb 
+                        break="no" n="51"/><supplied reason="lost">ας χ</supplied>άριτας ἀποδιδοῦσα·
+                          <lb n="52"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω"><supplied reason="lost">δε</supplied>δόχθαι</w></rs> τοῖς <rs type="institution" subtype="social_group" role="decreer" key="polites" ref="#olous"><w lemma="πολίτας">πολίταις</w></rs>
+                          <lb n="53"/><supplied reason="lost">ε</supplied>ἶμεν Δαμάτριον <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρό<lb 
+                        break="no" n="54"/>ξενον</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολίταν</w></rs>, καὶ
+                          <lb n="55"/><supplied reason="lost">α</supplied>ὐτὸν καὶ <w lemma="ἔκγονος">ἐκγόνους</w>·
+                          <lb n="56"/>εἶμεν δὲ αὐτῶι καὶ πο<lb 
+                        break="no" n="57"/><supplied reason="lost">λ</supplied>έμου καὶ εἰρήνας <w lemma="εἰσπλέω">εἴσ<lb 
+                        break="no" n="58"/><supplied reason="lost">π</supplied>λου<corr>ν</corr></w> καὶ <w lemma="ἐκπλέω">ἔκπλουν</w> <w lemma="ἀσυλεί">ἀσυ<lb 
+                        break="no" n="59"/><supplied reason="lost">λε</supplied>ὶ</w> καὶ ἀσπονδεὶ κα<lb 
+                        break="no" n="60"/><supplied reason="lost">θ</supplied>άπερ καὶ τοῖς ἄλλοις.
+                          <lb n="61"/><note>XII</note> <rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous">ἐπὶ <w lemma="δαμιοργός">δαμιοργοῦ</w> <persName type="attested" key="Arsias"><name nymRef="Ἀρσίας">Ἀρσ<supplied reason="lost">ία</supplied></name></persName></rs>
+                          <lb n="62"/><persName type="honoured" key="Agemon f. Lysimachos"><name nymRef="Ἀγήμων"><supplied reason="lost">Ἀ</supplied>γήμων</name> <name nymRef="Λυσίμαχος" type="patronymic">Λυσ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="63"/>μάχου</name> <placeName ref="#cnidus" type="ethnic">Κνίδιος</placeName></persName>
+                          <lb n="64"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀ</supplied>λοντίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξε<lb 
+                        break="no" n="65"/><supplied reason="lost">ν</supplied>ος</w></rs>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολίτας</w></rs>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐε<supplied reason="lost">ρ</supplied><lb 
+                        break="no" n="66"/>γέτας</w></rs>, αὐτὸς κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="67"/>γένος.
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="C">
+                        <ab>
+                          <lb n="0"/><note>XIII</note> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="φιλάνθρωπος"><supplied reason="lost">φι</supplied><lb 
+                        break="no" n="1"/>λανθρώποις</w> ποτ<supplied reason="lost">ὶ</supplied>
+                          <lb n="2"/>τὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλιν</w></rs>, μετα<lb 
+                        break="no" n="3"/>πέμπτου δὲ αὐτοῦ
+                          <lb n="4"/>γινομένου ἐς οἶκον
+                          <lb n="5"/>καὶ ὄντος περὶ τὸ ἀ<lb 
+                        break="no" n="6"/>ποτράχεν, ἐμπε<lb 
+                        break="no" n="7"/>πτωκότος ἁμῖν
+                          <lb n="8"/>καιροῦ σκληροῦ καὶ
+                          <lb n="9"/>χρειᾶν πολλᾶν καὶ
+                          <lb n="10"/>ἀναγκαιᾶν διὰ
+                          <lb n="11"/>τὰς φθορὰς τὰς
+                          <lb n="12"/>τῶν <w lemma="ἄνθρωπος">ἀνθρώπων</w>
+                          <lb n="13"/>καὶ τὸν ἐμπεπτω<lb 
+                        break="no" n="14"/>κότα λοιμὸν, ἐ<lb 
+                        break="no" n="15"/>πείσαμες αὐτὸν
+                          <lb n="16"/>ἀξιώσαντες πα<lb 
+                        break="no" n="17"/>ραμεῖναι καὶ μὴ κα<lb 
+                        break="no" n="18"/>ταλιπὲν ἁμὲ ἐν
+                          <lb n="19"/>τῶι ἀναγκαιοτάτω<supplied reason="lost">ι</supplied>
+                          <lb n="20"/>καιρῶι, πεισθέντο<supplied reason="lost">ς</supplied>
+                          <lb n="21"/>δὲ αὐτοῦ καὶ πολ<supplied reason="lost">ὺ ἔ</supplied><lb 
+                        break="no" n="22"/>τι μᾶλλον ἐπιδόν<lb 
+                        break="no" n="23"/>τος αὑτὸν κατὰ
+                          <lb n="24"/>τὰν τέχναν καὶ σώ<lb 
+                        break="no" n="25"/>ζοντος τὸς ἐνο<lb 
+                        break="no" n="26"/>χλουμένους ὃς ἦς
+                          <lb n="27"/>δυνατὸν κατὰ τὰν
+                          <lb n="28"/>αὐτοῦ <w lemma="ἐπιμέλεια">ἐπιμέλειαν</w>·
+                          <lb n="29"/>ὅπως καὶ ἁ ἁμὰ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πό<lb 
+                        break="no" n="30"/>λις</w></rs> <w lemma="εὐχάριστος">εὐχάριστος</w>
+                          <lb n="31"/>γίνηται τοῖς ἀγα<lb 
+                        break="no" n="32"/>θοῖς <w lemma="ἀνήρ">ἀνδράσι</w>· <w lemma="ἐπαινέω">ἐπαι<lb 
+                        break="no" n="33"/>νέσαι</w> αὐτὸν καὶ
+                          <lb n="34"/><w lemma="στεφανόω">στεφανῶσαι</w> <w lemma="χρύσεος">χρυ<lb 
+                        break="no" n="35"/>σέωι</w> <w lemma="στέφανος">στεφάνωι</w> τῶ<supplied reason="lost">ι</supplied>
+                          <lb n="36"/>ἐκ τοῦ <rs type="institution" subtype="object" role="law" key="nomos" ref="#olous"><w lemma="νόμος">νόμου</w></rs> <w lemma="ἀρετά">ἀρετᾶς</w>
+                          <lb n="37"/>ἕνεκεν καὶ <w lemma="εὔνοια">εὐνοίας</w>,
+                          <lb n="38"/>ἃν ἔχων διετέλεσ<supplied reason="lost">ε</supplied>
+                          <lb n="39"/>ἐς τὰν ἁμὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλιν</w></rs>·
+                          <lb n="40"/>ἦμεν δὲ <persName type="honoured" key="? (2)" ref="#kasos">αὐτὸν</persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρό<lb 
+                        break="no" n="41"/>ξενον</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργ<supplied reason="lost">έ</supplied><lb 
+                        break="no" n="42"/>ταν</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολίταν</w></rs>, α<supplied reason="lost">ὐ</supplied><lb 
+                        break="no" n="43"/>τὸν καὶ <w lemma="γένος">γένος</w>, <w lemma="μετέχω">με<lb 
+                        break="no" n="44"/>τέχοντας</w> πάν<lb 
+                        break="no" n="45"/>των ὧν καὶ οἱ ἄλλο<supplied reason="lost">ι</supplied>
+                          <lb n="46"/><w lemma="μετέχω">μετέχοντι</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξε<lb 
+                        break="no" n="47"/>νοι</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέται</w></rs>
+                          <lb n="48"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολίτας">πολῖται</w></rs>· ὑπάρ<lb 
+                        break="no" n="49"/>χεν δὲ αὐτοῖς καὶ
+                          <lb n="50"/><w lemma="ἀτέλεια">ἀτέλειαν</w> πάν<lb 
+                        break="no" n="51"/>των καὶ <w lemma="ἐσπλέω">ἔσπλουν</w>
+                          <lb n="52"/>καὶ <w lemma="ἐκπλέω">ἔκπλουν</w> καὶ πο<lb 
+                        break="no" n="53"/>λέμου καὶ εἰρήνας
+                          <lb n="54"/><w lemma="ἀσυλεί">ἀσυλεὶ</w> καὶ ἀσπον<lb 
+                        break="no" n="55"/>δεὶ καὶ κατὰ γᾶν
+                          <lb n="56"/>καὶ κατὰ θάλασσα<supplied reason="lost">ν</supplied>·
+                          <lb n="57"/><w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ τόδε
+                          <lb n="58"/>τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#olous"><w lemma="ψάφισμα">ψάφισμα</w></rs> ἐς τὸ
+                          <lb n="59"/><rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#olous"><w lemma="ἱερόν">ἱερὸν</w> τοῦ <persName type="divine" key="Zeus Tallaios">Ζηνὸς
+                          <lb n="60"/>τοῦ Ταλλαίου</persName></rs> κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="61"/>ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#olous">τοῦ <persName type="divine" key="Asklepios">Ἀσκλα<lb 
+                        break="no" n="62"/>πιοῦ</persName></rs>· <w lemma="ἀποστέλλω">ἀποστῆλαι</w> δ<supplied reason="lost">ὲ</supplied>
+                          <lb n="63"/>καὶ ἐς <placeName ref="#kasos">Κάσον</placeName> τὸ
+                          <lb n="64"/><rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#olous"><w lemma="ψάφισμα">ψάφισμα</w></rs> καὶ ἀξι<lb 
+                        break="no" n="65"/>ῶσαι <placeName ref="#kasos" type="ethnic">Κασίους</placeName> δό<lb 
+                        break="no" n="66"/>μεν τόπον ἐν τῶ<supplied reason="lost">ι</supplied>
+                          <lb n="67"/>ἱερῶι τοῦ <persName type="divine" key="Apollo Temenitas">Ἀπόλλω<lb 
+                        break="no" n="68"/>νος τοῦ Τεμενί<lb 
+                        break="no" n="69"/>τα</persName> ὅπως <w lemma="ἀναγράφω">ἀναγρά<lb 
+                        break="no" n="70"/>ψαντες</w> <w lemma="στάλα">ἐστάλαν</w>
+                          <lb n="71"/>λιθίναν <w lemma="τίθημι">θῶμες</w>.
+                          <lb n="71a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                  <div type="apparatus">
+                <p>
+                    <app loc="A39"><note><corr>Κρ</corr>ατίδα <bibl><ref target="#b1498">Peremans – Van’t Dack</ref></bibl>, <bibl><ref target="#b919">IJsewijn</ref></bibl>; <corr>Φιλ</corr>τίδα <bibl><ref target="#bib1"><title>IC</title></ref></bibl>; <orig>ηατιδα</orig> <foreign>lapis</foreign>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>La stele, iscritta anteriormente e sulle due facce laterali, conserva tredici onorari di Olous, tutti completi ad esclusione dei documenti I e XIII, dei quali è andato perduto l’inizio. I documenti complessivamente interessano individui provenienti da Rodi (I, IV-V, IX-X), Gortyna (II), Messene (III), Macedonia (V), Samo (V), Aptera (V), Alessandria (V, VIII), Rhithymna (V), Cirene (V), Perge (VI), Calcide (VII), Astypalaia (XI), Cnido (XII) e Kasos (XIII). Solamente di pochi degli individui onorati è indicata la professione: fra questi compaiono due <foreign>kitharodoi</foreign> (III, VI), un medico (XIII) e un militare incaricato della protezione della <foreign>polis</foreign> (XI); gli ultimi due personaggi solo i soli per i quali vengono fornite le motivazioni delle concessioni effettuate, avvenute per la volontà della <foreign>polis</foreign> di Olous per i loro meriti nei suoi confronti.</p>
+                    <p>Oltre che per l’eventuale esplicitazione delle motivazioni, i vari decreti si differenziano fra loro anche per la loro lunghezza (nettamente maggiore in I, XI, XIII), per la presenza o meno delle formule di datazione, sanzione, mozione ed esposizione e per la natura delle concessioni effettuate.</p>
+                    <p>La datazione, ove presente, conserva il ricordo dei <foreign>damiorgoi</foreign> eponimi, il cui numero varia da decreto a decreto: ve ne sono tre in VII-VIII, come in <ref type="ins" target="#seg_23_548"><title>SEG</title> 23.548</ref>, mentre ne compare solo uno in III-VI e IX-XII, come forse in <ref type="ins" target="#seg_23_551"><title>SEG</title> 23.551</ref> (sebbene in III e VI la carica non sia specificata; cf. inoltre <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref>, dove i <foreign>damiorgoi</foreign> sono cinque).</p>
+                    <p>Mentre una formula di mozione menzionante i cittadini di Olous ricorre solamente nel decreto XI, quella di sanzione è presente in sette dei documenti, assumendo quattro formulazioni differenti: in qualità di istituzioni preposte alla deliberazione, infatti, compaiono la <foreign>polis</foreign> e i cosmi nei decreti IX-XI, la sola <foreign>polis</foreign> in II e VII (come in <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref>), i cittadini in V e l’etnico collettivo <foreign>Olountioi</foreign> in VIII (come forse in <ref type="ins" target="#seg_23_548"><title>SEG</title> 23.548</ref>).</p>
+                    <p>La formula di esposizione, meno frequente, è presente solamente nei decreti I e XIII, la collocazione del primo dei quali è prevista nel santuario di Asclepio. Il decreto XIII, invece, prescrive una redazione di più copie da collocarsi rispettivamente nel santuario di Asclepio e in quello di Zeus <foreign>Tallaios</foreign>; nel documento viene previsto inoltre l’invio del decreto presso la città di origine dell’individuo onorato affinché una copia venga iscritta anche a Kasos.</p>
+                    <p>Per quanto riguarda le concessioni, il conferimento più comune è costituito dalla congiunzione di prossenia ed <foreign>euergesia</foreign>, attestata nei decreti I, IV-VI e IX-X (oltre che in <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref> e forse <ref type="ins" target="#seg_25_1020"><title>SEG</title> 25.1020</ref> e <ref type="ins" target="#ic1_22_6"><title>IC</title> I 22 6</ref>). La prossenia è associata invece alla cittadinanza nei decreti III, VII e XI (oltre che in <ref type="ins" target="#seg_23_551"><title>SEG</title> 23.551</ref>), mentre i testi II e XII-XIII prevedono la combinazione di prossenia, <foreign>euergesia</foreign> e <foreign>politeia</foreign>. La sola cittadinanza, invece, è conferita all’individuo onorato nel decreto VIII. In aggiunta ai conferimenti onorari principali, alcuni decreti prevedono anche la concessione dell’esenzione fiscale (VII, IX-X, XIII) e del diritto di navigare da e verso Olous (IX-XI, XIII). Il medico di Kasos, infine, è il solo onorato ad ottenere anche una corona d’oro, conferitagli secondo quanto previsto da una legge di Olous (XIII, ll. 32-36).</p>
+                    <p>La menzione nel decreto V di personaggi influenti alla corte di Tolemeo II quali gli ammiragli Patroklos figlio di Patron e Kallikrates figlio di Boiskos (<bibl><ref target="#bib365"><title>PP</title></ref> 5164</bibl>), il sacerdote eponimo del 248 a.C. Antiochos figlio di Kratidas (<bibl><ref target="#bib365"><title>PP</title></ref> 4999</bibl>) e il sacerdote di Alessandro e dei Tolemei del 261/260 a.C. Aristandros figlio di Aratokles (<bibl><ref target="#bib365"><title>PP</title></ref> 5236</bibl>) sembra suggerire che il gruppo di onorati costituisca un insieme omogeneo di ambasciatori inviati ad Olous dal sovrano lagide forse negli anni della Guerra cremonidea o in quelli immediatamente precedenti (cf. <bibl><ref target="#b492">Demargne 1900</ref>, p. 229</bibl>, <bibl><ref target="#bib365"><title>PP</title></ref> IV, p. 171</bibl>, <bibl><ref target="#b873">Hauben 1996</ref></bibl>, <bibl><ref target="#b1345">Mikrogiannakis 2000</ref>, pp. 299-312</bibl>, <bibl><ref target="#b157">Bing 2002-2003</ref></bibl>, <bibl><ref target="#b1457">Papachristodoulou 1996</ref></bibl>, <bibl><ref target="#b1420">Oikonomides 1957</ref></bibl>).</p>
+                    <p>La presenza dello stesso magistrato eponimo, il <foreign>damiorgos</foreign> Leukos, nei decreti IV e V porterebbe dunque ad una datazione di entrambi i documenti attorno agli anni 270-265 a.C.; agli stessi anni risale probabilmente anche il decreto I, della stessa mano del testo IV. Di poco successivi sembrano invece i decreti VII e VIII, iscritti dalla stessa mano, mentre ancora più tardi sono i testi III e VI (entrambi dell’anno in cui è eponimo Lokrion) e II, inseriti in un secondo momento negli spazi rimasti vuoti sulla faccia anteriore della stele. La posizione marginale occupata dai decreti iscritti sui lati B e C farebbe ipotizzare una loro redazione successiva, probabilmente coeva per i testi IX-X, datati entrambi all’anno in cui è <foreign>damiorgos</foreign> Autosthenes e apparentemente opera dello stesso lapicida.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b492">Demargne 1900</ref>, pp. 223-235, n. 1</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5104</bibl>; 
+                          <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 22 4 <ptr type="phi" target="199537"/> <ptr type="phi" target="199538"/> <ptr type="phi" target="199539"/></bibl>; 
+                          <bibl><ref target="#b1663">Samama 2003</ref>, n. 176 (C)</bibl>;
+                          <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 37 (II, IX)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b756">Guarducci 1930</ref>, pp. 55-56</bibl>; 
+                          <bibl><ref target="#b1420">Oikonomides 1957</ref>, pp. 222-223</bibl>; 
+                          <bibl><ref target="#b1498">Peremans – Van’t Dack 1959</ref>, p. 171</bibl>; 
+                          <bibl><ref target="#b919">IJsewijn 1961</ref>, pp. 73-74, n. 38</bibl>; 
+                          <bibl><ref target="#b1289">Masson 1979</ref>, p. 64</bibl>; 
+                          <bibl><ref target="#b1005">Kontorini 1992</ref>, pp. 546-548</bibl>; 
+                          <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 60</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

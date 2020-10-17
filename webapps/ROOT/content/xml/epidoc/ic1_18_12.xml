@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria relativa al <foreign>naos</foreign> di Artemide <foreign>Soteira</foreign> di Lyttos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 18 12</idno>
+                        <idno type="projectNo">196</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lyttos">Lyttos</origPlace>
+                                    <origDate period="#imperial" notBefore="-0030" notAfter="0030">fine I secolo a.C. - inizi I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Archeia" ref="#lyttos">ἐπὶ τᾶς <w lemma="Ἀρχήα">Ἀρχήας</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lyttos"><w lemma="κοσμέω">κοσμιόν<lb 
+                        break="no" n="2"/>των</w> τῶν σὺν <persName type="attested" key="Lasthenes f. Komastas"><name nymRef="Λασθένης">Λασθέ<lb 
+                        break="no" n="3"/>νῃ</name> τῶ <name nymRef="Κωμάστας" type="patronymic">Κωμάστα</name></persName></rs> <w lemma="ἐπιμελέομαι">ἐπεμε<lb 
+                        break="no" n="4"/>λήθη</w> τὸν <rs type="institution" subtype="public_space" role="construction" key="naos" ref="#lyttos"><w lemma="ναός">ναὸν</w> τᾶς <persName type="divine" key="Artemis Soteira">Ἀρτέ<lb 
+                        break="no" n="5"/>μιδος τᾶς Σωτείρας</persName></rs> <w lemma="καταρτίζω">κα<lb 
+                        break="no" n="6"/>ταρτισθῆμεν</w> ἐ<supplied reason="lost">κ</supplied> τῷ <rs type="institution" subtype="object" role="funds" key="hieromnamonika_chremata" ref="#lyttos"><w lemma="ἱερομναμονικὸν χρῆμα">ἱερ<corr>ο</corr><lb 
+                        break="no" n="7"/>μνάμονικῶ χρήματος</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                  <div type="apparatus">
+                <p>
+                    <app loc="6-7"><note>ἐ<supplied reason="lost">κ</supplied> τῶ ἱερ<corr>ο</corr>μνάμονικῶ χρήματος <bibl><ref target="#b286">Chaniotis</ref></bibl>; ἐ<supplied reason="lost">πὶ</supplied> τῷ ἱερ<corr>ο</corr>μνάμονι <orig>κωχρηματοσ</orig> <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, relativa al restauro del tempio di Artemide <foreign>Soteira</foreign> a Lyttos, è datata all’anno in cui è eponimo il cosmo Lasthenes figlio di Komastas, della tribù <foreign>Arche(i)a</foreign> (attestata anche a Gortyna, Knossos e Hierapytna). L’onomastica del magistrato è particolarmente interessante, in quanto presenta come patronimico il nome Komastas, che in tutte le sue occorrenze (tranne che in <ref type="ins"><title>IG</title> IV<hi rend="superscript">2</hi>,1 64</ref>) è pertinente a cosmi eponimi e protocosmi di Lyttos (cf. <ref type="ins" target="#ic1_18_13"><title>IC</title> I 18 13</ref>, <ref type="ins">19-21</ref>, <ref type="ins">32-36</ref> e forse <ref type="ins" target="/ic1_18_63">63</ref>). Mentre Lasthenes figlio di Komastas appartiene alla tribù <foreign>Archeia</foreign>, il collega Endialos figlio di Komastas, eponimo nell’iscrizione edificatoria <ref type="ins" target="#ic1_18_13"><title>IC</title> I 18 13</ref>, è invece membro di una tribù differente, quella dei <foreign>Lasynthioi</foreign>: è dunque probabile che i due individui appartenessero a rami differenti di una stessa famiglia che doveva occupare una posizione di un certo rilievo all’interno della società di Lyttos.</p>
+                    <p>Le ultime linee del testo, inoltre, informano del fatto che l’intervento è avvenuto mediante il ricorso al fondo degli <foreign>hieromnamones</foreign>, noto a Creta anche da un’iscrizione edificatoria dell’<foreign>Asklepieion</foreign> di Lissos (<ref type="ins" target="#seg_45_1317"><title>SEG</title> 45.1317</ref>: ([ἐκ τῶν] ἱερομναμονι[κῶν χρημάτων]; sugli <foreign>hieromnamones</foreign> nel restante mondo greco cf. <bibl><ref target="#b431">D’Alessandro 2011</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#funds"><foreign>hieromnamonika chremata</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, tribù (<ref type="inst" target="#archeia"><foreign>Archeia</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b365">Churmuzis 1842</ref>, pp. 59-60</bibl>; 
+                           <bibl><ref target="#b840">Halbherr 1890</ref>, p. 618</bibl>;
+                        <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 18 12 <ptr type="phi" target="199340"/></bibl>;
+                        <bibl><ref target="#b1438">Pałuchowski 2005</ref>, pp. 107-108</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b286">Chaniotis 1986</ref>, p. 195</bibl>; 
+                        <bibl><ref target="#b811">Guizzi 1999a</ref>, pp. 283-284</bibl>; 
+                        <bibl><ref target="#b1439">Pałuchowski 2005a</ref>, p. 424</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

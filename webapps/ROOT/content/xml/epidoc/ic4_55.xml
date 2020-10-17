@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 55</idno>
+                        <idno type="projectNo">261</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka">Agioi Deka, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="character"/><orig>ο<unclear>λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>αι</orig><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="3"/><gap reason="lost" quantity="1" unit="character"/>η ἀπ<gap reason="illegible" quantity="1" unit="character"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ν κα γέν<lb 
+                        break="no" n="5"/>ηται <gap reason="illegible" quantity="1" unit="character"/><orig>ι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>το μὴ μ<lb 
+                        break="no" n="7"/>ὰν ἤμην <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλος"><supplied reason="lost">δ</supplied>όλο</w></rs> ἐνε<lb 
+                        break="no" n="9"/>ρημμέν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πάσστας"><supplied reason="lost">π</supplied>άσσ<unclear>ταν</unclear></w>
+                          <lb n="11"/><unclear>μ</unclear>ὴ μὰν το<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>ον κ<gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="13"/><orig><unclear>τ</unclear></orig><gap reason="lost" quantity="3" unit="character"/>ο ϝο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento di legge, relativo alle relazioni fra i servi (l. 8 [δ]όλο) ed i rispettivi padroni (l. 10, [π]άσσταν), sembra fare riferimento ad un giuramento che doveva essere probabilmente pronunciato da questi ultimi (cf. <bibl><ref target="#bib122"><title>Laws</title></ref>, p. 325</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b379">Comparetti 1888b</ref>, p. 657 n. 18</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, p. 321 n. 171</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5001</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 55 <ptr type="phi" target="200491"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 21</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G55 (ll. 4-11)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 141*</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

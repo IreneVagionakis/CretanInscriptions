@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto (?) di Sybrita</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 58.1021</idno>
+                        <idno type="projectNo">147</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 202</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree" cert="low">decreto?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele" cert="low">stele?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#sybrita">Sybrita</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ιιι</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig>ε<unclear>λι</unclear>σ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>δν</unclear>ν<unclear>ι</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig>ιη<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ρ<unclear>λλισι</unclear>α<unclear>ι</unclear>τ<unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>α<unclear>σ</unclear></orig> καὶ <w lemma="παρκαλέω">παρκ<supplied reason="lost">αλ</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ν</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>λ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/> τὰν προτέρ<supplied reason="lost">αν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>α τελῆσθαί τε <orig>με<unclear>τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><supplied reason="lost"><w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ</supplied> τ<unclear>ά</unclear>δ’ <w lemma="στάλα">ἐστάλαν</w> ξεστὰ<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied><unclear>ν</unclear> τοῖς <rs type="institution" subtype="festivity" role="calendar" key="Dionnysia" ref="#sybrita"><w lemma="Διοννύσια">Διοννυσίοις</w></rs> <orig>φ<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ας ἔμεν δὲ τὰν π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><supplied reason="lost">καὶ αὐ</supplied>τῶι κ<unclear>αὶ</unclear> <w lemma="γενειά"><unclear>γ</unclear>ενειᾶ<supplied reason="lost">ι</supplied></w> <orig>δεκα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>οσλτ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ει</unclear>νσ<unclear>σο</unclear>σκαξ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>σ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>οι</unclear>τ<unclear>λ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ο</unclear>να<unclear>τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="8"><note><supplied reason="lost">ἀναγράψαι δέ</supplied> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> in apparato (Chaniotis); <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>.</note></app>
+                            <app loc="10"><note>π<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>;  π<supplied reason="lost">ροξενίαν</supplied> oppure π<supplied reason="lost">ολιτείαν</supplied> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> in apparato (Chaniotis).</note></app>
+                            <app loc="11"><note><supplied reason="lost">καὶ αὐ</supplied>τῶι κ<unclear>αὶ</unclear> <unclear>γ</unclear>ενειᾶ<supplied reason="lost">ι</supplied> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> in apparato (Chaniotis); <gap reason="lost" extent="unknown" unit="character"/>τωι κ<unclear>αὶ</unclear> <orig><unclear>γ</unclear>ενεια</orig><gap reason="lost" quantity="1" unit="character"/> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Non è chiaro se il frammento appartenga ad un decreto onorario di Sybrita o se invece restituisca parte di un trattato stipulato fra la città e un altro contraente. Mentre le linee 10-11 sembrano riguardare una concessione di prossenia o di cittadinanza ad un individuo e alla sua discendenza, altri termini conservati nel documento paiono invece appartenere al formulario di espressioni ricorrenti nei trattati cretesi di età ellenistica. Il verbo παρκαλέω sembra infatti alludere ad una richiesta di aiuto, mentre il riferimento alle festività <foreign>Dionnysia</foreign> (cf. il mese <foreign>Dionysios</foreign> a Eleutherna in <ref type="ins" target="#ic2_12_9"><title>IC</title> II 12 9</ref> e a Praisos in <ref type="ins" target="#ic3_6_7"><title>IC</title> III 6 7</ref>) potrebbe occorrere in una clausola relativa alla pubblica lettura o al rinnovo del trattato da compiersi in occasione di tali celebrazioni, come è previsto ad esempio durante le <foreign>Hyperboia</foreign> dal trattato fra Hierapytna e Priansos <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>. La clausola di esposizione alla linea 8, invece, potrebbe parimenti comparire sia in un trattato che in un decreto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: festività <ref type="inst" target="#dionnysia"><foreign>Dionnysia</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1857">Tzifopoulos 2004-2009</ref>, pp. 569-573 n. 1</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 58.1021 <ptr type="seg" target="a58_1021"/></bibl>);
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> Ε 202 <ptr type="thetima" target="e202"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

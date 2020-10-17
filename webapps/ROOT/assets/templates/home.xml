@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <kiln:parent>
+    <xi:include href="base.xml" />
+  </kiln:parent>
+
+  <kiln:child>
+    <kiln:block name="title">
+      <i18n:text>Home</i18n:text>
+    </kiln:block>
+
+    <kiln:block name="content-section">
+      <main>
+        <div class="row" id="home_box">
+          <div class="large-12 columns">
+            <div class="panel radius">
+              <div class="homepage_text">
+                <p><i18n:text i18n:key="site_description">Una raccolta della documentazione epigrafica relativa alle istituzioni cretesi del periodo compreso tra il VII e il I secolo a.C., con approfondimenti sulle realtà politiche di Creta e sulle loro istituzioni</i18n:text>.</p></div>
+              
+              <div class="boxcontainer">
+                <span class="box"><a href="inscriptions/"><img class="imagebox" src="{$kiln:assets-path}/images/1.jpg" alt="Asb [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons" /><span class="textbox"><i18n:text i18n:key="inscriptions">Iscrizioni</i18n:text></span></a></span>
+                <span class="box"><a href="texts/realta_politiche.html"><img class="imagebox" src="{$kiln:assets-path}/images/2.jpg" alt="Folger Shakespeare Library [Public domain or CC BY-SA 4.0  (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" /><span class="textbox"><i18n:text i18n:key="places">Realtà politiche</i18n:text></span></a></span>
+                <span class="box"><a href="texts/istituzioni.html"><img class="imagebox" src="{$kiln:assets-path}/images/3.jpg" alt="L. Savignoni - G. De Sanctis, Esplorazione archeologica delle provincie occidentali di Creta, MonAnt 11, 1901, tav. XXVI, fig. 3" /><span class="textbox"><i18n:text i18n:key="institutions">Istituzioni</i18n:text></span></a></span>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </main>
+    </kiln:block>
+    
+  </kiln:child>
+</kiln:root>

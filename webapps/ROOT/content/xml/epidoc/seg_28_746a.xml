@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica di Kydonia ad Apollo, Artemide e Latona per un suo ex <foreign>hiareus</foreign></title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 28.746a</idno>
+                        <idno type="projectNo">029</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#chania_museum">Museo archeologico di Chania</repository>
+                        <idno type="invNo">E 116</idno>
+                    </msIdentifier>
+                    <msContents><summary corresp="#votive_dedication">dedica votiva/onoraria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>stoichedica</p> <height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#kydonia">Kydonia</origPlace>
+                            <origDate period="#classical" notBefore="-0400" notAfter="-0350">400-350 a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><supplied reason="lost">αὔ</supplied>ξων τάνδε <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#kydonia"><w lemma="πόλις"><supplied reason="lost">πό</supplied><unclear>λ</unclear><supplied reason="lost">ιν</supplied></w></rs> κα<unclear>ὶ</unclear> τιμῶν <supplied reason="lost">εὐκλέϊσ’</supplied> <rs type="institution" subtype="official" role="dedicatee" key="hiereus" ref="#kydonia"><persName type="attested" key="Eunous" cert="low"><name nymRef="Εὔνους" cert="low"><supplied reason="lost">Εὔνο</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">υ</supplied><unclear>ς</unclear></name></persName> πᾶσι <w lemma="θεός">θεοῖς</w> τε <w lemma="ἱαρεύς">ἱαρεὺς</w> γεγο<supplied reason="lost">νώς</supplied></rs><supplied reason="lost">· ἀνθ’ ὧν</supplied>
+                        <lb n="3"/><rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#kydonia"><w lemma="πόλις"><unclear>π</unclear>όλις</w></rs> ἅδε <w lemma="δωροτελέω">δωροτελεῖ</w> <w lemma="μναμεῖον">μναμεῖο<supplied reason="lost">ν</supplied></w> <supplied reason="lost">ἀγήρων τ’ ἐν</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">θ</supplied>άδε, <persName type="divine" key="Apollo">Ἄπολλον</persName> σοί τε καὶ <persName type="divine" key="Artemis">Ἄρτε<supplied reason="lost">μι</supplied></persName> <supplied reason="lost">σοὶ καὶ τᾶι</supplied> 
+                        <lb n="5"/><persName type="divine" key="Lato"><supplied reason="lost">Λ</supplied>ατῶι</persName> μὲ <w lemma="ἀνατίθημι">ἀνέθηκε</w>. <space extent="unknown" unit="character"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="1-2"><note><supplied reason="lost">εὐκλέϊσ’ Εὔνου</supplied><unclear>ς</unclear> <bibl><ref target="#b1262">Martínez Fernández</ref></bibl>; <supplied reason="lost" 
+                        cert="low">τετράκις</supplied> <supplied reason="lost">ἦρχ</supplied><unclear>ε</unclear> <bibl><ref target="#b189">Bousquet</ref></bibl>.</note></app>
+                    <app loc="2"><note>γεγο<supplied reason="lost">νώς· ἀνθ’ ὧν</supplied> <bibl><ref target="#b1262">Martínez Fernández</ref></bibl>; γεγο<supplied reason="lost" cert="low">νὼς τρὶς Εὔ-</supplied> <bibl><ref target="#b1928">Van Effenterre <foreign>et al.</foreign></ref></bibl>; γέγο<supplied reason="lost">νεν δίς</supplied> <bibl><ref target="#b1495">Peek</ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>La dedica, formata da quattro esametri iscritti in <foreign>stoichedon</foreign>, si trova sulla faccia anteriore della base, che conserva sul proprio lato inferiore l’iscrizione onoraria di età imperiale <ref type="ins"><title>SEG</title> 33.735 II</ref>. L’epigrafe offre una preziosa testimonianza del ruolo sociale e del prestigio di cui dovevano godere i funzionari pubblici addetti alla sfera sacra: all’ex <foreign>hiareus</foreign>, responsabile del culto di tutti gli dèi (?), viene riconosciuto il merito di aver reso grande la propria città, così che la <foreign>polis</foreign> decide di ricambiare il favore offrendogli in dono il presente μναμεῖον. La dedica si configura dunque come onoraria e votiva al tempo stesso, dal momento che la statua che la base sorreggeva viene consacrata ad Apollo, Artemide e Latona.</p>
+                    <p>Alla <foreign>polis</foreign>, che viene menzionata due volte sempre senza la specificazione dell’etnico collettivo, oltre che il consueto ἀνέθηκε della dedica alle divinità viene associato anche il raro verbo δωροτελεῖ, un <foreign>hapax</foreign> relativo al dono con cui l’assemblea onora pubblicamente il proprio sacerdote uscito di carica.</p>
+                    <p>Quanto allo <foreign>hiareus</foreign>, non è ben chiaro se costui abbia svolto la propria mansione in connessione ad un tempio specifico o se invece abbia avuto in qualche modo il controllo o la supervisione di tutti i culti della città: sebbene il πᾶσι θεοῖς della linea 2 faccia propendere per la seconda interpretazione, il mancato collegamento sintattico fra tale dativo ed il nesso ἱαρεὺς γεγονώς rende comunque plausibile l’ipotesi di un sacerdozio legato a precise divinità, che potrebbero verosimilmente essere Apollo, Artemide e Latona.</p>
+                    <p>La triade apollinea riveste una particolare importanza a Kydonia, in quanto è strettamente connessa alla figura del fondatore eponimo della città, l’eroe Kydon, che di Apollo è figlio (<ref type="lit">St.Byz. <foreign>s.v.</foreign> Κυδωνία</ref>; cf. <bibl><ref target="#b1255">Martínez Fernández 2006a</ref>, p. 599</bibl>, <bibl><ref target="#b1734">Sporn 2002</ref>, pp. 268-272, 281</bibl>). La statua, pertanto, potrebbe aver raffigurato o la triade stessa, sebbene la forma della base sconsigli tale ipotesi, o un animale sacro connesso al culto dello <foreign>ktistes</foreign> Kydon, molto probabilmente un cane (cf. <bibl><ref target="#b1928">Van Effenterre <foreign>et al.</foreign> 1983</ref></bibl>): tale animale infatti è ben attestato sulle iconografie monetarie della città degli anni 320-280/270 a.C., dove ricorrono rappresentazioni di levrieri – da soli o accanto ad un giovane Kydon arciere – e di una cagna che allatta un infante, forse Kydon o Zeus <foreign>Kretagenes</foreign> (cf. <bibl><ref target="#b1071">Le Rider 1966</ref>, pp. 173 e 194</bibl>, <bibl><ref target="#b540">Dulière 1969</ref></bibl>, <bibl><ref target="#b1776">Stefanakis 2000a</ref></bibl>, <bibl><ref target="#b1734">Sporn 2002</ref>, pp. 319-321</bibl>, <bibl><ref target="#b1793">Svoronos 1890</ref>, pp. 96-119, tavv. IX-X</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1495">Peek 1977</ref>, pp. 81-82, n. 11</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 28.746a <ptr type="phi" target="201855"/> <ptr type="phi" target="201856"/> <ptr type="phi" target="201857"/></bibl>); 
+                    <bibl><ref target="#b1928">Van Effenterre <foreign>et al.</foreign> 1983</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 33.735 n. 1 <ptr type="seg" target="a33_735"/></bibl>); 
+                    <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 35</bibl>; 
+                    <bibl><ref target="#bib69"><title>CEG</title></ref> II 846</bibl>; 
+                    <bibl><ref target="#b189">Bousquet 1990</ref>, p. 290</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 40.775</bibl>); 
+                    <bibl><ref target="#b1262">Martínez Fernández 2008</ref>, n. 1</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 58.1007 <ptr type="seg" target="a58_1007"/></bibl>);
+                    <bibl><ref target="#b1270">Martínez Fernández 2011</ref>, n. 1</bibl>.
+                    <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1852">Tzedakis 1970a</ref>, pp. 471-472</bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 61.728</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

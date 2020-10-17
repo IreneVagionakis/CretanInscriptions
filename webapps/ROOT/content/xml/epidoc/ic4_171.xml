@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Gortyna e Arkades</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 171</idno>
+                        <idno type="projectNo">299</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka">Agioi Deka, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Odeion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0260" notAfter="-0240">metà III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Dek" ref="#gortyn"><supplied reason="lost">ἐ</supplied>πὶ τῶν <w part="I" lemma="Δεκ-">Δε<unclear>κ</unclear><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ων</supplied></w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><supplied reason="lost">τῶν σὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><w lemma="κορμέω">κορμιόντων</w></rs>, <rs type="institution" subtype="official" role="incumbent" key="hiarorgos" ref="#gortyn"><w lemma="ἱαροργέω">ἱ<unclear>α</unclear><supplied reason="lost">ροργοῦντος</supplied></w> <supplied reason="lost">δὲ</supplied> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                            <lb n="3"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Soarchos f. Pheid-"><name nymRef="Σόαρχος">Σόαρχος</name> <name nymRef="Φειδ-" type="patronymic">Φει<unclear>δ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                            <lb n="4"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Hippokleidas f. -"><name nymRef="Ἱπποκλείδας">Ἱπποκλείδας</name> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>
+                            <lb n="5"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Praxias f. Arist-"><name nymRef="Πραξίας">Πραξίας</name> <name nymRef="Ἀριστ-" type="patronymic">Ἀρισ<supplied reason="lost">τ</supplied><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                            <lb n="7"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Magos f. Eumnast-"><name nymRef="Μάγως">Μάγως</name> <name nymRef="Εὐμνάστ-" type="patronymic">Εὐμνά<supplied reason="lost">στ</supplied><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>.
+                            <lb n="8"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><w lemma="κόσμος">κόρμοι</w></rs> <w lemma="δεύτερος">δεύτε<supplied reason="lost">ρον</supplied></w> <supplied reason="lost">παρ’ <placeName ref="#arkades">Ἀρκάθθι</placeName> <space extent="unknown" unit="character"/></supplied>
+                            <lb n="9"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><persName type="attested" key="Klearchos f. Nikol-"><name nymRef="Κλέαχος">Κλέαχος</name> <name nymRef="Νικολ-" type="patronymic">Νικο<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                            <lb n="10"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><persName type="attested" key="Karton f. Kleon-"><name nymRef="Κάρτων">Κάρτων</name> <name nymRef="Κλεων-" type="patronymic">Κλεων<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                            <lb n="11"/>τάδ’ <w lemma="ὀμνύω">ὤμο<unclear>σ</unclear>αν</w> ο<supplied reason="lost">ἱ <rs type="institution" subtype="social_group" role="oath-taking" key="polisE" ref="#arkades"><placeName ref="#arkades" type="ethnic">Ἀρκάδες</placeName></rs> <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> καὶ οἱ <rs type="institution" subtype="social_group" role="oath-taking" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></rs></supplied>
+                            <lb n="12"/><placeName ref="#arkades">Ἀρκάθθι</placeName>· ναὶ τὰ<supplied reason="lost">ν <persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#arkades"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#gortyn"><w lemma="Ἱστία">Ἱστίαν</w></rs></rs></persName> καὶ <persName type="divine" key="Zeus Bidatas">Τῆνα <placeName ref="#idaeum_antrum" type="ethnic">Βιδάταν</placeName></persName> καὶ</supplied> <persName type="divine" key="Zeus Agoraios"><supplied reason="lost">Τῆ</supplied><lb 
+                                break="no" n="13"/>ν’ <rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#arkades"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#gortyn"><w lemma="Ἀγοραῖος">Ἀγοραῖον</w></rs></rs></persName> καὶ <supplied reason="lost"><persName type="divine" key="Zeus Oratrios">Τῆν’ Ὀράτριον</persName> <persName type="divine" key="Hera">κἤραν</persName> καὶ</supplied> <persName type="divine" key="Athena Poliochos"><supplied reason="lost">Ἀθαναίαν</supplied>
+                            <lb n="14"/>Πολιόχον</persName> <persName type="divine" key="Apollo Pytios">κἀπέ<supplied reason="lost">λλωνα Πύτιον</supplied></persName> <supplied reason="lost">καὶ <persName type="divine" key="Lato">Λατὼν</persName> <persName type="divine" key="Artemis">κἄρτεμιν</persName></supplied>
+                            <lb n="15"/><persName type="divine" key="Enyalios">κἠνυάλιον</persName> <persName type="divine" key="Ares">κἄρ<supplied reason="lost">εα</supplied></persName> <persName type="divine" key="Aphrodite"><supplied reason="lost">κἀφροδίταν</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>  
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato, stipulato fra Gortyna e Arkades, conserva alle linee 1-10 una formula datante che di fatto non si limita a commemorare i magistrati eponimi di entrambe le città ma ne elenca un buon numero. La prima parte, apparentemente quella di Gortyna, dopo aver menzionato il cosmo eponimo appartenente alla tribù dei <foreign>Dek</foreign>-, elenca infatti i nomi dello <foreign>hiarorgos</foreign> e di almeno quattro cosmi in carica (cf. <bibl><ref target="#b306">Chaniotis 1995a</ref>, pp. 34-35</bibl>). La seconda parte, verosimilmente quella relativa ad Arkades, menziona invece due cosmi, Kleachos figlio di Nikokl- e Karton figlio di Kleon-, che al momento della redazione del trattato ricoprono la carica per la loro seconda volta.</p>
+                    <p>Le linee 11-15, invece, restituiscono parte del giuramento, nel quale fra le varie divinità invocate compaiono Zeus <foreign>Agoraios</foreign> (sul cui culto cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>) e verosimilmente Hestia e Zeus <foreign>Bidatas</foreign>, il cui culto ha sede nell’Antro Ideo.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>), <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref> (?), <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, tribù (<ref type="inst" target="#dek"><foreign>Dek-</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 691-692 n. 132</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5023</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib4"><title>IC</title> IV</ref> 171 <ptr type="phi" target="200610"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 576</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 8 <ptr type="phi" target="201273"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b306">Chaniotis 1995a</ref>, pp. 34-35</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

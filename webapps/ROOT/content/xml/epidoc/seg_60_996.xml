@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title><foreign>Horos</foreign> del santuario di Hermes e Afrodite a Myrtos-Pyrgos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 60.996</idno>
+                        <idno type="projectNo">550</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#knossos_museum">Museo stratigrafico di Knossos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#terminus"><foreign>horos</foreign></summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#myrtos_pyrgos">Santuario di Myrtos-Pyrgos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="face" n="A">
+                        <ab>
+                            <lb n="1"/><orig>ε</orig> <space quantity="2" unit="character"/> <orig>σ</orig>
+                            <lb n="2"/><persName type="divine" key="Hermes">Ἑρμᾶι</persName>
+                            <lb n="2a"/><space quantity="1" unit="line"/>
+                            <lb n="3"/>καὶ <persName type="divine" key="Aphrodite">Ἀφρο<lb 
+                                break="no" n="4"/>δίτας</persName>
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="hiereus" ref="#myrtos_pyrgos" cert="low">ἐπὶ <persName type="attested" key="Dioteles" cert="low"><name nymRef="Διοτέλης" cert="low">Δι<corr>ο</corr>τέλ<unclear>ι</unclear>ο<supplied reason="lost" cert="low">ς</supplied></name></persName></rs>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La, lastra, che conserva sul lato A un <foreign>horos</foreign> del santuario di Hermes e Afrodite di Myrtos-Pyrgos, restituisce sul lato B quella che sembra una formula di datazione, contenente il riferimento ad un individuo, Dioteles, apparentemente un magistrato eponimo o un sacerdote responsabile della collocazione della pietra di confine (cf. <bibl><ref target="#b223">Cadogan – Chaniotis 2010</ref>, p. 297</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b222">Cadogan 1978</ref>, p. 82 (A)</bibl>;
+                            <bibl><ref target="#b223">Cadogan – Chaniotis 2010</ref>, pp. 294-297 n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 60.996 <ptr type="seg" target="a60_996"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

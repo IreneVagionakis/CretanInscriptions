@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Itanos relativo ad un giuramento</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 7</idno>
+                        <idno type="projectNo">523</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">59</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0270">inizi III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#itanos"><w lemma="βουλά">βουλᾶι</w></rs></supplied>
+                          <lb n="1"/><supplied reason="lost">καὶ τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="ekklesia" ref="#itanos"><w lemma="ἐκκλησία"><supplied reason="lost">ἐ</supplied>κκλησίαι</w></rs> ε<gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὅρκος"><supplied reason="lost">ὅρ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">κον</supplied></w> <supplied reason="lost">τελ</supplied>ιόντω τοὶ <rs type="institution" subtype="board" role="leading_oath" key="archon" ref="#itanos"><w lemma="ἄρχων">ἄ<supplied reason="lost">ρχοντ</supplied><unclear>ες</unclear></w></rs> <unclear>σ</unclear>ὺν τοῖ<supplied reason="lost">ς</supplied> <rs type="institution" subtype="board" role="leading_oath" key="hiereus" ref="#itanos"><w lemma="ἱερεύς"><supplied reason="lost">ἱε</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">ρεῦσ</supplied>ι</w></rs>, ἐπαράσθων δ<unclear>ὲ</unclear> <unclear>κ</unclear>αὶ τοὶ <rs type="institution" subtype="board" role="curse" key="hiereus" ref="#itanos"><w lemma="ἱερεύς">ἱερεῖς</w></rs> ὅσ<supplied reason="lost">τι</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">ς πα</supplied>ραβαίνοι τὸν <w lemma="ὅρκος">ὅρκον</w> τόνδε μήτε
+                          <lb n="5"/><supplied reason="lost">τέ</supplied>κνων ὄνασιν αὐτῶι γίνεσθαι, ἐξόλ<lb 
+                        break="no" n="6"/><supplied reason="lost">λυ</supplied>σθαι δὲ κακῶς κακοὺς καὶ αὐτοὺς κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="7"/>γενεὰν αὐτῶν· τοῖς δὲ κατέχουσι τὸν
+                          <lb n="8"/><w lemma="ὅρκος">ὅρκον</w> πολλὰ καὶ ἀγαθὰ γίνεσθαι. ὅστις δ<supplied reason="lost">έ</supplied>
+                          <lb n="9"/><unclear>κ</unclear>α μὴ παραγένηται τῶι <w lemma="ὅρκος">ὅρκωι</w> τελεομ<supplied reason="lost">έ</supplied><lb 
+                        break="no" n="10"/>νωι <w lemma="ἐξορκίζω">ἐξορκιζόντω</w> αὐτοὺς τοὶ τόκα <rs type="institution" subtype="board" role="leading_oath" key="archon" ref="#itanos"><w lemma="ἄρχων">ἄρ<unclear>χ</unclear><lb 
+                        break="no" n="11"/>οντες</w></rs> ἐν ἁμέραις δέκα ἀφ’ ἇς κα ἔλθηι το<lb 
+                        break="no" n="12"/><unclear>ῖ</unclear>ς αὐτοῖς <w lemma="ὅρκιος">ὁρκίοις</w> οἷσπερ <w lemma="ὀμνύω">ὤμνυον</w> τοὶ <rs type="institution" subtype="social_status" role="oath-taking" key="epidamos" ref="#itanos"><w lemma="ἐπίδαμος">ἐπί<lb 
+                        break="no" n="13"/>δαμοι</w></rs>, καὶ <w lemma="ἀνγράφω">ἀνγραψάντω</w> ἐλ <rs type="institution" subtype="object" role="archiving" key="leukoma" ref="#itanos"><w lemma="λεύκωμα">λεύκωμα</w></rs> τοὺ<unclear>ς</unclear>
+                          <lb n="14"/><w lemma="ὀμνύω">ὠμόσαντας</w> <w lemma="πατριαστί">πατρι<supplied reason="lost">α</supplied>στὶ</w> καὶ <w lemma="κατατίθημι">καταθέντω</w> ἐς
+                          <lb n="15"/><persName type="divine" key="Pythios"><rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#itanos"><w lemma="Πύθιον">Πύθιον</w></rs></persName>, ἐχόντω δὲ καὶ αὐτοὶ <w lemma="ἀντίγραφον">ἀντίγραφ<lb 
+                        break="no" n="16"/>α</w>. αἰ δέ κα μὴ <w lemma="ὁρκόω">ὁρκώσωντι</w> τοὶ τόκα <rs type="institution" subtype="board" role="curse" key="archon" ref="#itanos"><w lemma="ἄρχων">ἄρχο<lb 
+                        break="no" n="17"/>ντες</w></rs> ἢ τὰν <w lemma="ἀρά">ἀρὰν</w> μὴ ποιήσωντι ἐν τῶι χ<lb 
+                        break="no" n="18"/>ρόνωι τῶι <w lemma="γράφω">γεγραμμένωι</w>, <w lemma="ἀποτίνω">ἀποτεισάντ<lb 
+                        break="no" n="19"/>ω</w> ἕκαστος τῶν τόκα <rs type="institution" subtype="board" role="fineable" key="archon" ref="#itanos"><w lemma="ἄρχων">ἀρχόντων</w></rs> ἑκατ<lb 
+                        break="no" n="20"/>ὸν <w lemma="δραχμά">δραχμὰς</w> τᾶι <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#itanos"><w lemma="πόλις">πόλει</w></rs>, φαινέτω δὲ ὁ χ<lb 
+                        break="no" n="21"/>ρήιζων ἐς τοὺς <rs type="institution" subtype="board" role="collecting_fines" key="logistes" ref="#itanos"><w lemma="λογιστάς">λογιστὰς</w></rs>, τοὶ δὲ <rs type="institution" subtype="board" role="collecting_fines" key="praktor" ref="#itanos"><w lemma="πράκτωρ">πρά<lb 
+                        break="no" n="22"/>κτορες</w></rs> <w lemma="ἐκπράσσω">ἐκπράξαντες</w> <w lemma="παραδίδωμι">παραδόντω</w>
+                          <lb n="23"/>τῶι <rs type="institution" subtype="official" role="collecting_fines" key="kosmos" ref="#itanos"><w lemma="κόσμος">κόσμωι</w> τῶι <w lemma="ἐφέρπω">ἐφέρποντι</w></rs>. εἰ δέ κα μὴ
+                          <lb n="24"/><w lemma="ἐκπράσσω">ἐκπράξωντι</w>, αὐτοὶ <w lemma="ἀποτίνω">ἀποτεισάντω</w> διπ<lb 
+                        break="no" n="25"/>λοῦν. ὃς δέ κα <rs type="institution" subtype="social_status" role="oath-taking" key="epidamos" ref="#itanos"><w lemma="ἐπίδαμος">ἐπίδαμος</w></rs> ἐὼν τῶν <rs type="institution" subtype="social_group" role="oath-taking" key="polites" ref="#itanos"><w lemma="πολίτας">πολ<lb 
+                        break="no" n="26"/>ιτᾶν</w></rs> μὴ λῆι <w lemma="ὀμνύω">ὀμόσαι</w> μὴ ἔστω <rs type="institution" subtype="social_status" role="exclusion" key="polites" ref="#itanos"><w lemma="πολίτας">πολίτας</w></rs>
+                          <lb n="27"/>ἀλλὰ ἐργέσθω καὶ <w lemma="θῖνος">θίνων</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίν<lb 
+                        break="no" n="28"/>ων</w>. ἐπεὶ δέ κα ὁ <w lemma="ὅρκος">ὅρκος</w> τελεσθῆι, τοὶ <rs type="institution" subtype="board" role="inscriber" key="archon" ref="#itanos"><w lemma="ἄρχων">ἄρχ<lb 
+                        break="no" n="29"/>οντες</w></rs> <w lemma="ἀνγράφω">ἀνγράψαντες</w> τὸν <w lemma="ὅρκος">ὅρκον</w> <w lemma="στάλα">ἐστ<lb 
+                        break="no" n="30"/>άλας</w> δύο <w lemma="τίθημι">θέντω</w> τὰμ μὲν πρὸ το͂ <persName type="divine" key="Pythios"><rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#itanos"><w lemma="Πύθιον">Πυθ<lb 
+                        break="no" n="31"/><supplied reason="lost">ίο</supplied></w></rs></persName> τὰν δὲ ἐν τῶι <persName type="divine" key="Asklepios"><rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#itanos"><w lemma="Ἀσκλαπιαῖον">Ἀσκλαπιαίωι</w></rs></persName>. <w lemma="ἄρχω">ἀρχέτ<lb 
+                        break="no" n="32"/>ω</w> δὲ ὁ <w lemma="ὅρκος">ὅρκος</w> ἐπὶ τοῦ νῦν <rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#itanos"><w lemma="κόσμος">κόσμο</w></rs>, τοὺς δ<lb 
+                        break="no" n="33"/>ὲ <rs type="institution" subtype="social_group" role="oath-taking" key="polites" ref="#itanos"><w lemma="πολίτας">πολίτας</w></rs> πάντας <w lemma="ἀπογράφω">ἀπογράψασθαι</w> πρὸ το͂
+                          <lb n="34"/><w lemma="ὅρκος">ὅρκο</w> <w lemma="πατριαστί">πατριαστὶ</w> ποτὶ τοὺς <rs type="institution" subtype="board" role="onlooker" key="kosmeter" ref="#itanos"><w lemma="κοσμητήρ">κοσμητῆρ<lb 
+                        break="no" n="35"/>ας</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto sembra aprirsi con una formula di sanzione nella quale vengno ricordate come responsabili della deliberazione la <foreign>boula</foreign> (?) e l’<foreign>ekklesia</foreign> di Itanos, come avviene anche in altri documenti analoghi della città (<ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2-4</ref>; cf. <bibl><ref target="#b791">Guarducci 1940-1941</ref>, p. 9</bibl>).</p>
+                    <p>L’oggetto del decreto prevede che i magistrati della città – indicati collettivamente con il termine <foreign>archontes</foreign>, come avviene anche in <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref> – facciano prestare assieme ai sacerdoti il giuramento conservato dall’iscrizione <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref> ai cittadini di Itanos e che i sacerdoti facciano pronunciare loro l’<foreign>ara</foreign> con cui augurare ogni bene a chi rispetta il giuramento, ogni male agli spergiuri (ll. 1-8). Nel caso in cui qualcuno dei cittadini non sia presente, i magistrati in carica sono tenuti a fargli prestare entro dieci giorni dal suo rientro lo stesso giuramento prestato da coloro che si trovavano in patria (ll. 12-13, ἐπίδαμοι, termine attestato anche in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>) e a scrivere i nomi e i patronimici di chi giura su una tavoletta (l. 13, λεύκωμα) da depositare nel <foreign>Pythion</foreign> della città, conservandone una copia per sé (ll. 8-16). La clausola alle linee 25-28, relativa invece ai cittadini che si trovano in città (l. 25, ἐπίδαμος), prevede che quanti di loro non vogliano prestare il giuramento vengano privati della cittadinanza di Itanos.</p>
+                    <p>La sezione alle linee 16-20 prevede per i magistrati che non obbligano a giurare o che non fanno pronunciare l’<foreign>ara</foreign> nei tempi previsti multe dall’importo di cento dracme da versare alla <foreign>polis</foreign> di Itanos; chiunque lo voglia può denunciare l’inadempienza ai <foreign>logistai</foreign>, funzionari non attestati altrove a Creta, i quali – dopo che i <foreign>praktores</foreign> (parimenti non noti altrove nell’isola) hanno riscosso le multe – sono tenuti a consegnare il denaro al collegio successivo dei cosmi (l. 23, κόσμωι); nel caso in cui i <foreign>praktores</foreign> non riscuotano quanto dovuto, sono a loro volta soggetti a multe dall’importo raddoppiato (ll. 20-25).</p>
+                    <p>La formula di esposizione, alle linee 28-31, prevede che, una volta pronunciato il giuramento, i magistrati lo facciano iscrivere su due stele da collocarsi rispettivamente nel <foreign>Pythion</foreign> e nell’<foreign>Asklepieion</foreign> di Itanos (noto quest’ultimo anche da <ref type="ins" target="#ic3_4_3"><title>IC</title> III 4 3</ref>). La clausola alle linee 31-35, infine, stabilisce che il giuramento debba essere prestato (ogni anno) a partire da quello in corso in cui è carica l’attuale collegio dei cosmi (l. 32, κόσμο) e che i nomi e patronimici dei cittadini che lo prestano vengano registrati presso i <foreign>kosmeteres</foreign>. Il termine <foreign>kosmeter</foreign>, attestato esclusivamente in documenti redatti ad Itanos, pare essere una variante locale equivalente al più diffuso <foreign>kosmos</foreign>, sostantivo che nella città è invece impiegato per designare l’intero collegio dei cosmi (cf. ll. 23 e 32 e <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2-4</ref>; nell’iscrizione <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref>, non redatta a Itanos, i suoi magistrati sono invece chiamati <foreign>kosmoi</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#archon"><foreign>archon</foreign></ref>, <ref type="inst" target="#boule"><foreign>boule</foreign></ref> (?), <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#epidamos"><foreign>epidamos</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmeter"><foreign>kosmeter</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#leukoma"><foreign>leukoma</foreign></ref>, <ref type="inst" target="#logistes"><foreign>logistai</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#praktor"><foreign>praktores</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b791">Guarducci 1940-1941</ref>, pp. 7-15</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 7 <ptr type="phi" target="200310"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 49 (ll. 25-35)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b750">Gschnitzer 1989</ref></bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 53</bibl>; 
+                            <bibl><ref target="#b1483">Parker 2005</ref>, p. 153</bibl>; 
+                            <bibl><ref target="#b1642">Rubinstein 2007</ref>, p. 283</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

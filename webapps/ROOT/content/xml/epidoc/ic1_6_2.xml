@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Biannos (rinnovo)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 6 2*</idno>
+                        <idno type="projectNo">215</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#biannos" type="ethnic">Βιαννίων</placeName>·
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#biannos"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#biannos" type="ethnic">Βιαννίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#biannos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#biannos"><w lemma="πόλις">πόλει</w></rs>. ἐπειδὴ <placeName ref="#teos" type="ethnic">Τήιοι</placeName> <w lemma="φίλος">φίλοι</w> καὶ <w lemma="συγγενής">συγγενεῖς</w>
+                          <lb n="4"/>ὑπάρχοντες διὰ <w lemma="πρόγονος">προγόνων</w> ψάφισ<lb 
+                        break="no" n="5"/>μα καὶ πρεγγευτὰς <w lemma="ἀποστέλλω">ἀπέστειλαν</w> <persName type="honoured" key="Herodotos f. Menodotos" ref="#teos"><name nymRef="Ἡρόδοτος">Ἡρό<lb 
+                        break="no" n="6"/>δοτον</name> <name nymRef="Μηνόδοτος" type="patronymic">Μηνοδότου</name></persName> καὶ <persName type="honoured" key="Menekles f. Dionysios" ref="#teos"><name nymRef="Μενεκλῆς">Μενεκλῆν</name> <name nymRef="Διονύσιος" type="patronymic">Διονυ<lb 
+                        break="no" n="7"/><supplied reason="lost">σίου</supplied></name></persName><supplied reason="lost">, οἱ δὲ ἐ</supplied>πελθόντες ἐπὶ τὸς <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#biannos"><w lemma="κόσμος">κόσμος</w></rs>
+                          <lb n="8"/>καὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#biannos"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs> διελέγησαν ἀκολού<lb 
+                        break="no" n="9"/>θως τοῖς ἐν τῶι ψαφίσματι κατακε<lb 
+                        break="no" n="10"/>χωρισμένοις, ἀποδεικνύοντες τὰν
+                          <lb n="11"/>πόλιν ὑπὸ τῶν <w lemma="πρόγονος">προγόνων</w> ἁμῶν κα<lb 
+                        break="no" n="12"/>θιερωμέναν τῶι <persName type="divine" key="Dionysos">Διονύσωι</persName> καὶ <w lemma="ἄσυλος">ἄσυλον</w> γε<lb 
+                        break="no" n="13"/>γενημέναν· διὸ καὶ <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#biannos"><w lemma="δοκέω">ἔδοξεν</w></rs> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#biannos"><w lemma="κόσμος">κόσμοις</w></rs>
+                          <lb n="14"/>καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#biannos"><w lemma="πόλις">πόλει</w></rs> τῶν <placeName ref="#biannos" type="ethnic">Βιαννίων</placeName> <w lemma="ἀποκρίνω">ἀποκρίνασ<lb 
+                        break="no" n="15"/>θαι</w> <placeName ref="#teos" type="ethnic">Τηίοις</placeName> διότι καὶ ἐν τοῖς πρότερον χρό<lb 
+                        break="no" n="16"/>νοις ἀπ’ οὐθενὸς ἀπέσταμεν τῶν συμ<lb 
+                        break="no" n="17"/>φερόντων ὑμῖν, καὶ νῦν δ’ ἐς τὰ <w lemma="παρακαλέω">παρα<corr>κ</corr>αλού<lb 
+                        break="no" n="18"/>μενα</w> ὑφ’ ὑμίων συνεμβάντες διά τε
+                          <lb n="19"/>τὰν <w lemma="συγγένεια">συγγένειαν</w> καὶ τὰν <w lemma="φιλία">φιλίαν</w> τὰν
+                          <lb n="20"/>προϋπάρχουσαν καὶ διὰ τὸν θεὸν ὧι
+                          <lb n="21"/>καθιέρωται ἅ τε πόλις καὶ χώρα ὑμί<lb 
+                        break="no" n="22"/>ων, <w lemma="ἀναγράφω">ἀναγράψομεν</w> δὲ τό τε πρότερον
+                          <lb n="23"/><rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#biannos"><w lemma="δόγμα">δόγμα</w></rs> <w lemma="στάλα">ἐστάλαι</w> λιθίναι καὶ <w lemma="ἀνατίθημι">ἀναθήσο<lb 
+                        break="no" n="24"/>μεν</w> ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#biannos">τοῦ <persName type="divine" key="Ares">Ἄρεος</persName> <w lemma="ἱερόν">ἱερὸν</w></rs>, ποιοῦμεν
+                          <lb n="25"/>δὲ ὑμᾶς καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopolites" ref="#biannos"><w lemma="ἰσοπολίτας">ἰσοπολίτας</w></rs> καὶ <w lemma="ἀτελής">ἀτελεῖς</w>
+                          <lb n="26"/>καὶ πολέμω καὶ εἰράνας. καὶ ἐάν τινες
+                          <lb n="27"/>ἐπὶ τὰν χώραν τὰν καθιερωμέναν
+                          <lb n="28"/>καὶ ἐπὶ τὰν πόλιν ἐπερχόμενοι <w lemma="πολεμέω">πολεμῶ<lb 
+                        break="no" n="29"/>σιν</w> ἢ ἀφαιρῶνταί τι ὑμῶν, <w lemma="βοαθέω">βοαθήσο<lb 
+                        break="no" n="30"/>μεν</w> καθότι ἂν ὦμεν δυνατοί· ἔν τε
+                          <lb n="31"/>τοῖς λοιποῖς πειρασόμεθα αἰεί τινος
+                          <lb n="32"/>ἀγαθῶ ὑμῖν παραίτιοι γίνεσθαι. <w lemma="ἐπαινέω">ἐπαι<lb 
+                        break="no" n="33"/>νοῦμεν</w> δὲ καὶ τοὺς πρεσβευτὰς
+                          <lb n="34"/>Ἡρόδοτον καὶ Μενεκλῆν ἐπὶ τῶι
+                          <lb n="35"/>σπεύδειν ὑπὲρ τᾶς <w lemma="πατρίς">πατρίδος</w> καὶ τὰ<supplied reason="lost">ν <w lemma="ἐνδαμία">ἐνδαμίαν</w> πεποιῆσθαι ἀ</supplied><lb 
+                        break="no" n="36"/>ξίως ἀμφοτερᾶν <corr>τᾶν</corr> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#biannos"><w lemma="πόλις">πολίων</w></rs>, ἐκαλέσα<supplied reason="lost">μεν δ’ αὐτοὺς ἐπὶ</supplied> <w lemma="ξενισμός"><supplied reason="lost">ξενισ</supplied><lb 
+                        break="no" n="37"/>μὸν</w> ἐς τὸ <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="prytaneion" ref="#biannos"><w lemma="πρυτανεῖον">πρυτανεῖον</w></rs> ἐπὶ τὰν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#biannos">κοινὰν <w lemma="ἑστία">ἑ<supplied reason="lost">στίαν</supplied></w></rs><supplied reason="lost">. εἶναι δὲ</supplied>
+                          <lb n="38"/>αὐτοὺς καὶ <surplus>τους</surplus> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#biannos"><w lemma="πρόξενος">προξένους</w></rs> <corr>τᾶς</corr> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#biannos"><w lemma="πόλις">πόλιος</w></rs> τᾶ<supplied reason="lost">ς <placeName ref="#biannos" type="ethnic">Βιαννίων</placeName>.</supplied> <rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#biannos"><supplied reason="lost">ἐπὶ</supplied>
+                          <lb n="39"/><w lemma="κόσμος">κόσμου</w> <persName type="attested" key="Dexios f. Glaukos"><name nymRef="Δέξιος">Δεξίου</name> τοῦ <name nymRef="Γλαῦκος" type="patronymic">Γλαύκου</name></persName></rs>, <w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Eleusinios" ref="#biannos"><w lemma="Ἐλευσίνιος">Ἐλε<supplied reason="lost">υσινίου</supplied></w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, che appartiene alla serie di documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), costituisce il rinnovo della concessione precedentemente accordata da Biannos (<ref type="ins" target="#ic1_6_2"><title>IC</title> I 6 2</ref>), alla quale si aggiunge il conferimento alla città microasiatica dell’<foreign>isopoliteia</foreign> e dell’<foreign>ateleia</foreign> (ll. 24-26). Oltre alle concessioni effettuate all’intera città di Teos, il decreto prevede inoltre il conferimento della prossenia agli ambasciatori teii, che vengono invitati come ospiti nel presso la <foreign>koina hestia</foreign> situata nel pritaneo (ll. 32-38).</p>
+                    <p>La formula di sanzione, alle linee 2-3 e poi ripetuta alle linee 13-14, è l’unica nota da Biannos e mostra i cosmi e la <foreign>polis</foreign> come responsabili della deliberazione. La <foreign>polis</foreign>, inoltre, viene menzionata anche alla linea 36 a proposito del comportamento degli ambasciatori teii, degno di entrambe le città, e alla linea 38 a proposito del conferimento di prossenia. I cosmi, invece, compaiono insolitamente assieme all’<foreign>ekklesia</foreign> alle linee 7-8 come istituzioni addette all’accoglienza degli ambasciatori; in tale contesto, infatti la menzione dei cosmi occorre solamente nel presente testo e in <ref type="ins" target="#ic1_8_12"><title>IC</title> I 8 12</ref>, mentre nella maggioranza delle città cretesi in connessione a tale funzione compare la sola <foreign>ekklesia</foreign> (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic1_27_1"><title>IC</title> I 27 1</ref>). Il cosmo eponimo Dexios figlio di Glaukos, inoltre, viene menzionato nella formula di datazione posta in calce al documento (ll. 38-39), assieme al mese <foreign>Eleusinios</foreign> (attestato anche ad Olous e a Gortyna).</p>
+                    <p>La formula di esposizione alle linee 22-24, relativa solamente al primo decreto emanato da Biannos a proposito dell’<foreign>asylia</foreign>, ne prevede la collocazione in un santuario di Ares (ll. 22-24; cf. <ref type="ins" target="#ic1_6_1"><title>IC</title> I 6 1</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#isopolites"><foreign>isopolites</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#eleusinios"><foreign>Eleusinios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> 77</bibl>; 
+                            <bibl><ref target="#b267">Cauer 1877</ref>, n. 62</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 63</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5183</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 6 2* <ptr type="phi" target="199079"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 18</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 156</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b435">Curty 1995</ref>, n. 43l</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

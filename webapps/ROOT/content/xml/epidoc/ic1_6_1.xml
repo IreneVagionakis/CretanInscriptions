@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Biannos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 6 1*</idno>
+                        <idno type="projectNo">214</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><supplied reason="lost"><placeName ref="#biannos" type="ethnic">Βιαννίων</placeName></supplied>
+                          <lb n="0a"/><gap reason="lost" extent="unknown" unit="line"/>
+                          <lb n="0b"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ τὰ λοιπὰ τὰ ὑπάρχοντα ὑμῖν ἔν</supplied><lb 
+                        break="no" n="1"/>δοξα καὶ <w lemma="τίμια">τίμια</w>, καὶ διαφ<supplied reason="lost">υ</supplied>λάξομεν ἀ<supplied reason="lost">προ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">φ</supplied>ασ<supplied reason="lost">ί</supplied>στως ἐφ’ ὅσο<supplied reason="lost">ν</supplied> κα <supplied reason="lost">ἴ</supplied>ωμεν δυνατοί· καὶ εἴ τι<lb 
+                        break="no" n="3"/>νες ἐγκαθορμιζόμενοι <placeName ref="#biannos">Βιαννόθεν</placeName> <w lemma="ἀδικέω">ἀδική<supplied reason="lost">σων</supplied><lb 
+                        break="no" n="4"/>τί</w> <supplied reason="lost">τι</supplied>να <placeName ref="#teos" type="ethnic">Τηίων</placeName> ἢ κοινῆ<corr>ι</corr> ἢ ἰδίαι παρὰ τὸ <w lemma="γράφω">γραφὲν</w> <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#biannos"><w lemma="δόγμα">δό<lb 
+                        break="no" n="5"/>γμα</w></rs> τᾶς <w lemma="ἀσυλία">ἀσυλίας</w> ὑπὸ τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#biannos"><w lemma="πόλις">πόλιος</w></rs> τᾶς <placeName ref="#biannos" type="ethnic">Βιαννί<lb 
+                        break="no" n="6"/>ων</placeName>, ἐξέστω τ<supplied reason="lost">ῶι</supplied> παραγενομέν<supplied reason="lost">ω</supplied>ι <placeName ref="#teos" type="ethnic"><supplied reason="lost">Τ</supplied>ηί<supplied reason="lost">ων</supplied></placeName> ἐπι<lb 
+                        break="no" n="7"/>λαβέσθαι καὶ <w lemma="σῶμα">σ<supplied reason="lost">ω</supplied>μάτων</w> καὶ <w lemma="χρήματα">χρήματ<supplied reason="lost">α</supplied></w><supplied reason="lost">, εἴ τί</supplied>ς κα
+                          <lb n="8"/>ἄγηι· οἱ δὲ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#biannos"><w lemma="κόσμος">κόσμοι</w></rs> οἱ τοκ’ ἀεὶ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#biannos"><w lemma="κοσμέω">κοσμίοντες</w></rs> <w lemma="ἀπαναγκάζω">ἐ<surplus>υ</surplus>παναγ<lb 
+                        break="no" n="9"/>καζόντων </w>ἀποδιδόμεν τὸς ἔχοντας, ἀζάμι<lb 
+                        break="no" n="10"/>οι ἐόντες καὶ ἀνυπόδικοι. <w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ κ<supplied reason="lost">αὶ</supplied>
+                          <lb n="11"/>τὸ <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#biannos"><w lemma="δόγμα">δόγμα</w></rs> τόδ’ ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#biannos"><w lemma="ἱαρόν">ἱαρὸν</w> τ<supplied reason="lost">ῶ</supplied> <persName type="divine" key="Ares">Ἄρεος</persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Del decreto, che appartiene alla serie di documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), si è conservata soltanto la sezione finale, contenente parte dell’oggetto della decisione.</p>
+                    <p>Sebbene non si siano conservate né la formula di sanzione né quella di mozione, l’espressione alle linee 4-6 riconduce la responsabilità della decretazione alla <foreign>polis</foreign>. I cosmi, invece, vengono indicati come l’autorità competente in caso di mancato rispetto di quanto stabilito, con il potere di obbligare la restituzione di quanto sequestrato (ll. 8-10).</p>
+                    <p>La formula di esposizione posta alla fine del documento, infine, prevede la collocazione del presente <foreign>dogma</foreign> in un santuario di  Ares (ll. 10-11; cf. <ref type="ins" target="#ic1_6_2"><title>IC</title> I 6 2</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1388">Naber 1852</ref>, n. 7</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 68c</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5174</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 6 1* <ptr type="phi" target="199078"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 8</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 146</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Phaistos per cittadini di Lappa</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 230</idno>
+                        <idno type="projectNo">325</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka">Agioi Deka, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Neandros" ref="#lappa"><name nymRef="Νέανδρος">Νέανδρ<supplied reason="lost">ο</supplied>ς</name></persName>, <persName type="honoured" key="Sosimonos" ref="#lappa"><name nymRef="Σωσίνομος">Σωσίνομ<supplied reason="lost">ος</supplied></name></persName>,
+                          <lb n="2"/><persName type="honoured" key="Sosos (2)" ref="#lappa"><name nymRef="Σῶσος">Σῶσος</name></persName> <placeName ref="#lappa" type="ethnic">Λαππαῖοι</placeName>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">Φαιστίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#phaistos"><w lemma="εὐεργέτας">εὐεργέτ<supplied reason="lost">αι</supplied></w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento – nonostante sia stato iscritto a Gortyna, verosimilmente nel <foreign>Pythion</foreign> – è uno dei due decreti onorari emanati da Phaistos ed è l’unico nel quale sia conferita l’<foreign>euergesia</foreign> agli individui ricordati (cf. <ref type="ins" target="#ic4_229"><title>IC</title> IV 229</ref>, anch’esso rinvenuto a Gortyna, nel quale è concessa invece la prossenia). Il presente decreto – come anche <ref type="ins" target="#ic4_229"><title>IC</title> IV 229</ref> – presenta una formulazione ellittica, nella quale l’unico riferimento presente alle realtà istituzionali legate alla sua emanazione consiste nella menzione dell’etnico collettivo Φαιστίων, indicante la collettività civica della <foreign>polis</foreign> di Phaistos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, p. 697 n. 136</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 230 <ptr type="phi" target="200672"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

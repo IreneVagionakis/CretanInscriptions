@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Olous per Romani</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.551</idno>
+                        <idno type="projectNo">431</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos</repository> 
+                                <idno type="invNo">1640</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base" cert="low">base?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="damiorgos" ref="#olous" cert="low">ἐπὶ <persName type="attested" key="Hiatrokles"><name nymRef="Ἰατροκλῆς">Ἰατροκλεῦς</name></persName></rs>, <persName type="honoured" key="Gnaios Tydikios Akylas f. Markos" ref="#rome"><name nymRef="Γναῖος">Γναῖον</name> <name nymRef="Τυδίκιος">Τυ<unclear>δ</unclear><supplied reason="lost">ί</supplied><lb 
+                        break="no" n="2"/>κιον</name> <name nymRef="Μᾶρκος" type="patronymic">Μά<corr>ρ</corr>κου</name> <corr>υ</corr>ἱὸν Ὁρατίᾳ <name nymRef="Ἀκύλας">Ἀκύλ<unclear>α</unclear></name></persName>
+                          <lb n="3"/>καὶ <persName type="honoured" key="Mego f. Dionysios" ref="#unknown"><name nymRef="Μεγώ">Μεγὼν</name> <name nymRef="Διονύσιος" type="patronymic">Διονυσίου</name></persName> τὴν <w lemma="γυνή">γυ<lb 
+                        break="no" n="4"/>ναῖκα</w> αὐτοῦ <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξεν<lb 
+                        break="no" n="5"/>οι</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολείτας">πολεῖται</w></rs> αὐτοὶ καὶ <w lemma="ἔγγονος">ἔγ<corr>γ</corr>ονοι</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, strutturato secondo una formulazione ellittica, si apre con una datazione eponimica nella quale viene ricordato il magistrato Iatrokles, del quale non è indicata la carica. Sulla base delle datazioni dei decreti <ref type="ins" target="#seg_23_548"><title>SEG</title> 23.548</ref>-<ref type="ins" target="#seg_23_549">549</ref> e della maggioranza dei documenti analoghi conservati sulla stele <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref>, è tuttavia molto probabile che l’individuo menzionato sia anch’esso un <foreign>damiorgos</foreign>.</p>
+                    <p>Il contenuto del decreto, esposto alle linee 1-5, conferisce a un individuo di origini romane e a sua moglie, assieme alla loro discendenza, sia la prossenia che la cittadinanza di Olous, come avviene anche nei documenti analoghi <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> III, VII e XI (oltre che in associazione all’<foreign>euergesia</foreign> in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> II, XII, XIII; la sola <foreign>politeia</foreign>, inoltre, compare come unica concessione in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> VIII).</p>
+                    <p>L’assenza di formule di sanzione o mozione che indichino i responsabili della deliberazione sembra in qualche modo essere compensata dalla menzione della comunità civica di Olous attraverso l’etnico collettivo Ὀλοντίων alla linea 4.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref> (?), <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b458">Davaras 1963</ref>, pp. 156-157 n. 10</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 23.551 <ptr type="phi" target="201748"/> <ptr type="seg" target="a23_551"/></bibl>); 
+                            <bibl><ref target="#b188">Bousquet 1964</ref>, pp. 614-615</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 85</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Definizione dei confini di Lato, Olous e Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 18</idno>
+                        <idno type="projectNo">451</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 87</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0112" notAfter="-0110">112-110 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ περιαππ</supplied>έτις ἇι αἱ
+                          <lb n="2"/><supplied reason="lost">στεφάναι κἠς Δανάπαρξον καὶ ἐς τὰν Αἴγυρον ἇι αἱ στεφάναι κἠς Παμφυρί</supplied>ασον ἐς τὰν
+                          <lb n="3"/><supplied reason="lost" cert="low"><rs type="institution" subtype="public_space" role="landmark" key="damosia_hodos" ref="#lato"><w lemma="ὁδὸς δαμοσία">ὁδὸν τὰν δαμοσίαμ</w></rs> ἐς τὰν λίμναν</supplied> <supplied reason="lost">κἠς τὸν Ἐπαθέντα κατὰ ῥάχιν ἐς Σ</supplied>υδάφνας
+                          <lb n="4"/><supplied reason="lost">τὰς ἄνω καὶ κατὰ ποταμὸν ἐς Κορδωίλαν καὶ ἀνράχιν ἐς Λαγινάπ</supplied>υτον ἐπὶ τὸ
+                          <lb n="5"/><supplied reason="lost">ἄντρον κἠς Καλλιόρασον ἐπὶ τὸ ἄντρον κἠς Μεταλλάπυτον ἐπὶ τὸ</supplied>ν ποταμὸν
+                          <lb n="6"/><supplied reason="lost">κἂν τὸν ῥόον ἐπὶ τὸ Στιώτιον καὶ τῶδε ἀνράχιν ἐπὶ τὸν Ἀκάμαντα</supplied>. τᾶς δὲ ποτ’ <placeName ref="#olous" type="ethnic">Ὀ<lb 
+                        break="no" n="7"/><supplied reason="lost">λοντίος</supplied></placeName> <supplied reason="lost">χώρας· ἀπὸ θαλάσσας ἐς Πλυμῶν’ ἀνράχιν ἐπὶ τὸ</supplied> <w lemma="ἀρχαῖος"><supplied reason="lost">ἀρχαῖ</supplied>ον</w> <rs type="institution" subtype="public_space" role="landmark" key="hieron" ref="#lato"><persName type="divine" key="Aphrodite"><w lemma="Ἀφροδίσιον">Ἀφροδίσιον</w></persName></rs>
+                          <lb n="8"/><supplied reason="lost">καὶ τούτω ὡς τῶ <placeName ref="#dera">Δεραίω</placeName> <w lemma="θῖνος">θίνω</w> τῶ <rs type="institution" subtype="public_space" role="landmark" key="temenos" ref="#dera"><w lemma="τεμένιος">τεμένιος</w></rs> οἱ <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#olous"><w lemma="ὅρος">ὅροι</w></rs> οἱ ἐς τὸν βορέαν ἔ</supplied>χοντες κἠς τὰν
+                          <lb n="9"/><supplied reason="lost">Αἰρεπὼ κἠς τὰν Προμενήτισσαν κἠπὶ τᾶς Καλολάκκας τὰν π</supplied>ερίβασιν κἠς Ἀρχε<lb 
+                        break="no" n="10"/><supplied reason="lost">λάρχαν ἐς τὰν δηράδα πὰρ τῶν πρίνων κἠς τὸν Ἀκά</supplied>μαντα καὶ νᾶσον Πυρ<lb 
+                        break="no" n="11"/><supplied reason="lost">ραν καὶ τὸν πορτιόντα σκόπελον καὶ τὰν χώρ</supplied><unclear>αν</unclear> τὰν Κρῆσαν <space extent="unknown" unit="character"/>
+                          <lb n="12"/><supplied reason="lost"><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#hierapytna"><w lemma="ὅρος">ὅροι</w></rs> τᾶς <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName> χωρας· ὡς ὁ Σέδαμνος περιαπ</supplied>πέτις ἐς Καρύμας ἐς
+                          <lb n="13"/><supplied reason="lost">τὰν δηράδα καὶ πέραν ἐς τὰν στεφάναν καὶ ὡς ἁ στεφάνα ἐ</supplied>ς Δορθόνναν ἐπὶ τ<supplied reason="lost">ὸν</supplied>
+                          <lb n="14"/><supplied reason="lost">λάκκον καὶ ὡς ἁ <w lemma="ὁδός">ὁδὸς</w> ποτὶ μεσανβρίαν τὰν <w lemma="ὁδός">ὁδὸν</w> τὰν ἀγο</supplied>σαν δι’ Ἀτ<supplied reason="lost">ρῶνα</supplied>
+                          <lb n="14a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che costituisce verosimilmente una sezione di un trattato, appartiene alla serie di iscrizioni relative ad uno scontro in corso fra Lato e Olous nell’ultimo ventennio del II secolo a.C. (<ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>; <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>; <ref type="ins" target="#ic1_16_18"><title>IC</title> I 16 18</ref>; cf. inoltre <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>).</p>
+                    <p>Il frammento, che conserva parte della descrizione dei confini dei territori di Lato, Olous e Hierapytna, è in buona parte integrabile sulla base delle due copie del trattato fra Lato e Olous <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>, che conservano l’intera definizione dei confini dei territori delle prime due città (rispettivamente ll. 51-72 e 104-170). La presente fissazione dei confini, che tra i numerosi punti di riferimento geografici indicati menziona una strada pubblica (l. 3), un antico <foreign>Aphrodision</foreign> (l. 7) e il santuario di Dera (l. 8), presenta tuttavia delle aggiunte rispetto a quanto incluso nel trattato fra le due città. Alle linee 10-11, infatti, la descrizione si estende anche alle aree direttamente interessate dalla decisione arbitrale di Knossos <ref type="ins" target="#chaniotis_54-56a">Chaniotis, <title>Verträge</title> 54/56a</ref>, ovvero l’isola di Pyrrha, l’isolotto antistante e il territorio di Kresa. Alle linee 12-14, invece, è presente una descrizione del confine del territorio di Hierapytna, noto in forma più completa dalla citazione che ne viene fatta in <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref> (ll. 59-67).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damosia_hodos"><foreign>damosia hodos</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#horos"><foreign>horos</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>.</p>
+                    </div>
+                    
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2065">Xanthoudidis 1908</ref>, pp. 212-217 n. 3</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1039 n. 23</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 18 <ptr type="phi" target="199226"/></bibl>; 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 164 VII</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 54/56e <ptr type="phi" target="201327"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b154">Bile 2008</ref>, p. 265</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

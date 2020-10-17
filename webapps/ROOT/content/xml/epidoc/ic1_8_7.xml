@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Knossos per un medico di Cos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 7*</idno>
+                        <idno type="projectNo">166</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#istambul_museum">Museo archeologico di Istambul</repository> 
+                                <idno type="invNo">1551</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">lettera contenente un decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#cos">Cos, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0218" notAfter="-0217" precision="low">218-217 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#knossos"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#cos" type="ethnic">Κώιων</placeName> τᾶι βωλᾶι καὶ τῶι δ<lb 
+                        break="no" n="2"/>άμωι <w lemma="χαίρω">χαίρειν</w>. ἐπειδὴ <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#gortyn"><w lemma="πρεσβεύω">πρεσβευσάντων</w> <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> πρ<lb 
+                        break="no" n="3"/>ὸς ὑμὲ ὑπὲρ ἰατροῦ καὶ ὑμῶν <w lemma="φιλοτίμως">φιλοτίμως</w> σπευσάντων
+                          <lb n="4"/>καὶ <w lemma="ἀποστέλλω">ἀποστειλάντων</w> αὐτοῖς <persName type="honoured" key="Hermias f. Emmenidas" ref="#cos"><name nymRef="Ἑρμίας">Ἑρμίαν</name></persName> ἰατρόν, <w lemma="στάσις">στάσιος</w> δ<lb 
+                        break="no" n="5"/>ὲ γενομένας ἐγ <placeName ref="#gortyn">Γόρτυνι</placeName> καὶ ἐλθόντων ἁμίων κατ<supplied reason="lost">ὰ</supplied>
+                          <lb n="6"/>τὰν <w lemma="συμμαχία">συμμαχίαν</w> ἐς τὰμ μάχαν τ<supplied reason="lost">ὰγ <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> γεν</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">ομένα</supplied>ν ἐν τᾶι <rs type="institution" subtype="public_space" role="war" key="polis" ref="#gortyn"><w lemma="πόλις">πό<supplied reason="lost">λει</supplied></w></rs><supplied reason="lost">, συνέ</supplied>βα τινὰς τῶμ <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="polites" ref="#knossos"><w lemma="πολίτας">πολι<supplied reason="lost">τᾶν</supplied></w></rs> <supplied reason="lost">καὶ τ</supplied><lb 
+                        break="no" n="8"/>ῶν <unclear>ἄλ</unclear>λων τῶν συνε<unclear>λ</unclear>θόντων παρ’ ἁμίων ἐπὶ <supplied reason="lost">τὰμ μά</supplied><lb 
+                        break="no" n="9"/>χαν τραυματίας τε γενέσθαι καὶ πλείους ἐκ τ<supplied reason="lost">ῶν</supplied>
+                          <lb n="10"/>τραυμάτων ἀρωστίαις οὐ ταῖς τυχούσαις π<supplied reason="lost">εριπε</supplied><lb 
+                        break="no" n="11"/>σεῖν, Ἑρμίας ὑπάρχων ἀγαθὸς ἀνὴρ τότε τε πᾶσ<supplied reason="lost">αν</supplied> <w lemma="σπουδά"><supplied reason="lost">σ</supplied><lb 
+                        break="no" n="12"/>πουδὰν</w> ἐποήσατο ὑπὲρ ἁμίων καὶ διέσωσε αὐτο<supplied reason="lost">ὺς ἐγ</supplied>
+                          <lb n="13"/>μεγάλων κινδύνων ἔν τε τοῖς λοιποῖς ἀπροφα<supplied reason="lost">σίστ</supplied><lb 
+                        break="no" n="14"/>ως διετέλει συναντῶν τοῖς <w lemma="παρακαλέω">παρακαλοῦσι</w> <supplied reason="lost">αὐτό</supplied><lb 
+                        break="no" n="15"/>ν, πάλιν τε γενομένας μάχας περὶ <placeName ref="#phaistos">Φαιστὸν</placeName> π<supplied reason="lost">ολλ</supplied><lb 
+                        break="no" n="16"/>ῶν τραυματιᾶν γενομένων κα<unclear>ὶ</unclear> ὡσαύτως πολλ<supplied reason="lost">ῶν κι</supplied><lb 
+                        break="no" n="17"/>νδυνευσάντων ἐν ταῖς ἀρωστίαις πᾶσαν <w lemma="σπουδά"><supplied reason="lost">σπου</supplied><lb 
+                        break="no" n="18"/>δὰν</w> ἐν ταῖς θεραπείαις ποιούμενος διέ<supplied reason="lost">σωσε αὐτοὺς</supplied>
+                          <lb n="19"/>ἐγ μεγάλων κινδύνων ἔν τε <supplied reason="lost">τοῖς λοιποῖς παρέχων</supplied>
+                          <lb n="20"/><supplied reason="lost">αὑτὸν</supplied> <w lemma="πρόθυμος"><supplied reason="lost">πρόθ</supplied>υμον</w> τ<supplied reason="lost">οῖς <w lemma="παρακαλέω">παρακαλοῦσι</w> αὐτὸν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="20a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento è l’unica epistola di Knossos di cui si conservano i saluti iniziali, indirizzati a Cos dai cosmi e dalla <foreign>polis</foreign>, che si presentano dunque in qualità di portavoce della collettività civica. Il decreto contenuto nella lettera, di cui sono pervenute solamente le motivazioni, è relativo al conferimento di onori al medico di Cos Hermias figlio di Emmenidas, onorato anche da Gortyna in <ref type="ins" target="#ic4_168"><title>IC</title> IV 168</ref>. Il medico, che svolgeva la propria professione presso Gortyna, che lo aveva richiesto a Cos mediante l’invio di un’ambasceria (ll. 2-4), in occasione di almeno due scontri ha prestato aiuto anche ai feriti di Knossos. In particolare, il documento fornisce la notizia di una battaglia combattuta nella città di Gortyna a seguito di una <foreign>stasis</foreign> da questa e dall’alleata Knossos (ll. 6-7), oltre che di uno scontro avvenuto nei pressi di Phaistos (l. 15). Il decreto, inoltre, informa del fatto che l’esercito di Knossos non era costituito solamente da cittadini, ma anche da «altri dei loro» (ll. 7-8), evidentemente individui che non detenevano la pienezza dei diritti civici.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b897">Herzog 1903</ref>, p. 11</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1043-1044 n. 36</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 528</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 7* <ptr type="phi" target="199125"/></bibl>; 
+                            <bibl><ref target="#bib514">Pouilloux, <title>Choix</title></ref> 16</bibl>; 
+                            <bibl><ref target="#b502">Detorakis 1990</ref></bibl>; 
+                            <bibl><ref target="#b1663">Samama 2003</ref>, n. 127</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII 4.247</bibl>;
+                            <bibl><ref target="#b1716">Sierra Martín 2014</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b53">Austin 1981</ref>, n. 124</bibl>; 
+                            <bibl><ref target="#b503">Detorakis 1995</ref></bibl>; 
+                            <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 75b</bibl>;
+                            <bibl><ref target="#b426">Cucuzza 1997</ref>, pp. 20-22</bibl>; 
+                            <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>; 
+                            <bibl><ref target="#b54">Austin 2006</ref>, n. 144</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

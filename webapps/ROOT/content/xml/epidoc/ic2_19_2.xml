@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica di Phalasarna ai <foreign>Theoi Megaloi</foreign> per Tolemeo III e Berenice II</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 19 2</idno>
+                        <idno type="projectNo">022</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents><summary corresp="#honorific_dedication">dedica votiva/onoraria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plaque">lastra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#phalasarna">Phalasarna</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0246" notAfter="-0221">246-221 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><supplied reason="lost">ὑ</supplied>πὲρ <persName type="ruler" key="Ptolemaios III" ref="#egypt"><w lemma="βασιλεύς">βασιλέως</w> 
+                        <lb n="2"/><name nymRef="Πτολεμαῖος"><unclear>Π</unclear>τολεμαίου</name></persName> καὶ
+                        <lb n="3"/><persName type="ruler" key="Berenike II" ref="#egypt"><w lemma="βασίλισσα"><unclear>β</unclear>ασιλίσσης</w> <name nymRef="Βερενίκη">Βερενίκης</name></persName>
+                        <lb n="4"/><w lemma="Θεός">Θεῶν</w> <w lemma="Εὐεργέτης">Εὐεργετῶν</w>
+                        <lb n="5"/><placeName ref="#phalasarna" type="ethnic">Φαλασαρνίων</placeName> ἡ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#phalasarna"><w lemma="πόλις">πόλις</w></rs>
+                        <lb n="6"/><persName type="divine" key="Theoi Megaloi">Θεοῖς Μεγάλοις</persName>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La dedica, iscritta in lettere particolarmente curate e risalente al periodo di regno di Tolemeo III (246-221 a.C.), assieme alle coeve dediche al sovrano da Eleutherna, <ref type="ins" target="#ic2_12_25"><title>IC</title> II 12 25</ref>, e forse Lappa, <ref type="ins" target="#ic2_16_11"><title>IC</title> II 16 11</ref>, fornisce una delle più antiche notizie di rapporti tra Creta occidentale e l’Egitto tolemaico, testimoniati poco più tardi anche dagli epitaffi alessandrini di cittadini di Phalasarna stessa (<ref type="ins" target="#seg_24_1177"><title>SEG</title> 24.1177</ref>) e della vicina Polyrrhenia (<ref type="ins" target="#seg_24_1185"><title>SEG</title> 24.1185</ref> del 229 a.C. e <ref type="ins" target="#sb_3999"><title>SB</title> 3999</ref>). Più cospicue e meno sporadiche sono invece le testimonianze di relazioni fra l’Egitto e Creta centrale (cf. <ref type="ins"><title>SEG</title> 38.918</ref>, <ref type="ins" target="#ic4_181"><title>IC</title> IV 181</ref>, <ref type="ins" target="#ic4_195">195</ref>, <ref type="ins">244</ref>, <ref type="ins" target="#ic4_176">176</ref>; <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 17-45</bibl>) e ancor più Creta orientale, dove i Tolemei stabiliscono un <foreign>phrourion</foreign> ad Itanos, del quale mantengono il controllo approssimativamente per tutta la durata della propria dinastia (cf. <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2-5</ref>, <ref type="ins" target="#ic3_4_9">9</ref>, <ref type="ins" target="#ic3_4_14">14</ref>, <ref type="ins" target="#ic3_4_18">18</ref>; <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl>).</p>
+                    <p>Fra le dediche cretesi occidentali ai re lagidi, questa è l’unica ad essersi conservata integralmente, restituendo quindi anche il nome del dedicante, in questo caso la <foreign>polis</foreign>. L’assemblea dei cittadini è l’unica entità politica di Phalasarna di cui si ha notizia, che peraltro è attestata con il nome di <foreign>polis</foreign> solamente in questa iscrizione: la collettività civica viene infatti identificata mediante l’etnico Φαλασάρνιοι nelle due copie del trattato fra la città e Polyrrhenia, <ref type="ins" target="#ic2_11_1"><title>IC</title> II 11 1</ref> e <ref type="ins" target="#seg_50_936"><title>SEG</title> 50.936</ref>. Nel formulario della dedica ai Tolemei, però, la città dedicante si trova nettamente in secondo piano rispetto ai destinatari diretti divini e a quelli indiretti umani: a questi ultimi sono infatti dedicate le prime quattro linee intere dell’epigrafe, che si chiude con la menzione dei primi. Incastonata fra la coppia regale ed i <foreign>Theoi Megaloi</foreign> compare la <foreign>polis</foreign>, preceduta dall’etnico collettivo Φαλασαρνίων e non accompagnata da alcun verbo di dedica.</p>
+                    <p>La lastra recante l’iscrizione dedicatoria doveva verosimilmente essere apposta sulla base di sostegno dell’oggetto dedicato, la raffigurazione scultorea dei sovrani tolemaici o dei <foreign>Theoi Megaloi</foreign>, da Margherita Guarducci identificati con i Cabiri, divinità minori originarie della Samotracia protettrici della navigazione. Gli Dèi Grandi, a cui i Tolemei sono devoti (cf. la dedica di Tolemeo II e Berenice ai <foreign>Theoi Megaloi</foreign> rinvenuta in Samotracia, <ref type="ins"><title>IG</title> XII 8 227</ref>), trovano in questa iscrizione la loro prima ed unica attestazione a Creta: è pertanto assai probabile che il loro culto sia arrivato sulle sponde cretesi per il tramite dei sovrani stessi.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 19 2 <ptr type="phi" target="200014"/></bibl>; 
+                    <bibl><ref target="#bib46"><title>EG</title></ref> II, pp. 147-148, fig. 32</bibl>; 
+                    <bibl><ref target="#b803">Guarducci 1987</ref>, pp. 156-157</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 11</bibl>; 
+                    <bibl><ref target="#b1009">Kotsidou 2000</ref>, n. 196</bibl>;
+                    <bibl><ref target="#b524">Mirizio 2017</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib401"><title>Axon</title></ref> 99 <ptr type="axon" target="99"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b848">Halbherr 1924</ref>, p. 96</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica di un ex <foreign>damiorgos</foreign> di Aptera a Hestia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 60.984</idno>
+                        <idno type="projectNo">036</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#chania_museum">Museo archeologico di Chania, deposito</repository>
+                        <idno type="invNo">E 61</idno>
+                    </msIdentifier>
+                    <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#altar">altarino</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="dedicatee" key="hestia" ref="#aptera"><w lemma="Ἑστία">Ἑστίαι</w></rs></persName>
+                        <lb n="2"/><rs type="institution" subtype="official" role="dedicant" key="damiorgos" ref="#aptera"><persName type="attested" key="Eteon f. Archetos"><name nymRef="Ἐτέων">Ἐτέων</name>
+                        <lb n="3"/><name nymRef="Ἄρχετος" type="patronymic">Ἀρχέτω</name></persName>
+                        <lb n="4"/><w lemma="δαμιοργέω">δαμιορ<lb 
+                        break="no" n="5"/>γήσας</w></rs>
+                        <lb n="6"/><w lemma="χαριστήριον">χαριστ<supplied reason="lost">ή</supplied><lb 
+                        break="no" n="7"/>ριον</w>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’oggetto votivo, per quanto trovato fuori contesto, è probabilmente da mettere in relazione con la κοινὰν ἑ[στίαν] in cui la città di Aptera invita gli ambasciatori teii ἐπὶ ξένια (<foreign>IC</foreign> II 3 2); le due testimonianze di una <foreign>hestia</foreign> rendono altamente probabile l’esistenza ad Aptera di un pritaneo o di un altro edificio pubblico sede del fuoco sacro della città e del relativo culto (cf. <bibl><ref target="#b1406">Niniou Kindeli 2006</ref>, pp. 33-37</bibl>; <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, pp. 1151-1152</bibl>).</p>
+                    <p>È interessante notare, inoltre, che la dedica alla divinità civica per eccellenza non è da parte di un privato cittadino, bensì di un ex magistrato. Il dedicante, infatti, si presenta come ex <foreign>damiorgos</foreign> ed è peraltro l’unico individuo ad aver ricoperto tale carica a Creta ad essere ricordato epigraficamente al di fuori di un contesto di datazione (cf. <ref type="ins" target="#ic2_23_7"><title>IC</title> II 23 7</ref>). Pur non svolgendo una funzione eponima, Eteon condivide con i colleghi di Creta occidentale – Polyrrhenia, Kydonia ed Aptera stessa – il fatto di comparire in un contesto solenne o sacro, come in questo caso, un ambito di azione che sembra dunque costituire la cifra comune dei <foreign>damiorgoi</foreign> dell’area.
+                    La menzione della funzione ricoperta da Eteon, inoltre, conferma l’esistenza della carica ad Aptera e rassicura sulla correttezza dell’attribuzione a entrambe le <foreign>poleis</foreign> dei <foreign>damiorgoi</foreign> eponimi ricordati nel prescritto del trattato fra Aptera e Kydonia (<ref type="ins" target="#seg_41_731"><title>SEG</title> 41.731</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Ed.</emph> <bibl><ref target="#b1269">Martínez Fernández 2010a</ref>, pp. 413-418</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 60.984 <ptr type="seg" target="a60_984"/></bibl>).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

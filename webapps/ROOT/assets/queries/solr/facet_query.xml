@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query q_fields="document_type" range_fields="origin_date">
+  <df default="true">text</df>
+  <q default="true">*</q>
+  <document_type>(epidoc)</document_type>
+  <facet>true</facet>
+  <facet.field>bibliographic_reference</facet.field>
+  <facet.field>period</facet.field>
+  <facet.field>area</facet.field>
+  <facet.field>provenance</facet.field>
+  <facet.field>current_location</facet.field>
+  <facet.field>inscription_type</facet.field>
+  <facet.field>support_type</facet.field>
+  <facet.field>mentioned_places</facet.field>
+  <facet.field>mentioned_divinities</facet.field>
+  <facet.field>mentioned_institutions</facet.field>
+  <facet.field>type_of_mentioned_institutions</facet.field>
+  <facet.field>sphere_or_role_of_mentioned_institutions</facet.field>
+  <facet.limit>-1</facet.limit>
+  <facet.mincount>1</facet.mincount>
+  <!-- facet.sort's value may be either "index" (alphabetic order of
+       value) or "count" (numeric order of count). -->
+  <facet.sort>index</facet.sort>
+  <!-- The number of rows returned by Solr at once (that is the number
+       displayed per page of results). -->
+  <rows default="true">600</rows>
+</query>

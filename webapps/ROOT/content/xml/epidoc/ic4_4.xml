@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna menzionante un <foreign>andreion</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 4</idno>
+                        <idno type="projectNo">239</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>retrograda</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0525">600-525 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>οπερ οἰ ἄλοι <g type="|"/> μὴ <w lemma="πρίαμαι">πρίασ<supplied reason="lost">θα</supplied>ι</w> <g type="|"/> μὴ ἀμεϝύσασθαι <g type="|"/> ὀζο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>τυτυι <g type="|"/> ἔτι δὲ ϙοῖρο<supplied reason="lost">ι <g type="|"/></supplied> τέτορες <g type="|"/> καὶ ϝαρὴν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">το͂</supplied>ι <w lemma="ὀμομότας">ὀμομόται</w> <g type="|"/> μὴ ἀ<unclear>π</unclear>ορηθῆμέν <g type="|"/> ποκα <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>τ</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig><unclear>α</unclear>ηι</orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>τ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/> ἐν <rs type="institution" subtype="public_space" role="commensality" key="andreion" ref="#gortyn" cert="low"><w lemma="ἀνδρήιον">ἀνδρήιοι</w></rs> <unclear>π</unclear>ι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="4"><note><unclear>π</unclear>ι<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib4"><title>IC</title></ref></bibl>; πί<supplied reason="lost">νεν</supplied> <bibl><ref target="#bib123"><title>Nomima</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Le quattro linee del frammento sembrano appartenere a prescrizioni differenti, relative rispettivamente ad acquisti (l. 1), sacrifici di animali (l. 2), giuramenti (l. 3) e <foreign>andreia</foreign> (l. 4). La menzione di un <foreign>andreion</foreign> offerta dal frammento costituisce la più antica attestazione del termine, che a Gortyna compare anche in una legge del V secolo a.C. (<ref type="ins" target="#ic4_75"><title>IC</title> IV 75</ref>). Il termine, utilizzato in senso spaziale, è possibile che sia impiegato nell’ambito della regolamentazione del consumo di vino, analogamente al divieto di bere eccessivamente imposto dalla legge di Eleutherna <ref type="ins" target="#seg_41_739"><title>SEG</title> 41.739</ref>, nella quale vi è un rimando ad una situazione di bevuta collettiva che verosimilmente doveva avere luogo negli <foreign>andreia</foreign>: è possibile dunque che la sequenza πι- alla fine della linea 4 sia integrabile in πί[νεν], come suggerito in <foreign>Nomima</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andreion"><foreign>andreion</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b378">Comparetti 1888a</ref>, pp. 203-205 nn. 53-54</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 24-26 nn. 12-13</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4964</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 4 <ptr type="phi" target="200439"/></bibl>; 
+                            <bibl><ref target="#bib46"><title>EG</title></ref> I, p. 184 n. 1</bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 61 (ll. 1-3)</bibl>; 
+                            <bibl><ref target="#b803">Guarducci 1987</ref>, pp. 58-59 n. 2</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 117</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 61</bibl>; 
+                            <bibl><ref target="#b1198">Marginesu 2005</ref>, n. 3</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G4</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

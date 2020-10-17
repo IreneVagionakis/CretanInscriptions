@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza (?) fra Axos e un’altra città</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 23</idno>
+                        <idno type="projectNo">134</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0225" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="0a"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μήτε</supplied>
+                          <lb n="1"/><supplied reason="lost">γᾶν φέρεν μήτε γυναῖκας</supplied> τίκ<supplied reason="lost">τε</supplied>ν κατὰ <w lemma="νόμος">νό<lb 
+                              break="no" n="2"/><supplied reason="lost">μον</supplied></w> <supplied reason="lost">μήτε πρ</supplied>όβ<unclear>ατα</unclear> <supplied reason="lost">τίκ</supplied>τεν κατὰ <w lemma="νόμος">νόμον</w>
+                          <lb n="3"/><supplied reason="lost">μήτ</supplied>ε νίκαν πολέ<supplied reason="lost">μ</supplied><unclear>ωι</unclear> εἶναι μήτ’ ἐν γᾶι μ<lb 
+                              break="no" n="4"/><supplied reason="lost">ήτ’ ἐν</supplied> θαλάτται, <w lemma="εὐορκέω">ε<supplied reason="lost">ὐο</supplied><unclear>ρ</unclear>κοῦσι</w> δὲ καὶ ποιοῦσ<lb 
+                              break="no" n="5"/><supplied reason="lost">ι κατὰ τ</supplied>ὰς <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#axos"><w lemma="συνθήκα">συνθήκα<supplied reason="lost">ς</supplied></w></rs> <supplied reason="lost">κα</supplied>ὶ γᾶν φέρεν καὶ <w lemma="γυνά">γυν<lb 
+                                  break="no" n="6"/><supplied reason="lost">αῖκας</supplied></w> <supplied reason="lost">τίκ</supplied><unclear>τ</unclear>εν κατὰ <w lemma="νόμος">ν<unclear>ό</unclear><supplied reason="lost">μο</supplied><unclear>ν</unclear></w> κ<supplied reason="lost">α</supplied>ὶ πρόβατα τίκτ<lb 
+                                      break="no" n="7"/><supplied reason="lost">εν κατὰ</supplied> <w lemma="νόμος"><supplied reason="lost">νό</supplied>μον</w> καὶ π<supplied reason="lost">ολέ</supplied>μο<unclear>υ</unclear> <supplied reason="lost">ν</supplied>ίκαν ἦμεν κα<lb 
+                                          break="no" n="8"/><supplied reason="lost">ὶ ἐν γᾶι κα</supplied>ὶ ἐν θαλ<unclear>ά</unclear><supplied reason="lost">ττ</supplied><unclear>αι</unclear>, ἐν <unclear>ὅ</unclear><supplied reason="lost">λ</supplied>οις καὶ ἄλλα
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀγα</supplied>θὰ κα<gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>οντων ἀγαθῶν.
+                          <lb n="10"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, di cui si conserva solo un frammento, è identificato come trattato dal riferimento alle <foreign>synthekai</foreign> presente alla linea 5. Nel breve testo ricorre quattro volte l’espressione κατὰ νόμον, che verosimilmente non allude alle leggi, ma sembra piuttosto da intendersi come «secondo natura» (cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 69</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 23 <ptr type="phi" target="199784"/></bibl>;
+                        <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 572</bibl>; 
+                        <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 16</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

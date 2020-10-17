@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Knossos (?) ed Eleutherna (giuramento)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 41.743</idno>
+                        <idno type="projectNo">103</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 130</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0250">300-250 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ωτων</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ταύρον και κριό</supplied>ν και κάπρ<supplied reason="lost">ον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τα ύ</supplied>περμηρίδια <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">. <w lemma="ὅρκος">ὅρκος</w></supplied>· ναι τον <persName type="divine" key="Zeus Agoraios">Ζή<supplied reason="lost">να τον</supplied> <rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#knossos"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#eleutherna"><w lemma="Ἀγοραῖος"><supplied reason="lost">Ἀγο</supplied><lb 
+                          break="no" n="6"/><supplied reason="lost">ραῖον</supplied></w></rs></rs></persName><supplied reason="lost">· ναι τον</supplied> <persName type="divine" key="Zeus Bidatas"><supplied reason="lost">Ζήνα τόμ Βιδά</supplied>ταν</persName>· ναι <supplied reason="lost">τον</supplied> <persName type="divine" key="Zeus Oratrios"><supplied reason="lost">Ζήνα τον</supplied>
+                          <lb n="7"/><supplied reason="lost">Όράτριον</supplied></persName><supplied reason="lost">· ναι τον</supplied> <persName type="divine" key="Zeus Thenatas"><supplied reason="lost">Ζήνα τό</supplied>ν Θενά<supplied reason="lost">ταν</supplied></persName><supplied reason="lost">·</supplied> <gap reason="lost" quantity="8" unit="character" precision="low"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">· ναι τ</supplied>ὰν <persName type="divine" key="Athena Polias">Ἀθαν<supplied reason="lost">αίαν τὰν Πο</supplied><lb 
+                          break="no" n="9"/><supplied reason="lost">λιάδα</supplied></persName><supplied reason="lost">· ναι τόμ</supplied> <persName type="divine" key="Poseidon">Ποτειδδ</persName>· ναι <supplied reason="lost">τον</supplied> <persName type="divine" key="Apollo Delphinios"><supplied reason="lost">Ἀπέλλωνα τον</supplied>
+                          <lb n="10"/><supplied reason="lost">Δελ</supplied>φίνιον</persName>· ναι τον <persName type="divine" key="Apollo Pytios">Ἀπέλλ<supplied reason="lost">ωνα τόμ Πύτιον</supplied></persName><supplied reason="lost">· ναί</supplied>
+                          <lb n="11"/><supplied reason="lost">τ</supplied>όν <persName type="divine" key="Apollo Bilkonios">Ἀπέλλωνα τόμ <placeName ref="#bilkon" type="ethnic">Βιλκώ<supplied reason="lost">νιον</supplied></placeName></persName><supplied reason="lost">· ναι τον</supplied> <persName type="divine" key="Apollo Sasthraios"><supplied reason="lost">Ἀπέλλ</supplied><lb 
+                          break="no" n="12"/>ωνα τον Σασθραῖον</persName>· ναι <supplied reason="lost">τὰν <persName type="divine" key="Artemis">Ἄρτεμιν</persName>· ναι τον</supplied>
+                          <lb n="13"/><persName type="divine" key="Ares">Ἄρεα</persName>· ναι τὰν <persName type="divine" key="Aphrodite">Ἀφορδίτ<supplied reason="lost">αν</supplied></persName><supplied reason="lost">· ναι τὰν <persName type="divine" key="Lato">Λατών</persName>· ναι τό</supplied><lb 
+                          break="no" n="14"/><supplied reason="lost">ν</supplied> <persName type="divine" key="Hermes"><supplied reason="lost">Ἑρμ</supplied><unclear>ᾶ</unclear>ν</persName>· ναι τον <persName type="divine" key="Helios"><supplied reason="lost">Ἅλιον</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Fra le numerose divinità invocate nel giuramento particolarmente significative sono Zeus Bidatas – venerato sul monte Ida – e Apollo <foreign>Bilkonios</foreign>, il cui culto ha sede nell’omonimo santuario, noto anche dal decreto <ref type="ins" target="#magnesia_40-41"><title>Magnesia</title> 40</ref>. L’epiteto di Zeus <foreign>Agoraios</foreign>, integrato alle linee 5-6 da Angelos Chaniotis, può essere verosimilmente considerato un indice dell’esistenza ad Eleutherna e/o Knossos di un’<foreign>agora</foreign> (cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>; cf. inoltre <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>, <ref type="ins" target="#ic2_6_1"><title>IC</title> II 6 1</ref>, <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref>, <ref type="ins" target="#ic4_171"><title>IC</title> IV 171</ref>, <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref>, <ref type="ins" target="#bile_8">Bile 8</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1929">Van Effenterre <foreign>et al.</foreign> 1991</ref>, pp. 26-30 n. 4</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 41.743 <ptr type="seg" target="a41_743"/></bibl>); 
+                            <bibl><ref target="#b306">Chaniotis 1995a</ref>, pp. 16-27 n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 45.1258 <ptr type="seg" target="a45_1258"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 130 <ptr type="thetima" target="e130"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b603">Faure 1993</ref>, pp. 70-71</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

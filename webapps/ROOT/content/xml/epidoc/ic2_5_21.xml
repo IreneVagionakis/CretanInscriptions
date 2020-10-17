@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Axos e Nicomede di Bitinia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 21</idno>
+                        <idno type="projectNo">135</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#axos">Axos, in due case</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due frammenti di una <objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0150" notAfter="-0100">150-100 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν πρὸ πλείονος <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="βοηθέω">βοηθεῖν</w> αὐ</supplied>τοὺς μετὰ π<supplied reason="lost">άσης</supplied> δυνά<supplied reason="lost">μεως</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied>ναχωρεῖν πιτ<gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ηι ισ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="ruler" key="Nikomedes II/III" ref="#bithynia"><w lemma="βασιλεύς">βασιλεῖ</w> <name nymRef="Νικομήδης">Νικομή<supplied reason="lost">δει</supplied></name></persName> <supplied reason="lost">κα</supplied>ὶ ἐκγόν<supplied reason="lost">οις</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ηντεπ</orig><gap reason="lost" extent="unknown" unit="character"/> <persName type="ruler" key="Nikomedes II/III" ref="#bithynia"><w lemma="βασιλεύς"><supplied reason="lost">βα</supplied>σιλεὺς</w> <name nymRef="Νικομήδης">Ν<unclear>ι</unclear><supplied reason="lost">κομήδης</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>να</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ν <persName type="ruler" key="Nikomedes II/III" ref="#bithynia"><w lemma="βασιλεύς" part="I">βασιλε<gap reason="lost" extent="unknown" unit="character"/></w></persName>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ιτου μη<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>εαν</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, seppur altamente frammentario, testimonia l’esistenza di accordi fra la città di Axos e un re Nicomede di Bitinia, probabilmente Nicomede II Epifane o Nicomede III Evergete (cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 67</bibl>). L’espressione alla linea 2 porta a pensare ad un trattato di alleanza, in quanto il re promette di aiutare (?) gli abitanti di Axos con tutte le proprie forze.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: nessuno nello specifico.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 743-744 n. 198 (fr. sinistro)</bibl>;
+                            <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 547-548 n. 94 (fr. destro)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 21 <ptr type="phi" target="199782"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

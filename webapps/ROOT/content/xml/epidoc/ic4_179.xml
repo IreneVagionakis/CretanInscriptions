@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trattato di alleanza fra Eumene II e trentun città cretesi</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC IV 179</idno>
+                        <idno type="projectNo">572</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository>
+                        <idno type="invNo">85</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                            <origDate period="#hellenistic" when="-0183">183 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">         
+                <div type="textpart" subtype="fragment" n="A">
+                <ab>
+                        <lb n="1"/>ἀγαθῆι <w lemma="τύχη">τύχηι</w>. ἐπὶ τοῖσδε <w lemma="συντίθημι">συνέθεντο</w> τὴμ <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="συμαχία">συμα<lb 
+                        break="no" n="2"/>χίαν</w> ἑαυτοῖς τε καὶ ἐκγόνοις εἰς ἅπαντα τὸν χρόνον <space quantity="1" unit="character"/> <persName type="ruler" key="Eumenes II" ref="#pergamon"><w lemma="βασιλεύς">βασι<lb 
+                        break="no" n="3"/>λεὺς</w> <name nymRef="Εὐμένης">Εὐμένης</name></persName> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="koinon_ton_KretaieonE" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></rs>· <space quantity="1" unit="character"/> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">Φαίστιοι</placeName></rs>,
+                        <lb n="4"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lyttos"><placeName ref="#lyttos" type="ethnic">Λύττιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhaukos"><placeName ref="#rhaukos" type="ethnic">Ῥαύκιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic">Ἱεραπύτνιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθερναῖοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera"><placeName ref="#aptera" type="ethnic">Ἀπταραῖοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#polyrrhenia"><placeName ref="#polyrrhenia" type="ethnic">Πολυρ<lb 
+                        break="no" n="5"/>ρήνιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Συβρίτιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lappa"><placeName ref="#lappa" type="ethnic">Λαππαῖοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#axos"><placeName ref="#axos" type="ethnic">Ἄξιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#priansos"><placeName ref="#priansos" type="ethnic">Πριανσιέες</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#allaria"><placeName ref="#allaria" type="ethnic">Ἀλλαριῶται</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#arkades"><placeName ref="#arkades" type="ethnic">Ἀρ<lb 
+                        break="no" n="6"/><supplied reason="lost">κ</supplied>άδες</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#keraia"><placeName ref="#keraia" type="ethnic">Κεραῖται</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#praisos"><placeName ref="#praisos" type="ethnic">Πραίσιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic">Λάτιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#biannos"><placeName ref="#biannos" type="ethnic">Βιάννιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#malla"><placeName ref="#malla" type="ethnic">Μαλλαῖοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#erannos"> <placeName ref="#erannos" type="ethnic">Ἐρώνιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#chersonesos"><placeName ref="#chersonesos" type="ethnic">Χερ<lb 
+                        break="no" n="7"/><supplied reason="lost">σ</supplied>ονάσιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#apollonia"><placeName ref="#apollonia" type="ethnic">Ἀπολλωνιᾶται</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#elyros"><placeName ref="#elyros" type="ethnic">Ἐλύριοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#hyrtakina"><placeName ref="#hyrtakina" type="ethnic">Ὑρτακίνιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eltynia"><placeName ref="#eltynia" type="ethnic">Ἐλτυναιεῖς</placeName></rs>,<rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#anopolis"><placeName ref="#anopolis" type="ethnic"> Ἀνω<lb 
+                        break="no" n="8"/><supplied reason="lost">πο</supplied>λῖται</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#araden"><placeName ref="#araden" type="ethnic">Ἠραδήννιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#istron"><placeName ref="#istron" type="ethnic">Ἰστρώνιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera8"><placeName ref="#tarrha" type="ethnic">Ταρραῖοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lissos"><placeName ref="#lissos" type="ethnic"><supplied reason="lost" cert="low">Λίσσ</supplied><unclear>ιοι</unclear></placeName></rs>, ὡς μὲν
+                        <lb n="9"/><persName type="ruler" key="Eumenes II" ref="#pergamon"><supplied reason="lost">βα</supplied>σιλεὺς <name nymRef="Εὐμένης">Εὐμένης</name></persName> ἄγει, ἔτους <space quantity="1" unit="character"/> τετάρτου καὶ δεκάτου, μηνὸς
+                        <lb n="10"/><supplied reason="lost">Π</supplied>ανήμου, ὡς δὲ <placeName ref="#crete" type="ethnic">Κρηταεῖς</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">κοσμούν<corr>των</corr></w> ἐν <placeName ref="#gortyn">Γόρτυνι</placeName> τῶν σὺν <persName type="attested" key="Sa-"><name nymRef="Σα-">Σα<lb 
+                        break="no" n="10a"/><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="fragment" n="B">
+                <ab>
+                        <lb n="10b"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>ενα <supplied reason="lost">ὅσα</supplied> <persName type="ruler" key="Eumenes II" ref="#pergamon"><w lemma="βασιλεύς">βασιλε<unclear>ὺ</unclear>ς</w> <name nymRef="Εὐμένης">Εὐμέ<unclear>ν</unclear>ης</name></persName> <w lemma="ὁμολογέω">ὡμολόγησεν</w>· καὶ
+                        <lb n="12"/><supplied reason="lost">ἂν χρείαν</supplied> ἔχωσι <unclear>π</unclear><supplied reason="lost">ρὸ</supplied>ς τοὺς συνισταμένους πολέμους
+                        <lb n="13"/><supplied reason="lost">ἢ</supplied> <w lemma="σύμμαχος"><supplied reason="lost">συμμάχ</supplied>ων</w> ἢ σίτου ἢ ὅπλ<supplied reason="lost">ω</supplied><corr>ν</corr> ἢ βελῶ<supplied reason="lost">ν</supplied>, συναντιλήψεσθαι
+                        <lb n="14"/><supplied reason="lost">τούτων</supplied> <w lemma="ἱππεύς"><supplied reason="lost">χἰ</supplied>ππεῖς</w> <w lemma="ἀποστέλλω">ἀποστέλλειν</w> οἷς τ<supplied reason="lost">ὰ</supplied> <w lemma="ὀψώνιον"><supplied reason="lost">ὀ</supplied>ψώνια</w> δώσειν <supplied reason="lost">ὅ</supplied>σον
+                        <lb n="15"/><supplied reason="lost">ἂν χρόνον</supplied> τὴγ χρείαν παρέχωντα<supplied reason="lost">ι</supplied>· τῶν δ’ ἐπὶ τὴν <w lemma="βοήθεια">βοήθ<unclear>ε</unclear><supplied reason="lost">ι</supplied><lb 
+                        break="no" n="16"/><supplied reason="lost">αν</supplied></w> <supplied reason="lost">συλλεγ</supplied>ομένων οἱ μὲν <corr>ἐλθ</corr>όντες πρὸς <persName type="ruler" key="Eumenes II" ref="#pergamon"><w lemma="βασιλεύς">βασιλέα</w> <name nymRef="Εὐμένης">Εὐμέ<lb 
+                        break="no" n="17"/><supplied reason="lost">νη</supplied></name></persName> <supplied reason="lost">καὶ</supplied> <w lemma="ἔκγονος"><supplied reason="lost">ἐκ</supplied>γόνους</w> αὐτοῦ ὑπήκοοι ἔστωσαν τούτων καθ’ <rs type="institution" subtype="object" role="treaty-making" key="homologia" ref="#koinon_kretaieon"><w lemma="ὁμολογία">ὁ<lb 
+                        break="no" n="18"/><supplied reason="lost">μολογίαν</supplied></w></rs> <supplied reason="lost">ὡς ἂ</supplied>ν οὗτοι <unclear>π</unclear><supplied reason="lost">ρο</supplied>στά<supplied reason="lost">ξωσι</supplied>ν, οἱ δ’ εἰς <placeName ref="#crete">Κρήτην</placeName> τῶν <w lemma="ἡγέομαι">ἡγου<lb 
+                        break="no" n="19"/><supplied reason="lost">μένων</supplied></w> <supplied reason="lost">τῶν</supplied> <placeName ref="#crete" type="ethnic"><supplied reason="lost">Κρητα</supplied>ιέων</placeName>· ὅσοι δ’ <supplied reason="lost">ἂν ἀ</supplied>πειθῶσι τῶμ <w lemma="παραγγέλλω">παραγ<lb 
+                        break="no" n="20"/><supplied reason="lost">γελλομένων</supplied></w> <supplied reason="lost">ὑπὸ</supplied> <persName type="ruler" key="Eumenes II" ref="#pergamon"><w lemma="βασιλεύς"><unclear>βα</unclear>σιλέ<supplied reason="lost">ως</supplied></w> <supplied reason="lost"><name nymRef="Εὐμένης">Εὐμένους</name></supplied></persName> <unclear>κ</unclear><supplied reason="lost">αὶ</supplied> τῶν <w lemma="ἔκγονος">ἐκγόνων</w>
+                        <lb n="21"/><supplied reason="lost">καὶ τῶν <rs type="institution" subtype="official" role="war" key="hegemon" ref="#koinon_kretaieon"><w lemma="ἡγέομαι">ἡγουμένων</w> τῶν <placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></rs>,</supplied> <w lemma="ἀποτίνω"><supplied reason="lost">ἀπο</supplied>τινέτωσαν</w>
+                        <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/>ε<supplied reason="lost">ι</supplied>ς τῆς <w lemma="βοήθεια">βοηθείας</w>
+                        <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="δραχμά"><supplied reason="lost">δραχμ</supplied>ὰ<unclear>ς</unclear></w> τριακοσί<lb 
+                        break="no" n="24"/><supplied reason="lost">ας</supplied> <gap reason="lost" extent="unknown" unit="character"/>θω
+                        <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied>πολυθῶσι
+                        <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="βοήθεια" part="I" cert="low"><supplied reason="lost">βοη</supplied>θεια</w>
+                        <lb n="26a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="11"><note><gap reason="lost" extent="unknown" unit="character"/>ενα <bibl><ref target="#bib4"><title>IC</title></ref></bibl>; <supplied reason="lost">πάντα κεκυρωμ</supplied>ένα <bibl><ref target="#b541">Dunst</ref></bibl>.</note></app>
+                    <app loc="12"><note><supplied reason="lost">ἂν χρείαν</supplied> ἔχωσι <unclear>π</unclear><supplied reason="lost">ρό</supplied>ς <bibl><ref target="#bib4"><title>IC</title></ref></bibl>; <supplied reason="lost">ὧν ἂν χρείαν</supplied> ἔχωσιν <supplied reason="lost">εἰ</supplied>ς <bibl><ref target="#b541">Dunst</ref></bibl>.</note></app>
+                    <app loc="16"><note><supplied reason="lost">αν συλλεγ</supplied>ομένων <bibl><ref target="#bib4"><title>IC</title></ref></bibl>; <supplied reason="lost">ἀποστελλ</supplied>ομένων <bibl><ref target="#b541">Dunst</ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>Il trattato fra Eumene II ed i <foreign>Kretaieis</foreign> è l’unico documento di tale natura noto ad essere stato stipulato dal <foreign>koinon</foreign> cretese, di cui vengono elencati tutti i membri alle linee 3-8 (Kydonia, assente dal trattato, sottoscrive invece un accordo separato con il re negli stessi anni; cf. <ref type="lit" target="#PolybXXVIII">Polyb. XXVIII 15</ref>). Le trentun <foreign>poleis</foreign>, nessuna delle quali è indicata come prominente rispetto alle altre, sono menzionate in un ordine che non è né geografico né apparentemente gerarchico, nel quale potrebbe forse essere rispecchiata la sequenza con cui le città sono entrate a far parte del <foreign>koinon</foreign> o con cui hanno deciso nello specifico di aderire al trattato. Sebbene le città sembrino dunque trovarsi su un piano egualitario, Gortyna occupa tuttavia una posizione di rilievo – nella stipulazione degli accordi e nel <foreign>koinon</foreign> – in quanto è il suo cosmo eponimo Sa- ad essere menzionato nella formula di datazione cretese (l. 10).</p>
+                    <p>Il documento, che sembra nascere dalla necessità di Eumene di assicurarsi un sostegno bellico nel momento successivo alla pace di Apamea e al consolidamento del nuovo regno in cui si appresta ad ampliarne i confini muovendo guerra a Farnace I del Ponto (cf. <bibl><ref target="#b112">Bencivenni 2010</ref>, pp. 149-150</bibl>), presenta alle linee 11-26 disposizioni dettagliate relative alla fornitura reciproca di aiuti militari fra le due parti, che comportano in particolare l’invio di cavalieri (l. 14) e informano dell’autorità militare detenuta a Creta dagli <foreign>hegemones</foreign> del <foreign>koinon</foreign> (ll. 18-19 e forse 21; sui soldati cretesi negli eserciti dei sovrani attalidi cf. <bibl><ref target="#b470">De Callataÿ 2013</ref>, p. 213</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hegemon"><foreign>hegemon</foreign></ref>, <ref type="inst" target="#homologia"><foreign>homologia</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref><hi rend="superscript">e</hi> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b839">Halbherr 1889</ref>, pp. 37-41, tav. V (A)</bibl>; 
+                <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 26 (A)</bibl>; 
+                <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 288 (A)</bibl>; 
+                <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 308-312 (B, ll. 1-21)</bibl>; 
+                <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 627</bibl>; 
+                <bibl><ref target="#b1339">Van der Mijnsbrugge 1943</ref>, pp. 23-24 (A)</bibl>; 
+                <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 179 <ptr type="phi" target="200618"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 22</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> pp. 55-57 n. 2.15</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> III p. 232</bibl>; 
+                    <bibl><ref target="#b541">Dunst 1956</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 16.534</bibl>).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

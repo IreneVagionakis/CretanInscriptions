@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Giuramento di Itanos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 8</idno>
+                        <idno type="projectNo">524</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">58</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#oath">giuramento</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0270">inizi III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θεός"><supplied reason="lost">θε</supplied>ὸς</w> ἀγαθός.
+                          <lb n="2"/><supplied reason="lost">τά</supplied><unclear>δ</unclear>ε <w lemma="ὀμνύω">ὤμοσαν</w> τοὶ <rs type="institution" subtype="social_group" role="oath-taking" key="polisE" ref="#itanos"><placeName ref="#itanos" type="ethnic">Ἰτάνιοι</placeName></rs> πά<supplied reason="lost">ν</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">τες</supplied> <persName type="divine" key="Zeus Diktaios">Δία <placeName ref="#dictaeum_fanum" type="ethnic">Δικταῖον</placeName></persName> καὶ <persName type="divine" key="Hera">Ἥραν</persName> καὶ <w lemma="θεός">θ<lb 
+                        break="no" n="4"/><supplied reason="lost">εο</supplied>ὺς</w> τοὺς ἐν <placeName ref="#dictaeum_fanum">Δίκται</placeName> καὶ <persName type="divine" key="Athena Polias">Ἀθαν<lb 
+                        break="no" n="5"/><supplied reason="lost">α</supplied>ίαν Πολιάδα</persName> καὶ <w lemma="θεός">θεοὺς</w> ὅσσο<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">ς</supplied> ἐν <persName type="divine" key="Athena">Ἀθαναίαι</persName> <w lemma="θύω">θύεται</w> π<unclear>ά</unclear>ντας
+                          <lb n="7"/><supplied reason="lost">κ</supplied>αὶ <persName type="divine" key="Zeus Agoraios">Δία <rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#itanos"><w lemma="Ἀγοραῖος">Ἀγοραῖον</w></rs></persName> καὶ <persName type="divine" key="Apollo Pythios">Ἀπόλλω<lb 
+                        break="no" n="8"/><supplied reason="lost">ν</supplied><unclear>α</unclear> Πύθιον</persName> καθ’ <w lemma="ἱερόν">ἱερῶν</w> νεοκαύ<lb 
+                        break="no" n="9"/><supplied reason="lost">τ</supplied>ων· <rs type="institution" subtype="social_group" role="defense" key="polis" ref="#itanos"><w lemma="πόλις">πόλιν</w></rs> τὰν <placeName ref="#itanos" type="ethnic">Ἰτανίων</placeName> οὐ πρ<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="10"/><supplied reason="lost">δ</supplied>ωσέω, οὐδὲ χώραν οὐδὲ <w lemma="νᾶσος">νά<lb 
+                        break="no" n="11"/><supplied reason="lost">σ</supplied>ου<supplied reason="lost">ς</supplied></w> <unclear>τ</unclear>ὰς τῶν <placeName ref="#itanos" type="ethnic"><supplied reason="lost">Ἰ</supplied><unclear>τ</unclear>ανίων</placeName>, οὐδὲ
+                          <lb n="12"/><supplied reason="lost">πολ</supplied><unclear>εμ</unclear>ίους ἐπαξέω, οὐδὲ ναῦ<supplied reason="lost">ς</supplied>
+                          <lb n="13"/><supplied reason="lost">τὰς</supplied> <unclear>τ</unclear>ῶν <placeName ref="#itanos" type="ethnic">Ἰτανίων</placeName> προδωσέω,
+                          <lb n="14"/><supplied reason="lost">οὐδὲ</supplied> τῶν <rs type="institution" subtype="social_group" role="defense" key="polites" ref="#itanos"><w lemma="πολίτας">πολιτᾶν</w></rs> προδωσέω
+                          <lb n="15"/><supplied reason="lost">οὐδέν</supplied>α, οὐδὲ <w lemma="χρήματα">χρήματα</w> <rs type="institution" subtype="social_group" role="defense" key="polites" ref="#itanos"><w lemma="πολίτας">πολιτ<lb 
+                        break="no" n="16"/><supplied reason="lost">ᾶν</supplied></w></rs><supplied reason="lost">, ο</supplied>ὐ<unclear>δ</unclear>ὲ σύλλογον οὐδὲ συνωμο<lb 
+                        break="no" n="17"/><supplied reason="lost">σίαν</supplied> ποιησέω ἐπὶ τῶι κακίονι τ<supplied reason="lost">ᾶ</supplied><lb 
+                        break="no" n="18"/><supplied reason="lost">ς</supplied> <rs type="institution" subtype="social_group" role="defense" key="polis" ref="#itanos"><w lemma="πόλις"><supplied reason="lost">πόλ</supplied>ιος</w></rs> ἢ τῶν <rs type="institution" subtype="social_group" role="defense" key="polites" ref="#itanos"><w lemma="πολίτας">πολιτᾶν</w></rs>, οὐδὲ ἄλ<lb 
+                        break="no" n="19"/><supplied reason="lost">λω</supplied><unclear>ι</unclear> σ<unclear>υ</unclear>νεσσ<unclear>έ</unclear>ομαι οὐδενί, αἴ τί<supplied reason="lost">ς</supplied>
+                          <lb n="20"/><supplied reason="lost">κα χ</supplied>ρήιζηι τούτων τ<supplied reason="lost">ι π</supplied>οιεῖν, ἀ<unclear>λ</unclear><lb 
+                        break="no" n="21"/><supplied reason="lost">λ’</supplied> ἐρέω ποτὶ τοὺς <rs type="institution" subtype="board" role="judicial_procedure" key="archon" ref="#itanos"><w lemma="ἄρχων">ἄρχοντας</w></rs>· οὐ<lb 
+                        break="no" n="22"/><supplied reason="lost">δὲ γᾶς</supplied> ἀναδασμὸν οὐδὲ οἰκιᾶν
+                          <lb n="23"/><supplied reason="lost">οὐδὲ</supplied> <unclear>ο</unclear>ἰκοπέδων, οὐδὲ χρεῶν ἀ<lb 
+                        break="no" n="24"/><supplied reason="lost">ποκ</supplied><unclear>οπ</unclear>ὰν ποιησέω, οὐδὲ <rs type="institution" subtype="practice" role="judicial_procedure" key="dika_xenika" ref="#itanos"><w lemma="δίκα ξενικά">δίκαν ἐ<lb 
+                        break="no" n="25"/><supplied reason="lost">παξέ</supplied>ω ξ<unclear>ε</unclear>νικὰ<unclear>ν</unclear></w></rs> τῶν <rs type="institution" subtype="social_group" role="defense" key="polites" ref="#itanos"><w lemma="πολίτας">πολιτᾶ<unclear>ν</unclear></w></rs>
+                          <lb n="26"/><supplied reason="lost">οὐδε</supplied><unclear>ν</unclear>ὶ ἐριθεο<unclear>τὰ</unclear>ν παρεορέσι ο<unclear>ὐ</unclear><lb 
+                        break="no" n="27"/><supplied reason="lost">δεμι</supplied>ᾶι. οὐ<unclear>δ</unclear>ὲ βουλευσέω περὶ τ<unclear>ᾶ</unclear><lb 
+                        break="no" n="28"/><supplied reason="lost">ς</supplied> <rs type="institution" subtype="social_group" role="defense" key="polis" ref="#itanos"><w lemma="πόλις"><supplied reason="lost">πόλ</supplied>ιος</w></rs> κακὸν οὐδέν, <rs type="institution" subtype="social_status" role="belonging" key="polites" ref="#itanos"><w lemma="πολιτεύω">πολιτεο<lb 
+                        break="no" n="29"/><supplied reason="lost">σέομ</supplied>αι</w></rs> δὲ ἐπ’ ἴσαι καὶ ὁμοίαι κ<unclear>α</unclear>ὶ <w lemma="θῖνος">θί<supplied reason="lost">ν</supplied><lb 
+                        break="no" n="30"/><supplied reason="lost">ων</supplied></w> <supplied reason="lost">κ</supplied>αὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w> πάντων κ<unclear>α</unclear><lb 
+                        break="no" n="31"/><supplied reason="lost">τὰ τ</supplied>οὺς <rs type="institution" subtype="object" role="law" key="nomos" ref="#itanos"><w lemma="νόμος">νόμους</w></rs> τοὺς προϋπ<unclear>ά</unclear><lb 
+                        break="no" n="32"/><supplied reason="lost">ρχ</supplied>οντας ὅσσοις χρεώμεθα πε<supplied reason="lost">ρὶ</supplied>
+                          <lb n="33"/><supplied reason="lost">τὰ</supplied> <w lemma="θῖνος">θῖνα</w> καὶ τοὺς νῦν <w lemma="τίθημι">ἐθέμεθα</w> κ<supplied reason="lost">αἴ</supplied>
+                          <lb n="34"/><supplied reason="lost">κά</supplied> τινας ἄλλους ὕστερον <w lemma="τίθημι">θεώ<lb 
+                        break="no" n="35"/><supplied reason="lost">μ</supplied><unclear>ε</unclear>θα</w> ἢ πε<supplied reason="lost">ρὶ τὰ</supplied> <gap reason="lost" quantity="4" unit="character"/> ἢ περὶ τὰ <w lemma="πολιτικός">πολ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="36"/><supplied reason="lost">τι</supplied><unclear>κ</unclear>ά</w>· καὶ ο<corr>ὐ</corr> πρ<supplied reason="lost">ολειψέ</supplied><unclear>ω</unclear> <unclear>τ</unclear>ὰν <rs type="institution" subtype="social_group" role="defense" key="politeia" ref="#itanos"><w lemma="πολιτεία">πολιτε<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="37"/><unclear>αν</unclear></w></rs> οὔτε ἐ<supplied reason="lost">ν πολέ</supplied><unclear>μωι</unclear> οὔτε ἐν εἰ<supplied reason="lost">ρ</supplied><lb 
+                        break="no" n="38"/><unclear>ή</unclear>ναι κατὰ τὸ δ<supplied reason="lost">υν</supplied><unclear>α</unclear>τόν. τοῖς δ’ <w lemma="εὐορκέω">ε<supplied reason="lost">ὐ</supplied><lb 
+                        break="no" n="39"/>ορκέοσι</w> καὶ <unclear>κατ</unclear>έχουσι τὸν <w lemma="ὅρκος"><supplied reason="lost">ὅρ</supplied><lb 
+                        break="no" n="40"/><supplied reason="lost">κο</supplied>ν</w> τέκνων ὄνασ<supplied reason="lost">ι</supplied>ν γίνεσθ<supplied reason="lost">αι</supplied>
+                          <lb n="41"/><supplied reason="lost">κ</supplied>αὶ γᾶν ἔν<unclear>κα</unclear>ρ<unclear>π</unclear>ο<supplied reason="lost">ν</supplied> <unclear>φ</unclear><supplied reason="lost">έρ</supplied>ειν κα<unclear>ὶ</unclear> <supplied reason="lost">πρ</supplied><lb 
+                        break="no" n="42"/><supplied reason="lost">ό</supplied>βατα εὐθη<unclear>ν</unclear><supplied reason="lost">εῖ</supplied><unclear>ν</unclear> <unclear>κ</unclear>α<supplied reason="lost">ὶ ἄλλ</supplied>α πο<unclear>λ</unclear><supplied reason="lost">λ</supplied><lb 
+                        break="no" n="43"/><unclear>ὰ</unclear> καὶ ἀγαθὰ <supplied reason="lost">γίνε</supplied><unclear>σ</unclear>θα<unclear>ι</unclear> <supplied reason="lost">κα</supplied>ὶ αὐτῶ<supplied reason="lost">ι</supplied>
+                          <lb n="44"/><supplied reason="lost">κ</supplied>αὶ τοῖς τέκνο<supplied reason="lost">ις</supplied>, τοῖς δὲ <w lemma="ἐπιορκέω">ἐπιορκέ<lb 
+                        break="no" n="45"/><supplied reason="lost">ο</supplied>σι</w> μήτε γᾶν φέρειν μήτε τέκν<lb 
+                        break="no" n="46"/><supplied reason="lost">ω</supplied>ν ὄν<unclear>α</unclear>σιν γίνεσθαι μήτε πρό<lb 
+                        break="no" n="47"/><supplied reason="lost">βα</supplied>τα εὐθηνεῖν, ἐξόλλυσθαι δ<unclear>ὲ</unclear>
+                          <lb n="48"/><supplied reason="lost">κα</supplied>κῶς κακοὺς καὶ αὐτοὺς καὶ γ<lb 
+                        break="no" n="49"/><supplied reason="lost">εν</supplied><unclear>ε</unclear>ὰν αὐτῶν.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il testo dell’<foreign>horkos</foreign>, la cui prestazione era stata decisa attraverso il decreto <ref type="ins" target="#ic3_4_7"><title>IC</title> III 4 7</ref>, è preceduto sulla stele da un’invocazione divina seguita dal ricordo dell’avvenuto giuramento da parte di tutti i cittadini di Itanos (ll. 1-3).</p>
+                    <p>L’elenco delle divinità sulle quali il giuramento viene prestato, alle linee 3-9, include in particolare Zeus <foreign>Diktaios</foreign> assieme agli altri dèi venerati nel santuario Dicteo e Zeus <foreign>Agoraios</foreign> (sul valore politico del cui culto cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>).</p>
+                    <p>L’oggetto del giuramento, che occupa il restante documento, comporta l’impegno a non tradire la <foreign>polis</foreign>, il territorio, le isole, le navi e i cittadini di Itanos o i loro beni. Nel testo è presente inoltre la promessa di non dar vita a riunioni o cospirazioni (ll. 16-17, [ο]ὐδὲ σύλλογον οὐδὲ συνωμο[σίαν]) contro il bene della città o dei suoi cittadini e di non di associarsi a chi le voglia compiere, ma di denunciare invece in tal caso il fatto ai magistrati di Itanos, definiti ἄρχοντας (l. 21; cf. <ref type="ins" target="#ic3_4_7"><title>IC</title> III 4 7</ref>). I cittadini, inoltre, si impegnano a non promuovere una redistribuzione dei beni immobili né un condono dei debiti (ll. 21-24), a non intentare processi fraudolenti relativi al diritto degli stranieri (ll. 24-27; cf. la <foreign>xenia dika</foreign> di <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref>) e a non tramare in alcun modo contro la città, ma a godere del diritto di cittadinanza in modo giusto e nel rispetto delle leggi, sia quelle relative alla sfera del sacro che quelle pertinenti alle questioni civili (ll. 35-36, περὶ τὰ πολ[ιτι]κά).</p>
+                    <p>Dopo una ripetizione dell’impegno a non tradire la comunità, definita <foreign>politeia</foreign> alle linee 36-37 (termine che a Creta compare altrove solamente in <ref type="ins" target="#ic2_12_22"><title>IC</title> II 12 22</ref> in relazione alla comunità dipendente degli <foreign>Artemitai</foreign>), il giuramento si chiude con un augurio di ogni bene per chi rispetterà quanto promesso, di ogni male per gli spergiuri (ll. 38-49).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>), <ref type="inst" target="#archon"><foreign>archon</foreign></ref>, <ref type="inst" target="#dika"><foreign>dika xenika</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>, <ref type="inst" target="#politeia"><foreign>politeia</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 563-568 n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 1317</bibl>; 
+                            <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 462</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5058</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 526</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 8 <ptr type="phi" target="200311"/></bibl>; 
+                            <bibl><ref target="#b1504">Perlman 1995a</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2024">Wilhelm 1951</ref>, pp. 24-26</bibl>; 
+                            <bibl><ref target="#b53">Austin 1981</ref>, n. 90</bibl>; 
+                            <bibl><ref target="#b750">Gschnitzer 1989</ref></bibl>;
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 439</bibl>; 
+                            <bibl><ref target="#b1128">Lombardo 2001</ref></bibl>; 
+                            <bibl><ref target="#b54">Austin 2006</ref>, n. 108</bibl>;
+                            <bibl><ref target="#b1483">Parker 2005</ref>, p. 153</bibl>; 
+                            <bibl><ref target="#b1642">Rubinstein 2007</ref>, p. 283</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

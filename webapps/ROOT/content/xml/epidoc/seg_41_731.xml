@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trattato di alleanza fra Kydonia e Aptera</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 41.731</idno>
+                        <idno type="projectNo">037</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#chania_museum">Museo archeologico di Chania</repository>
+                        <idno type="invNo">E 81</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0270">300-270 a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><supplied reason="lost"><space extent="unknown" unit="character"/></supplied> <w lemma="συμμαχία"><supplied reason="lost">σ</supplied>υμμ<supplied reason="lost">αχία</supplied></w> <supplied reason="lost"><space extent="unknown" unit="character"/></supplied>.
+                        <lb n="2"/><supplied reason="lost">ἐπὶ τοῖ</supplied><unclear>σ</unclear>δε <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#kydonia"><placeName ref="#kydonia" type="ethnic">Κυδωνιᾶται</placeName></rs> <unclear>κ</unclear><supplied reason="lost">αὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera"><placeName ref="#aptera" type="ethnic">Ἀπταραῖοι</placeName></rs> τὰν <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="συμμαχία">συμμαχίαν</w></supplied>
+                        <lb n="3"/><supplied reason="lost">καὶ</supplied> <w lemma="ὅρκος"><supplied reason="lost">ὅρ</supplied><unclear>κ</unclear>ον</w> <w lemma="ὀμνύω">ὤμοσαν</w> <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#aptera"><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#kydonia">ἐπὶ <w lemma="δαμιοργός">δαμιοργ<supplied reason="lost">ῶν</supplied></w> <supplied reason="lost">ἐν μὲν <placeName ref="#kydonia" type="ethnic">Κυδωνίαι</placeName></supplied> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                        <lb n="4"/><gap reason="lost" quantity="9" unit="character"/> <unclear>ἐ</unclear>ν δὲ <placeName ref="#aptera" type="ethnic">Ἀπτάραι</placeName> <persName type="attested" key="Taskos f. -"><name nymRef="Τάσκος">Τάσ<supplied reason="lost">κ</supplied><unclear>ω</unclear></name></persName> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                        <lb n="5"/><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>σ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>λε</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" atLeast="1" atMost="2" unit="character"/><orig><unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="3"><note>ἐπὶ δαμιοργ<supplied reason="lost">ῶν</supplied> <bibl><ref target="#bib15">Chaniotis</ref></bibl>, <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; 
+                        ἐπιδαμιοργοί <bibl><ref target="#b452">Daux</ref></bibl>, <bibl><ref target="#bib13">Bile</ref></bibl>; 
+                        ἐπὶ δαμιοργο<supplied reason="lost">ῦ</supplied> <bibl><ref target="#bib106"><title>BE</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione, per quanto di essa si sia salvato solamente un piccolo frammento, testimonia un’alleanza tra le città confinanti di Aptera e Kydonia. L’epigrafe, che costituisce la copia di Aptera del trattato e che su base paleografica è riconducibile agli inizi del III secolo a.C., può essere collocata più precisamente nel periodo che vede anche la stipulazione del trattato di alleanza fra le vicine Polyrrhenia e Phalasarna, e cioè negli anni 300-270 a.C. <ref type="ins" target="#ic2_11_1"><title>IC</title> II 11 1</ref> = <ref type="ins" target="#seg_50_936"><title>SEG</title> 50.936</ref>; è verosimile infatti che la <foreign>symmachia</foreign> fra Kydonia e Aptera sia una conseguenza dell’ufficiale avvicinamento fra le altre due grandi città dell’area e che sia finalizzata a garantire il mutuo soccorso tra le due parti in caso di aggressione da parte della potente Polyrrhenia (cf. <bibl><ref target="#b297">Chaniotis 1991</ref>, pp. 243-245</bibl>, <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 182</bibl>).</p>
+                    <p>L’<foreign>incipit</foreign> del trattato, stipulato dalle due <foreign>poleis</foreign>, indicate attraverso gli etnici collettivi Κυδωνιᾶται e Ἀπταραῖοι, conserva una parte della datazione, che doveva occupare le linee 3-4 e probabilmente anche quella successiva. I magistrati eponimi di entrambe le città risultano essere i <foreign>damiorgoi</foreign>, che ad Aptera sono attestati anche dalla dedica votiva <ref type="ins" target="#seg_60_984"><title>SEG</title> 60.984</ref> e che svolgono la medesima funzione in tutte le loro altre occorrenze (<ref type="ins" target="#ic2_23_7"><title>IC</title> II 23 7</ref> a Polyrrhenia, <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref>, <ref type="ins" target="#seg_23_548"><title>SEG</title> 23.548</ref>, <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref> a Olous; cf. <bibl><ref target="#b756">Guarducci 1930</ref>, pp. 68-69</bibl>). 
+                    L’ampiezza della lacuna alle linee 3-4 indica chiaramente che a Kydonia i magistrati siano più di uno: Angelos Chaniotis, che calcola che le lettere perdute siano circa 27-32, ipotizza che vi fossero elencati i nomi di cinque <foreign>damiorgoi</foreign> sprovvisti di patronimico (cf. <bibl><ref target="#b297">Chaniotis 1991</ref>, pp. 245-247</bibl>, <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 182</bibl>). Quanto ad Aptera, è impossibile determinare il loro numero; i paralleli da Olous e Polyrrhenia, tuttavia, lascerebbero ipotizzare che anche ad Aptera il numero di <foreign>damiorgoi</foreign> possa essere compreso fra uno e cinque.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b452">Daux 1959</ref>, p. 752 n. f (ll. 2-4)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 36 (ll. 2-4)</bibl>; 
+                    <bibl><ref target="#b297">Chaniotis 1991</ref>, pp. 241-247 n. 1, fig. 1, tavv. 1a-b, 2a</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 41.731 <ptr type="phi" target="202093"/></bibl>);
+                    <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 2</bibl>.
+                    <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1961.494</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

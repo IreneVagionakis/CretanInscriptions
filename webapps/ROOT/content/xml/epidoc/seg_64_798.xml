@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti di Polyrrhenia del mese <foreign>Potamios</foreign></title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 64.798</idno>
+                <idno type="projectNo">001</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kissamos_museum">Museo archeologico di Kissamos</repository>
+                        <idno type="invNo">E 31</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree" cert="low">due decreti onorari?</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#cippus">cippo</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, acropoli</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">            
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#polyrrhenia">ἐπὶ <w lemma="κόσμος">κόσμω</w>
+                        <lb n="2"/><persName type="attested" key="Kephalos f. Sosos"><name nymRef="Κέφαλος">Κεφάλω</name> τῶ 
+                        <lb n="3"/><name nymRef="Σῶσος" type="patronymic">Σώσω</name></persName></rs>, <w lemma="μείς">μηνὸ<supplied reason="lost">ς</supplied> </w>
+                        <lb n="4"/><rs type="institution" subtype="month" role="calendar" key="Potamios" ref="#polyrrhenia"><w lemma="Ποτάμιος">Πο<unclear>τ</unclear>αμίω</w></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#polyrrhenia"><w lemma="δοκέω">ἔ<unclear>δ</unclear><supplied reason="lost">ο</supplied><lb 
+                        break="no" n="5"/>ξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πό<unclear>λ</unclear>ει</w></rs>
+                        <lb n="6"/>καὶ τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κ<unclear>ό</unclear><supplied reason="lost">σ</supplied><unclear>μ</unclear>οι<supplied reason="lost">ς</supplied></w></rs>
+                        <lb n="7"/><persName type="honoured" key="Dailis f. -" cert="low" ref="#unknown"><name nymRef="Δαϊλίς">Δαϊλίνα</name> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="8"/><orig><unclear>ατ</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                        <lb n="9"/><supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#polyrrhenia"><w lemma="πρόξενος">πρόξενον</w></rs> ἦμεν</supplied>
+                        <lb n="10"/><supplied reason="lost">καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#polyrrhenia"><w lemma="εὐεργέτας">εὐεργέταν</w></rs></supplied>
+                        <lb n="11"/><supplied reason="lost">αὐτὸν καὶ <w lemma="ἔκγονος">ἔκγονα</w></supplied>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="0"/><supplied reason="lost" cert="low"><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#polyrrhenia" cert="low">ἐπὶ <w lemma="κόσμος">κόσμω</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="0a"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#polyrrhenia"><w lemma="δοκέω"><supplied reason="lost">ἔ</supplied><lb 
+                        break="no" n="1"/>δοξ<supplied reason="lost">ε</supplied></w></rs> <supplied reason="lost">τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλει</w></rs></supplied>
+                        <lb n="2"/>καὶ <supplied reason="lost">τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κόσμοις</w></rs></supplied> 
+                        <lb n="3"/><orig>τ<unclear>ω</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><orig><unclear>λι</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                </div>
+            </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="B1-2"><note><supplied reason="lost">τοῖς κόσμοις</supplied> καὶ <supplied reason="lost">τᾶι πόλει</supplied> <bibl><ref target="#bib40"><title>I.Polyr.</title></ref></bibl></note></app>
+                        </p>
+                    </div>
+            <div type="commentary">
+                <p>Il decreto A, mutilo inferiormente e relativo forse ad un conferimento di prossenia, nella formula di datazione presenta come magistrato eponimo un cosmo anziché i <foreign>damiorgoi</foreign>, che rivestono invece tale funzione nell’iscrizione edificatoria del <foreign>naiskos</foreign> di Polyrrhenia <ref type="ins" target="#ic2_23_7"><title>IC</title> II 23 7</ref>; il parallelo dell’eponimato di un cosmo in un altro decreto di prossenia della città, <ref type="ins" target="#seg_50_911"><title>SEG</title> 50.911</ref> A, suggerisce che nella città la prassi sia dunque quella di datare ἐπὶ κόσμω i decreti, ἐπὶ δαμιοργῶν gli altri tipi di documento (o perlomeno quelli relativi alla sfera sacra). È verosimile che anche la formula di datazione del decreto B riportasse la menzione del cosmo eponimo; tale ipotesi tuttavia non è verificabile, in quanto l’estensione della lacuna, non quantificabile con precisione, potrebbe essere sufficientemente ampia per contenere il termine <foreign>damiorgos</foreign>.</p>
+                    <p>La formula di sanzione, parzialmente conservata in entrambi i decreti, mostra come i cosmi, assieme alla <foreign>polis</foreign>, siano le figure istituzionali preposte all’emanazione dei decreti, come in <ref type="ins" target="#seg_50_911"><title>SEG</title> 50.911</ref> e in <ref type="ins" target="#ic2_23_5"><title>IC</title> II 23 5</ref>, ma diversamente dal decreto <ref type="ins" target="#ic2_23_6"><title>IC</title> II 23 6</ref> B, nella cui formula figura invece soltanto la <foreign>polis</foreign>. La formula del decreto B, altamente frammentaria, può essere considerata con certezza bimembre per la presenza di un ben leggibile καί; quanto alla natura delle due istituzioni menzionate, il vicinissimo parallelo offerto dal decreto A suggerisce con forza un’integrazione affine, che potrebbe risultare o nel [τοῖς κόσμοις] καὶ [τᾶι πόλει] proposto da Martínez Fernández o nell’inverso [τᾶι πόλει] καὶ [τοῖς κόσμοις], analogamente a quanto avviene nel decreto A.</p>
+                    <p>La formula di datazione del decreto A offre inoltre un altro elemento di interesse: il mese <foreign>Potamios</foreign> (ll. 3-4), noto in età ellenistica anche a Kalchedon in Bitinia (<ref type="ins"><title>I.Kalchedon</title> 6</ref>, l. 2: μῆνα Ποτάμιον), è verosimilmente dovuto all’epiclesi di una divinità venerata a Polyrrhenia, che potrebbe aver ricevuto tale epiteto per la connessione del proprio culto con l’elemento fluviale e che potrebbe pertanto aver avuto come sede di culto il <foreign>naiskos</foreign> situato sulla riva del torrente Kamarianos (cf. <bibl><ref target="#bib40"><title>I.Polyr.</title></ref>, pp. 78-79</bibl>, che citando <ref type="lit">Pind. <title>Pyth.</title> 2.7</ref>, ποταμίας ἕδος Ἀρτέμιδος, suggerisce una connessione con Artemide <foreign>Potamia</foreign>).</p>
+                    <p>Quanto a ciò che i decreti concedono, ammesso che si tratti davvero di decreti di prossenia, è impossibile stabilirlo con certezza; sulla base di altri paralleli coevi della città (<ref type="ins" target="#ic2_23_4"><title>IC</title> II 23 4</ref> e <ref type="ins" target="#ic2_23_5">5</ref>) è tuttavia possibile ipotizzare con Martínez Fernández che siano previste la prossenia e l’<foreign>euergesia</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#potamios"><foreign>Potamios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1242">Martínez Fernández 2001</ref> (A)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 3</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 64.798</bibl>).
+                    <foreign>Ect</foreign>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

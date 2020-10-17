@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Praisos relativo ad un accordo con Stalai</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 6 7</idno>
+                        <idno type="projectNo">509</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 42</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#praisos">Praisos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0270">inizi III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="1"/><w lemma="τύχα">τύχα</w> ἀγαθά.
+                          <lb n="2"/>ἔ<rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#praisos"><w lemma="δοκέω">δο<supplied reason="lost">ξε</supplied></w></rs> τῶι <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#praisos"><w lemma="κόσμος">κόσμωι</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#praisos"><w lemma="πόλις">πόλι</w></rs> τᾶι <placeName ref="#praisos" type="ethnic">Πραισίων</placeName>
+                          <lb n="3"/><rs type="institution" subtype="official" role="eponym" key="protokosmos" ref="#praisos">ἐπὶ <persName type="attested" key="-idios"><name nymRef="-ιδιος"><gap reason="illegible" quantity="2" unit="character"/>ιδίου</name></persName> <w lemma="πρωτόκοσμος">πρωτοκόσμου</w></rs> καὶ τῶν ἄλλων <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#praisos"><w lemma="σύνκοσμος">συνκόσ<lb 
+                        break="no" n="4"/>μων</w></rs>· ἐπὶ τοῖσδε <w lemma="δίδωμι">ἔδωκαν</w> <placeName ref="#praisos" type="ethnic">Πραίσιοι</placeName> <placeName ref="#stalai" type="ethnic">Σταλίταις</placeName> τὰ<unclear>ν</unclear> χ<lb 
+                        break="no" n="5"/><unclear>ώρα</unclear>ν καὶ τὰν <rs type="institution" subtype="public_space" role="possession" key="polis" ref="#stalai"><w lemma="πόλις">πόλιν</w></rs> καὶ <w lemma="νᾶσος">νάσους</w> τὰς καὶ νῦν ἔχον<lb 
+                        break="no" n="6"/><supplied reason="lost">τι κ</supplied>αὶ <w lemma="ἐλλιμένιον">ἐλλιμενίου</w> καὶ πορφύρας καὶ ἰχθύων <w lemma="δεκάτα">δεκά<lb 
+                        break="no" n="7"/><supplied reason="lost">τα</supplied>ς</w>, τούτων πάντων τὸ ἥμισσον, ἰχθύωμ μὲν καθάπε<supplied reason="lost">ρ</supplied>
+                          <lb n="8"/><supplied reason="lost">κ</supplied><unclear>α</unclear>ὶ πρότερον. ταῦτα δὲ <w lemma="δίδωμι">ἔδωκαν</w> εἰς τὸν ἅπαντα χρό<lb 
+                        break="no" n="9"/><supplied reason="lost">νο</supplied><unclear>ν</unclear> <w lemma="ἀσφαλέως">ἀσφαλέως</w> <supplied reason="lost">κ</supplied><unclear>α</unclear>ὶ <w lemma="βεβαίως"><unclear>β</unclear><supplied reason="lost">εβ</supplied><unclear>α</unclear>ίως</w> καὶ αὐτοῖς καὶ <w lemma="ἔκγονος">ἐκγόνοις</w>.
+                          <lb n="10"/><supplied reason="lost">ἑκ</supplied><unclear>ά</unclear>στου δὲ ἔτε<unclear>ο</unclear><supplied reason="lost">ς ὁ</supplied> <rs type="institution" subtype="board" role="appointee" key="kosmos" ref="#praisos"><w lemma="κόσμος">κόσμος</w></rs> ὁ αἱρεθεὶς ὑπὸ τᾶς <rs type="institution" subtype="assembly" role="appointer" key="polis" ref="#praisos"><w lemma="πόλις">πό<lb 
+                        break="no" n="11"/><supplied reason="lost">λιο</supplied>ς</w></rs> τᾶς <placeName ref="#praisos" type="ethnic">Πραισίων</placeName>· <w lemma="αἱρέω">αἱρεθέντος</w> δὲ τοῦ <rs type="institution" subtype="board" role="oath-taking" key="kosmos" ref="#praisos"><w lemma="κόσμος">κόσμο<supplied reason="lost">υ</supplied></w></rs>
+                          <lb n="12"/><w lemma="ὀμνύω"><supplied reason="lost">ὀμοσά</supplied>τω</w> <placeName ref="#stalai" type="ethnic">Σταλίταις</placeName> ὁ <rs type="institution" subtype="board" role="oath-taking" key="kosmos" ref="#praisos"><w lemma="κόσμος">κόσμος</w></rs> καὶ ἄλλοι δώδε<unclear>κα</unclear>
+                          <lb n="13"/><rs type="institution" subtype="social_status" role="oath-taking" key="polites" ref="#praisos"><w lemma="πολίτας"><supplied reason="lost">πολῖτ</supplied><unclear>αι</unclear></w></rs> <placeName ref="#praisos" type="ethnic">Πραισίων</placeName>. ὁ δὲ <rs type="institution" subtype="board" role="oath-taking" key="kosmos" ref="#praisos"><w lemma="κόσμος">κόσμος</w></rs> ὁ <placeName ref="#praisos" type="ethnic">Πραισίων</placeName> <w lemma="ὀμνύω">ὀμοσ<unclear>ά</unclear><lb 
+                        break="no" n="14"/><supplied reason="lost">τω</supplied></w> <supplied reason="lost">ἑκάστ</supplied><unclear>ου</unclear> ἔτεος <w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Dionysios" ref="#praisos"><w lemma="Διοννύσιος">Διονυσίου</w></rs> τόνδε τὸν <w lemma="ὅρκος">ὅ<supplied reason="lost">ρ</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">κον</supplied></w> <supplied reason="lost">ὑπ</supplied><unclear>ὲρ</unclear> τᾶς αὐτοῦ <rs type="institution" subtype="board" role="leading_oath" key="arche" ref="#praisos"><w lemma="ἀρχά">ἀρχᾶς</w></rs> <placeName ref="#stalai" type="ethnic">Σταλίταις</placeName>· <w lemma="ὀμνύω">ὀμνύω</w> <persName type="divine" key="Zeus Diktaios">Δ<unclear>ῆ</unclear><lb 
+                        break="no" n="16"/><supplied reason="lost">να <placeName ref="#dictaeum_fanum" type="ethnic">Δικταῖον</placeName></supplied></persName><supplied reason="lost">, </supplied><persName type="divine" key="Poseidon"><supplied reason="lost">Ποσ</supplied>ειδῶνα</persName>, <persName type="divine" key="Athena">Ἀθάναν</persName>, <persName type="divine" key="Apollo Pythios">Ἀπόλλωνα Πύθ<unclear>ι</unclear><lb 
+                        break="no" n="17"/><supplied reason="lost">ον</supplied></persName><supplied reason="lost">, <w lemma="θεός">θεοὺς</w> πάντ</supplied><unclear>ας</unclear> καὶ πάσας· <w lemma="εὐνοέω">εὐνοησῶ</w> <placeName ref="#stalai" type="ethnic">Σταλίταις</placeName>
+                          <lb n="18"/><supplied reason="lost">καὶ τὰν χώραν κα</supplied>ὶ τὰν <rs type="institution" subtype="public_space" role="possession" key="polis" ref="#stalai"><w lemma="πόλις">πόλιν</w></rs> καὶ τὰν θάλασσα<supplied reason="lost">ν</supplied>
+                          <lb n="19"/><supplied reason="lost">καὶ τὰς <w lemma="νᾶσος">νάσους</w></supplied> <placeName ref="#stalai" type="ethnic"><supplied reason="lost">Στα</supplied>λίταις</placeName> ἐάσομεν ἔχειν <w lemma="ἀσφαλέως">ἀ<supplied reason="lost">σ</supplied><lb 
+                        break="no" n="20"/><supplied reason="lost">φαλέως</supplied></w> <supplied reason="lost">εἰς τὸν ἅπαντ</supplied>α χρόνον, καὶ οὔτε αὐτοῖς
+                          <lb n="21"/><supplied reason="lost">ἀφαιρησόμεθα, αἴ τέ κα ἄλ</supplied><unclear>λ</unclear>ος τις ἀφαιρῆται <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οὐκ ἐπι</supplied>τρέψομεν κατὰ δύ<supplied reason="lost">να</supplied><lb 
+                        break="no" n="23"/><supplied reason="lost">μιν τὰν ἁμάν. εἴη δὲ ἁμῖ</supplied><unclear>ν</unclear> <w lemma="εὐορκέω">εὐορκοῦσι</w> μὲν <supplied reason="lost">καὶ αὐ</supplied><lb 
+                        break="no" n="24"/><supplied reason="lost">τοῖς καὶ <w lemma="ἔκγονος">ἐκγόνοις</w> καὶ τοῖς</supplied> <unclear>ἁμ</unclear>οῖς <w lemma="χρήματα"><unclear>χ</unclear><supplied reason="lost">ρήμασι</supplied></w>
+                          <lb n="25"/><supplied reason="lost">καλῶς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>βωη</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>αν καὶ <gap reason="lost" extent="unknown" unit="character"/><orig>νδ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ιταχθῶ, πᾶσαν <w lemma="προθυμία">προθυ<supplied reason="lost">μίαν</supplied></w> <supplied reason="lost">παρεχό</supplied>μεν<supplied reason="lost">ο</supplied>ς κα<supplied reason="lost">ὶ τὸν</supplied>
+                          <lb n="4"/><w lemma="ὅρκος"><supplied reason="lost">ὅρκο</supplied>ν</w> τόνδε, ὥσπερ ἐγὼ <w lemma="συνομνύω">σ<supplied reason="lost">υνώμοσα</supplied></w> <supplied reason="lost">αὐτός</supplied>, καὶ τ<supplied reason="lost">οὺς</supplied>
+                          <lb n="5"/><supplied reason="lost">ἄλλο</supplied>υς <rs type="institution" subtype="social_group" role="oath-taking" key="polites" ref="#praisos"><w lemma="πολίτας">πολίτας</w></rs> <w lemma="ἐξορκόω">ἐξορκιῶ</w>, τοὺ<supplied reason="lost">ς ἐν</supplied>δάμ<unclear>ου</unclear><supplied reason="lost">ς μὲν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> τοὺς δ’ <rs type="institution" subtype="social_status" role="oath-taking" key="apodamos" ref="#praisos"><w lemma="ἀπόδαμος">ἀποδάμους</w></rs> ἇι κ’ ἔλθωντι <supplied reason="lost">τᾶ</supplied>ς ἁ<supplied reason="lost">μέρας. εἴη</supplied>
+                          <lb n="7"/><supplied reason="lost">δ’</supplied> <w lemma="εὐορκέω"><supplied reason="lost">εὐορ</supplied>κοῦντι</w> μέμ μοι καὶ αὐτῶι <supplied reason="lost">κ</supplied>αὶ <w lemma="ἔκγονος"><unclear>ἐκ</unclear><supplied reason="lost">γόνοις</supplied></w> <supplied reason="lost">καὶ</supplied> <w lemma="χρήματα"><supplied reason="lost">χρή</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">μα</supplied><unclear>σι</unclear></w> τοῖς ἐμοῖς καλῶς· εἰ δὲ <w lemma="ἐπιορκέω">ἐπιο<supplied reason="lost">ρκέο</supplied>ιμ<supplied reason="lost">ι</supplied></w> <supplied reason="lost">ἀπ</supplied>ολήσει<supplied reason="lost">ν</supplied>
+                          <lb n="9"/><supplied reason="lost">καὶ αὐ</supplied>τὸς καὶ <w lemma="γένος">γένος</w> τὸ ἐμόν. ὑπηρετεῖ<supplied reason="lost">ν</supplied> δὲ <placeName ref="#stalai" type="ethnic"><unclear>Σ</unclear><supplied reason="lost">τα</supplied>λίτας</placeName> <supplied reason="lost">τᾶι</supplied>
+                          <lb n="10"/><rs type="institution" subtype="assembly" role="treaty-making" key="polis" ref="#praisos"><w lemma="πόλις"><supplied reason="lost">πόλ</supplied><unclear>ει</unclear></w></rs> τᾶι <placeName ref="#praisos" type="ethnic">Πραισίων</placeName> κατὰ τάδε· ὅσα μὲν κατὰ <placeName ref="#crete">Κρήταν</placeName> τ<unclear>ὰ</unclear><supplied reason="lost">ν</supplied>
+                          <lb n="11"/>νοτίαν θάλασσαν <w lemma="πλέω">πλεύσονται</w> <placeName ref="#stalai" type="ethnic">Σταλῖται</placeName> παρεχόμ<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="12"/>νοι τὰ ἐπιτάδεια ἑαυτοῖς· ἐὰν δὲ δεῖ ἔξω <placeName ref="#crete">Κρήτας</placeName> <w lemma="πλέω"><supplied reason="lost">π</supplied><lb 
+                        break="no" n="13"/>λεῖν</w>, ὅσα μὲν εἰς <placeName ref="#delphi">Δελφοὺς</placeName> καὶ <placeName ref="#olympia">Ὀλυμπίαν</placeName> <w lemma="πλέω">πλεύσοντ<supplied reason="lost">αι</supplied></w>
+                          <lb n="14"/><placeName ref="#siteia" type="ethnic">Σηταῆται</placeName> μετὰ <placeName ref="#stalai" type="ethnic">Σταλιτᾶν</placeName>, παρεχόμενοι τὰ ἐπιτάδ<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">ι</supplied>α καὶ <w lemma="μισθός">μισθοὺς</w> παρ’ αὐτοὶ αὐτῶμ· <w lemma="πλέω">πλεῖν</w> δὲ τὰ ἔξω <placeName ref="#crete"><supplied reason="lost">Κρή</supplied><lb 
+                        break="no" n="16"/>τας</placeName> κατὰ τὰ μέρη τᾶν χωρᾶν <placeName ref="#siteia" type="ethnic">Σηταήτας</placeName> καὶ <placeName ref="#stalai" type="ethnic">Στα<lb 
+                        break="no" n="17"/>λίτας</placeName>· ἐὰν δέ που ἄλλαι <w lemma="προστάσσω">προστάξηι</w> ὁ <rs type="institution" subtype="board" role="order" key="kosmos" ref="#praisos"><w lemma="κόσμος">κόσμος</w></rs> ὁ <placeName ref="#praisos" type="ethnic">Πρα<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="18"/>σίων</placeName> ὁποτέραι <corr>ὦ</corr>ν τ<corr>ᾶ</corr>μ <rs type="institution" subtype="social_group" role="travel" key="polis" ref="#stalai"><rs type="institution" subtype="social_group" role="travel" key="polis" ref="#siteia"><w lemma="πόλις">πόλεων</w></rs></rs> οὗτοι <w lemma="πλέω">πλεόντ<supplied reason="lost">ω</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> σωθέντων δὲ ὁ <rs type="institution" subtype="board" role="payments" key="kosmos" ref="#praisos"><w lemma="κόσμος">κόσμος</w></rs> ὁ <placeName ref="#praisos" type="ethnic">Πραισίων</placeName> <w lemma="πράσσω">πράξαν<lb 
+                        break="no" n="20"/>τες</w> τοὺς <w lemma="μισθός">μισθοὺς</w> παρ<supplied reason="lost">ὰ</supplied> τῶν μὴ <w lemma="πλέω">πλευσάντων</w>
+                          <lb n="21"/><supplied reason="lost">ἀ</supplied>ποδόντω τοῖς <w lemma="πλέω">πλεύσασι</w> <w lemma="δραχμά">δραχμὰν</w> ἑκάστωι τ<supplied reason="lost">ὰ</supplied><lb 
+                        break="no" n="22"/><supplied reason="lost">ν</supplied> ἁμέραν κατὰ τὰ μέρη τᾶν χωρᾶν ἐφ’ ἑκατερα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/> ὑπηρετήσοντι δὲ <placeName ref="#stalai" type="ethnic">Σταλῖται</placeName> καὶ γ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="24"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#crete">Κρήτας</placeName> κα<supplied reason="lost">ὶ ἐ</supplied><unclear>ὰν</unclear> δεῖ κατίμεν α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/> π<supplied reason="lost">α</supplied>ρέξον<supplied reason="lost">τι</supplied> τὰ ἐπιτάδει<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="25a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="B5"><note><supplied reason="lost">ἐν</supplied>δάμ<unclear>ου</unclear><supplied reason="lost">ς</supplied> <bibl><ref target="#bib3"><title>IC</title></ref></bibl>; <supplied reason="lost">ἐν</supplied> δάμ<unclear>ου</unclear><supplied reason="lost">ς</supplied> <bibl><ref target="#bib15">Chaniotis</ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il decreto, che si apre con un’espressione benaugurale, conserva alla linea 2 del lato A una formula di sanzione nella quale figurano in qualità di organi preposti alla deliberazione il collegio dei cosmi (aventi lo stesso ruolo forse anche in <ref type="ins" target="#ic3_6_9"><title>IC</title> III 6 9</ref>-<ref type="ins" target="#ic3_6_10">10</ref>) e la <foreign>polis</foreign> di Praisos (sull’uso del singolare <foreign>kosmos</foreign> per indicare l’insieme dei magistrati cf. <ref type="ins" target="#ic3_6_10"><title>IC</title> III 6 10</ref> e <ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>). La successiva formula di datazione, affine a quella presente nel decreto di Praisos <ref type="ins" target="#ic3_6_8"><title>IC</title> III 6 8</ref>, commemora il cosmo eponimo -idios, designato come protocosmo, e i suoi colleghi, definiti <foreign>synkosmoi</foreign>, facendo ricorso ad una terminologia che anteriormente all’età imperiale è attestata solamente a Praisos (cf. tuttavia i πρώτους κόσμους attestati in Caria nel II secolo a.C. da <ref type="ins" target="#seg_43_707"><title>SEG</title> 43.707</ref>; la menzione di un protocosmo forse di Priansos in <ref type="ins" target="#ad_1970_461">Lempesi 1970, p. 461</ref>, invece, è molto probabilmente di età imperiale).</p>
+                    <p>L’oggetto del decreto prevede la concessione da parte di Praisos a Stalai del loro territorio, della <foreign>polis</foreign> e delle isole di cui erano già in possesso e della metà delle decime delle tasse portuali e di quelle relative alla porpora e al pescato (ll. 4-9).</p>
+                    <p>Ogni anno durante il mese <foreign>Dionysios</foreign> (a Creta attestato anche ad Eleutherna in <ref type="ins" target="#ic2_12_9"><title>IC</title> II 12 9</ref>) il collegio dei cosmi eletto dalla <foreign>polis</foreign> di Praisos deve prestare il giuramento che segue agli abitanti di Stalai assieme a dodici concittadini, in nome della sua autorità (ll. 10-15). Il giuramento, di cui si è conservata la sezione iniziale alle linee 15-25 del lato A e quella finale alle linee 1-9 del lato B (sezione che da alcuni editori è stata ritenuta di Stalai), fra le divinità invocate sembra includere Zeus <foreign>Diktaios</foreign> e prevede il rispetto degli accordi da parte di Praisos; il collegio dei cosmi, inoltre, si impegna a far prestare il giuramento ai propri concittadini, in un giorno prestabilito per quelli presenti in patria (τοὺ[ς ἐν]δάμου[ς]), mentre al loro ritorno per quanto riguarda quelli che si trovano altrove (τοὺς δ’ ἀποδάμους).</p>
+                    <p>La controparte della concessione effettuata a Stalai è descritta alle linee 9-25 del lato B della stele e prevede che questa fornisca alla <foreign>polis</foreign> di Praisos più servizi legati alla navigazione marittima, di cui sono specificate le modalità in relazione alle differenti circostanze. Stalai è tenuta a fornire quanto necessario a quanti navigano sulla costa meridionale di Creta (orientale), mentre nel caso di rotta verso Delfi o Olimpia le <foreign>poleis</foreign> di Siteia e Stalai (sul cui <foreign>status</foreign> cf. <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 257-258</bibl>) sono tenute entrambe a fornire quanto necessario a chi naviga, paga inclusa; negli altri casi di navigazione fuori da Creta, invece, Siteia e Stalai sono tenute a fornire il necessario a seconda della loro posizione rispetto alla rotta (?). Qualora il collegio dei cosmi di Praisos ordini a una delle due <foreign>poleis</foreign> di navigare altrove (rispetto alle rotte consuete?), la città a cui è stato ordinato è tenuta a farlo. In particolari circostanze – non chiare – è previsto inoltre che i cosmi riscuotano le paghe di chi non naviga e diano invece a chi naviga una dracma al giorno, in relazione alla posizione delle due città rispetto alla rotta (?).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#apodamos"><foreign>apodamos</foreign></ref>, <ref type="inst" target="#arche"><foreign>arche</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#dionysios"><foreign>Dionysios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#protokosmos"><foreign>protokosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1206">Mariani 1896</ref>, pp. 299-310</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 440</bibl>; 
+                            <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 427</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5120</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 524</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 6 7 <ptr type="phi" target="200363"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 553</bibl>; 
+                            <bibl><ref target="#b2085">Gschnitzer 1975</ref></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 64</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b724">Gordon 1970</ref></bibl>;
+                            <bibl><ref target="#b1755">Spyridakis 1989</ref></bibl>; 
+                            <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 257-258</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 340</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

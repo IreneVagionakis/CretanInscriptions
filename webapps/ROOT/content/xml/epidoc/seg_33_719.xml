@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica (?) dei cosmi di Knossos (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 33.719</idno>
+                        <idno type="projectNo">391</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication" cert="low">dedica votiva?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#amnisos">Amnisos, tempio di Zeus <foreign>Thenatas</foreign> </origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos">ἐπὶ <w lemma="κόσμος">κόσμων</w>
+                          <lb n="2"/>τῶν σὺν <persName type="attested" key="Hypergenes f. Koichis"><name nymRef="Ὑπεργένης">Ὑπε<lb 
+                        break="no" n="3"/>ργένηι</name> τῷ <name nymRef="Κοῖχις" type="patronymic">Κοί<lb 
+                        break="no" n="4"/>χιος</name></persName></rs> τὸ <w lemma="δεύτερος">δεύ<lb 
+                        break="no" n="5"/>τερον</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica (?), proveniente dal santuario di Zeus <foreign>Thenatas</foreign> di Amnisos, appartiene alla serie di documenti analoghi promossi verosimilmente dai cosmi di Knossos, città per la quale la località funge da porto (cf. <ref type="ins" target="#seg_33_718"><title>SEG</title> 33.718</ref> e <ref type="ins" target="#seg_33_720"><title>SEG</title> 33.720-729</ref>). L’iscrizione, che consiste in una formula di datazione, sembra testimoniare una dedica effettuata da parte dei cosmi l’anno in cui è eponimo per la seconda volta Hypergenes figlio di Koichis, lo stesso magistrato che risulta in carica in <ref type="ins" target="#seg_33_718"><title>SEG</title> 33.718</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b461">Davaras – Masson 1983</ref>, p. 391 n. 3</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 33.719 <ptr type="seg" target="a33_717_729"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 89</bibl>;
+                            <bibl><ref target="#b299">Chaniotis 1992</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1209">Marinatos 1935</ref>, p. 202</bibl>; 
+                            <bibl><ref target="#b332">Chaniotis 2006</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

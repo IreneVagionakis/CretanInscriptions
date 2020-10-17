@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 145</idno>
+                        <idno type="projectNo">252</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge sacra</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica e stoichedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0475">500-475 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="παρέχω"><supplied reason="lost">παρ</supplied><unclear>έ</unclear>χεν</w> δὲ τῶι Τ<gap reason="lost" quantity="3" unit="character"/>λίωι <persName type="divine" key="Ares">Ἄρει</persName><gap reason="lost" quantity="6" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>λαν καὶ πα<gap reason="lost" quantity="2" unit="character"/>ερμείαν ἐξεττ<gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="3"/><gap reason="lost" quantity="2" unit="character"/><unclear>ν</unclear>αν καὶ σιδαρί<supplied reason="lost">σ</supplied>κον καὶ δει<gap reason="lost" quantity="6" unit="character"/>
+                          <lb n="4"/><gap reason="lost" quantity="5" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>λοσφαίρα<unclear>ι</unclear><supplied reason="lost">ς</supplied> χ’ ἱήρια καθαρ<unclear>ὰ</unclear> <gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="5"/><gap reason="lost" quantity="3" unit="character"/>πινα καὶ <w lemma="φοινίκιον">φοιν<supplied reason="lost">ίκ</supplied>ιον</w> καὶ ϝο<gap reason="lost" quantity="6" unit="character"/>
+                          <lb n="6"/><gap reason="lost" quantity="5" unit="character"/> <supplied reason="lost">κ</supplied>αὶ καναστ<supplied reason="lost">ραῖ</supplied>ον δριωτὸν κ<unclear>α</unclear><supplied reason="lost">ὶ</supplied> <gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="7"/><gap reason="lost" quantity="3" unit="character"/>ον κ’ <w lemma="ἰάρωμα">ἰαρώματ<supplied reason="lost">α</supplied></w> <gap reason="lost" quantity="1" unit="character"/>εϝοιδυοσαλ<unclear>ι</unclear><gap reason="lost" quantity="5" unit="character"/>
+                          <lb n="8"/><gap reason="lost" quantity="6" unit="character"/> κ’ αὐφίτων <unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>ὶ</unclear> φιαλίσκαν κ<unclear>α</unclear><supplied reason="lost">ὶ</supplied> <gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="9"/><gap reason="lost" quantity="4" unit="character"/> καὶ <w lemma="θῦμα">θύματα</w> <supplied reason="lost">τὸν</supplied> πρείγονα <gap reason="lost" quantity="6" unit="character"/>
+                          <lb n="10"/><gap reason="lost" quantity="7" unit="character"/>εν ἄμ’ ἀμφ<supplied reason="lost">ότ</supplied><unclear>ε</unclear>ρα κηδενπανι<gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="11"/><rs type="institution" subtype="official" role="supply" key="hiereus" ref="#gortyn"><w lemma="ἱαρεύς"><supplied reason="lost">ἱα</supplied><unclear>ρ</unclear>έα</w></rs> καὶ <w lemma="κουβάτας">κοσυβ<supplied reason="lost">άτ</supplied>αν</w> <w lemma="παρέχω">παρέχε<supplied reason="lost">ν</supplied></w> <gap reason="lost" quantity="6" unit="character"/>
+                          <lb n="12"/><gap reason="lost" quantity="5" unit="character"/> <w lemma="ἰάρωμα"><supplied reason="lost">ἰα</supplied>ρώματα</w> <unclear>ἐ</unclear><supplied reason="lost">πὶ τ</supplied>ῶν χόννων αλη<gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, pertinente ad una legge sacra, fornisce alle linee 1-10 un elenco di oggetti cultuali ed alimenti e animali sacrificali. La lista è seguita alla linea 11 dalla menzione di un sacerdote e di un sacrificatore (κοσυβ[άτ]αν; cf. <ref type="lit">Hsch. <foreign>s.v.</foreign> κόσβατοι</ref>· οἱ ἐπὶ θυσιῶν τεταγμένοι), i quali sono tenuti a fornire o gli elementi appena nominati o quelli che seguono alla linea successiva, fra cui rientrano delle offerte contenute in dei recipienti bronzei.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b390">Comparetti 1916-1920</ref>, pp. 196-202 n. 2</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 182a</bibl>; 
+                            <bibl><ref target="#b792">Guarducci 1942</ref>, pp. 177-184</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 145 <ptr type="phi" target="200584"/></bibl>; 
+                            <bibl><ref target="#b1186">Manganaro 1974-1978</ref>, pp. 56-58</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib505"><title>CGRN</title></ref> 15 <ptr type="cgrn" target="15"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria degli ex <foreign>naokoroi</foreign> (?) di Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 5</idno>
+                        <idno type="projectNo">225</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">68</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0070">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Autoletai" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶ</supplied>ν <w lemma="Αὐτοληταί">Αὐτολητῶν</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">κ<supplied reason="lost">ορ</supplied>μιόν<supplied reason="lost">των</supplied></w> <supplied reason="lost">τῶν σὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                          <lb n="2"/><supplied reason="lost">ὅκα</supplied> <supplied reason="lost">τὸ</supplied> <w lemma="δεύτερος"><supplied reason="lost">δε</supplied>ύτερον</w> <rs type="institution" subtype="board" role="builder" key="naokoros" ref="#lebena"><persName type="attested" key="Soarchos f. - (1)"><name nymRef="Σόαρχος">Σόαρχος</name> <gap reason="lost" extent="unknown" unit="character"/></persName> <supplied reason="lost">καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="νακορέω"><supplied reason="lost">νακορήσαν</supplied><lb 
+                        break="no" n="3"/>τες</w></rs> τᾶς <rs type="institution" subtype="public_space" role="construction" key="stoa" ref="#lebena"><w lemma="στῳά">στ<supplied reason="lost">ωιᾶς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, relativa alla costruzione o ristrutturazione di una <foreign>stoa</foreign> nell’<foreign>Asklepieion</foreign> di Lebena, è datata all’anno in cui detiene l’eponimia un cosmo della tribù degli <foreign>Autoletai</foreign>, probabilmente un magistrato di Gortyna (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 101-103</bibl>), analogamente a quanto avviene in altri documenti del santuario (cosmi eponimi compaiono anche in <ref type="ins" target="#ic1_17_2"><title>IC</title> I 17 2</ref>, <ref type="ins" target="#ic1_17_4">4</ref>, <ref type="ins" target="#ic1_17_6">6</ref>, <ref type="ins" target="#ic1_17_8">8</ref>, <ref type="ins" target="#ic1_17_38">38</ref>).</p>
+                    <p>La datazione eponimica è seguita dalla menzione al nominativo dei due funzionari responsabili dell’intervento edilizio, gli ex <foreign>naokoroi</foreign> (?) Soarchos, che ha detenuto la carica due volte e che sembra essere lo stesso individuo commemorato in <ref type="ins" target="#ic1_17_21"><title>IC</title> I 17 21</ref>, ed un suo collega di cui non si è conservato il nome (i <foreign>naokoroi</foreign> di Lebena sono connessi ad attività edilizie anche in <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref>, <ref type="ins" target="#ic1_17_21"><title>IC</title> I 17 21</ref>, <ref type="ins" target="#ic1_17_38">38</ref> e probabilmente <ref type="ins" target="#ic1_17_8">8</ref>; cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 104-109</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naokoros"><foreign>naokoros</foreign></ref>, <ref type="inst" target="#stoa"><foreign>stoa</foreign></ref>, tribù (<ref type="inst" target="#autoletai"><foreign>Autoletai</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 5 <ptr type="phi" target="199268"/></bibl>; 
+                            <bibl><ref target="#b1670">Savelkoul 1985-1986</ref>, p. 53</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 24</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b846">Halbherr 1901a</ref>, p. 306</bibl>; 
+                            <bibl><ref target="#b136">Bile 1991</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

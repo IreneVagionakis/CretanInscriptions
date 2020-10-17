@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Aptera per un Trace</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 3 15</idno>
+                        <idno type="projectNo">053</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Bithys f. Kelegenthos"><name nymRef="Βίθυς">Βίθυς</name> <name nymRef="Κελήγενθος" type="patronymic">Κεληγένθου</name>
+                          <lb n="2"/><placeName ref="#thracia" type="ethnic">Θρᾶιξ</placeName></persName>
+                          <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενος</w></rs> αὐτὸς
+                          <lb n="4"/>καὶ <w lemma="ἔκγονος">ἔκγονα</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario si struttura secondo un formulario particolarmente sintetico che contraddistingue un buon numero di documenti analoghi di Aptera (<ref type="ins" target="#ic2_3_6"><title>IC</title> II 3 6</ref> A-B e D-G, <ref type="ins" target="#ic2_3_7">7</ref>, <ref type="ins" target="#ic2_3_8">8</ref> A-B, <ref type="ins" target="#ic2_3_11">11</ref> e <ref type="ins" target="#ic2_3_13">13</ref>-<ref type="ins" target="#ic2_3_14">14</ref>). Del decreto originario, infatti, viene iscritto su pietra solamente un conciso estratto dell’oggetto della delibera che ricorda il nome dell’onorato al nominativo e il tipo di riconoscimento da costui ottenuto e cioè la prossenia, come nella maggior parte dei decreti onorari della città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 15 <ptr type="phi" target="199722"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

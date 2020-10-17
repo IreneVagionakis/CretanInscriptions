@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica a Zeus <foreign>Kaudios</foreign> da Kaudos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 7 1</idno>
+                        <idno type="projectNo">071</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_ioannis">presso Agios Ioannis, Gavdos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#kaudos">Kaudos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="divine" key="Zeus Kaudios"><unclear>Δ</unclear>ὶ <placeName ref="#kaudos" type="ethnic">Κα<unclear>υ</unclear>δίοι</placeName></persName> <orig>ε<unclear>γ</unclear></orig>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ι<unclear>λ</unclear>ε</orig>
+                          <lb n="2a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, pur frammentaria, è di particolare importanza poiché testimonia l’esistenza di un culto di Zeus portante l’epiteto di <foreign>Kaudios</foreign>, uno Zeus locale dunque, strettamente legato alla località di Kaudos. L’esistenza dell’etnico <foreign>Kaudios</foreign>, attestato solamente da questa iscrizione, è un possibile indizio dell’autonomia di quest’ultima, il cui <foreign>status</foreign> è altrimenti altamente incerto (cf. <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, p. 1146</bibl>). Kaudos, infatti, tra la fine del III secolo e gli inizi del II secolo a.C. stipula un trattato con Gortyna, dal quale risulta essere dotata di un proprio magistrato eponimo (cf. <ref type="ins" target="#ic4_184"><title>IC</title> IV 184 + <title>SEG</title> 23.589</ref>); nel trattato, tuttavia, i suoi abitanti non vengono mai definiti <foreign>Kaudioi</foreign> ma sono invece più volte indicati come οἱ τὰν Καῦδον ϝοικίοντες. Una delle possibili ipotesi è che Kaudos, ancora autonoma durante il pieno III secolo a.C., perda nel giro di qualche decennio la propria indipendenza, risultando quindi una comunità soggetta a Gortyna ai tempi del relativo trattato.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>Kaudios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, p. 525 n. 71</bibl>;
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 7 1 <ptr type="phi" target="199832"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

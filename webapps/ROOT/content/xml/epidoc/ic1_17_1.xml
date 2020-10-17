@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Tenos da parte di Phaistos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 1</idno>
+                        <idno type="projectNo">220</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0278" notAfter="-0260" precision="low">278-260 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>μινων θε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">εἶμεν δὲ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#phaistos"><w lemma="ἰσοπολιτεία">ἰσοπολιτείαν</w></rs> <placeName ref="#phaistos" type="ethnic">Φαιστίοις</placeName> καὶ</supplied>
+                          <lb n="4"/><supplied reason="lost"><placeName ref="#tenos" type="ethnic">Τηνίοις</placeName> καὶ τὸν <placeName ref="#tenos" type="ethnic">Τήνιον</placeName> ἐν <placeName ref="#phaistos">Φαιστοῖ</placeName> καὶ τὸν <placeName ref="#phaistos" type="ethnic">Φαίστιον</placeName> ἐν <placeName ref="#tenos">Τήνωι</placeName></supplied>
+                          <lb n="5"/><w lemma="μετέχω"><supplied reason="lost">μετ</supplied>έχειν</w> <w lemma="θῖνος"><unclear>θ</unclear><supplied reason="lost">ίνων</supplied></w> <supplied reason="lost">καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w>· καὶ <w lemma="ἄσυλος">ἄσυλον</w> εἶμεν τὸ ἱερὸν τοῦ</supplied>
+                          <lb n="6"/><persName type="divine" key="Poseidon">Ποτειδάων<supplied reason="lost">ος</supplied></persName> <supplied reason="lost">καὶ τᾶς <persName type="divine" key="Amphitrite">Ἀμφιτρίτας</persName> τῶι τῶν <placeName ref="#phaistos" type="ethnic">Φαιστίων</placeName> <w lemma="ῥητός">ῥητῶι</w></supplied>
+                          <lb n="7"/>καὶ μηδενὶ <supplied reason="lost">ἐξέστω <w lemma="ἀδικέω">ἀδικῆσαι</w> τῶν <placeName ref="#tenos" type="ethnic">Τηνίων</placeName> μηδένα μη</supplied><lb 
+                        break="no" n="8"/>δέν· αἰ δέ <unclear>τί</unclear><supplied reason="lost">ς τινα <w lemma="ἀδικέω">ἀδικήσηι</w> τῶν <placeName ref="#phaistos">Φαιστόθεν</placeName> ὁρμιομένων</supplied>
+                          <lb n="9"/><placeName ref="#tenos" type="ethnic"><placeName ref="#tenos" type="ethnic">Τηνίων</placeName></placeName>, <w lemma="δικάζω">δικά<supplied reason="lost">ζεσθαι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="illegible" quantity="1" unit="character"/>ων τοῖς <placeName ref="#tenos" type="ethnic">Τη<supplied reason="lost">νίοις</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="illegible" quantity="4" unit="character"/><orig>ιαντο</orig><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#phaistos" type="ethnic"><supplied reason="lost">Φαι</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">στ</supplied>ίων</placeName> ἐν <placeName ref="#tenos">Τή<supplied reason="lost">νωι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#phaistos" type="ethnic"><supplied reason="lost">Φα</supplied><lb 
+                        break="no" n="13"/><supplied reason="lost">ίσ</supplied>τιοι</placeName> περὶ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="illegible" quantity="1" unit="character"/> <w lemma="πρόνοια">πρόνοια</w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><w lemma="πρόνοια">πρόνοιαν</w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐὰν δὲ συνδοκεῖ ταῦτα τῶι δήμωι</supplied>
+                          <lb n="16"/>τῶν <placeName ref="#tenos" type="ethnic">Τηνίω<supplied reason="lost">ν</supplied></placeName><supplied reason="lost">, <w lemma="ἀναγράφω">ἀναγράψαι</w> εἰς <w lemma="στάλα">στάλαν</w> λιθίναν τὸ <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#phaistos"><w lemma="δόγμα">δόγμα</w></rs> τῶν</supplied>
+                          <lb n="17"/><placeName ref="#phaistos" type="ethnic">Φαιστίων</placeName> <supplied reason="lost">καὶ <w lemma="ἀνατίθημι">ἀναθεῖναι</w> <placeName ref="#phaistos" type="ethnic">Φαιστίους</placeName> εἰς τὸ</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#phaistos"><supplied reason="lost"><w lemma="ἱερόν">ἱερὸν</w> τῶ</supplied> <persName type="divine" key="Apollo Pytios"><supplied reason="lost">Ἀπέλλωνος τῶ</supplied>
+                          <lb n="18"/>Πυτίω</persName></rs>, <placeName ref="#tenos" type="ethnic">Την<supplied reason="lost">ίους</supplied></placeName> <supplied reason="lost">δὲ εἰς τὸ ἱερὸν τοῦ <persName type="divine" key="Poseidon">Ποτειδάωνος</persName> καὶ τᾶς <persName type="divine" key="Amphitrite">Ἀμφιτρίτας</persName></supplied>.
+                          <lb n="18a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, emanato da Phaistos, per il formulario della propria sezione centrale (ll. 5-9) è stato identificato come relativo ad una concessione di <foreign>asylia</foreign> al santuario di Poseidone ed Anfitrite di Tenos (ll. 5-9; cf. in particolare <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 158-159</bibl>). Il documento, inoltre, prevede alle linee 3-5 la reciproca concessione di <foreign>isopoliteia</foreign> fra le due <foreign>poleis</foreign> (l. 5, [μετ]έχειν θ[ίνων καὶ ἀνθρωπίνων]).</p>
+                    <p>Nonostante la formula di esposizione preveda la collocazione dell’epigrafe nel <foreign>Pythion</foreign> di Gortyna, oltre che nel santuario di Poseidone ed Anfitrite di Tenos (ll. 16-18), il rinvenimento dell’iscrizione a Lebena suggerisce che la stele conservatasi sia una terza redazione del documento, posta probabilmente nell’<foreign>Asklepieion</foreign> di Lebena (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 157-158</bibl>; <foreign>contra</foreign> <bibl><ref target="#bib4"><title>IC</title> IV</ref>, pp. 228-229</bibl>, che la ritiene invece proveniente da Gortyna).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 726-727 n. 178</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5085</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 1 <ptr type="phi" target="199264"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII Suppl. 310</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 562</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 55</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 3</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b732">Graindor 1907</ref>, pp. 22-23</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib4"><title>IC</title> IV</ref> 166</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

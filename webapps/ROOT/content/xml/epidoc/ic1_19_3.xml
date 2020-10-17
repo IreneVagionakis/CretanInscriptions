@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Malla; trattato di alleanza fra Malla e un’altra città</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 19 3</idno>
+                        <idno type="projectNo">477</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#malles">Malles, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree #treaty">decreto onorario (A), trattato (B)</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#malla">Malla</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0100">fine II secolo a.C. (A), III secolo a.C. (B)</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w>. <rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#malla">ἐπὶ τῶν <w lemma="Αἰθαλεῖς">Αἰθαλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#malla"><w lemma="κοσμέω">κοσμιόν<lb 
+                        break="no" n="2"/>των</w> <space extent="unknown" unit="character"/> <persName type="attested" key="Tychon f. Peithias"><name nymRef="Τύχων">Τύχωνος</name> τῶ <name nymRef="Πειθίας" type="patronymic">Πειθία</name></persName></rs> <space extent="unknown" unit="character"/>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#malla"><persName type="attested" key="Dioteles f. Elyros"><name nymRef="Διοτέλης">Διοτέλιος</name> τῶ
+                          <lb n="3"/><name nymRef="Ἔλυρος" type="patronymic">Ἐλύρω</name></persName></rs> <space extent="unknown" unit="character"/>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#malla"><persName type="attested" key="Phalakros f. Somenes"><name nymRef="Φάλακρος">Φαλάκρω</name> τῶ <name nymRef="Σωμένης" type="patronymic">Σωμένιος</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#malla"><persName type="attested" key="Diophantos f. Sotokydes"><name nymRef="Διόφαντος">Διοφάντω</name> <corr>τῶ</corr> <name nymRef="Σωτοκύδης" type="patronymic">Σω<lb 
+                        break="no" n="4"/>τοκύδιος</name></persName></rs> <space extent="unknown" unit="character"/>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#malla"><w lemma="δοκέω">ἔδοξε</w></rs> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#malla"><w lemma="πόλις">πόλι</w></rs> <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#malla"><w lemma="ψαφίζω">ψαφι<lb 
+                        break="no" n="5"/>ξαμένοις</w></rs>· ἐπειδὴ τᾶς γενομένας <w lemma="περίστασις">περιστάσιος</w> πε<lb 
+                        break="no" n="6"/>ρί τε τὰν <rs type="institution" subtype="social_group" role="war" key="polis" ref="#malla"><w lemma="πόλις">πόλιν</w></rs> καὶ τὸ<supplied reason="lost">ν</supplied> ἄ<supplied reason="lost">λλον</supplied> <rs type="institution" subtype="social_group" role="war" key="demos" ref="#malla"><w lemma="δᾶμος">δᾶμον</w></rs> τυ<supplied reason="lost">γ</supplied>χάν<supplied reason="lost">ο</supplied>ντι τὰ<supplied reason="lost">ν</supplied>
+                          <lb n="7"/>πᾶσα<supplied reason="lost">ν</supplied> πεποιημένοι <w lemma="σπουδά">σπουδάν</w>, ἁμίων <supplied reason="lost">α</supplied>ἰτησαμένων
+                          <lb n="8"/><rs type="institution" subtype="board" role="judicial_procedure" key="dikastas" ref="#chersonesos"><rs type="institution" subtype="board" role="judicial_procedure" key="dikastas" ref="#lyttos"><rs type="institution" subtype="board" role="judicial_procedure" key="dikastas" ref="#knossos"><w lemma="δικαστάς">δικαστάς</w></rs></rs></rs>, ἅ τε τῶν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#knossos"><w lemma="πόλις">πόλις</w></rs> καὶ ἁ τ<supplied reason="lost">ῶ</supplied>ν <placeName ref="#lyttos" type="ethnic">Λυττίω<supplied reason="lost">ν</supplied>,
+                          <lb n="9"/>τῶν τε τὰν ἄνω <rs type="institution" subtype="public_space" role="location" key="polis" ref="#lyttos"><w lemma="πόλις">πόλιν</w></rs></placeName> <w lemma="οἰκέω">οἰκ<supplied reason="lost">ι</supplied>όντων</w> καὶ <placeName ref="#chersonesos" type="ethnic">τῶν τὰν ἐπὶ θα<lb 
+                        break="no" n="10"/>λάσσαι</placeName>, ὁπᾶι τύχηι ἁ ὅλα <w lemma="κατάστασις">κατάστασις</w> τᾶς προσ<gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>τίας
+                          <lb n="11"/>σωτηρίας, καὶ περὶ το<supplied reason="lost">ύ</supplied>των <w lemma="ἀποστέλλω">ἀπέστηλαν</w> ἁμεῖν <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#knossos"><w lemma="δικαστάς">δικαστά<supplied reason="lost">ς</supplied></w>,
+                          <lb n="12"/><placeName ref="#knossos">Κνωσόθε<supplied reason="lost">ν</supplied></placeName> μὲν <persName type="attested" key="Eumelos f. -"><name nymRef="Εὔμηλος">Εὔ<supplied reason="lost">μ</supplied>η<supplied reason="lost">λο</supplied>ν</name> <gap reason="illegible" quantity="4" unit="character"/></persName></rs>, ἐς δὲ τ<supplied reason="lost">ᾶ</supplied>ς <placeName ref="#lyttos">ἄνωθεν <supplied reason="lost">π</supplied>ό<lb 
+                        break="no" n="13"/>λεως</placeName> <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#lyttos"><persName type="attested" key="Latos f. Stasis"><name nymRef="Λάτως">Λ<corr>ά</corr>των </name><name nymRef="Στᾶσις" type="patronymic">Στάσιος</name></persName></rs> ἐς δὲ <placeName ref="#chersonesos">τᾶς ἐπὶ θαλάσσαι</placeName> <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#chersonesos"><persName type="attested" key="Aristias f. Monnas"><name nymRef="Ἀριστίας">Ἀριστ<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="14"/>αν</name> <name nymRef="Μόννας" type="patronymic">Μόννα</name></persName></rs>, <w lemma="ἀνήρ">ἄνδρας</w> τὸς ἐδοκίμασαν ὑπάρχεν τᾶς τε ἰδί<lb 
+                        break="no" n="15"/>ας <w lemma="πατρίς">πατρίδος</w> ἀξίος καὶ τᾶ<supplied reason="lost">ς</supplied> ἁ<corr>μ</corr>ᾶς, οἵτινες παραγενό<lb 
+                        break="no" n="16"/>μενοι καὶ ἀναλαβόντες τὰ ὅλα τῶν πραγμάτων δι<lb 
+                        break="no" n="17"/>εφθαρμένα<surplus>ν</surplus>, τᾶν τε κτησίων καὶ τῶν ποτ’ ἀλλάλος
+                          <lb n="18"/>συναλλαγμάτων πάντων ἐν ταραχᾶι τε καὶ διχοστασί<lb 
+                        break="no" n="19"/>αι τᾶι μεγίσται κειμένων, διά τε τᾶς τῶν <w lemma="θεός">θεῶν</w> <w lemma="εὐμένεια"><supplied reason="lost">εὐ</supplied><lb 
+                        break="no" n="20"/>μενείας</w> καὶ διὰ τᾶς τῶν <w lemma="ἀνήρ">ἀνδρῶν</w> τούτων ἐπιφαν<supplied reason="lost">εί</supplied><lb 
+                        break="no" n="21"/>ας κ<corr>α</corr>ὶ ἇς ἐποιήσαντο παρακλήσιος τυγχάν<corr>ομ</corr><unclear>ε</unclear><supplied reason="lost">ν</supplied>
+                          <lb n="22"/>τὰ μὲν ἑκουσίως συλλε<corr>λ</corr>υμένοι τὰ δὲ διὰ τᾶς το<supplied reason="lost">ύ</supplied><lb 
+                        break="no" n="23"/>των <w lemma="πρόνοια">προνοίας</w> ἀνεκτη<corr>μ</corr>ένοι τᾶς τ<corr>ε</corr> ποτ’ ἀλλάλο<supplied reason="lost">ς</supplied> ἔ<lb 
+                        break="no" n="24"/>χθρας διαλελυμένοι, <w lemma="δίκαιος">δίκαιον</w> δ’ ἐστὶν καὶ καλῶς
+                          <lb n="25"/>ἔχον τάς τε <w lemma="ἀποστέλλω">ἀποστηλάνσας</w> <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#chersonesos"><rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#lyttos"><rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#knossos"><w lemma="πόλις">πόλεας</w></rs></rs></rs> καὶ τὸς ἐλθ<supplied reason="lost">όν</supplied><lb 
+                        break="no" n="26"/>τας <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#chersonesos"><rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#lyttos"><rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#knossos"><w lemma="δικαστάς">δικαστὰς</w></rs></rs></rs> ταῖς <w lemma="μέγιστος">μεγίσταις</w> <w lemma="τιμά">τιμαῖς</w> <w lemma="στεφανόω">στεφανῶσ<supplied reason="lost">αι</supplied></w>,
+                          <lb n="27"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#malla"><w lemma="δοκέω">δεδόχθαι</w></rs> <w lemma="ἀνγράφω">ἀνγράψαι</w> τάν τε τῶν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> <rs type="institution" subtype="social_group" role="honoured" key="polis" ref="#knossos"><w lemma="πόλις">πό<lb 
+                        break="no" n="28"/>λιν</w></rs> καὶ <rs type="institution" subtype="social_group" role="honoured" key="polis" ref="#lyttos">τὰ<supplied reason="lost">ν</supplied> τῶν <placeName ref="#lyttos" type="ethnic">Λυττίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="soter" ref="#malla"><w lemma="σωτήρ">σωτῆράς</w></rs> τε καὶ <w lemma="βοαθός"><supplied reason="lost">β</supplied>ο<supplied reason="lost">α</supplied><lb 
+                        break="no" n="29"/>θὸς</w> καὶ <w lemma="ὑπέρμαχος">ὑπερμάχος</w> τᾶς ἁμᾶς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#malla"><w lemma="πόλις">πόλεος</w></rs> διὰ τὸ ἔν
+                          <lb n="30"/>τε τοῖ<corr>ς</corr> λοιποῖς πᾶσι προστατῆν ε<unclear>ἰ</unclear><supplied reason="lost" cert="low">κότως</supplied>
+                          <lb n="31"/>καὶ διὰ τὸ τοιούτος <w lemma="ἀνήρ">ἄνδρας</w> <w lemma="ἀποστέλλω">ἀποστ<supplied reason="lost">ῆλαι</supplied></w><supplied reason="lost">,</supplied> <w lemma="ἀνγράφω"><supplied reason="lost">ἀνγρά</supplied><lb 
+                        break="no" n="32"/><supplied reason="lost">ψα</supplied>ι</w> δὲ καὶ τὸς <w lemma="προγράφω">προγεγρ<supplied reason="lost">α</supplied>μ<supplied reason="lost">μένος</supplied></w> <w lemma="ἀνήρ">ἄνδρας</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#malla"><w lemma="εὐεργέτας">εὐερ<lb 
+                        break="no" n="33"/><supplied reason="lost">γέτ</supplied>ας</w></rs> τε κ<supplied reason="lost">αὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#malla"><w lemma="πρόξενος">προξένος</w></rs> τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#malla"><w lemma="πόλις">πόλεος</w></rs> καὶ αὐτὸς</supplied>
+                          <lb n="34"/><supplied reason="lost">καὶ</supplied> τὸς τούτω<supplied reason="lost">ν</supplied> <w lemma="ἔκγονος"><supplied reason="lost">ἐκ</supplied>γόνος</w>· ἦμεν τε α<supplied reason="lost">ὐτοῖς</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#malla"><w lemma="πολιτεία"><supplied reason="lost">πολι</supplied><lb 
+                        break="no" n="35"/>τείαν</w></rs> τε καὶ <w lemma="ἔνκτησις">ἔνκτησιν</w> καὶ θνατῶν <supplied reason="lost">καὶ ἀθανά</supplied><lb 
+                        break="no" n="36"/>των ἐν τᾶι ἁμᾶι <rs type="institution" subtype="public_space" role="location" key="polis" ref="#malla"><w lemma="πόλις">πόλι</w></rs>· καὶ ἐπεί κά τις α<supplied reason="lost">ὐτῶν πα</supplied><lb 
+                        break="no" n="37"/>ραγένηται ἐς τὰν ἁμὰν <rs type="institution" subtype="public_space" role="hospitality" key="polis" ref="#malla"><w lemma="πόλις">πόλιν</w></rs> ἦμεν <supplied reason="lost">αὐτῶι</supplied>
+                          <lb n="38"/><w lemma="σίτησις">σίτησιν</w> ἐν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="prytaneion" ref="#malla"><w lemma="πρυτανεῖον">πρυτανεί<corr>ω</corr>ι</w></rs> μετὰ τῶν <rs type="institution" subtype="board" role="commensality" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσ<supplied reason="lost">μων</supplied></w></rs>·
+                          <lb n="39"/>ἄγεν δὲ καὶ <w lemma="εὐάμερος">εὐάμερον</w> τὸς <rs type="institution" subtype="board" role="organizing_competitions" key="kosmos" ref="#malla"><rs type="institution" subtype="board" role="gathering" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμος</w></rs></rs> τὸς <supplied reason="lost">ἀεὶ</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#malla"><w lemma="κοσμέω"><supplied reason="lost">κοσ</supplied><lb 
+                        break="no" n="40"/>μίοντας</w></rs> κατ’ ἐνιαυτὸν ἐν τᾶι ἕκται τῶ <rs type="institution" subtype="month" role="calendar" key="Bakinthios" ref="#malla"><w lemma="Βακίνθιος">Βα<unclear>κ</unclear><supplied reason="lost">ινθίω</supplied></w></rs>
+                          <lb n="41"/><w lemma="μείς">μηνὸς</w> καὶ <rs type="institution" subtype="practice" role="competition" key="dromos" ref="#malla"><w lemma="δρόμος">δρόμον</w></rs> καὶ τ<corr>ὰ</corr>ς <rs type="institution" subtype="social_group" role="gathering" key="hetaireia" ref="#malla"><w lemma="ἑταιρήα">ἑταιρήας</w></rs> <w lemma="συνάγω">συ<supplied reason="lost">νάγεν</supplied></w>
+                          <lb n="42"/>ὁπᾶι καὶ τοῖς ἐπιγινομένοις ὑπ<supplied reason="lost">άρχηι</supplied>
+                          <lb n="43"/><w lemma="ἔνγροφος">ἔνγροφος</w> ἅ τε τᾶν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#chersonesos"><rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#lyttos"><rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#knossos"><w lemma="πόλις">πόλεων</w></rs></rs></rs> καὶ <supplied reason="lost">τῶν</supplied>
+                          <lb n="44"/><w lemma="ἀνήρ">ἀνδρῶν</w> το<corr>ύ</corr>των <w lemma="καλοκαγαθία">καλοκἀγ<supplied reason="lost">αθ</supplied>ία</w>, ὁ<supplied reason="lost">μοίως</supplied>
+                          <lb n="45"/>δὲ καὶ <corr>ἁ</corr> ἐξ ἁμίων γινομένα <w lemma="φιλάνθρωπος">φιλά<supplied reason="lost">νθρω</supplied><lb 
+                        break="no" n="46"/>πος</w> ἀποδοχὰ ἐς τὸς ἁμὸς <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#malla"><w lemma="εὐεργέτας">εὐε<supplied reason="lost">ργέ</supplied><lb 
+                        break="no" n="47"/>τας</w></rs>, καὶ πολλοὶ τούτων μιμηταὶ κ<supplied reason="lost">αὶ ἐς</supplied>
+                          <lb n="48"/>τὸν ὕστερον χρόνον τᾶς <w lemma="καλοκαγαθία">καλοκἀγα<supplied reason="lost">θίας</supplied></w>
+                          <lb n="49"/>ὑπάρχωσιν· <w lemma="ἵστημι">στᾶσαι</w> δὲ καὶ <w lemma="στάλα">στάλ<supplied reason="lost">αν</supplied></w>
+                          <lb n="50"/>ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="agora" ref="#malla"><w lemma="ἐπιφανέστατος">ἐπιφανεστάτωι</w> τόπωι τ<supplied reason="lost">ᾶς</supplied> <w lemma="ἀγορά"><supplied reason="lost">ἀ</supplied><lb 
+                        break="no" n="51"/>γορᾶς</w></rs>.
+                          </ab>
+                        </div>
+                            <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="συμμαχέω"><supplied reason="lost" cert="low">συμμαχησῶ</supplied></w> <supplied reason="lost">τὸν ἅπ</supplied><lb 
+                               break="no" n="1"/>αντα χρ<supplied reason="lost">όνον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="1" unit="character"/><orig>νον</orig> οὔτε <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">οὔτε κακοτεχνησ</supplied><lb 
+                               break="no" n="3"/>ῶ οὔτε ἄλλ<supplied reason="lost">ωι ἐπιτραψῶ καὶ οὐ προλειψίω οὔτ’ ἐν</supplied>
+                          <lb n="4"/>πολέμωι οὔτ’ <supplied reason="lost">ἐν εἰρήναι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied><lb 
+                              break="no" n="5"/>αἰ κατὰ πόλεμον <gap reason="illegible" quantity="3" unit="character"/>αλλ<gap reason="lost" extent="unknown" unit="character"/> πολε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><orig>αγ</orig><gap reason="illegible" quantity="1" unit="character"/> κατὰ <gap reason="lost" extent="unknown" unit="character"/> κατὰ γᾶν <supplied reason="lost">καὶ κατ</supplied><lb 
+                         break="no" n="7"/>ὰ θάλασσαν κατὰ δύναμ<supplied reason="lost">ιν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="B0-1"><note><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><w lemma="συμμαχέω">συμμαχησῶ</w></supplied> <supplied reason="lost">τὸν ἅπ</supplied>αντα χρ<supplied reason="lost">όνον</supplied> <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib15">Chaniotis</ref></bibl>; <gap reason="lost" quantity="1" unit="line"/> <orig>ανταχρ</orig><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                    <app loc="B2"><note><gap reason="lost" quantity="1" unit="character"/><orig>νον</orig> οὔτε <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">οὔτε κακοτεχνησ-</supplied> <bibl><ref target="#bib15">Chaniotis</ref></bibl>; <gap reason="illegible" quantity="1" unit="character"/>νον οὔτε <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                    <app loc="B3"><note>-ῶ οὔτε ἄλλ<supplied reason="lost">ωι ἐπιτραψῶ καὶ οὐ προλειψίω οὔτ’ ἐν</supplied> <bibl><ref target="#bib15">Chaniotis</ref></bibl>; ω οὔτε αλλ<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                    <app loc="B4"><note>πολέμωι οὔτ’ <supplied reason="lost">ἐν εἰρήναι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ-</supplied> <bibl><ref target="#bib15">Chaniotis</ref></bibl>; πολέμω τουτ<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>La stele, opistografa, conserva sul lato A un decreto di Malla nella sua interezza, mentre sul lato B un frammento di un trattato di alleanza fra Malla ed un secondo contraente di cui non è pervenuto il nome.</p>
+                    <p>Il decreto, che si apre con un’espressione benaugurale, conserva alle linee 1-4 una formula di datazione nella quale vengono commemorati i quattro cosmi in carica della tribù degli <foreign>Aithaleis</foreign> (attestata anche a Gortyna, Knossos e Dreros), Tychon figlio di Peithias, Dioteles figlio di Elyros, Phalakros figlio di Somenes e Diophantos figlio di Sotokydes. La formula di sanzione, alle linee 4-5, mostra i cosmi e verosimilmente la <foreign>polis</foreign> di Malla in qualità di responsabili della deliberazione, come avviene anche nel decreto <ref type="ins" target="#ic1_19_2"><title>IC</title> I 19 2</ref> della città, ed include un riferimento ad un’avvenuta votazione (presente anche in <ref type="ins" target="#ic2_5_17"><title>IC</title> II 5 17</ref>, <ref type="ins" target="#seg_38_900"><title>SEG</title> 38.900</ref> B, <ref type="ins" target="#ic4_78"><title>IC</title> IV 78</ref>, <ref type="ins" target="#ic4_162">162</ref>, <ref type="ins" target="#ic4_181">181</ref>, <ref type="ins" target="#ic4_378">378</ref> B e forse C).</p>
+                    <p>La sezione relativa alle motivazioni del decreto, alle linee 5-26, documenta una precedente disputa fra la <foreign>polis</foreign> di Malla ed il restante <foreign>damos</foreign>, verosimilmente composto dalle classi sociali non in possesso della cittadinanza, che ha richiesto l’invito da parte di Malla di giudici dalle <foreign>poleis</foreign> di Knossos, Lyttos e Chersonesos (indicata come «Lyttos sul mare» in quanto unita a Lyttos da un legame di <foreign>sympoliteia</foreign>; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 73</bibl>).</p>
+                    <p>L’oggetto del decreto, introdotto dalla formula di mozione δεδόχθαι (l. 27), prevede il conferimento di onori alle tre città per aver inviato ciascuna un giudice – Eumelos da Knossos, Laton figlio di Stasis da Lyttos e Aristias figlio di Monnas da Chersonesos – e ai giudici stessi per il proprio operato. Le città vengono dichiarate <foreign>soteres</foreign>, aiutanti e difensori della <foreign>polis</foreign> di Malla, mentre ai giudici sono concesse l’<foreign>euergesia</foreign>, verosimilmente la prossenia, la cittadinanza, l’<foreign>enktesis</foreign> nella <foreign>polis</foreign> di Malla e la <foreign>sitesis</foreign> nel pritaneo assieme ai cosmi locali quando questi si rechino presso la città (ll. 27-38).</p>
+                    <p>Il decreto stabilisce inoltre che ogni anno i cosmi in carica organizzino per il sesto giorno del mese di <foreign>Bakinthios</foreign> (noto anche a Lato e Knossos, cf. <ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref> e <ref type="ins" target="#chaniotis_54-56a">Chaniotis, <title>Verträge</title> 54/56a</ref>) una giornata di festeggiamenti (l. 39, εὐάμερον) che preveda gare di corsa (attestate anche a Itanos, Eleutherna, Praisos e Hierapytna) e la convocazione delle eterie (ll. 38-41).</p>
+                    <p>La formula di esposizione alle linee 49-51, infine, prevede la collocazione della stele recante il documento nel luogo più eminente dell’<foreign>agora</foreign> di Malla, non attestata da altre iscrizioni.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dikastas"><foreign>dikastas</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#dromos"><foreign>dromos</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#hetaireia"><foreign>hetaireia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#bakinthios"><foreign>Bakinthios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<ref type="inst" target="#politeia"><foreign>politeia</foreign></ref>), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref> (?), <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>, <ref type="inst" target="#soter"><foreign>soter</foreign></ref>, tribù (<ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b877">Haussoullier 1885</ref>, pp. 13-16 n. 11</bibl>; 
+                            <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 628-635 n. 52 (A)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 448 (A)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5101 (A)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 19 3 <ptr type="phi" target="199520"/></bibl>; 
+                            <bibl><ref target="#b357">Charalambakis 1977</ref>, n. 3</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 17 (B)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1797">Talamo 1987</ref>, p. 25</bibl>; 
+                            <bibl><ref target="#b1949">Viviers 1994</ref>, p. 254</bibl>; 
+                            <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 73a (A)</bibl>;
+                            <bibl><ref target="#b615">Ferruti 2004</ref>, p. 288</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

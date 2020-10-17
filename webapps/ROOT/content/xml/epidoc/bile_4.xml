@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Dreros relativo ai <foreign>propoloi</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Bile 4</idno>
+                        <idno type="projectNo">416</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli</repository> 
+                                <idno type="invNo">358</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros, tempio di Apollo <foreign>Delphinios</foreign> </origPlace>
+                                    <origDate period="#archaic" notBefore="-0650" notAfter="-0600">650-600 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#dreros"><w lemma="πόλις">πόλι</w></rs> <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#dreros"><w lemma="ϝανδάνω">ἔϝαδε</w></rs> <rs type="institution" subtype="social_group" role="decreeing" key="phyle" ref="#dreros">διαλείσασι <w lemma="πυλά">πυλᾶσι</w></rs>· ὄσ<unclear>τ</unclear>ις <rs type="institution" subtype="official" role="incumbent" key="propolos" ref="#dreros"><w lemma="προπολεύς">προ<lb 
+                        break="no" n="2"/>πολ<supplied reason="lost">εὺ</supplied>ς</w></rs> εἴε μὴ <w lemma="τίνω">τίν<surplus>τ</surplus>εσθα<corr>ι</corr></w> τὸν <rs type="institution" subtype="official" role="imposing_fines" key="agretas" ref="#dreros" cert="low"><w lemma="ἀγρέτας">ἀγρέταν</w></rs>. <space quantity="1" unit="line"/>
+                        </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="1-2"><note>προπολ<supplied reason="lost">εὺ</supplied>ς εἴε <bibl><ref target="#b699">Genevrois</ref></bibl>; προπολέ<unclear>ϝσ</unclear>ειε <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto si apre con una formula di sanzione che, analogamente a quanto avviene in <ref type="ins" target="#seg_27_620"><title>SEG</title> 27.620</ref> e forse <ref type="ins" target="#seg_23_530"><title>SEG</title> 23.530</ref>, mostra la <foreign>polis</foreign> di Dreros come responsabile della deliberazione. La successiva espressione διαλείσασι πυλᾶσι, anch’essa parte del prescritto ma di difficile interpretazione, è probabile che debba essere intesa come «essendosi riunite separatamente le tribù» (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 150-155</bibl>; una diversa lettura è fornita invece in <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>, «<foreign>with the tribes assembled (?)</foreign>», e in <bibl><ref target="#bib123"><title>Nomima</title></ref></bibl>, «<foreign>après consultation [ou dispersion?] des tribus</foreign>»).</p>
+                    <p>L’oggetto del decreto, pervenuto nella sua interezza, prevede che chiunque svolga la funzione di <foreign>propolos</foreign> – ovvero di addetto ad un culto – non possa essere punito dall’<foreign>agretas</foreign>. La figura del  <foreign>propolos</foreign> a Creta è attestata anche nel frammento O* di <ref type="ins" target="#ic4_9"><title>IC</title> IV 9</ref>, purtroppo in un contesto non ricostruibile, che offre nei frammenti A-B e I-L le sole occorrenze note del termine <foreign>agreion</foreign>, etimologicamente prossimo ad <foreign>agretas</foreign>.</p>
+                    <p>L’ἀγρέτας, attestato epigraficamente soltanto nella presente iscrizione, più che un <foreign>leader</foreign> militare, come è stato ipotizzato sulla base di una glossa di Esichio (<ref type="lit">Hsch. <foreign>s.v.</foreign> Ἀγρέταν</ref>· ἡγεμόνα θεόν; cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 19-25</bibl>), è verosimile che sia legato alla sfera sacra, come le <foreign>agretai</foreign> di Cos (cf. <ref type="ins"><title>IG</title> XII,4 1 332</ref>, <ref type="lit">Hsch. <foreign>s.v.</foreign> ἀγρεταί</ref>· παρὰ Κῴοις ἐννέα κόραι κατ’ ἐνιαυτὸν αἱρούμεναι πρὸς θεραπείαν τῆς Ἀθηνᾶς): una connotazione religiosa della radice ἀγρ- potrebbe infatti ragionevolmente giustificare la vicinanza dei termini <foreign>agretas</foreign> e <foreign>agreion</foreign> alle uniche occorrenze cretesi dei <foreign>propoloi</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agretas"><foreign>agretas</foreign></ref>, <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#phyla"><foreign>phyle</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#propolos"><foreign>propolos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1881">Van Effenterre 1946</ref>, pp. 590-597 n. 2 <ptr type="phi" target="201243"/> <ptr type="poinikastas" target="#bib122"/></bibl>; 
+                                <bibl><ref target="#b535">Duhoux 1982</ref>, pp. 28-37 n. 5</bibl>; 
+                                <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 4</bibl>; 
+                                <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 91</bibl>; 
+                                <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 64</bibl>; 
+                            <bibl><ref target="#b1943">Veneciano 2010</ref></bibl>;
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 286</bibl>;
+                            <bibl><ref target="#b743">Grote 2014</ref></bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, pp. 348-349</bibl>;
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> Dr5</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 3</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1596">Rhodes 2007</ref>, n. 345</bibl>;
+                                <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 19-25</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

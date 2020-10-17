@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Gortyna per un Romano</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 219</idno>
+                        <idno type="projectNo">343</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mavropapas">Basilica di Mavropapas, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0060" notAfter="-0040">metà I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="-os Porsennios Simon" ref="#unknown"><name nymRef="-ος"><gap reason="lost" extent="unknown" unit="character"/>ος</name> <name nymRef="Πορσέννιος">Πορσέννιος</name> <name nymRef="Σίμων">Σίμων</name></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυ<lb 
+                        break="no" n="2"/>νίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πολίτας</w></rs> αὐτὸς καὶ
+                          <lb n="3"/><w lemma="ἔκγονος">ἔκγονοι</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario si presenta nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva solamente del nome dell’onorato e della tipologia di onore conferitogli. L’individuo, di probabile origine etrusca, è insignito della prossenia e della <foreign>politeia</foreign>, associazione che ricorre in un buon numero di decreti gortynii. Il testo, inoltre, contiene il ricordo della <foreign>polis</foreign> attraverso l’uso dell’etnico collettivo cittadino, impiegato come specificazione dell’onore conferito per compensare forse la mancata menzione delle entità istituzionali responsabili della decisione, come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 331-332 n. 30</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 219 <ptr type="phi" target="200660"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b81">Baldwin Bowsky 2002</ref>, p. 57 n. 41</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

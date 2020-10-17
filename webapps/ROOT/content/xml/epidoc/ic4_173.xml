@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Gortyna e Amyklaion (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 173</idno>
+                        <idno type="projectNo">301</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele" cert="low">stele?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="κορμέω">κορμιόντων</w> τῶν σ</supplied>ὺν <persName type="attested" key="Kyd- f. -"><name nymRef="Κύδ-">Κ<unclear>ύ</unclear>δ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/></name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γο</supplied>ρτύνιοι</placeName></persName></rs>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> αὐτὸς <placeName ref="#gortyn" type="ethnic">Γορ<lb 
+                        break="no" n="4"/><supplied reason="lost">τυνι</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>μα τὸ αρ<lb 
+                        break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/>εσθαι τὸς
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ</supplied>νς <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κόρμον<supplied reason="lost">ς</supplied></w></rs>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ι τὸνς ἰδι<lb 
+                        break="no" n="8"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>τ</unclear>ὰνς δι<lb 
+                        break="no" n="9"/><gap reason="lost" extent="unknown" unit="character"/>ας ϝίκα<lb 
+                        break="no" n="10"/><supplied reason="lost">τι</supplied> <gap reason="lost" extent="unknown" unit="character"/>ι <placeName ref="#gortyn">Γορτυνα</placeName>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>νς ἄγεν
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>α τῶ <placeName ref="#amyklaion">Ἀμυ<lb 
+                        break="no" n="13"/><supplied reason="lost">κλαίω</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκας</w></rs>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> πρὸ ϝί<lb 
+                        break="no" n="15"/><supplied reason="lost">κατι</supplied> <gap reason="lost" extent="unknown" unit="character"/>οος
+                          <lb n="15a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, piuttosto esiguo, sembra conservare parte di un accordo fra Gortyna e la città o comunità dipendente di Amyklaion (sullo <foreign>status</foreign> della quale cf. <bibl><ref target="#b1505">Perlman 1996</ref></bibl>, <bibl><ref target="#b1731">Sporn 1996</ref></bibl>, <bibl><ref target="#b427">Cucuzza 1997a</ref></bibl>), probabilmente relativo a procedure giudiziarie (l. 13, δίκας) che interessano entrambi i contraenti.</p>
+                    <p>Le linee 1-2 restituiscono parte di una formula di datazione, forse di Gortyna, nella quale è leggibile solamente l’inizio del nome del magistrato eponimo, Kyd-, verosimilmente un cosmo. Più cosmi compaiono anche alla linea 6 del documento, sebbene non sia chiaro in quale contesto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b839">Halbherr 1889</ref>, pp. 58-60 n. 2</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 173 <ptr type="phi" target="200612"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 67</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 252, 260-261</bibl>; 
+                            <bibl><ref target="#b1731">Sporn 1996</ref></bibl>; 
+                            <bibl><ref target="#b427">Cucuzza 1997a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

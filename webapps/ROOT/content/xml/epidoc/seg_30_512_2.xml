@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Sigillo di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 30.512, n. 2</idno>
+                        <idno type="projectNo">176</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#instrumentum"><foreign>instrumentum inscriptum</foreign></summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#seal">sigillo</objectType> recante l’immagine di un labirinto
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#kallipolis">Kallipolis</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνωσίω</placeName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il sigillo, rinvenuto a Kallipolis, proviene da un archivio della città, dove doveva trovarsi apposto su un documento ufficiale inviato dalla <foreign>polis</foreign> di Knossos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1806">Themelis 1979</ref>, pp. 263-267</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 30.512, n. 2<ptr type="seg" target="a30_512"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

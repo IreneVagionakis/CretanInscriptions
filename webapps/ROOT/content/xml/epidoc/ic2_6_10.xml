@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epigramma funerario per una donna da Kantanos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 6 10</idno>
+                        <idno type="projectNo">067</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#kantanos">Kantanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>σώφρονα Θεοδόταν ἐσόρα, <w lemma="ξένος">ξένε</w>,
+                          <lb n="2"/>μικρὸν ἐπιστὰς <w lemma="πατρίς">πατρίδος</w> ἐκ <placeName ref="#caria">Κα<lb 
+                        break="no" n="3"/>ρᾶς</placeName> Μαστοκλέους θυγάτρα, <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="astos" ref="#kantanos"><w lemma="ἀστός">ἀστοῖς</w></rs>
+                          <lb n="4"/>καὶ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="xenos" ref="#kantanos"><w lemma="ξένος">ξείνοισι</w></rs> ποθεινοτάτην παρὰ πᾶ<lb 
+                        break="no" n="5"/>σιν θουμαρῆ τε πόσει ἠδὲ
+                          <lb n="6"/>τέκνοις ἐρατήν· οὕνεκα δ’ <w lemma="εὐσεβία">εὐ<lb 
+                        break="no" n="7"/>σεβίης</w> μάκαρες <w lemma="θεός">θεοὶ</w> ὧδ’ ἐπέ<lb 
+                        break="no" n="8"/>κλωσαν στείχειν εἰς <persName type="divine" key="Hades">Ἀΐ<lb 
+                        break="no" n="9"/>δην</persName> εὐθανατοῦσα ἄνοσον.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’origine della donna commemorata nell’epitaffio, indicata attraverso l’espressione πατρίδος ἐκ Καρᾶς, è oggetto di dubbi fin dalle prime edizioni del testo. Sebbene l’ipotesi più ovvia sembri la sua identificazione nella Caria (cf. <bibl><ref target="#b474">De Sanctis 1901</ref></bibl>), l’onomastica paterna di Theodota – attestata unicamente a Creta occidentale (cf. <ref type="ins"><title>IC</title> II 6 6</ref>, <ref type="ins"><title>SEG</title> 48.1221</ref>) –  suggerirebbe invece una sua provenienza cretese, possibilmente da un non parimenti attestato villaggio chiamato Kara (cf. <bibl><ref target="#b1096">Levi 1922</ref></bibl>).</p>
+                    <p>Pur tenendo conto dell’adesione dell’epitaffio al registro stilistico e ai <foreign>topoi</foreign> propri del genere, è da constatare che il testo testimonia l’esistenza a Kantanos delle componenti sociali costituite dai cittadini e dagli stranieri; l’espressione ἀστοῖς καὶ ξείνοισι, ampiamente diffusa nel contesto retorico dell’epigramma funerario greco assieme ad un certo numero di varianti sinonimiche,
+a Creta ricorre anche in un epitaffio metrico di Poikilasion (<ref type="ins" target="#ic2_21_2"><title>IC</title> II 21 2</ref>, ll. 6-7: ἀστοῖσιν π[ᾶσι ξε]ίνοισι).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#astos"><foreign>astos</foreign></ref>, <ref type="inst" target="#xenos"><foreign>xenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 501-502 n. 32</bibl>; 
+                            <bibl><ref target="#b1096">Levi 1922</ref>, pp. 390-391 n. 34</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 6 10 <ptr type="phi" target="199831"/></bibl>; 
+                            <bibl><ref target="#bib121">Wilhelm</ref> n. 4</bibl>; 
+                            <bibl><ref target="#b1490">Peek 1955</ref>, n. 1261</bibl>; 
+                            <bibl><ref target="#b719">Gondicas 1988</ref>, n. 3</bibl>; 
+                            <bibl><ref target="#b503">Detorakis 1995</ref>, p. 230</bibl>; 
+                            <bibl><ref target="#b146">Bile 2000</ref>, n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 30</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1488">Peek 1933</ref>, p. 139, n. 3</bibl>; 
+                            <bibl><ref target="#b1229">Martínez Fernández 1992</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

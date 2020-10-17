@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 8</idno>
+                <idno type="projectNo">003</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base di statua</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, <foreign>naiskos</foreign> fluviale</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia" cert="low"><supplied reason="lost" cert="low">ἐπὶ <w lemma="δαμιοργός">δαμιοργῶν</w></supplied> <persName type="attested" key="Sosos f. Tasskos"><name nymRef="Σῶσος">Σώσω</name> <space quantity="1" unit="character"/> <name nymRef="Τάσσκος" type="patronymic">Τάσσκω</name></persName></rs>, <space quantity="1" unit="character"/> <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia" cert="low"><persName type="attested" key="Peisagoras f. Timomenes"><name nymRef="Πεισαγόρας">Πεισαγόρα</name> <space quantity="1" unit="character"/> <name nymRef="Τιμομένης" type="patronymic">Τιμ<supplied reason="lost">ο</supplied>μένευς</name></persName></rs>, 
+                        <lb n="2"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia" cert="low"><persName type="attested" key="- f. Theagenidas"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Θεαγενίδας" type="patronymic">Θεαγενίδα</name></persName></rs>, <space quantity="1" unit="character"/> <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia" cert="low"><persName type="attested" key="Eumelos f. Karaitho"><name nymRef="Εὔμηλος">Εὐμήλω</name> <space quantity="1" unit="character"/> <name nymRef="Καραίθω" type="matronymic">Καραίθως</name></persName></rs>,   
+                        <lb n="3"/>ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs> <w lemma="ἀνατίθημι">ἀνέθηκεν</w>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="1"><note><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>La dedica di una statua della divinità venerata nel <foreign>naiskos</foreign>, avvenuta per iniziativa della <foreign>polis</foreign>, è probabilmente datata secondo i <foreign>damiorgoi</foreign> in carica come le altre iscrizioni rinvenute fra le rovine del luogo sacro, <ref type="ins" target="#ic2_23_7"><title>IC</title> II 23 7</ref> A e B. L’elenco di antroponimi al genitivo, interpretati dagli editori precedenti come nomi dei magistrati sprovvisti di patronimico, sembra piuttosto una successione di tre coppie e mezzo di nomi abbinati a patronimici, che arrivano a quattro o a cinque – come in <ref type="ins" target="#ic2_23_7"><title>IC</title> II 23 7</ref> A e B – a seconda della lunghezza del nome o dei nomi in lacuna.</p>
+                    <p>Il patronimico di uno dei magistrati eponimi, Τάσσκος, è uno degli antroponimi derivanti dalla radice τασκ- peculiari di Creta occidentale e nello specifico di Polyrrhenia (cf. <bibl><ref target="#b1290">Masson 1985</ref>, n. VII</bibl>, <bibl><ref target="#b894">Hitchman 2002</ref>, pp. 118-120</bibl>, <bibl><ref target="#b719">Gondicas 1988</ref>, pp. 252-257</bibl>; cf. inoltre <ref type="ins" target="#ic2_23_9"><title>IC</title> II 23 9</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref> (?), <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1387">Myres 1896</ref>, n. 14</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5118</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 8 <ptr type="phi" target="200045"/></bibl>;
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 38</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 10</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

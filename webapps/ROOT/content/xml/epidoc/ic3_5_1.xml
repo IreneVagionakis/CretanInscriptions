@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria relativa al tempio di Atena <foreign>Oleria</foreign> a Oleros</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 5 1</idno>
+                        <idno type="projectNo">537</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#ierapetra_collection">Collezione archeologica di Ierapetra (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#oleros">Oleros</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0070">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>τᾶι <persName type="divine" key="Athena Oleria">Ἀθαναίαι τᾶι <placeName ref="#oleros" type="ethnic">Ὠ<supplied reason="lost">λερίαι</supplied></placeName></persName> <rs type="institution" subtype="tribe" role="eponym" key="Pamphyloi" ref="#hierapytna"><supplied reason="lost">ἐπὶ τῶν</supplied>
+                          <lb n="2"/><w lemma="Πάμφυλοι">Παμφύλων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><w lemma="κοσμέω">κοσμόν<supplied reason="lost">των</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>τὸν <rs type="institution" subtype="public_space" role="construction" key="hieron" ref="#oleros"><w lemma="ναός">ναὸν</w></rs> καὶ τὰ <w lemma="ξόανον">ξόαν<supplied reason="lost">α</supplied></w> <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="- f. Himeraios"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><name nymRef="Ἱμεραῖος" type="patronymic">Ἱμεραίω</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="Xenophilos f. -"><name nymRef="Ξενόφιλος">Ξενόφιλος</name> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>,
+                          <lb n="5"/><rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="Proagoros f. Aristoph-"><name nymRef="Προάγορος">Προάγορος</name> <name nymRef="Ἀριστοφ-" type="patronymic">Ἀριστο<unclear>φ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="- f. Thorax"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><name nymRef="Θώραξ" type="patronymic">Θώρακος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="Dion f. Kais-"><name nymRef="Δίων">Δίων</name> <name nymRef="Καισ-" type="patronymic">Καισ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>,
+                          <lb n="7"/><rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="Agamedes f. Aidopos"><name nymRef="Ἀγαμήδης">Ἀγαμήδης</name> <name nymRef="Αἴδωπος" type="patronymic">Αἰδώπω</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="N- f. -s" cert="low"><name nymRef="Ν-">Ν<gap reason="lost" extent="unknown" unit="character"/></name> <name nymRef="-ς" type="patronymic" cert="low"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/>τος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#hierapytna"><persName type="attested" key="Dion f. Kleosthesilas"><name nymRef="Δίων">Δίων</name> <name nymRef="Κλεοσθεσίλας" type="patronymic">Κ<supplied reason="lost">λ</supplied><unclear>ε</unclear><supplied reason="lost">οσ</supplied>θεσί<unclear>λ</unclear><supplied reason="lost">α</supplied></name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, proveniente dal santuario di Atena <foreign>Oleria</foreign>, commemora la costruzione (o il restauro) del tempio e di più statue di culto lignee della dea (sugli <foreign>xoana</foreign>, cf. <bibl><ref target="#b1632">Romano 1988</ref></bibl>). L’intervento, che sembra essere frutto dell’iniziativa di Hierapytna, città che controlla il santuario (cf. <bibl><ref target="#bib3"><title>IC</title> III</ref>, pp. 131-133</bibl>), è datato all’anno in cui sono in carica gli otto cosmi della tribù dei <foreign>Pamphyloi</foreign> (a Creta nota anche a Knossos e Olous) menzionati alle linee 3-8, due in meno rispetto ai dieci colleghi attestati nell’iscrizione edificatoria di Hierapytna <ref type="ins" target="#ic3_3_9"><title>IC</title> III 3 9</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, tribù (<ref type="inst" target="#pamphyloi"><foreign>Pamphyloi</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 640-642 n. 54</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5102</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 5 1 <ptr type="phi" target="200355"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

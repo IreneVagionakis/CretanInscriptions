@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria del <foreign>koinon</foreign> cretese (?) per il proprio <foreign>hagemon</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG IV², 1 244</idno>
+                        <idno type="projectNo">591</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#epidauros">Epidauro, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">πᾶσιν</supplied> <unclear>μ</unclear>ὲν χαλκὸς τετυπωμένος <w lemma="εἰκών">εἰκόνα</w> τάνδ<unclear>ε</unclear>
+                          <lb n="2"/><supplied reason="lost">ἀμ</supplied><unclear>φα</unclear>ίνει· τόλμας δ’ ἔργα βροτοῖς <w lemma="ἀρετά">ἀρετά</w>·
+                          <lb n="3"/>ἀνθ’ ὧν, <persName type="honoured" key="Telemnastos f. Antiphatas" ref="#gortyn"><name nymRef="Τηλέμναστος">Τηλέμναστε</name>, τὸν <name nymRef="Ἀντιφάτας" type="patronymic">Ἀντιφάτα</name></persName> σε γεγῶτα
+                          <lb n="4"/>ὑέα, <w lemma="συνμαχία">συνμαχίας</w> δ’ ἔξοχον <rs type="institution" subtype="official" role="dedicatee" key="hegemon" ref="#koinon_kretaieon"><w lemma="ἁγεμών">ἁγεμόνα</w></rs>,
+                          <lb n="5"/><rs type="institution" subtype="social_group" role="dedicant" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιεῖς</placeName></rs> <w lemma="ἵστημι">ἔστασαν</w> <w lemma="ἀριστεύω">ἀριστεύσαντες</w> ἐν αἰχμᾶι <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>ἐσθλοῖς γὰρ <w lemma="τιμά">τιμᾶν</w> τοὺς ἀγαθοὺς ὅσιον <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>σοὶ καλὸν <w lemma="ἀνατίθημι">ἄνθεμ’</w>, <w lemma="ἄναξ">ἄναξ</w> <persName type="divine" key="Asklepios">Ἀσκλαπιέ</persName>, ταῖδ’ <placeName ref="#epidauros">Ἐπιδαύρωι</placeName>·
+                          <lb n="8"/><placeName ref="#gortyn">Γόρτυν</placeName> ἐφ’ οἷς αὐχεῖ, τοῦδε γεγῶσα <w lemma="πάτρα">πάτρα</w>.
+                          <lb n="8a"/><space quantity="1" unit="line"/>
+                          <lb n="9"/>Λαβρέας Δαμοπείθεος <placeName ref="#argos" type="ethnic">Ἀργεῖος</placeName> <w lemma="ποιέω">ἐποίησε</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica onoraria metrica, che commemora l’<foreign>hagemon</foreign> Telemnastos figlio di Antiphatas di Gortyna, è stata posta verosimilmente dai soldati del <foreign>koinon</foreign> cretese, che si identificano nell’etnico collettivo Κρηταιεῖς (l. 5).</p>
+                <p><emph>Elementi istituzionali attestati</emph>: <ref type="inst" target="#hegemon"><foreign>hegemon</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2082">Baunack 1890a</ref>, pp. 6, 102</bibl>; 
+                            <bibl><ref target="#b965">Kavvadias 1891b</ref>, p. 94, n. 5</bibl>;
+                            <bibl><ref target="#b166">Blinkenberg 1892</ref>, p. 275, n. 26</bibl>;
+                            <bibl><ref target="#b978">Kavvadias 1891a</ref>, n. 27</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> IV 1117</bibl>;
+                            <bibl><ref target="#b700">Geffcken 1916</ref>, n. 197</bibl>;
+                            <bibl><ref target="#b893">Hiller von Gaertringen 1926</ref>, n. 109</bibl>;
+                            <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> IV<hi rend="superscript">2</hi>, 1 244 <ptr type="phi" target="28676"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib360">ISE</ref> 49</bibl>; 
+                            <bibl><ref target="#b2087">Peek 1962</ref>, p. 1008</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

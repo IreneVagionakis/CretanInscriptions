@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti di Mileto relativi allo stanziamento di Cretesi</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Miletos 54-55</idno>
+                        <idno type="projectNo">553</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">due decreti</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>più <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#miletus">Mileto, <foreign>Delphinion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0228" notAfter="-0222"> 228/227 a.C. (54), 223/222 a.C. (55)</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="54">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἐπὶ τ</supplied>οῦ θεο<unclear>ῦ</unclear> <unclear>τ</unclear>οῦ δευ<unclear>τ</unclear>έ<unclear>ρ</unclear>ου <unclear>τοῦ</unclear> <unclear>μετὰ</unclear> <unclear>Ἀθην</unclear><supplied reason="lost">αγ</supplied>όρ<unclear>α</unclear><supplied reason="lost">ν</supplied>.
+                          <lb n="2"/><supplied reason="lost">ἔδοξε</supplied> <unclear>τ</unclear>ῶι δήμωι· γνώμηι συνέδρων τῶν αἱρεθέντων
+                          <lb n="3"/><supplied reason="lost">Λίχαν</supplied><unclear>τ</unclear>ος τοῦ Ἑρμοφάντου, Φιλίδ<unclear>ο</unclear>υ τοῦ Λύσου,
+                          <lb n="4"/><supplied reason="lost">Ἀντή</supplied><unclear>ν</unclear>ορος τοῦ Εὐανδρίδου, Σαμίου τοῦ Ἀνδρίου,
+                          <lb n="5"/><supplied reason="lost">Ἀρ</supplied><unclear>ι</unclear>στέως τοῦ Ἀνρδίου, Εὐδώρου τοῦ Σαμιάδου,
+                          <lb n="6"/><supplied reason="lost">Λ</supplied>εωδάμα<unclear>ν</unclear>τος τοῦ Βάτωνος, Λάμπιος τοῦ Λαμπίτου,
+                          <lb n="7"/>Δημητρίου τοῦ Ἀλεξάνδρου, Βιωνίδου τοῦ Ἀρισταγόρου,
+                          <lb n="8"/>Κλεοστράτου το<unclear>ῦ</unclear> Λεωσθένου, Ἡγήμονο<unclear>ς</unclear> τοῦ Ἑκαταίου,
+                          <lb n="9"/>Ἀριστεί<unclear>δ</unclear><supplied reason="lost">ο</supplied><unclear>υ</unclear> τοῦ Π<unclear>ολ</unclear>υξένου, Ἀριστάρχου <unclear>τ</unclear>οῦ Διογένου,
+                          <lb n="10"/>Πύθωνος <unclear>τ</unclear>οῦ Μαιανδρίου, Σωπόλιος τοῦ <unclear>Ε</unclear>ὐδήμου,
+                          <lb n="11"/><unclear>Ἀ</unclear>ριστοφ<unclear>ῶ</unclear>ντος τοῦ Δαμασίου, <unclear>Θε</unclear>ομνήστου τοῦ Διογένου,
+                          <lb n="12"/><unclear>Π</unclear>ισίδου τοῦ Μενεκράτου, Γλα<unclear>υ</unclear>κίππου τοῦ Δαμασίου,
+                          <lb n="13"/>Βάβωνος τοῦ Πολυ<unclear>ξ</unclear>ένου, Διαγόρου τοῦ Λαο<unclear>μή</unclear><supplied reason="lost">δ</supplied>ο<unclear>υ</unclear>,
+                          <lb n="14"/>Ἀριστέως τοῦ <unclear>Φ</unclear><supplied reason="lost">ε</supplied><unclear>ι</unclear>δίου, Διομ<unclear>ή</unclear><supplied reason="lost">δου</supplied> τ<unclear>ο</unclear><supplied reason="lost">ῦ</supplied><gap reason="lost" quantity="1" unit="character"/><orig><unclear>υ</unclear></orig><gap reason="lost" quantity="7" unit="character"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="2"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="3"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="4"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="6"/>οἱ σύνεδροι εἶπαν· ἐπειδὴ <gap reason="lost" quantity="20" unit="character" precision="low"/> <supplied reason="lost">ἐπελθόν</supplied>τες
+                          <lb n="7"/><supplied reason="lost">ἐπί τε τὴμ βουλὴν καὶ τὴν ἐκκλησίαν</supplied> <gap reason="lost" quantity="10" unit="character" precision="low"/> <supplied reason="lost">διὰ τὴ</supplied>ν ὑπάρ<lb 
+                        break="no" n="8"/><supplied reason="lost">χουσαν πρὸς <placeName ref="#crete">Κρῆτας</placeName> <w lemma="οἰκειότης">οἰκειότητα</w> καὶ <w lemma="συγγένεια">συγγένειαν</w> ἀπὸ τοῦ <w lemma="θεός">θεοῦ</w> ἠξ</supplied>ίωσαν
+                          <lb n="9"/><supplied reason="lost" cert="low">γενέσθαι αὐτοῖς</supplied> <gap reason="lost" quantity="28" unit="character" precision="low"/> <supplied reason="lost">με</supplied>τάδοσιν
+                          <lb n="10"/>τῆς πολιτείας <gap reason="lost" quantity="25" unit="character" precision="low"/> <supplied reason="lost">ἠξίωσαν δ</supplied>ὲ καὶ πα<lb 
+                        break="no" n="11"/><supplied reason="lost">ρασχέσθαι αὐτοῖς χώραν</supplied> <gap reason="lost" quantity="23" unit="character" precision="low"/> <supplied reason="lost">ψη</supplied>φισαμέ<lb 
+                        break="no" n="12"/><supplied reason="lost">νου δὲ τοῦ δήμου</supplied> <gap reason="lost" quantity="30" unit="character" precision="low"/> κοινὸν
+                          <lb n="13"/><gap reason="lost" quantity="42" unit="character" precision="low"/> <supplied reason="lost">προ</supplied><unclear>θ</unclear>ύμους
+                          <lb n="14"/><gap reason="lost" quantity="45" unit="character" precision="low"/> περὶ
+                          <lb n="15"/><gap reason="lost" quantity="43" unit="character" precision="low"/> <supplied reason="lost">διαγ</supplied><unclear>ώγιον</unclear>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="17" unit="character" precision="low"/> <supplied reason="lost">τοῦ θεοῦ τοῦ δευτέρου το</supplied><unclear>ῦ</unclear> μετὰ Ἀ<supplied reason="lost">θηναγόρ</supplied><unclear>αν</unclear>
+                          <lb n="2"/><gap reason="lost" quantity="22" unit="character" precision="low"/> <supplied reason="lost">περὶ δὲ τοῦ πλε</supplied>ονάζοντος <supplied reason="lost">μέρο</supplied>υς το<unclear>ῦ</unclear>
+                          <lb n="3"/><supplied reason="lost" cert="low">μισθοῦ</supplied> <gap reason="lost" quantity="18" unit="character" precision="low"/> <placeName ref="#miletus" type="ethnic"><supplied reason="lost">Μιλη</supplied><unclear>σί</unclear><supplied reason="lost">ο</supplied><unclear>ι</unclear>ς</placeName> καὶ συμφωνήσα<unclear>ν</unclear>τας πρὸς
+                          <lb n="4"/><gap reason="lost" quantity="24" unit="character" precision="low"/> <supplied reason="lost">τὸν</supplied> δῆμον βουλεύσασθαι, καθότι ἂν
+                          <lb n="5"/><supplied reason="lost">δοκῆι.  εἶναι δὲ <placeName ref="#miletus" type="ethnic">Μιλησίους</placeName> τοὺ</supplied>ς <w lemma="μετέχω">μετασχόντας</w> τῆς <rs type="institution" subtype="social_status" role="belonging" key="polites" ref="#crete"><w lemma="πολιτεία">πολιτείας</w>
+                          <lb n="6"/><supplied reason="lost">τῶγ <placeName ref="#crete" type="ethnic">Κρητῶν</placeName></supplied></rs><supplied reason="lost">, ἀφ’ ἧς ἂν ἡμέρας τ</supplied>ὸ ψήφισ<supplied reason="lost">μ</supplied>α τόδε κυρωθῆι· μὴ ἐξεῖναι <unclear>δ</unclear>ὲ
+                          <lb n="7"/><supplied reason="lost"><w lemma="δικάζω">δικάζεσθαι</w> κατὰ μηθενὸς αὐτῶν</supplied> μηθενὶ <supplied reason="lost">πε</supplied>ρὶ τῶν προγεγονότων ἕως
+                          <lb n="8"/><supplied reason="lost">εἰς στεφανηφόρον τὸν θεὸν τὸν δεύ</supplied>τερον τὸμ μετὰ Ἀθηναγόραν καὶ μῆνα
+                          <lb n="9"/><gap reason="lost" atLeast="11" atMost="13" unit="character" precision="low"/> <supplied reason="lost">μηδὲ ἐκεί</supplied>νοις κατὰ μηθενὸς <placeName ref="#miletus" type="ethnic">Μιλησίων</placeName> μηδὲ τῶν
+                          <lb n="10"/><supplied reason="lost"><placeName ref="#miletus">Μίλητον</placeName> <w lemma="οἰκέω">οἰκούντων</w>, ἀλλὰ</supplied> ἀφεῖσθαι πάντας ἀπὸ πάντων. ἐὰν δέ τις
+                          <lb n="11"/><supplied reason="lost">παρὰ τὸ ψήφισμα δικάζητ</supplied>αι, μὴ γραφέ<supplied reason="lost">τω</supplied>σαν αὐτῶι τὴν δίκην οἱ ἄρ<lb 
+                        break="no" n="12"/><supplied reason="lost" cert="low">χοντες μηδὲ βοηθείτωσαν</supplied> <supplied reason="lost">τῶι ἀδ</supplied>ι<unclear>κο</unclear>υμένωι, καὶ ἡ δίκη ἄκυρος
+                          <lb n="13"/><supplied reason="lost">ἔστω</supplied> <gap reason="lost" quantity="35" unit="character" precision="low"/>ίας γινομένης καὶ ἡ
+                          <lb n="14"/><gap reason="lost" quantity="38" unit="character" precision="low"/> <placeName ref="#crete" type="ethnic"><supplied reason="lost">Κρ</supplied><unclear>ητῶ</unclear>ν</placeName>, ο<supplied reason="lost">ἷ</supplied>ς <unclear>δέδ</unclear><supplied reason="lost">ο</supplied><unclear>τα</unclear>ι
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="D">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">π</supplied><unclear>άση</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="illegible" quantity="1" unit="character"/>οντες <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>εἰς δὲ τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>ἐκκλησί<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>τρ<unclear>ε</unclear>ῖς φυλὰ<unclear>ς</unclear><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοὺς</supplied>
+                          <lb n="6"/>δὲ τειχοπ<unclear>οι</unclear><supplied reason="lost">οὺς</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ἀρ</supplied><lb 
+                        break="no" n="7"/>τεμισιῶν<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/>καὶ εἰς τὰ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>νόμοι συ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δια</supplied><lb 
+                        break="no" n="10"/>κλήρωσ<unclear>ιν</unclear> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δοῦ</supplied><lb 
+                        break="no" n="11"/>ναι δὲ αὐτ<unclear>ο</unclear><supplied reason="lost">ῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="illegible" quantity="1" unit="character"/>λανιον.  τῆς δὲ <supplied reason="lost">Ὑβ</supplied>αν<unclear>δί</unclear>δος ε<gap reason="lost" quantity="26" unit="character" precision="low"/> <supplied reason="lost">τοὺς</supplied>
+                          <lb n="13"/>ἀρχιτέκτονας ἐγδημήσαντα<unclear>ς</unclear> <supplied reason="lost">εἰς τὸ χωρίον</supplied> <gap reason="lost" quantity="17" unit="character" precision="low"/>
+                          <lb n="14"/><gap reason="lost" quantity="5" unit="character"/>μενον, καθότι ἐψ<unclear>ήφισ</unclear><supplied reason="lost">ται ὁ δῆμος</supplied> <gap reason="lost" quantity="21" unit="character" precision="low"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="E">
+                        <ab>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><orig>ομε<unclear>ν</unclear></orig><gap reason="lost" quantity="33" unit="character" precision="low"/><orig><unclear>ια</unclear></orig><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost">, καθότι ἐπι</supplied><lb 
+                        break="no" n="2"/>τήδειον ἔσται, καὶ τὴν γενομένην διαίρεσιν ἀναγράψαι ε<unclear>ὐ</unclear><supplied reason="lost">θὺς με</supplied><lb 
+                        break="no" n="3"/>τὰ τῶν ὀνομάτων καὶ παραδοῦναι τῶι γραμματεῖ τῆς βουλῆς, <supplied reason="lost">ἵνα</supplied>
+                          <lb n="4"/>ὑπάρχῃ ἐν τοῖς δημοσίοις· δοῦναι δὲ τὸγ γραμματέα τὸ ἀντίγ<supplied reason="lost">ρα</supplied><lb 
+                        break="no" n="5"/>φον καὶ τοῖς οἰνοφύλαξι, τοὺς δὲ παραλαβόντας καταχωρίσαι εἰ<unclear>ς</unclear> <supplied reason="lost">τὰ</supplied>
+                          <lb n="6"/>λευκώματα, ἐ<unclear>ν</unclear> οἷς καὶ αἱ ὦναι ὑπάρχουσι.  μὴ εἶναι δὲ αὐτοῖς τ<unclear>ὴ</unclear><supplied reason="lost">ν</supplied>
+                          <lb n="7"/>δεδομένην χώραν ἀποδόσθαι <unclear>μ</unclear>ηδενὶ ἕως ἐτῶν εἴκοσι· <supplied reason="lost">ἐ</supplied>ὰν <supplied reason="lost">δ</supplied><unclear>έ</unclear>
+                          <lb n="8"/>τις ἀποδῶται τρόπωι ὁτωι<supplied reason="lost">ο</supplied>ῦ<unclear>ν</unclear>, ἥ τε <unclear>ὠ</unclear>νὴ ἄκυρος ἔστω καὶ <unclear>δ</unclear>ίκ<unclear>η</unclear>ν εἶ<unclear>ν</unclear><supplied reason="lost">αι</supplied>
+                          <lb n="9"/>κατὰ δὲ τοῦ ἀποδομένου καὶ τοῦ ἀγοράσαντος ἀδικίου τῆς πόλε<supplied reason="lost">ως</supplied>
+                          <lb n="10"/>τῶι βουλομένωι <placeName ref="#miletus" type="ethnic">Μιλησίων</placeName>· τὰσ δὲ γραφὰς τῶν δικῶν καὶ τὰ λοιπὰ <supplied reason="lost">συν</supplied><lb 
+                        break="no" n="11"/>τελεῖσθαι κατ<supplied reason="lost">ὰ τὸν</supplied> <unclear>ξ</unclear>ενι<unclear>κ</unclear><supplied reason="lost">ὸν</supplied> νόμον.  δεδόσθαι δὲ αὐτοῖς καὶ <unclear>σκ</unclear><supplied reason="lost">ευά</supplied><lb 
+                        break="no" n="12"/>ριον.  <placeName ref="#myous" type="ethnic">Μυ<unclear>ο</unclear><supplied reason="lost">υσίων</supplied></placeName> <supplied reason="lost">δὲ τοὺς κ</supplied>ε<supplied reason="lost">κτημ</supplied>ένους τὰς οἰκίας ἐν τῶι χωρίωι <unclear>δέ</unclear><supplied reason="lost">ξασ</supplied><lb 
+                        break="no" n="13"/>θαι αὐ<supplied reason="lost">τούς.  δοῦναι δὲ καὶ</supplied> <unclear>ἀ</unclear>πὸ τῶν ὑπαρχόντων στεγνῶν <unclear>τ</unclear>ῶ<supplied reason="lost">ν</supplied>
+                          <lb n="14"/>ἐφ’ ἕτ<supplied reason="lost">ος μισθούντων, ὅ</supplied>σοι ἐπαγγέ<supplied reason="lost">λλ</supplied>ονται.  ἵνα δὲ ταῦτα σ<unclear>υ</unclear><supplied reason="lost">μ</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">φερόντως</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τάσσηται</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="F">
+                        <ab>
+                          <lb n="1"/>συνισταμέ<supplied reason="lost">νου δὲ π<milestone unit="block"/>ολέμου ἀμυνῶ ὑπὲρ τῆς τε πόλεως καὶ ὧν ἂν</supplied>
+                          <lb n="2"/><placeName ref="#miletus" type="ethnic">Μιλήσιοι</placeName> ἐγκ<supplied reason="lost">ρατεῖς <milestone unit="block"/> ὦσιν, παντὶ σθένει καὶ καθότι ἂν</supplied> <unclear>δ</unclear>υν<unclear>α</unclear><lb 
+                        break="no" n="3"/>τὸν ἦι τάχιστ<unclear>α</unclear>· <w lemma="εὐορκέω"><supplied reason="lost">εὐορ<milestone unit="block"/>κοῦντι</supplied></w> <supplied reason="lost">μέν μοι πάντα γ</supplied>ίνοι<supplied reason="lost">το χρή</supplied>σιμα
+                          <lb n="4"/>καὶ καρποὶ κ<unclear>α</unclear><gap reason="lost" quantity="3" unit="character"/>ων<milestone unit="block"/><gap reason="lost" atLeast="20" atMost="21" unit="character"/> <unclear>ε</unclear><supplied reason="lost">ἰ δὲ</supplied> <w lemma="ἐφιορκέω">ἐφι<unclear>ο</unclear><supplied reason="lost">ρκ</supplied><unclear>οί</unclear><supplied reason="lost">η</supplied>ν</w>, τὰ ἐν<unclear>αν</unclear><lb 
+                        break="no" n="5"/>τία τούτω<supplied reason="lost">ν</supplied>.  ὁ δῆ<unclear>μ</unclear><supplied reason="lost">ο<milestone unit="block"/>ς ὁ <placeName ref="#miletus" type="ethnic">Μιλησίων</placeName> ἐρωτ</supplied><unclear>ᾶ</unclear>ι, εἰ αὐτῶ<unclear>ι</unclear> <supplied reason="lost">λ</supplied><unclear>ῶι</unclear><supplied reason="lost">ον</supplied> κα<supplied reason="lost">ὶ ἄ</supplied>μεινον
+                          <lb n="6"/><space extent="unknown" unit="character"/> ἔσται <unclear>κ</unclear><supplied reason="lost">α<milestone unit="block"/>ὶ νῦν καὶ εἰς τὸν ἔπ</supplied>ειτα χρόνον προσλαβόντι πρὸς τὸ
+                          <lb n="7"/><space extent="unknown" unit="character"/> <w lemma="πολίτευμα">πολίτε<supplied reason="lost">υ<milestone unit="block"/>μα</supplied></w> <supplied reason="lost"><w lemma="ἀνήρ">ἄνδρας</w></supplied> <placeName ref="#dreros" type="ethnic"><unclear>Δρ</unclear>ηρίους</placeName> καὶ <placeName ref="#milatos" type="ethnic">Μιλ<unclear>α</unclear><supplied reason="lost">τ</supplied>ίους</placeName>, ὑπὲρ ὧν οἱ <w lemma="ἀνήρ">ἄνδρες</w>
+                          <lb n="8"/><space extent="unknown" unit="character"/> ἥκουσι π<supplied reason="lost">ρ<milestone unit="block"/>ὸς τὴμ πόλι</supplied><unclear>ν</unclear>, <unclear>κ</unclear><supplied reason="lost">αὶ</supplied> <unclear>με</unclear><supplied reason="lost">ταδό</supplied>ντι α<unclear>ὐ</unclear><supplied reason="lost">τ</supplied>ο<unclear>ῖς</unclear> χώρας καὶ τῶν
+                          <lb n="9"/><space extent="unknown" unit="character"/> <unclear>ἄ</unclear>λλων, <milestone unit="block"/> <supplied reason="lost">ὧγ καὶ τοῖς ἄλλο</supplied>ις μ<supplied reason="lost">έ</supplied>τεστι <placeName ref="#miletus" type="ethnic">Μιλ<unclear>η</unclear><supplied reason="lost">σί</supplied>οις</placeName>· θεὸς ἔχρησε·
+                          <lb n="10"/><space extent="unknown" unit="character"/> <supplied reason="lost">δέξασθ’ ἀσπ</supplied><unclear>α</unclear>σίως οἰκήτορας <w lemma="ἀνήρ">ἄνδρας</w> ἀρωγοὺς
+                          <lb n="11"/><space extent="unknown" unit="character"/> <supplied reason="lost">ἐς πόλιν ὑμετ</supplied>έρην· καὶ γὰρ λ<unclear>ῶ</unclear>ιον καὶ ἄμεινον·
+                          <lb n="12"/><space extent="unknown" unit="character"/> <gap reason="lost" quantity="12" unit="character"/>ς φῶτες θεσμ<supplied reason="lost">οῖσι</supplied><unclear>ν</unclear> <unclear>ἐ</unclear>πῶρ<supplied reason="lost">σαν</supplied>
+                          <lb n="13"/><space extent="unknown" unit="character"/> <gap reason="lost" atLeast="14" atMost="15" unit="character"/><orig><unclear>αρεσ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="G">
+                        <ab>
+                          <lb n="1"/><space extent="unknown" unit="character"/> σ<gap reason="lost" quantity="8" unit="character"/><orig>ιμ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><space extent="unknown" unit="character"/> πα<gap reason="lost" quantity="6" unit="character"/>ν θυ<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><space extent="unknown" unit="character"/> καὶ διδύμων ἐ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><space extent="unknown" unit="character"/> ὡς ὑμῖν τελέσ<unclear>ω</unclear><supplied reason="lost">σι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><space extent="unknown" unit="character"/> ὁ δῆμος ὁ <placeName ref="#miletus" type="ethnic">Μιλησ<unclear>ίω</unclear><supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">ἐρωτᾶι, εἰ αὐτῶι λῶιον καὶ</supplied>
+                          <lb n="6"/><space extent="unknown" unit="character"/> ἄμεινον ἔσται κ<unclear>α</unclear>ὶ <supplied reason="lost">νῦν καὶ εἰς τὸν ἔπειτα χρόνον προσ</supplied><lb 
+                        break="no" n="7"/>λαβόντι πρὸς τὸ <w lemma="πολίτευμα">πο<unclear>λ</unclear><supplied reason="lost">ίτευμα</supplied></w> <supplied reason="lost"><w lemma="ἀνήρ">ἄνδρας</w> τοὺς περὶ</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/>
+                          <lb n="8"/><space extent="unknown" unit="character"/> καὶ Φιλάν<supplied reason="lost">ο</supplied>ρα καὶ Σω<gap reason="lost" quantity="9" unit="character"/><supplied reason="lost">, ὑπὲρ ὧν οἱ <w lemma="ἀνήρ">ἄνδρες</w> ἥκουσι</supplied>
+                          <lb n="9"/><space extent="unknown" unit="character"/> πρὸς τὴμ πόλιν, καὶ μ<unclear>ε</unclear><supplied reason="lost">ταδόντι αὐτοῖς χώρας καὶ τῶν ἄλλων</supplied>,
+                          <lb n="10"/><space extent="unknown" unit="character"/> ὧγ καὶ τοῖ<supplied reason="lost">ς ἄλ</supplied>λοις <unclear>μ</unclear><supplied reason="lost">έτεστι <placeName ref="#miletus" type="ethnic">Μιλησίοις</placeName>· θεὸς ἔχρησε</supplied>·
+                          <lb n="11"/><space extent="unknown" unit="character"/> ἅ φρε<unclear>σ</unclear>ίν <supplied reason="lost">ἐ</supplied>στε ν<supplied reason="lost">οοῦντες</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><space extent="unknown" unit="character"/> τιμαῖς δὲ ἐξ<unclear>ω</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                        </div>
+                        <div type="textpart" subtype="part" n="55">
+                            <div type="textpart" subtype="part" n="a">
+                                <ab>
+                          <lb n="1"/>ἔδοξε τῶι δήμωι· γνώμηι ἐ<supplied reason="lost">πι</supplied>στατῶν· Ἀντίπατρο<supplied reason="lost">ς</supplied> <gap reason="lost" quantity="4" unit="character" precision="low"/> <supplied reason="lost">εἶπεν· ἐπε<milestone unit="block"/>ιδὴ</supplied>
+                          <lb n="2"/>πρὸς <placeName ref="#crete" type="ethnic">Κρῆτας</placeName> ὑπαρχούσης <w lemma="οἰκειότης">οἰκειότητος</w> καὶ συγγενε<supplied reason="lost">ίας ἀπὸ τοῦ θε<milestone unit="block"/>οῦ</supplied>,
+                          <lb n="3"/>συγκειμένης δὲ καὶ συμμαχίας, ἣν διὰ πατέρων ὁ δῆμο<supplied reason="lost">ς κατὰ τὰ</supplied><milestone unit="block"/>
+                          <lb n="4"/>διὰ τῶν ψηφισθέντων ὡρισμένα τετήρηκεν, ὡς προσ<supplied reason="lost">ῆκον ἦν ἀπὸ <milestone unit="block"/> τοῦ</supplied>
+                          <lb n="5"/>θεοῦ τὴν ἀρχὴν τῆς συγ<corr>γ</corr>ενείας εἰλήφοσιν, καὶ διὰ τῶν ἔ<supplied reason="lost">ργων ὁ δῆμο<milestone unit="block"/>ς</supplied>
+                          <lb n="6"/>ἐκφανῆ<surplus>ι</surplus> καθιστὰς τὴν αὑτοῦ προαίρεσιν κοινῆι τε πά<unclear>ντ</unclear><supplied reason="lost">ων <placeName ref="#crete" type="ethnic">Κρητῶν</placeName></supplied><milestone unit="block"/>
+                          <lb n="7"/>ἐποιεῖτο <w lemma="πρόνοια">πρόνοιαν</w> καὶ τοῖς δεομένοις τῆς ἀφ’ αὑτ<unclear>ο</unclear><supplied reason="lost">ῦ βοηθείας ὑπή</supplied><milestone unit="block"/><lb 
+                        break="no" n="8"/>κουε τοῖς ἀξιουμένοις διὰ τὸ κρίνειν κ<supplied reason="lost">α</supplied>ὶ κατὰ τ<supplied reason="lost">ὰ ἑκατέροις</supplied><milestone unit="block"/>
+                          <lb n="9"/>οἰκείως συμφέροντα ἀ<unclear>κολ</unclear>ού<unclear>θ</unclear>ως δὲ <supplied reason="lost">κ</supplied><unclear>αὶ</unclear> <unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/>
+                          <lb n="10-29"/><gap reason="lost" quantity="20" unit="line"/>
+                          </ab>
+                    </div>
+                            <div type="textpart" subtype="part" n="b">
+                                <ab>
+                          <lb n="30"/><gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><gap reason="lost" extent="unknown" unit="character"/> ὅπως οὖν <unclear>σ</unclear><supplied reason="lost">υναν</supplied><lb 
+                        break="no" n="31"/><supplied reason="lost">τήσηι ὁ δῆμος τοῖς βουλομ<milestone unit="block"/>ένοις πολιτεύε</supplied>σθαι μετὰ <placeName ref="#miletus" type="ethnic">Μιλησίων</placeName>
+                          <lb n="32"/><gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>δ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/>Ἀπόλλων<gap reason="lost" quantity="5" unit="character"/>
+                          <lb n="33"/><gap reason="lost" quantity="15" unit="character" precision="low"/> <supplied reason="lost">περὶ ὧ<milestone unit="block"/>ν τὴν</supplied> <w lemma="εὔνοια"><supplied reason="lost">εὔνοι</supplied>αν</w> ἀπεφήνατ<unclear>ο</unclear> <unclear>ἐ</unclear><supplied reason="lost">πὶ τοῦ θεοῦ</supplied>
+                          <lb n="34"/><supplied reason="lost">τοῦ δευτέρου τοῦ μετ’ Ἀθη<milestone unit="block"/>ναγ</supplied>όραν καὶ προσέλα<unclear>β</unclear>ε σύμψηφον <unclear>τ</unclear>ὴν τοῦ
+                          <lb n="35"/><supplied reason="lost">θεοῦ γνώμην, ἀγαθῆι τύ</supplied><milestone unit="block"/><unclear>χ</unclear>ηι· ἐψηφίσθαι <placeName ref="#miletus" type="ethnic">Μιλησίοις</placeName> τοῖς μὲν διαπεμ<lb 
+                        break="no" n="36"/><supplied reason="lost">ψαμένοις περὶ τῆς πολι</supplied><milestone unit="block"/>τείας, ὧν τὰ ὀνόματα κατασφραγισάμενοι
+                          <lb n="37"/><gap reason="lost" quantity="11" unit="character" precision="low"/> <supplied reason="lost">κατὰ τὸ πρ<milestone unit="block"/>ό</supplied><unclear>τ</unclear>ερον ψήφισμα, δεδόσθαι μετουσίαν
+                          <lb n="38"/><supplied reason="lost">τῆς ἐμ <placeName ref="#miletus">Μιλήτωι</placeName> πολιτείας καὶ <milestone unit="block"/> ἱερ</supplied>ῶν καὶ ἀρχείων καὶ τῶν ἄλλων, ὧν καὶ
+                          <lb n="39"/><supplied reason="lost"><placeName ref="#miletus" type="ethnic">Μιλησίοις</placeName> μέτεστιν.  ἵνα δὲ πά<milestone unit="block"/>ντα προσού</supplied>σης καὶ τῆς <gap reason="lost" atLeast="2" atMost="3" unit="character"/> τῶν θεῶν
+                          </ab>
+                    </div>
+                            <div type="textpart" subtype="part" n="c">
+                                <ab>
+                          <lb n="40"/><supplied reason="lost">εὐμεν</supplied>εία<unclear>ς</unclear> τάσσηται, τὸμ προ<unclear>φ</unclear><supplied reason="lost">ήτ<milestone unit="block"/>ην κ</supplied>αὶ τὸν ταμίαν τὸ<unclear>ν</unclear>
+                          <lb n="41"/><unclear>πα</unclear><supplied reason="lost">ρ</supplied><unclear>εδ</unclear><supplied reason="lost">ρ</supplied>εύοντα ἐν τῶι ἱερῶι συντελέ<unclear>σ</unclear><milestone unit="block"/><supplied reason="lost">αι θυσί</supplied>αν τῶι <persName type="divine" key="Apollo Didymeus">Ἀπ<supplied reason="lost">όλ</supplied>λωνι τῶι
+                          <lb n="42"/><placeName ref="#didyma" type="ethnic"><unclear>Διδυμ</unclear>εῖ</placeName></persName>, τὸν δ<unclear>ὲ</unclear> στεφανηφόρον τῶι <persName type="divine" key="Delphinios">Δ<unclear>ε</unclear><milestone unit="block"/><supplied reason="lost">λφινίωι</supplied></persName>, τὸν <supplied reason="lost">δ</supplied>ὲ ἱερέ<unclear>α</unclear> καὶ τοὺς
+                          <lb n="43"/>πρυτάνεις καὶ τους ἡιρημένους ἐπὶ <unclear>τ</unclear><milestone unit="block"/><supplied reason="lost">ῆι φυλ</supplied><unclear>α</unclear>κῆι τ<unclear>ῆ</unclear>ι τε <persName type="divine" key="Hestia Boulaia">Ἑστί<unclear>α</unclear>ι τῆι
+                          <lb n="44"/>Βουλαίαι</persName> <unclear>κ</unclear>αὶ τῶι <persName type="divine" key="Zeus Boulaios">Διὶ τῶι Βουλαίωι</persName> ἐπευχο<milestone unit="block"/><supplied reason="lost">μένου</supplied>ς τὴμ μετάδοσιν
+                          <lb n="45"/>τῆς πολιτείας ἐπὶ σωτηρίαι καὶ ὁμον<supplied reason="lost">ο<milestone unit="block"/>ίαι πά</supplied><unclear>ν</unclear>των <placeName ref="#miletus" type="ethnic">Μιλησίων</placeName> γε<lb 
+                        break="no" n="46"/>νέσ<unclear>θ</unclear>αι· <supplied reason="lost">ὅπ</supplied>ως δὲ τὰ ἐψηφισμένα διαμ<milestone unit="block"/><supplied reason="lost">είνη</supplied>ι τὸν ἀεὶ χρ<unclear>όν</unclear><supplied reason="lost">ον</supplied>, <unclear>γε</unclear><supplied reason="lost">νο</supplied>μέ<lb 
+                        break="no" n="47"/>νης <supplied reason="lost">τῆς μεταδόσεως</supplied> <unclear>μ</unclear><supplied reason="lost">ὴ ἐξ</supplied>έστω τοῖς <supplied reason="lost">μ</supplied><milestone unit="block"/><unclear>ε</unclear>τειληφ<unclear>ό</unclear>σι τῆς πολιτεί<supplied reason="lost">α</supplied><unclear>ς</unclear>
+                          <lb n="48"/><supplied reason="lost">δικάζεσθαι περὶ μηθενὸς μηθενὶ τῶμ <milestone unit="block"/> πολι</supplied>τ<supplied reason="lost">ῶ</supplied>ν, ἀλλ’ <w lemma="οἰκεῖος">οἰκείους</w> κ<unclear>αὶ</unclear>
+                          <lb n="49"/><supplied reason="lost"><w lemma="φίλος">φίλους</w> ὑπάρχειν τοῖς τε πολίταις καὶ</supplied> <milestone unit="block"/> <unclear>τοῖς</unclear> ἄρχουσιν, τοῖς δὲ δό<unclear>γ</unclear><lb 
+                        break="no" n="50"/>μασιν τοῦ δήμου ἐμμένειν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="51-59"/><gap reason="lost" quantity="9" unit="line"/>
+                          </ab>
+                    </div>
+                            <div type="textpart" subtype="part" n="d">
+                                <ab>
+                          <lb n="60"/><gap reason="lost" extent="unknown" unit="character"/> <milestone unit="block"/> <supplied reason="lost">ἀποτίνε</supplied><unclear>ι</unclear>ν τὸ τίμημα. ἐὰν δὲ ὁ διώκων μὴ μετ<supplied reason="lost">αλάβ</supplied><unclear>ηι</unclear>
+                          <lb n="61"/><supplied reason="lost">τὸ πέμπτο<milestone unit="block"/>ν μέρος</supplied> <unclear>τ</unclear><supplied reason="lost">ῶ</supplied><unclear>ν</unclear> <unclear>ψ</unclear>ήφων, ἀποτεισάτω τὸ ἥμυσυ το<supplied reason="lost">ῦ τιμ</supplied>ή<lb 
+                        break="no" n="62"/><supplied reason="lost">ματος</supplied> <gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>τ</unclear>ὸ μὲν τῆς πόλεως, τὸ δὲ τοῦ ἰδιώτου· τὴν δὲ
+                          <lb n="63"/><supplied reason="lost">προθεσμία<milestone unit="block"/>ν ἐντὸς τρι</supplied>ῶν εἶναι ἐνιαυτῶν.  ἐπικληρωσάτωσαν δὲ
+                          <lb n="64"/><supplied reason="lost">αὐτοὺς οἱ <milestone unit="block"/> πρ</supplied>υτ<unclear>άν</unclear><supplied reason="lost">ει</supplied>ς καὶ ἐπὶ φυλάς, ἃς ἂν ὁ δῆμος ἀποδείξηι
+                          <lb n="65"/><gap reason="lost" quantity="6" unit="character"/> <supplied reason="lost">λαγχ</supplied><milestone unit="block"/><unclear>ανέτ</unclear><supplied reason="lost">ω</supplied><unclear>σα</unclear>ν δὲ φυλακὴν καὶ φρουραρχίαν ἐτῶν παρε<unclear>λ</unclear><lb 
+                        break="no" n="66"/><supplied reason="lost">θόντων εἴ</supplied><milestone unit="block"/>κοσι· λητουργιῶν δ’ ἔστωσαν ἀτελεῖς ἔτη πέντε ἀπ<unclear>ὸ</unclear>
+                          <lb n="67"/><supplied reason="lost">ἐνιαυτοῦ τ</supplied><milestone unit="block"/><unclear>οῦ</unclear> <unclear>μ</unclear><supplied reason="lost">ε</supplied><unclear>τὰ</unclear> τὸν ἐνιαυ<unclear>τὸ</unclear>ν τὸν ἐπὶ Πρωτα<unclear>γό</unclear>ρ<supplied reason="lost">ου· π</supplied><unclear>ο</unclear>ιήσασθαι
+                          <lb n="68"/><supplied reason="lost">δὲ καὶ τοὺ<milestone unit="block"/>ς ἀνα</supplied><unclear>τ</unclear><supplied reason="lost">άκτα</supplied>ς τὴ<unclear>ν</unclear> <unclear>πρᾶ</unclear>σιν τοῦ ἐνλιμενίου, ἐφ’ ὧιτε οἱ πρι<lb 
+                        break="no" n="69"/><supplied reason="lost">άμενοι τὴ<milestone unit="block"/>ν ὠνὴν ἀ</supplied>τελ<corr>εῖ</corr>ς <supplied reason="lost">ἀφήσουσ</supplied>ιν τοὺς εἰσάγοντάς τι τῶμ πολι<lb 
+                        break="no" n="70"/><supplied reason="lost">τογραφηθέντων</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="71-89"/><gap reason="lost" quantity="9" unit="line"/>
+                          </ab>
+                    </div>
+                            <div type="textpart" subtype="part" n="e">
+                                <ab>
+                          <lb n="80"/><gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><gap reason="lost" quantity="7" unit="character"/><unclear>ς</unclear> <unclear>κ</unclear>αὶ οἱ πρυτάνεις
+                          <lb n="81"/><gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><gap reason="lost" quantity="6" unit="character"/> <unclear>νο</unclear>μ<supplied reason="lost">ί</supplied>ζ<unclear>ω</unclear>σιν ἐπιτ<unclear>η</unclear>δει<lb 
+                        break="no" n="82"/><gap reason="lost" quantity="2" unit="character"/> <supplied reason="lost">εἶναι</supplied> <gap reason="lost" quantity="5" unit="character"/> <supplied reason="lost">ὁ δὲ <w lemma="ὅρκος">ὅρκος</w> ἔστω· συμπολι<milestone unit="block"/>τεύσομαι</supplied> τῶι δήμωι τῶι <placeName ref="#miletus" type="ethnic">Μιλη<lb 
+                        break="no" n="83"/><supplied reason="lost">σίων</supplied></placeName> <supplied reason="lost">μεθ’ <w lemma="ὁμόνοια">ὁμονοίας</w> καὶ συνδιατηρήσω <milestone unit="block"/> τὴν πόλιν</supplied> καὶ τὰ φρούρια, ἅ τε
+                          <lb n="84"/><supplied reason="lost">νῦν κατέχει ὁ δῆμος καὶ ὅσα ἂν ὕστε<milestone unit="block"/>ρον πρὸς α</supplied>ὐτὰ προσγίνηται,
+                          <lb n="85"/><supplied reason="lost">ἀεὶ κατὰ δύναμιν τὴν ἐμήν.  ἐμμενῶ δὲ <milestone unit="block"/> και πᾶ</supplied><unclear>σ</unclear>ι τοῖς ἐν τῶι ψηφίσμα<lb 
+                        break="no" n="86"/><supplied reason="lost">τι γεγραμμένοις καὶ οὐ παραβήσομαι, ἀ<milestone unit="block"/>λλ’ ἀγ</supplied>ωνιστὴς ὡς προσῆκον
+                          <lb n="87"/><supplied reason="lost">ὑπάρξω ὑπὲρ τῆς πόλεως, καί μοι</supplied> <w lemma="εὐορκέω"><supplied reason="lost">εὐορ<milestone unit="block"/>κοῦν</supplied>τι</w> <unclear>γ</unclear><supplied reason="lost">ί</supplied>νοιτο ἄμεινον, εἰ δ<unclear>ὲ</unclear>
+                          <lb n="88"/><supplied reason="lost"><w lemma="ἐφιορκέω">ἐφιορκοίην</w>, ἐξώλης εἴην αὐτὸς καὶ τἀμά· <milestone unit="block"/> ἀναγράψαι</supplied> δὲ τό τε ψήφισμα
+                          <lb n="89"/><supplied reason="lost">τόδε καὶ τὰ ὀνόματα τῶν <w lemma="ὀμνύω">ὀμοσάντων</w> εἰς <milestone unit="block"/> τὸ ἱε</supplied>ρὸν τοῦ <persName type="divine" key="Apollo Delphinios">Ἀπόλλωνος</persName>
+                          </ab>
+                    </div>
+                            <div type="textpart" subtype="part" n="f">
+                                <ab>
+                          <lb n="90"/><supplied reason="lost">τοῦ Δελφινίου</supplied> <gap reason="lost" quantity="11" unit="character"/>τ<unclear>ο</unclear> <unclear>β</unclear><gap reason="lost" quantity="15" unit="character"/> <supplied reason="lost">τοὺς <milestone unit="block"/> δὲ τειχο</supplied><lb 
+                        break="no" n="91"/><supplied reason="lost">ποιοὺς μετὰ τοῦ ἀ</supplied><unclear>ρ</unclear>χιτέκτονος <unclear>μ</unclear><supplied reason="lost">ισθῶσαι τὴν ἀναγρα<milestone unit="block"/>φήν.  εἰς δὲ</supplied>
+                          <lb n="92"/><supplied reason="lost">τοῦτο ὑπηρε</supplied>τῆσαι τοὺς ἐπὶ τῆς δη<supplied reason="lost">μοσίας τραπέζης ἐκ το<milestone unit="block"/>ῦ δοθέντος</supplied>
+                          <lb n="93"/><supplied reason="lost">εἰς τὰ τειχ</supplied>οποικά.  ταῦτα δὲ εἶναι εἰς <supplied reason="lost">φυλακὴν καὶ σωτη<milestone unit="block"/>ρίαν τῆς</supplied>
+                          <lb n="94"/><supplied reason="lost">πόλεως.  ἔ</supplied>δοξε τῶι δήμωι εἰς λεύκωμα ἀναγρά<unclear>ψ</unclear><supplied reason="lost">αι τὸ <milestone unit="block"/> ψήφισμα</supplied>.
+                          </ab>
+                    </div>
+                        </div>
+                </div>
+                    <div type="commentary">
+                        <p>La serie di documenti di Mileto tratta dello stanziamento di un <foreign>politeuma</foreign> di Cretesi nell’ex territorio di Miunte, giustificato apparentemente da un’esistente <foreign>oikeiotes</foreign> e <foreign>syngeneia</foreign> fra la città ed i Cretesi (55a, ll 1-2; cf. <bibl><ref target="#b1660">Sammartano 2007</ref></bibl>). I Cretesi in questione, provenienti da più città dell’isola, arrivano nel territorio a loro assegnato almeno in due ondate, nella prima delle quali sono presenti <foreign>politai</foreign> di Dreros e Milatos (54 F, l. 7).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<ref type="inst" target="#politeia"><foreign>politeia</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib108"><title>Milet</title></ref> I.III 33 + 37</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib29"><title>Miletos</title></ref> 54-55 <ptr type="phi" target="252159"/> <ptr type="phi" target="252160"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1988">Weiss 1914</ref>, pp. 269-272</bibl>; 
+                            <bibl><ref target="#b1418">Oguse 1931</ref>, pp. 164-167</bibl>; 
+                            <bibl><ref target="#b208">Brulé 1978</ref>, pp. 165-170</bibl>;
+                            <bibl><ref target="#b2025">Wilhelm 1980</ref>, p. 20 n. 20</bibl>; 
+                            <bibl><ref target="#b621">Fontenrose 1988</ref>, nn. 5-6</bibl>; 
+                            <bibl><ref target="#b1630">Rodríguez Somolinos 1991</ref>, nn. OD 6-8</bibl>; 
+                            <bibl><ref target="#b886">Hennig 1994</ref></bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 56</bibl>; 
+                            <bibl><ref target="#bib263">Merkelbach – Stauber, <title>SGO</title></ref> I 01/19/03-04</bibl>;
+                            <bibl><ref target="#b1294">Mastrocinque 2002</ref>, pp. 356-358</bibl>;
+                            <bibl><ref target="#b324">Chaniotis 2004a</ref></bibl>; 
+                            <bibl><ref target="#b327">Chaniotis 2005</ref>, pp. 84, 105</bibl>; 
+                            <bibl><ref target="#b333">Chaniotis 2006a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Hierapytna e Seleuco II</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 63.746</idno>
+                        <idno type="projectNo">481</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#ierapetra_collection">Collezione archeologica di Ierapetra</repository> 
+                                <idno type="invNo">1376</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0246" notAfter="-0236">246-236 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2018-06-16" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><supplied reason="lost">ἀγα</supplied>θᾶι <w lemma="τύχα">τύχαι</w>· ἐν <placeName ref="#hierapytna">Ἱεραπύτναι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna">ἐπὶ <w lemma="κόσμος">κόσμων</w> <persName type="attested" key="Antimenes"><name nymRef="Ἀντιμένης">Ἀντιμένεος</name></persName></rs>,
+                            <lb n="2"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Exakestidas"><name nymRef="Ἐξακεστίδας"><supplied reason="lost">Ἐξ</supplied>ακεστίδα</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Herakleidas"><name nymRef="Ἡρακλείδας">Ἡρακλείδα</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Hyperochos"><name nymRef="Ὑπέροχος">Ὑπερόχω</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Charmylos"><name nymRef="Χαρμύλος">Χαρμύλου</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Leptinas"><name nymRef="Λεπτίνας">Λεπτί<lb
+                                break="no" n="3"/><supplied reason="lost">να</supplied></name></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Samagoras (1)"><name nymRef="Σαμαγόρας"><supplied reason="lost">Σ</supplied>αμαγόρα</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Kalon" cert="low"><name nymRef="Κάλων" cert="low"><supplied reason="lost">Κ</supplied>άλω<supplied reason="lost">ν</supplied>ος</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Euphranor"><name nymRef="Εὐφράνωρ">Εὐφράν<corr>ο</corr>ρ<corr>ος</corr></name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><persName type="attested" key="Anaxagoras"><name nymRef="Ἀναξαγόρας">Ἀναξαγόρα</name></persName></rs>· παραγ<lb 
+                                break="no" n="4"/><supplied reason="lost">ενομ</supplied>ένου παρ<supplied reason="lost">ὰ</supplied> <persName type="ruler" key="Seleukos II" ref="#seleukeia"><w lemma="βασιλεύς">βα<supplied reason="lost">σι</supplied>λέως</w> <name nymRef="Σέλευκος">Σελεύκου</name></persName>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω">ἔ<supplied reason="lost">δ</supplied>οξεν</w></rs> <placeName ref="#hierapytna" type="ethnic">Ἱαραπυτ<lb 
+                                break="no" n="5"/><supplied reason="lost">νίων</supplied></placeName> <supplied reason="lost">τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#hierapytna"><w lemma="κόσμος">κόσμοις</w></rs> κα</supplied>ὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#hierapytna"><w lemma="πόλις">πόλει</w></rs> <w lemma="φιλία">φιλίαν</w> <supplied reason="lost">κ</supplied>αὶ <w lemma="συμμαχία">συμμαχία<lb 
+                                break="no" n="6"/><supplied reason="lost">ν</supplied></w> <supplied reason="lost">ἦμεν</supplied> <persName type="ruler" key="Seleukos II" ref="#seleukeia"><w lemma="βασιλεύς"><supplied reason="lost">βασιλεῖ</supplied></w> <name nymRef="Σέλευκος">Σελεύκ<supplied reason="lost">ωι</supplied></name> <supplied reason="lost">β</supplied>ασιλέως <name nymRef="Ἀντίοχος" type="patronymic">Ἀντιόχου</name></persName> καὶ τοῖς <w lemma="ἔγγονος">ἐγγόνοις</w> αὐτοῦ
+                            <lb n="7"/><supplied reason="lost">ποτὶ</supplied> <placeName ref="#hierapytna" type="ethnic"><supplied reason="lost">Ἱαραπ</supplied>υτνίους</placeName> εἰς τὸν ἅπαντα χρόνον. καὶ ἂμ μὲν
+                            <lb n="8"/><persName type="ruler" key="Seleukos II" ref="#seleukeia"><w lemma="βασιλεύς"><supplied reason="lost">βασιλεὺς</supplied></w> <name nymRef="Σέλευκος">Σέλε<supplied reason="lost">υ</supplied>κος</name></persName> χρέαν ἔχηι, <w lemma="συμμαχία">συμμαχίας</w> <w lemma="ἀποστέλλω">ἀποστε<lb 
+                                break="no" n="9"/><supplied reason="lost">λεῖν</supplied></w> <supplied reason="lost">παντὶ σθένει</supplied> κατὰ τὸ δυνατόν. τῆι δὲ <w lemma="πένπω">πεν<surplus>ι</surplus>πομέν<lb 
+                                break="no" n="10"/><supplied reason="lost">ηι</supplied></w> <supplied reason="lost"><w lemma="συμμαχία">συμμαχίαι</w> παρέξ</supplied>ειν <persName type="ruler" key="Seleukos II" ref="#seleukeia"><w lemma="βασιλεύς">βασιλὴ</w> <name nymRef="Σέλευκος">Σέλευκον</name></persName> <w lemma="πορεῖον">πορεῖα</w>
+                            <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="συμμαχία"><supplied reason="lost">συμ</supplied>μαχί<supplied reason="lost">α</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="3"><note><supplied reason="lost">Κ</supplied>άλω<supplied reason="lost">ν</supplied>ος, Εὐφράν<corr>ο</corr>ρ<corr>ος</corr>, Ἀναξαγόρα· <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> in apparato; <gap reason="illegible" quantity="1" unit="character"/><orig>αλω</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ος</orig> Εὐφράνωρ Ἀναξαγόρα <bibl><ref target="#b38">Apostolakou</ref></bibl>.</note></app>
+                        </p>
+                     </div>
+                    <div type="commentary">
+                        <p>Il documento, formalmente un decreto di Hierapytna, conserva l’unica notizia di accordi esistenti fra un re seleucide e una città cretese. Il testo, che si apre con un’espressione benaugurale, conserva alle linee 1-3 una formula di datazione menzionante tutti i nomi dei cosmi in carica, apparentemente dieci, il penultimo dei quali compare singolarmente al nominativo anziché al genitivo (nella datazione dei trattati <ref type="ins" target="#seg_63_747"><title>SEG</title> 63.747</ref> e <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>, invece, viene indicato solamente l’eponimo).</p>
+                    <p>La sezione relativa alle motivazioni del decreto, alle linee 3-4, documenta l’arrivo di un inviato – il cui nome è omesso – da parte del re Seleuco. La formula di sanzione alle linee 4-5 mostra la <foreign>polis</foreign> e verosimilmente i cosmi di Hierapytna come responsabili della deliberazione, come avviene anche in <ref type="ins" target="#ic3_3_3c"><title>IC</title> III 3 3</ref> C (in <ref type="ins" target="#seg_51_1056"><title>SEG</title> 51.1056</ref>, invece, compaiono in tale ruolo i cosmi e il <foreign>damos</foreign>).</p>
+                    <p>L’oggetto della decisione, alle linee 5-11, prevede la stipulazione di un’alleanza fra Hierapytna ed il re e nello specifico l’invio di aiuti militari a Seleuco da parte della città cretese nel caso in cui costui ne abbia necessità; nel documento, inoltre, dovevano seguire clausole volte a definire i dettagli della modalità di invio e retribuzione dei soldati mandati in soccorso (ll. 9-11), come avviene anche in altri trattati fra re ellenistici e città cretesi (cf. <foreign>e.g.</foreign> <ref type="ins" target="#seg_46_1232"><title>SEG</title> 46.1232</ref> e <ref type="ins" target="#ic4_179"><title>IC</title> IV 179</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b38">Apostolakou 2006</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 63.746</bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

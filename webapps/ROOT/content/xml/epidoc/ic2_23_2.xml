@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trattato di alleanza fra Polyrrhenia e Melos</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 2</idno>
+                        <idno type="projectNo">014</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/>τὸς <w lemma="οἰκέω">οἰκõντας</w> ἐμ <placeName ref="#melos">Μ<supplied reason="lost">άλωι</supplied></placeName> <supplied reason="lost">καὶ</supplied> 
+                        <lb n="2"/><supplied reason="lost">τὰ</supplied> <w lemma="χρήματα">χρήματα</w> τὰ <placeName ref="#melos" type="ethnic">Μα<supplied reason="lost">λίων</supplied></placeName><supplied reason="lost">· κα</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">τὰ τ’</supplied> αὐτὰ δὲ καὶ τὸ<supplied reason="lost">ς πλέον</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost" cert="low">τας</supplied> ἐς <placeName ref="#melos">Μᾶλον</placeName> καὶ τὸ<supplied reason="lost">ς</supplied> <w lemma="οἰκέω"><supplied reason="lost">οἰκõν</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">τα</supplied>ς</w> ἐμ <placeName ref="#polyrrhenia">Πολυρῆνι</placeName> καὶ τὰ <w lemma="χρήματα"><supplied reason="lost">χρή</supplied><lb 
+                        break="no" n="6"/>ματα</w> τὰ <rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#polyrrhenia"><placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίων</placeName></rs> κ<supplied reason="lost">αὶ τὰ</supplied>
+                        <lb n="7"/>τῶν <w lemma="οἰκέω">οἰκούντων</w> ἐμ <placeName ref="#polyrrhenia">Π<supplied reason="lost">ολυρῆ</supplied><lb 
+                        break="no" n="8"/>νι</placeName>· καὶ εἶμεν <supplied reason="lost">γᾶς κ</supplied>αὶ οἰ<unclear>κ</unclear><supplied reason="lost">ίας</supplied>
+                        <lb n="9"/><supplied reason="lost"><w lemma="ἔγκτασις">ἔγκτασιν</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La stipulazione del trattato con Melos, di cui sono andate perdute la parte iniziale e quella finale, è da attribuire con molta probabilità alla <foreign>polis</foreign> di Polyrrhenia. La piccola isola, che nella prima metà del III secolo a.C. stringe accordi anche con una città di Creta orientale, Olous o Lato (cf. <ref type="ins" target="#seg_41_772"><title>SEG</title> 41.772</ref>), nel documento in questione è coinvolta in una concessione di diritti che interessa sia i propri cittadini residenti a Polyrrhenia che i Polyrrhenii residenti a Melos. La frammentarietà del testo impedisce purtroppo di determinare se lo scambievole conferimento dell’<foreign>enktesis</foreign> sia accompagnato o meno da altre facilitazioni individuali o da una <foreign>symmachia</foreign> fra le città, come avviene nel coevo trattato fra Polyrrhenia e Phalasarna (<ref type="ins" target="#ic2_11_1"><title>IC</title> II 11 1</ref>, <ref type="ins" target="#seg_50_936"><title>SEG</title> 50.936</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, p. 71</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 2 <ptr type="phi" target="200038"/></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 577</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 23</bibl>; 
+                    <bibl><ref target="#b297">Chaniotis 1991</ref>, p. 250</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 41.771 <ptr type="seg" target="a41_771"/></bibl>); 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 8</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

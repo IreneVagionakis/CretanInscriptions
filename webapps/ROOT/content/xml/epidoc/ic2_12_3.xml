@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 3</idno>
+                        <idno type="projectNo">095</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 21</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0400">VI-V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="illegible" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>δο͂<unclear>ι</unclear> <unclear>τ</unclear>οῖς <rs type="institution" subtype="social_status" role="regulation" key="allopoliatas" ref="#eleutherna"><w lemma="ἀλλοπολιάτας">ἀλλοπο<unclear>λ</unclear><supplied reason="lost">ιάταις</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὄρκος">κὄρκον</w> <w lemma="τίθημι">τιθέμεν</w> τὸ<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">το͂ι δὲ</supplied> <w lemma="ὄρκος"><supplied reason="lost">ὄρκ</supplied>οι</w> τὰν <w lemma="ἀρά">ἀρὰν</w> ἰνήμε<supplied reason="lost">ν</supplied>  <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>πινυμεν μήτε θηρίο<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>τα ἄπατον ἤμεν ὀϝτο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear> αἰ δὲ μη<gap reason="illegible" quantity="3" unit="character"/>βάλοι ἐπο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>πομ<unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>σ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, molto frammentaria, conserva la menzione di un giuramento e di una maledizione alle linee 2-3 (sul termine <foreign>ara</foreign> cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 51-53</bibl>). Il significativo termine <foreign>allopoliatai</foreign>, attestato solo a Creta, si riferisce verosimilmente a cittadini di altre <foreign>poleis</foreign> residenti ad Eleutherna (cf. <bibl><ref target="#b1511">Perlman 2004</ref>, pp. 124-127</bibl>, <bibl><ref target="#bib122"><title>Laws</title></ref>, p. 226</bibl>). Il raro composto compare sempre in contesti legislativi: occorre infatti in una legge di Lyttos che regola l’accoglienza di stranieri (<ref type="ins" target="#seg_35_991"><title>SEG</title> 35.991</ref>, del 500 a.C. ca.), nella Grande Iscrizione di Gortyna mediante l’espressione ἐκς ἀλλοπολίας (<ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, VI l. 47) e forse in una legge sacra ellenistica di Lato relativa a purificazioni (<ref type="ins" target="#ic1_16_6"><title>IC</title> I 16 6</ref>, II secolo a.C.).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#allopoliatas"><foreign>allopoliatas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b377">Comparetti 1888</ref>, pp. 161-163 n. 2</bibl>; 
+                            <bibl><ref target="#b385">Comparetti 1893b</ref>, pp. 419-421 n. 194</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4954</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 3 <ptr type="phi" target="199886"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl><ref target="#bib46"><title>EG</title></ref> I, pp. 190-191 n. 6</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 10</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 291</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Ele3</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 109*</bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

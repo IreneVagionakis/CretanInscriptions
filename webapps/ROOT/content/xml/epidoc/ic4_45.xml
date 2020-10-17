@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 45</idno>
+                        <idno type="projectNo">256</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, ‘Muro settentrionale’ dell’<foreign>agora</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἰ δ</supplied>έ <unclear>κ</unclear>α το͂ν κνη<lb 
+                        break="no" n="2"/>νίον <supplied reason="lost">λ</supplied><unclear>ά</unclear>κηι ἠ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> τὸν ἐνεκυρ<unclear>ά</unclear><lb 
+                        break="no" n="6"/>κσαντα <gap reason="illegible" quantity="3" unit="character"/>ι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><unclear>κ</unclear>’ ἔτι στέρεθα<lb 
+                        break="no" n="8"/><supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>α<unclear>ς</unclear> ἐς <rs type="institution" subtype="assembly" role="unknown" key="polis" ref="#gortyn"><w lemma="πόλις">πό<unclear>λ</unclear>ιν</w></rs> <orig>η</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="2" unit="character"/><orig>γαν</orig>
+                          <lb n="2"/><gap reason="lost" quantity="1" unit="character"/>ανκε <w lemma="ἐνγρύφω">ἐγρυμμέν<supplied reason="lost">α</supplied></w> <space extent="unknown" unit="character"/> αἴ τις <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἆι</supplied> <w lemma="ἐγράφω">ἔγραται</w> ϝεκάστο, <w lemma="ὀρκιότερος">ὀρκιότε<lb 
+                        break="no" n="4"/>ρον</w> ἤμην τὸν ἐνεκυράκσαν<unclear>τ</unclear><supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>α. <space extent="unknown" unit="character"/> αἰ δὲ μὴ <w lemma="ὀμνύω">ὀμόσαιεν</w> πὰρ το͂<lb 
+                        break="no" n="6"/>ι <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικαστάς">δικαστᾶι</w></rs>, <w lemma="νικάω">νικήθαι</w> τὸν τ’ ἐνε<supplied reason="lost">κυρ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ρόματος δ’ ἐνεκυράδεν ὀ
+                          <lb n="7a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, relativa al ricorso a garanti, vede anche la <foreign>polis</foreign> implicata in qualche modo nella procedura prescritta: nella prima linea della colonna B l’espressione ἐς πόλιν viene infatti impiegata per indicare la città come destinazione di qualcosa, forse un pagamento. La procedura, inoltre, prevede che le due parti coinvolte prestino un giuramento al cospetto di un giudice (ll. B 5-6, πὰρ το͂ι δικαστᾶι).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dikastas"><foreign>dikastas</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b390">Comparetti 1916-1920</ref>, pp. 193-196 n. 1</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 45 <ptr type="phi" target="200481"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 135 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 69</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G45</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b860">Hansen <foreign>et al.</foreign> 2000</ref>, p. 166</bibl>; 
+                            <bibl><ref target="#b1925">Van Effenterre – Van Effenterre 2000</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

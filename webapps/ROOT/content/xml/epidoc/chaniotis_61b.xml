@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza e <foreign>isopoliteia</foreign> fra Lato e Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Chaniotis, Verträge 61B</idno>
+                        <idno type="projectNo">444</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta, un tempo a Venezia (copiata nel 1623)</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato">Lato?</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0110" notAfter="-0108">110-108 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w> καὶ ἐπὶ <w lemma="σωτηρία">σωτη<lb 
+                        break="no" n="2"/>ρίαι</w> <corr>τάδε</corr> <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic">Λάτιοι</placeName></rs> καὶ
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλόντιοι</placeName></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><w lemma="κοσμέω">κοσ<supplied reason="lost">μιόντων</supplied></w></rs> <supplied reason="lost">ἐν μ</supplied><lb 
+                        break="no" n="4"/>ὲν <placeName ref="#lato">Λατῶι</placeName> <rs type="institution" subtype="tribe" role="eponym" key="Hylleis" ref="#lato">ἐπὶ τῶν <w lemma="Ὑλλεῖς">Ὑλλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato">τῶν
+                          <lb n="5"/>σὺν <persName type="attested" key="Pyleros f. Tallaios"><name nymRef="Πύλερος">Πυλέρωι</name> τῶ <name nymRef="Ταλλαῖος" type="patronymic">Τ<supplied reason="lost">αλλαίω</supplied></name></persName></rs>
+                          <lb n="6"/><w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Thiodaisios" ref="#lato"><w lemma="Θιοδαίσιος">Θιοδαισίω</w></rs> τρια<lb 
+                        break="no" n="7"/>κάδι, ἐν δὲ <placeName ref="#olous">Ὀλόντι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#olous">ἐπὶ τῶν
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶν</supplied> σὺν <persName type="attested" key="Sophronichos f. Aristis"><name nymRef="Σωφρόνιχος">Σωφρονίχωι</name>
+                          <lb n="9"/>τῶ <name nymRef="Ἄριστις" type="patronymic">Ἀρίστιος</name></persName></rs> <w lemma="μείς"><supplied reason="lost">μηνὸς</supplied></w> <rs type="institution" subtype="month" role="calendar" key="Eleusinios" ref="#olous"><w lemma="Ἐλευσίνιος"><supplied reason="lost">Ἐ</supplied><lb 
+                        break="no" n="10"/>λευσινίω</w></rs> <supplied reason="lost">τριακά</supplied>δι. <w lemma="φίλος"><supplied reason="lost">φίλος</supplied></w>
+                          <lb n="11"/>καὶ <w lemma="σύμμαχος">συμμάχος</w> ἀλλάλοις ὑπο<lb 
+                        break="no" n="12"/>μενῆν ἁπλόως καὶ ἀδόλως
+                          <lb n="13"/>εἰς τὸν πάντα χρόνον καὶ <supplied reason="lost">τὸν</supplied>
+                          <lb n="14"/><supplied reason="lost">αὐτὸν <w lemma="φίλος">φίλον</w></supplied> καὶ ἐχθρὸν ἑξῆν.
+                          <lb n="15"/>καἴ τίς κ’ ἐμβάλληι εἰς τὰν τῶν
+                          <lb n="16"/><placeName ref="#lato" type="ethnic">Λατίων</placeName> χώραν ἢ ἀποτάμνη<lb 
+                        break="no" n="17"/>ται χώρας τᾶς <placeName ref="#lato" type="ethnic">Λατίων</placeName> ἢ <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#lato"><w lemma="φρούριον">φρού<lb 
+                        break="no" n="18"/>ρια</w></rs> <corr>ἢ <w lemma="νᾶσος">νάσος</w> ἢ <w lemma="λιμήν">λιμένας</w></corr> <supplied reason="lost"><placeName ref="#lato" type="ethnic">Λατίων</placeName> κατα</supplied>λαμβάνηται
+                          <lb n="19"/><supplied reason="lost"><w lemma="βοαθέω">βοαθησῆν</w> τὸς <placeName ref="#olous" type="ethnic">Ὀλοντίος</placeName></supplied> ἀπροφασίστως
+                          <lb n="20"/>παντὶ σθένει <supplied reason="lost">τοῖς <placeName ref="#lato" type="ethnic">Λατίοις</placeName></supplied> <w lemma="πολεμέω">πολεμί<lb 
+                        break="no" n="21"/>οντας</w> ἀπὸ χώρας·
+                          <lb n="22"/><corr>ὡσαύτως δὲ καὶ εἴ τίς κα ἐς τὰν τῶν</corr> <placeName ref="#olous" type="ethnic"><corr>Ὀλοντί</corr>ων</placeName> χώραν <corr>ἐμβάλληι ἢ ἀπο<lb 
+                        break="no" n="22a"/>τάμνηται χώρας τᾶς <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName> ἢ <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#olous"><w lemma="φρώριον">φρώρια</w></rs> ἢ <w lemma="νᾶσος">νάσος</w> κατα</corr>λαμβάνηται <corr>ἢ
+                          <lb n="23"/><w lemma="λιμήν">λιμένας</w> <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName>, <w lemma="βοαθέω">βοαθησῆν</w> τὸς <placeName ref="#lato" type="ethnic">Λατίος</placeName></corr> ἀπροφασίστως <corr>παντὶ σθένει
+                          <lb n="23a"/>καὶ κατὰ τὸ δυνατὸν τοῖς <placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName></corr> <w lemma="πολεμέω">πολεμίοντας</w> <corr>ἀπὸ χώρας. ἐξέστω
+                          <lb n="24"/>δὲ τῶι βωλομένωι</corr> <placeName ref="#lato" type="ethnic">Λατίων</placeName> <corr><w lemma="δικαιοπραγέω">δικαιοπραγήσαντι</w> τοῖς ἰδίοις ἐν <placeName ref="#olous">Ὀλόντι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#olous"><w lemma="πολιτεύω">πολι<lb 
+                        break="no" n="24a"/>τεύεσθαι</w></rs> <w lemma="μετέχω">μετέχοντι</w> <w lemma="θῖνος">θίνων</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w> πάντων ὧν καὶ οἱ ἄλλοι <placeName ref="#olous" type="ethnic">Ὀλόν<lb 
+                        break="no" n="25"/>τιοι</placeName> <w lemma="μετέχω">μετέχοντι</w>, κατὰ ταὐτὰ δὲ ἐξέστω</corr> <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName> τῶι βωλομένωι <corr><w lemma="δικαιοπραγέω">δικαιο<lb 
+                        break="no" n="25a"/>πραγήσαντι</w> τοῖς ἰδίοις <placeName ref="#lato">Λατοῖ</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#lato"><w lemma="πολιτεύω">πολιτεύεσθαι</w></rs></corr> <w lemma="μετέχω">μετέχοντι</w> <w lemma="θῖνος">θίνων</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρω<lb 
+                        break="no" n="26"/>πίνων</w> πάντων <corr>ὧν καὶ οἱ ἄλλοι <placeName ref="#lato" type="ethnic">Λάτιοι</placeName> <w lemma="μετέχω">μετέχοντι</w>. <w lemma="ἐξαγωγά">ἐξαγωγὰν</w> δὲ ἦμεν τῶι
+                          <lb n="26a"/>τε <placeName ref="#lato" type="ethnic">Λατίωι</placeName> ἐξ <placeName ref="#olous">Ὀλόντος</placeName> καὶ τῶι <placeName ref="#olous" type="ethnic">Ὀλοντίωι</placeName> ἐγ <placeName ref="#lato">Λατῶς</placeName>, κατὰ γᾶν μὲν <w lemma="ἀτελής">ἀτελές</w>,
+                          <lb n="27"/>κατὰ θάλασσαν δὲ καταβάλλονσι τὰ <w lemma="τέλια">τέλια</w> κατὰ τὸς ἑκατερῆ <w lemma="κεῖμαι">κειμένος</w>
+                          <lb n="27a"/> <rs type="institution" subtype="object" role="law" key="nomos" ref="#lato"><rs type="institution" subtype="object" role="law" key="nomos" ref="#olous"><w lemma="νόμος">νόμος</w></rs></rs>, <w lemma="ὀμνύω">ὀμόσανσι</w> ἐς ἰδίαν χρήιαν <w lemma="ἐξάγω">ἐξάγεν</w>. αἰ δέ τι κοινᾶι <w lemma="στρατεύω">στρατευόμενοι</w>
+                          <lb n="28"/>ἕλοιμεν τῶν <w lemma="πολεμέω">πολεμίων</w>, λανχάνεν ἑκατέρος κατὰ τὸς <w lemma="ἕρπω">ἕρποντας</w> <w lemma="ἀνήρ">ἄνδρας</w>. αἰ
+                          <lb n="28a"/>δέ κα <w lemma="πολεμέω">πολεμίωντι</w> ἀμφότεραι <rs type="institution" subtype="social_group" role="war" key="polis" ref="#lato"><rs type="institution" subtype="social_group" role="war" key="polis" ref="#olous"><w lemma="πόλις">πόλεις</w></rs></rs> ἀπὸ χώρας, μἠξέστω μηδατέρωι <w lemma="σπονδά">σπον<lb 
+                        break="no" n="29"/>δὰς</w> ἄγεν μήτ’ εἰρήναν <w lemma="τίθημι">τίθεσθαι</w>, αἴ κα μὴ κοινᾶι αἱ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lato"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλεις</w></rs></rs> <w lemma="βωλεύω">βωλεύσωνται</w>.
+                          <lb n="29a"/><w lemma="ἐξορκίζω">ἐξορκιξάντων</w> δὲ καὶ τὰν <rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#lato"><rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#olous"><w lemma="ἀγέλα">ἀγέλαν</w></rs></rs> τὰν τόκ’ <w lemma="ἐσδύω">ἐσδυομέναν</w></corr> ἐν ἑκατέραι τᾶι
+                          <lb n="30"/><rs type="institution" subtype="public_space" role="oath-taking" key="polis" ref="#lato"><rs type="institution" subtype="public_space" role="oath-taking" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs></rs> <corr>ἐπεί κ’ <w lemma="ἐγτρέχω">ἐγδράμωντι</w></corr> οἱ <rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#lato"><rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#olous"><w lemma="κόσμος">κόσμοι</w></rs></rs> ἐπ’ αὐτῶν <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#olous"><w lemma="κοσμέω">κοσμιόντων</w></rs></rs>, παριόντων
+                          <lb n="30a"/><corr>ἐν μὲν <placeName ref="#lato">Λατῶι</placeName> <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#olous"><w lemma="πρειγήια">πρειγηίας</w></rs>, ἐν δὲ <placeName ref="#olous">Ὀλόντι</placeName> <placeName ref="#lato" type="ethnic">Λατίων</placeName> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#lato"><w lemma="πρειγήια">πρειγηίας</w></rs>, καὶ
+                          <lb n="31"/>τὰν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lato"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#olous"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> <w lemma="ἀναγινώσκω">ἀναγινωσκόντων</w> καὶ τὸν <w lemma="ὅρκος">ὅρκον</w> τελισκόντων ἐν μὲν <placeName ref="#lato">Λα<lb 
+                        break="no" n="31a"/>τῶι</placeName></corr> ἐν τοῖς <rs type="institution" subtype="festivity" role="calendar" key="Thiodaisia" ref="#lato"><w lemma="Θιοδαίσια">Θιοδαισίοις</w></rs>, <corr>ἐν δὲ <placeName ref="#olous">Ὀλόντι</placeName> ἐν τοῖς <gap reason="lost" extent="unknown" unit="character"/></corr> <w lemma="παραγγέλλω">παραγγελλόντων</w> <corr>δὲ
+                          <lb n="32a"/>οἵ τε <placeName ref="#lato" type="ethnic">Λάτιοι</placeName> τοῖς <placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName> καὶ οἱ <placeName ref="#olous" type="ethnic">Ὀλόντωι</placeName> τοῖς <placeName ref="#lato" type="ethnic">Λατίοις</placeName> πρό</corr><lb 
+                        break="no" n="33"/>πεμπτον ἐπεί κα μέλλωντι <w lemma="ἀναγινώσκω">ἀ<lb 
+                        break="no" n="34"/>ναγινώσκεν</w> τ<supplied reason="lost">ὰν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lato"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#olous"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> ἢ</supplied>
+                          <lb n="35"/>τὰς <rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#lato"><rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#olous"><w lemma="ἀγέλα">ἀγέλας</w></rs></rs> <w lemma="ἐξορκίζω">ἐξορκίζεν</w>· εἰ δέ <supplied reason="lost">κα</supplied>
+                          <lb n="36"/>μὴ <w lemma="ἐξορκίζω">ἐξορκίξωντι</w> οἱ <placeName ref="#lato" type="ethnic">Λάτιοι</placeName>
+                          <lb n="37"/><rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#lato"><w lemma="κόσμος">κόσμοι</w></rs> ἢ μὴ <w lemma="παραγγέλλω">παραγγήλωντι</w>
+                          <lb n="38"/>ἐπὶ τὰν <w lemma="ἀνάγνωσις">ἀνάγνωσιν</w> τᾶς <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lato"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#olous"><w lemma="συνθήκα">συνθή<lb 
+                        break="no" n="39"/>κας</w></rs></rs> ἢ μὴ <w lemma="ἀναγινώσκω">ἀναγνῶντι</w>, <w lemma="ἀποτίνω">ἀποτει<lb 
+                        break="no" n="40"/>σάντων</w> ὁ <rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#lato"><w lemma="κόσμος">κόσμος</w></rs> ἕκαστος <w lemma="ἀργύριον">ἀρ<lb 
+                        break="no" n="41"/>γυρίω</w> <w lemma="στατήρ">στατῆρας</w> ἑκατὸν τοῖς
+                          <lb n="42"/><placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName>· ὡσαύτως δὲ καὶ
+                          <lb n="43"/>οἱ <placeName ref="#olous" type="ethnic">Ὀλόντιοι</placeName> εἰ μὴ κα <w lemma="ἐξορκίζω">ἐξορκίξων<lb 
+                        break="no" n="44"/>τι</w> τὰς <rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#olous"><w lemma="ἀγέλα">ἀγέλας</w></rs> ἢ μὴ <w lemma="παραγγέλλω">παραγγή<lb 
+                        break="no" n="45"/>λωντι</w> ἢ μὴ <w lemma="ἀναγινώσκω">ἀναγνῶντι</w> τὰν
+                          <lb n="46"/><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lato"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#olous"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> <w lemma="ἀποτίνω">ἀποτεισάντων</w> ὁ
+                          <lb n="47"/><rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#olous"><w lemma="κόσμος">κόσμος</w></rs> ἕκαστος <w lemma="ἀργύριον">ἀργυρίω</w> <w lemma="στατήρ">στα<lb 
+                        break="no" n="48"/>τῆρας</w> ἑκατὸν τοῖς <placeName ref="#lato" type="ethnic">Λατίοις</placeName>.
+                          <lb n="49"/>κεί κα <rs type="institution" subtype="official" role="guest" key="kosmos" ref="#lato"><rs type="institution" subtype="official" role="guest" key="kosmos" ref="#olous"><w lemma="κόσμος">κόσμος</w></rs></rs> <w lemma="ἔρχομαι">ἔλθηι</w> <placeName ref="#lato" type="ethnic">Λάτιος</placeName>
+                          <lb n="50"/>εἰς <placeName ref="#olous">Ὀλόντα</placeName> ἢ <placeName ref="#olous" type="ethnic">Ὀλόντιος</placeName> ἐς <placeName ref="#lato">Λα<lb 
+                        break="no" n="51"/>τών</placeName>, <corr>τό τε <w lemma="ἡμάτιον">ἡμάτιον</w> ἀφφανῶ ἐχέτω καὶ <w lemma="ἕρπω">ἑρπέτω</w></corr> ἐς <rs type="institution" subtype="public_space" role="hospitality" key="prytaneion" ref="#lato"><rs type="institution" subtype="public_space" role="hospitality" key="prytaneion" ref="#olous"><w lemma="πρυτανήιον">πρυτανήιον</w></rs></rs> <corr>καθώς</corr>
+                          <lb n="52"/><corr>κα οἱ <rs type="institution" subtype="board" role="performance" key="kosmos" ref="#lato" cert="low"><rs type="institution" subtype="board" role="performance" key="kosmos" ref="#olous" cert="low"><w lemma="κόσμος">κόσμοι</w></rs></rs></corr> ἐς <corr><w lemma="ἑορτά">ἑορτὰν</w> ἢ</corr> <w lemma="ποππά">ποππὰν</w> ἕρ<lb 
+                        break="no" n="53"/>πωντι. αἰ δὲ πλίονες <w lemma="ἕρπω">ἕρποι<lb 
+                        break="no" n="54"/>εν</w> <placeName ref="#lato">Λάτιοι</placeName> <supplied reason="lost">ἐς <placeName ref="#olous">Ὀλόντα</placeName> ἢ</supplied>
+                          <lb n="55"/><placeName ref="#olous" type="ethnic">Ὀλόντιοι</placeName> ἐς <placeName ref="#lato">Λατών</placeName>, παρ’ ἕτε<lb 
+                        break="no" n="56"/>ρον ἥσθων ὁπῆ ἄγχι διω<supplied reason="lost">ρισ</supplied><corr><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#lato"><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#olous"><w lemma="πρειγήια"><supplied reason="lost">πρ</supplied>εισγήιας</w></rs></rs> <w lemma="ἕρπω">ἕρπεν</w>. αἰ δέ τί κα ἕληται <placeName ref="#lato" type="ethnic">Λατίωι</placeName> ἢ <placeName ref="#olous" type="ethnic">Βολοντίωι</placeName></corr>
+                          <lb n="57"/>ἐπιόντων οἱ <rs type="institution" subtype="board" role="judicial_procedure" key="preigistos" ref="#lato"><rs type="institution" subtype="board" role="judicial_procedure" key="preigistos" ref="#olous"><w lemma="πρείγιστος">πρείγιστοι</w></rs></rs> <rs type="institution" subtype="board" role="judicial_procedure" key="eunomia" ref="#lato"><rs type="institution" subtype="board" role="judicial_procedure" key="eunomia" ref="#olous">οἱ
+                          <lb n="58"/>ἐπὶ <w lemma="εὐνομία">εὐνομίαις</w></rs></rs> οἱ ἑκατερῆ ἐ<lb 
+                        break="no" n="59"/>ρευνίοντες καὶ <w lemma="ῥυθμίζω">ῥυθμίζον<lb 
+                        break="no" n="60"/>τες</w> <corr>καὶ κύριοι ἔστων <gap reason="lost" extent="unknown" unit="character"/></corr> πρὸς αὐσαυτὸς καὶ
+                          <lb n="61"/>τὰ ἄλλα πάντα χρήμενοι. ἦμεν
+                          <lb n="62"/>δὲ τὰς <w lemma="ὁδὸς ξενικὰ θίνα">ὁδὸς τὰς ξενικὰς θί<lb 
+                        break="no" n="63"/>νας</w>· αἰ δέ τίς τινα <w lemma="ἀδικέω">ἀδική<lb 
+                        break="no" n="64"/>σηι</w> ἐν ταύταις ταῖς <w lemma="ὁδός">ὁδοῖς</w>,
+                          <lb n="65"/><w lemma="ἀποτίνω">ἀποτεισάτω</w> ἑξαπλόα τὰ πρόσ<lb 
+                        break="no" n="66"/>τιμα <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#lato"><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#olous"><w lemma="δίκα">δίκαι</w></rs></rs> <w lemma="νικάω">νικαθές</w>. ἦμε<lb 
+                        break="no" n="67"/>ν δὲ καὶ <w lemma="ἐπιγαμία">ἐπιγαμίας</w> ἀλλάλοις.
+                          <lb n="68"/>κύριον δ’ ἦμεν τὸν <placeName ref="#lato" type="ethnic">Λάτιον</placeName>
+                          <lb n="69"/>ἐν <placeName ref="#olous">Ὀλόντι</placeName> ποτὶ τὸν <placeName ref="#olous" type="ethnic">Ὀλόντι<lb 
+                        break="no" n="70"/>ον</placeName> καὶ τὸν <placeName ref="#olous" type="ethnic">Ὀλόντιον</placeName> ἐν <placeName ref="#lato">Λατῶι</placeName>
+                          <lb n="71"/>ποτὶ τὸν <placeName ref="#lato" type="ethnic">Λάτιον</placeName> καὶ <w lemma="πωλέω">πωλέ<lb 
+                        break="no" n="72"/>οντα</w> διὰ τῶ <rs type="institution" subtype="public_space" role="payments" key="chreophylakion" ref="#lato"><rs type="institution" subtype="public_space" role="payments" key="chreophylakion" ref="#olous"><w lemma="χρεωφυλάκιον">χρεωφυλακίω</w></rs></rs> καὶ <w lemma="ὠνέομαι">ὠνε<lb 
+                        break="no" n="73"/>όμενον</w> καὶ <w lemma="δανείζω">δανείζοντα</w> καὶ
+                          <lb n="74"/><w lemma="δανείζω">δανειζόμενον</w> καὶ τὰ ἄλλα
+                          <lb n="75"/>πάντα <w lemma="συναλλάττω">συναλλάττοντα</w> κατὰ
+                          <lb n="76"/>τὸς τᾶς <rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#lato"><rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#olous"><w lemma="πόλις">πόλιος</w></rs></rs> <rs type="institution" subtype="object" role="law" key="nomos" ref="#lato"><rs type="institution" subtype="object" role="law" key="nomos" ref="#olous"><w lemma="νόμος">νόμος</w></rs></rs> τὸς ἑκατε<lb 
+                        break="no" n="77"/>ρῆι <w lemma="κεῖμαι">κειμένος</w>. <w lemma="ἕρπω">ἑρπόντων</w> δὲ
+                          <lb n="78"/>ἐς τὰς <w lemma="ἑορτά">ἑορτὰς</w> οἱ μέν <placeName ref="#lato" type="ethnic">Λάτιοι</placeName>
+                          <lb n="79"/>ἐς <placeName ref="#olous">Ὀλόντα</placeName> ἐς τὰ <rs type="institution" subtype="festivity" role="calendar" key="Thiodaisia" ref="#olous"><w lemma="Θεοδαίσια"><supplied reason="lost">Θεο</supplied>δαίσια</w></rs>
+                          <lb n="80"/>καὶ ἐς τὰ <rs type="institution" subtype="festivity" role="calendar" key="Britomarpeia" ref="#olous"><w lemma="Βριτομάρπεια">Βριτομάρπεια</w></rs>, ὡσαύτως
+                          <lb n="81"/>δὲ καὶ οἱ <placeName ref="#olous" type="ethnic">Ὀλόντιοι</placeName> <supplied reason="lost">ἐς <placeName ref="#lato">Λατὼν</placeName> ἔς τε τὰ <rs type="institution" subtype="festivity" role="calendar" key="Thiodaisia" ref="#lato"><w lemma="Θιοδαίσια">Θιοδαίσια</w></rs></supplied>
+                          <lb n="82"/><corr>κἠς τὰ <gap reason="lost" extent="unknown" unit="character"/> καὶ <rs type="institution" subtype="association" role="guest" key="thiasos" ref="#olous"><rs type="institution" subtype="association" role="guest" key="thiasos" ref="#lato"><w lemma="θίασος">θίασον</w></rs></rs> ἀγόντων· <rs type="institution" subtype="association" role="guest" key="choros" ref="#olous"><rs type="institution" subtype="association" role="guest" key="choros" ref="#lato"><w lemma="χορός">χορὸς</w></rs></rs> δὲ καὶ <rs type="institution" subtype="age_class" role="guest" key="dromeus" ref="#olous"><rs type="institution" subtype="age_class" role="guest" key="dromeus" ref="#lato"><w lemma="δρομεύς">δρομέας</w></rs></rs> <w lemma="ἀποστέλλω">ἀποστελλόντων</w> καὶ <w lemma="θύω">θυόντων</w> καὶ τἄλλα κατὸ</corr>
+                          <lb n="83"/>νομιζόμενον. εἰ δέ τί κα <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lato"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">δό<lb 
+                        break="no" n="84"/>ξηι</w></rs></rs> ταῖς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lato"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλεσι</w></rs></rs> <w lemma="βωλεύω">βωλευσαμέ<lb 
+                        break="no" n="85"/>ναις</w> ἐξελε͂ν ἢ <w lemma="ἐγράφω">ἐνγρά<lb 
+                        break="no" n="86"/>ψαι</w>, ὅ τι μέν κ’ ἐξέλοιεν,
+                          <lb n="87"/>μήτε <w lemma="ἔνορκος">ἔνορκον</w> μήτε ἔνθινον ἦμεν,
+                          <lb n="88"/>ὅ τι δὲ κ’ <w lemma="ἐγράφω">ἐνγραψαιεν</w>, ἐνθινον καὶ <w lemma="ἔνορκος">ἐν<lb 
+                        break="no" n="89"/>ορκον</w> εἶμεν. <w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ
+                          <lb n="90"/>τὰν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lato"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#olous"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> ταύταν ἐς <w lemma="στάλα">στάλαν</w> λι<lb 
+                        break="no" n="91"/>θίναν <w lemma="ἀνατίθημι">κἀνθέμεν</w> ἑκατέρος
+                          <lb n="92"/>ἐν τᾶι ἰδίαι <rs type="institution" subtype="public_space" role="inscription_setup" key="polis" ref="#lato"><rs type="institution" subtype="public_space" role="inscription_setup" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs></rs>, οἱ μὲν <placeName ref="#lato" type="ethnic">Λάτιοι</placeName>
+                          <lb n="93"/>ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#lato"><w lemma="ἱαρόν">ἱαρῶι</w> τᾶς <persName type="divine" key="Eleuthyia">Ἐλευθυίας</persName></rs>, οἱ δὲ
+                          <lb n="94"/><placeName ref="#olous" type="ethnic">Ὀλόντιοι</placeName> ἐν <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#olous">τῶι <w lemma="ἱερόν">ἱερῶι</w> τῶ
+                          <lb n="95"/><persName type="divine" key="Zeus Tallaios">Ζηνὸς τῶ Ταλλαίω</persName></rs>. <w lemma="τίθημι">θέμεν</w> δὲ
+                          <lb n="96"/>καὶ ἄλλας <w lemma="στάλα">στάλας</w>, τὰν
+                          <lb n="97"/>μὲν ἐν <placeName ref="#knossos">Κνωσῶι</placeName> ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#knossos"><w lemma="ἱερόν">ἱερῶι</w>
+                          <lb n="98"/>τῶ <persName type="divine" key="Apollo Delphinios">Ἀπόλλωνος τῶ Δελφινίω</persName></rs>,
+                          <lb n="99"/><corr>τὰν δὲ <placeName ref="#lyttos">Λυττοῖ</placeName> ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#lyttos"><w lemma="ἱαρόν">ἱαρῶι</w>
+                          <lb n="100"/>τᾶς <persName type="divine" key="Athena">Ἀθαναίας</persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="101"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="102"/><gap reason="lost" extent="unknown" unit="character"/>ων τῶν <w lemma="δραπετικός">δραπετικῶν</w>
+                          <lb n="103"/><rs type="institution" subtype="social_status" role="unknown" key="soma" ref="#lyttos"><w lemma="σῶμα">σωμάτων</w></rs>.
+                          <lb n="104"/><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><w lemma="ὅρος">ὅροι</w></rs> τᾶς <placeName ref="#lato" type="ethnic">Λατίων</placeName> χώρας·
+                          <lb n="105"/>ἀπὸ θαλάσσας ἀμ ποταμὸν τὸν
+                          <lb n="106"/><supplied reason="lost">Κυμαῖον</supplied> καὶ ἐπὶ τὸς Ε<gap reason="lost" quantity="3" unit="character"/> ἐπὶ
+                          <lb n="107"/>τὰν Ἱππάγραν κἠς τὸν Βέγκασον
+                          <lb n="108"/>καὶ ἀπὸ τᾶς ἐπιτολᾶς τῶ Βεγ<lb 
+                        break="no" n="109"/>κάσω ἐκ τᾶς πέτρας περιαμ<lb 
+                        break="no" n="110"/>πέτιξ ἐς τὰν ἄλλαν πέτραν,
+                          <lb n="111"/>ἇι ἁ ταινία παρατρέχει, καὶ
+                          <lb n="112"/>τούτω <corr>κατὰ τὰς κεφαλὰς ἐς ἄκραν τὰν ἐμ Μίτοις καὶ ἐς ὀρθὸν ἐς τὰν
+                          <lb n="113"/>κεφαλὰν τῶ πάλαι χέρσω τὰν ἐπέχονσαν ἐπὶ τὰν Ἐξάκωνος <rs type="institution" subtype="public_space" role="landmark" key="aphamia" ref="#lato"><w lemma="ἀφαμία">ἀφαμίαν</w></rs>
+                          <lb n="114"/>καὶ τούτω</corr> ἐπὶ τὰς κεφαλὰς τᾶν ναπᾶν περὶ τὸς ἐρειπιῶνας μέστα ἐς τὰν κεφαλὰν τὰν
+                          <lb n="115"/>ἐπάνω τῶ <persName type="divine" key="Hermes">Ἑρμᾶ</persName> καὶ περιαμπ<lb 
+                        break="no" n="116"/>έτιξ ἐπὶ τὸ <orig>αντρο</orig><supplied reason="lost" cert="low"><orig>σειδιον</orig></supplied>
+                          <lb n="117"/>καὶ ἐς τὰν <w lemma="ὁδός">ὁδὸν</w> τὰν διὰ Λά<lb 
+                        break="no" n="118"/>ξον <surplus><orig>αμπετιξεπιτοαντρον</orig></surplus>
+                          <lb n="119"/>ἄγουσαν κἠς τὸν <w lemma="θῖνος">θῖνο<lb 
+                        break="no" n="120"/>ν</w> ἄρον κἠς τὰν κεφαλὰν κάτω τῶ
+                          <lb n="121"/>Κνάφω καὶ τούτω ἐς τὸ πέ<lb 
+                        break="no" n="122"/>ραν ἐς τὸν παχὺν λόφον ἐς τὰν
+                          <lb n="123"/>σκοπὰν καὶ τούτω ἐπὶ τὸ ἐξέδρι<lb 
+                        break="no" n="124"/>ον τὸ κατάνω ἧ αἱ θῆκαι ἐντὶ
+                          <lb n="125"/>καὶ ἐς τὰν κάτω ἁλικὰν κἠς
+                          <lb n="126"/>τὰν ἐπάνω ὠίαν τᾶς πέτρας
+                          <lb n="127"/>κἠς τὸν Βοίνωπα κἠς τὰν Ἱπ<lb 
+                        break="no" n="128"/>πασίαν κἠς τὰν <w lemma="ὁδός">ὁδὸν</w> τὰν ἄγου<lb 
+                        break="no" n="129"/>σαν ἐπί Ἄκιμον καὶ ἐς Ἰαλκέ<lb 
+                        break="no" n="130"/>τας ἐπὶ τὸς <persName type="divine" key="Kouretes">Κωρῆτας</persName> καὶ ἄν
+                          <lb n="131"/>Ἑλλῆν’ ἐς τὸν Κόλον ἇι ὕδωρ ῥεῖ
+                          <lb n="132"/>κἠς τὰν Κυμνητάλλαν κἠς Σο<lb 
+                        break="no" n="133"/>ράσαν κἠς τὰν <w lemma="ὁδός">ὁδὸν</w> κἠπὶ τὰν <corr>Ἐλάφω</corr>
+                          <lb n="134"/>λίμναν κἠς τὰν δηράδα κἠς
+                          <lb n="135"/>τὸν Ἀχερδόεντα κἠπὶ <persName type="divine" key="Zeus">Διὸς</persName>
+                          <lb n="136"/>ἄκρον κἠπὶ Δορηίαν κἠς Κυρ<lb 
+                        break="no" n="137"/>ταίραξον κἠς τὸν καταβαθ<lb 
+                        break="no" n="138"/>μὸν καὶ περιαμπέτιξ εἰς τὸν
+                          <lb n="139"/>Σπινόεντα κἠς τὰν Συωνί<lb 
+                        break="no" n="140"/>αν κἠς τὸν Ἄρακα κἠς Χαμβρί<lb 
+                        break="no" n="141"/>τρασον ἇι ὕδωρ ῥεῖ ἐς τὰς Πρι<lb 
+                        break="no" n="142"/>νοέσσας κἠς τὰν <rs type="institution" subtype="public_space" role="landmark" key="polisE" ref="#datala"><placeName ref="#datala">Δαττάλλαν</placeName></rs>
+                          <lb n="143"/>κἠς τὸν Περιστεριῶνα καὶ
+                          <lb n="144"/>περιαμπέτιξ ἇι αἱ στεφά<lb 
+                        break="no" n="145"/>ναι κἠς Δανάπαρξον καὶ ἐς
+                          <lb n="146"/>τὰν Αἴγυρον ἇι αἱ στεφάναι
+                          <lb n="147"/>κἠς <surplus>Δανάπαρξον καὶ ἐς</surplus> Παμφυρί<lb 
+                        break="no" n="148"/>ασον ἐς τὰν λίμναν κἠς τὰν <rs type="institution" subtype="public_space" role="landmark" key="damosia_hodos" ref="#lato"><w lemma="ὁδὸς δαμοσία">ὁ<lb 
+                        break="no" n="149"/>δὸν τὰν δαμοσίαν</w></rs> κἠς τὸν
+                          <lb n="150"/>Ἐπαθέντα κατὰ ῥάχιν ἐς Συ<lb 
+                        break="no" n="151"/>δάφνας τὰς ἄνω καὶ κατὰ ποτα<lb 
+                        break="no" n="152"/>μὸν ἐς Κορδωίλαν καὶ ἀνρά<lb 
+                        break="no" n="153"/>χιν ἐς Λαγινάπυτον ἐπὶ τὸ
+                          <lb n="154"/>ἄντρον κἠς Καλλιόρασον ἐ<lb 
+                        break="no" n="155"/>πὶ τὸ ἄντρον κἠς Μεταλλάπυ<lb 
+                        break="no" n="156"/>τον ἐπὶ τὸν ποταμὸν κἂν τ<lb 
+                        break="no" n="157"/>ὸν ῥόον ἐπὶ τὸ Στιώτιον καὶ
+                          <lb n="158"/>τῶδε ἀνράχιν ἐπὶ τὸν Ἀκά<lb 
+                        break="no" n="159"/>μαντα.
+                          <lb n="160"/><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><w lemma="ὅρος">ὅροι</w></rs> <placeName ref="#lato" type="ethnic">Λατίων</placeName> ποτὶ <placeName ref="#olous" type="ethnic">Ὀλοντίος</placeName>·
+                          <lb n="161"/>ἀπὸ θαλάσσας ἐς Πλυμῶν’ ἀνρά<lb 
+                        break="no" n="162"/>χιν ἐπὶ τὸ <w lemma="ἀρχαῖος">ἀρχαῖον</w> <rs type="institution" subtype="public_space" role="landmark" key="hieron" ref="#lato"><persName type="divine" key="Aphrodite"><w lemma="Ἀφροδίσιον">Ἀφροδίσι<lb 
+                        break="no" n="163"/>ον</w></persName></rs> καὶ τούτω ὡς τῶ <placeName ref="#dera">Δερέω</placeName> <w lemma="θῖνος">θίνω</w>
+                          <lb n="164"/>τῶ <rs type="institution" subtype="public_space" role="landmark" key="temenos" ref="#dera"><w lemma="τέμενος">τεμένεος</w></rs> οἱ <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><w lemma="ὅρος">ὅροι</w></rs> οἱ ἐς τὸν
+                          <lb n="165"/>βορέαν <space quantity="3" unit="character"/> ἔχοντες κἠς τὰν
+                          <lb n="166"/>Αἰρεπὼ κἠς τὰν Προμενήτισ<lb 
+                        break="no" n="167"/>σαν κἠπὶ τᾶς Κολολάκκας
+                          <lb n="168"/>τὰν περίβασιν κἠς Ἀρχελάρ<lb 
+                        break="no" n="169"/>χαν ἐς τὰν δηράδα πὰρ τῶν
+                          <lb n="170"/>πρίνων κἠς τὸν Ἀκάμαντα.
+                          <lb n="171"/><w lemma="ὀμνύω">ὀμόσαι</w> τὸς <placeName ref="#lato" type="ethnic">Λατίος</placeName> τοῖς <placeName ref="#olous" type="ethnic">Ὀλον<lb 
+                        break="no" n="172"/>τίοις</placeName> καὶ τὸς <placeName ref="#olous" type="ethnic">Ὀλοντίος</placeName> τοῖς
+                          <lb n="173"/><placeName ref="#lato" type="ethnic">Λατίοις</placeName> τὸν <w lemma="ὑπογράφω">ὑπογεγραμμέ<lb 
+                        break="no" n="174"/>νον</w> <w lemma="ὅρκος">ὅρκον</w>.
+                          <lb n="175"/><w lemma="ὅρκος">ὅρκος</w> <placeName ref="#lato" type="ethnic">Λατίων</placeName>·
+                          <lb n="176"/><w lemma="ὀμνύω">ὀμνύω</w> τὰν <persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#lato"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#olous"><w lemma="Ἑστία">Ἑστίαν</w></rs></rs></persName> καὶ τὸν
+                          <lb n="177"/><persName type="divine" key="Zeus Kretagenias">Ζῆνα τὸν Κρηταγενία</persName> καὶ τὰν
+                          <lb n="178"/><persName type="divine" key="Hera">Ἥραν</persName> καὶ τὸν <persName type="divine" key="Zeus Tallaios">Ζῆνα τὸν Ταλ<lb 
+                        break="no" n="179"/>λαῖον</persName> καὶ τὸν <persName type="divine" key="Poseidon">Πεσειδᾶν</persName> καὶ
+                          <lb n="180"/>τὰν <persName type="divine" key="Amphitrite">Ἀμφιτρίταν</persName> καὶ <corr>Ἐλάφω</corr>τὸν <persName type="divine" key="Apollo Pytios">Ἀπέλλωνα τὸν Πύτιον</persName> καὶ</corr> τὰν <persName type="divine" key="Lato">Λα<lb 
+                        break="no" n="181"/>τὼν</persName> <persName type="divine" key="Artemis">κἄρτεμιν</persName> καὶ <persName type="divine" key="Ares">Ἄρεα</persName> καὶ
+                          <lb n="182"/>τὰν <persName type="divine" key="Aphrodite">Ἀφροδίταν</persName> καὶ τὰν <persName type="divine" key="Eleuthyia">Ἐλευ<lb 
+                        break="no" n="183"/>θυίαν</persName> καὶ τὰν <persName type="divine" key="Britomartis">Βριτόμαρτιν</persName>
+                          <lb n="184"/>καὶ <persName type="divine" key="Hermes">Ἑρμᾶν</persName> καὶ <persName type="divine" key="Kouretes">Κωρῆτας</persName> καὶ
+                          <lb n="185"/><persName type="divine" key="Nymphai">Νύμφας</persName> καὶ τὸς ἄλλος <w lemma="θεός">θιὸς</w>
+                          <lb n="186"/>πάντας καὶ πάσας· ἦ μὰν ἐγὼ
+                          <lb n="187"/>τοῖς <placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName> ἐμμενίω ἐν
+                          <lb n="188"/>τᾶι <w lemma="φιλία">φιλίαι</w> καὶ <w lemma="συμμαχία">συμμαχίαι</w>
+                          <lb n="189"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#lato"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#olous"><w lemma="ἰσοπολιτεία">ἰσοπολιτείαι</w></rs></rs> καὶ τοῖς
+                          <lb n="190"/><w lemma="ὅρκος">ὅρκοις</w> ἐμμενίω καὶ βοαθη<lb 
+                        break="no" n="191"/>σίω ἁπλόως καὶ ἀδόλως καὶ
+                          <lb n="192"/>κατὰ γᾶν καὶ κατὰ θάλασσαν·
+                          <lb n="193"/>καὶ εἴ τίς κα <w lemma="πολεμέω">πολεμίων</w> <placeName ref="#olous" type="ethnic">Ὀλον<lb 
+                        break="no" n="194"/>τίοις</placeName> ἐφέρπηι ἐπὶ <rs type="institution" subtype="public_space" role="defense" key="polis" ref="#olous"><w lemma="πόλις">πόλιν</w></rs>
+                          <lb n="195"/>ἢ ἐπὶ χώραν ἢ ἐπ’ <rs type="institution" subtype="public_space" role="defense" key="oreion" ref="#olous"><w lemma="ὠρεῖον">ὠρεῖα</w></rs> ἢ <w lemma="λιμήν">λιμέ<lb 
+                        break="no" n="196"/>νας</w> τὸς τῶν <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName>, οὐ
+                          <lb n="197"/>προλειψίω οὔτε ἐν πολέμωι
+                          <lb n="198"/>οὔτε ἐν εἰρήναι, ἀλλ’ ἐμμενίω
+                          <lb n="199"/>ἐν τοῖς <w lemma="σύγκειμαι">συγκειμένοις</w> <w lemma="ὅρκος">ὅρ<lb 
+                        break="no" n="200"/>κοις</w>· <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#lato"><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#olous"><w lemma="δίκα">δίκας</w></rs></rs> τε καὶ <w lemma="πρᾶξις">πράξεις</w>
+                          <lb n="201"/>διδόναι καθώς κα <w lemma="συντίθημι">συνθιώμε<lb 
+                        break="no" n="202"/>θα</w>. <w lemma="εὐορκέω">εὐορκέοντι</w> μὲν ἦμεν πολ<lb 
+                        break="no" n="203"/>λὰ καὶ ἀγαθά, <w lemma="ἐφορκέω">ἐφορκέοντι</w> δὲ
+                          <lb n="204"/>τὰ ἐναντία.
+                          <lb n="205"/><w lemma="ὅρκος">ὅρκος</w> <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName> ὁ αὐτός.
+                          <lb n="206"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato">ἐπὶ <w lemma="κόσμος">κόσμων</w> <corr><placeName ref="#lato">Λατοῖ</placeName></corr> μὲν τῶν σὺν <persName type="attested" key="Mainaios f. Chairnetadas"><name nymRef="Μαιναῖος">Μαι<lb 
+                        break="no" n="207"/>ναίωι</name> τῶ <name nymRef="Χαιρνητάδας" type="patronymic">Χαιρνητάδα</name></persName></rs> <rs type="institution" subtype="month" role="calendar" key="Thermolaios" ref="#lato">μηνὸς
+                          <lb n="208"/><w lemma="Θερμολαῖος">Θερμολαίω</w></rs> δεκάται, ἐν
+                          <lb n="209"/>δὲ <placeName ref="#olous">Ὀλόντι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#olous">ἐπὶ τῶν σὺν <persName type="attested" key="Kratinos f. Aristonymos"><name nymRef="Κρατῖνος">Κρατί<lb 
+                        break="no" n="210"/>νωι</name> τῶ <name nymRef="Ἀριστώνυμος" type="patronymic">Ἀριστωνύμω</name></persName></rs> <rs type="institution" subtype="month" role="calendar" key="Heraios" ref="#olous">μηνὸς <w lemma="Ἡραῖος">Ἡ<lb 
+                        break="no" n="211"/>ραίω</w></rs> δεκάται, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lato"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic">Λατί<lb 
+                        break="no" n="212"/>οις</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName></rs> κοινᾶι
+                          <lb n="213"/><w lemma="βωλεύω">βωλευσαμένοις</w> <w lemma="προστίθημι">προσθέμεν</w>
+                          <lb n="214"/><corr>πρὸς τὰν φιλίαν καὶ <w lemma="συμμαχία">συμμα<lb 
+                        break="no" n="215"/>χίαν</w> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#lato"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#olous"><w lemma="ἰσοπολιτεία">ἰσοπολιτείαν</w></rs></rs> καὶ
+                          <lb n="216"/>πρὸς τἄλλα <w lemma="φιλάνθρωπος">φιλάνθρωπα</w>
+                          <lb n="217"/>τὰ γεγονότα ταῖς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lato"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλεσι</w></rs></rs></corr>
+                          <lb n="218"/>καὶ τὰν νῦν <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lato"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">δόξαντα</w></rs></rs> <w lemma="προσγράφω">προσγρά<lb 
+                        break="no" n="219"/>ψαι</w> πρὸς τὰς προϋπαρχώσας παρ’
+                          <lb n="220"/>αὐτοῖς <w lemma="στάλα">στάλα</w>ς, χρήσιμα ὄν<lb 
+                        break="no" n="221"/>τα καὶ συμφέροντα, ὅπως μᾶλ<lb 
+                        break="no" n="222"/>λον αὔξηται ἁ <w lemma="φιλία">φιλία</w>.
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato di alleanza ed <foreign>isopoliteia</foreign> fra Lato e Olous, noto anche dalla copia <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref>, sembra costituire il capitolo conclusivo dell’intensa attività diplomatica connessa ad uno scontro in corso fra le due città nell’ultimo ventennio del II secolo a.C. (cf. <ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>; <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>; <ref type="ins" target="#ic1_16_18"><title>IC</title> I 16 18</ref>). La presente copia, rinvenuta a Souda e nota grazie ad una trascrizione seicentesca, doveva essere originariamente collocata in un luogo sacro dell’area di Lato, verosimilmente l’<foreign>Aphrodision</foreign> di Dera, dove erano esposti altri documenti riguardanti lo scontro fra Lato e Olous (<ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>).</p>
+                    <p>Il documento, che si apre con una duplice espressione benaugurale, conserva alle linee 3-10 una formula di datazione che ricorda i cosmi eponimi Pyleros figlio di Tallaios della tribù degli <foreign>Hylleis</foreign> di Lato (a Creta attestata anche a Knossos) e Sophronichos figlio di Aristis a Olous; la data include anche il ricordo del giorno esatto della stipulazione degli accordi, avvenututa il trentesimo giorno del mese <foreign>Thiodaisios</foreign> di Lato, equivalente allo stesso giorno di quello <foreign>Elousinios</foreign> di Olous.</p>
+                    <p>Il trattato prevede un impegno reciproco di aiuto militare nell’eventualità di attacco nei confronti del territorio, dei forti, delle isole o dei porti dell’alleata (ll. 10-23a), oltre che una serie di scambievoli concessioni fra le due contraenti, fra cui l’<foreign>isopoliteia</foreign> e la possibilità di esportazione da una <foreign>polis</foreign> all’altra esente da tasse via terra, via mare secondo le leggi vigenti presso ciascuna città (ll. 23a-27a). Alla clausola che regola le spedizioni militari congiunte alle linee 27a-29 fanno seguito quelle relative al giuramento e alla lettura degli accordi: è previsto che i cosmi in carica di ciascuna <foreign>polis</foreign> si occupino di far giurare i giovani uscenti dall’<foreign>agela</foreign> in presenza di ambasciatori dell’alleata e di far leggere pubblicamente gli accordi e pronunciare il giuramento in occasione di particolari festività, a Lato individuate nei <foreign>Thiodasia</foreign>, eventi a cui l’alleata deve essere invitata con un anticipo di cinque giorni (ll. 29a-35). Nel caso di inadempienza dei cosmi rispetto a quanto stabilito, per ciascuno di loro è prevista una multa di cento stateri d’argento da versare alla città alleata (ll. 35-48).</p>
+                    <p>La clausola alle linee 50-53, inoltre, presenta invece delle indicazioni relative alla regolamentazione delle visite dei cosmi di una città presso l’alleata: in tali circostanze è previsto che i magistrati debbano indossare un mantello da cerimonia (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, pp. 130-133</bibl>) e recarsi presso il pritaneo (a Lato noto anche da <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref> e <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>) così come (?) i cosmi si recano ad una festività o processione; anche le visite di ambascerie o semplici cittadini sembra essere soggetto ad una normazione, sebbene non sia chiaro secondo quali modalità (ll. 53-56).</p>
+                    <p>Nel caso di contrasti sorti fra singoli cittadini delle due città la clausola alle linee 56-61 stabilisce che siano chiamati ad intervenire gli anziani (<foreign>preigistoi</foreign>, noti anche a Gortyna, Hierapytna, Biannos e Soulia) responsabili delle <foreign>eunomiai</foreign>, termine che è impiegato eccezionalmente al plurale solamente nel presente trattato. Nel caso di torti compiuti sulle strade <foreign>xenikai</foreign>, che vengono dichiarate sacre, la clausola alle linee 61-66 stabilisce inoltre un aumento di sei volte del valore delle multe da comminare a chi vi commetta ingiustizia e perda il processo.</p>
+                    <p>Una volta affrontate le questioni giuridiche, il trattato torna ad elencare le reciproche concessioni accordate fra Lato e Olous, ovvero l’<foreign>epigamia</foreign> e la possibilità di vendere, compare, dare o prendere in prestito o effettuare altri tipi di contratti attraverso il <foreign>chreophylakion</foreign> dell’alleata (struttura nota a Creta anche a Polyrrhenia, Knossos e Gortyna), nel rispetto delle relative leggi di ciascuna città (ll. 66-77). Alle linee 77-83, invece, viene affrontata nuovamente la questione degli inviti reciproci in occasione delle festività, individuate nei <foreign>Thiodaisia</foreign> e <foreign>Britomarpeia</foreign> di Olous e nei <foreign>Thiodaisia</foreign> di Lato, eventi in cui la città alleata è tenuta a compiere sacrifici e a condurre un tiaso, dei cori (menzionati anche nel trattato <ref type="ins" target="#ic1_8_4"><title>IC</title> I 8 4</ref>) e i propri cittadini adulti (<foreign>dromeis</foreign>).</p>
+                    <p>Dopo l’ammissione di future modifiche al documento nel caso di deliberazione congiunta delle due <foreign>poleis</foreign> (ll. 83-89), la formula di esposizione alle linee 89-103 prescrive l’iscrizione e collocazione di più stele nella città di Lato nel santuario di Eleuthyia, ad Olous in quello di Zeus <foreign>Tallaios</foreign>, a Knossos nel santuario di Apollo <foreign>Delphinios</foreign> e a Lyttos in quello di Atena, luogo sacro che sembra essere in qualche modo connesso a degli schiavi fuggitivi (ll. 102-103, δραπετικῶ[ν σωμάτων]).</p>
+                    <p>Alle numerose clausole del trattato fa seguito alle linee 104-170 una dettagliata descrizione dei confini del territorio di Lato e della sua frontiera con Olous, che fra i molti punti di riferimento individuati menziona la città (?) di Datala, una strada pubblica, un antico <foreign>Aphrodision</foreign>, il santuario di Dera e un’<foreign>aphamia</foreign> (l. 113), termine che è attestato epigraficamente soltanto nella sua accezione spaziale di «zona marginale» (cf. <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref> e la legge arcaica di Eleutherna <ref type="ins" target="#ic2_12_16"><title>IC</title> II 12 16</ref>; le fonti letterarie, invece, documentano per <foreign>aphamia</foreign>/<foreign>aphamiotas</foreign> solamente il significato di «popolazione asservita», cf. <ref type="lit" target="#Sosicr4">Sosicr.Hist. <title>FGrHist</title> 461 F 4</ref>, <ref type="lit" target="#HschAphamiotai">Hsch. <foreign>s.v.</foreign> ἀφαμιῶται</ref>).</p>
+                    <p>Il documento, inoltre, conserva alle linee 175-205 il giuramento di Lato – analogo a quello di Olous –, che menziona fra le numerose divinità invocate Histia e Zeus <foreign>Kretagenias</foreign> ed include una promessa di rispetto degli accordi e di aiuto militare in caso di attacco della <foreign>polis</foreign>, territorio, fortini (ὠρεῖα, cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 373-376</bibl>) o porti dell’alleata.</p>
+                    <p>Rispetto alla copia <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref>, infine, la presente redazione del trattato include un decreto emanato congiuntamente da Lato e Olous, datato all’anno in cui è cosmo eponimo Mainaios figlio di Chairnetadas a Lato e Kratinos figlio di Aristonymos a Olous, più precisamente al dieci del mese <foreign>Thermolaios</foreign> di Lato, corrispondente allo stesso giorno del mese <foreign>Heraios</foreign> di Olous (ll. 206-211). Alla formula di sanzione alle linee 211-213, nella quale compaiono gli etnici collettivi delle due <foreign>poleis</foreign>, segue l’oggetto della decisione, che doveva costituire una successiva aggiunta a quanto previsto dal trattato; quanto indicato alle linee 213-222, tuttavia, non modifica nulla di quanto già stabilito negli accordi: è verosimile, dunque, che il decreto comprendesse altre clausole che non sono state trascritte nella copia manoscritta pervenuta.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela"><foreign>agela</foreign></ref>, <ref type="inst" target="#aphamia"><foreign>aphamia</foreign></ref>, <ref type="inst" target="#choros"><foreign>choros</foreign></ref>, <ref type="inst" target="#chreophylakion"><foreign>chreophylakion</foreign></ref>, <ref type="inst" target="#damosia_hodos"><foreign>damosia hodos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#dromeus"><foreign>dromeus</foreign></ref>, <ref type="inst" target="#eunomia"><foreign>eunomia</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#horos"><foreign>horos</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>, festività (<ref type="inst" target="#britomarpeia"><foreign>Britomarpeia</foreign></ref>, <ref type="inst" target="#thiodaisia"><foreign>Thiodaisia</foreign></ref>), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mesi (<ref type="inst" target="#eleusinios"><foreign>Eleusinios</foreign></ref>, <ref type="inst" target="#heraios"><foreign>Heraios</foreign></ref>, <ref type="inst" target="#thiodaisios"><foreign>Theodaisios</foreign></ref>, <ref type="inst" target="#thermolaios"><foreign>Thermolaios</foreign></ref>), <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#oureion"><foreign>oreion</foreign></ref>, <ref type="inst" target="#phrourion"><foreign>phrourion</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<foreign>politeuo</foreign>), <ref type="inst" target="#preigistos"><foreign>preigistos</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>, <ref type="inst" target="#soma"><foreign>soma</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>, <ref type="inst" target="#thiasos"><foreign>thiasos</foreign></ref>, tribù (<ref type="inst" target="#hylleis"><foreign>Hylleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 2554</bibl>; 
+                         <bibl><ref target="#b267">Cauer 1877</ref>, n. 43</bibl>;
+                         <bibl><ref target="#b599">Faure 1972</ref>, p. 233</bibl>;
+                         <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 61B <ptr type="phi" target="201335"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1968">Voretsch 1870</ref>, pp. 6-9</bibl>; 
+                          <bibl><ref target="#b488">Deiters 1904</ref>, pp. 27-50</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

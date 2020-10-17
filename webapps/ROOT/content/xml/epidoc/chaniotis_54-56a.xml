@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Arbitrato di Knossos fra Lato e Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Chaniotis, Verträge 54/56a</idno>
+                        <idno type="projectNo">540</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decisione arbitrale</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dera"><foreign>Aphrodision</foreign> di Dera</origPlace>
+                                    <origDate period="#hellenistic" when="-0115">115 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="object" role="decreeing" key="krima" ref="#knossos"><w lemma="κρίμα">κρίμα</w></rs> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">ἔκρινε</w></rs> ἁ τῶν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> <rs type="institution" subtype="assembly" role="judicial_procedure" key="polis" ref="#knossos"><w lemma="πόλις">πόλις</w></rs> περὶ ὧν ἐπέδωκε <w lemma="δικάζω">δικάσα<unclear>ι</unclear></w> <unclear>ἁ</unclear> <supplied reason="lost">τῶν</supplied> <placeName ref="#lato" type="ethnic"><supplied reason="lost">Λα</supplied>τ<supplied reason="lost">ίων</supplied></placeName>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="judicial_procedure" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> τᾶι τῶν <placeName ref="#olous" type="ethnic">Ὀλ<unclear>ο</unclear>ν<supplied reason="lost">τ</supplied>ίων</placeName> <rs type="institution" subtype="assembly" role="judicial_procedure" key="polis" ref="#olous"><w lemma="πόλις">πόλι</w></rs> χώρας <unclear>τε</unclear> καὶ τῶ <rs type="institution" subtype="public_space" role="possession" key="hieron" ref="#dera"><w lemma="ἱαρόν">ἱαρῶ</w> τῶ <placeName ref="#dera">Δέραι</placeName></rs> καὶ τ<supplied reason="lost">ῶν</supplied>
+                          <lb n="4"/>θιγγανόντων τῶι <rs type="institution" subtype="public_space" role="possession" key="hieron" ref="#dera"><w lemma="ἱαρόν">ἱαρῶι</w></rs> <w lemma="τεμένιος"><unclear>τε</unclear>μενίω</w> πάντων καὶ τᾶς <w lemma="νᾶσος">νάσω</w> Πύρρας καὶ
+                          <lb n="5"/>τῶ ποτιόντος σκοπέλω καὶ τᾶς ναὸς τετρήρεος καὶ τῶ<supplied reason="lost">ν</supplied> ἐ<unclear>ς</unclear> τᾶς
+                          <lb n="6"/><supplied reason="lost">ν</supplied>αὸς ἀργυρωμάτων καὶ <w lemma="ἀργύριον">ἀ<supplied reason="lost">ργ</supplied><unclear>υρ</unclear><supplied reason="lost">ίω</supplied></w> <w lemma="νόμισμα"><unclear>νομ</unclear>ίσ<unclear>μα</unclear>τος</w> καὶ χαλκωμά<supplied reason="lost">των</supplied> καὶ ἄλ<lb 
+                        break="no" n="7"/>λων σκευῶν παντοδαπῶν κ<unclear>αὶ</unclear> <rs type="institution" subtype="social_status" role="possession" key="eleutheros" ref="#olous"><w lemma="σῶμα ἐλεύθερον">σωμάτων τῶν πραθέντων ἐλευθέ<lb 
+                        break="no" n="8"/>ρων</w></rs> <unclear>δύ</unclear>ων καὶ <rs type="institution" subtype="social_status" role="possession" key="oiketas" ref="#olous"><w lemma="οἰκέτας">οἰκέτα</w></rs> ἑνός. ἦμεν <placeName ref="#lato" type="ethnic">Λατίων</placeName> καὶ τὰν <w lemma="νᾶσος">νᾶσον</w> Πύρραν καὶ
+                          <lb n="9"/>τὸν πορτιόντα σκόπελον καὶ τὰν χώραν τ<supplied reason="lost">ὰ</supplied>ν <supplied reason="lost">Κρ</supplied><unclear>ῆ</unclear>σαν καὶ τὸ <rs type="institution" subtype="public_space" role="possession" key="hieron" ref="#dera"><w lemma="ἱαρόν">ἱαρὸν</w> τὸ <placeName ref="#dera">Δέ<lb 
+                        break="no" n="10"/>ραι</placeName></rs> καὶ τὰ θιγγάνοντα τῶι <rs type="institution" subtype="public_space" role="possession" key="hieron" ref="#dera"><w lemma="ἱαρόν">ἱαρῶι</w></rs> <w lemma="τεμένιος">τεμένια</w> <unclear>π</unclear>άν<supplied reason="lost">τα</supplied>, <unclear>ὅπω</unclear>ς αὐτοῖς οἱ <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><w lemma="ὅρος">ὅροι</w></rs>
+                          <lb n="11"/>ἔσονται οἱ <w lemma="ἀρχαῖος">ἀρχαῖοι</w>· ἀπὸ θαλάσσας ἐς Πλυ<supplied reason="lost">μ</supplied>ῶν’ ἀρράχιν ἐπὶ τὸ <rs type="institution" subtype="public_space" role="landmark" key="hieron" ref="#lato">ἀρ<lb 
+                        break="no" n="12"/>χ<unclear>α</unclear>ῖον <persName type="divine" key="Aphrodite"><w lemma="Ἀφροδίσιον">Ἀφροδίσιον</w></persName></rs> καὶ τούτω ὡς τῶ <placeName ref="#dera">Δεραίω</placeName> <w lemma="θῖνος"><unclear>θ</unclear>ίνω</w> τῶ <rs type="institution" subtype="public_space" role="landmark" key="temenos" ref="#dera"><w lemma="τεμένιος">τεμένιος</w></rs> οἱ <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><w lemma="ὅρος">ὅροι</w></rs>
+                          <lb n="13"/><supplied reason="lost">οἱ ἐς τὸ</supplied>ν βορέαν ἔ<unclear>χ</unclear><supplied reason="lost">οντ</supplied>ες κἠς Αἰρεπὼ κ<unclear>ἠ</unclear>ς τὰν Προμενήτισσαν <unclear>κἠπὶ</unclear>
+                          <lb n="14"/><supplied reason="lost">τᾶς Καλ</supplied>ολά<supplied reason="lost">κκας τὰν περίβασ</supplied>ιν κἠς Ἀρχελάρχαν ἐς τὰν δηράδα πὰρ’ τ<unclear>ῶν</unclear>
+                          <lb n="15"/><supplied reason="lost">πρίνω</supplied><unclear>ν</unclear> <supplied reason="lost">κἠς Ἀκά</supplied><unclear>μ</unclear><supplied reason="lost">αντα. περὶ δὲ</supplied> τᾶς ναὸς καὶ τῶν ἐς τᾶς ναὸς ἀργυρωμάτων <supplied reason="lost">καὶ</supplied>
+                          <lb n="16"/><w lemma="ἀργύριον"><supplied reason="lost">ἀ</supplied><unclear>ργυ</unclear>ρίω</w> <w lemma="νόμισμα">νομίσ<supplied reason="lost">ματος</supplied></w> <supplied reason="lost">καὶ χαλκω</supplied><unclear>μάτων</unclear> καὶ <unclear>ἄλ</unclear>λων σκευῶν πάντων καὶ <rs type="institution" subtype="social_status" role="possession" key="eleutheros" ref="#olous"><w lemma="σῶμα ἐλεύθερον">σ<unclear>ω</unclear><lb 
+                        break="no" n="17"/><supplied reason="lost">μ</supplied>άτων τῶν πραθ<supplied reason="lost">έ</supplied><unclear>ν</unclear><supplied reason="lost">των ἐλευθέρων</supplied></w></rs> <supplied reason="lost">δύων καὶ</supplied> <rs type="institution" subtype="social_status" role="possession" key="oiketas" ref="#olous"><w lemma="οἰκέτας"><supplied reason="lost">οἰκέτα</supplied></w></rs> ἑνός, <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">ἔκριναν</w></rs> ἅ<unclear>π</unclear><supplied reason="lost">αν</supplied><unclear>τ</unclear>α
+                          <lb n="18"/><supplied reason="lost">ἦμ</supplied>εν <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName> <unclear>α</unclear><gap reason="lost" quantity="30" unit="character" precision="low"/><orig>σ<unclear>ι</unclear>αι</orig> <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#olous" cert="low"><w lemma="δίκα">δίκαι</w></rs> περὶ
+                          <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig><gap reason="lost" quantity="1" unit="character"/><orig>τ</orig><gap reason="lost" quantity="1" unit="character"/><orig>ο</orig> ἀργυρι<gap reason="lost" quantity="25" unit="character" precision="low"/><orig>σαι</orig> <w lemma="μνᾶ">μνᾶς</w> <w lemma="ἀργύρειος">ἀρ<unclear>γυ</unclear>ρείας</w> τρι<lb 
+                        break="no" n="20"/>άκοντα πέντε <rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#knossos" cert="low">ἐπὶ <persName type="attested" key="Tharsiphanes f. Koryptas"><name nymRef="Θαρσιφάνης"><supplied reason="lost">Θαρ</supplied>σιφάνιος</name> τῶ <name nymRef="Κορύπτας" type="patronymic">Κο<unclear>ρ</unclear><supplied reason="lost" cert="low">ύπτα</supplied></name></persName></rs> <w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Bakinthios" ref="#knossos"><w lemma="Βακίνθιος">Βακινθίω</w></rs>. <space extent="unknown" unit="character"/>  
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’arbitrato di Knossos fra Lato e Olous, apparenente ad una serie di documenti relativi ad uno scontro in corso fra le due seconde città nell’ultimo ventennio del II secolo a.C. (<ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>; <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>; <ref type="ins" target="#ic1_16_18"><title>IC</title> I 16 18</ref>; cf. inoltre <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>), è iscritto sulla stessa stele che conserva anche i testi <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref> e <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>.</p>
+                    <p>Il documento, introdotto dall’intestazione κρίμα Κνωσίων, presenta alle linee 2-8 l’oggetto del giudizio emesso dalla <foreign>polis</foreign> di Knossos, svelando dunque come causa della disputa fra le città di Lato e Olous – che hanno concesso alla prima di far loro da arbitro – dispute territoriali relative ad aree di confine e la contesa di beni mobili. Nello specifico la disputa interessa il controllo del territorio di Kresa (?), del santuario di Dera, di recinti sacri a questo confinanti, dell’isola di Pyrrha e di un vicino isolotto scoglioso – forse Agioi Pantes e Mikronisi – e di una quadrireme con il suo ricco carico costituito da beni materiali, due uomini liberi e un <foreign>oiketas</foreign>. La decisione assegna a Lato tutti i beni immobili, secondo la descrizione citata da un documento più antico degli originari confini fra Lato e Olous (ll. 11-15), mentre a Olous la nave con il suo carico.</p>
+                    <p>Le linee 18-20, piuttosto frammentarie, sembrano conservare un riferimento a processi e al versamento di un importo di denaro imposto forse a Olous nei confronti di Lato, da effettuarsi apparentemente entro il mese <foreign>Bakinthios</foreign> (attestato anche a Malla e Lato, cf. <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> e <ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>) dell’anno in cui è (cosmo?) eponimo di Knossos Tharsiphanes figlio di Koryptas.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#horos"><foreign>horos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#krima"><foreign>krima</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, mese <ref type="inst" target="#bakinthios"><foreign>Bakinthios</foreign></ref>, <ref type="inst" target="#oiketas"><foreign>oiketas</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1878">Van Effenterre 1942</ref>, pp. 33-44 n. C</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 54/56a <ptr type="phi" target="201323"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b70">Baldwin Bowsky 1989</ref>, pp. 340, 347</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

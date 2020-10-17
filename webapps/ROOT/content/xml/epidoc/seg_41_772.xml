@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra una città di Creta orientale e Melos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 41.772</idno>
+                        <idno type="projectNo">562</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository>
+                                <idno type="invNo">207</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#east_crete">Creta orientale (Lasithi)</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0250">300-250 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιω<unclear>ν</unclear></orig><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ενβα</orig>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ς καὶ Θι<lb 
+                        break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Χ</supplied>αιρήτωνος
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> Θιοδότω
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ντω Ἀγο<lb 
+                        break="no" n="8"/><supplied reason="lost" cert="low">ράτω</supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>λ</unclear>ίδ<unclear>α</unclear> κ<unclear>α</unclear>ὶ Τιμα<lb 
+                        break="no" n="9"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#unknown"><w lemma="πόλις"><supplied reason="lost">π</supplied>όλει</w></rs>· ἦ<unclear>μ</unclear>εν <placeName ref="#melos" type="ethnic">Μ<unclear>α</unclear><lb 
+                        break="no" n="11"/><supplied reason="lost">λίοις</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig> ἐν <placeName ref="#melos">Μάλωι</placeName> ἀ<lb 
+                        break="no" n="12"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ κατὰ γᾶν καὶ κ</supplied>ατὰ θάλασσαν
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> τοῖς <placeName ref="#melos" type="ethnic">Μα<unclear>λ</unclear><supplied reason="lost">ί</supplied><lb 
+                        break="no" n="14"/><supplied reason="lost">οις</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ ἐν πολέμωι καὶ ἐ</supplied>ν εἰρήναι· ε<gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>θενα</orig><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>υς οἰ<unclear>κ</unclear><lb 
+                        break="no" n="17"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento conserva parte di un trattato fra Melos e una città di Creta orientale, verosimilmente Lato o Olous (oppure Istron). Il documento, piuttosto mal conservato, sembra includere alle linee 1-9 una lista di antroponimi, possibilmente i magistrati in carica delle due città (verosimilmente cosmi nel caso della città cretese). L’oggetto degli accordi, esposto alle linee 10-16, è preceduto alla linea 10 da una formula di sanzione o mozione, nella quale dovevano essere ricordati i nomi di entrambe le <foreign>poleis</foreign> coinvolte nel tratttato.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b297">Chaniotis 1991</ref>, pp. 247-252 n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 41.772 <ptr type="phi" target="202137"/> <ptr type="seg" target="a41_772"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 8</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Convenzione fra Knossos ed i suoi alleati e Mileto</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC I 8 6*</idno>
+                        <idno type="projectNo">162</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino</repository>
+                        <idno type="invNo">671</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#miletus">Mileto, <foreign>Delphinion</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0260" notAfter="-0250" precision="low">260-250 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/>τὰ <w lemma="συντίθημι">συντεθέντα</w> πρὸς τὰς <rs type="institution" subtype="assembly" role="treaty-making" key="polis" ref="#unknown"><w lemma="πόλις">πόλεις</w></rs> τὰς ἐγ <placeName ref="#crete">Κρήτηι</placeName>. <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνωσίων</placeName></rs>.
+                        <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> τῶι <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμωι</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλει</w></rs>· ὑπὲρ ὧν οἱ
+                        <lb n="3"/><placeName ref="#miletus" type="ethnic">Μιλήσιοι</placeName> τοὺς πρεσβευτὰς <w lemma="ἀποστέλλω">ἀπέστηλαν</w> Ἀλκμεωνίδην
+                        <lb n="4"/>καὶ Εὐαγόραν, <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> τοῖς πρεσβευταῖς ὅτι καὶ
+                        <lb n="5"/>πρότερον ἡμεῖς παραγενομένων τῶν παρ’ ὑμῶν
+                        <lb n="6"/>πρεσβευτᾶν ἐποιησάμεθα τὰς <rs type="institution" subtype="object" role="treaty-making" key="homologia" ref="#knossos"><w lemma="ὁμολογία">ὁμολογίας</w></rs>, καθότι
+                        <lb n="7"/><placeName ref="#miletus" type="ethnic">Μιλήσιοι</placeName> ἠξίωσαν, καὶ <w lemma="τίθημι">ἐθέμεθα</w> εἰς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#knossos"><w lemma="ἱερόν">ἱερὸν</w> τοῦ
+                        <lb n="8"/><persName type="divine" key="Apollo">Ἀπόλλωνος</persName></rs>· ἐμπρησθέντος δὲ τοῦ <rs type="institution" subtype="public_space" role="inscription_setup" key="naos" ref="#knossos"><w lemma="ναός">ναοῦ</w></rs> καλῶς
+                        <lb n="9"/>ἐποιήσατε <w lemma="ἀποστέλλω">ἀποστείλαντες</w> τὰν πρεσβήιαν, ὅπως
+                        <lb n="10"/><w lemma="ἀναγράφω">ἀναγραφῆι</w> ταὐτὰ καὶ παρ’ ὑμῖν <orig>αμεμμενων</orig> καὶ
+                        <lb n="11"/>μὴ <w lemma="ἀναγράφω">ἀναγραφείσης</w> τῆς <rs type="institution" subtype="object" role="treaty-making" key="homologia" ref="#knossos"><w lemma="ὁμολογία">ὁμολογίας</w></rs>· ὑπολαμβάνο<lb 
+                        break="no" n="12"/>μεν γὰρ ὑμῖν πάντα τὰ <w lemma="φιλάνθρωπος">φιλάνθρωπα</w> γίνεσθαι πα<lb 
+                        break="no" n="13"/>ρ’ ἡμῶν καὶ διαφυλάξομεν τὰμ <w lemma="φιλία">φιλίαν</w> καὶ τὰν <w lemma="εὔνοια">εὔ<lb 
+                        break="no" n="14"/>νοιαν</w> τὰν ὑπάρχουσαν ἐκ τῶν πρότερον χρό<lb 
+                        break="no" n="15"/>νων πρὸς ἀλλήλους καθάπερ <w lemma="δίκαιος">δίκαιόν</w> ἐστιν.
+                        <lb n="16"/>ὅπως δὲ καὶ οἱ λοιποὶ <placeName ref="#crete" type="ethnic">Κρηταιέων</placeName> <w lemma="πρόθυμος">προθυμότερον</w>
+                        <lb n="17"/>ὑμῖν <w lemma="συγγράφω">συγγράφωνται</w> καὶ αὐτοί, ὑπολαμβάνομεν
+                        <lb n="18"/>δεῖν <w lemma="συγγράφω">συγγράψασθαι</w> καθότι ὑμεῖς ἀξιώσατε· μὴ
+                        <lb n="19"/><w lemma="ὠνέομαι">ὠνείσθω</w> ὁ <placeName ref="#knossos" type="ethnic">Κνώσιος</placeName> τὸμ <placeName ref="#miletus" type="ethnic">Μιλήσιον</placeName> μηδὲ ὁ <placeName ref="#miletus" type="ethnic">Μιλήσιος</placeName>
+                        <lb n="20"/>τὸν <placeName ref="#knossos" type="ethnic">Κνώσιον</placeName> εἰδὼς <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#knossos"><w lemma="ἐλεύθερος">ἐλεύθερον</w></rs> ὄντα. ὃς ἂν δὲ <w lemma="ἀγοράζω">ἀγο<lb 
+                        break="no" n="21"/>ράσηι</w> εἰδὼς, στερέσθω τῆς <w lemma="τιμή">τιμῆς</w> καὶ τὸ <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#knossos"><w lemma="σῶμα ἐλεύθερον">σῶμα ἐ<lb 
+                        break="no" n="22"/>λεύθερον</w></rs> ἔστω. ἐὰν δὲ μὴ εἰδὼς <w lemma="ἀγοράζω">ἀγοράσῃ</w>, ἀπο<lb 
+                        break="no" n="23"/>δοὺς τὸ <w lemma="σῶμα">σῶμα</w> τὴν <w lemma="τιμή">τιμὴν</w> κομισάσθω, ὅσου <w lemma="ἀγοράζω">ἠγόρακε<unclear>ν</unclear></w>.
+                        <lb n="24"/>ἐὰν δέ τις <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#knossos"><w lemma="δοῦλος">δοῦλον</w></rs> <w lemma="ἀγοράζω">ἀγοράσηι</w>, τὴν <w lemma="τιμή">τιμὴν</w> κομισάμε<lb 
+                        break="no" n="25"/>νος, ὅσου <w lemma="ἀγοράζω">ἠγόρακεν</w>, ἀποδότω τὸ <w lemma="σῶμα">σῶμα</w>. ἐὰν δὲ μὴ
+                        <lb n="26"/>ἀποδιδῶι, ἀγόντωσαν ἐμ μὲν <placeName ref="#knossos">Κνωσῶι</placeName> ἐπὶ τοὺς
+                        <lb n="27"/><rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμους</w></rs>, ἐμ <placeName ref="#miletus">Μιλήτωι</placeName> δὲ ἐπὶ τοὺς πρυτάνεις· οἱ δὲ
+                        <lb n="28"/><rs type="institution" subtype="board" role="application_of_the_law" key="archon" ref="#knossos"><w lemma="ἄρχων">ἄρχοντες</w></rs> οἱ ἑκατέρωθ<unclear>ι</unclear> <w lemma="ἐπαναγκάζω"><unclear>ἐ</unclear>παναγκαζόντωσαν</w> ἀπο<lb 
+                        break="no" n="29"/>δοῦναι τὸ <w lemma="σῶμα">σῶμα</w> τῶι ἐφαψαμένωι κατὰ τὰς <rs type="institution" subtype="object" role="treaty-making" key="homologia" ref="#knossos"><w lemma="ὁμολογία">ὁμολογία<unclear>ς</unclear></w></rs>.
+                        <lb n="30"/>ἐὰν δέ τι <w lemma="ἀντιλέγω">ἀντιλέγωσιν</w> πε<unclear>ρὶ</unclear> <unclear>ὅ</unclear>τινός κα, <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">κρίνειν</w></rs> ἐγ <placeName ref="#knossos">Κνωσῶ<supplied reason="lost">ι</supplied></placeName>
+                        <lb n="31"/>μὲν <rs type="institution" subtype="official" role="judicial_procedure" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμον</w></rs> καὶ <rs type="institution" subtype="assembly" role="judicial_procedure" key="boule" ref="#knossos"><w lemma="βουλά">βουλάν</w></rs>, ἐμ <placeName ref="#miletus">Μιλήτωι</placeName> δὲ τοὺς τοῦ ἐμπορ<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="32"/>ου ἐπιμελητὰς πέντε ἁμέραις, ἀφ’ ἇς κα κατασταθῶ<lb 
+                        break="no" n="33"/>σιν ἐπὶ τὸ <rs type="institution" subtype="public_space" role="judicial_procedure" key="archeion" ref="#knossos"><w lemma="ἀρχεῖον">ἀρχεῖον</w></rs>. τῶν δὲ <w lemma="δικάζω">δικασθέντων</w> τὰς <w lemma="πρᾶξις">πράξεις</w> ε<supplied reason="lost">ἶ</supplied><lb 
+                        break="no" n="34"/>ναι ἐγ <placeName ref="#knossos">Κν<corr>ω</corr>σῶι</placeName> μὲν κατὰ τὸν <rs type="institution" subtype="object" role="law" key="nomos_proxenikos" ref="#knossos"><w lemma="νόμος προξενικός">νόμον τὸν προξενικόν</w></rs>, ἐμ <placeName ref="#miletus">Μι<lb 
+                        break="no" n="35"/>λήτωι</placeName> δὲ κατὰ τὸν νόμον τὸν ἐμπο<unclear>ρικ</unclear>όν. κατὰ τὰ αὐτὰ
+                        <lb n="36"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#tylisos"><placeName ref="#tylisos" type="ethnic">Τυλίσιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhaukos"><placeName ref="#rhaukos" type="ethnic">Ῥαύκιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#chersonesos"><placeName ref="#chersonesos" type="ethnic">Χερσονήσιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#milatos"><placeName ref="#milatos" type="ethnic">Μιλάτιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eltynia"><placeName ref="#eltynia" type="ethnic">Ἐλ<surplus>ευ</surplus>τυνιεῖς</placeName></rs>,
+                        <lb n="37"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#herakleion"><placeName ref="#herakleion" type="ethnic"><corr>Ἡ</corr>ρακλεῶται</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#priansos"><placeName ref="#priansos" type="ethnic">Πριάνσιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#apollonia"><placeName ref="#apollonia" type="ethnic">Ἀπολλωνιᾶται</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#petra"><placeName ref="#petra" type="ethnic">Πετραῖοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#itanos"><placeName ref="#itanos" type="ethnic">Ἰτάνιο<supplied reason="lost">ι</supplied></placeName></rs>,
+                        <lb n="38"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#praisos"><placeName ref="#praisos" type="ethnic">Πραίσιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#istron"><placeName ref="#istron" type="ethnic">Ἰστρώνιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλ<corr>ο</corr>ύντιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#dreros"><placeName ref="#dreros" type="ethnic">Δρήριοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic">Λάτιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθερναῖοι</placeName></rs>,
+                        <lb n="39"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#axos"><placeName ref="#axos" type="ethnic">Ἄξιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#kydonia"><placeName ref="#kydonia" type="ethnic">Κυδωνιᾶται</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phalasarna"><placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName></rs>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La convenzione fra Mileto e Knossos, iscritta sulla stessa stele degli accordi analoghi presi dalla prima con Phaistos e Gortyna (<ref type="ins" target="#ic1_23_1"><title>IC</title> I 23 1</ref> e <ref type="ins" target="#ic4_161"><title>IC</title> IV 161</ref>), è introdotta da un’intestazione che funge da titolo a tutti e tre i documenti, seguita immediatamente dalla titulatura del primo dei tre testi (Κνωσίων). Nonostante l’impiego dei termini συντεθέντα e ὁμολογία, il documento nella forma si presenta come un decreto emanato dal cosmo – o più probabilmente dal collegio dei cosmi – e dalla <foreign>polis</foreign> di Knossos, i quali compaiono nella formula di sanzione alla linea 2.</p>
+                    <p>Dalla narrazione alle linee 5-8 si apprende che una preesistente <foreign>homologia</foreign> era stata iscritta da Knossos e posta in un tempio di Apollo, poi andato distrutto in un incendio. Fra le motivazioni della stipulazione della presente <foreign>homologia</foreign> con Mileto, in particolare, viene addotto il fatto che tale azione farà sì che sottoscrivano gli stessi accordi anche οἱ λοιποὶ Κρηταιέων (ll. 16-18). Se quest’ultima espressione è da riferire ai membri del <foreign>koinon</foreign> cretese e non più in generale alle πόλεις τὰς ἐγ Κρήτηι dell’intestazione, ne conseguirebbe dunque l’appartenenza delle diciannove città elencate alle linee 35-39 quali contraenti dell’accordo alle stesse condizioni di Knossos sia al <foreign>koinon</foreign> che all’alleanza guidata da Knossos (attiva almeno dalla metà del III secolo a.C. fino al 184 a.C.; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 79</bibl>).</p>
+                    <p>L’oggetto degli accordi, enunciato alle linee 19-25, mira a contrastare la cattura di cittadini liberi e la loro successiva vendita come schiavi e prevede le modalità di restituzione degli individui indebitamente inseriti nel mercato. In caso di violazione del trattato viene accordata autorità d’intervento ai cosmi a Knossos, ai quali si riferisce il termine più generico ἄρχοντες – magistrati – impiegato nella linea successiva (ll. 25-29). Nell’eventualità che sorgano dispute, invece, la decisione a Knossos deve essere presa congiuntamente dal cosmo (o dal collegio dei cosmi) e dalla <foreign>boule</foreign> entro cinque giorni da quando i disputanti si recano presso la sede dei magistrati (ἀρχεῖον, ll. 30-35). A Knossos l’azione legale deve compiersi secondo quanto stabilito dalla legge relativa ai prosseni, affine probabilmente al <foreign>nomos emporikos</foreign> vigente a Mileto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#archeion"><foreign>archeion</foreign></ref>, <ref type="inst" target="#archon"><foreign>archon</foreign></ref>, <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#homologia"><foreign>homologia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos proxenikos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#bib108"><title>Milet</title></ref> I.III 140A</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 6* <ptr type="phi" target="199124"/></bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 482 I</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib29"><title>Miletos</title></ref> 18</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 13</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1340">Mikrogiannakis 1968</ref></bibl>;
+                    <bibl><ref target="#b208">Brulé 1978</ref>, pp. 6-12</bibl>; 
+                    <bibl><ref target="#b53">Austin 1981</ref>, n. 89</bibl>; 
+                    <bibl><ref target="#b680">Garlan 1984</ref>, n. 12</bibl>;
+                    <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 79a, pp. 33-35</bibl>; 
+                    <bibl><ref target="#bib112"><title>HGIU</title></ref> 332</bibl>; 
+                    <bibl><ref target="#b54">Austin 2006</ref>, n. 107</bibl>;
+                    <bibl><ref target="#b712">Giovannini 2007</ref>, C11</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

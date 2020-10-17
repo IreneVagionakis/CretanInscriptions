@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria da Hierapytna relativa al santuario di Apollo <foreign>Dekataphoros</foreign>, dei Dodici Dèi e di Atena <foreign>Polias</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 3 9</idno>
+                        <idno type="projectNo">493</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">157</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="divine" key="Apollo Dekataphoros">Ἀπόλ<unclear>λ</unclear>ω<unclear>ν</unclear>ι <unclear>Δε</unclear>καταφόρωι</persName> καὶ τοῖς
+                          <lb n="2"/><persName type="divine" key="Dodeka Theoi">Δώδε<unclear>κ</unclear>α θεοῖς</persName> καὶ <persName type="divine" key="Athena Polias">Ἀθαναίαι Πολ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="3"/>άδι</persName> <w lemma="ἐπιμελέομαι">ἐπεμελῆθεν</w> ἐκ <w lemma="θεμέλιος">θεμελίω</w> ἄ<lb 
+                        break="no" n="4"/>χρι ἐπὶ τὸν <w lemma="καταλοβεύς"><unclear>κ</unclear>αταλοβέ<unclear>α</unclear></w> τὸν ἐπὶ τῶ
+                          <lb n="5"/><w lemma="ὀρθόστατος">ὀρθοστάτ<supplied reason="lost">α</supplied></w> καὶ τὰ <w lemma="θύρωμα">θυρώματα</w> <rs type="institution" subtype="tribe" role="eponym" key="Dymanes" ref="#hierapytna"><supplied reason="lost">ἐ</supplied><lb 
+                        break="no" n="6"/>πὶ τῶν <w lemma="Δυμᾶνες">Δυμά<unclear>ν</unclear>ων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><w lemma="κοσμέω">κοσμόντω<supplied reason="lost">ν</supplied></w>
+                          <lb n="6a"/><space quantity="1" unit="line"/>
+                          <lb n="7"/><persName type="attested" key="Agesimachos f. Soteles"><name nymRef="Ἀγησίμαχος">Ἀγησιμάχω</name> τῶ <name nymRef="Σωτέλης" type="patronymic"><unclear>Σ</unclear>ωτέλεο<unclear>ς</unclear></name></persName></rs>,
+                          <lb n="8"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Sosis f. Melion"><name nymRef="Σῶσις">Σώσιος</name> τῶ <name nymRef="Μηλίων" type="patronymic">Μηλί<unclear>ω</unclear>νος</name></persName></rs>,
+                          <lb n="9"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Euphamos f. Askan-"><name nymRef="Εὔφαμος">Εὐφάμω</name> τῶ <name nymRef="Ἀσκαν-" type="patronymic">Ἀσκα<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>,
+                          <lb n="10"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Euphamos f. Teuphilos"><name nymRef="Εὔφαμος">Εὐφάμω</name> τῶ <name nymRef="Τεύφιλος" type="patronymic">Τευφίλ<supplied reason="lost">ω</supplied></name></persName></rs>,
+                          <lb n="11"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Pratophanes f. Eparchos"><name nymRef="Πρατοφάνης">Πρατοφ<unclear>ά</unclear>νεος</name> τῶ <name nymRef="Ἔπαρχος" type="patronymic">Ἐπ<supplied reason="lost">άρ</supplied>χω</name></persName></rs>,
+                          <lb n="12"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Thion f. Melion"><name nymRef="Θίων">Θίωνος</name> τῶ <name nymRef="Μήλιος" type="patronymic">Μηλίω<supplied reason="lost">ν</supplied>ος</name></persName></rs>,
+                          <lb n="13"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Thorax f. Kleobolos"><name nymRef="Θώραξ">Θώρακος</name> τῶ <name nymRef="Κλεόβωλος" type="patronymic">Κ<unclear>λ</unclear>εο<unclear>βώ</unclear>λω</name></persName></rs>,
+                          <lb n="14"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Thyon f. Polykrates"><name nymRef="Θύων">Θύωνος</name> τῶ <name nymRef="Πολυκράτης" type="patronymic">Πολυ<unclear>κ</unclear>ράτεος</name></persName></rs>,
+                          <lb n="15"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Xenophilos f. Himeraios"><name nymRef="Ξενόφιλος">Ξενοφίλω</name> τῶ <name nymRef="Ἱμεραῖος" type="patronymic">Ἱμε<unclear>ρα</unclear>ίω</name></persName></rs>,
+                          <lb n="16"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Boulos f. Portesilas"><name nymRef="Βοῦλος">Βούλω</name> τῶ <name nymRef="Πορτεσίλας" type="patronymic">Πορ<unclear>τ</unclear>εσίλα</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria commemora un intervento edilizio che interessa più parti del santuario di Apollo <foreign>Dekataphoros</foreign>, dei Dodici Dèi e di Atena <foreign>Polias</foreign> noto anche da un altro documento analogo di Hierapytna (<ref type="ins" target="#ic3_3_10"><title>IC</title> III 3 10</ref>). Il documento, datato all’anno in cui sono in carica i cosmi della tribù dei <foreign>Dymanes</foreign> (a Creta nota anche a Gortyna, Dreros, Olous e Lyttos), sembra essere frutto dell’iniziativa dei magistrati, dieci in tutto, i cui nomi sono elencati al genitivo alle linee 7-16.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, tribù (<ref type="inst" target="#dymanes"><foreign>Dymanes</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1411">Novosadsky 1886</ref>, pp. 181-184 n. 2</bibl>; 
+                            <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 617-620 n. 37</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5045</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 3 9 <ptr type="phi" target="200248"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1130">Long 1987</ref>, n. 30 B (ll. 1-6)</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

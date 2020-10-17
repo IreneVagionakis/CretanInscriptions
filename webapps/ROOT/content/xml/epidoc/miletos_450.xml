@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Mileto menzionante onori concessi dal <foreign>koinon</foreign> cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Miletos 450</idno>
+                        <idno type="projectNo">592</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#miletus">Mileto, presso il <foreign>bouleuterion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><space extent="unknown" unit="character"/> ὁ δῆμος ὁ <placeName ref="#miletus" type="ethnic">Μιλησίων</placeName>
+                          <lb n="2"/><space extent="unknown" unit="character"/> <persName type="honoured" key="Lichas f. Hermophantes" ref="#miletus"><name nymRef="Λίχας">Λίχαντα</name> <name nymRef="Ἑρμόφαντος" type="patronymic">Ἑρμοφάντου</name></persName>
+                          <lb n="3"/><space extent="unknown" unit="character"/> <w lemma="ἀρετή">ἀρετῆς</w> ἕνεκεν καὶ <w lemma="εὔνοια">εὐνοίας</w>
+                          <lb n="4"/><space extent="unknown" unit="character"/> τῆς εἰς αὑτόν
+                          <lb n="5"/><rs type="institution" subtype="assembly" role="dedicant" key="koinon_ton_KretaieonE" ref="#koinon_kretaieon"><placeName ref="#crete">Κρήτη</placeName></rs> μὲν <w lemma="στέφανος">στεφάνωι</w> σε, Λίχα, καὶ <persName type="divine" key="Theseus">Θησέος</persName> ἄστη
+                          <lb n="6"/>πάτρια νησαίη τ’ <w lemma="στεφανόω">ἔστεφε</w> δῖα <placeName ref="#rhodos">Ῥόδος</placeName>.
+                          <lb n="7"/>ξυνὰ δὲ <persName type="divine" key="Neleus">Νηλεΐδαισιν</persName> ὁμαίχμια πρῶτος Ἰώνων
+                          <lb n="8"/>ἔστησας <placeName ref="#crete" type="ethnic">Κρητῶν</placeName> <w lemma="φῦλον">φῦλα</w> ἀναλεξάμενος
+                          <lb n="9"/><placeName ref="#miletus">Μίλητος</placeName> δέ σε πατρίς, ἐπεὶ βουλῆι τε καὶ ἔργοις
+                          <lb n="10"/>ἔκρινεν πάσης ἡγεμόνα πτόλιος
+                          <lb n="11"/>πρεσβέα τ’ εἰς βασιλεῖας ἀθώπευτον καὶ ἀμεμφῆ,
+                          <lb n="12"/>ἔκτισε <persName type="divine" key="Boulaios">Βουλαίου</persName> τῶιδε παρὰ προπύλωι.
+                          <lb n="13"/>οὐ νέμεσις· πατέρες γὰρ ἀριστεύοντες Ἰώνων
+                          <lb n="14"/>ἔστειλαν Λυδῶν τὴν ὑπέραυχον ὕβριν,
+                          <lb n="15"/>ὧν οἱ μὲν μητρώιου ἀφ’ αἵματος, οἱ δὲ καὶ ἀνδρῶν
+                          <lb n="16"/>δέδμηνται πάσηι κόσμος Ἰαονίηι.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, che onora il comandante Lichas figlio di Hermophantes, ricorda il conferimento a costui di una corona da parte di Creta (l. 5, <foreign>i.e.</foreign> verosimilmente il <foreign>koinon</foreign> cretese). Fra le gesta commemorate dell’individuo, inoltre, viene incluso l’aver radunato Κρητῶν φῦλα (l. 8), espressione che sembra indicare le moltitudini di soldati cretesi reclutati da Lichas.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2009">Wiegand 1901</ref>, pp. 194-196</bibl>; 
+                            <bibl><ref target="#b2010">Wiegand 1901a</ref>, pp. 905-906</bibl>; 
+                            <bibl><ref target="#b879">Haussoullier 1902</ref>, pp. 140-142</bibl>; 
+                            <bibl><ref target="#bib108"><title>Milet</title></ref> I 2 12a</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib29"><title>Miletos</title></ref> 450 <ptr type="phi" target="252539"/></bibl>; 
+                            <bibl><ref target="#bib263">Merkelbach – Stauber, <title>SGO</title></ref> I 01/20/33</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

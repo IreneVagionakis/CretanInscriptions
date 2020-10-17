@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria da Malla</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 19 4</idno>
+                        <idno type="projectNo">480</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#malles_panagia">Chiesa di Panagia, Malles</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#malla">Malla</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><w lemma="καθίστημι"><supplied reason="lost">κα</supplied>τέστα<supplied reason="lost">σ</supplied>αν</w>, <space extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#malla"><w lemma="κοσμέω">ἐκόσμιον</w> οἵδε· <space extent="unknown" unit="character"/> <persName type="attested" key="Aploidas f. Kyd-"><name nymRef="Ἁπλοΐδας">Ἁπλ<supplied reason="lost">ο</supplied>ΐδας</name> <name nymRef="Κύδ-" type="patronymic">Κύδ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς</name></persName></rs>, <space extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#malla"><persName type="attested" key="Philodromos f. Diophantos"><name nymRef="Φιλόδρομος">Φιλόδρομος</name> <name nymRef="Διόφαντος" type="patronymic">Διοφάντω</name></persName></rs>, <space extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#malla"><persName type="attested" key="Somenes f. Phrasikartes"><name nymRef="Σωμένης">Σωμένης</name> <name nymRef="Φρασικάρτης" type="patronymic">Φρασι<lb 
+                        break="no" n="3"/><supplied reason="lost">κάρ</supplied>τιος</name></persName></rs>, <space extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#malla"><persName type="attested" key="Oreichares f. Kauos"><name nymRef="Ὀρειχάρης">Ὀρειχάρης</name> <name nymRef="Καῦος" type="patronymic">Καύω</name></persName></rs>, <space extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#malla"><persName type="attested" key="Parmenion f. Damatrios"><name nymRef="Παρμενίων">Παρμενίων</name> <name nymRef="Δαμάτριος" type="patronymic">Δαματ<supplied reason="lost">ρίω</supplied></name></persName></rs>
+                          <lb n="3a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, l’unica pervenuta da Malla, conserva la menzione di cinque dei cosmi in carica nella città, il primo dei quali è l’eponimo Aploidas figlio di Kyd-.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 19 4 <ptr type="phi" target="199521"/></bibl>;
+                            <bibl><ref target="#b357">Charalambakis 1977</ref>, n. 5</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

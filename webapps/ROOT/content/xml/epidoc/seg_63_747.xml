@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Hierapytna e Aptera</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 63.747</idno>
+                        <idno type="projectNo">483</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#ierapetra_collection">Collezione archeologica di Ierapetra</repository> 
+                                <idno type="invNo">1321</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0225" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2018-06-16" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w> <unclear>κ</unclear><supplied reason="lost">α</supplied><unclear>ὶ</unclear> ἐπὶ <w lemma="σωτηρία"><unclear>σ</unclear><supplied reason="lost">ωτηρίαι</supplied></w><supplied reason="lost">. ἐπὶ τοῖσδε <w lemma="συντίθημι">συνέθεντο</w></supplied> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic"><supplied reason="lost">Ἱε</supplied><lb 
+                              break="no" n="2"/>ραπύτνιοι</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera"><placeName ref="#aptera" type="ethnic"><supplied reason="lost">Ἀπ</supplied>ταρ<unclear>α</unclear><supplied reason="lost">ῖοι</supplied></placeName></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><supplied reason="lost"><w lemma="κοσμέω">κοσμιόντων</w> ἐν μὲν</supplied> <placeName ref="#hierapytna"><supplied reason="lost">Ἱεραπύ</supplied><lb 
+                              break="no" n="3"/>τναι</placeName> τῶν σὺν <persName type="attested" key="Elaiinas f. -" cert="low"><name nymRef="Ελαιινας">Ελα<unclear>ιινα</unclear></name><gap reason="lost" atLeast="8" atMost="9" unit="character" precision="low"/></persName></rs> <w lemma="μείς"><supplied reason="lost">μ</supplied><unclear>η</unclear>νὸ<unclear>ς</unclear></w> <rs type="institution" subtype="month" role="calendar" key="E" ref="#hierapytna"><w lemma="Ε-">Ε<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="4"/>ἐν <placeName ref="#aptera">Ἀπτάραι</placeName> δὲ <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#aptera">τῶν σὺ<corr>ν</corr> <persName type="attested" key="Timochos f. Stibon"><name nymRef="Τιμῶχος">Τιμώχω</name> τῶ <name nymRef="Στίβων" type="patronymic">Στί<unclear>β</unclear>ωνος</name></persName></rs> <w lemma="μείς"><supplied reason="lost">μη</supplied><unclear>ν</unclear>ὸ<unclear>ς</unclear></w> <rs type="institution" subtype="month" role="calendar" key="aios" ref="#aptera"><w lemma="-αιος"><gap reason="lost" quantity="2" unit="character"/>αι<lb 
+                              break="no" n="5"/>ω</w></rs> <w lemma="συνμαχέω">συνμαχησῆν</w> <unclear>ἀλλά</unclear>λοις τὸν ἅπαντα χρ<unclear>ό</unclear>νον <unclear>κ</unclear><supplied reason="lost">αὶ τ</supplied><unclear>ὸ</unclear>ν αὐ<lb 
+                              break="no" n="6"/>τὸν <w lemma="φίλος"><unclear>φί</unclear>λον</w> καὶ ἐχθρὸν ἑξεν. καὶ εἴ τις κα ἐνβάλλ<unclear>η</unclear>ι ἐς
+                          <lb n="7"/><supplied reason="lost">τὰν τῶν</supplied> <placeName ref="#hierapytna" type="ethnic"><supplied reason="lost">Ἱε</supplied><unclear>ρα</unclear>πυτνίων</placeName> χώραν ἢ ἀποτά<unclear>μν</unclear>ηται τᾶς χώρας
+                          <lb n="8"/><supplied reason="lost">ἢ <w lemma="λιμήν">λιμένας</w> ἢ</supplied> <w lemma="νᾶσος"><supplied reason="lost">νάσο</supplied><unclear>ς</unclear></w> <unclear>ἢ</unclear> <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#hierapytna"><w lemma="φρώριον"><unclear>φρ</unclear>ώρια</w></rs> καταλαμβάνηται ἢ <rs type="institution" subtype="social_status" role="defense" key="mnoia" ref="#hierapytna"><w lemma="μνωία">μνωία<unclear>ν</unclear></w></rs>
+                          <lb n="9"/><supplied reason="lost">φθείρηι ἢ <w lemma="πολεμέω">πολεμῆι</w>,</supplied> <w lemma="βοαθέω"><supplied reason="lost">βοαθη</supplied>σε͂ν</w> τὸς <placeName ref="#aptera" type="ethnic">Ἀπταραίος</placeName> ἀδόλως καὶ κατὰ
+                          <lb n="10"/><supplied reason="lost">γᾶν καὶ κατὰ θάλασσαν</supplied> <unclear>καθ</unclear>ός κα <w lemma="παρακαλέω">παρακαλῶντι</w> <placeName ref="#hierapytna" type="ethnic">Ἱεραπύ<unclear>τ</unclear><lb 
+                              break="no" n="11"/><supplied reason="lost">τνιοι</supplied></placeName><supplied reason="lost">. ὠσαύτως δὲ καὶ εἴ τις κα</supplied> <unclear>ἐν</unclear>βάλληι ἐς τὰν τῶν <placeName ref="#aptera" type="ethnic">Ἀπ<lb 
+                              break="no" n="12"/><supplied reason="lost">ταραίων</supplied></placeName> <supplied reason="lost">χώραν ἢ ἀποτάμνηται τᾶς</supplied> χ<unclear>ώ</unclear>ρας ἢ <w lemma="λιμήν">λιμένας</w> ἢ
+                          <lb n="13"/><supplied reason="lost">ἢ <w lemma="νᾶσος">νάσος</w> ἢ <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#aptera"><w lemma="φρώριον">φρώρια</w></rs> καταλαμβάνηται ἢ</supplied> <rs type="institution" subtype="social_status" role="defense" key="mnoia" ref="#aptera"><w lemma="μνωία"><supplied reason="lost">μνω</supplied>ίαν</w></rs> φθείρηι ἢ <w lemma="πολεμέω">π<lb 
+                              break="no" n="14"/><supplied reason="lost">ολεμῆι</supplied></w><supplied reason="lost">, <w lemma="βοαθέω">βοαθησε͂ν</w> τὸς <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίος</placeName> ἀδόλως καὶ κατὰ γᾶν</supplied>
+                          <lb n="15"/><supplied reason="lost">καὶ κατὰ θάλασσαν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento restituisce la parte superiore di un trattato di alleanza fra Hierapytna e Aptera. Il documento, che si apre con una doppia formula benaugurale, conserva alle linee 2-5 una formula di datazione nella quale vengono ricordati i magistrati eponimi delle due <foreign>poleis</foreign>, verosimilmente i cosmi (sebbene nel caso di Aptera non sia da escludere la possibilità che siano piuttosto i <foreign>damiorgoi</foreign>, così come sembra avvenire nel trattato coevo <ref type="ins" target="#seg_41_731"><title>SEG</title> 41.731</ref>). Ciascuno dei nomi dei due magistrati, Elaiinas (?) di Hierapytna e Timochos figlio di Stibon di Aptera, è seguito dalla menzione del mese corrente, cominciante in <foreign>E</foreign>- a Hierapytna (<foreign>Eleusinios</foreign>? <foreign>Elchanios</foreign>?) e terminante in -<foreign>aios</foreign> ad Aptera (<foreign>Heraios</foreign>?).</p>
+                    <p>Le clausole conservate alle linee 5-15 conservano la promessa di aiuto militare reciproco e prevedono, in particolare, l’invio di soccorsi nel caso di attacco al territorio, ai porti, alle isole (?), ai forti o all’insieme degli schiavi pubblici (<foreign>mnoia</foreign>) della città alleata. Quest’ultimo termine, in particolare, noto da più fonti letterarie nelle varianti <foreign>mnoia</foreign> e <foreign>mnoitai</foreign> (<foreign>skolion</foreign> di Hybrias in <ref type="lit" target="#Hybrias">Ath. XV 50</ref>, <ref type="lit" target="#Sosicr4">Sosicr.Hist. <title>FGrHist</title> 461 F 4</ref>, <ref type="lit" target="#AthVI">Ath. VI 93</ref>, <ref type="lit" target="#Poll">Poll. III 83</ref>, <ref type="lit" target="#StraboXII">Strabo XII 3.4</ref>, <ref type="lit" target="#HschMnoitai">Hsch. <foreign>s.v.</foreign> μνωῖται</ref> e <ref type="lit" target="#HschMnoia">μνοία</ref>, <ref type="lit" target="#StByzChios">St.Byz. <foreign>s.v.</foreign> Χίος</ref>), trova la sua prima attestazione epigrafica nella presente iscrizione (ll. 8 e 13; cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 233-235</bibl> e <bibl><ref target="#b40">Apostolakou 2012</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, mese (<ref type="inst" target="#e"><foreign>E-</foreign></ref>, <ref type="inst" target="#aios"><foreign>-aios</foreign></ref>), <ref type="inst" target="#mnoia"><foreign>mnoia</foreign></ref>, <ref type="inst" target="#phrourion"><foreign>phrourion</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b40">Apostolakou 2012</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 63.747</bibl>);
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 38</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizioni edificatorie di Lyttos (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 50.937</idno>
+                        <idno type="projectNo">405</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#symi_viannou_sanctuary">Santuario di Hermes e Afrodite, Symi Viannou</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">due iscrizioni edificatorie</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#biannos">Santuario di Hermes e Afrodite, Symi Viannou</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">200-150 a.C. (A), 150-100 a.C. (B)</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="builder" key="kosmos" ref="#lyttos" cert="low">οἱ σὺν <persName type="attested" key="Libyrnos"><name nymRef="Λίβυρνος">Λιβύρν<supplied reason="lost">ῳ</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><w lemma="ἀνασάττω">ἀνέσαξα<supplied reason="lost">ν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>·
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Lasynthioi" ref="#lyttos">ἐπὶ <w lemma="Λασύνθιοι">Λασυνθίων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lyttos"><supplied reason="lost">τῶν σὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/><lb 
+                              break="no" n="2"/>ίται <w lemma="κόσμος">κόσμων</w></rs>, Π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><w lemma="ἀνασάττω">ἀνέσαξε</w> <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                        </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="B1-2"><note><gap reason="lost" extent="unknown" unit="character"/>ίται κόσμων, Π<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; <supplied reason="lost">κοσμόντων</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ἑρμᾶι Κεδρ</supplied>ίται κοσμῶν π<supplied reason="lost" cert="low">άλιν</supplied> <supplied reason="lost">τὸν ναόν</supplied> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> in apparato.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Le iscrizioni conservate sulla stele sono relative a due differenti interventi di ristrutturazione del santuario di Hermes <foreign>Kedrites</foreign> e Afrodite di Symi Viannou, promossi da una delle città confinanti con il luogo di culto. La menzione nel testo B della tribù dei <foreign>Lasynthioi</foreign>, nota solamente a Lyttos (cf. <ref type="ins" target="#ic1_18_13"><title>IC</title> I 18 13</ref>), rende molto verosimile che sia questa la <foreign>polis</foreign> a cui ricondurre le iscrizioni.</p>
+                    <p>Nel documento A i promotori dell’intervento sembrano essere i membri di un collegio – forse quello dei cosmi – di cui è rappresentante Libyrnos. Nel documento B, invece, il responsabile del restauro è un singolo individuo che doveva essere indicato alla linea 2, la cui menzione è preceduta da una formula di datazione nella quale è ricordato il cosmo eponimo della tribù dei <foreign>Lasynthioi</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, tribù (<ref type="inst" target="#lasynthioi"><foreign>Lasynthioi</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1029">Kritzas 2000</ref>, pp. 88-97</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 50.937 <ptr type="seg" target="a50_937"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b332">Chaniotis 2006</ref>, pp. 200-202</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

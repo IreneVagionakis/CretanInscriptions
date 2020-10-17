@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Axos, Gortyna e Phaistos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.563</idno>
+                        <idno type="projectNo">131</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0240" notAfter="-0221" precision="low">240-221 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#phaistos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#axos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#gortyn"><w lemma="συνθήκα"><unclear>σ</unclear>υν<unclear>θ</unclear><supplied reason="lost">ήκ</supplied>α</w></rs></rs></rs> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#axos"><placeName ref="#axos" type="ethnic"><supplied reason="lost">Ἀξί</supplied>οις</placeName></rs> <supplied reason="lost">καὶ τοῖς</supplied> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γ</supplied>ο<supplied reason="lost">ρτυ</supplied><unclear>ν</unclear>ίοις</placeName></rs> τᾶ<unclear>ι</unclear>
+                          <lb n="2"/><unclear>ἄ</unclear>νω <rs type="institution" subtype="public_space" role="location" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">τᾶι <unclear>κ</unclear>άτω</placeName></rs>· <w lemma="συμμαχέω">συ<supplied reason="lost">μ</supplied>μαχήσουσι</w>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#axos"><placeName ref="#axos" type="ethnic"><unclear>Ἄ</unclear>ξιοι</placeName></rs> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτ<unclear>υν</unclear>ίοις</placeName></rs> τᾶ<unclear>ι</unclear> ἄνω <rs type="institution" subtype="public_space" role="location" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">τᾶ<supplied reason="lost">ι</supplied>
+                          <lb n="4"/><supplied reason="lost">κ</supplied>άτω</placeName></rs> καὶ <w lemma="βοαθέω">βοα<supplied reason="lost">θή</supplied><unclear>σ</unclear>ουσι</w>, <unclear>αἰ</unclear> <supplied reason="lost">δὲ</supplied> ἀπαντᾶι, οἱ <placeName ref="#gortyn" type="ethnic">Γορ<lb 
+                        break="no" n="5"/><supplied reason="lost">τ</supplied>ύνιοι</placeName> καθ<unclear>άπ</unclear><supplied reason="lost">ερ</supplied> <w lemma="παρακαλέω"><unclear>π</unclear>αρακ<supplied reason="lost">αλ</supplied>οῦσιν</w>, <w lemma="ἀνήρ">κἄνδρας</w>
+                          <lb n="6"/><w lemma="ἀποστέλλω">ἀποστελιοῦ<supplied reason="lost">σι</supplied></w> <supplied reason="lost">κ</supplied>α<unclear>θ</unclear><supplied reason="lost">άπερ</supplied> ἐπιβάλλει αὐτοῖς·
+                          <lb n="7"/>κατὰ ταὐτ<supplied reason="lost">ὰ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#axos"><placeName ref="#axos" type="ethnic">Ἀξίοις</placeName></rs> οἱ</supplied> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γο<supplied reason="lost">ρ</supplied>τύνιοι</placeName></rs>· αἴ τί κα δέ<lb 
+                        break="no" n="8"/><unclear>ω</unclear>νται οἱ <placeName ref="#gortyn" type="ethnic">Γ<unclear>ο</unclear><supplied reason="lost">ρτύ</supplied>νιο<supplied reason="lost">ι</supplied></placeName><supplied reason="lost">, καὶ τὸν αὐτ</supplied><unclear>ὸ</unclear>ν ἐχθρὸν καὶ
+                          <lb n="9"/><w lemma="φίλος"><supplied reason="lost">φ</supplied>ίλο<supplied reason="lost">ν</supplied></w> ἐξοῦσ<supplied reason="lost">ι</supplied>ν <orig>απλ</orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ε</unclear>ττην</orig> ἀπ<unclear>ο</unclear>δωσί<lb 
+                        break="no" n="10"/>ο<unclear>ν</unclear>τι <placeName ref="#gortyn" type="ethnic">Γορτυ<unclear>ν</unclear>ίο<supplied reason="lost">ις</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>ος, ἐπεί κα κύριο<supplied reason="lost">ι</supplied>
+                          <lb n="11"/><supplied reason="lost">ἐμ</supplied>μένωνται <supplied reason="lost">ἐν τοῖς συγκειμέν</supplied>οις <w lemma="ὅρκος">ὅρκοις</w> καὶ
+                          <lb n="12"/><supplied reason="lost">τ</supplied>ᾶι <w lemma="συμμαχία">συμμα<supplied reason="lost">χίαι</supplied></w> <supplied reason="lost">ἀδόλως καὶ ἀπλόω</supplied>ς· αἰ δέ τινας
+                          <lb n="13"/><orig>λο</orig><gap reason="illegible" quantity="1" unit="character"/><orig>δοκ<unclear>ιοι</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>γα</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>πους τινὰς καὶ
+                          <lb n="14"/>αγηιτο<gap reason="illegible" quantity="2" unit="character"/><orig>δι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/>ον ποτ’ <placeName ref="#axos">Ἄξον</placeName>·
+                          <lb n="15"/><supplied reason="lost">ποιεῖν δὲ τἄλλα κατὰ τὰς</supplied> <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#phaistos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#axos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#gortyn"><w lemma="συνθήκα"><supplied reason="lost">συν</supplied>θ<supplied reason="lost">ήκα</supplied>ς</w></rs></rs></rs> τῶν <w lemma="σύμμαχος">συμμά<lb 
+                        break="no" n="16"/><supplied reason="lost">χων</supplied></w><supplied reason="lost">. <w lemma="ὅρκος">ὅρκος</w>·</supplied> <w lemma="βοηθέω"><supplied reason="lost">β</supplied>οηθήσω</w> <supplied reason="lost"><placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName>, ἐάν τις ἴηι</supplied> ἐπὶ τὰγ χώ<lb 
+                        break="no" n="17"/><supplied reason="lost">ραν, καὶ</supplied> <w lemma="εὐνοέω"><supplied reason="lost">εὐ</supplied>νοήσω</w> <supplied reason="lost">αὐτοῖς, μὴ προδωσ</supplied>έω, μὴ πεισῶ
+                          <lb n="18"/>ἄλ<supplied reason="lost">λ</supplied>ωι προδιδῶ<supplied reason="lost" cert="low">ναι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰν αὐτῶν</supplied> <rs type="institution" subtype="public_space" role="defense" key="polis" ref="#gortyn"><w lemma="πόλις"><supplied reason="lost">πόλι</supplied>ν</w></rs> ἢ χώρα<unclear>ν</unclear>,
+                          <lb n="19"/><gap reason="illegible" quantity="6" unit="character"/><orig>λρασδι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/><orig>οχ</orig><gap reason="lost" extent="unknown" unit="character"/> οἱ <placeName ref="#gortyn" type="ethnic">Γορ<lb 
+                        break="no" n="20"/><supplied reason="lost">τύνιοι</supplied></placeName> δεδοσ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀληθῆ τ</supplied>αῦτα
+                          <lb n="21"/>ν<supplied reason="lost">αὶ</supplied> <persName type="divine" key="Zeus Agoraios"><supplied reason="lost">Δῆν</supplied><unclear>α</unclear> <rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#axos" cert="low"><w lemma="Ἀγοραῖος">Ἀ<supplied reason="lost">γοραῖον</supplied></w></rs></persName> <gap reason="lost" extent="unknown" unit="character"/> <persName type="divine" key="Nymphai"><supplied reason="lost" cert="low">Νύ</supplied><unclear>μ</unclear>φανς</persName> <gap reason="lost" extent="unknown" unit="character"/>ον κέλη<lb 
+                        break="no" n="22"/><supplied reason="lost" cert="low">ται</supplied> <gap reason="lost" extent="unknown" unit="character"/>αι· οἱ δὲ <supplied reason="lost"><rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσμοι</w></rs></supplied> οἱ <supplied reason="lost">τ</supplied>όκα <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#axos"><w lemma="κοσμέω">κοσμίο<lb 
+                        break="no" n="23"/><supplied reason="lost">ντες</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/><orig>ω</orig><gap reason="lost" extent="unknown" unit="character"/><orig>η</orig><gap reason="lost" extent="unknown" unit="character"/><orig>υο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="24"/><gap reason="lost" extent="unknown" unit="character"/><orig>οσπ</orig><gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="25"/><w lemma="ἔγγροφος"><supplied reason="lost">ἔ</supplied>νγροφον</w> <gap reason="lost" extent="unknown" unit="character"/><orig>κο</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ευ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="26"/>οἱ <placeName ref="#gortyn" type="ethnic">Γορτύν<supplied reason="lost">ιοι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="27"/><gap reason="illegible" quantity="2" unit="character"/>νεμωνται <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/><orig>μ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento è preceduto da un’intestazione nel quale è specificato il suo contenuto: si tratta di un trattato stipulato da una parte da Axos, dall’altra da Gortyna e Phaistos, indicate mediante l’espressione «<foreign>Gortynioi</foreign> della città superiore e di quella inferiore». Il termine <foreign>polis</foreign> vi è dunque impiegato in senso spaziale, così come avviene poco sotto, nel quale Axos giura di non persuadere altri a tradire la città o il territorio dell’alleata.</p>
+                    <p>Il giuramento, piuttosto mal conservato, sembra restituire inoltre la menzione di Zeus <foreign>Agoraios</foreign> alla linea 21, possibile indizio dell’esistenza di un’<foreign>agora</foreign> ad Axos (dove il culto di Zeus è attestato con l’epiclesi di <foreign>Agoraios</foreign> anche in <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref>; a Phaistos e Gortyna invece l’<foreign>agora</foreign> è attestata in modo diretto da <ref type="ins" target="#seg_32_908"><title>SEG</title> 32.908</ref> nella prima e da più iscrizioni nella seconda, <foreign>e.g.</foreign> <ref type="ins" target="#ic4_43"><title>IC</title> IV 43</ref>; cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>).</p>
+                    <p>La sezione finale, anch’essa molto frammentaria, alle linee 22-23 stabilisce che i cosmi in carica debbano occuparsi di qualche azione, non determinabile a causa della perdita del testo seguente; il contesto, tuttavia, porterebbe ad ipotizzare che a costoro sia richiesto di far prestare il giuramento ai cittadini e/o ai giovani all’uscita dall’<foreign>agela</foreign>, come avviene in altri trattati cretesi ellenistici (<foreign>e.g.</foreign> <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>) (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1185">Manganaro 1966</ref>, pp. 18-22</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 23.563 <ptr type="phi" target="201761"/> <ptr type="seg" target="a23_563"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 510 (ll. 1-4)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 39</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 13</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 71b</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

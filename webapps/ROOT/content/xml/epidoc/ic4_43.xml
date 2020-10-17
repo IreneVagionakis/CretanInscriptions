@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Leggi di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 43</idno>
+                        <idno type="projectNo">255</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">quattro leggi</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, ‘Muro settentrionale’ dell’<foreign>agora</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                    <div type="textpart" subtype="part" n="a">
+                        <ab>
+                          <lb n="1"/><unclear>α</unclear>ἴ κ’ ἄλος ἀδ<lb 
+                        break="no" n="2"/>ίκος ἐνεκ<supplied reason="lost">υρ</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">άκ</supplied>σανς μὴ κ<lb 
+                        break="no" n="4"/>αρπόσε<unclear>τ</unclear><supplied reason="lost">αι, τ</supplied><lb 
+                        break="no" n="5"/>ὰς <w lemma="τιμά">τιμὰνς</w> το͂<lb 
+                        break="no" n="6"/>ν ἐνεκύρον κ<lb 
+                        break="no" n="7"/>αταστασεῖ ἆι
+                          <lb n="8"/>ϝεκάστο <w lemma="ἐγράφω">ἔγρ<lb 
+                        break="no" n="9"/>ατται</w>.
+                          <lb n="10"/>ϝε<supplied reason="lost">κ</supplied>ασ<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="b">
+                        <ab>
+                          <lb n="1"/>α<supplied reason="lost">ἴ</supplied> κα <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλος">δο͂λον</w></rs> ἢ
+                            <lb n="2"/><rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλα">δόλαν</w></rs> <w lemma="ἄδικος">ἀδίκος</w>
+                            <lb n="3"/>ἐνεκυράκσει
+                          <lb n="4"/>ἢ ἐδύσει ἢ ἀπ<supplied reason="lost">ολ</supplied><lb 
+                        break="no" n="5"/>ύσεται, ἐκς ἠμ<lb 
+                        break="no" n="6"/>ίνας καταστα<lb 
+                        break="no" n="7"/>σεῖ ἒ ἆι το͂ι <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλ<lb 
+                        break="no" n="8"/>ευθέροι</w></rs> <w lemma="ἐγράφω">ἔγρα<lb 
+                        break="no" n="9"/>τται</w>, τὰ δὲ τρί<lb 
+                        break="no" n="10"/>τρα τᾶ<supplied reason="lost">ς</supplied> ϝήμα<lb 
+                        break="no" n="11"/>ς καὶ τᾶς ἀνπιδή<lb 
+                        break="no" n="12"/>μας ἆιπερ <supplied reason="lost">τ</supplied>ο͂ι <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐ<supplied reason="lost">λευθέροι</supplied></w></rs>.
+                         </ab>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="column" n="B">
+                    <div type="textpart" subtype="part" n="a">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>· τὰν ἐ<supplied reason="lost">ν</supplied> Κησκόραι καὶ
+                          <lb n="2"/>τὰν ἐμ Πάλαι πυταλιὰν <w lemma="δίδωμι">ἔ<surplus>ε</surplus><lb 
+                        break="no" n="3"/>δοκαν</w> ἀ <rs type="institution" subtype="assembly" role="concession" key="polis" ref="#gortyn"><w lemma="πόλις">πόλις</w></rs> πυτεῦσαι. α<lb 
+                        break="no" n="4"/>ἴ τις ταύταν <w lemma="πρίαμαι">πρίαιτο</w> ἢ κα<lb 
+                        break="no" n="5"/>ταθε<supplied reason="lost">ῖ</supplied>το, μὴ κατέκεθαι το͂<lb 
+                        break="no" n="6"/>ι <w lemma="πρίαμαι">πριαμένοι</w> τὰ<supplied reason="lost">ν</supplied> <w lemma="ὀνά"><supplied reason="lost">ὀ</supplied>νὰν</w> <unclear>μη</unclear>δ<lb 
+                        break="no" n="7"/>ὲ <supplied reason="lost">τὰ</supplied>ν κα<supplied reason="lost">τά</supplied>θεσιν· μηδ’ ἐνεκ<lb 
+                        break="no" n="8"/>υράδδεν αἰ μὴ ἐπι<supplied reason="lost">μ</supplied>ετρ<supplied reason="lost">ῆι</supplied> τὰ<lb 
+                        break="no" n="9"/>ν <w lemma="ἐπικαρπία">ἐπικαρπίαν</w>. <space extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><orig>το</orig><gap reason="lost" quantity="1" unit="character"/>.
+                          <lb n="11"/><orig>τοσκρηιοσ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="b">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>· το͂ ποταμο͂ αἴ κα κατὰ τὸ
+                          <lb n="2"/>μέττον τὰν ῤοὰν θιθῆι ῤῆν <supplied reason="lost">κ</supplied><lb 
+                        break="no" n="3"/>ατὰ τὸ ϝὸν αὐτο͂, θιθεμένοι ἄ<lb 
+                        break="no" n="4"/>πατον ἤμην. τὰν δὲ ῤοὰν λεί<unclear>π</unclear><lb 
+                        break="no" n="5"/>εν ὄττον κατέκει ἀ ἐπ’ <rs type="institution" subtype="public_space" role="landmark" key="agora" ref="#gortyn"><w lemma="ἀγορά">ἀγορᾶ<lb 
+                        break="no" n="6"/>ι</w></rs> δέπυρα ἢ πλίον, μεῖον δὲ μή.
+                          </ab>
+                    </div>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il blocco conserva nella loro interezza quattro leggi, relative rispettivamente all’uso di aie impiegate come garanzia (Aa), al maltrattamento di schiavi impiegati come garanzia (Ab), alla gestione di terreni pubblici (Ba) e all’uso dell’acqua fluviale (Bb); le linee Aa 10 e Ba 10-11 sembrano appartenere ad un testo differente iscritto precedentemente sul blocco.</p>
+                    <p>La legge Ab, analogamente a quanto avviene in <ref type="ins" target="#ic4_41"><title>IC</title> IV 41</ref>, mostra un trattamento giuridico particolare per gli schiavi e le schiave impiegati come oggetto di una garanzia: nell’eventualità di un loro maltrattamento, infatti, il colpevole è tenuto a pagare una multa dello stesso valore che se il torto fosse stato fatto ai danni di un individuo libero, al quale i <foreign>douloi</foreign> sono dunque equiparati ai fini dell’ammenda.</p>
+                    <p>La legge Ba, invece, documenta una cessione di terreni pubblici situati nelle località di Keskora e Pala da parte della <foreign>polis</foreign> di Gortyna affinché siano coltivati (cf. le assegnazioni di terreni pubblici di Kydonia <ref type="ins" target="#ic2_10_1"><title>IC</title> II 10 1</ref>); nel testo, tuttavia, non è specificato a chi siano stati assegnate le terre in questione.</p>
+                    <p>La legge Bb, infine, nel regolamentare la possibilità di utilizzo da parte dei privati dell’acqua del fiume che scorre a Gortyna per irrigare i propri terreni, offre una significativa testimonianza di impiego del termine <foreign>agora</foreign> in senso spaziale: il documento afferma infatti che parte dell’acqua può essere deviata ai fini dell’irrigazione, a patto che la portata del fiume non si riduca ad un livello inferiore rispetto a quello che ha all’altezza del ponte nei pressi dell’<foreign>agora</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref>, <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b379">Comparetti 1888b</ref>, pp. 635-644</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 293-306 n. 154</bibl>;
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> 19D</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5000</bibl>; 
+                            <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, pp. 38-39 n. 8</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 1183 (Bb)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 43 <ptr type="phi" target="200479"/></bibl>;
+                            <bibl><ref target="#b270">Cataudella 1976</ref> (Ba)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, nn. 131 (A), 132 (Ba), 133 (Bb)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 47 (Ba), II 70</bibl>; 
+                            <bibl><ref target="#b465">Davies 1996</ref>, pp. 50-53</bibl>; 
+                            <bibl><ref target="#b1198">Marginesu 2005</ref>, n. 7 (B)</bibl>; 
+                            <bibl><ref target="#b662">Gagarin 2008</ref>, pp. 258-259 n. 6</bibl>; 
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, p. 263 (Ba)</bibl>;
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 271 (Ab, Ba)</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G43</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 22</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1000">Koerner 1987</ref></bibl>; 
+                            <bibl><ref target="#b1505">Perlman 1996</ref></bibl>; 
+                            <bibl><ref target="#b49">Arnaoutoglou 1998</ref>, n. 54</bibl>;
+                            <bibl><ref target="#b1509">Perlman 2002</ref></bibl>; 
+                            <bibl><ref target="#b151">Bile 2003</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

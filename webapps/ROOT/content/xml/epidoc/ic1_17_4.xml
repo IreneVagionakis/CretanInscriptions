@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di un ex <foreign>hiarorgos</foreign> di Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 4</idno>
+                        <idno type="projectNo">224</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">69</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#epistyle">architrave</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Ainai" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied> <w lemma="Αἰναί">Αἰνάων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κο<supplied reason="lost">ρ</supplied>μ<supplied reason="lost">ιόντων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                            </div>
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied></rs> <w lemma="Αἰθαλεῖς"><supplied reason="lost" cert="low">Αἰθαλ</supplied>έων</w> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντων</w></rs> <rs type="institution" subtype="official" role="builder" key="hiarorgos" ref="#lebena"><persName type="attested" key="- f. Kartaidamas"><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <name nymRef="Καρταιδάμας" type="patronymic"><supplied reason="lost">Καρ</supplied><unclear>τ</unclear>αιδάμα</name></persName> <w lemma="ἱαροργέω">ἱαροργήσαν</w></rs> <w lemma="ἐπιμελέομαι"><supplied reason="lost">ἐπε</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">μελήθη</supplied></w> <w lemma="τοῖχος"><unclear>τ</unclear>ῶ τ<supplied reason="lost">οί</supplied><unclear>χω</unclear></w> καὶ τᾶς <rs type="institution" subtype="public_space" role="dedication" key="stoa" ref="#lebena"><w lemma="στῳά">στω<supplied reason="lost">ιᾶς</supplied></w></rs>.
+                          </ab>
+                            </div>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="A1"><note>Αἰνάων <bibl><ref target="#b1186">Manganaro</ref></bibl>; <gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear>νάων <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                            <app loc="B1"><note><supplied reason="lost" cert="low">Αἰθαλ</supplied>έων <bibl><ref target="#b1318">Melfi</ref></bibl>; <gap reason="lost" extent="unknown" unit="character"/>έων <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria è composta da due testi: il primo (A), di cui si conserva solamente parte della datazione, sembra essere pertinente alla costruzione nel santuario di Asclepio di Lebena degli elementi architettonici menzionati nel secondo (B), il quale pare invece relativo al restauro della <foreign>stoa</foreign> e del muro precedentemente realizzati.</p>
+                    <p>Entrambi i testi conservano una datazione eponimica, menzionante nel primo caso i cosmi della tribù degli <foreign>Ainai</foreign> (o <foreign>Ainaones</foreign>?), nel secondo quelli della tribù degli <foreign>Aithaleis</foreign> (?), magistrati che probabilmente provengono da Gortyna (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 101-103</bibl>; altri cosmi eponimi a Lebena occorrono in <ref type="ins" target="#ic1_17_2"><title>IC</title> I 17 2</ref>, <ref type="ins" target="#ic1_17_5">5</ref>-<ref type="ins" target="#ic1_17_6">6</ref>, <ref type="ins" target="#ic1_17_8">8</ref>, <ref type="ins" target="#ic1_17_38">38</ref>).</p>
+                    <p>Nell’iscrizione B, inoltre, si è conservata anche la menzione del curatore del restauro, in questo caso un ex <foreign>hiarorgos</foreign> del santuario (diversamente da <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref>, <ref type="ins" target="#ic1_17_5"><title>IC</title> I 17 5</ref>, <ref type="ins" target="#ic1_17_21">21</ref>, <ref type="ins" target="#ic1_17_38">38</ref> e probabilmente <ref type="ins" target="#ic1_17_8">8</ref>, in cui in tale ruolo compaiono gli ex <foreign>naokoroi</foreign>; cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 104-109</bibl>). Gli <foreign>hiarorgoi</foreign>, noti a Creta anche a Gortyna e Phaistos, a Lebena occorrono inoltre in una legge sacra (?) e in un decreto, <ref type="ins" target="#ic1_17_3"><title>IC</title> I 17 3</ref> e <ref type="ins" target="#ic1_17_4">4</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#stoa"><foreign>stoa</foreign></ref>, tribù (<ref type="inst" target="#ainai"><foreign>Ainai</foreign></ref>, <ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 4 <ptr type="phi" target="199267"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 4</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1186">Manganaro 1974-1978</ref>, p. 56 (A)</bibl>; 
+                            <bibl><ref target="#b1744">Spyridakis 1977-1978</ref>, pp. 51-61</bibl>; 
+                            <bibl><ref target="#b136">Bile 1991</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

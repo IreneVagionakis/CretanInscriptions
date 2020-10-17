@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Malla (rinnovo)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 19 2*</idno>
+                        <idno type="projectNo">479</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#malla" type="ethnic"><corr>Μ</corr>αλλαίων</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#malla"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#malla" type="ethnic"><corr>Μ</corr>αλλαίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τ<supplied reason="lost">ᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#malla"><w lemma="πόλις">πόλει</w></rs>. ἐπειδὴ <placeName ref="#teos" type="ethnic">Τήιοι</placeName> <w lemma="φίλος">φίλοι</w></supplied>
+                          <lb n="3"/>καὶ <w lemma="συγγενής">συγγενεῖς</w> ὑπάρχοντες διὰ <w lemma="πρόγονος"><supplied reason="lost">πρ</supplied>ογ<supplied reason="lost">όνων</supplied></w> <supplied reason="lost">ψάφισμα καὶ πρεγ</supplied><lb 
+                        break="no" n="4"/>γευτὰς <w lemma="ἀποστέλλω">ἀπέσταλκαν</w> Ἡρόδοτον Μην<supplied reason="lost">οδότω, Μενεκλῆν Διονυσίω</supplied>,
+                          <lb n="5"/>οἳ καὶ ἐπελθόντες ἐπὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#malla"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs> <supplied reason="lost">τό τε ψάφισμα ἀπέδωκαν</supplied>
+                          <lb n="6"/>καὶ αὐτοὶ διελέγην ἀκολούθως τοῖς ἐν <supplied reason="lost">τῶι ψαφίσματι κατακε</supplied><lb 
+                        break="no" n="7"/>χωρισμένοις, ὑπέρ τε τοῦ εἶναι ἱερὰν κα<supplied reason="lost">ὶ <w lemma="ἄσυλος">ἄσυλον</w> τὴν χώραν αὐτῶν, ὃ</supplied>
+                          <lb n="8"/>συνέστησαν διά τε τῶν χρησμῶ<supplied reason="lost">ν τῶ <persName type="divine" key="Apollo">Ἀπόλλωνος</persName> τῶ ἐν</supplied>
+                          <lb n="9"/><placeName ref="#delphi">Δελφοῖς</placeName> καὶ ἐν <placeName ref="#didyma">Διδύμοις</placeName>, ὑπὲρ τε τ<supplied reason="lost">ῶν ἄλλων τῶν συμφερόντων ἀμφοτέ</supplied><lb 
+                        break="no" n="10"/>ραις ταῖς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#malla"><w lemma="πόλις">πόλεσιν</w></rs> διελέγησαν μετὰ <supplied reason="lost">πάσας <w lemma="σπουδά">σπουδᾶς</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίας</w></supplied>.
+                          <lb n="11"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#malla"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#malla" type="ethnic"><corr>Μ</corr>αλλαίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#malla"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#malla"><w lemma="πόλις">πόλει</w></rs> <w lemma="ἀποκρίνω">ἀ<supplied reason="lost">ποκρίνασθαι</supplied></w>
+                          <lb n="12"/><placeName ref="#teos" type="ethnic">Τηίοις</placeName> διότι καὶ ἐν τοῖς πρότερον χρόνοις δεδωκό<supplied reason="lost">των τῶν</supplied> <w lemma="πρόγονος"><supplied reason="lost">προ</supplied><lb 
+                        break="no" n="13"/>γόνων</w> ἡμῶν τὴν <w lemma="ἀσυλία">ἀσυλίαν</w> καὶ καθιέρωσιν εἰς <w lemma="στήλη">στή<supplied reason="lost">λην</supplied></w> <w lemma="γράφω"><supplied reason="lost">γράψαντες</supplied></w>
+                          <lb n="14"/><w lemma="ἀνατίθημι">ἀναθήσομεν</w> ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#malla"><w lemma="ἱερόν">ἱερὸν</w> τῶ <persName type="divine" key="Zeus Monnitios">Ζηνὸς τῶ Μοννιτίω</persName></rs>, δ<supplied reason="lost">ίδομεν δὲ αὐτοῖς</supplied>
+                          <lb n="15"/>καὶ <w lemma="ἀτέλεια">ἀτέλειαν</w> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#malla"><w lemma="ἰσοπολιτεία">ἰσοπολιτείαν</w></rs>. καὶ ἐάν τινες <w lemma="ἀδικέω">ἀδικ<supplied reason="lost">ῶσι</supplied></w> <supplied reason="lost"><placeName ref="#teos" type="ethnic">Τηίους</placeName> ἢ τὴν</supplied>
+                          <lb n="16"/>χώραν παραιρῶνται τὴν καθιερωμένην, <w lemma="βοαθέω"><supplied reason="lost">βοα</supplied>θήσ<supplied reason="lost">ει</supplied></w> <supplied reason="lost">ἁ <rs type="institution" subtype="assembly" role="war" key="polis" ref="#malla"><w lemma="πόλις">πόλις</w></rs> ἁ</supplied>
+                          <lb n="17"/><placeName ref="#malla" type="ethnic"><corr>Μ</corr>αλλαίων</placeName> ὡς καὶ ὑπὲρ τῆς ἰδίας <w lemma="πατρίς">πατρίδος</w>· ἔν <supplied reason="lost">τε τοῖς λοιποῖς πει</supplied><lb 
+                        break="no" n="18"/>ρασόμεθα αἰεί τινος ἀγαθοῦ παραίτιοι ε<supplied reason="lost">ἶναι. <w lemma="ἐπαινέω">ἐπαινοῦμεν</w> δὲ καὶ</supplied>
+                          <lb n="19"/>τοὺς πρεσβευ<supplied reason="lost">τὰς ἐπὶ</supplied> τῶι τη<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19a"/><gap reason="lost" quantity="5" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), si apre con l’intestazione ⟨Μ⟩αλλαίων, aggiunta da Teos al momento della redazione su pietra dell’iscrizione.</p>
+                    <p>La formula di sanzione, alla linea 2 e ancora alla linea 11, mostra i cosmi e verosimilmente la <foreign>polis</foreign> di Malla in qualità di responsabili della deliberazione, come avviene anche nel decreto <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> A della città.</p>
+                    <p>La sezione relativa alle motivazioni del decreto, alle linee 2-10, ricorda l’invio da parte di Teos degli ambasciatori Herodotos e Menekles presso l’<foreign>ekklesia</foreign> di Malla, attestata esclusivamente nel presente documento, al cui cospetto hanno esposto quanto trattato dal decreto affidato loro dalla propria città, affrontando questioni di interesse per entrambe le <foreign>poleis</foreign>.</p>
+                    <p>L’oggetto della decisione di Malla, alle linee 11-19, accorda a Teos il rinnovo della precedente concessione di <foreign>asylia</foreign>, alla quale vengono aggiunte anche l’<foreign>ateleia</foreign> e l’<foreign>isopoliteia</foreign>, e stabilisce l’iscrizione del primo decreto e di quello presente nel santuario di Zeus <foreign>Monnitios</foreign> di Malla (noto anche da <ref type="ins" target="#ic1_19_1"><title>IC</title> I 19 1</ref>); le ultime linee del documento, inoltre, prevedono il conferimento di onori agli ambasciatori teii.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> 78</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5184</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 19 2* <ptr type="phi" target="199519"/></bibl>;
+                            <bibl><ref target="#b357">Charalambakis 1977</ref>, n. 2</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 22</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 157</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1482">Parke – Wormell 1956</ref>, n. 348</bibl>; 
+                            <bibl><ref target="#b621">Fontenrose 1988</ref>, n. 11</bibl>; 
+                            <bibl><ref target="#b1630">Rodríguez Somolinos 1991</ref>, n. OD 13</bibl>; 
+                            <bibl><ref target="#b421">Crowther 1994</ref></bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 43m</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

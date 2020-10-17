@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Olous e Lyttos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 41.770</idno>
+                        <idno type="projectNo">425</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli</repository> 
+                                <idno type="invNo">907-908</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0145" notAfter="-0121">145-121 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀγαθᾶι <w lemma="τύχα">τύχαι</w>· ἐν μὲν τᾶι</supplied> <placeName ref="#lyttos"><supplied reason="lost">ἄνω Λύτ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">τωι</supplied></placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lyttos"><supplied reason="lost">ἐπὶ τῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ων <w lemma="κοσμέω">κοσμιόντων</w> τῶν</supplied>
+                          <lb n="3"/><supplied reason="lost">σὺν</supplied> <persName type="attested" key="-das f. Zo-"><name nymRef="-δας"><gap reason="lost" extent="unknown" unit="character"/><unclear>δ</unclear>αι</name> τῶ <name nymRef="Ζω-" type="patronymic"><unclear>Ζω</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs><supplied reason="lost">, ἐν δὲ</supplied>
+                          <lb n="4"/>τᾶι <placeName ref="#chersonesos">ἐπὶ θαλάσσαι Λύ<unclear>τ</unclear><supplied reason="lost">τωι</supplied></placeName> <rs type="institution" subtype="tribe" role="eponym" key="Diphyloi" ref="#chersonesos"><supplied reason="lost">ἐπὶ τῶν</supplied>
+                          <lb n="5"/><w lemma="Δίφυλοι">Διφύλων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#chersonesos">τῶν σὺν <persName type="attested" key="Ch- f. Hyperphanes"><name nymRef="Χ-">Χ<gap reason="lost" extent="unknown" unit="character"/></name> <supplied reason="lost">τῶ</supplied> <name nymRef="Ὑπερφάνης" type="patronymic"><supplied reason="lost">Ὑ</supplied><lb 
+                        break="no" n="6"/>περφάνεος</name></persName></rs>, <space quantity="1" unit="character"/> ἐν <unclear>δ</unclear><supplied reason="lost">ὲ <placeName ref="#olous">Βολόεντι</placeName></supplied> <rs type="institution" subtype="tribe" role="eponym" key="Dymanes" ref="#olous"><supplied reason="lost">ἐπὶ</supplied>
+                          <lb n="7"/>τῶν <w lemma="Δυμᾶνες">Δυμάνων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#olous"><w lemma="κοσμέω">κοσ<supplied reason="lost">μιόντων</supplied></w> <supplied reason="lost">τῶν</supplied>
+                          <lb n="8"/>σὺν <persName type="attested" key="Apollodoros f. -"><name nymRef="Ἀπολλόδωρος">Ἀ<unclear>πολ</unclear><supplied reason="lost" cert="low">λοδώρωι</supplied></name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <orig><unclear>δ</unclear>ημ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἰ δέ κά τις τῶν</supplied> ἐναντ<supplied reason="lost">ίων</supplied>
+                          <lb n="3"/><supplied reason="lost">ἐπὶ τὰν <rs type="institution" subtype="public_space" role="defense" key="polis" ref="#unknown"><w lemma="πόλις">πόλιν</w></rs> τῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἢ τ</supplied>ὰν χώρ<supplied reason="lost">αν</supplied>
+                          <lb n="4"/><w lemma="στρατεύω"><supplied reason="lost">στρατεύηται</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἢ ἐ</supplied>π’ <rs type="institution" subtype="public_space" role="defense" key="oureion" ref="#unknown"><w lemma="οὐρήιον">οὐρήι<supplied reason="lost">α</supplied></w></rs>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>ενοιοισο</orig>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατὰ δ</supplied>ύναμιν
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> μὲν τὸς
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig>αμι</orig>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato fra Olous e Lyttos, anteriore di almeno un decennio rispetto a quello stretto fra le due città nel 111/110 a.C. (<ref type="ins" target="#seg_61_722"><title>SEG</title> 61.722</ref>, <ref type="ins" target="#seg_33_638"><title>SEG</title> 33.638</ref>, <ref type="ins" target="#ic1_18_9"><title>IC</title> I 18 9</ref>), è pervenuto in una forma altamente frammentaria. Del documento, infatti, si conservano solamente la datazione (A) e parte della sezione relativa alla promessa di aiuto militare (B). La datazione, piuttosto mal conservata, sembra ricordare nell’ordine i nomi dei cosmi eponimi di Lyttos, Chersonesos – unita alla prima da un rapporto di <foreign>sympoliteia</foreign> e denominata «Lyttos sul mare» (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 73</bibl>) – e Olous. L’unico magistrato di cui si è conservato almeno in parte il nome è quello di Olous, Apollodoros (?) della tribù dei <foreign>Dymanes</foreign> (a Creta attestata anche a Gortyna, Dreros, Hierapytna e Lyttos); di quello di Chersonesos, della tribù dei <foreign>Diphyloi</foreign> (a Creta nota anche a Lyttos; cf. <ref type="ins" target="#ic1_18_9"><title>IC</title> I 18 9</ref>), è pervenuto invece solamente il patronimico Hyperphanes.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#oureion"><foreign>oureion</foreign></ref>, <ref type="inst" target="#polis1"><foreign>polis</foreign></ref> (?), tribù (<ref type="inst" target="#diphyloi"><foreign>Diphyloi</foreign></ref>, <ref type="inst" target="#dymanes"><foreign>Dymanes</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib459">Bougrat – Van Effenterre 1969</ref>, pp. 32-33 nota 36</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 41.770 <ptr type="phi" target="202135"/> <ptr type="seg" target="a41_770"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 42 (A)</bibl>;
+                            <bibl><ref target="#b297">Chaniotis 1991</ref>, pp. 252-258 n. 3</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 53 <ptr type="phi" target="201317"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 73b</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

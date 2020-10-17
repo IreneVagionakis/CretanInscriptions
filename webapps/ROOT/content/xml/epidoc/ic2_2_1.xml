@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaffio di due patroni di Anopolis</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 2 1</idno>
+                        <idno type="projectNo">057</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#chania_museum">Museo archeologico di Chania</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> frontonata decorata da un bassorilievo raffigurante due adulti e due fanciulli <dimensions><width/><depth/><height/></dimensions></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#anopolis">Anopolis</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>Εὐκλῆς Καλλιππόλεος, Καλλίπολις Εὐ<lb 
+                        break="no" n="2"/>κλέους. Ὀνήσιμος τοὺς <rs type="institution" subtype="social_status" role="dedicatee_deceased" key="patron" ref="#anopolis"><w lemma="πάτρων">πάτρωνας</w></rs> <w lemma="μνήμη">μνήμης</w>
+                    <lb n="3"/>χά<lb 
+                        break="no" n="4"/>ριν.
+                    <lb n="5"/><w lemma="χαίρω">χαί<lb 
+                        break="no" n="6"/>ρε<lb 
+                            break="no" n="7"/><supplied reason="lost">τε</supplied></w>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’epitaffio è stato posto da Onesimos – forse un liberto? – per i propri patroni Eukles e Kallipolis, verosimilmente padre e figlio. L’attestazione del patronato, che a Creta oltre a questa conta quattro altre occorrenze, potrebbe essere riconducibile all’introduzione nell’isola di modelli sociali di origine romana nel corso del I secolo a.C., periodo al quale risalgono tutte e cinque le iscrizioni (<ref type="ins" target="#ic3_3_11"><title>IC</title> III 3 11</ref>, <ref type="ins" target="#ic3_4_17"><title>IC</title> III 4 17</ref>, <ref type="ins" target="#ic4_293"><title>IC</title> IV 293</ref>, <ref type="ins" target="#seg_57_847"><title>SEG</title> 57.847</ref>, alle quali si aggiungono le due dediche onorarie del II secolo d.C. <ref type="ins"><title>IC</title> I 18 55</ref> e <ref type="ins">58</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#patron"><foreign>patron</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 519-520, n. 63</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 2 1 <ptr type="phi" target="199702"/></bibl>; 
+                    <bibl><ref target="#b6">Alexiou 1963</ref>, p. 315, tav. 364γ</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

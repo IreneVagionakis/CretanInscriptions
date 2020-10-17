@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna menzionante l’<foreign>agora</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 81</idno>
+                        <idno type="projectNo">270</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>δενδρέον καὶ ϝοικίας ὀ<gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="2" unit="character"/>τι το͂ν ὀμόρον ἐννέα οἰ
+                          <lb n="3"/>ἐπάνκιστα πεπαμένοι, <unclear>ν</unclear><gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="4"/><gap reason="lost" quantity="2" unit="character"/><supplied reason="lost">· κ</supplied>αλε͂ν δ’ ἀντὶ <w lemma="μαῖτυς">μαιτύρο<lb 
+                        break="no" n="5"/>ν</w> δυο͂ν πρότριτον τὸν ἀ<unclear>π</unclear><gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="6"/><gap reason="lost" quantity="3" unit="character"/><unclear>σ</unclear>αντα μετρ<unclear>ε</unclear>σιόμενο<lb 
+                        break="no" n="7"/>ν· αἰ δέ κα μὲ εἴει καλίον<supplied reason="lost">τι ἆι</supplied>
+                          <lb n="8"/><w lemma="ἐγράφω"><supplied reason="lost">ἔγρ</supplied>αται</w>, αὐτὸς μετρέθο τε
+                          <lb n="9"/>καὶ προπονέτο προτέταρ<supplied reason="lost">τον</supplied>
+                          <lb n="10"/><supplied reason="lost">ἀν</supplied>τὶ <w lemma="μαῖτυς">μαιτύρον</w> δυο͂ν παρέμε<lb 
+                        break="no" n="11"/>ν ἐνσς <rs type="institution" subtype="public_space" role="judicial_procedure" key="agora" ref="#gortyn"><w lemma="ἀγορά">ἀγοράν</w></rs>. <w lemma="ὀμνύω">ὀμνύμε<supplied reason="lost">ν</supplied></w> <supplied reason="lost">δ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">ὲ </supplied> <unclear>μ</unclear>ὰν τούτο μέν ἐστι ἀβλο<lb 
+                        break="no" n="13"/>πίαι <w lemma="δίκαιος">δικαίος</w> πρὶν μολέθ<supplied reason="lost">θαι</supplied>
+                          <lb n="14"/><supplied reason="lost">τὰν</supplied> <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκαν</w></rs>,  δ’ ἐνεκύρακσαν
+                          <lb n="15"/>μὲ ἔμεν· <w lemma="νικάω">νικε͂ν</w> δ’ ὄτερά κ’ οἰ <unclear>π</unclear><supplied reason="lost">λί</supplied><lb 
+                        break="no" n="16"/><supplied reason="lost">ες</supplied> <w lemma="ὀμνύω"><supplied reason="lost">ὀ</supplied>μόσοντι</w>. <space extent="unknown" unit="character"/> κ’ αἴ κ’ ἐς στέγα<lb 
+                        break="no" n="17"/>ς ἐνεκυράκσοντι, πονίον<supplied reason="lost">τι μ</supplied><lb 
+                        break="no" n="18"/><supplied reason="lost">ὲ</supplied> <w lemma="ἐνϝοικέω"><supplied reason="lost">’νϝ</supplied>οικε͂ν</w>  ἐνεκύρακσαν <w lemma="συνεκσομνύω">συν<lb 
+                        break="no" n="19"/>εκσομόσαθθαι</w> το͂ν ὀμό<supplied reason="lost">ρον</supplied>
+                          <lb n="20"/><supplied reason="lost">το͂</supplied><unclear>ν</unclear> ἐννέα τρίινς, οἶς κα προ<lb 
+                        break="no" n="21"/>ϝείπει, μὲ <w lemma="ἐνϝοικέω">ἐνϝοικε͂ν</w>  ἐνεκ<unclear>ύ</unclear><supplied reason="lost">ρα</supplied><lb 
+                        break="no" n="22"/><supplied reason="lost">κσ</supplied>α<supplied reason="lost">ν· <space extent="unknown" unit="character"/></supplied> <unclear>αἰ</unclear> δέ τίς κα το͂ν ὀμόρ<lb 
+                        break="no" n="23"/>ον. <space extent="unknown" unit="character"/>
+                         </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, che si occupa di terreni ed abitazioni ipotecate, documenta l’<foreign>agora</foreign> come luogo in cui si svolgono i processi, fatto che è testimoniato anche da altre iscrizioni di Gortyna (cf. <ref type="ins" target="#ic4_13"><title>IC</title> IV 13</ref> e <ref type="ins" target="#ic4_75">75</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref>, <ref type="inst" target="#dika"><foreign>dika</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 211-216 n. 24</bibl>; 
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> II pp. 325-327</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4986</bibl>; 
+                            <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, pp. 36-37 n. 6a</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 81 <ptr type="phi" target="200518"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 155</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 47</bibl>; 
+                            <bibl><ref target="#b465">Davies 1996</ref>, pp. 48-49</bibl>; 
+                            <bibl><ref target="#b662">Gagarin 2008</ref>, pp. 260-261 n. 9</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G81</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b49">Arnaoutoglou 1998</ref>, n. 81</bibl>; 
+                            <bibl><ref target="#b1471">Papakonstantinou 2008</ref>, pp. 114-116, 119</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

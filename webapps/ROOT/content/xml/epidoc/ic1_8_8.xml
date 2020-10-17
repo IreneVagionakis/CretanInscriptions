@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 8*</idno>
+                        <idno type="projectNo">169</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><supplied reason="lost"><placeName ref="#knossos" type="ethnic">Κνωσίων</placeName></supplied>.
+                          <lb n="0a"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><supplied reason="lost">τάν τε πόλιν καὶ τὰν χώραν ἦμεν ἱε</supplied>ρὰν καὶ <w lemma="ἄσυλος">ἄσυλον</w>
+                          <lb n="2"/><supplied reason="lost">δίδομεν καὶ τὰ λοιπὰ τὰ ὑπάρχοντα ὑ</supplied>μῖν ἔνδοξα καὶ
+                          <lb n="3"/><supplied reason="lost"><w lemma="τίμια">τίμια</w> συνδιαφυλαξίομεν ἀπροφασίστω</supplied>ς ἐφ’ ὅσον κ’ ἴωμεν
+                          <lb n="4"/><supplied reason="lost">δυνατοί. καὶ εἴ τινές κα τῶν ὁρμιομένω</supplied>ν <placeName ref="#knossos">Κνωσόθεν</placeName> κεῖ<lb 
+                        break="no" n="5"/><supplied reason="lost">σε <w lemma="ἀδικέω">ἀδικήσωντί</w> τινα <placeName ref="#teos" type="ethnic">Τηίων</placeName> ἢ τῶν πα</supplied>ροίκων ἢ κοινᾶι
+                          <lb n="6"/><supplied reason="lost">ἢ ἰδίαι παρὰ τὸ <w lemma="γράφω">γραφὲν</w> <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#knossos"><w lemma="δόγμα">δόγμα</w></rs> περὶ τᾶς</supplied> <w lemma="ἀσυλία"><supplied reason="lost">ἀ</supplied>συλίας</w> ὑπὸ τᾶς
+                          <lb n="7"/><supplied reason="lost"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλεος</w></rs> τῶν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName>, ἐξέστω τῶι π</supplied>αραγενομένωι
+                          <lb n="8"/><supplied reason="lost"><placeName ref="#teos" type="ethnic">Τηίων</placeName> ἢ τῶν παροικιόντων ἐπιλαβ</supplied>έσθαι καὶ τῶν <w lemma="σῶμα">σω<lb 
+                        break="no" n="9"/><supplied reason="lost">μάτων</supplied></w> <supplied reason="lost">καὶ τῶν <w lemma="χρήματα">χρημάτων</w>, αἴ τίς κα ἄγηι· οἱ δὲ</supplied> <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμοι</w></rs> οἱ τόκ’ ἀεὶ
+                          <lb n="10"/><supplied reason="lost"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#knossos"><w lemma="κοσμέω">κοσμίοντες</w></rs> τοῖς <w lemma="ἀδικέω">ἀδικημένοις</w> ταῦτα ἀ</supplied>ποδιδόντες
+                          <lb n="11"/><supplied reason="lost">κύριοι ἔστων ἀζάμιοι ἰόντες καὶ</supplied> ἀνυπόδικοι. <w lemma="ἀγγράφω">ἀγγρά<lb 
+                        break="no" n="12"/><supplied reason="lost">ψαι</supplied></w> <supplied reason="lost">δὲ καὶ τὸ <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#knossos"><w lemma="δόγμα">δόγμα</w></rs> ἐς τὸ</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#knossos"><w lemma="ἱερόν"><supplied reason="lost">ἱερὸν</supplied></w> <supplied reason="lost">τῶ</supplied> <persName type="divine" key="Apollo Delphidios">Ἀπέλλωνος τῶ<surplus>ι</surplus> Δελ<lb 
+                        break="no" n="13"/><supplied reason="lost">φιδίω</supplied></persName></rs> <supplied reason="lost">τὸν <rs type="institution" subtype="official" role="inscriber" key="grammateus" ref="#knossos"><w lemma="γραμματεύς">γραμματέα</w></rs> τᾶς</supplied> <rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#knossos"><w lemma="πόλις"><supplied reason="lost">πόλ</supplied>εως</w></rs>. δοθῆμεν δὲ καὶ <w lemma="ξένια">ξέ<lb 
+                        break="no" n="14"/><supplied reason="lost">νια</supplied></w> <supplied reason="lost">τοῖς πρειγευταῖς τὰ ἐκ τ</supplied>ῶ <rs type="institution" subtype="object" role="law" key="nomos" ref="#knossos"><w lemma="νόμος">νόμω</w></rs>. ἦμεν δὲ καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#knossos"><w lemma="πρόξενος">προ<lb 
+                        break="no" n="15"/><supplied reason="lost">ξένος</supplied></w></rs> <supplied reason="lost">τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλεως</w></rs></supplied> <persName type="honoured" key="Apollodotos f. Astyanax" ref="#teos"><name nymRef="Ἀπολλόδοτος"><supplied reason="lost">Ἀπολλό</supplied>δοτον</name> <name nymRef="Ἀστυάναξ" type="patronymic">Ἀστυάνακτος</name></persName> καὶ <persName type="honoured" key="Kolotas f. Hekatonymos" ref="#teos"><name nymRef="Κωλώτας">Κω<lb 
+                        break="no" n="16"/><supplied reason="lost">λώταν</supplied></name> <name nymRef="Ἐκατώνυμος" type="patronymic"><supplied reason="lost">Ἑκατωνύμω</supplied></name></persName> <supplied reason="lost">καὶ</supplied> αὐτὸς καὶ <w lemma="ἔγγονος">ἐγγόνος</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), si è conservato solamente nella sua sezione finale, che peraltro è mutila della parte sinistra. Sulla base di altri documenti della serie è tuttavia possibile integrare con un buon margine di certezza parte del testo perduto, contenente l’oggetto del decreto.</p>
+                    <p>All’iniziale concessione di <foreign>asylia</foreign> (ll. 1-4) seguono alcune clausole relative alle misure da adottare in caso di violazione di quanto stabilito, che prevedono in tale frangente che i cosmi in carica abbiano l’autorità di intervenire affinché venga restituito quanto sequestrato illegittimamente (ll. 4-11). Sebbene le formule di sanzione e mozione non siano pervenute, la probabile definizione del presente <foreign>dogma</foreign> come «scritto dalla <foreign>polis</foreign> di Knossos» (ll. 6-7; cf. <ref type="ins" target="#ic2_26_1"><title>IC</title> II 26 1</ref>, ll. 21-22), sembra ricondurre a questa la sua emanazione.</p>
+                    <p>La formula di esposizione alle linee 11-13 prevede la collocazione del decreto nel santuario di Apollo <foreign>Delphidios</foreign> a Knossos, operazione che deve essere coordinata verosimilmente dal segretario della città (cf. <ref type="ins" target="#ic1_5_52"><title>IC</title> I 5 52</ref>, ll. 42-44).</p>
+                    <p>La sezione conclusiva del decreto, infine, prevede il conferimento della prossenia agli ambasciatori inviati da Teos assieme alla propria discendenza, oltre che la concessione a costoro di doni ospitali «secondo quanto stabilito dalla legge» (ll. 13-16).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref> (?), <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref> (?), <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b731">Bailie 1846</ref>, n. 154</bibl>;
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 61</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5165</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 8* <ptr type="phi" target="199126"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 11*5</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 136</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1476">Papazoglou 1997</ref>, P 5b</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di una decima dall’Antro Ideo</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 52.862</idno>
+                        <idno type="projectNo">149</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">X73</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#cauldron">calderone</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>retrograda</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#idaeum_antrum"><foreign>Idaeum Antrum</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0550" notAfter="-0500">550-500 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Παῖστος <g type="|"/> <w lemma="ἀνατίθημι">ἀνέθηκε</w> <g type="|"/> Συβρίτας <g type="|"/> τ<unclear>ὰ</unclear>ν <w lemma="δεκάτα"><supplied reason="lost">δ</supplied>ε<supplied reason="lost">κ</supplied>ά<unclear>τα</unclear>ν</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, offerta da un individuo la cui onomastica sia personale che materna è derivata da poleonimi cretesi (cf. <bibl><ref target="#b341">Chaniotis 2010</ref></bibl>), consiste in una decima, concretizzata nel calderone stesso su cui è inciso il testo e senza dubbio consacrata a Zeus <foreign>Idatas</foreign>. L’origine della decima, non specificata, è verosimile che sia da individuare in un bottino di guerra – come nel caso delle parti di armatura iscritte rinvenute ad Afrati (<ref type="ins"><title>SEG</title> 52.829-842</ref>, <ref type="ins"><title>Armorers</title>, p. 8, n. C4</ref>) –, sebbene resti aperta l’ipotesi che possa derivare da altri tipi di introiti.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <foreign>dekata</foreign>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 52.862 <ptr type="seg" target="a52_862"/></bibl>; 
+                            <bibl><ref target="#b341">Chaniotis 2010</ref>, pp. 15-21</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 6</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b247">Capdeville 1994</ref>, pp. 220-222</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

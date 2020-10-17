@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lettera di Axos alla Lega Etolica</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 19*</idno>
+                        <idno type="projectNo">136</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#letter">lettera</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delphi">Delfi, presso il portico degli Ateniesi</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0170">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#axos" type="ethnic">Ϝαξίων</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#axos"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#aetolia" type="ethnic">Αἰτωλῶ<supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">συνέδροις</supplied> καὶ τῶι στρα<lb 
+                        break="no" n="2"/>ταγῶι καὶ τῶι ἱππάρχαι <w lemma="χαίρω">χαίρειν</w>. γινώ<supplied reason="lost">σκε</supplied>τε Ἐράτωνα <rs type="institution" subtype="social_status" role="belonging" key="polites" ref="#axos"><w lemma="πολίτας">πολί<lb 
+                        break="no" n="3"/>ταν</w></rs> ἁμὸν ἰόντα, <w lemma="ἐκπλέω">ἐκπλεύσαντα</w> δὲ ἐπὶ <w lemma="στρατεία">στ<supplied reason="lost">ρ</supplied>ατ<supplied reason="lost">ε</supplied>ίαν</w> εἰς <placeName ref="#cyprus">Κύπρον</placeName>
+                          <lb n="4"/>καὶ λαβόντα γυναῖκα τεκνοποιήσασθαι υ<supplied reason="lost">ἱ</supplied>οὺς δύο, Ἐπικλῆν
+                          <lb n="5"/>καὶ Εὐαγόραν. συνέβα δὲ ἀποθανόντος τῶ Ἐράτωνος ἐν τᾶι
+                          <lb n="6"/><placeName ref="#cyprus">Κύπρωι</placeName> αἰχμαλώτως γενέσθαι τὸνς πε<supplied reason="lost">ρ</supplied>ὶ τὸν Ἐπικλῆν καὶ
+                          <lb n="7"/>τὰμ ματέρα αὐτῶν καὶ πραθῆμεν τὸν Ἐπικλῆν εἰς <placeName ref="#amphissa">Ἄμφισσαν</placeName>·
+                          <lb n="8"/>καταβαλὼν δὲ τὰ <w lemma="λύτρον">λύτρα</w> ὁ Ἐπικλῆς <w lemma="οἰκέω">οἰκε<supplied reason="lost">ῖ</supplied></w> <supplied reason="lost">π</supplied>αρ’ ὑμὲ ἐν <placeName ref="#amphissa">Ἀμφίσσαι</placeName>,
+                          <lb n="9"/><rs type="institution" subtype="social_status" role="belonging" key="polites" ref="#axos"><w lemma="πολίτας">πολίτας</w></rs> ἰὼν ἁμὸς αὐτός τε κα<supplied reason="lost">ὶ τ</supplied>ὰ τέκ<supplied reason="lost">να αὐ</supplied>τῶ Ἐρασ<supplied reason="lost">ιφῶ</supplied>ν <supplied reason="lost">καὶ</supplied>
+                          <lb n="10"/>Τιμῶναξ καὶ θυγάτηρ Μελίτα. <supplied reason="lost">καλῶς ὦν π</supplied>οιη<corr>σ</corr>εῖτε φροντίδ<lb 
+                        break="no" n="11"/>δοντες ὁπᾶι εἴ τίς κα <w lemma="ἀδικέω">ἀδικῇ</w> α<supplied reason="lost">ὐτώς, κω</supplied>λύηται ὑφ’ ὑμίων <supplied reason="lost">καὶ κοι</supplied><lb 
+                        break="no" n="12"/>νᾶι καὶ ἰδίαι, ἁ δὲ <w lemma="κοινοπολιτεία">κοινοπολι<supplied reason="lost">τείας</supplied></w> ἀιδία ὑπάρχῃ ἀν<supplied reason="lost">αγραφά</supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Nel documento la <foreign>polis</foreign> e i cosmi di Axos si presentano in qualità di rappresentanti della città, comparendo come mittenti dell’epistola inviata agli Etoli. La lettera concerne quattro cittadini di Axos residenti ad Anfissa, Epikles ed i propri figli Erasiphon, Timonax e Melita: per costoro Axos chiede la concessione da parte della Lega Etolica della relativa <foreign>koinopoliteia</foreign>, forse sulla base del vigente accordo di <foreign>isopoliteia</foreign> fra questa e la città cretese (<ref type="ins" target="#ic2_5_18"><title>IC</title> II 5 18</ref>). La richiesta presentata nella missiva viene accolta, come informa la risposta inviata a loro volta dagli Etoli ad Axos (<ref type="ins" target="#seg_18_248"><title>SEG</title> 18.248</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b875">Haussoullier 1882</ref>, pp. 460-466, n. 92</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5151</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 622 B</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 189</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> IX, 1<hi rend="superscript">2</hi> 1 178</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 19* <ptr type="phi" target="199780"/></bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 67</bibl>; 
+                            <bibl><ref target="#b930">Jacquemin <foreign>et al.</foreign> 2012</ref>, n. 120</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b803">Guarducci 1987</ref>, pp. 107-108</bibl>; 
+                            <bibl><ref target="#b324">Chaniotis 2004a</ref>, pp. 497-498 n. 6</bibl>; 
+                            <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>; 
+                            <bibl><ref target="#b333">Chaniotis 2006a</ref></bibl>; 
+                            <bibl><ref target="#b648">Funke 2008</ref>, pp. 265-266</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione frammentaria da Axos menzionante più sacerdoti (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 53</idno>
+                        <idno type="projectNo">145</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#axos">Axos, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#unknown">sconosciuta</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0100">III-II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>. χοἱ <rs type="institution" subtype="board" role="unknown" key="hiereus" ref="#axos"><w lemma="ἱαρεύς">ἱαρέες</w></rs> χοἱ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><rs type="institution" subtype="board" role="unknown" key="hiereus" ref="#axos"><w lemma="ἱαρεύς">ἱαρέες</w></rs> χοἱ δα<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, dal contenuto piuttosto oscuro, sembra menzionare due volte dei sacerdoti, ammesso che ἱαρέες sia da intendere in tale senso, i quali sembrano essere associati ad un’altra categoria di individui, indicati anch’essi al nominativo plurale (χοἱ δα-).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 53 <ptr type="phi" target="199814"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna relativa alle distribuzioni pubbliche di alimenti</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 77</idno>
+                        <idno type="projectNo">268</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown"/><orig>κ</orig>
+                          <lb n="3"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="4"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown"/><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="7"/><orig>ε</orig><gap reason="lost" extent="unknown"/>
+                          <lb n="7a"/><gap reason="lost" extent="unknown"/><orig>α</orig>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><orig>οισοσκο</orig><gap reason="lost" extent="unknown"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown"/>ο, διεροσύκο<lb 
+                              break="no" n="3"/>ν δύο, γλεύκιος τ<supplied reason="lost">ρίι</supplied>νς· ὄδ <supplied reason="lost">δέ</supplied>
+                          <lb n="4"/><unclear>κ</unclear>α μὲ ὄλαν <unclear>ἐ</unclear>κς ἐμίνας. <space extent="unknown" unit="character"/> αἰ
+                          <lb n="5"/>εὔροιεν οἰ <rs type="institution" subtype="board" role="distributor" key="karpodaistas" ref="#gortyn"><w lemma="καρποδαῖστας">καρποδαῖσται</w></rs> κα<lb 
+                              break="no" n="6"/>ρπὸν ἀποκεκλεμμένον ἒ μὲ
+                          <lb n="7"/>δεδαισμένον, τόν τε καρπὸν
+                          <lb n="8"/>πέρονσι ἄπατον ἔμεν, κ’ ἐπεστ<lb 
+                              break="no" n="9"/>εῖσαι τὸ ἀπλόον καὶ τὰ ἐπιτίμ<lb 
+                              break="no" n="10"/>ια ἆι <w lemma="ἐγράφω">ἔγρατται</w>. <space extent="unknown" unit="character"/> καρπο͂ τί κα
+                          <lb n="11"/><w lemma="κατομνύω">κατομόσοντι</w>, <w lemma="ἄργυρος">ἄργυρο<supplied reason="lost">ν</supplied></w> <w part="I" lemma="ἐσπράδδω"><supplied reason="lost">ἐ</supplied>σπρ<lb 
+                              break="no" n="12"/><supplied reason="lost">α</supplied><unclear>δ</unclear><gap reason="lost" extent="unknown"/></w><orig><unclear>ονατ</unclear></orig><gap reason="lost" extent="unknown"/><gap reason="illegible" quantity="2" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="column" n="C">
+                        <ab>
+                          <lb n="1"/><orig>τα</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown"/> <supplied reason="lost">ε</supplied>ὔρον<lb 
+                              break="no" n="3"/>τι οἰ <rs type="institution" subtype="board" role="distributor" key="karpodaistas" ref="#gortyn"><w lemma="καρποδαῖστας">κ<unclear>α</unclear><supplied reason="lost">ρποδαῖσται</supplied></w></rs> <gap reason="lost" extent="unknown"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown"/>γεν ὄτ<lb 
+                              break="no" n="5"/>τα δατι<unclear>ο</unclear><gap reason="lost" extent="unknown"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown"/>ι ἒ ἀνε<lb 
+                              break="no" n="7"/>υρόντ<unclear>ε</unclear><supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown"/> <supplied reason="lost">ἆι</supplied> <w lemma="ἐγράφω"><supplied reason="lost">ἔγ</supplied>ραττ<supplied reason="lost">α</supplied><lb 
+                              break="no" n="9"/><supplied reason="lost">ι</supplied></w> <gap reason="lost" extent="unknown"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, ripartita in tre colonne, tratta delle distribuzioni pubbliche di alimenti; il testo è l’unica iscrizione a documentare l’esistenza dei καρποδαῖσται, funzionari che – come indica il loro stesso nome – sembrano essere responsabili della distribuzione di prodotti agricoli, verosimilmente connessa al sistema dei sissizi (cf. <ref type="lit" target="#Dosiad">Dosiad. <title>FGrHist</title> 458 F 1</ref>, <ref type="lit" target="#PlatoLeg625-848">Plato <title>Leg.</title> 847e-848c</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#karpodaistas"><foreign>karpodaistai</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 226-227 n. 29 (B-C)</bibl>; 
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> II pp. 323-324 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4993</bibl>; 
+                            <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, pp. 39-40 n. 9 (B-C)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 77 <ptr type="phi" target="200514"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 152 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 49</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 282 (B)</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G77 (B-C)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b104">Baunack 1896</ref>, pp. 474-475, 483-488</bibl>; 
+                            <bibl><ref target="#b2034">Willetts 1961</ref></bibl>; 
+                            <bibl><ref target="#b1065">Lavrencic 1988</ref></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib12">Marangou-Lerat</ref> T4</bibl>; 
+                            <bibl><ref target="#b151">Bile 2003</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

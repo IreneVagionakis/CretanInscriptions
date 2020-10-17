@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 5-6</idno>
+                        <idno type="projectNo">118</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos, acropoli</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0500">525-500 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><supplied reason="lost">ἐν</supplied> <rs type="institution" subtype="public_space" role="cult" key="hieron" ref="#idaeum_antrum"><placeName ref="#idaeum_antrum"><unclear>Ϝ</unclear>ί<unclear>δ</unclear>αι</placeName></rs>, κα<supplied reason="lost">ὶ</supplied> <persName type="divine" key="Poseidon">Ποτειδᾶνι</persName> ὀ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>θεν ἤμεν <g type="|"/> το̃ πολέ<unclear>μ</unclear><supplied reason="lost">ο</supplied>.
+                          <lb n="3"/><g type="|"/> τὰ ἀϝτῆ μὲν το͂ πολέμο <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ο͂ δ’ ἄλο <w lemma="δέκατον">δεκάτο</w> <unclear>ϝ</unclear>ίεν <unclear>ἢ</unclear> λο<unclear>γ</unclear>κ<unclear>ί</unclear><lb 
+                              break="no" n="5"/>ον ὄνς αἰέ. <unclear><g type="|"/></unclear> τὸ <unclear>μ</unclear>ὲν <w lemma="δέκατον">δέκατον</w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>εν τὰ <w lemma="θῖνος">θῖνα</w>. <g type="|"/> αἰ δ’ α<supplied reason="lost">ἰ</supplied> <rs type="institution" subtype="social_status" role="regulation" key="astos" ref="#axos"><w lemma="ἀστά">ἀσταὶ</w></rs> ἦ ἄ<lb 
+                              break="no" n="7"/><unclear>λ</unclear>οιτο <orig><unclear>απε</unclear></orig><gap reason="lost" quantity="1" unit="character"/><orig>πεσ<unclear>πα</unclear>ι</orig> ὀ <rs type="institution" subtype="official" role="unknown" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσμο<supplied reason="lost">ς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><orig><unclear>σ</unclear><gap reason="illegible" quantity="1" unit="character"/></orig><orig>ατ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’unione dei due testi proposta da Paula Perlman (<bibl><ref target="#b1515">Perlman 2010</ref></bibl>, <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>) apre la possibilità che si tratti non tanto di una legge quanto di un trattato, stipulato forse fra Axos e Knossos (cf. <bibl><ref target="#bib122"><title>Laws</title></ref>, pp. 166-167</bibl>). Tale ipotesi deriva dalla menzione di due decime – designate con il termine <foreign>dekaton</foreign> anziché con il più comune <foreign>dekata</foreign> – provenienti da un bottino di guerra, oltre che di due sacrifici distinti da effettuarsi rispettivamente nel santuario di Zeus sul monte Ida e in un luogo sacro a Poseidone (forse sul monte Iouktas presso Knossos, come pare prescrivere il trattato fra Knossos e Tylisos <ref type="ins" target="#ic1_8_4"><title>IC</title> I 8 4</ref>).</p>
+                    <p>Particolarmente interessanti sono le ultime linee del documento, dove nel contesto di attività pubbliche religiose (l. 6, θῖνα) connesse alla dedica del bottino di guerra compare la menzione di donne che detengono la cittadinanza, α[ἰ] ἀσταὶ, piuttosto inusuale ma ad Axos occorrente anche in <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref>. Il passo testimonia inoltre l’intervento di un cosmo, che è tenuto ad agire in un qualche modo qualora le donne compiano qualche azione; la frammentarietà del testo, tuttavia, impedisce di comprendere la natura delle attività regolamentate dalla clausola.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#astos"><foreign>astos</foreign></ref> (<foreign>asta</foreign>), <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b877">Haussoullier 1885</ref>, pp. 1-2 nn. 1 (B), 3 (A);</bibl> 
+                            <bibl><ref target="#b377">Comparetti 1888</ref>, pp. 145-148 nn. 6-7 (A-B)</bibl>; 
+                            <bibl><ref target="#b384">Comparetti 1893a</ref>, pp. 401-404 nn. 187-188 (A-B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5126A-B (A-B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 5-6 (A-B) <ptr type="phi" target="199766"/> <ptr type="phi" target="199767"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl><ref target="#b1515">Perlman 2010</ref></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> A5+6 (A+B)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b694">Gehrke 1995</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

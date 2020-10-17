@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Leggi di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 41</idno>
+                        <idno type="projectNo">251</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>tre <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, ‘Muro settentrionale’ dell’<foreign>agora</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="I">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπὶ το͂</supplied><lb 
+                        break="no" n="2"/>ι <unclear>ἀ</unclear>δι<unclear>κ</unclear><supplied reason="lost">η</supplied>θέντι ἤμην,
+                          <lb n="3"/><supplied reason="lost">αἴ</supplied> κα λῆι, τὸ <unclear>ϝ</unclear><supplied reason="lost">ὸν</supplied> αὐτ<lb 
+                        break="no" n="4"/>ο͂ δόμην τὸ δὲ κήνο ἔ<lb 
+                        break="no" n="5"/><unclear>κ</unclear>εν. αἴ κά ϝοι μὴ <unclear>λῆ</unclear>ι
+                          <lb n="6"/>δέκσαθθαι, τὸ ἀπλό<lb 
+                        break="no" n="7"/><corr>ο</corr>ν τεισῆται. <space extent="unknown" unit="character"/> αἰ δέ
+                          <lb n="8"/>κα μὴ ἐπιδίηται τὸ π<lb 
+                        break="no" n="9"/>αροθὲν ἢ μὴ ἐπελεύ<lb 
+                        break="no" n="10"/>σει τὸ τετνακὸς ἢ μὴ
+                          <lb n="11"/>δείκσει ἆι <w lemma="ἐγράφω">ἔγ<surplus>ι</surplus>ρ<corr>α</corr>τται</w>,
+                          <lb n="12"/>μὲ <w lemma="ἔνδικος">ἔνδικον</w> ἤ<corr>μ</corr>ην. <space extent="unknown" unit="character"/> αἰ
+                          <lb n="13"/>δέ κα σῦς καρταῖπο<lb 
+                        break="no" n="14"/>ς παρόσει ἢ κατασκέ<lb 
+                        break="no" n="15"/>νηι, τόν τε σῦν ἐπὶ το͂ι
+                          <lb n="16"/><w lemma="πάσστας">πάσσται</w> ἤμην  κ’ ἦι τ<lb 
+                        break="no" n="17"/>ὸ καρταῖπος καὶ το
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="II">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig><gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="2"/>ται, τὸ ϝίσϝον κατασ<lb 
+                        break="no" n="3"/>τασεῖ. <space extent="unknown" unit="character"/> ἴππον δ<unclear>ὲ</unclear> <unclear>κ</unclear>’ <supplied reason="lost">ἠ</supplied><unclear>μ</unclear><lb 
+                        break="no" n="4"/>ί<supplied reason="lost">ο</supplied>νον κ’ ὄνον τὸ μὲν
+                          <lb n="5"/>νυνατὸν ἐπιδίεθαι
+                          <lb n="6"/>ἆι <w lemma="ἐγράφω">ἔγρατται</w>· αἰ δέ κα
+                          <lb n="7"/>τετνάκηι ἢ μὴ νυν<lb 
+                        break="no" n="8"/>ατὸν ἦι <surplus>η</surplus> ἐπιδίεθθαι,
+                          <lb n="9"/>καλῆν ἀντὶ <w lemma="μαῖτυς">μαιτύ<unclear>ρ</unclear><lb 
+                        break="no" n="10"/>ον</w> δυο͂ν ἐν ταῖς πέν<lb 
+                        break="no" n="11"/>τε ἆι δείκσει ὀπῆ κ’
+                          <lb n="12"/>ἦι, κ’ <w lemma="ὀρκιότερος">ὀρκιότερον</w> ἤμη<lb 
+                        break="no" n="13"/>ν αὐτὸν καὶ τὸνς <w lemma="μαῖτυς">μα<lb 
+                        break="no" n="14"/>ίτυρανς</w> αἰ ἐπεδίετ<lb 
+                        break="no" n="15"/>ο ἢ ἐπήλευσε ἢ ἐκάλη
+                          <lb n="16"/>δεικσίον. <space extent="unknown" unit="character"/> κύνανς
+                          <lb n="17"/>ἀπαμπαιόμενο<gap reason="lost" quantity="1" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="III">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἰ μὲν κ’ ἀμπό</supplied><lb 
+                        break="no" n="2"/>τεροι ἔπον<supplied reason="lost">ται</supplied> οἰ ἀλ<lb 
+                        break="no" n="3"/>οῖοι μ<supplied reason="lost">ὴ</supplied> <w lemma="ἔνδικος">ἔνδικον</w> ἤμ<lb 
+                        break="no" n="4"/>ην, αἰ δέ κα μ<supplied reason="lost">ὴ</supplied> ἀμπότ<lb 
+                        break="no" n="5"/>εροι ὀ <gap reason="lost" quantity="5" unit="character"/><unclear>ε</unclear>νος τὰ<lb 
+                        break="no" n="6"/>ν ἀπλόον <w lemma="τιμά"><unclear>τι</unclear><supplied reason="lost">μὰ</supplied>ν</w> κατα<lb 
+                        break="no" n="7"/>στασ<supplied reason="lost">εῖ</supplied>. <space extent="unknown" unit="character"/> αἴ κα τετ<lb 
+                        break="no" n="8"/>ράπος ἢ ὄνν<supplied reason="lost">ι</supplied>θα παρ<lb 
+                        break="no" n="9"/>κατα<unclear>θ</unclear><supplied reason="lost">ε</supplied>μένοι ἢ κρη<lb 
+                        break="no" n="10"/>σάμενος ἢ <supplied reason="lost">ἀλ</supplied>λᾶι δε<lb 
+                        break="no" n="11"/>κσάμ<unclear>ε</unclear><supplied reason="lost">νο</supplied>ς μὴ νυνατ<lb 
+                        break="no" n="12"/>ὸς εἴη αὐ<unclear>τ</unclear><supplied reason="lost">ὸν ἀ</supplied>ποδόμ<lb 
+                        break="no" n="13"/>ην, τὸ ἀ<supplied reason="lost">πλ</supplied>όον κατασ<lb 
+                        break="no" n="14"/>τασεῖ. αἰ δ<supplied reason="lost">έ κ’ ἐ</supplied>πὶ τᾶι
+                          <lb n="15"/><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκαι</w></rs> <supplied reason="lost">μο</supplied><unclear>λ</unclear>ίον ἐκσαν<lb 
+                        break="no" n="16"/>νήσεται, δι<supplied reason="lost">πλ</supplied>εῖ κατ<lb 
+                        break="no" n="17"/>αστᾶσ<supplied reason="lost">αι κ</supplied>αὶ <w lemma="τίθημι">θέμημ</w> <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="IV">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="5" unit="character"/> <orig><unclear>π</unclear>ε<unclear>ρ</unclear>ο<unclear>νσ</unclear></orig><gap reason="lost" quantity="4" unit="character"/>
+                          <lb n="2"/><unclear>δ</unclear>οντι τετραπλεῖ. <space extent="unknown" unit="character"/>
+                          <lb n="3"/>ὄτι δέ κά τις αὐτὸν
+                          <lb n="4"/>ἀποδο͂ι σομελές, τὸ ἀ<lb 
+                        break="no" n="5"/>πλόον καταστασεῖ. <space extent="unknown" unit="character"/>
+                          <lb n="6"/>τὸν δὲ <rs type="institution" subtype="social_status" role="regulation" key="oikeus" ref="#gortyn"><w lemma="ϝοικεύς">ϝοικέα</w></rs> τὸν ἐπ<lb 
+                        break="no" n="7"/>ιδιόμενον μὴ ἀποδό<lb 
+                        break="no" n="8"/>θθαι μήτε <rs type="institution" subtype="social_status" role="regulation" key="naosantes" ref="#gortyn"><w lemma="ναεύω">ναεύοντα</w></rs>
+                          <lb n="9"/>μήτ’ ἦ κ’ ἀπέλθηι το͂ ἐν<lb 
+                        break="no" n="10"/>ιαυτο͂. αἰ δέ κα <rs type="institution" subtype="official" role="owner" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">κοσμί<lb 
+                        break="no" n="11"/>οντος</w></rs> ἦι ὀ ἐπιδιόμε<lb 
+                        break="no" n="12"/>νος, μὴ ἀποδόθαι ἆς κ<lb 
+                        break="no" n="13"/>α <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">κοσμῆι</w></rs> μηδ’ ἦ κ’ ἀπέ<lb 
+                        break="no" n="14"/>λθηι το͂ ἐνιαυτο͂. αἰ δ<lb 
+                        break="no" n="15"/>έ κα πρὸ το͂ κρόνο ἀπο<lb 
+                        break="no" n="16"/>δο͂ται, <w lemma="νικάω">νικήθθο</w>· ἀμπὶ
+                          <lb n="17"/>δὲ τὸν κρόνον <w lemma="ὀμνύω">ὀμνύ<lb 
+                            break="no" n="17a"/><supplied reason="lost">ντα</supplied></w> <supplied reason="lost"><rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρίνεν</w></rs> τὸν <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικαστάς">δικαστὰν</w></rs></supplied>
+                        </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="V">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="2" unit="character"/><orig>ι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ι<unclear>σ</unclear>α</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ν. α<supplied reason="lost">ἰ δέ</supplied>
+                          <lb n="2"/>κ<unclear>α</unclear> μὴ <w lemma="ὀμνύω">ὀμόσει</w>, τὸ ἀπλ<lb 
+                        break="no" n="3"/>ό<corr>ο</corr>ν καταστασεῖ. <space extent="unknown" unit="character"/>
+                          <lb n="4"/>αἰ δέ κα κελομένο <lb 
+                        break="no" n="5"/>ι κα παρῆι ϝεργάδδ<lb 
+                        break="no" n="6"/>ηται ἢ πέρηι, ἄπατον
+                          <lb n="7"/>ἤμην. αἰ δὲ πονίοι μ<lb 
+                        break="no" n="8"/>ὴ κελομένο, τὸν <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικασστάς">δικ<lb 
+                        break="no" n="9"/>ασστὰν</w></rs> <w lemma="ὀμνύω">ὀμνύντα</w> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κ<lb 
+                        break="no" n="10"/>ρίνεν</w></rs>, αἰ μὲ ἀποπον<lb 
+                        break="no" n="11"/>ίοι <w lemma="μαίτυρς">μαίτυρς</w>. <space extent="unknown" unit="character"/> ἀλλό<lb 
+                        break="no" n="12"/>τριον δ’ αἴ τί κ’ <w lemma="ἀδικέω">ἀδικ<lb 
+                        break="no" n="13"/>έσει</w> ὀ κατακείμεν<lb 
+                        break="no" n="14"/>ος, αὐτὸν ἀτῆθαι. αἰ
+                          <lb n="15"/>δέ κα μὲ ἔκηι ὀπο͂ κατα<lb 
+                        break="no" n="16"/>στασεῖ, ὀ <w lemma="νικάω">νικάσανς</w>
+                          <lb n="17"/>κ’ ὀ <w lemma="κατατίθημι">καταθέμενος</w>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="VI">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="3" unit="character"/><orig>ε<unclear>ι</unclear>ο</orig><gap reason="lost" quantity="8" unit="character"/>
+                          <lb n="2"/>οδ δὲ μή. <space extent="unknown" unit="character"/> αἰ δέ τις
+                          <lb n="3"/><supplied reason="lost">τ</supplied>ὸν κατακείμεν<lb 
+                        break="no" n="4"/>ον <w lemma="ἀδικέω">ἀδικήσει</w>, ὀ κατ<lb 
+                        break="no" n="5"/>αθέμενος μολησε<lb 
+                        break="no" n="6"/>ῖ καὶ <w lemma="πράσσω">πρακσῆται</w> τ<lb 
+                        break="no" n="7"/>ὰς <w lemma="τιμά">τιμὰνς</w> ἆι <rs type="institution" subtype="social_status" role="fineable" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλευθέ<lb 
+                        break="no" n="8"/>ρο</w></rs>, κ’ ὄτι κ’ <w lemma="ἐσπράττω">ἐσπράκσ<lb 
+                        break="no" n="9"/>εται</w> τὰνν ἠμίναν ἔ<lb 
+                        break="no" n="10"/>κεν τὸν κατακείμ<lb 
+                        break="no" n="11"/>ενον, τὰν δὲ τὸν κατ<lb 
+                        break="no" n="12"/>αθέμενον. αἰ δέ κ’ ὀ κα<lb 
+                        break="no" n="13"/>ταθέμενος μὴ λῆι
+                          <lb n="14"/>μολῆν, ἦ κ’ ἀποδο͂ι τὸ ὀ<lb 
+                        break="no" n="15"/>πήλομα αὐτὸς μολή<lb 
+                        break="no" n="16"/>το. αἰ δέ τί κ’ ὀ κατακεί<lb 
+                        break="no" n="17"/><gap reason="lost" extent="unknown" unit="character"/>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="VII">
+                        <ab>
+                          <lb n="0"/><supplied reason="lost">μενος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="0a"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="2" unit="character"/><orig>ν</orig><gap reason="lost" quantity="9" unit="character"/><unclear>τ</unclear>αι <w lemma="κρήματα">κ<lb 
+                        break="no" n="2"/>ρήματα</w> ἐπὶ <rs type="institution" subtype="public_space" role="transactions" key="naos" ref="#gortyn" cert="low"><w lemma="ναός"><unclear>ν</unclear>αὸν</w></rs> ἐπι<lb 
+                        break="no" n="3"/>διόμεν<supplied reason="lost">ον</supplied> <unclear>ἢ</unclear> ἐπελεύσ<lb 
+                        break="no" n="4"/>αντα ἢ <unclear>θ</unclear><gap reason="lost" quantity="6" unit="character"/><orig>στα</orig><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="5"/><gap reason="lost" quantity="1" unit="character"/><orig>λο</orig><gap reason="lost" quantity="3" unit="character"/><orig>α</orig><gap reason="lost" quantity="2" unit="character"/> πεπᾶ<unclear>θ</unclear>αι
+                          <lb n="6"/>τουτον <gap reason="lost" quantity="5" unit="character"/><orig>ια</orig><gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="7"/><gap reason="lost" quantity="1" unit="character"/><orig><unclear>π</unclear>ε</orig><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>αι</unclear> <supplied reason="lost">τὸ</supplied>μ <w lemma="πρίαμαι">πριάμ<lb 
+                        break="no" n="8"/>ενο<unclear>ν</unclear></w> <supplied reason="lost">τοῖς μεμπ</supplied><unclear>ο</unclear><supplied reason="lost">μέ</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">νοις το͂ν</supplied> <w lemma="κρήματα">κρημάτον</w> τὰν
+                          <lb n="10"/>ἄταν κατ<supplied reason="lost">ι</supplied><unclear>σ</unclear>στά<supplied reason="lost">μ</supplied><unclear>η</unclear>ν ἆ<lb 
+                        break="no" n="11"/><supplied reason="lost">ι</supplied> ϝεκάστο <w lemma="ἐγράφω">ἔγρατται</w>, κ<lb 
+                        break="no" n="12"/>αὶ τὸν <w lemma="ἀνήρ">ἄνδρ</w>’ αὐτὸν ἐπὶ
+                          <lb n="13"/>τοῖς <supplied reason="lost">μ</supplied>εμπομένοις τ<lb 
+                        break="no" n="14"/>ο͂ν <w lemma="κρήματα">κρημάτον</w> ἤμη<unclear>ν</unclear>, αἴ κ<lb 
+                        break="no" n="15"/>α μὴ περαιόσει ἦ κα <w lemma="πρίαμαι">πρία<lb 
+                        break="no" n="16"/>ται</w> ἐν ταῖς τριάκοντ’ ἀμέ<lb 
+                        break="no" n="17"/>ραις. αἰ δέ κα συνγνο͂ντι τ<lb 
+                        break="no" n="18"/>ᾶν δέκ’ ἀμερᾶν μὴ περαιό<unclear>σ</unclear><lb 
+                        break="no" n="19"/><supplied reason="lost">η</supplied>ν, ἀνδοκὰν δὲ καὶ
+                          <lb n="19a"/><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il complesso di leggi, noto anche come Piccolo Codice di Gortyna, regolamenta delle questioni relative al ferimento e allo scambio di animali (I-III), alla fuga di un servo (IV), alla servitù a contratto (V-VI) e ad acquisti (VII).</p>
+                    <p>La colonna II documenta un caso di ricorso a due testimoni (ll. 9-10), pratica che ritorna anche nella colonna V, sebbene in questa circostanza il μαίτυρς sia solo uno (ll. 10-11). L’assenza di un eventuale testimone rende necessario che il giudice si pronunci sul caso in questione dopo aver prestato un giuramento (ll. V 8-10). Un’operazione analoga è menzionata anche alle linee 17-18 della colonna IV, verosimilmente anche in questo caso in relazione ad un <foreign>dikastas</foreign>. Alle linee 14-16 della colonna III compare l’unico riferimento diretto alla δίκα, a proposito della multa doppia inflitta a chi nega la verità in sede di processo, ammenda che sembra dover essere versata alla <foreign>polis</foreign> (ll. 16-17).</p>
+                    <p>Le colonne IV e VI offrono alcune informazioni sul trattamento di differenti <foreign>status</foreign> servili in particolari casistiche. La colonna IV infatti stabilisce che un <foreign>oikeus</foreign> fuggitivo non possa essere venduto né se si è rifugiato in un tempio né durante l’anno in cui è fuggito; nel caso invece in cui il servo appartenga ad un cosmo, alla seconda eccezione si aggiunge quella dell’impossibilità di vendita durante il mandato del proprietario. La colonna VI, invece, testimonia un’equiparazione dei servi a contratto agli uomini liberi ai fini giudiziari che scatta nell’eventualità che costoro subiscano un torto: in tale circostanza, infatti, la multa inflitta al colpevole deve essere calcolata come se la parte lesa fosse un cittadino libero (ll. 7-8: ἆι ἐλευθέρο).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#dikastas"><foreign>dikastas</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#naeuon"><foreign>naosantes</foreign></ref>, <ref type="inst" target="#oikeus"><foreign>oikeus</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b392">Comparetti – Halbherr 1885</ref>, pp. 277-278 (I-II)</bibl>; 
+                          <bibl><ref target="#b106">Baunack – Baunack 1885</ref>, pp. 166-167 (I-II)</bibl>; 
+                          <bibl><ref target="#b1103">Lewy 1885</ref>, pp. 26-27 (I-II)</bibl>;
+                          <bibl><ref target="#b379">Comparetti 1888b</ref>, pp. 593-628 (III-VII)</bibl>; 
+                          <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 245-286 n. 152</bibl>; 
+                          <bibl><ref target="#bib516"><title>IJur.</title></ref> 18</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4998</bibl>; 
+                          <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, pp. pp. 28-31 n. 1</bibl>; 
+                          <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 181</bibl>;
+                          <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 41 <ptr type="phi" target="200477"/></bibl>; 
+                          <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, nn. 127-128</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 65</bibl>;
+                          <bibl><ref target="#b662">Gagarin 2008</ref>, pp. 254-257 n. 4</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G41</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 20</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b657">Gagarin 1989</ref></bibl>; 
+                          <bibl><ref target="#b931">Jakab 1989</ref></bibl>; 
+                          <bibl><ref target="#b465">Davies 1996</ref>, pp. 46-47</bibl>; 
+                          <bibl><ref target="#b1101">Lévy 1997</ref>, p. 32</bibl>; 
+                          <bibl><ref target="#b49">Arnaoutoglou 1998</ref>, nn. 28-31, 55-57</bibl>; 
+                          <bibl><ref target="#b147">Bile 2000a</ref></bibl>; 
+                          <bibl><ref target="#b1155">Maffi 2003</ref></bibl>; 
+                          <bibl><ref target="#b1018">Kristensen 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

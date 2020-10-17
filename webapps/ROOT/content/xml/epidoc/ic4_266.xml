@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica del <foreign>thiasos ton Priapistan</foreign> di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 266</idno>
+                        <idno type="projectNo">381</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_storeroom">deposito di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva/onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ὁ <rs type="institution" subtype="association" role="dedicant" key="thiasos_ton_Priapistan" ref="#gortyn"><w lemma="θίασος">θίασος</w></rs> τῶν <persName type="divine" key="Priapos">Πριαπιστᾶν</persName> <persName type="honoured" key="Apollonios f. Hermias n. Sotadas" ref="#unknown"><name nymRef="Ἀπολλώνιος">Ἀπολλώνιον</name>
+                          <lb n="2"/><name nymRef="Ἑρμίας" type="patronymic">Ἑρμία</name> τῶ <name nymRef="Σωτάδας" type="patronymic">Σωτάδα</name></persName> <w lemma="φιλαγαθία">φιλαγαθίας</w> ἕνεκεν
+                          <lb n="3"/>ἇς πεποίηται εἰς τὸν <rs type="institution" subtype="association" role="good_relations_or_behaviour" key="thiasos_ton_Priapistan" ref="#gortyn"><w lemma="θίασος">θίασον</w></rs> <w lemma="θεός">θεοῖς</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica agli dèi è promossa dal tiaso dei <foreign>Priapistai</foreign> in favore di un privato, Apollonios figlio di Hermias e nipote di Sotadas, per la <foreign>philagathia</foreign> mostrata nei confronti del tiaso stesso. L’associazione cultuale, non attestata altrove (cf. <bibl><ref target="#b1174">Maiuri 1909</ref></bibl>), è possibile che sia responsabile anche della dedica gortynia <ref type="ins" target="#ic4_267"><title>IC</title> IV 267</ref>, promossa anch’essa da un tiaso, che presenta una notevole vicinanza formulare al presente documento (ll. 5-6, [φιλ]αγαθίας ἇ[ς πεποίηται εἰς] τὸν θίασον [θεοῖς]).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#thiasos"><foreign>thiasos ton Priapistan</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1174">Maiuri 1909</ref>, pp. 242-244</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1037 n. 17</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 266 <ptr type="phi" target="200708"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

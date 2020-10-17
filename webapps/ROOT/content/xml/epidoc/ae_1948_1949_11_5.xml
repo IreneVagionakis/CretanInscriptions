@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title><foreign>Fistula aquaria</foreign> di Lappa</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Theophanidis 1948-1949, p. 11 n. 5</idno>
+                        <idno type="projectNo">091</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">135</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#instrumentum"><foreign>instrumentum inscriptum</foreign></summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#fistula"><foreign>fistula aquaria</foreign></objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0300" notAfter="0300">III secolo a.C. - III secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                                <lb n="1"/><rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#lappa"><placeName ref="#lappa" type="ethnic">Λαππαίων</placeName></rs>.
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La <foreign>fistula aquaria</foreign> è l’unica tubatura rivenuta a Creta ad essere carratterizzata dalla presenza di un etnico collettivo civico, elemento che induce a ritenere l’oggetto come parte di un acquedotto pubblico pertinente alla <foreign>polis</foreign> di Lappa. Da Creta provengono inoltre sei altre <foreign>fistulae aquariae</foreign> di età imperiale sulle quali sono iscritti dei nomi di persona, relativi o a più privati cittadini che ne sono possessori o più probabilmente allo stesso magistrato pubblico che ne ha curato la realizzazione (a Knossos Οὐάγοντος in <ref type="ins"><title>IC</title> I 27 4</ref> e <ref type="ins"><title>SEG</title> 23.531</ref>, Οὐάραντος in <ref type="ins"><title>SEG</title> 52.866</ref>; a Gortyna Θυρ- in <ref type="ins"><title>IC</title> IV 535</ref>, Γυτω- in <ref type="ins"><title>IC</title> IV 536</ref>; a Hydramia σωλῆνες Δρύτωνος in <ref type="ins"><title>IC</title> II 14 1</ref>; a Lyttos Εὔτυχος in <ref type="ins"><title>SEG</title> 45.1327</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib503">Theophanidis 1948-1949</ref>, p. 11 n. 5 <ptr type="phi" target="201063"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

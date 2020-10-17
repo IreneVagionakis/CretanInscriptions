@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un ex <foreign>agoranomos</foreign> di Gortyna ad Eueteria</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 250</idno>
+                        <idno type="projectNo">379</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0067" notAfter="-0031" precision="low">67-31 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="Kretarchas" ref="#koinon_kretaieon">ἐπὶ <persName type="attested" key="Kydas f. Kydas (3)"><name nymRef="Κύδας">Κύδαντος</name> τῶ
+                          <lb n="2"/><name nymRef="Κύδας" type="patronymic">Κύδαντος</name></persName> <w lemma="Κρητάρχας">Κρητάρ<lb 
+                        break="no" n="3"/>χα</w></rs> καὶ <rs type="institution" subtype="official" role="eponym" key="archos" ref="#gortyn"><w lemma="ἀρχός">ἀ<unclear>ρ</unclear>χῶ</w> ὅ<unclear>κ</unclear>α τὸ <num value="10">ι</num></rs>
+                          <lb n="4"/><rs type="institution" subtype="official" role="dedicant" key="agoranomos" ref="#gortyn"><persName type="attested" key="Kydas f. Apnatos Pontikos"><name nymRef="Κύδας">Κύδας</name> <name nymRef="Ἄπνατος" type="patronymic">Ἀπ<unclear>ν</unclear>άτω</name> <g type="|"/> τῶ <name nymRef="Ποντικός" type="patronymic">Π<g type="|"/>οντι<g type="|"/>κῶ</name></persName>
+                          <lb n="5"/><w lemma="ἀγορανομέω">ἀγορανομήσας</w></rs>
+                          <lb n="6"/><persName type="divine" key="Eueteria">Εὐετηρίᾳ</persName>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica ad Eueteria si apre con una datazione eponimica che ricorda il cretarca Kydas figlio di Kydas (sul quale cf. <bibl><ref target="#b1636">Rouanet-Liesenfelt 1984</ref></bibl> e <bibl><ref target="#b1440">Pałuchowski 2005b</ref></bibl>); la carica, ben attestata in età imperiale, trova nel presente documento la sua più antica occorrenza epigrafica. Il personaggio viene inoltre definito <foreign>archos</foreign> per la nona volta, termine che a Creta è impiegato anche in <ref type="ins" target="#ic2_12_26"><title>IC</title> II 12 26</ref> a proposito del <foreign>leader</foreign> dell’<foreign>agela</foreign> di Eleutherna e in <ref type="ins" target="#ic4_75"><title>IC</title> IV 75</ref> in relazione all’<foreign>andreion</foreign> di Gortyna (oltre che in ambiti analoghi in <ref type="lit" target="#Heraclid15">Heraclid.Lemb. 15</ref> ed <ref type="lit" target="#Ephor149">Ephor. <title>FGrHist</title> 70 F 149</ref>); nel presente contesto, tuttavia, è probabile che il titolo si riferisca piuttosto all’aver rivestito più volte la carica di cosmo eponimo o protocosmo (cf. <bibl><ref target="#b362">Cigaina 2013</ref>, pp. 90-94</bibl>).</p>
+                    <p>Il responsabile della dedica, menzionato alle linee 4-5, è l’ex <foreign>agoranomos</foreign> Kydas figlio di Apnatos Pontikos; a Gortyna, la sola città cretese in cui sono noti tali funzionari, compaiono altri singoli ex <foreign>agoranomoi</foreign> come dedicanti anche in <ref type="ins" target="#seg_51_1141"><title>SEG</title> 51.1141</ref>, <ref type="ins" target="#ic4_252"><title>IC</title> IV 252</ref> e forse <ref type="ins" target="#ic4_253">253</ref>, mentre tale ruolo è svolto dall’intero collegio in carica in <ref type="ins" target="#ic4_254"><title>IC</title> IV 254</ref> e <ref type="ins" target="#ic3_4_44"><title>IC</title> III 4 44</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agoranomos"><foreign>agoranomos</foreign></ref>, <ref type="inst" target="#archos"><foreign>archos</foreign></ref>, <ref type="inst" target="#kretarchas"><foreign>Kretarchas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b849">Halbherr 1888</ref>, p. 590</bibl>; 
+                            <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 699-700 n. 140</bibl>; 
+                            <bibl><ref target="#bib68"><title>IGR</title></ref> I 962</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5031</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 250 <ptr type="phi" target="200692"/></bibl>; 
+                            <bibl><ref target="#b1636">Rouanet-Liesenfelt 1984</ref></bibl>; 
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, p. 127</bibl>;
+                            <bibl><ref target="#b1440">Pałuchowski 2005b</ref>, p. 56 n. a</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b770">Guarducci 1933b</ref>, pp. 233-234</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

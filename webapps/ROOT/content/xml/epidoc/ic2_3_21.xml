@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iscrizione edificatoria degli <foreign>eunomiotai</foreign> di Aptera</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 21</idno>
+                        <idno type="projectNo">035</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#unknown">sconosciuto</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν <rs type="institution" subtype="board" role="builder" key="epimeletes" ref="#aptera"><persName type="attested" key="Eurymedes f. Andi-"><name nymRef="Εὐρυμήδης">Εὐρυμήδης</name> <name nymRef="Ἀνδι-" type="patronymic">Ἀνδ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>,
+                        <lb n="2"/><rs type="institution" subtype="board" role="builder" key="epimeletes" ref="#aptera"><persName type="attested" key="-chos f. Archetos"><name nymRef="-χος"><gap reason="lost" extent="unknown" unit="character"/>χος</name> <name nymRef="Ἄρχετος" type="patronymic">Ἀρχέτω</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="epimeletes" ref="#aptera"><persName type="attested" key="Orsikles f. -"><name nymRef="Ὀρσικλῆς">Ὀρσικλ<unclear>ῆ</unclear><supplied reason="lost">ς</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>,
+                        <lb n="3"/><rs type="institution" subtype="board" role="builder" key="epimeletes" ref="#aptera"><persName type="attested" key="-skos f. Oxymachos" cert="low"><name nymRef="-σκος"><gap reason="lost" extent="unknown" unit="character"/>σκος</name> <name nymRef="Ὀξύμαχος" type="patronymic">Ὀξυ<unclear>μ</unclear><supplied reason="lost" cert="low">άχ</supplied><unclear>ω</unclear></name></persName></rs>,
+                        <lb n="4"/><rs type="institution" subtype="board" role="builder" key="epimeletes" ref="#aptera"><persName type="attested" key="- f. Alkimenes"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Ἀλκιμένης" type="patronymic"><supplied reason="lost">Ἀ</supplied>λκιμένη</name></persName> <w lemma="ἐπιμελέομαι">ἐπεμελῆθ<unclear>ε</unclear><supplied reason="lost">ν</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ρσιος καὶ τᾶν λοιπᾶν πα<supplied reason="lost">σᾶν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> μέστα <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#aptera">ἐπὶ τ<gap reason="lost" quantity="1" unit="character"/> <w  lemma="εὐνομιῶται" part="I">εὐνομιῶτ<supplied reason="lost">αν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ον.
+                </ab>
+            </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="6"><note>εὐνομιῶτ<supplied reason="lost">αν</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato; εὐνομιωτ<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+            <div type="commentary">
+                <p>Il collegio degli <foreign>eunomiotai</foreign>, attestato a Lato, Olous e forse Knossos con la denominazione di εὐνομία, a Polyrrhenia con il nome di συνευνομιῶται (cf. <ref type="ins" target="#ic2_23_9"><title>IC</title> II 23 9</ref>), anche ad Aptera – come a Lato – si occupa dell’edificazione o della manutenzione di strutture pubbliche della città (cf. <bibl><ref target="#b768">Guarducci 1933</ref>, pp. 201-205</bibl>, <bibl><ref target="#b336">Chaniotis 2008</ref>, pp. 114-116</bibl>). Le competenze religiose che l’istituzione mostra di avere altrove – a Lato e Polyrrhenia – suggerirebbero che ciò che è stato costruito o ristrutturato dagli <foreign>eunomiotai</foreign> sia uno o più edifici sacri, come sembra indicare l’espressione τᾶν λοιπᾶν πα[σᾶν], verosimilmente riferita all’oggetto di ἐπεμελῆθεν.</p>
+                    <p>Quanto alla composizione del collegio, nella parte conservata dell’iscrizione è possibile identificare almeno cinque <foreign>eunomiotai</foreign>; il loro numero, tuttavia, potrebbe essere maggiore, similarmente a quanto avviene a Lato, dove l’iscrizione completa <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref> ne attesta nove, mentre il testo quasi completo di <ref type="ins" target="#ic1_16_21"><title>IC</title> I 16 21</ref> ne ricorda sette.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#epimeletes"><foreign>epimeletes</foreign></ref> (<foreign>epimeleomai</foreign>), <ref type="inst" target="#eunomia"><foreign>eunomiotai</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, p. 436, n. 10</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4949</bibl>; 
+                    <bibl><ref target="#b768">Guarducci 1933</ref>, n. 5</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 21 <ptr type="phi" target="199728"/></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

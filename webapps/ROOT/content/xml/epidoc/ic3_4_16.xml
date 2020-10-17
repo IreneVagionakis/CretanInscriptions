@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un ex <foreign>hiereus</foreign> di Itanos ad Apollo <foreign>Pytios</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 16</idno>
+                        <idno type="projectNo">527</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">149</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0125" notAfter="-0075">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="divine" key="Apollo Pytios">Ἀπόλλων<supplied reason="lost">ι</supplied>
+                          <lb n="2"/>Πυτίωι</persName>
+                          <lb n="3"/><rs type="institution" subtype="official" role="builder" key="hiereus" ref="#itanos"><w lemma="ἱερατεύω">ἱερατεύσας</w>
+                          <lb n="3a"/><space quantity="1" unit="line"/>
+                          <lb n="4"/><persName type="attested" key="Pheidon f. Pheidon"><name nymRef="Φείδων">Φείδων</name>
+                          <lb n="5"/><name nymRef="Φείδων" type="patronymic">Φείδωνος</name></persName></rs>
+                          <lb n="6"/>καὶ Ἱαρὼι
+                          <lb n="7"/>Σωναύτα
+                          <lb n="8"/>τὸ <w lemma="ἀνδριάντιον">ἀνδριάν<lb 
+                        break="no" n="9"/>τιον</w> καὶ τὸν
+                          <lb n="10"/><w lemma="χρύσεος">χρύσεον</w>
+                          <lb n="11"/><w lemma="στέφανος">στέφανο<supplied reason="lost">ν</supplied></w>
+                          <lb n="12"/>τὸν π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica ad Apollo <foreign>Pytios</foreign>, relativa ad una statuetta e ad una corona d’oro, è posta dall’ex sacerdote Pheidon figlio di Pheidon e da una donna, Hiaro figlia di Sonautas.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b877">Haussoullier 1885</ref>, pp. 19-20 n. 14</bibl>; 
+                            <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 587-588 n. 7</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5063</bibl>;
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 16 <ptr type="phi" target="200319"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

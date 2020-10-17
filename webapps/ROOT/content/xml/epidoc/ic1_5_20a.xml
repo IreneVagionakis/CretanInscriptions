@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Arkades</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC I 5 20 A</idno>
+                <idno type="projectNo">205</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#ini">Ini, in una casa</repository> 
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents><summary corresp="#honorific_decree">due decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType>
+                                    <dimensions><width/><depth/><height/></dimensions></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout/>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#arkades">Arkades</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-11-08" who="#iv">added</change>
+            <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <div type="textpart" subtype="part" n="I">
+                    <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>δν</orig><gap reason="illegible" quantity="1" unit="character"/><unclear>τ</unclear>α μεγιστ<unclear>ο</unclear>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="καλέω">καλέσαι</w> δὲ αὐτοὺς ἐπὶ τὰν</supplied> <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#arkades"><supplied reason="lost">κο</supplied>ινὰν <w lemma="ἑστία">ἑστίαν</w></rs> δων<lb 
+                            break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#arkades"><w lemma="ἱερόν"><supplied reason="lost">ἱ</supplied>ερὸν</w> τᾶς <persName type="divine" key="Thelphousa">Θελφούσας</persName></rs>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ δὲ <w lemma="ἀνάλωμα">ἀνάλωμα</w> δόμεν τὸ</supplied>ν <rs type="institution" subtype="official" role="funds" key="tamias" ref="#arkades"><w lemma="ταμίας">ταμίαν</w></rs>. <space extent="unknown" unit="character"/>
+                    </ab>
+                </div>
+                <div type="textpart" subtype="part" n="II">
+                    <ab>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">π</supplied>όλις <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#arkades" cert="low"><w lemma="πόλις">πόλει</w></rs> <placeName ref="#arkades" type="ethnic">Ἀρκάδων</placeName>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοῖς παρ’</supplied> ὑμῶν πρεσβευταῖς
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρεσβευτᾶν παραγενομένων</supplied> παρὰ τᾶς πόλιος τῶ<supplied reason="lost">ν</supplied>
+                        <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Μ</supplied>ελανθίω καὶ ἀνανεω<supplied reason="lost">σα</supplied><lb 
+                            break="no" n="9"/><supplied reason="lost">μένων αὐτῶν τὰν <w lemma="φιλία">φιλίαν</w> τὰν ὑπάρχονσαν διὰ</supplied> <w lemma="πρόγονος"><supplied reason="lost">προγό</supplied>νων</w> ταῖς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#arkades"><w lemma="πόλις">πόλεσι</w></rs> πο<unclear>τ</unclear>’ <supplied reason="lost">ἀλ</supplied><lb 
+                                break="no" n="10"/><supplied reason="lost">λάλανς</supplied> <gap reason="lost" extent="unknown" unit="character"/> ἁ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#arkades"><w lemma="πόλις">πόλις</w></rs> ἀνανεῶται
+                        <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ταῖς</supplied> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#arkades"><w lemma="πόλις"><supplied reason="lost">πό</supplied>λεσι</w></rs> ποθ’ αὑτὰς καὶ <w lemma="ἐπαινέω">ἐπ<lb 
+                            break="no" n="12"/><supplied reason="lost">αινέσαι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἐπαινέω"><supplied reason="lost">ἐπαινέσα</supplied>ι</w> δὲ καὶ τοὺς πρεσβευ<lb 
+                                break="no" n="13"/><supplied reason="lost">τὰς ἐπὶ τῶι τὰν <w lemma="παρεπιδαμία">παρεπιδαμίαν</w> πεποιῆσθαι ἀξίως τᾶν τ</supplied>ε <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#arkades"><w lemma="πόλις">πολίων</w></rs> ἑκατερᾶν
+                        <lb n="14"/><supplied reason="lost">καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="καλέω">καλέσαι</w> δὲ αὐτοὺς ἐπὶ τὰν</supplied> <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#arkades"><supplied reason="lost">κοιν</supplied>ὰν <w lemma="ἑστία">ἑστίαν</w></rs> ὅσας ἂν
+                        <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="δραχμά"><supplied reason="lost">δραχ</supplied>μὰς</w> πεντήκοντα
+                        <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀναγράφω"><supplied reason="lost">ἀνα</supplied>γραψάντω</w> <gap reason="illegible" quantity="2" unit="character"/>οντ<unclear>ε</unclear>
+                        <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ῶν <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#arkades"><w lemma="ψάφιγμα">ψαφιγμάτ<supplied reason="lost">ων</supplied></w></rs>
+                        <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/><orig>οι</orig><gap reason="illegible" quantity="1" unit="character"/>
+                        <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="divine" key="Apollo" cert="low">Ἀπολλω<gap reason="lost" quantity="1" unit="character"/></persName>
+                        <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="1" unit="character"/>
+                        <lb n="20a"/><gap reason="lost" quantity="1" unit="line"/>
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>Il testo sembra conservare parte di due documenti distinti, separati fra loro dal <foreign>vacat</foreign> presente alla fine della linea 4.</p>
+                    <p>Le linee conclusive del primo testo (ll. 1-4) sembrano indicare il documento come un decreto onorario: viene infatti previsto un invito – a degli ambasciatori? – presso la <foreign>koina hestia</foreign>, seguito dalle indicazioni relative alla collocazione della stele in un altrimenti ignoto santuario di Thelphousa, il cui finanziamento deve essere fornito dal tesoriere di Arkades.</p>
+                    <p>Nel secondo testo, di cui si conserva una sezione maggiore (ll. 5-20), vengono onorati gli ambasciatori di una città di cui è andato perduto il nome. Anche il secondo decreto prevede l’invito degli ambasciatori presso la <foreign>koina hestia</foreign>, al quale si aggiunge forse un dono di 50 dracme, possibilmente come viatico. Anche il secondo decreto include una formula di esposizione (ll. 16-18), che forse è relativa ad entrambi i testi: alla linea 17, infatti, viene impiegato il plurale [τ]ῶν ψαφιγμάτ[ων]. La <foreign>polis</foreign> di Arkades, più volte menzionata a proposito delle relazioni fra questa e la città da cui provengono gli ambasciatori (ll. 5, 9, 11, 13),  alla linea 10 sembra essere indicata come responsabile del decreto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, <ref type="inst" target="#tamias"><foreign>tamias</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1036-1037 n. 14</bibl>; 
+                    <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 359-364, n. 13</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 5 20 A <ptr type="phi" target="199043"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 64-65</bibl>;
+                    <bibl><ref target="#b435">Curty 1995</ref>, n. 86</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

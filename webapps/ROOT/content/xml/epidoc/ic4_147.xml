@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra (?) di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 147</idno>
+                        <idno type="projectNo">283</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge sacra?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0430" notAfter="-0400">fine V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><orig>οστα</orig><gap reason="lost" quantity="1" unit="character"/><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>αμενον <w lemma="καθαρός">καθαρὸ<lb 
+                        break="no" n="3"/>ν</w>. <space extent="unknown" unit="character"/> αἴ κ’ <rs type="institution" subtype="public_space" role="cult" key="hieron" ref="#gortyn"><w lemma="ἰαρόν">ἰα<unclear>ρὸ</unclear><supplied reason="lost">ν</supplied></w></rs> <space extent="unknown" unit="character"/> ἢ <w lemma="ἰαρ-" part="I">ἰαρ<gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>γηι <space extent="unknown" unit="character"/> τᾶς <w lemma="ἐωρτά">ἐωρτᾶς</w>
+                          <lb n="5"/>ὄνσα<unclear>ς</unclear> <unclear>ἦμ</unclear>εν. <space extent="unknown" unit="character"/> ἀλλ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>μεν οἰ <w lemma="θύω">θύ<unclear>ο</unclear><supplied reason="lost">ν</supplied><unclear>τ</unclear><supplied reason="lost">ε</supplied>ν</w> <space extent="unknown" unit="character"/> κα<lb 
+                        break="no" n="7"/>ρταν<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="3" unit="character"/> λυ<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>οθαι <gap reason="lost" quantity="4" unit="character"/> πημ<gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="9"/><gap reason="lost" quantity="2" unit="character"/>δηι ἐ<gap reason="lost" quantity="3" unit="character"/><orig>οθν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, probabilmente pertinente ad una legge sacra, contiene un riferimento a qualcosa che è stato purificato (ll. 2-3) e ad una festività (l. 4). Lo ἰαρό[ν] ricordato alla linea 3 è verosimile che sia un santuario di Gortyna connesso alla celebrazione e/o alla purificazione menzionate dall’iscrizione.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 147 <ptr type="phi" target="200586"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1046">La Rosa 2002</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

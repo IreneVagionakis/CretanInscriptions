@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica (?) dei cosmi di Knossos (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 33.725</idno>
+                        <idno type="projectNo">397</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication" cert="low">dedica votiva?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#amnisos">Amnisos, tempio di Zeus <foreign>Thenatas</foreign> </origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos"><supplied reason="lost">ἐπὶ</supplied> <w lemma="κόσμος"><supplied reason="lost">κόσ</supplied>μων</w> τ<supplied reason="lost">ῶν</supplied>
+                          <lb n="2"/><supplied reason="lost">σὺ</supplied>ν <persName type="attested" key="Lasthenes f. Sosamenos f. Peitho" cert="low"><name nymRef="Λασθένης">Λασθέ<supplied reason="lost">νηι</supplied></name>
+                          <lb n="3"/><supplied reason="lost">τῷ</supplied> <name nymRef="Σωσαμενός" type="patronymic"><unclear>Σ</unclear>ωσαμ<supplied reason="lost">ενῶ</supplied></name></persName></rs>
+                          <lb n="4"/><orig>π<unclear>ρ</unclear>ε<unclear>υ</unclear>σ</orig><gap reason="illegible" quantity="3" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica (?), proveniente dal santuario di Zeus <foreign>Thenatas</foreign> di Amnisos, appartiene alla serie di documenti analoghi promossi verosimilmente dai cosmi di Knossos, città per la quale la località funge da porto (cf. <ref type="ins" target="#seg_33_718"><title>SEG</title> 33.718-724</ref> e <ref type="ins" target="#seg_33_726"><title>SEG</title> 33.726-729</ref>). L’iscrizione, che consiste in una formula di datazione, sembra testimoniare una dedica effettuata da parte dei cosmi l’anno in cui è eponimo Lasthenes figlio di Sosamenos, forse lo stesso magistrato attestato in <ref type="ins" target="#seg_33_724"><title>SEG</title> 33.724</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1212">Marinatos 1936a</ref>, p. 85 n. 1</bibl>; 
+                            <bibl><ref target="#b461">Davaras – Masson 1983</ref>, p. 399 n. 9</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 33.725 <ptr type="seg" target="a33_717_729"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 95</bibl>;
+                            <bibl><ref target="#b299">Chaniotis 1992</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b291">Chaniotis 1988b</ref></bibl>; 
+                            <bibl><ref target="#b332">Chaniotis 2006</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

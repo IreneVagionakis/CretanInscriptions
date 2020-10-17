@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Gortyna (?) da Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 6</idno>
+                        <idno type="projectNo">226</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">62</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena, <foreign>thesauros</foreign> dell’<foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0070">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="divine" key="Asklepios">Ἀσκλαπιῶι</persName>
+                          <lb n="2"/><rs type="institution" subtype="tribe" role="eponym" key="Ainaones" ref="#gortyn">ἐπὶ τῶν <w lemma="Αἰνάωνες">Αἰνα<lb 
+                        break="no" n="3"/>ώνων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόν<lb 
+                        break="no" n="4"/>των</w> τῶν σὺν
+                          <lb n="5"/><persName type="attested" key="Ertaios f. Paraon"><name nymRef="Ἐρταῖος">Ἐρταίῳ</name> τῶ <name nymRef="Παράων" type="patronymic">Παράω<lb 
+                        break="no" n="6"/>νος</name></persName></rs> ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#gortyn"><w lemma="πόλις">πόλις</w></rs> <w lemma="τίθημι">ἔθη<lb 
+                        break="no" n="7"/>καν</w> κατὰ τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#gortyn"><w lemma="ψάφιμμα">ψάφιμ<lb 
+                        break="no" n="8"/>μα</w></rs> ὃ <rs type="institution" subtype="official" role="voter" key="psephizo" ref="#gortyn"><w lemma="ψαφίζω">ἐψάφιξε</w> <persName type="attested" key="Ertaios f. Paraon"><name nymRef="Ἐρταῖος">Ἐρταῖ<lb 
+                        break="no" n="9"/>ος</name> <name nymRef="Παράων" type="patronymic">Παράωνος</name></persName></rs> ὑπὲρ
+                          <lb n="10"/>τᾶς <w lemma="ἐπισκευά">ἐπισκευᾶς</w> τῶ <rs type="institution" subtype="public_space" role="construction" key="thesauros" ref="#gortyn"><w lemma="θησαυρός">θη<lb 
+                        break="no" n="11"/>σαυρῶ</w></rs> καὶ τῶν ἀποτι<lb 
+                        break="no" n="12"/>θεμένων <rs type="institution" subtype="object" role="funds" key="chremata" ref="#lebena"><w lemma="χρήματα">χρημάτων</w></rs>
+                          <lb n="13"/>ἐς τὸν <rs type="institution" subtype="public_space" role="construction" key="thesauros" ref="#lebena"><w lemma="θησαυρός">θησαυρόν</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, che si apre con una dedica ad Asclepio, è datata all’anno in cui è cosmo eponimo Ertaios figlio di Paraon della tribù degli <foreign>Ainaones</foreign>, probabilmente un magistato di Gortyna (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 101-103</bibl>; a Lebena cosmi eponimi occorrono anche in <ref type="ins" target="#ic1_17_2"><title>IC</title> I 17 2</ref>, <ref type="ins" target="#ic1_17_4">4</ref>-<ref type="ins" target="#ic1_17_5">5</ref>, <ref type="ins" target="#ic1_17_8">8</ref>, <ref type="ins" target="#ic1_17_38">38</ref>).</p>
+                    <p>L’intervento edilizio testimoniato dal documento, che consiste nella sistemazione del <foreign>thesauros</foreign> e delle ricchezze in esso contenute, è presentato come un’iniziativa di una <foreign>polis</foreign>, verosimilmente Gortyna, che mediante tale operazione manifesta il proprio controllo sulle finanze dell’<foreign>Asklepieion</foreign> di Lebena (altri interventi nel santuario avvengono invece ad opera dei <foreign>naokoroi</foreign> – in <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref>, <ref type="ins" target="#ic1_17_5"><title>IC</title> I 17 5</ref>, <ref type="ins" target="#ic1_17_21">21</ref>, <ref type="ins" target="#ic1_17_38">38</ref> e probabilmente <ref type="ins" target="#ic1_17_8">8</ref> – e degli <foreign>hiarorgoi</foreign> in <ref type="ins" target="#ic1_17_4"><title>IC</title> I 17 4</ref>). Tale iniziativa, inoltre, viene connessa ad un decreto esito di una votazione – anch’essa verosimilmente avvenuta a Gortyna – promossa dal cosmo eponimo Ertaios (per un riferimento analogo al responsabile di una votazione cf. l’iscrizione edificatoria da Allaria <ref type="ins" target="#seg_56_1047"><title>SEG</title> 56.1047</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#funds"><foreign>chremata</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, <ref type="inst" target="#thesauros"><foreign>thesauros</foreign></ref>, tribù (<ref type="inst" target="#ainaones"><foreign>Ainaones</foreign></ref>), <ref type="inst" target="#voter">votante</ref> (<ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b846">Halbherr 1901a</ref>, p. 306</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 6 <ptr type="phi" target="199269"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 25</bibl>; 
+                            <bibl><ref target="#b1309">Meier 2012</ref>, n. 44</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b960">Kaminski 1991</ref>, pp. 139-140</bibl>; 
+                            <bibl><ref target="#b1316">Melfi 1998-2000</ref></bibl>; 
+                            <bibl><ref target="#b727">Gorrini – Melfi 2002</ref>, pp. 261-262</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

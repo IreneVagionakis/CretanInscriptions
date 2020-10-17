@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Itanos per Tolemeo III e Berenice II</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 4</idno>
+                        <idno type="projectNo">521</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">65</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0246" notAfter="-0222">246-222 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w>· ἐπειδὴ <persName type="ruler" key="Ptolemaios III" ref="#egypt"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Πτολεμαῖος">Πτολεμαῖος</name></persName>
+                          <lb n="2"/><w lemma="παραλαμβάνω">παραλαβὼν</w> τὰν τῶν <placeName ref="#itanos" type="ethnic">Ἰτανίων</placeName> <rs type="institution" subtype="public_space" role="possession" key="polis" ref="#itanos"><w lemma="πόλις">πόλιν</w></rs> καὶ <rs type="institution" subtype="social_group" role="possession" key="polites" ref="#itanos"><w lemma="πολίτας">πολίτας</w></rs>
+                          <lb n="3"/>παρὰ τῶ <w lemma="πατήρ">πατρὸς</w> <persName type="ruler" key="Ptolemaios II" ref="#egypt"><w lemma="βασιλεύς">βασιλέως</w> <name nymRef="Πτολεμαῖος">Πτολεμαίω</name></persName> καὶ τῶν
+                          <lb n="4"/><w lemma="πρόγονος">προγόνων</w>, καλῶς καὶ ἐνδόξως <w lemma="εὐεργετέω">εὐεργετῶν</w>
+                          <lb n="5"/>διατελεῖ καὶ <w lemma="διαφυλάσσω">διαφυλάσσων</w> μετ’ <w lemma="εὔνοια">εὐνοίας</w> ἐν οἷς
+                          <lb n="6"/><w lemma="παραλαμβάνω">παρέλαβε</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#itanos"><w lemma="πολιτεύω">πολιτευομένος</w></rs> τοῖς αὐτῶν <rs type="institution" subtype="object" role="law" key="nomos" ref="#itanos"><w lemma="νόμος">νόμοις</w></rs>,
+                          <lb n="7"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#itanos"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#itanos"><w lemma="βουλά">βουλᾶι</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="ekklesia" ref="#itanos"><w lemma="ἐκκλησία">ἐκκλησίαι</w></rs>· <rs type="institution" subtype="public_space" role="dedication" key="temenos" ref="#itanos"><w lemma="ἱαρός">ἱαρὸν</w> <w lemma="τέμενος">τέμενος</w></rs>
+                          <lb n="8"/><w lemma="ἱδρύω">ἱδρύσασθαι</w> τὸν <rs type="institution" subtype="public_space" role="dedication" key="paradeisos" ref="#itanos"><w lemma="παράδισος">παράδισον</w></rs> τὸν πρὸς τᾶι <w lemma="πύλα">πύλαι</w>
+                          <lb n="9"/><persName type="ruler" key="Ptolemaios III" ref="#egypt"><w lemma="βασιλεύς">βασιλέως</w> <name nymRef="Πτολεμαῖος">Πτολεμαίου</name></persName> καὶ <persName type="ruler" key="Berenike II" ref="#egypt"><w lemma="βασίλισσα">βασιλίσσας</w> <name nymRef="Βερενίκα">Βερενίκας</name></persName>
+                          <lb n="10"/>τᾶς τῶ <persName type="ruler" key="Ptolemaios III" ref="#egypt"><w lemma="βασιλεύς">βασιλέως</w> <name nymRef="Πτολεμαῖος">Πτολεμαίω</name></persName> ἀδελφᾶς καὶ <w lemma="γυνά">γυναικός</w>·
+                          <lb n="11"/><w lemma="θύω">θύσει</w> δὲ ἁ <rs type="institution" subtype="assembly" role="organizing_competitions" key="polis" ref="#itanos"><rs type="institution" subtype="assembly" role="sacrifices" key="polis" ref="#itanos"><w lemma="πόλις">πόλις</w></rs></rs> κατ’ ἐνιαυτὸν τοῖς <w lemma="γενέθλια">γενεθλίοις</w>
+                          <lb n="12"/><persName type="ruler" key="Ptolemaios III" ref="#egypt"><w lemma="βασιλεύς">βασιλεῖ</w> <name nymRef="Πτολεμαῖος">Πτολεμαίωι</name></persName> καὶ <persName type="ruler" key="Berenike II" ref="#egypt"><w lemma="βασίλισσα">βασιλίσσαι</w> <name nymRef="Βερενίκα">Βερενίκαι</name></persName>
+                          <lb n="13"/>καὶ <rs type="institution" subtype="practice" role="competition" key="dromos" ref="#itanos"><w lemma="δρόμος">δρόμον</w></rs> <w lemma="συντελέω">συντελέσοντι</w> <g type="dipunct"/> τὸ δὲ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#itanos"><w lemma="ψάφισμα">ψάφισμα</w></rs>
+                          <lb n="14"/>τόδε οἱ <rs type="institution" subtype="board" role="inscriber" key="kosmeter" ref="#itanos"><w lemma="κοσμητήρ">κοσμητῆρες</w> οἱ μετὰ <persName type="attested" key="Soterios"><name nymRef="Σωτήριος">Σωτηρίω</name></persName></rs> <w lemma="γράφω">γράψαντες</w>
+                          <lb n="15"/>ἐς <w lemma="στάλα">στάλαν</w> λιθίναν <w lemma="ἀνατίθημι">ἀναθέντων</w> ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#itanos"><w lemma="ἱαρόν">ἱαρὸν</w> τᾶς
+                          <lb n="16"/><persName type="divine" key="Athena Polias">Ἀθάνας τᾶς Πολιάδος</persName></rs>· τὸ δὲ <w lemma="ἀνάλωμα">ἀνάλωμα</w> ἦμεν
+                          <lb n="17"/><supplied reason="lost">ἀπὸ τῶ</supplied><unclear>ν</unclear> <rs type="institution" subtype="object" role="funds" key="pothodos" ref="#itanos"><w lemma="πόθοδος">ποθόδων</w></rs> τᾶς <rs type="institution" subtype="assembly" role="funds" key="polis" ref="#itanos"><w lemma="πόλις">πόλιος</w></rs>.
+                          <lb n="17a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, pervenuto nella sua interezza, onora Tolemeo III e Berenice II, sotto il cui controllo ricade il <foreign>phrourion</foreign> di Itanos (sul quale cf. <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2</ref>-<ref type="ins" target="#ic3_4_3">3</ref>, <ref type="ins" target="#ic3_4_5">5</ref>, <ref type="ins" target="#ic3_4_9">9</ref>, <ref type="ins" target="#ic3_4_14">14</ref>, <ref type="ins" target="#ic3_4_18">18</ref>; cf. <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl> e <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 26-29</bibl>), a Creta commemorati insieme anche dalla dedica di Phalasarna <ref type="ins" target="#ic2_19_2"><title>IC</title> II 19 2</ref> (il solo sovrano, invece, compare anche in <ref type="ins" target="#ic2_12_25"><title>IC</title> II 12 25</ref> da Eleutherna oltre che forse in <ref type="ins" target="#ic2_16_11"><title>IC</title> II 16 11</ref> da Lappa).</p>
+                    <p>Il documento, che si apre con un’espressione benaugurale, conserva alle linee 1-6 le motivazioni del decreto, individuate nell’<foreign>euergesia</foreign> mostrata da Tolemeo III nei confronti della <foreign>polis</foreign> e dei cittadini di Itanos, da lui ricevuti in eredità dal padre Tolemeo II e dai suoi antenati (<foreign>i.e.</foreign> Tolemeo I) e nell’aver consensito loro di mantenere lo <foreign>status</foreign> di <foreign>politai</foreign> e le proprie leggi (motivazione analoga a quella presente nel decreto onorario per lo <foreign>strategos</foreign> tolemaico Patroklos, <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2</ref>-<ref type="ins" target="#ic3_4_3">3</ref>). L’espressione impiegata a proposito dei possedimenti ereditati da Tolemeo, in particolare, è significativamente affine a quella utilizzata nello stesso contesto e in relazione allo stesso sovrano alle linee 5-8 dell’iscrizione di Adoulis del 240 a.C. ca. <ref type="ins"><title>OGIS</title> 54</ref> (παραλαβὼν παρὰ τοῦ πατρὸς τὴν βασιλείαν Αἰγύπτου καὶ Λιβύης καὶ Συρίας καὶ Φοινίκης καὶ Κύπρου καὶ Λυκίας καὶ Καρίας καὶ τῶν Κυκλάδων νήσων), risultando dunque una prova del forte controllo esercitato su Itanos dal re.</p>
+                    <p>La formula di sanzione, alla linea 7, mostra nel ruolo di responsabili della deliberazione la <foreign>boula</foreign> e l’<foreign>ekklesia</foreign> di Itanos, come avviene anche nei decreti della città <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2</ref>-<ref type="ins" target="#ic3_4_3">3</ref> e <ref type="ins" target="#ic3_4_7">7</ref>. L’oggetto del decreto, immediatamente successivo, prevede che il <foreign>paradeisos</foreign> presso la porta della città sia adibito a recinto sacro al re e alla regina (ll. 7-10) e che ogni anno la <foreign>polis</foreign> di Itanos compia sacrifici ed organizzi gare di corsa – note anche a Malla, Eleutherna, Praisos e Hierapytna – in occasione dei compleanni dei sovrani (ll. 11-13; cf. <bibl><ref target="#b322">Chaniotis 2003</ref>, p. 441</bibl>).</p>
+                    <p>La formula di esposizione, alle linee 13-17, prevede infine l’iscrizione e la collocazione del decreto – a spese della città – nel santuario di Atena <foreign>Polias</foreign>, noto anche da <ref type="ins" target="#spratt_ii_4">Spratt II p. 415, n. 4</ref> e <ref type="ins" target="#ic3_4_3"><title>IC</title> III 4 3</ref>, da parte dei <foreign>kosmeteres</foreign> in carica, il cui eponimo è Soterios. Il termine <foreign>kosmeter</foreign>, attestato esclusivamente in documenti redatti ad Itanos, pare essere una variante locale equivalente al più diffuso <foreign>kosmos</foreign>, sostantivo che nella città è invece impiegato per designare l’intero collegio dei cosmi (cf. <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2</ref>-<ref type="ins" target="#ic3_4_3">3</ref>, <ref type="ins" target="#ic3_4_5">5</ref> e <ref type="ins" target="#ic3_4_7">7</ref>; nell’iscrizione <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref>, non redatta a Itanos, i suoi magistrati sono invece chiamati <foreign>kosmoi</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#dromos"><foreign>dromos</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmeter"><foreign>kosmeter</foreign></ref>, <ref type="inst" target="#paradeisos"><foreign>paradeisos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#funds"><foreign>pothodos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1592">Reinach 1911</ref>, pp. 391-400 n. 2</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1205-1206 n. 38</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 463</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 4 <ptr type="phi" target="200307"/></bibl>; 
+                            <bibl><ref target="#bib46"><title>EG</title></ref> II, pp. 54-56 n. 6</bibl>; 
+                            <bibl><ref target="#b1009">Kotsidou 2000</ref>, n. 195</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b53">Austin 1981</ref>, n. 267</bibl>; 
+                            <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 26-29</bibl>; 
+                            <bibl><ref target="#b1466">Papadakis 2000</ref></bibl>; 
+                            <bibl><ref target="#b319">Chaniotis 2002</ref>, pp. 107-108</bibl>; 
+                            <bibl><ref target="#b54">Austin 2006</ref>, n. 265</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

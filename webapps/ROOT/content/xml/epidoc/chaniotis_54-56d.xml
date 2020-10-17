@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di Lato ad Afrodite</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Chaniotis, Verträge 54/56d</idno>
+                        <idno type="projectNo">545</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dera"><foreign>Aphrodision</foreign> di Dera</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0113" notAfter="-0110">113-110 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="assembly" role="dedicant" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic"><supplied reason="lost">Λάτιο</supplied>ι</placeName></rs> <persName type="divine" key="Aphrodite">Ἀφροδίται</persName>
+                          <lb n="2"/><w lemma="νικάω">νικάσ<g type="⨇"/>αντες</w>
+                          <lb n="3"/><rs type="institution" subtype="tribe" role="eponym" key="Aischeis" ref="#lato">ἐπὶ τῶν <w lemma="Αἰσχεῖς">Αἰσχέων</w></rs>
+                          <lb n="4"/><placeName ref="#olous" type="ethnic">Βολοντίος</placeName>.
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione costituisce una delle due dediche pubbliche di Lato, promosse entrambe dalla città. Mentre nella dedica onoraria <ref type="ins" target="#ic1_16_37"><title>IC</title> I 16 37</ref> compare propriamente il termine <foreign>polis</foreign> al nominativo, nella presente iscrizione la comunità civica di Lato si presenta invece attraverso l’etnico collettivo Λάτιοι; tale differente formulario sembra essere dovuto alla collocazione della prima dedica all’interno della città di Lato, diversamente dalla seconda che è invece posta nel santuario di Dera, al confine con Olous.</p>
+                    <p>La dedica, rivolta ad Afrodite, commemora la vittoria di Lato su Olous nell’ambito della disputa in corso fra le due città nell’ultimo ventennio del II secolo a.C., documentata da più iscrizioni (<ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>; <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>; <ref type="ins" target="#ic1_16_18"><title>IC</title> I 16 18</ref>; cf. inoltre <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>). Il documento conserva come datazione un riferimento alla tribù dei cosmi in carica, quella degli <foreign>Aischeis</foreign> (nota solo a Lato ed attestata anche da <ref type="ins" target="#ic1_16_29"><title>IC</title> I 16 29</ref> e <ref type="ins" target="#ic1_16_30">30</ref>), senza tuttavia indicare il nome del magistrato eponimo.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, tribù (<ref type="inst" target="#aischeis"><foreign>Aischeis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b185">Bousquet 1938</ref>, pp. 405-408 n. 4</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 54/56d <ptr type="phi" target="201326"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

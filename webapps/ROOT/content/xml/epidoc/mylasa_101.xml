@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> (?) a Mylasa da parte di una città cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Mylasa 101</idno>
+                        <idno type="projectNo">569</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#milas">Milas, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#mylasa">Mylasa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w>· <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#unknown"><w lemma="δοκέω">ἔδοξε</w></rs> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοῖς</supplied> <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#unknown"><w lemma="κόσμος"><supplied reason="lost">κόσ</supplied><lb 
+                        break="no" n="2"/>μοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#unknown"><w lemma="πόλις">πόλι</w></rs>· ἐπε<supplied reason="lost">ιδὴ <placeName ref="#mylasa" type="ethnic">Μυλασέεν</placeName> ὑπάρχοντες</supplied>
+                          <lb n="3"/><w lemma="συγγενής">συγγενίεν</w> καὶ <w lemma="φίλος">φίλοι</w> <unclear>δ</unclear><supplied reason="lost">ιὰ <w lemma="πρόγονος">προγόνων</w> τᾶς ἁμᾶς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#unknown"><w lemma="πόλις">πόλιος</w></rs></supplied>
+                          <lb n="4"/>καὶ τῶν ἄλλων <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρητα<supplied reason="lost">ιέων</supplied></placeName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>ως μόνοι παρὰ τὸς ἄλλ<supplied reason="lost">ος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>ται περὶ τᾶς κοινᾶς εἰρ<supplied reason="lost">ήνας</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>τῶ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="ethnos" ref="#crete" cert="low"><w lemma="ἔθνος">ἔθνιος</w></rs> ἐμ<unclear>πε</unclear>τόντ<supplied reason="lost">ος</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πό</supplied><lb 
+                        break="no" n="8"/>λεμος <rs type="institution" subtype="social_group" role="war" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></rs> πά<supplied reason="lost">ντων</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>σον κοινὰν καὶ ἴσαν <w lemma="εὔνοια">ε<supplied reason="lost">ὔνοιαν</supplied></w> <supplied reason="lost">καὶ <w lemma="φιλοστοργία">φιλοστοργίαν</w></supplied>
+                          <lb n="10"/>περὶ παντὸς τῶ κοινῶ <gap reason="lost" extent="unknown" unit="character"/> <w lemma="σύσταμα"><supplied reason="lost">σύ</supplied><lb 
+                        break="no" n="11"/>σταμα</w> συνᾶκται <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρητ<supplied reason="lost">αιε</supplied></placeName></rs><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#mylasa" type="ethnic"><supplied reason="lost">Μυλα</supplied></placeName><lb 
+                        break="no" n="12"/>σέεν ἄξιοί ἐντι μεγα<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">διαφυλάτ</supplied><lb 
+                        break="no" n="13"/>τεν ἐς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιέας</placeName></rs> πάν<supplied reason="lost">τας τὰν ὑπάρχονσαν</supplied>
+                          <lb n="14"/><w lemma="εὔνοια">εὔνοιάν</w> τε καὶ <w lemma="φιλοστοργία">φιλοστ<supplied reason="lost">οργίαν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><w lemma="ἐπαινέω">ἐπαινῆσθαι</w> τὸμ <placeName ref="#mylasa" type="ethnic">Μυλασ<supplied reason="lost">έων</supplied></placeName> <supplied reason="lost">δᾶμον καὶ</supplied> <w lemma="στεφανόω"><supplied reason="lost">στεφα</supplied><lb 
+                        break="no" n="16"/>νῶσθαι</w> αὐτὸν μετ’ ἀνα<supplied reason="lost">γορεύσιος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/>καὶ <w lemma="εὐεργεσία">εὐεργεσίαι</w> <w lemma="θεῖος">θείων</w> <supplied reason="lost">τε καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w> πάν</supplied><lb 
+                        break="no" n="18"/>των <w lemma="μέτοχος">μέτοχον</w> <w lemma="ἀρετά">ἀρετᾶ<supplied reason="lost">ς</supplied></w> <supplied reason="lost">ἕνεκα καὶ <w lemma="εὔνοια">εὐνοίας</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19"/>τᾶς ἐς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιέας</placeName></rs> καὶ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="20"/>ον ὃ καὶ μὴ <placeName ref="#mylasa" type="ethnic">Μυλασεῦσι</placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, appartenente ad un gruppo di iscrizioni di Mylasa riguardanti città cretesi e il <foreign>koinon</foreign> cretese (cf. <ref type="ins" target="#mylasa_92"><title>Mylasa</title> 92-110*5</ref> e <ref type="ins" target="#mylasa_443">443</ref>, <ref type="ins" target="#seg_42_1004"><title>SEG</title> 42.1004-1006</ref>), è emanato da una <foreign>polis</foreign> cretese di cui non si è conservato il nome verosimilmente per accordare alla città caria l’<foreign>asylia</foreign> richiesta (cf. <ref type="ins" target="#mylasa_94"><title>Mylasa</title> 94</ref>-<ref type="ins" target="#mylasa_95">95</ref>, <ref type="ins" target="#mylasa_97">97</ref> e <ref type="ins" target="#mylasa_103">103</ref>, <ref type="ins" target="#seg_42_1003"><title>SEG</title> 42.1003</ref>-<ref type="ins" target="#seg_42_1004">1004</ref>).</p>
+                    <p>Il documento, uno dei meglio conservati del <foreign>dossier</foreign>, si apre con un’espressione benaugurale seguita dalla formula di sanzione, nella quale figurano come responsabili della deliberazione i cosmi e la <foreign>polis</foreign> della città in questione. La sezione relativa alle motivazioni del decreto, alle linee 2-14, informa della <foreign>syngeneia</foreign> e amicizia esistente fra Mylasa e la città ed il <foreign>koinon</foreign> cretese (l. 4, Κρητα[ιέων], menzionato anche alle ll. 8, 11, 13 e 19) e fa ricorso ai termini ἔθνιος (l. 7) e [σύ]σταμα (ll. 10-11), forse entrambi in riferimento al <foreign>koinon</foreign>. L’oggetto del decreto, conservato in parte alle linee 15-20, prevede il conferimento di onori – in particolare di una corona – al <foreign>damos</foreign> di Mylasa e doveva originariamente includere altre clausole relative alle relazioni fra le due città, comprendente verosimilmente la concessione dell’<foreign>asylia</foreign> da parte della <foreign>polis</foreign> cretese.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ethnos"><foreign>ethnos</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b101">Baunack 1886</ref>, pp. 250-251 n. 5c</bibl>; 
+                            <bibl><ref target="#b513">Diehl – Cousin 1888</ref>, pp. 8-11 n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5162b</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib460"><title>I.Mylasa</title></ref> 650</bibl>; 
+                           <bibl type="main_edition"><ref target="#bib32"><title>Mylasa</title></ref> 101 <ptr type="phi" target="261029"/></bibl>;
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 66c</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 196</bibl>;
+                            <bibl><ref target="#b260">Carless Unwin 2017</ref>, pp. 222-223</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1612">Robert 1927</ref>, p. 127 n. 13</bibl>;
+                            <bibl><ref target="#b1294">Mastrocinque 2002</ref>, pp. 356-358</bibl>;
+                            <bibl><ref target="#b259">Carless Unwin 2016</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

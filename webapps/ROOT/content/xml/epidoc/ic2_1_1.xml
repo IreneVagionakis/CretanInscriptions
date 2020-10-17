@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Allaria</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 1 1*</idno>
+                        <idno type="projectNo">092</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#allaria" type="ethnic">Ἀλλαριωτᾶν</placeName>.
+                          <lb n="2"/>ἐπειδὴ <placeName ref="#teos" type="ethnic">Τήιοι</placeName> <w lemma="φίλος">φίλοι</w> καὶ <w lemma="συγγενής">συγγενεῖς</w> διὰ <w lemma="πρόγονος">προ<lb 
+                        break="no" n="3"/>γόνων</w> ὑπάρχοντες ψάφισμα καὶ πρεσβευ<lb 
+                        break="no" n="4"/>τὰς ἀπέστειλαν<surplus>τες</surplus> παρ’ ἁμὲ Ἀπολλόδο<lb 
+                        break="no" n="5"/>τον καὶ Κωλώτην, οἳ καὶ ἐπελθόντες ἐπὶ
+                          <lb n="6"/>τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#allaria"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs> τάν τε <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="οἰκειότης">οἰκειότα<lb 
+                        break="no" n="7"/>τα</w> τὰν ὑπάρχωσαν ἁμῖν ποτ’ αὐτὸς ἀνενη<lb 
+                        break="no" n="8"/>ώσαντο καὶ τἄλλα διελέγησαν καλῶς καὶ
+                          <lb n="9"/>ἐνδόξως περὶ τῶ θεῶ καὶ τᾶς καθιερώσιος
+                          <lb n="10"/>τᾶς τε πόλιος καὶ τᾶς χώρας ἀκολούθως τοῖς
+                          <lb n="11"/>ἐν τῶι ψαφίσματι κατακεχωρισμένοις, καὶ ἀξί<lb 
+                        break="no" n="12"/>ων τάν τε <w lemma="φιλία">φιλίαν</w> καὶ τὰν <w lemma="εὔνοια">εὔνοιαν</w> διαφυλάσσοντ<corr>α</corr>ς
+                          <lb n="13"/>ἀεί τινος ἀγαθῶ παραιτίως γίνεσθαι τῶι δάμωι
+                          <lb n="14"/>καὶ τὰ <w lemma="παρακαλέω">παρακαλώμενα</w> ἐπὶ πλέον συναύξεν· ὁμοί<lb 
+                        break="no" n="15"/>ως δὲ <w lemma="παρακαλέω">παρεκάλει</w> καὶ Περδίκκας ὁ παρὰ τοῦ <persName type="ruler" key="Philippos V" ref="#macedonia"><w lemma="βασιλεύς">βασι<lb 
+                        break="no" n="16"/>λέως</w> <name nymRef="Φίλιππος">Φιλίππου</name></persName> πρεσβευτάς, οὐθὲν ἐλλείπων
+                          <lb n="17"/><w lemma="σπουδά">σπουδᾶς</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίας</w>· <space extent="unknown" unit="character"/> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#allaria"><w lemma="δοκέω">δεδόχθαι</w></rs> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#allaria"><w lemma="κόσμος">κόσμοις</w></rs>
+                          <lb n="18"/>καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#allaria"><w lemma="πόλις">πόλει</w></rs> τῶν <placeName ref="#allaria" type="ethnic">Ἀλλαριωτᾶν</placeName> <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w>
+                          <lb n="19"/><placeName ref="#teos" type="ethnic">Τηίοις</placeName> <w lemma="φίλος">φίλοις</w> καὶ <w lemma="οἰκεῖος">οἰκείοις</w> ἐῶσιν διότι τὸν <persName type="divine" key="Dionysos">Διόνυ<lb 
+                        break="no" n="20"/>σον</persName> καὶ αὐτοὶ σεβόμεθα, καὶ τὸν <placeName ref="#teos" type="ethnic">Τηίων</placeName> δᾶμον <w lemma="συγγενής">συγ<lb 
+                        break="no" n="21"/>γενῆ</w> ἐόντα ἀσπαζόμεθα καὶ <w lemma="ἐπαινέω">ἐπαινῶμεν</w> διότι
+                          <lb n="22"/>καλῶς καὶ ἐνδόξως καὶ καταξίως τῶ θεῶ προέσ<lb 
+                        break="no" n="23"/>τακεν· ἕνεκεν ὧν καὶ παρ’ ἁμῶν τὰ καλὰ καὶ <w lemma="τίμια">τίμι<lb 
+                        break="no" n="24"/>α</w> δίδοται τῶι θεῶι, καὶ <placeName ref="#teos" type="ethnic">Τηίων</placeName> τάν τε πόλιν καὶ τὰν
+                          <lb n="25"/>χώραν ἀνίεμεν ἱερὰν καὶ <w lemma="ἄσυλος">ἄσυλον</w> νῦν τε καὶ εἰς
+                          <lb n="26"/>τὸν ἄλλον χρόνον πάντα, καὶ πειρασόμεθα ἀεί
+                          <lb n="27"/>τινος ἀγαθῶ παραίτιοι γίνεσθαι καὶ κοινᾶι καὶ ἰ<lb 
+                        break="no" n="28"/>δίαι· ἐάν τέ τινες ἄγωσιν <placeName ref="#teos" type="ethnic">Τηίως</placeName> ἢ τὸς κατοικόν<lb 
+                        break="no" n="29"/>τας παρ’ αὐτοῖς, οἱ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#allaria"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἄλλος ὁ βωλόμενος
+                          <lb n="30"/><placeName ref="#allaria" type="ethnic">Ἀλλαριωτᾶν</placeName> ἢ <placeName ref="#teos" type="ethnic">Τηίων</placeName> ἀφελόμενοι καὶ ἀποδι<lb 
+                        break="no" n="31"/>δόντες τοῖς <w lemma="ἀδικέω">ἀδικημένοις</w> κύριοι ἔστων.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento di Allaria, appartenente alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), si configura come un decreto della città preceduto dall’intestazione Ἀλλαριωτᾶν, aggiunta da Teos al momento dell’iscrizione su pietra del testo. Nella sezione in cui vengono esposte le motivazioni del decreto (ll. 2-17) emerge come l’<foreign>ekklesia</foreign> di Allaria si occupi dell’accoglienza degli ambasciatori, costituendo l’interfaccia della <foreign>polis</foreign> nelle relazioni con l’estero.</p>
+                    <p>La formula di mozione, che segue alle linee 17-18, mostra i cosmi e la <foreign>polis</foreign> di Allaria in qualità di istituzioni preposte alla deliberazione, come avviene anche nel decreto <ref type="ins" target="#ic2_1_2"><title>IC</title> II 1 2</ref> B. I cosmi di Allaria, inoltre, ricorrono anche nella sezione finale del decreto, dove vengono designati come responsabili del recupero e della restituzione degli eventuali abitanti di Teos sequestrati dai concittadini, attività in cui hanno però pari autorità di chiunque altro lo desideri (ll. 29-30, οἱ κόσμοι καὶ ἄλλος ὁ βωλόμενος Ἀλλαριωτᾶν).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> 73</bibl>; 
+                            <bibl><ref target="#b267">Cauer 1877</ref>, n. 58</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 59</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5179</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 1 1* <ptr type="phi" target="199700"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 3</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 151</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b435">Curty 1995</ref>, n. 43h</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

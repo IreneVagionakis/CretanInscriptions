@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Gortyna, Hierapytna e Priansos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 53.942</idno>
+                        <idno type="projectNo">308</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo">92 GO 6215</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0205" notAfter="-0200">205-200 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀγαθᾶι</supplied> <w lemma="θύχα"><unclear>θύχαι</unclear></w> καὶ ἐ<unclear>π</unclear><supplied reason="lost">ὶ <w lemma="σωτηρία">σωτηρίαι</w>· <placeName ref="#gortyn">Γόρτυνι</placeName> μὲν</supplied> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="κορμέω">κορμιόντων</w> τῶν σ<unclear>ὺ</unclear>ν <persName type="attested" key="-andros f. -nymos"><name nymRef="-άνδρος"><gap reason="illegible" quantity="2" unit="character"/>άνδρ<unclear>ωι</unclear></name> <unclear>τῶι</unclear> <name nymRef="-νυμος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ω</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">νύμω</supplied></name></persName></rs><supplied reason="lost">, ἐν</supplied> δὲ <placeName ref="#hierapytna">Ἱεραπύτναι</placeName> <rs type="institution" subtype="tribe" role="eponym" key="Archeia" ref="#hierapytna">ἐπὶ τᾶς <w lemma="Ἀρχήια">Ἀρχήιας</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna">τῶν <unclear>σ</unclear><supplied reason="lost">ὺν</supplied>
+                          <lb n="4"/><persName type="attested" key="- f. Mentor"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶι</supplied> <name nymRef="Μέντωρ" type="patronymic">Μέντορος</name></persName> <w lemma="κορμέω">κορμιόντων</w></rs>, ἐμ <placeName ref="#priansos">Πριανσιοῖ</placeName> δ<supplied reason="lost">ὲ</supplied> <rs type="institution" subtype="tribe" role="eponym" key="sikartidai" ref="#priansos"><supplied reason="lost">ἐπὶ</supplied>
+                          <lb n="5"/><supplied reason="lost">τῶν</supplied> <w part="F" lemma="-σικαρτιδαι"><gap reason="lost" quantity="2" unit="character"/><unclear>σι</unclear>καρτιδᾶν</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#priansos"><w lemma="κορμέω">κορμιόντων</w> τῶν σὺν <persName type="attested" key="Aisimos f. Habrax"><name nymRef="Αἴσιμος"><corr>Α</corr>ἰσίμ<supplied reason="lost">ωι</supplied></name>
+                          <lb n="6"/><supplied reason="lost">τῶι</supplied> <name nymRef="Ἅβραξ" type="patronymic">Ἅβρακος</name></persName></rs>· τάδε <w lemma="ὀμνύω">ὤμοσαν</w> οἱ <rs type="institution" subtype="social_group" role="oath-taking" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></rs> καὶ οἱ <rs type="institution" subtype="social_group" role="oath-taking" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic">Ἱε<lb 
+                        break="no" n="7"/><supplied reason="lost">ρα</supplied><unclear>π</unclear>ύτνιοι</placeName></rs> τοῖς <placeName ref="#priansos" type="ethnic">Πριανσιεῦσι</placeName> καὶ οἱ <rs type="institution" subtype="social_group" role="oath-taking" key="polisE" ref="#priansos"><placeName ref="#priansos" type="ethnic">Πριανσιέες</placeName></rs>
+                          <lb n="8"/><supplied reason="lost">τ</supplied>οῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> καὶ τοῖς <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίοις</placeName>· <w lemma="συμμαχέω">συμμ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">χ</supplied>ησῆν</w> ἀλλάλοις τὸν ἅπαντα χρόνον ἁπ<unclear>λ</unclear>ό<lb 
+                        break="no" n="10"/><supplied reason="lost">ω</supplied>ς καὶ ἀδόλως καὶ ἑψῆθθαι τοῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> <space extent="unknown" unit="character"/>
+                          <lb n="11"/><supplied reason="lost">το</supplied>ὺς <placeName ref="#priansos" type="ethnic">Πριανσιέας</placeName> καὶ πολέμω καὶ ἱρήνας ὁπῦι κα <w lemma="παρκαλέω">παρ<lb 
+                        break="no" n="12"/><supplied reason="lost">κα</supplied><unclear>λ</unclear>ίωντι</w> καὶ <w lemma="πολεμέω">πολεμησῆ<unclear>ν</unclear></w> ἀπὸ χώρας ὧι κα καὶ ὁ <placeName ref="#gortyn" type="ethnic">Γορτύ<lb 
+                        break="no" n="13"/><supplied reason="lost">νιο</supplied><unclear>ς</unclear></placeName> καὶ ὁ <placeName ref="#hierapytna" type="ethnic">Ἱεραπύτνιος</placeName>· τὸν<supplied reason="lost">ς</supplied> δὲ <placeName ref="#gortyn" type="ethnic">Γορτυνίος</placeName> καὶ τὸν<unclear>ς</unclear>
+                          <lb n="14"/><placeName ref="#hierapytna" type="ethnic"><supplied reason="lost">Ἱε</supplied>ραπυτνίο<unclear>ς</unclear></placeName> μήτ’ αὐτὸνς <w lemma="ἀδικέω"><unclear>ἀδικη</unclear>σῆν</w> τὸνς <placeName ref="#priansos" type="ethnic">Πριανσι<lb 
+                        break="no" n="15"/><supplied reason="lost">έ</supplied>ανς</placeName>, μήτ’ ἄλλοις ἐπιτρα<supplied reason="lost">ψῆν· καὶ</supplied> τὰν χώραν ἃν <w lemma="ὁρίζω">ὡρί<lb 
+                        break="no" n="16"/>ξαντο</w> οἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> πο<unclear>ρ</unclear>τὶ τὸνς <placeName ref="#priansos" type="ethnic">Πριανσιέας</placeName> μήτ’ αὐ<lb 
+                        break="no" n="17"/>τοὶ ἀφαιλησῆ<corr>θ</corr>θαι, μήτ’ ἄ<supplied reason="lost">λλοις</supplied> ἐπιτραψῆν· αἰ δέ
+                          <lb n="18"/>τίς κα ἀφαιλῆται ἢ <w lemma="πολεμέω">πολεμ<supplied reason="lost">ῆι</supplied></w> <supplied reason="lost">τοῖς</supplied> <placeName ref="#priansos" type="ethnic">Πριανσ<unclear>ι</unclear>εῦσι</placeName>, <w lemma="βοαθέω">βοαθησίο<unclear>ν</unclear><lb 
+                        break="no" n="19"/><supplied reason="lost">τι</supplied></w> <unclear>ο</unclear>ἵ τε <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> κὠι <placeName ref="#hierapytna" type="ethnic">Ἱερα<supplied reason="lost">πύτν</supplied>ι<supplied reason="lost">οι</supplied></placeName> <supplied reason="lost">τ</supplied>οῖς <placeName ref="#priansos" type="ethnic">Πριανσιεῦσι</placeName> ἀ<supplied reason="lost">δό</supplied><lb 
+                        break="no" n="20"/><supplied reason="lost">λω</supplied>ς καὶ ἀπροφασίστω<unclear>ς</unclear> <supplied reason="lost">καὶ κα</supplied>τὰ γᾶν καὶ κατὰ θά<supplied reason="lost">λαθ</supplied><lb 
+                        break="no" n="21"/><supplied reason="lost">θα</supplied>ν· κατὰ τὰ αὐτὰ δὲ καἴ τίς κα <w lemma="πολεμέω">πολεμῆι</w> τοῖς <placeName ref="#gortyn" type="ethnic">Γορτ<unclear>υ</unclear>νίοι<supplied reason="lost">ς</supplied></placeName>
+                          <lb n="22"/><supplied reason="lost">ἢ το</supplied>ῖς <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίοις</placeName>, <w lemma="βοαθέω">βοαθησάντ<unclear>ω</unclear>ν</w> <placeName ref="#priansos" type="ethnic">Πριανσιέες</placeName> ἀδ<unclear>ό</unclear><lb 
+                        break="no" n="23"/><supplied reason="lost">λως κ</supplied>αὶ ἀπροφασίστως καὶ κατὰ γ<unclear>ᾶ</unclear>ν καὶ κατὰ θάλα<supplied reason="lost">θ</supplied><lb 
+                        break="no" n="24"/><supplied reason="lost">θα</supplied>ν· <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#gortyn"><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#priansos"><w lemma="ὦρος">ὦροι</w></rs></rs> τᾶ<unclear>ς</unclear> χώρας· ἀπὸ θαλάθθας ές Πορώναν ποτα<lb 
+                        break="no" n="25"/><supplied reason="lost">μόν</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><orig>νδαι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ν</orig><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ολοκῶνος δηράδα καὶ κα<lb 
+                        break="no" n="26"/><supplied reason="lost">τὰ <orig>τ</orig></supplied><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="3" unit="character"/><unclear>ν</unclear>ειον κἠπὶ <orig>σ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ετ</orig><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, rinvenuta a Gortyna, costituisce una seconda copia del trattato fra questa, Hierapytna e Priansos, noto anche da <ref type="ins" target="#ic4_174"><title>IC</title> IV 174</ref>. Subito dopo la formula benaugurale, il documento conserva le formule di datazione delle tre città (ll. 1-6), nelle quali vengono menzionati i cosmi eponimi -andros figlio di -nymos per Gortyna, un certo figlio di Mentor della tribù <foreign>Archeia</foreign> (<foreign>phyle</foreign> nota anche a Gortyna, Knossos e Lyttos) per Hierapytna e Aisimos figlio di Habrax della tribù dei -<foreign>sikartidai</foreign> per Priansos.</p>
+                    <p>L’oggetto degli accordi mostra Gortyna e Hierapytna come <foreign>poleis</foreign> già unite fra loro, che come tali decidono assieme di allearsi a Priansos (ll. 6-24). La fissazione dei confini fra Gortyna e Priansos, a cui viene fatto riferimento alle linee 15-17, viene riportata nella parte finale del documento, che si interrompe dopo poche linee di descrizione (ll. 24-27); una sezione più estesa della stessa delineazione dei confini è conservata invece in <ref type="ins" target="#ic4_174"><title>IC</title> IV 174</ref> (ll. 16-33).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#horos"><foreign>horos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, tribù (<ref type="inst" target="#archeia"><foreign>Archeia</foreign></ref>, <ref type="inst" target="#sikartidai">-<foreign>sikartidai</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1030">Kritzas 2003</ref>, pp. 107-125</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 53.942 <ptr type="seg" target="a53_942"/></bibl>); 
+                            <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 15</bibl>; 
+                            <bibl><ref target="#b1169">Magnelli 2008</ref>, pp. 284-292 n. 15</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

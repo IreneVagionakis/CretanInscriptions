@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Gortyna per Romani</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 222</idno>
+                        <idno type="projectNo">337</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka">Agioi Deka, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Leukios Phourios Kelsos f. Leukios" ref="#rome"><name nymRef="Λεύκιος">Λεύκιος</name> <name nymRef="Φούριος">Φούριος</name> <name nymRef="Λεύκιος" type="patronymic">Λευκίου</name> <supplied reason="lost">υἱὸς</supplied>
+                          <lb n="2"/>Φαλέρνᾳ <name nymRef="Κέλσος">Κέλσος</name></persName> <w lemma="μῦθος">μύθων</w> <w lemma="ὀρχηστής">ὀρχη<supplied reason="lost">στὴς</supplied></w>
+                          <lb n="3"/><w lemma="στεφανόω">στεφανωθεὶς</w> ἐν τῶι <rs type="institution" subtype="public_space" role="proclamation" key="theatron" ref="#gortyn"><w lemma="θέαθρον">θεάθρῳ</w></rs> <w lemma="χρυσός">χ<supplied reason="lost">ρυσῷ</supplied></w>
+                          <lb n="4"/><w lemma="στέφανος">στεφάνῳ</w> τῷ μεγίστῳ κατὰ τὸν <rs type="institution" subtype="object" role="law" key="nomos" ref="#gortyn"><w lemma="νόμος">νόμον</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυνίων</supplied></placeName></rs>
+                          <lb n="5"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πολίτας</w></rs> αὐτὸς καὶ <w lemma="ἔκγονος">ἔ<unclear>κ</unclear><supplied reason="lost">γονοι</supplied></w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="- Babyllios -deus f. Titos" ref="#unknown"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Βαβύλλιος">Βαβύλλιος</name> <name nymRef="Τίτος" type="patronymic">Τίτου</name> υἱὸς
+                          <lb n="2"/><name nymRef="-δεύς"><gap reason="lost" extent="unknown" unit="character"/>δεὺς</name></persName> <w lemma="κωμωιδός">κωμῳδὸς</w> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυ<lb 
+                        break="no" n="3"/><supplied reason="lost">νίων</supplied></placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος"><supplied reason="lost">π</supplied>ρόξενος</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πολίτας</w></rs>
+                          <lb n="4"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Kointos Gaouios" ref="#rome"><name nymRef="Κόιντος">Κόϊντος</name> <name nymRef="Γαούιος">Γαού<supplied reason="lost">ιος</supplied></name></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυ</supplied><lb 
+                        break="no" n="2"/>νίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξε<unclear>ν</unclear><supplied reason="lost">ος</supplied></w></rs> <supplied reason="lost">καὶ</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας"><supplied reason="lost">πολί</supplied><lb 
+                        break="no" n="3"/>τας</w></rs> αὐτὸς κ<supplied reason="lost">αὶ <w lemma="ἔκγονος">ἔκγονοι</w></supplied>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I tre decreti onorari si presentano nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva essenzialmente del nome dell’onorato e della tipologia di onore conferitogli, consistente in tutti e tre i casi nella prossenia e nella <foreign>politeia</foreign>, combinazione ricorrente in un buon numero di decreti gortynii. I decreti A e B, inoltre, contengono l’indicazione della professione degli individui onorati, entrambi artisti (rispettivamente un μύθων ὀρχηστής e un κωμῳδός; cf. <bibl><ref target="#b295">Chaniotis 1990</ref></bibl>). Nel testo A, il più complesso dei tre, è presente anche un riferimento all’avvenuta incoronazione del personaggio con una corona d’oro nel teatro di Gortyna, attestato solamente in questa iscrizione, secondo quanto prescritto da una legge preesistente.</p>
+                    <p>Tutti i testi sembrano conservare il ricordo della <foreign>polis</foreign> attraverso l’uso dell’etnico collettivo cittadino, impiegato come specificazione dell’onore conferito per compensare forse la mancata menzione delle entità istituzionali responsabili della decisione, come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#theatron"><foreign>theatron</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 179-180 n. 9</bibl>; 
+                            <bibl><ref target="#bib68"><title>IGR</title></ref> I 975 (A)</bibl>;
+                            <bibl><ref target="#b1613">Robert 1936</ref>, pp. 241-242 (A-B)</bibl>;
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 222 <ptr type="phi" target="200663"/></bibl>; 
+                            <bibl><ref target="#b289">Chaniotis 1988</ref>, E74 (A)</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

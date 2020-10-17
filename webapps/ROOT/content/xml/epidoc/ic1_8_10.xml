@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Knossos per due cittadini di Magnesia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 10*</idno>
+                        <idno type="projectNo">165</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#magnesia_agora"><foreign>agora</foreign> di Magnesia</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">lettera contenente un decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#magnesia">Magnesia, <foreign>agora</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0170">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="κρίνω"><supplied reason="lost">κρ</supplied>ίνοντεν</w> ἀξίονς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied>ν παρ’ ἁμῖν <w lemma="τίμια" cert="low">τιμίων</w>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ἁμὶν διασαφησα<supplied reason="lost">ν</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">τ</supplied><gap reason="lost" extent="unknown" unit="character"/>ων· <w lemma="ὑπογράφω">ὑπογεγ<supplied reason="lost">ρ</supplied>άφαμεν</w> δὲ τῶ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#knossos"><w lemma="ψάφισμα">ψαφίσμα<lb 
+                        break="no" n="5"/><supplied reason="lost">τος</supplied></w></rs> <supplied reason="lost">τὸ</supplied> <w lemma="ἀντίγροφον"><supplied reason="lost">ἀ</supplied>ντίγροφον</w>· εὖ οὖν ποιήσετε <w lemma="ἀναγράφω">ἀναγράψαν<lb 
+                        break="no" n="6"/><supplied reason="lost">τες</supplied></w> <supplied reason="lost">ἐς τ</supplied>ὰν στωιὰν καὶ ὑμέν· <w lemma="ἀναγράφω">ἀνεγράψαμεν</w>
+                          <lb n="7"/>γὰ<supplied reason="lost">ρ κ</supplied>αὶ ἁμὲν ἐν <w lemma="στάλα">στάλαι</w> λιθίναι καὶ <w lemma="τίθημι">ἐθήκαμεν</w>
+                          <lb n="8"/>ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#knossos"><w lemma="ἱαρόν">ἱαρῶι</w> τῶ <persName type="divine" key="Apollo Delphidios">Ἀπέλλωνος τῶ Δελφιδίω</persName></rs>. <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                          <lb n="9"/><rs type="institution" subtype="tribe" role="eponym" key="Archeia" ref="#knossos">ἐπὶ τᾶς <w lemma="Ἀρχήια">Ἀρχήιας</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos"><w lemma="κοσμέω">κοσμιόντων</w> τῶν σὺν <persName type="attested" key="Zoarchos"><name nymRef="Ζώαρχος">Ζω<lb 
+                        break="no" n="10"/>άρχωι</name></persName></rs> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#knossos" type="ethnic">Κνωσί<supplied reason="lost">ω</supplied>ν</placeName> <supplied reason="lost">τ</supplied>οῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσ<supplied reason="lost">μοις</supplied></w></rs> καὶ
+                          <lb n="11"/>τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλι</w></rs>· <persName type="honoured" key="Thiogeiton f. Simos" ref="#magnesia"><name nymRef="Θιογείτων">Θιογείτονα</name> <name nymRef="Σῖμος" type="patronymic">Σίμω</name></persName>, <persName type="honoured" key="Iophon f. Iophon" ref="#magnesia"><name nymRef="Ἰοφῶν">Ἰοφ<supplied reason="lost">ῶντα</supplied></name> <name nymRef="Ἰοφῶν" type="patronymic"><supplied reason="lost">Ἰο</supplied><lb 
+                        break="no" n="12"/>φῶντος</name></persName> <placeName ref="#magnesia" type="ethnic">Μάγνητας ἀπὸ Μαιάνδρω</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#knossos"><w lemma="πρόξενος">π<supplied reason="lost">ρο</supplied>ξένονς</w></rs>
+                          <lb n="13"/>ἦμεν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#knossos"><w lemma="εὐεργέτας">εὐεργέτανς</w></rs> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> αὐτὸνς καὶ <w lemma="ἔγγονος">ἐγγό<lb 
+                        break="no" n="14"/>νος</w> καὶ <w lemma="μετέχω">μετέχεν</w> <w lemma="θεῖος">θείων</w> <w lemma="ἀνθρώπινος">κἀνθρωπίνων</w> ἐς τὸν
+                          <lb n="15"/>πάντα χρόνον, ὧν καὶ αὐτοὶ <placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName> <w lemma="μετέχω">μετέχοντι</w>·
+                          <lb n="16"/>ἦμεν δὲ καὶ <w lemma="ἐσπλέω">ἔσπλουν</w> κα<supplied reason="lost">ὶ</supplied> <w lemma="ἐκπλέω">ἔκπλουν</w> καὶ πολέμω
+                          <lb n="17"/>καὶ εἰρήνας αὐτοῖς καὶ <w lemma="ἔγγονος">ἐγγόνοις</w> καὶ <w lemma="χρήματα">χρήμασι</w>
+                          <lb n="18"/>τοῖς τούτων <w lemma="ἀσυλεί">ἀσυλεὶ</w> καὶ ἀσπονδεὶ καὶ κατὰ γᾶν
+                          <lb n="19"/>καὶ κατὰ θάλασσαν.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La lettera, di cui si è conservata solo la sezione finale (ll. 1-8), precede il decreto per la quale funge da accompagnamento e include al proprio interno indicazioni relative alla pubblicazione dello <foreign>psaphisma</foreign>: i magistrati di Knossos richiedono a Magnesia di iscrivere il testo nella propria <foreign>stoa</foreign>, affermando di averne già fatto collocare una copia nel santuario di Apollo <foreign>Delphidios</foreign>.</p>
+                    <p>Il decreto, separato dall’epistola, si apre alle linee 9-10 con la datazione, nella quale vengono menzionati la tribù in carica, <foreign>Archeia</foreign> (nota in relazione a Knossos anche da <ref type="ins" target="#seg_33_729"><title>SEG</title> 33.729</ref>), e il cosmo eponimo Zoarchos. La formula di sanzione, immediatamente successiva, mostra i cosmi e la <foreign>polis</foreign> di Knossos come responsabili della decisione, analogamente a quanto avviene negli altri decreti della città (<ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>, <ref type="ins" target="#ic1_8_9">9</ref>, <ref type="ins" target="#ic1_8_11">11</ref>-<ref type="ins" target="#ic1_8_12">12</ref>, <ref type="ins" target="#ic1_8_14">14</ref>).</p>
+                    <p>L’oggetto del decreto, esposto alle linee 11-19, prevede più concessioni effettuate nei confronti di due cittadini di Magnesia e dei loro discendenti, fra cui la prossenia e l’<foreign>euergesia</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, tribù (<ref type="inst" target="#archeia"><foreign>Archeia</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib109"><title>I.Magnesia</title></ref> 67</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5155</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 10* <ptr type="phi" target="199128"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib56"><title>Magnesia</title></ref> 116 + 36</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

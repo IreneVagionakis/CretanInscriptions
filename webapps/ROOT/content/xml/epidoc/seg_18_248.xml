@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lettera della Lega Etolica ad Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 18.248</idno>
+                        <idno type="projectNo">137</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delphi">portico degli Ateniesi, Delfi</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#letter">lettera</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delphi">Delfi, portico degli Ateniesi</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0210" notAfter="-0190">200 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" atLeast="10" atMost="12" unit="character" precision="low"/> <supplied reason="lost">εὐερ</supplied><unclear>γ</unclear>έτη<unclear>κ</unclear><supplied reason="lost">ε</supplied>· καὶ γὰρ ἃ μὲν <unclear>παρα</unclear><gap reason="lost" atLeast="8" atMost="10" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">τούτ</supplied><unclear>οις</unclear> τε τ<unclear>ὰ</unclear><supplied reason="lost">μ π</supplied><unclear>ο</unclear>λιτείαν δίδομεν, καὶ προϊστάμεθα ὅπ<unclear>ω</unclear><supplied reason="lost">ς</supplied>
+                          <lb n="3"/>ὑπὸ μηδενὸς ἀδικ<unclear>έω</unclear>νται κατὰ μηδένα τρόπον πράσσοντος·
+                          <lb n="4"/>ἃ πάντα καὶ κοινᾶι καὶ ἰδίαι κατάξια ποιήσομεν τᾶς ὑπὸ τῶν
+                          <lb n="5"/><w lemma="πρόγονος">προγόνων</w> παραδεδομένας ἁμῖν <w lemma="συγγένεια">συγγενείας</w>. <space quantity="3" unit="character"/> <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, un’epistola inviata dagli Etoli ad Axos, è stato identificato da Jean Bousquet come la risposta fornita dai primi alla lettera di Axos <ref type="ins" target="#ic2_5_19"><title>IC</title> II 5 19</ref>, in cui la città cretese domandava la concessione della <foreign>koinopoliteia</foreign> etolica a quattro propri cittadini stanziati ad Anfissa. Sebbene il testo sia frammentario, dalla linea 2 della risposta degli Etoli si evince che la richiesta di Axos è stata accolta: costoro affermano infatti di concedere loro (<foreign>i.e.</foreign> ai cittadini di Axos) la <foreign>politeia</foreign>, come previsto verosimilmente dal preesistente trattato di <foreign>isopoliteia</foreign> fra Axos e la Lega Etolica <ref type="ins" target="#ic2_5_18"><title>IC</title> II 5 18</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: nessuno nello specifico.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib27"><title>FD</title> III</ref> 3 117</bibl>; 
+                            <bibl><ref target="#b187">Bousquet 1960</ref>, pp. 161-164</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 18.248 <ptr type="seg" target="a18_248"/></bibl>); 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 14</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

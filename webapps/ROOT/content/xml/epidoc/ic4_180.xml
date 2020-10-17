@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Gortyna e un’altra città</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 180</idno>
+                        <idno type="projectNo">312</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#pillar">pilastro</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><orig>ιοασια</orig><gap reason="lost" quantity="3" unit="character"/> ἀνα<supplied reason="lost">λ</supplied>αμβανέσθωσ<unclear>α</unclear>ν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><unclear>τ</unclear>ῶν δ’ ἐκ τῆς πολεμίας ὠ<supplied reason="lost">φ</supplied>ελιῶ<unclear>ν</unclear>, ὅσα μὲν ἂν ἐξοδεύσαντες
+                          <lb n="3"/>κοινῆι τῶν <rs type="institution" subtype="board" role="war" key="archon" ref="#gortyn"><w lemma="ἄρχων">ἀρχόντων</w></rs> τινὸς <w lemma="ἡγέομαι">ἡγουμένου</w> λαμβάνωσιν, γινέ<lb 
+                        break="no" n="4"/>σθωι τῶν <w lemma="ἐπικαλέω">ἐπικαλεσαμένων</w> τὴμ <w lemma="βοήθεια">βοήθειαν</w>, τὰ δ’ ἰδίαι ληφθέν<lb 
+                        break="no" n="5"/>τα κ<supplied reason="lost">ατ</supplied>εχέτωσαν ἰδίαι· τὰ δὲ <unclear>τ</unclear>έλη πάντων τὰ ἐν ταῖς <rs type="institution" subtype="assembly" role="payments" key="polis" ref="#gortyn"><w lemma="πόλις">πόλε<lb 
+                        break="no" n="6"/>σι<unclear>ν</unclear></w></rs> <surplus>ε</surplus>τεταγμέν<unclear>α</unclear> ὅσα ἂν <w lemma="σῶμα">σώμ<supplied reason="lost">α</supplied>τα</w> ληφθέντ<unclear>α</unclear> παρ’ ὁποτέρων
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato, relativo alla spartizone del bottino di guerra, è stipulato da Gortyna e un’altra <foreign>polis</foreign> di cui non si è conservato il nome. Il termine ἀρχόντων alla linea 3, a Gortyna impiegato in quest’unica iscrizione, sembra indicare in modo generico i magistrati delle due città, uno dei quali è a capo della spedizione (in altri testi di Gortyna compaiono invece ἀρκός – indicante il capo dell’<foreign>andreion</foreign> – in <ref type="ins" target="#ic4_75"><title>IC</title> IV 75</ref> e ἀρχῶ – forse come equivalente di protocosmo – in <ref type="ins" target="#ic4_250"><title>IC</title> IV 250</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#archon"><foreign>archon</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 311-316 n. 17</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 180 <ptr type="phi" target="200619"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 46</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b613">Fernández Nieto 2003</ref>, p. 363</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

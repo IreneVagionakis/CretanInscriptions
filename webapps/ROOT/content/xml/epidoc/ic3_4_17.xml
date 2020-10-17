@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di Itanos (?) per un suo patrono</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 17</idno>
+                        <idno type="projectNo">529</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#erimoupoli">Erimoupoli, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica votiva/onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ</supplied>ν ἑ<unclear>αυτ</unclear>ᾶς <rs type="institution" subtype="social_status" role="dedicatee" key="patron" ref="#itanos"><w lemma="πάτρων">πάτρων<unclear>α</unclear></w></rs>
+                          <lb n="2"/><w lemma="ἀνδραγαθία"><supplied reason="lost">ἀνδ</supplied>ραγαθίας</w> ἕνεκα <w lemma="θεός">θεοῖς</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, iscritta forse su una base di statua, commemora la consacrazione della stessa agli dèi in favore di un individuo distintosi per la propria <foreign>andragathia</foreign>. Il personaggio, il cui nome è andato perduto, è connotato come patrono del dedicante attraverso il ricorso alla formulazione [τὸ]ν ἑαυτᾶς πάτρωνα che, con alcune varianti, a Creta è impiegata anche in altre due iscrizioni della tarda età ellenistica o della prima età imperiale (il decreto onorario emanato dalla <foreign>polis</foreign> di Gortyna <ref type="ins" target="#ic4_293"><title>IC</title> IV 293</ref> e la dedica votiva della <foreign>polis</foreign> di Lappa <ref type="ins" target="#seg_57_847"><title>SEG</title> 57.847</ref>; cf. inoltre le due dediche onorarie di Lyttos del II secolo d.C. <ref type="ins"><title>IC</title> I 18 55</ref> e <ref type="ins">58</ref>, in cui compaiono rispettivamente τὸν ἑαυτοῦ πάτρωνα e τὸν ἴδιον πάτρωνα). La presenza del femminile ἑαυτᾶς rende molto probabile che il dedicante sia la <foreign>polis</foreign> di Itanos, analogamente a quanto avviene in <ref type="ins" target="#ic4_293"><title>IC</title> IV 293</ref> e <ref type="ins" target="#seg_57_847"><title>SEG</title> 57.847</ref> per Gortyna e Lappa, sebbene non sia da escludere che possa trattarsi di una donna.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#patron"><foreign>patron</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 17 <ptr type="phi" target="200320"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title><foreign>Sanatio</foreign> da Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 7</idno>
+                        <idno type="projectNo">230</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#sanatio"><foreign>sanatio</foreign></summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0100">fine II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="0a"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ιιιολ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ιον</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>οο</unclear>α<unclear>ι</unclear>α</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="illegible" quantity="5" unit="character"/> τῶ <persName type="divine" key="Nymphai">Νυνφᾶν</persName> καὶ <persName type="divine" key="Acheloios">Ἀχελώιω</persName> <gap reason="illegible" quantity="5" unit="character"/>
+                          <lb n="2"/><gap reason="illegible" quantity="5" unit="character"/> ὁπῆ οἱ <rs type="institution" subtype="social_group" role="sacrifices" key="polisE" ref="#lebena"><placeName ref="#lebena" type="ethnic">Λεβηναῖοι</placeName></rs> ἔτι καὶ νῦν <w lemma="θύω">θύο<lb 
+                        break="no" n="3"/><supplied reason="lost">ντι</supplied></w> <supplied reason="lost">κ</supplied>ατὸς <w lemma="ἀρχαῖος">ἀρχαίος</w> <rs type="institution" subtype="object" role="law" key="nomos" ref="#lebena"><w lemma="νόμος">νόμος</w></rs> <persName type="divine" key="Acheloios">Ἀχελώιω<lb 
+                        break="no" n="4"/><supplied reason="lost">ι</supplied></persName> <supplied reason="lost">μὲν</supplied> χοῖρον, <persName type="divine" key="Nymphai">Νύνφαις</persName> δὲ ἔριφον αν<lb 
+                        break="no" n="5"/><gap reason="illegible" quantity="5" unit="character"/><orig>εταν</orig><gap reason="illegible" quantity="4" unit="character"/><orig>αν<unclear>ε</unclear>λλλ</orig><gap reason="illegible" quantity="3" unit="character"/><orig>ι</orig> ὅτι ὁ <persName type="divine" key="Asklepios">Ἀ<lb 
+                        break="no" n="6"/><supplied reason="lost">σκλα</supplied>πιὸς</persName> ἐξ <placeName ref="#epidauros">Ἐπιδαύρ<corr>ω</corr></placeName> ἐς <placeName ref="#lebena" type="ethnic">Λεβην<lb 
+                        break="no" n="7"/><supplied reason="lost">αίος</supplied></placeName> <w lemma="ἀποστέλλω">ἀ<unclear>π</unclear><supplied reason="lost">έστ</supplied>α<supplied reason="lost">λ</supplied>κε</w> και<gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ε</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig>π<unclear>ε</unclear></orig><gap reason="illegible" quantity="2" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig>θει</orig><gap reason="lost" extent="unknown" unit="character"/><orig>αι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig>πολ</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ιλυκια<unclear>γ</unclear>ι</orig><gap reason="illegible" quantity="3" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>αι <w lemma="προστάσσω">προσέ<supplied reason="lost">τ</supplied>αξε</w> ὁ <w lemma="θιός">θιὸς</w> κα<gap reason="illegible" quantity="4" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><orig>ν</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>θ<unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig>π</orig>
+                          <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento – che Milena Melfi considera come parte di un mito di fondazione dell’<foreign>Asklepieion</foreign> assieme ai testi <ref type="ins" target="#ic1_17_8"><title>IC</title> I 17 8</ref> e <ref type="ins" target="#ic1_17_10">10</ref> – è particolarmente significativo in quanto offre l’unica attestazione nota dell’etnico collettivo Λεβηναῖοι, sulla base del quale è possibile ipotizzare uno <foreign>status</foreign> di <foreign>polis</foreign> per Lebena (cf. <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, p. 1174</bibl>).
+                            Il documento, inoltre, attesta l’esistenza a Lebena del culto delle Ninfe e di Acheloo, anteriore rispetto a quello di Asclepio ma ancora vivo al tempo della redazione dell’iscrizione: a tali divinità, infatti, i Lebenei avrebbero offerto sacrifici ancora alla fine del II secolo a.C. secondo quanto previsto da leggi antiche (l. 3), evidentemente leggi sacre del santuario.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 727-730 n. 179</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5086</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 7 <ptr type="phi" target="199271"/></bibl>; 
+                            <bibl><ref target="#b289">Chaniotis 1988</ref>, T11</bibl>;
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 82</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 10C</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1670">Savelkoul 1985-1986</ref>, pp. 49-50</bibl>; 
+                            <bibl><ref target="#b136">Bile 1991</ref></bibl>;
+                            <bibl><ref target="#b1718">Sineux 2006</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

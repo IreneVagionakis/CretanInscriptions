@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria da Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 251</idno>
+                        <idno type="projectNo">361</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#measuring_table">mensa ponderaria</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#gortyn" cert="low">ἐπὶ <persName type="attested" key="Kydas f. Kydas (1)"><name nymRef="Κύδας">Κύδαντος</name> <space extent="unknown" unit="character"/> τῶ <name nymRef="Κύδας" type="patronymic">Κ<supplied reason="lost">ύδαντος</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn" cert="low"><persName type="attested" key="Zenas f. Apellonios"><name nymRef="Ζηνᾶς">Ζηνᾶς</name> <name nymRef="Ἀπελλώνιος" type="patronymic">Ἀπελλωνίω</name></persName></rs> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>τᾶς <w lemma="ἐπισκευά">ἐπισκευᾶς</w> τῶ <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><rs type="institution" subtype="official" role="incumbent" key="mnamon" ref="#gortyn"><w lemma="μνάμων">μνάμων</w></rs> <space extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="incumbent" key="agoranomos" ref="#gortyn"><w part="I" lemma="ἀγορανόμος">ἀγορανομ<gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="5"/>τας <space extent="unknown" unit="character"/> <persName type="attested" key="Iason f. Kan-"><name nymRef="Ἰάσων">Ἰάσων</name> <space extent="unknown" unit="character"/> <name nymRef="Καν-" type="patronymic">Καν<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, relativa ad un restauro, si apre con una datazione eponimica che ricorda il magistrato Kydas figlio di Kydas, molto probabilmente un cosmo (come nei documenti analoghi <ref type="ins" target="#ic4_259"><title>IC</title> IV 259-261</ref> e <ref type="ins" target="#ic1_17_4"><title>IC</title> I 17 4</ref> A e B, <ref type="ins" target="#ic1_17_5">5</ref>, <ref type="ins" target="#ic1_17_6">6</ref> e <ref type="ins" target="#ic1_17_38">38</ref>; sull’individuo cf. <bibl><ref target="#b315">Chaniotis 2000a</ref></bibl>); è verosimile che la datazione fosse seguita dalla lista dei cosmi in carica, come avviene in <ref type="ins" target="#ic4_259"><title>IC</title> IV 259-261</ref>: in tal caso l’individuo menzionato alla linea 2, Zenas figlio di Apellonios, sarebbe dunque da identificare come uno di loro.</p>
+                    <p>Lo <foreign>mnamon</foreign> attestato alla linea 4 è verosimile che sia uno <foreign>mnamon</foreign> dei cosmi, figura nota solo a Gortyna e attestatavi nelle iscrizioni edificatorie <ref type="ins" target="#ic4_260"><title>IC</title> IV 260</ref>-<ref type="ins" target="#ic4_261">261</ref>, oltre che forse nella dedica <ref type="ins" target="#seg_48_1209"><title>SEG</title> 48.1209</ref>.</p>
+                    <p>Alle linee 4-5 vengono infine ricordati gli (ex?) <foreign>agoranomoi</foreign>, fra cui Iason figlio di Kan-, verosimilmente come dedicanti: a Creta il loro collegio, noto solamente a Gortyna, compare infatti in tale ruolo in più dediche (<ref type="ins" target="#ic4_250"><title>IC</title> IV 250</ref>, <ref type="ins" target="#ic4_251">251</ref>, <ref type="ins" target="#ic4_252">252</ref>, forse <ref type="ins" target="#ic4_253">253</ref>, <ref type="ins" target="#ic4_254">254</ref>, <ref type="ins" target="#ic3_4_44"><title>IC</title> III 4 44</ref>, <ref type="ins" target="#seg_51_1141"><title>SEG</title> 51.1141</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agoranomos"><foreign>agoranomos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#mnamon"><foreign>mnamon</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b839">Halbherr 1889</ref>, pp. 63-65</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 251 <ptr type="phi" target="200693"/></bibl>; 
+                            <bibl><ref target="#b1636">Rouanet-Liesenfelt 1984</ref></bibl>; 
+                            <bibl><ref target="#b315">Chaniotis 2000a</ref>, pp. 57-58</bibl>; 
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, pp. 127-128</bibl>; 
+                            <bibl><ref target="#b1440">Pałuchowski 2005b</ref>, p. 56 n. b</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1439">Pałuchowski 2005a</ref>, pp. 428-429</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

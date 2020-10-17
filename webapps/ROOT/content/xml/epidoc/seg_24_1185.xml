@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaffio di un ambasciatore di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 24.1185</idno>
+                        <idno type="projectNo">018</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#athens_national_museum">Museo Nazionale, Atene</repository>
+                        <idno type="invNo">2567</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#hydria">idria funeraria di tipo Hadra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#alexandria">Alessandria, necropoli Hadra</origPlace>
+                            <origDate period="#hellenistic" when="-0229">229 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><supplied reason="lost"><g type="year"/></supplied> <num value="18"><unclear>ι</unclear>η</num>, Περιτίου <num value="11">ια</num>,
+                        <lb n="2"/><supplied reason="lost">διὰ Σ</supplied>αραπίωνος
+                        <lb n="3"/><rs type="institution" subtype="official" role="dedicatee_deceased" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="-r- f. Menon"><name nymRef="-ρ-"><gap reason="lost" quantity="4" unit="character"/>ρ<gap reason="lost" quantity="5" unit="character"/></name> <name nymRef="Μένων" type="patronymic">Μένωνος</name></persName>
+                        <lb n="4"/><placeName ref="#polyrrhenia" type="ethnic"><supplied reason="lost">Πολ</supplied>υρήνιος</placeName>, 
+                        <lb n="5"/><w lemma="πρεσβευτής"><supplied reason="lost">πρε</supplied>σβε<supplied reason="lost">υ</supplied>τής</w></rs>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="4"><note><supplied reason="lost">Πολ</supplied>υρήνιος <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>, <bibl><ref target="#b559">Enklaar</ref></bibl>, <bibl><ref target="#bib40"><title>I.Polyr.</title></ref></bibl>; Κυρηνίο<supplied reason="lost">υ</supplied> <bibl><ref target="#b1430">Pagenstecher</ref></bibl>, <bibl><ref target="#bib31"><title>SB</title></ref></bibl>, <bibl><ref target="#b397">Cook</ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>L’idria, come quella del concittadino Battos (<ref type="ins" target="#sb_3999"><title>SB</title> 3999</ref>), appartiene alla serie di urne funerarie alessandrine – di probabile fattura cretese – destinate ai personaggi illustri stranieri deceduti durante la propria permanenza nella città egiziana (sulla classe vascolare di tipo Hadra cf. <bibl><ref target="#b397">Cook 1966</ref></bibl>, <bibl><ref target="#b559">Enklaar 1992</ref></bibl>, <bibl><ref target="#b560">Enklaar 1998</ref></bibl>). L’individuo, un ambasciatore, è l’unico cretese occidentale della serie di cui è noto con certezza il ruolo che lo ha spinto a recarsi ad Alessandria; per converso le circostanze della sua visita, avvenuta nel diciottesimo anno di regno di Tolemeo III Evergete, sono oscure.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1430">Pagenstecher 1909</ref>, p. 406 n. 2, tav. IX n. 2</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib31"><title>SB</title></ref> 1676</bibl>; 
+                    <bibl><ref target="#b397">Cook 1966</ref>, pp. 8-9, nota 7</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 24.1185 <ptr type="phi" target="223388"/></bibl>); 
+                    <bibl><ref target="#b559">Enklaar 1992</ref>, n. 14</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 55.1780</bibl>); 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> p. 51 n. 2.7</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1967.662</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

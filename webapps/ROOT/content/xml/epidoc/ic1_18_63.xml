@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria (?) da Lyttos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 18 63</idno>
+                        <idno type="projectNo">195</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription" cert="low">iscrizione edificatoria?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lyttos">Lyttos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#lyttos" cert="low"><persName type="attested" key="Kyrnios f. Komastas"><name nymRef="Κύρνιος">Κύρνιος</name>
+                          <lb n="2"/><name nymRef="Κωμάστας" type="patronymic">Κωμάστα</name></persName></rs>
+                          <lb n="3"/>τὸ <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’individuo menzionato nel frammento, Kyrnios figlio di Komastas, sembrerebbe essere stato per più volte un magistrato eponimo di Lyttos, verosimilmente un cosmo (a Lyttos cosmi eponimi sono attestati in <ref type="ins" target="#ic1_18_8"><title>IC</title> I 18 8</ref>, <ref type="ins" target="#ic1_18_9">9</ref> A, <ref type="ins" target="#ic1_18_12">12</ref>-<ref type="ins" target="#ic1_18_13">13</ref>, <ref type="ins" target="#ic1_18_61">61</ref>, <ref type="ins" target="#seg_45_1528"><title>SEG</title> 45.1528</ref> e forse <ref type="ins" target="#seg_41_770"><title>SEG</title> 41.770</ref> e <ref type="ins" target="#seg_50_937"><title>SEG</title> 50.937</ref>): così farebbe pensare l’articolo alla linea 3, che doveva probabilmente essere seguito da un ordinale indicante il numero di volte che la carica era stata detenuta (cf. <bibl><ref target="#bib1"><title>IC</title> I</ref>, p. 207</bibl>). Il nome Komastas, inoltre, ad eccezione della sua occorrenza in <ref type="ins"><title>IG</title> IV<hi rend="superscript">2</hi>,1 64</ref>, è noto esclusivamente a Lyttos all’interno dell’onomastica di cosmi eponimi e protocosmi: è infatti il patronimico del protocosmo del 113/114 d.C. (<ref type="ins"><title>IC</title> I 18 32-36</ref>) e di quello del 107/108 d.C. (<ref type="ins"><title>IC</title> I 18 19-21</ref>), oltre che dei cosmi eponimi menzionati in <ref type="ins" target="#ic1_18_12"><title>IC</title> I 18 12-13</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 2580</bibl>;
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 18 63 <ptr type="phi" target="199391"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

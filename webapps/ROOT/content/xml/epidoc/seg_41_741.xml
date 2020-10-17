@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Eleutherna e Phaistos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 41.741</idno>
+                        <idno type="projectNo">105</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 131</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0250" notAfter="-0230" precision="low">250-230 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> τῶι <placeName ref="#phaistos" type="ethnic">Φαιστίωι</placeName> ἄνευ τῶν <placeName ref="#knossos" type="ethnic">Κνωσίω<supplied reason="lost">ν</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><orig>εν</orig> τοὺς <placeName ref="#eleutherna" type="ethnic">Ἐλευθενναίους</placeName>· πέμπ<supplied reason="lost">εν δὲ τὰν</supplied>
+                          <lb n="3"/><supplied reason="lost"><w lemma="βοάθεια">βοάθειαν</w> καθώ</supplied>ς κα <w lemma="καλέω">καλίωντι</w> ἐς τὸ δυνατόν <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ντων</orig> δὲ αὐτῶν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> ὅ τι δὲ συν<supplied reason="lost">δό</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">ξηι ἀμφοτέραις ταῖς</supplied> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#phaistos"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#eleutherna"><w lemma="πόλις"><supplied reason="lost">π</supplied>όλεσι</w></rs></rs> <w lemma="ἐντίθημι">ἐνθέμεν</w> ὕστερον κοινᾶι
+                          <lb n="7"/><supplied reason="lost">βωλευσαμέναις, τοῦτο</supplied> ἔνθινον ἦμεν. αἰ δὲ <supplied reason="lost">τάδε</supplied> μὴ κατ<supplied reason="lost">έ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">χοιεν, πάντας τε <w lemma="θεός">θεοὺς</w></supplied> ἐμμανίας ἦμεν οὓς <w lemma="ὀμνύω">ὤμοσαν</w>
+                          <lb n="9"/><supplied reason="lost">καὶ κακίστωι ὀλέθρ</supplied>ωι ἐξόλλυσθαι αὐτούς τε καὶ <w lemma="γενιά">γε<lb 
+                        break="no" n="10"/><supplied reason="lost">νιὰν</supplied></w> <supplied reason="lost">αὐτῶν καὶ μήτε γᾶ</supplied> καρπὸν φέροι μήτε πρόβατα
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μήτε <w lemma="γυνά">γυναῖκας</w> τίκτε</supplied>ν κατὰ φύσιν τῶι τε πολέμ<lb 
+                        break="no" n="12"/><supplied reason="lost">ωι νικῆσθαι <w lemma="εὐορκέω">εὐορκίονσι</w> δ</supplied>ὲ τῶι τε πολέμωι νικῆν κ<lb 
+                        break="no" n="13"/><supplied reason="lost">αὶ πολλὰ κἀγαθὰ ἦμεν</supplied>.
+                          <lb n="13a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento costituisce la sezione conclusiva di un trattato fra Eleutherna e Phaistos, nel quale è coinvolta in qualche modo anche Knossos (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, pp. 206-207</bibl>). I due contraenti dell’accordo vengono definiti come <foreign>poleis</foreign> alla linea 6, in relazione all’attività decisionale esercitata congiuntamente da entrambe le città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1929">Van Effenterre <foreign>et al.</foreign> 1991</ref>, pp. 24-26 n. E3</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 41.741 <ptr type="phi" target="202103"/> <ptr type="seg" target="a41_741"/></bibl>); 
+                            <bibl><ref target="#b306">Chaniotis 1995a</ref>, pp. 27-31 n. 3 <ptr type="phi" target="202104"/></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 10 <ptr type="phi" target="201275"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 131<ptr type="thetima" target="e131"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

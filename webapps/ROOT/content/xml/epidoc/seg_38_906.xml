@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Gortyna per un cittadino di Samo</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 38.906</idno>
+                        <idno type="projectNo">324</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Nikomachos f. Krates"><name nymRef="Νικόμαχος">Νικόμαχος</name>
+                          <lb n="2"/><name nymRef="Κράτης" type="patronymic">Κράτητος</name>
+                          <lb n="3"/><placeName ref="#samos" type="ethnic">Σάμιος</placeName></persName>
+                          <lb n="4"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs>
+                          <lb n="5"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενον</w></rs>
+                          <lb n="6"/>αὐτὸς καὶ
+                          <lb n="7"/><w lemma="ἔγονος">ἔγονοι</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario si presenta nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva solamente del nome dell’onorato, un cittadino di Samo, e della tipologia di onore conferitogli, consistente in queso caso nella prossenia, la concessione più frequente nella città. Il testo, inoltre, contiene il ricordo della <foreign>polis</foreign> attraverso l’uso dell’etnico collettivo cittadino, impiegato come specificazione dell’onore conferito per compensare forse la mancata menzione delle entità istituzionali responsabili della decisione, come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b684">Gasperini 1988</ref>, pp. 331-333</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 38.906 <ptr type="phi" target="202042"/> <ptr type="seg" target="a38_900_909"/></bibl>); 
+                            <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 12</bibl>; 
+                            <bibl><ref target="#b1169">Magnelli 2008</ref>, pp. 278-279 n. 12</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

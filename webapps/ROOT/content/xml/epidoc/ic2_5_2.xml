@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 2</idno>
+                        <idno type="projectNo">117</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos, acropoli</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0500">525-500 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ον<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> δὲ τέκνα<unclear>ς</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ο</unclear>ια <w lemma="πάστας">πάσταν</w> ἰ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>μεν τὰ <w lemma="θῖνος">θῖνα</w> <unclear>κ</unclear>αὶ ἰ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ιηιο <g type="|"/> μη<unclear>δ</unclear>’ ὀνυ<unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>τος ἤμεν ἐλθε͂ν <g type="|"/> ἐδ<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>εν καταμετρε͂ν <g type="|"/> <unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>πλίας <g type="|"/> αἰ λέοι ὀ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>α<unclear>λ</unclear>ε τὸ <w lemma="ϝέργον">ϝέργον</w> ἀν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>ον <g type="|"/> ἀβλοπία <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>εν τον τεκ<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">α</supplied><unclear>ἰ</unclear> <unclear>λ</unclear>έοι ἐπο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge sembra regolamentare un’attività lavorativa (l. 9, ϝέργον), probabilmente implicante una manodopera servile (l. 3, πάσταν, «padrone»). Alla linea 4 occorre il significativo termine <foreign>thina</foreign>, che a Creta è abitualmente accostato ad <foreign>anthropina</foreign> per designare la dualità religiosa e ‘civile’ della vita pubblica delle <foreign>poleis</foreign> (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 47-50</bibl>); in questo contesto potrebbe dunque riferirsi forse alla possibilità accordata ai lavoratori di condizione servile di prendere parte alla vita pubblica della città di Axos al pari dei cittadini.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <foreign>thina</foreign>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b377">Comparetti 1888</ref>, pp. 139-142 n. 3</bibl>; 
+                            <bibl><ref target="#b384">Comparetti 1893a</ref>, pp. 395-398 n. 184</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5125B</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 2 <ptr type="phi" target="199763"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 28</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> A2</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 102*</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

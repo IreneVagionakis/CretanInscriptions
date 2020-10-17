@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica di uno <foreign>hieromnamon</foreign> (?) di Lissos</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 45.1317</idno>
+                        <idno type="projectNo">061</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lissos_asklepieion">Lissos, <foreign>Asklepieion</foreign></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#epistyle">architrave</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#lissos">Lissos, <foreign>Asklepieion</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><supplied reason="lost">ἐκ τῶν</supplied> <rs type="institution" subtype="object" role="funds" key="hieromnamonika_chremata" ref="#lissos"><w lemma="ἱερομναμονικὰ χρήματα">ἱερομναμονι<supplied reason="lost" cert="low">κῶν χρημάτων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/><orig>τιμω</orig><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἵστημι">ἔστασε</w> <w lemma="ἀελιδρόμος">ἀελιδρόμο<corr>ν</corr></w> <rs type="institution" subtype="official" role="builder" key="hieromnamon" ref="#lissos" cert="low"><persName type="attested" key="Sositimos"><name nymRef="Σωσίτιμος">Σωσίτιμος</name></persName></rs>.
+                </ab>
+            </div>            
+            <div type="apparatus">
+                <p>
+                    <app loc="1"><note><supplied reason="lost">ἐκ τῶν</supplied> ἱερομναμονι<supplied reason="lost" cert="low">κῶν χρημάτων</supplied> Chaniotis in <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; ἱερομνάμονι<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#b1554">Platon</ref></bibl>, <bibl><ref target="#b453">Daux</ref></bibl>, <bibl><ref target="#b213">Bultrighini</ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>L’offerta oggetto della dedica, l’ἀελιδρόμος, letteralmente «messaggero del Sole», sembrerebbe essere una meridiana sulla base del parallelo del σεληνοδρόμιον, attestato nel papiro di età imperiale <ref type="pap"><title>P.Kellis</title> I 82</ref> con il significato di orbita lunare (cf. <bibl><ref target="#b909">Hoogendijk 1996</ref></bibl>, <bibl><ref target="#b514">Diethart 1998</ref>, p. 175</bibl>; sull’ἀελιδρόμος cf. <bibl><ref target="#b294">Chaniotis 1989</ref></bibl>). Sositimos, sia che abbia compiuto l’offerta mentre era <foreign>hieromnamon</foreign> sia che l’abbia fatto mediante risorse attinte ἐκ τῶν ἱερομναμονικῶν χρημάτων, al momento della dedica sembra aver occupato in ogni caso una posizione significativa all’interno della gerarchia religiosa del santuario.</p>
+                    <p>Se da un lato la documentazione epigrafica cretese non fornisce alcuna occorrenza certa degli <foreign>hieromnamones</foreign>, ben attestati altrove in epoca ellenistica (cf. <bibl><ref target="#b431">D’Alessandro 2011</ref></bibl>), una iscrizione edificatoria tardoellenistica o protoimperiale di Lyttos offre invece uno stretto parallelo di ricorso agli <foreign>hieromnamonika chremata</foreign> per il restauro di un tempio (<ref type="ins" target="#ic1_18_12"><title>IC</title> I 18 12</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hieromnamon"><foreign>hieromnamon</foreign></ref> o <ref type="inst" target="#funds"><foreign>hieromnamonika chremata</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1554">Platon 1959</ref>, p. 377</bibl>; 
+                    <bibl><ref target="#b453">Daux 1960</ref>, p. 852</bibl>; 
+                    <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 106</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 45.1317 <ptr type="phi" target="202225"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b294">Chaniotis 1989</ref>, p. 79</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

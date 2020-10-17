@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Aptera per Cretesi</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 3 11</idno>
+                        <idno type="projectNo">049</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">                     
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="- f. -os"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="-ος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ω</name>
+                          <lb n="2"/><placeName ref="#apollonia" type="ethnic"><supplied reason="lost">Ἀπο</supplied>λλωνιάτας</placeName></persName>
+                          <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος"><supplied reason="lost">π</supplied><unclear>ρ</unclear>όξενος</w></rs> αὐτὸς
+                          <lb n="4"/><supplied reason="lost">κ</supplied>αὶ <w lemma="ἔγγονος">ἔγγονοι</w>.
+                          <lb n="4a"/><space quantity="1" unit="line"/>
+                          <lb n="5"/><supplied reason="lost">Π</supplied>τολεμαῖος.
+                        </ab>
+                    </div>                        
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Moschos f. -teas"><name nymRef="Μόσχος">Μόσχ<supplied reason="lost">ος</supplied></name> <name nymRef="-τεας" type="patronymic"><gap reason="lost" quantity="1" unit="character"/><unclear>τ</unclear>α<gap reason="lost" extent="unknown" unit="character"/><lb  
+                              break="no" n="2"/>τέα</name> <placeName ref="#knossos" type="ethnic">Κνώσιος</placeName></persName>
+                          <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="4"/>αὐτὸς καὶ <w lemma="ἔγγονος">ἔ<unclear>γ</unclear><lb 
+                              break="no" n="5"/>γονοι</w>.
+                        </ab>
+                    </div>                        
+                        <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Damatrios f. Euphron" ref="#herakleion"><name nymRef="Δαμάτριος"><supplied reason="lost">Δα</supplied>μάτριος</name></persName> καὶ <persName type="honoured" key="Orthonnas f. Euphron" ref="#herakleion"><name nymRef="Ὀρθόννας">Ὀρθόννας</name> <name nymRef="Εὔφρων" type="patronymic">Εὔφρονος</name></persName>
+                          <lb n="2"/><supplied reason="lost">καὶ</supplied> <persName type="honoured" key="Nearchos f. Eunoidas" ref="#herakleion"><name nymRef="Νέαρχος">Νέα<unclear>ρ</unclear>χος</name> <name nymRef="Εὐνοίδας" type="patronymic">Εὐνοΐδα</name></persName> καὶ <persName type="honoured" key="Philon f. Parmen-" ref="#herakleion"><name nymRef="Φίλων">Φίλων</name> <name nymRef="Παρμεν-" type="patronymic">Παρμεν<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                          <lb n="3"/><placeName ref="#herakleion" type="ethnic"><supplied reason="lost">Ἡρακλ</supplied>ειῶται</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενοι</w></rs> αὐτοὶ καὶ <w lemma="ἔκγονος">ἔκγονα</w>.
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Tutti e tre i decreti si presentano in una forma estremamente ellittica che si limita a riportare il nome dell’onorato al nominativo e il tipo di onore conferito, formulazione che ad Aptera è riscontrabile anche nei decreti <ref type="ins" target="#ic2_3_6"><title>IC</title> II 3 6</ref> A-B e D-G, <ref type="ins" target="#ic2_3_7">7</ref>, <ref type="ins" target="#ic2_3_8">8</ref> A-B e <ref type="ins" target="#ic2_3_13">13-15</ref>. Ai cinque individui onorati, tutti di origine cretese, viene concessa la sola prossenia, come nella maggior parte dei decreti onorari di Aptera.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 2559</bibl>; 
+                            <bibl><ref target="#b874">Haussoullier 1879</ref>, pp. 433-434 n. 7</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4947 (C)</bibl>;
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 11 <ptr type="phi" target="199718"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

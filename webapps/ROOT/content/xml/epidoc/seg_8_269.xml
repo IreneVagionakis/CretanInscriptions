@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaffio di un soldato di Anopolis</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 8.269</idno>
+                        <idno type="projectNo">058</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#new_york_rockefeller">Rockefeller Archive Center, New York</repository>
+                        <idno type="invNo">I 9307</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plaque">lastra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#gaza">Gaza</origPlace>
+                            <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/>ἐξ εὐδαιμοσύνης πῦρ ἄγριον ἤλυθεν ὑμέων,
+                        <lb n="2"/>Χαρμάδα, ἔσφηλεν δ’ ἐλπίδα τις νέμεσις.
+                        <lb n="3"/>ὤλετο μὲν κοῦρος <supplied reason="lost">συν</supplied><unclear>ο</unclear>μώνυμος εἴκοσι μούνας
+                        <lb n="4"/>δυσμὰς Ἀρκτούρο<supplied reason="lost">υ χειμε</supplied>ρίας ἐσιδών,
+                        <lb n="5"/>ὤλετο δ’ ἑπταέτις θυγατρὸς θυγάτηρ Κλεόδοξα
+                        <lb n="6"/>Ἀρχαγάθας, γονέων δ’ ἔκλασεν εὐτεκνίην·
+                        <lb n="7"/>οἰκτρὸν δὲ <placeName ref="#aetolia" type="ethnic">Αἰτωλὸς</placeName> κούρην κώκυσε Μάχαιος,
+                        <lb n="8"/>ἀλλὰ πλέον θνητοῖς οὐδὲν ὀδυρομένοις.
+                        <lb n="9"/>ἦ μὴν ἀμφοτέρους γε <persName type="ruler" key="Ptolemaioi">παλαίπλουτοι <w lemma="βασιλεύς">βασιλῆες</w>
+                        <lb n="10"/><placeName ref="#egypt">Αἰγύπτου</placeName></persName> χρυσέαις ἠγλάϊσαν <w lemma="χάρις">χάρισιν</w>·
+                        <lb n="11"/>ὡς δὲ <rs type="institution" subtype="public_space" role="defense" key="polisE" ref="#anopolis"><w lemma="πάτρα">πάτραν</w></rs> δμηθεῖσαν <placeName ref="#anopolis">Ἀνώπολιν</placeName> ἐγ δορὸς ἐχθρῶν
+                        <lb n="12"/>ὤρθωσας, <placeName ref="#crete">Κρήτην</placeName> μαρτυρέουσαν ἔχεις.
+                        <lb n="13"/>μέμψασθαι δὲ <w lemma="θεός">θεοῖς</w> ἀρκεῖ μόνον ἄνδρα γε θνητόν,
+                        <lb n="14"/>ὦ παῖ Τασκομένους, γήραος ὡς χαλεποῦ
+                        <lb n="15"/>ἤντησας, ψυχῆι δὲ τὰ μυρία πάντα πονήσας
+                        <lb n="16"/>ἵκεο τὴν κοινὴν ἀτραπὸν εἰς <persName type="divine" key="Hades">Ἀΐδεω</persName>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’occupazione di Anopolis rammentata nell’epitaffio di Charmadas, avvenuta verosimilmente nel tardo III secolo a.C., potrebbe avere qualche connessione con la fusione fra Anopolis e Araden, spiegabile forse come conquista e annessione della prima per opera della seconda: è possibile che i nemici siano gli abitanti della città vicina, sviluppatasi più tardi di Anopolis ed espansasi a sue spese. Il riferimento alla <foreign>polis</foreign> – intesa in senso spaziale – viene espresso attraverso l’appellativo <foreign>patra</foreign> apposto al nome di Anopolis, scelta effettuata molto probabilmente per evitare la cacofonica figura etimologica derivante dall’accostamento di <foreign>polis</foreign> e Anopolis.</p>
+                    <p>Il raffinato epitaffio offre un’interessante immagine sublimata del mercenariato praticato nella città: Charmadas ha combattuto assieme al genero etolo al soldo dei Tolemei e per giunta – se il plurale βασιλῆες non è solamente <foreign>metri causa</foreign> – sotto almeno due sovrani differenti. Le χρυσέαις χάρισιν con cui i regnanti ricompensano i due Cretesi è probabile che alludano più che a particolari doni o favori alla paga che costoro hanno ricevuto in quanto soldati. La stele, degli inizi del II secolo a.C., è difficilmente databile con maggior esattezza per via paleografica a causa dello stile che, più che seguire le mode scrittorie che caratterizzano l’incisione su pietra, come ha notato Margherita Guarducci dà l’«impressione di una scrittura su papiro ‘tradotta’ su pietra» (<bibl><ref target="#bib46"><title>EG</title></ref> I, p. 443</bibl>), con conseguente anticipazione di tratti che interessano l’epigrafia solamente più tardi. La morte a Gaza del soldato, che ha trascorso perlomeno l’ultima parte della propria vita al servizio dei sovrani d’Egitto, porta immediatamente il pensiero alle note battaglie avvenute nella località mediorientale ai tempi delle guerre fra Tolemei e Seleucidi e in particolare a quella del 201 a.C. avvenuta nel corso della Quinta guerra siriaca (cf. <ref type="lit">Polyb. XVI 18.2</ref>). Se la morte di Charmadas è legata alla battaglia di Gaza di tale anno – e non piuttosto ad un altro scontro non tramandato dalle fonti –, è probabile che costui abbia servito oltre che Tolemeo V anche il predecessore Tolemeo IV Filopatore e forse Tolemeo III Evergete. I contatti avuti dall’Anopolita con l’ambiente lagide del tardo III secolo a.C. rendono inoltre significativo l’epiteto παλαίπλουτοι, impiegato in riferimento ai regnanti: il termine sembra infatti conciliare il riferimento letterario allo stereotipo dell’Egitto, terra di antiche ricchezze faraoniche, con l’allusione al più attuale <foreign>topos</foreign> della <foreign>tryphe</foreign> dei sovrani tardoellenistici (cf. Polyb. VI 7; cf. <bibl><ref target="#b1833">Touloumakos 2006</ref></bibl>, <bibl><ref target="#b728">Gouëssan 2013</ref></bibl>, <bibl><ref target="#b1376">Muccioli 2013</ref>, pp. 185-187</bibl>, <bibl><ref target="#b1305">Mazzini 2015</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis1"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b921">Iliffe 1932</ref>, pp. 155-156, tav. LIX</bibl>; 
+                    <bibl><ref target="#b1487">Peek 1932</ref>, pp. 62-66 n. 12, tav. IX</bibl>; 
+                    <bibl><ref target="#b1828">Tod 1933</ref></bibl>; 
+                    <bibl><ref target="#b1639">Roussel 1933</ref></bibl>; 
+                    <bibl><ref target="#b113">Benecke 1934</ref>, pp. 43-44, n. 8</bibl>; 
+                    <bibl><ref target="#b1946">Vincent 1934</ref>, pp. 41-52</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 8.269 <ptr type="phi" target="319510"/></bibl>); 
+                    <bibl><ref target="#b1490">Peek 1955</ref>, n. 1508</bibl>; 
+                    <bibl><ref target="#b717">Glucker 1987</ref>, n. 1</bibl>;
+                    <bibl><ref target="#bib263">Merkelbach – Stauber, <title>SGO</title></ref> IV 21/05/01</bibl>; 
+                    <bibl><ref target="#b1310">Meimaris 2008</ref>, n. 72</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1372">Mouterde 1932</ref>, pp. 98-100</bibl>; 
+                    <bibl><ref target="#b1686">Schwabe 1933</ref>, pp. 84-89</bibl>; 
+                    <bibl><ref target="#bib46"><title>EG</title></ref> I, p. 443, p. 444 fig. 227</bibl>; 
+                    <bibl><ref target="#b1668">Sartre 2001</ref>, p. 277, n. III</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

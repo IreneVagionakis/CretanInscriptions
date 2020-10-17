@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 142</idno>
+                        <idno type="projectNo">282</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#mitropolis">Mitropolis, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0430" notAfter="-0400">fine V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="0a"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>κ</unclear>αὶ ϝεκαστο<unclear>ι</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἐγράφω"><supplied reason="lost">ἔγρ</supplied>ατται</w> ἆι ὀ <rs type="institution" subtype="tribe" role="unknown" key="Aithaleis" ref="#gortyn"><w lemma="Αἰθαλεῖς">Αἰ<supplied reason="lost">θ</supplied>α<supplied reason="lost">λεὺς</supplied></w></rs> <rs type="institution" subtype="social_group" role="unknown" key="startos" ref="#gortyn"><w lemma="σταρτός"><supplied reason="lost">σταρτὸς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>φον ὄκα <unclear>λ</unclear>ρ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κοσμέω"><unclear>ἐ</unclear>κόσμιον</w> οἰ σ<supplied reason="lost">ὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ον βο͂ς <unclear>ἄ</unclear>νκε<unclear>ι</unclear>τ<unclear>α</unclear><supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>δοι ἐπὶ <rs type="institution" subtype="public_space" role="sacrifices" key="bomos" ref="#gortyn"><w lemma="βωμός">βομο͂<supplied reason="lost">ι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, che menziona un <foreign>bomos</foreign> alla linea 6 e sembra riguardare un sacrificio di buoi (l. 5, βο͂ς), contiene due riferimenti cronologici alle linee 2 e 4, probabilmente connessi ad episodi differenti. Mentre il secondo conserva il ricordo dei cosmi in carica, il primo non è chiaro se menzioni lo <foreign>startos</foreign> <foreign>Aithaleus</foreign> – attestato in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> – o più semplicemente la tribù degli <foreign>Aithaleis</foreign>. Sebbene la tribù sia più frequentemente attestata rispetto allo <foreign>startos</foreign> (cf. <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref>, <ref type="ins" target="#ic1_18_11"><title>IC</title> I 18 11</ref>), l’impiego del singolare ὀ Αἰ[θ]α[λεύς], altrimenti noto solamente in connessione con il termine <foreign>startos</foreign> (<ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, l. V 5: ὀ Αἰθ[α]λεὺς ’ταρτός), rende probabile che anche in questo caso i due termini siano associati.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#bomos"><foreign>bomos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#startos"><foreign>startos</foreign></ref> (?) <ref type="inst" target="#aithaleis"><foreign>Aithaleus</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b379">Comparetti 1888b</ref>, pp. 660-661 n. 22</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 327-328 n. 178</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5005</bibl>;
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 142 <ptr type="phi" target="200581"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Monument types</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="altar">
+                    <term xml:lang="en">Altar</term>
+                    <term xml:lang="it">Altare</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/29</ref>
+                </item>
+                <item xml:id="amphora">
+                    <term xml:lang="en">Amphora</term>
+                    <term xml:lang="it">Anfora</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/17</ref>
+                </item>
+                <item xml:id="epistyle">
+                    <term xml:lang="en">Epistyle</term>
+                    <term xml:lang="it">Architrave</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/119</ref>
+                </item>
+                <item xml:id="base">
+                    <term xml:lang="en">Base</term>
+                    <term xml:lang="it">Base</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/53</ref>
+                </item>
+                <item xml:id="block">
+                    <term xml:lang="en">Block</term>
+                    <term xml:lang="it">Blocco</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/189</ref>
+                </item>
+                <item xml:id="cauldron">
+                    <term xml:lang="en">Cauldron</term>
+                    <term xml:lang="it">Calderone</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/1991</ref>
+                </item>
+                <item xml:id="cippus">
+                    <term xml:lang="en">Cippus</term>
+                    <term xml:lang="it">Cippo</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/85</ref>
+                </item>
+                <item xml:id="column">
+                    <term xml:lang="en">Column</term>
+                    <term xml:lang="it">Colonna</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/100</ref>
+                </item>
+                <item xml:id="fistula">
+                    <term xml:lang="en">Fistula aquaria</term>
+                    <term xml:lang="it">Fistula aquaria</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/121</ref>
+                </item>
+                <item xml:id="bullet">
+                    <term xml:lang="en">Sling bullet</term>
+                    <term xml:lang="it">Ghianda missile</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/50</ref>
+                </item>
+                <item xml:id="hydria">
+                    <term xml:lang="en">Hadra funerary hydria</term>
+                    <term xml:lang="it">Idria funeraria Hadra</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/1990</ref>
+                </item>
+                <item xml:id="lamella">
+                    <term xml:lang="en">Lamella</term>
+                    <term xml:lang="it">Lamina</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/145</ref>
+                </item>
+                <item xml:id="lamp">
+                    <term xml:lang="en">Lamp</term>
+                    <term xml:lang="it">Lampada</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/146</ref>
+                </item>
+                <item xml:id="plaque">
+                    <term xml:lang="en">Plaque</term>
+                    <term xml:lang="it">Lastra</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/257</ref>
+                </item>
+                <item xml:id="laterculus">
+                    <term xml:lang="en">Laterculus</term>
+                    <term xml:lang="it">Latercolo</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/148</ref>
+                </item>
+                <item xml:id="measuring_table">
+                    <term xml:lang="en">Measuring table</term>
+                    <term xml:lang="it">Mensa ponderaria</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/159</ref>
+                </item>
+                <item xml:id="mitra">
+                    <term xml:lang="en">Mitra</term>
+                    <term xml:lang="it">Mitra</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/48</ref>
+                </item>
+                <item xml:id="coin">
+                    <term xml:lang="en">Coin</term>
+                    <term xml:lang="it">Moneta</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/1977</ref>
+                </item>
+                <item xml:id="pillar">
+                    <term xml:lang="en">Pillar</term>
+                    <term xml:lang="it">Pilastro</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/194</ref>
+                </item>
+                <item xml:id="plinth">
+                    <term xml:lang="en">Plinth</term>
+                    <term xml:lang="it">Plinto</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/1910</ref>
+                </item>
+                <item xml:id="rock">
+                    <term xml:lang="en">Rock</term>
+                    <term xml:lang="it">Roccia</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/211</ref>
+                </item>
+                <item xml:id="seal">
+                    <term xml:lang="en">Seal</term>
+                    <term xml:lang="it">Sigillo</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/240</ref>
+                </item>
+                <item xml:id="stele">
+                    <term xml:lang="en">Stele</term>
+                    <term xml:lang="it">Stele</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/250</ref>
+                </item>
+                <item xml:id="tile">
+                    <term xml:lang="en">Tile</term>
+                    <term xml:lang="it">Tegola</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/191</ref>
+                </item>
+                <item xml:id="thesaurophylakion">
+                    <term xml:lang="en">Thesaurophylakion</term>
+                    <term xml:lang="it">Thesaurophylakion</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/283</ref>
+                </item>
+                <item xml:id="transenna">
+                    <term xml:lang="en">Transenna</term>
+                    <term xml:lang="it">Transenna</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/60</ref>
+                </item>
+                <item xml:id="platter">
+                    <term xml:lang="en">Platter</term>
+                    <term xml:lang="it">Vassoio</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/309</ref>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="en">Unknown</term>
+                    <term xml:lang="it">Sconosciuto</term>
+                    <ref>https://www.eagle-network.eu/voc/objtyp/lod/2</ref>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

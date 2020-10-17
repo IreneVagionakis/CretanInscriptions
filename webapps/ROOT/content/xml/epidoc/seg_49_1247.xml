@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Graffiti di un forte militare di Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 49.1247</idno>
+                        <idno type="projectNo">439</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#pines">forte di Pines</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#graffiti">otto (?) graffiti</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>più <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous, forte di Pines</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="I">
+                    <div type="textpart" subtype="part" n="a">
+                        <ab>
+                          <lb n="1"/>Ἐ<unclear>σ</unclear>καστειδας
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="b">
+                        <ab>
+                          <lb n="1"/><w lemma="στάδιον">στάδια</w>
+                          <lb n="2"/>ἐκ <rs type="institution" subtype="public_space" role="landmark" key="polis" ref="#olous"><w lemma="πόλις">πόλιος</w></rs>
+                          <lb n="3"/><num value="28">δδπιιι</num>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="c">
+                        <ab>
+                          <lb n="1"/><w lemma="χαίρω">χαίρετε</w>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="d">
+                        <ab>
+                          <lb n="1"/>Ἀρτεμ<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="textpart" subtype="part" n="II">
+                        <ab>
+                          <lb n="1"/>Ἀρέτας, Κλε<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="III">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ικλῆς <w lemma="ἄριστος">ἄριστος</w>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="IV">
+                        <ab>
+                          <lb n="1"/>χορῶι καλά
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="V">
+                        <ab>
+                          <lb n="1"/><orig>αρεα</orig>
+                          <lb n="2"/><orig>λαδ</orig>
+                          <lb n="3"/><orig>βριτολακ</orig><gap reason="lost" quantity="1" unit="character"/><orig>ατα</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ρα</orig><gap reason="illegible" quantity="5" unit="character"/><orig>ιοι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ρασ</orig>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Fra i vari graffiti incisi sulle pareti del forte, che includono sia iscrizioni che raffigurazioni, il testo più esteso è il secondo (I b), che conserva l’indicazione della distanza fra il <foreign>phrourion</foreign> e la <foreign>polis</foreign> di Olous espressa in stadi (ventotto) mediante il sistema di numerazione alfabetico. Gli altri testi, non tutti di chiara interpretazione, sembrano conservare firme (I a, I d, II), acclamazioni e auguri (I c, III, IV).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis1"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1883">Van Effenterre 1949</ref>, pp. 1043-1046</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 49.1247 <ptr type="seg" target="a49_1247"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1915">Van Effenterre 1997</ref>, pp. 620-621</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

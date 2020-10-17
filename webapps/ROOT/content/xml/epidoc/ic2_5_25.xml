@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 25</idno>
+                        <idno type="projectNo">125</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">35</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0100">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιρακ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ν πταισ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ἐξ <rs type="institution" subtype="public_space" role="unknown" key="andreion" ref="#axos"><w lemma="ἀνδρεῖον">ἀνδρηίο</w></rs> ἐπ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> αἰ μὴ πείθοιτ<supplied reason="lost">ο</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>μεν π<unclear>λα</unclear><gap reason="lost" quantity="2" unit="character"/><orig><unclear>αν</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> πταίσει <rs type="institution" subtype="official" role="unknown" key="kosmos" ref="#axos"><w part="I" lemma="κοσμ-">κοσμ</w></rs><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="age_class" role="regulation" key="anebos" ref="#axos"><w lemma="ἄνηβος">ἀνήβο</w></rs> ταν<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="age_class" role="regulation" key="anebos" ref="#axos"><w lemma="ἄνηβος"><supplied reason="lost">ἄ</supplied>νηβος</w></rs> <unclear>αρ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὀμνύω"><supplied reason="lost">ὀ</supplied>μνύ<supplied reason="lost">τ</supplied><unclear>ο</unclear></w> μὴ ϝ<unclear>ε</unclear><supplied reason="lost">κὼν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὀμνύω"><supplied reason="lost">ὀμν</supplied>ύτω</w> δ<supplied reason="lost">ὲ</supplied> δυώδεκ<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ἀλαθείας ὁρκο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> ὁ ἐπιβάλλων τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="θύω"><unclear>θ</unclear>ύων</w> μὴ ϝεκὼν θ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>εοι ἀ<unclear>π</unclear>ομνύμεν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἐγράφω"><supplied reason="lost">ἠ</supplied>γραμένας</w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I testi conservati sui due lati della stele appartengono verosimilmente a due documenti diversi e distanti nel tempo: la differente resa grafica adottata per l’<foreign>omega</foreign>, segnata come <foreign>omikron</foreign> sul lato A, spinge infatti a ritenere il relativo testo più antico di quello presente sulla faccia opposta, dove all’<foreign>omega</foreign> è riservato un proprio segno grafico (cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 70</bibl>).</p>
+                    <p>Il testo A restituisce due volte il termine <foreign>anebos</foreign>, indicante i giovani non ancora in età da nozze, attestato a Creta anche in due leggi di Gortyna (<ref type="ins" target="#ic4_14"><title>IC</title> IV 14</ref> e <ref type="ins" target="#ic4_72">72</ref>); tale sostantivo compare nello stesso contesto in cui vengono menzionati uno o più cosmi e un <foreign>andreion</foreign>, ad Axos attestato anche dalla legge arcaica <ref type="ins" target="#ic2_5_1"><title>IC</title> II 5 1</ref>. La legge potrebbe ipoteticamente trattare dei requisiti di accesso o delle modalità di contribuzione all’<foreign>andreion</foreign>, forse precluso agli <foreign>aneboi</foreign> (?). Il cosmo o i cosmi, invece, è possibile che siano chiamati in causa in quanto garanti del rispetto delle leggi, come testimoniato da altre iscrizioni di Axos (in particolare per quanto riguarda la riscossione di multe stabilite dalla legge cf. <ref type="ins" target="#ic2_5_9"><title>IC</title> II 5 9</ref> e <ref type="ins" target="#bile_27">Bile 27</ref>).</p>
+                    <p>Il documento B, probabilmente non connesso al testo A, è relativo ad un giuramento, a cui si allude tre volte (ll. 1, 2, 3), e menziona dei sacrifici (l. 5).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andreion"><foreign>andreion</foreign></ref>, <ref type="inst" target="#anebos"><foreign>anebos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 574-576 n. 59</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5131</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 25 <ptr type="phi" target="199786"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

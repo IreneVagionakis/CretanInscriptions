@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria del <foreign>koinon</foreign> cretese e di Knossos per un Ateniese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">FD III 2 135 V</idno>
+                        <idno type="projectNo">590</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delphi">tesoro degli Ateniesi, Delfi</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>più <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delphi">Delfi, tesoro degli Ateniesi</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0154" notAfter="-0151">154-151 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part">
+                            <ab>
+                                <lb n="1"/><persName type="honoured" key="Egesandros f. Egesandros"><name type="Ἠγήσανδρος">Ἠ<supplied reason="lost">γήσανδρον</supplied></name> <name nymRef="Ἠγήσανδρος" type="patronymic"><supplied reason="lost">Ἠ</supplied>γησ<supplied reason="lost">άνδρο</supplied>υ</name> <placeName ref="#athens" type="ethnic">Ἀθηνα<supplied reason="lost">ῖον</supplied></placeName> <supplied reason="lost">Σουνιέα</supplied></persName><supplied reason="lost">, <placeName ref="#delphi" type="ethnic">Δελφῶν</placeName> πρόξενο</supplied>ν καὶ εὐ<supplied reason="lost">ερ</supplied>γέ<supplied reason="lost">την,</supplied> <w lemma="στεφανόω"><supplied reason="lost">ἐστεφ</supplied>άν<supplied reason="lost">ω</supplied>σεν</w>
+                            </ab>
+                        </div>
+                            <div type="textpart" subtype="part" n="V">
+                                <ab>  
+                                    <lb n="1"/><rs type="institution" subtype="assembly" role="dedicant" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName></rs> καὶ  
+                                    <lb n="2"/>τὸ <rs type="institution" subtype="assembly" role="dedicant" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινὸν</w> <supplied reason="lost">τῶν</supplied>
+                                    <lb n="3"/><placeName ref="#crete" type="ethnic">Κρηταέων</placeName></rs>
+                                    <lb n="4"/><w lemma="εἰκών">εἰκόνι</w> <w lemma="χάλκεος">χα<supplied reason="lost">λκῆι</supplied></w>.
+                                </ab>
+                            </div>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione – il cui testo è noto anche dalla copia <ref type="ins" target="#iorop_433"><title>I.Orop.</title> 433</ref> – conserva il ricordo di venticinque concessioni onorarie di cui ha beneficiato l’ateniese Hegesandros figlio di Hegesandros, fra le quali figura la dedica di una sua statua bronzea da parte di Knossos e del <foreign>koinon</foreign> cretese.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 654A</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib27"><title>FD</title> III</ref> 2 135 V <ptr type="phi" target="239430"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2084">Daux 1965</ref></bibl>;
+                            <bibl><ref target="#b289">Chaniotis 1988</ref>, E15</bibl>;
+                            <bibl><ref target="#b1607">Rizakis 1995</ref>, I 616 (n. 23)</bibl>;
+                            <bibl><ref target="#bib504"><title>CID</title> IV</ref> 112 (I 1)</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

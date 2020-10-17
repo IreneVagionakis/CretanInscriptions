@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Paros per Timesiphon, ambasciatore presso il <foreign>koinon</foreign> cretese (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 32.825</idno>
+                        <idno type="projectNo">599</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#paros_panagia">Basilica della Madonna di Katapoliani, Paroikia, Paros</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#paros">Paros</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0188" notAfter="-0150">188-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἔδοξεν τῇ βουλῇ καὶ τῷ δήμῳ· Ἐπιάναξ Ἐπιάνακτος εἶπεν· ὑπὲρ ὧν
+                          <lb n="2"/>προεγράψαντο οἱ ἄρχοντες ὅπως Τιμησιφῶν Ἐπιάνακτος, ὁ πρεσβεύσας <rs type="institution" subtype="assembly" role="foreign_relations" key="koinon_ton_KretaieonE" ref="#koinon_kretaieon" cert="low">εἰς
+                          <lb n="3"/><placeName ref="#crete">Κρήτην</placeName></rs> τρὶς περὶ τῆς τῶν <w lemma="δάνειον">δανείων</w> ἀποδόσεως, ὧν ὤφειλεν ἡ πόλις, ἐπαινεθῇ
+                          <lb n="4"/>καὶ τιμηθῇ καὶ στεφανωθῇ καθότι ἂν τῇ βουλῇ καὶ τῷ δήμῳ δόξῃ·
+                          <lb n="5"/>ἐπειδὴ Τιμησιφῶν Ἐπιάνακτος ἀνὴρ ἀγαθὸς ὢν καὶ πατροπαράδοτον διὰ προ<lb 
+                        break="no" n="6"/>γόνων παραλαβὼν τὴν πρὸς τὸν δῆμον <w lemma="εὔνοια">εὔνοιαν</w> διὰ παντὸς τοῦ βίου
+                          <lb n="7"/>ταύτην αὔξων διατετέλεκεν καὶ λέγων καὶ πράττων ἐν παντὶ καιρῷ τὰ
+                          <lb n="8"/>συμφέροντα τῇ πόλει, διακείμενός τε εὐσεβῶς μὲν πρὸς τοὺς θεούς, φιλ<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="9"/>στόργως δὲ πρὸς τὴν πατρίδα, φιλαγάθως δὲ πρὸς τοὺς πολίτας ἔν τε ταῖς
+                          <lb n="10"/>ἐπιμελείαις καὶ λειτουργίαις καὶ ἱερωσύναις καὶ ἀρχαῖς ταῖς ἐπισημοτά<lb 
+                        break="no" n="11"/>ταις ὑγιῶς ἀνέστραπται καὶ ὁσίως καὶ δικαίως καὶ φιλαγάθως πρεσβεί<lb 
+                        break="no" n="12"/><supplied reason="lost">ας ἀναδεξάμενος ἐν τ</supplied>οῖς ἀναγκαιοτάτοις καιροῖς καὶ περὶ τῶν μεγίστων
+                          <lb n="13"/><supplied reason="lost">τῇ πόλει συμφερόντων</supplied> <gap reason="lost" quantity="6" unit="character"/> <supplied reason="lost">δια</supplied>τε<supplied reason="lost">τ</supplied>έλεκεν <gap reason="lost" quantity="18" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied>ατηργάσατο πρὸς ιε<gap reason="lost" quantity="2" unit="character"/><orig>σ</orig><gap reason="lost" quantity="7" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">π</supplied>ρὸς αὐτοὺς πρεσβείας ἀδιαλείπτως
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οὔτε κ</supplied>ίνδυνον οὔτε δαπάνην οὔτε τὴ
+                          <lb n="17"/><supplied reason="lost">κακοπαθίαν οὐδαμῶς πρὸ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἢ ὑφ</supplied>ορώμενος τὴν δὲ περὶ τὰ κοινὰ φιλο<lb 
+                        break="no" n="18"/><supplied reason="lost">τιμίαν</supplied> <gap reason="lost" extent="unknown" unit="character"/>οι πᾶσαν εἰσφερόμενος προσκαρτε<lb 
+                        break="no" n="19"/><supplied reason="lost">ρίαν</supplied> <gap reason="lost" extent="unknown" unit="character"/> τῆς πόλεως εὐνοίᾳ καὶ πατρωνεί<lb 
+                        break="no" n="20"/><supplied reason="lost">ᾳ</supplied> <gap reason="lost" extent="unknown" unit="character"/> ἀεί τινος ἀγαθοῦ παραίτιος γινόμε<lb 
+                        break="no" n="21"/><supplied reason="lost">νος</supplied> <gap reason="lost" extent="unknown" unit="character"/>οντων κατεπράξατο καὶ τὰς καθωσιωμέ<lb 
+                        break="no" n="22"/><supplied reason="lost">νας</supplied> <gap reason="lost" extent="unknown" unit="character"/>ους, ἔσπευσεν διαφυλαχθῆναι βεβαίους
+                          <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/> καὶ πλό<supplied reason="lost">α</supplied>ς ἀναδεξάμενος <supplied reason="lost">ὑ</supplied>περοηγ<lb 
+                        break="no" n="24"/><gap reason="lost" extent="unknown" unit="character"/> τοὺς ἀγαθοὺς ἄνδρας <gap reason="illegible" quantity="13" unit="character"/>
+                          <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/>γικὸν οιο<gap reason="illegible" quantity="13" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto di Paros onora un suo cittadino, Timesiphon figlio di Epianax, responsabile di tre ambascerie verso Creta finalizzate al pagamento di un debito che la propria città aveva contratto verosimilmente con il <foreign>koinon</foreign> cretese (ll. 2-3, πρεσβεύσας εἰς Κρήτην τρὶς περὶ τῆς τῶν δανείων ἀποδόσεως; <foreign>contra</foreign> <bibl><ref target="#b1427">Orlandos 1973</ref></bibl>, che ipotizza che il prestito fosse stato concesso da Allaria, <foreign>polis</foreign> di cui sono documentate relazioni con Paros da <ref type="ins" target="#ic2_1_2"><title>IC</title> II 1 2</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref><hi rend="superscript">e</hi> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1427">Orlandos 1973</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 32.825 <ptr type="phi" target="323318"/> <ptr type="seg" target="a32_825"/></bibl>); 
+                            <bibl><ref target="#b1750">Spyridakis 1983</ref></bibl>; 
+                            <bibl><ref target="#b1400">Nigdelis 1989</ref></bibl>; 
+                            <bibl><ref target="#b241">Canali De Rossi 1997</ref>, n. 357</bibl>; 
+                            <bibl><ref target="#bib502">Canali De Rossi, <title>Selezione</title></ref> 160</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1052">Lambrinoudakis – Wörrle 1983</ref></bibl>; 
+                            <bibl><ref target="#b1333">Migeotte 1984</ref>, n. 62</bibl>; 
+                            <bibl><ref target="#b118">Berranger-Auserve 2000</ref>, pp. 124-126</bibl>; 
+                            <bibl><ref target="#b242">Canali De Rossi 2001</ref>, n. 142</bibl>; 
+                            <bibl><ref target="#b555">Eilers 2002</ref>, n. C46</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

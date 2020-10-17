@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Apollonia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 3 1*</idno>
+                        <idno type="projectNo">154</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><supplied reason="lost"><placeName ref="#apollonia" type="ethnic">Ἀπολλωνιατᾶν</placeName></supplied>
+                          <lb n="0a"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><supplied reason="lost">εἰ δέ τινές κα τῶν ὁρμιομένων ἐξ</supplied> <placeName ref="#apollonia"><supplied reason="lost">Ἀπ</supplied>ολ<supplied reason="lost">λω</supplied>νίας</placeName> <w lemma="ἀδικέω">ἀ<lb 
+                        break="no" n="2"/><supplied reason="lost">δικήσωντί</supplied></w> <supplied reason="lost">τινα <placeName ref="#teos" type="ethnic">Τηίων</placeName> παρὰ τὸ</supplied> <w lemma="γράφω">γραφ<supplied reason="lost">ὲ</supplied>ν</w> <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#apollonia"><w lemma="δόγμα">δόγμα</w></rs>
+                          <lb n="3"/><supplied reason="lost">περὶ τᾶς <w lemma="ἀσυλία">ἀσυλίας</w> ὑπὸ τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#apollonia"><w lemma="πόλις">πόλιος</w></rs></supplied> τᾶ<supplied reason="lost">ς</supplied> <placeName ref="#apollonia" type="ethnic">Ἀπολλωνι<lb 
+                        break="no" n="4"/><supplied reason="lost">ατᾶν</supplied></placeName><supplied reason="lost">, ἐξέστω τῶι παραγενομένω</supplied>ι <placeName ref="#teos" type="ethnic">Τηίω<unclear>ν</unclear></placeName> ἐπιλαβέσ<lb 
+                        break="no" n="5"/><supplied reason="lost">θαι καὶ <w lemma="σῶμα">σωμάτων</w> καὶ <w lemma="χρήματα">χρημάτων</w>, εἴ τίς</supplied> κα ἄγηι· οἱ
+                          <lb n="6"/><supplied reason="lost">δὲ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#apollonia"><w lemma="κόσμος">κόσμοι</w></rs> οἱ τόκ’ ἀεὶ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#apollonia"><w lemma="κοσμέω">κοσμίοντες</w></rs></supplied> <w lemma="ἐπαναγκάζω"><supplied reason="lost">ἐπα</supplied>ναγκαζόν<lb 
+                        break="no" n="7"/><supplied reason="lost">των</supplied></w> <supplied reason="lost">ἀποδιδόμεν τὸς ἔχοντας, ἀζ</supplied>ήμιοι ἰόντες
+                          <lb n="8"/><supplied reason="lost">καὶ ἀνυπόδικοι. <w lemma="ἀγγράφω">ἀγγράψαι</w> δὲ</supplied> τόδε τὸ <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#apollonia"><w lemma="δόγμα">δόγμα</w></rs> εἰς
+                          <lb n="9"/><supplied reason="lost">τὸ</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#apollonia"><supplied reason="lost"><w lemma="ἱερόν">ἱερὸν</w> τοῦ</supplied> <persName type="divine" key="Apollo Dekataphoros"><supplied reason="lost">Ἀπόλλωνος τ</supplied>οῦ Δεκαταφόρου</persName></rs> τὸν
+                          <lb n="10"/><supplied reason="lost"><rs type="institution" subtype="official" role="inscriber" key="grammateus" ref="#apollonia"><w lemma="γραμματεύς">γραμματέα</w></rs> τᾶς <rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#apollonia"><w lemma="πόλις">πόλιος</w></rs>.</supplied> <w lemma="ξενοτροφέω"><supplied reason="lost">ἐξ</supplied>ενοτροφήθεν</w> δὲ καὶ οἱ
+                          <lb n="11"/>πρειγευταὶ καθὼς καθέσταται.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, sebbene molto frammentario, può essere integrato con un buon grado di sicurezza sulla base di altri testi analoghi appartenenti come questo alla serie dei documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>, <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>, <bibl><ref target="#b1040">Kvist 2003</ref></bibl>, <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>). Del documento si è conservata solamente la sezione finale, nella quale vengono previste le modalità di intervento in caso di contravvenzione rispetto a quanto stabilito nel presente <foreign>dogma</foreign>, la responsabilità della cui emanazione viene ricondotta verosimilmente alla <foreign>polis</foreign> di Apollonia (cf. <ref type="ins" target="#ic2_26_1"><title>IC</title> II 26 1</ref>, ll. 21-22). Nell’eventualità di ingiustizia subita dai Teii l’autorità d’intervento spetta verosimilmente ai cosmi in carica (cf. <ref type="ins" target="#ic2_26_1"><title>IC</title> II 26 1</ref>, ll. 25-27), che devono imporre la restituzione di persone o beni indebitamente sottratti.</p>
+                    <p>La formula di esposizione alle linee 8-10 è probabile che indicasse come addetto all’iscrizione del decreto il segretario della città (cf. <ref type="ins" target="#ic1_5_52"><title>IC</title> I 5 52</ref>, ll. 42-44), che deve far collocare l’epigrafe nell’altrimenti ignoto santuario di Apollo <foreign>Dekataphoros</foreign>. Alle linee 10-11, inoltre, viene offerta ospitalità agli ambasciatori teii, sebbene non venga specificato in quale edificio pubblico della città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref> (?), <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1388">Naber 1852</ref>, n. 6</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 69</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5175</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 3 1* <ptr type="phi" target="199021"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 4</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 147</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

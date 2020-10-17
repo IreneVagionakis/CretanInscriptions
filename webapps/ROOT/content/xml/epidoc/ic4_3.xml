@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Calendario sacrificale di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 3+3a</idno>
+                        <idno type="projectNo">238</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna (A, C); </repository> 
+                                <idno type="invNo"/>
+                                <altIdentifier><repository ref="#lost">frammenti B e D perduti</repository>
+                                    <idno></idno>
+                                </altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">calendario sacrificale</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>quattro <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>retrograda / bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0525">600-525 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἰαρός"><supplied reason="lost">ἰα</supplied>ρὰ</w> <g type="|"/> τετελημέ<supplied reason="lost">να</supplied> <gap reason="lost" quantity="6" unit="character" precision="low"/><gap reason="illegible" quantity="1" unit="character"/>υι <g type="|"/> το͂ι <rs type="institution" subtype="month" role="calendar" key="Welchanios" ref="#gortyn"><w lemma="Ϝελκάνιος"><supplied reason="lost">Ϝ</supplied>ελκ<unclear>α</unclear>νί<supplied reason="lost">οι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>αι <g type="|"/> ἐν τᾶι πένπτα<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ν <g type="|"/> τέληον <g type="|"/> καὶ αἶγα <g type="|"/> ἐ<unclear>ν</unclear> <supplied reason="lost">τᾶι ἔκται</supplied> ὄι<unclear>ν</unclear> θήλε<supplied reason="lost">ι</supplied><unclear>α</unclear>ν <g type="|"/> το͂ι <persName type="divine" key="Apollo">Ἀπ<supplied reason="lost">έλλονι</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>εϙ<gap reason="lost" quantity="2" unit="character"/><unclear>ς</unclear> <g type="|"/> ταϝῦρος <g type="|"/> ἐσ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> τᾶι <persName type="divine" key="Hera">Ἤραι</persName> <g type="|"/> ὄις <g type="|"/> <unclear>θ</unclear>ή<supplied reason="lost">λ</supplied>ε<supplied reason="lost">ια <g type="|"/> τᾶι</supplied> <persName type="divine" key="Demeter"><supplied reason="lost">Δάμ</supplied>ατρι</persName> <g type="|"/> ὄις <g type="|"/> ἐπίτεκ<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> αἰ μὲν δύο <g type="|"/> θήλει<supplied reason="lost">αι, οἰ δὲ δύ</supplied>ο ἔρσενες <g type="|"/> καὶ τρ<supplied reason="lost">άγος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λ</unclear></orig><gap reason="lost" quantity="4" unit="character"/><orig>ιο</orig><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>απ<unclear>ρ</unclear>ο<unclear>σ</unclear>υναι <g type="|"/> κ<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ς <g type="|"/> ο<unclear>ἰ</unclear> ὄϝτοι ο<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="a">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>παικαρδ</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>κ</unclear></orig><gap reason="lost" quantity="1" unit="character"/><orig>ρο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ον</orig> <g type="|"/> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>τγγ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, molto frammentaria, conserva la più antica attestazione del mese <foreign>Welchanios</foreign>, documentato a Gortyna ancora in piena età ellenistica (<ref type="ins" target="#ic4_184"><title>IC</title> IV 184</ref>) e noto anche a Knossos (<ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>); a Lyttos, invece, sono attestate in età imperiale delle festività chiamate Βελχάνια (<ref type="ins" target="#ic1_18_11"><title>IC</title> I 18 11</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: mese <ref type="inst" target="#welchanios"><foreign>Welchanios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b381">Comparetti 1889</ref>, pp. 95-99 nn. 55-58 (3)</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 22-24 nn. 8-11 (3)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4963 (3)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 3+3a <ptr type="phi" target="200437"/> <ptr type="phi" target="200438"/></bibl>; 
+                            <bibl><ref target="#bib511"><title>LSCG</title></ref> 3.146 (3)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G3 (3)</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib505"><title>CGRN</title></ref> 2 <ptr type="cgrn" target="2"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b662">Gagarin 2008</ref>, pp. 248-249 n. 4</bibl>;
+                            <bibl><ref target="#b666">Gagarin 2011</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

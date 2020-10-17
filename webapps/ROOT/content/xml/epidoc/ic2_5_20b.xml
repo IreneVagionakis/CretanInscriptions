@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di <foreign>isopoliteia</foreign> (?) fra Axos e Tylisos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 20 B</idno>
+                        <idno type="projectNo">133</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 29</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0221" notAfter="-0200" precision="low">221-200 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="0a"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>μη<unclear>ιι</unclear>τω</orig> μήτε <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>λωντι τὰ <w lemma="χρήματα">χρήμα<supplied reason="lost">τα</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ωνται καθάπερ <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> τῶι τε <placeName ref="#axos" type="ethnic">Ϝαξίωι</placeName> ἐς <placeName ref="#tylisos">Τύλ<unclear>ι</unclear><supplied reason="lost">σον</supplied></placeName> <supplied reason="lost">καὶ τῶι <placeName ref="#tylisos" type="ethnic">Τυλισίωι</placeName> ἐς <placeName ref="#axos" type="ethnic">Ϝάξον</placeName></supplied>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>τα· ἐξέστω δὲ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#tylisos"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#axos"><w lemma="πολιτεύω">πολιτε<supplied reason="lost">ύεσθαι</supplied></w></rs></rs> <supplied reason="lost">τῶι τε <placeName ref="#tylisos" type="ethnic">Τυλισίωι</placeName> <placeName ref="#axos">Ϝαξοῖ</placeName></supplied>
+                          <lb n="6"/><supplied reason="lost">καὶ τῶι <placeName ref="#axos" type="ethnic">Ϝαξίωι</placeName></supplied> <placeName ref="#tylisos"><supplied reason="lost">Τ</supplied>υλισοῖ</placeName> καὶ <w lemma="μετέχω">μετέχε<supplied reason="lost">ν</supplied></w> <supplied reason="lost"><w lemma="θῖνος">θίνων</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ν νέμηι <w lemma="ἐπιδρομέω" part="I" cert="low">ἐπιδρο<unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>α <placeName ref="#axos">Ϝάξον</placeName> ἁ ἐμ<unclear>π</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied>οινὰν οἱ ταν <unclear>π</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πέ</supplied>μψαντας προ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="παρακαλέω"><supplied reason="lost">πα</supplied>ρακαλεσα<unclear>μ</unclear><supplied reason="lost">εν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear> ἐν τᾶι <rs type="institution" subtype="public_space" role="hospitality" key="polis" ref="#unknown"><w lemma="πόλις">πόλ<unclear>ι</unclear></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>ς ὅστις κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> διπλόω κ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>λ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’espressione di reciproca concessione di cittadinanza alla linea 5, ἐξέστω δὲ πολιτε[ύεσθαι], sembra definire il documento come trattato di <foreign>isopoliteia</foreign> fra Axos e Tylisos. La menzione della <foreign>polis</foreign> alla linea 12 si riferisce presumibilmente alla città – di una dei due contraenti o di entrambi –  intesa in senso spaziale.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis1"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<foreign>politeuo</foreign>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 576-578 n. 60</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5132b</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 20 B <ptr type="phi" target="199781"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 570</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 15</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b305">Chaniotis 1995</ref>, p. 73</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

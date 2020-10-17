@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Gortyna relativa a Latosion</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 58</idno>
+                        <idno type="projectNo">263</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>δείκσοντι αἰγ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>οσαντας δέκα <w lemma="στατήρ">σ<lb 
+                        break="no" n="3"/>τατῆρας</w> τᾶς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ν τοῖλ <placeName ref="#latosion" type="ethnic">Λατοσίοι<lb 
+                        break="no" n="5"/>ς</placeName> καταδόμην κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>αναι. <supplied reason="lost">α</supplied>ἰ δὲ μὴ ἐσκ<lb 
+                        break="no" n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, dal contenuto piuttosto oscuro, fornisce una testimonianza dell’esistenza della comunità dei <foreign>Latosioi</foreign>, attestati anche in <ref type="ins" target="#ic4_78"><title>IC</title> IV 78</ref>; è probabile che costoro siano un gruppo di individui non in possesso della cittadinanza di Gortyna ma residenti nel suo territorio (cf. <bibl><ref target="#b1505">Perlman 1996</ref>, p. 254</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>Latosios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b578">Fabricius 1885</ref>, pp. 94-95 n. 3</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 324-325 n. 175</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5001</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 58 <ptr type="phi" target="200494"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 15</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G58</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1055">Larfeld 1892</ref>, p. 27</bibl>; 
+                             <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 143*</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Gortyna per un Romano</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 293</idno>
+                        <idno type="projectNo">349</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">57</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#imperial" notBefore="-0030" notAfter="0030">fine I secolo a.C. - inizi I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Gaios Roubellios Blandos" ref="#rome"><name nymRef="Γάιος">Γάϊον</name> <name nymRef="Ῥουβέλλιος">Ῥου<supplied reason="lost">βέλλιον</supplied></name>
+                          <lb n="2"/><name nymRef="Βλάνδος">Βλᾶνδον</name></persName> <gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="3"/>τὸν <w lemma="δικαιοδοτέω">δικαιο<unclear>δ</unclear><supplied reason="lost">οτήσαντα</supplied></w>
+                          <lb n="4"/>ὁσίως καὶ <w lemma="δικαίως">δι<supplied reason="lost">καίως</supplied></w> <supplied reason="lost">καὶ</supplied> <w lemma="ἐλευθερόω"><supplied reason="lost">ἐλευ</supplied><lb 
+                        break="no" n="5"/>θερώσαντα</w> τ<gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">, πάν</supplied><lb 
+                        break="no" n="6"/>των τῶν <rs type="institution" subtype="social_group" role="decreer" key="polites" ref="#gortyn"><w lemma="πολίτης">πολ<supplied reason="lost">ιτῶν</supplied></w></rs> <supplied reason="lost"><rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#gortyn"><w lemma="ψάφισμα">ψαφίσματι</w></rs></supplied>,
+                          <lb n="7"/>τὸν ἑαυτᾶς <rs type="institution" subtype="social_status" role="granted_as_privilege" key="patron" ref="#gortyn"><w lemma="πάτρων">π<supplied reason="lost">άτρωνα</supplied></w></rs> <supplied reason="lost">καὶ</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="soter" ref="#gortyn"><w lemma="σωτήρ"><supplied reason="lost">σωτῆ</supplied><lb 
+                        break="no" n="8"/>ρα</w></rs>, <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> <supplied reason="lost">ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#gortyn"><w lemma="πόλις">πόλις</w></rs>.</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κοσμέω"><supplied reason="lost">ἐκόσμι</supplied><lb 
+                        break="no" n="9"/>ον</w></rs> οἵδε· <rs type="institution" subtype="official" role="eponym" key="protokosmos" ref="#gortyn"><persName type="attested" key="Hagesandros f. -"><name nymRef="Ἁγήσανδρος">Ἁγήσανδ<supplied reason="lost">ρος</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName> <w lemma="πρωτόκοσμος"><supplied reason="lost">πρω</supplied><lb 
+                        break="no" n="10"/><supplied reason="lost">τό</supplied>κοσμος</w></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Rhanios f. So-"><name nymRef="Ῥάνιος">Ῥάνιος</name> <name nymRef="Σο-" type="patronymic">Σο<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="-phon f. Kallippos"><name nymRef="-φῶν"><gap reason="lost" extent="unknown" unit="character"/><lb 
+                            break="no" n="11"/>φῶν</name> <name nymRef="Κάλλιππος" type="patronymic">Καλλίππω</name></persName></rs>, <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario, uno dei più articolati fra quelli di Gortyna, si apre con la menzione all’accusativo dell’individuo onorato, il proconsole di Creta e Cirene sotto Augusto Gaio Rubellio Blando (cf. <bibl><ref target="#b555">Eilers 2002</ref></bibl>). Il personaggio, onorato per il proprio ruolo di <foreign>dikaiodotes</foreign>, è l’unico individuo ad essere definito patrono e <foreign>soter</foreign> di Gortyna, concessione accordatagli verosimilmente dalla <foreign>polis</foreign> stessa tramite una votazione di tutti i cittadini (ll. 5-6). Il decreto, inoltre, ricorda alle linee 8-11 i nomi dei cosmi in carica, fra i quali compaiono il protocosmo Hagesandros ed i cosmi Rhanios figlio di So- e -phon figlio di Kallippos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#patron"><foreign>patron</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?), <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#protokosmos"><foreign>protokosmos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref> (?), <ref type="inst" target="#soter"><foreign>soter</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b753">Guarducci 1928</ref></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 293 <ptr type="phi" target="200736"/></bibl>; 
+                            <bibl><ref target="#bib46"><title>EG</title></ref> I, pp. 373-375</bibl>; 
+                            <bibl><ref target="#b242">Canali De Rossi 2001</ref>, n. 86</bibl>; 
+                            <bibl><ref target="#b555">Eilers 2002</ref>, n. C62</bibl>; 
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, p. 129</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1439">Pałuchowski 2005a</ref>, pp. 428-429</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

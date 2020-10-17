@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Gortyna e Demetrio II</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 167</idno>
+                        <idno type="projectNo">298</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mavropapas">Basilica di Mavropapas, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0237" notAfter="-0236">237/236 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀγαθῆι</supplied> <w lemma="τύχη">τύχηι</w>. <w lemma="βασιλεύω">βασιλεύοντος</w> <persName type="ruler" key="Demetrios II Aitolikos" ref="#macedonia"><name nymRef="Δημήτριος">Δημ<unclear>η</unclear><supplied reason="lost">τρίου</supplied></name>
+                          <lb n="2"/><supplied reason="lost">τοῦ</supplied> <name nymRef="Ἀντίγονος" type="patronymic"><supplied reason="lost">Ἀν</supplied>τιγόνου</name></persName> ἔτους τρίτου, ἐν δ<unclear>ὲ</unclear> <placeName ref="#gortyn"><supplied reason="lost">Γόρτυνι</supplied></placeName>
+                          <lb n="3"/><rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied> <w lemma="Αἰθαλεῖς">Αἰθαλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">κοσμ<supplied reason="lost">ιό</supplied>ντων</w> <unclear>τ</unclear><supplied reason="lost">ῶν σὺν</supplied> <persName type="attested" key="- f. Aristonymos"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ῶ <name nymRef="Ἀριστώνυμος" type="patronymic">Ἀριστ<unclear>ω</unclear>νύμου</name></persName></rs>· πα<supplied reason="lost">ρα</supplied>γε<supplied reason="lost">νομένων</supplied>
+                          <lb n="5"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#gortyn_symmachia"><w lemma="πρεσβευτής"><supplied reason="lost">πρεσβευ</supplied>τῶν</w></rs> παρὰ <rs type="institution" subtype="social_group" role="foreign_relations" key="symmachoi" ref="#gortyn_symmachia"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> καὶ τ<supplied reason="lost">ῶν</supplied> <w lemma="σύμμαχος"><supplied reason="lost">συμ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">μάχων</supplied></w></rs> <supplied reason="lost">π</supplied>ρὸς τὸν <persName type="ruler" key="Demetrios II Aitolikos" ref="#macedonia"><w lemma="βασιλεύς">βασιλέα</w> <name nymRef="Δημήτριος">Δημήτριο<supplied reason="lost">ν</supplied></name> <name nymRef="Ἀντίγονος" type="patronymic"><supplied reason="lost">Ἀντιγό</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">νου</supplied></name></persName> <supplied reason="lost">περὶ</supplied> <w lemma="συμμαχία"><supplied reason="lost">συμ</supplied>μαχίας</w>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#gortyn_symmachia"><persName type="attested" key="Paithemidas f. -"><name nymRef="Παιθεμίδας">Παιθεμίδα</name> τ<supplied reason="lost">ῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs><supplied reason="lost">,</supplied>
+                          <lb n="8"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#gortyn_symmachia"><persName type="attested" key="- f. Euryboitas"><gap reason="lost" extent="unknown" unit="character"/>α τῶ <name nymRef="Εὐρυβώιτας" type="patronymic">Ε<unclear>ὐ</unclear><supplied reason="lost">ρ</supplied>υβώιτα</name></persName></rs>, παρὰ δὲ τῶ <persName type="ruler" key="Demetrios II Aitolikos" ref="#macedonia"><supplied reason="lost"><w lemma="βασιλεύς">βασιλέως</w></supplied>
+                          <lb n="9"/><name nymRef="Δημήτριος"><supplied reason="lost">Δημητρίου</supplied></name></persName> <unclear>ἐ</unclear>λθ<supplied reason="lost">ό</supplied>ντος εἰς <rs type="institution" subtype="social_group" role="foreign_relations" key="symmachoi" ref="#gortyn_symmachia"><placeName ref="#gortyn" type="ethnic">Γορτυ<unclear>ν</unclear><supplied reason="lost">ίους</supplied></placeName> <supplied reason="lost">καὶ τ</supplied><lb 
+                        break="no" n="10"/><supplied reason="lost">οὺς</supplied> <w lemma="σύμμαχος"><supplied reason="lost">συμμάχ</supplied>ους</w></rs> <unclear>Λ</unclear>υ<gap reason="lost" quantity="2" unit="character"/>ηιατέου τοῦ Πρ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατὰ</supplied> τάδε <w lemma="συντίθημι">συνέθεντο</w> <supplied reason="lost">οἱ</supplied> <rs type="institution" subtype="social_group" role="treaty-making" key="symmachoi" ref="#gortyn_symmachia"><supplied reason="lost"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> καὶ</supplied>
+                          <lb n="12"/><supplied reason="lost">οἱ</supplied> <w lemma="σύμμαχος"><supplied reason="lost">σύμ</supplied>μαχ<supplied reason="lost">ο</supplied>ι</w> αὐτῶν</rs> <unclear>κ</unclear>α<supplied reason="lost">ὶ</supplied> <persName type="ruler" key="Demetrios II Aitolikos" ref="#macedonia"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Δημήτριος">Δη<supplied reason="lost">μήτριος</supplied></name> <name nymRef="Ἀντίγονος" type="patronymic"><supplied reason="lost">Ἀντι</supplied><lb 
+                        break="no" n="13"/><supplied reason="lost">γόνου</supplied></name></persName> <supplied reason="lost">ἦ</supplied>μεν <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="συμμαχία">συμμαχίαν</w> <supplied reason="lost">εἰς τὸν ἅπαν</supplied><lb 
+                        break="no" n="14"/><supplied reason="lost">τα χρό</supplied>ν<supplied reason="lost">ο</supplied>ν <persName type="ruler" key="Demetrios II Aitolikos" ref="#macedonia"><name nymRef="Δημήτριος">Δημητρί<supplied reason="lost">ωι</supplied></name> τ<supplied reason="lost">ῶι</supplied> <w lemma="βασιλεύς">βα<supplied reason="lost">σι</supplied>λεῖ</w></persName> καὶ <rs type="institution" subtype="social_group" role="treaty-making" key="symmachoi" ref="#gortyn_symmachia"><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυνίοις</supplied></placeName>
+                          <lb n="15"/><supplied reason="lost">καὶ τοῖς ἄλλοι</supplied>ς <w lemma="σύμμαχος">συμμάχοις</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> ἐ<unclear>ὰ</unclear>ν δ<unclear>ὲ</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>ηος νεανισ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀποστέλλω" part="I"><supplied reason="lost">ἀποσ</supplied>τελλ<gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="18a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato, risalente al terzo anno di regno di Demetrio II, per parte gortynia è datato all’anno in cui è cosmo il figlio di un Aristonymos appartenente alla tribù degli <foreign>Aithaleis</foreign>, ben attestata a Gortyna.</p>
+                    <p>L’alleanza pare essere stata promossa da Gortyna, che assieme ai propri alleati ha inviato due ambasciatori presso il re περὶ συμμαχίας (ll. 4-8). Nel documento, che testimonia l’esistenza di un’alleanza di più città guidate da Gortyna (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78</bibl>), l’etnico di quest’ultima è sempre associato ai propri σύμμαχοι, assieme ai quali compare alle linee 5-6, 9-10, 14-15 e persino 11-12, in cui gli alleati risultano come i contraenti del trattato assieme alla città <foreign>leader</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#symmachia">alleanza di Gortyna</ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, tribù (<ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 188-190 n. 17</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 167 <ptr type="phi" target="200606"/></bibl>; 
+                            <bibl><ref target="#b2024">Wilhelm 1951</ref>, pp. 36-37 n. 10</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 498</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78c</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

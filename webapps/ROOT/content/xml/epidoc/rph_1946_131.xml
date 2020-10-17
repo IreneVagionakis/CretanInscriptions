@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto bilingue (?) di Dreros</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Van Effenterre 1946a, pp. 131-138</idno>
+                        <idno type="projectNo">419</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>retrograda / bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros, tempio di Apollo <foreign>Delphinios</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0700" notAfter="-0600">VII secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><orig>ρμαϝ</orig> <orig>ετ</orig> <orig>ισαλαβρε<unclear>τ</unclear></orig> <orig>κομν</orig>
+                          <lb n="2"/><gap reason="illegible" quantity="1" unit="character"/><orig>δ</orig> <orig>μεν</orig> <orig>ιναι</orig> <orig>ισαλυρια</orig> <orig>λυο</orig>
+                          <lb n="3"/><gap reason="illegible" quantity="2" unit="character"/> τον τυρον μη <orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig>οαοι</orig> <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#dreros"><w lemma="ϝανδάνω">ἔϝαδ<lb 
+                        break="no" n="4"/>ε</w></rs> τυρο<gap reason="illegible" quantity="3" unit="character"/><orig><unclear>μ</unclear>υνα</orig><gap reason="illegible" quantity="1" unit="character"/><orig>οα</orig><gap reason="illegible" quantity="1" unit="character"/><orig>εν<unclear>η</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><orig>ματριταια</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che per la maggior parte sembra essere redatto nella cosiddetta lingua eteocretese, conserva alle linee 3-4 il verbo greco ἔϝαδε, tipico del formulario dei decreti. Sebbene il contenuto del rimanente testo sia del tutto oscuro, è possibile ipotizzare che presentasse una doppia redazione di un decreto in greco ed eteocretese.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andano"><foreign>andano</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib506">Van Effenterre 1946a</ref>, pp. 131-138 <ptr type="phi" target="201511"/> <ptr type="poinikastas" target="#"/></bibl>;
+                            <bibl><ref target="#b1085">Lejeune 1947</ref></bibl>;
+                            <bibl><ref target="#b936">Jeffery 1949a</ref></bibl>;
+                            <bibl><ref target="#b723">Gordon 1963</ref></bibl>;
+                            <bibl><ref target="#b601">Faure 1988-1989</ref></bibl>;
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 287</bibl>;
+                            <bibl><ref target="#b1172">Magnelli – Petrantoni 2013</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Eleutherna relativa a fabbricatori di mantelli</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 9</idno>
+                        <idno type="projectNo">097</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 203</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0400">VI-V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="illegible" quantity="1" unit="line"/>
+                          <lb n="0a"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="month" role="calendar" key="Dionysios" ref="#eleutherna"><w lemma="Διοννύσιος">Διοννυσίαν</w></rs> <w lemma="νενομήια">νενο<unclear>μ</unclear><supplied reason="lost">ηία</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied><unclear>α</unclear>ὶ <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#eleutherna" cert="low"><persName type="attested" key="Timarkos"><name nymRef="Τίμαρκος">Τίμαρκος</name></persName> <w lemma="κοσμέω">ἐκόσμιο<unclear>ν</unclear></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="σισυροποιός"><unclear>σ</unclear>ισυροποιο͂ι</w> <w lemma="τριόδελον">τριόδελον</w> το͂ <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἠμιτυέκτον"><supplied reason="lost">ἠ</supplied><unclear>μ</unclear>ιτυέκτο</w> κριθαί. αἰ δὲ δια<unclear>π</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ι <w lemma="ἀμισθεί">ἀμισθ<unclear>εὶ</unclear></w> <gap reason="lost" quantity="8" unit="character" precision="low"/><orig><unclear>ρ</unclear>ανπ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>αλα<unclear>σ</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/><orig>κ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="1"><note>Διοννυσίαν νενο<unclear>μ</unclear><supplied reason="lost">ηία</supplied> <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib123"><title>Nomima</title></ref></bibl>; Διοννυσιαν νενο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>La parte iniziale del frammento conserva una datazione, nella quale viene menzionata verosimilmente la luna nuova del mese <foreign>Dionnysios</foreign> (attestato anche a Praisos in <ref type="ins" target="#ic3_6_7"><title>IC</title> III 6 7</ref>; cf. inoltre le festività <foreign>Dionnysia</foreign> di Sybrita note da <ref type="ins" target="#seg_58_1021"><title>SEG</title> 58.1021</ref>), seguita dall’indicazione di due cosmi eponimi. Non è chiaro, tuttavia, se l’indicazione temporale sia legata al momento della redazione del documento o se rappresenti invece una scadenza connessa al versamento del salario ad uno o più fabbricatori di mantelli (<foreign>sisyropoioi</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#dionysios"><foreign>Dionysios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b377">Comparetti 1888</ref>, pp. 165-168 n. 8</bibl>; 
+                            <bibl><ref target="#b385">Comparetti 1893b</ref>, pp. 425-428 n. 200</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4957a</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 9 <ptr type="phi" target="199892"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 25</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, pp. 291-292</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Ele9</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b578">Fabricius 1885</ref>, pp. 92-94 n. 2</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 111*</bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 33</idno>
+                        <idno type="projectNo">468</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#venice_maria_salute">Basilica di Santa Maria della Salute, Venezia</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><supplied reason="lost">ἐπὶ τῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><w lemma="κοσμέω"><supplied reason="lost">κοσ</supplied>μιόντων</w> <space extent="unknown" unit="character"/>
+                          <lb n="2"/><persName type="attested" key="Antis f. Polytimos"><name nymRef="Ἄντις">Ἄντιος</name> τῶ <name nymRef="Πολύτιμος" type="patronymic">Πολυτίμ<supplied reason="lost">ω</supplied></name></persName></rs>,
+                          <lb n="3"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Mnastokles f. Pyron"><name nymRef="Μναστοκλῆς">Μναστοκλεῖος</name> τῶ <name nymRef="Πύρων" type="patronymic">Πύρω<supplied reason="lost">νος</supplied></name></persName></rs>,
+                          <lb n="4"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Lykos f. Peteliagoras"><name nymRef="Λύκος">Λύκω</name> τῶ <name nymRef="Πετηλιαγόρας" type="patronymic">Πετηλια<supplied reason="lost">γό</supplied><lb 
+                        break="no" n="5"/>ρα</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Pratomenes f. Theotimos"><name nymRef="Πρατομένης">Πρατομέν<supplied reason="lost">ιος</supplied></name> <supplied reason="lost">τ</supplied>ῶ <name nymRef="Θεότιμος" type="patronymic"><unclear>Θε</unclear><supplied reason="lost">ο</supplied><lb 
+                        break="no" n="6"/>τ<supplied reason="lost">ίμ</supplied>ω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Bergis f. Koryptas"><name nymRef="Βέργις">Βέργιο<supplied reason="lost">ς</supplied></name> <supplied reason="lost">τῶ</supplied> <name nymRef="Κορύπτας" type="patronymic"><supplied reason="lost">Κ</supplied><unclear>ο</unclear>ρύ<unclear>π</unclear><supplied reason="lost">τα</supplied></name></persName></rs>,
+                          <lb n="7"/><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="1" unit="character"/><orig>τ</orig> ἐπὶ τὰν <rs type="institution" subtype="assembly" role="unknown" key="polis" ref="#lato"><w lemma="πόλις"><unclear>πό</unclear>λι<unclear>ν</unclear></w></rs> <orig>ατ<unclear>ω</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="8"/><gap reason="lost" quantity="1" unit="character"/>χιος <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria si apre con una formula di datazione che doveva contenere originariamente il ricordo della tribù dei cosmi in carica, seguito dall’elenco di tutti i loro nomi al genitivo, in questo caso cinque, come avviene anche nei documenti analoghi di Lato <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref> (cinque) e <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref> (sette; sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>).</p>
+                    <p>La <foreign>polis</foreign>, che nella maggioranza delle iscrizioni edificatorie di Lato in cui è menzionata figura al nominativo come promotrice dell’intervento edilizio (<ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>, <ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29-31</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e forse <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>), in questo caso compare invece all’accusativo, non è chiaro in che ruolo; è verosimile tuttavia che anche in questo caso l’iniziativa dell’intervento sia da ricondurre alla città di Lato.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1598">Ricci 1893</ref>, pp. 286-288 n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5136</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 33 <ptr type="phi" target="199241"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b632">Franco 1989-1990</ref>, p. 161 n. b</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

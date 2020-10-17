@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Manomissione di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 233</idno>
+                        <idno type="projectNo">370</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#manumission">manomissione</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός"><supplied reason="lost">θ</supplied>ιοί</w>. <w lemma="ἀπολαγαίω">ἀπελάγ<unclear>ασ</unclear>αν</w> ἁ <rs type="institution" subtype="assembly" role="manumission" key="polis" ref="#gortyn"><w lemma="πόλις">πόλις</w></rs>
+                          <lb n="2"/>οἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> <rs type="institution" subtype="social_status" role="manumission" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλεύθερον</w></rs>
+                          <lb n="3"/><rs type="institution" subtype="tribe" role="eponym" key="Archeia" ref="#gortyn">ἐπὶ τᾶς <w lemma="Ἀρχήια">Ἀρχήιας</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντων</w>
+                          <lb n="4"/>οἱ σὺν <persName type="attested" key="Archemachos f. Gastris"><name nymRef="Ἀρχέμαχος">Ἀρχεμ<unclear>ά</unclear>χ<unclear>ω</unclear>ι</name>
+                          <lb n="5"/>τῶι <name nymRef="Γάστρις" type="patronymic">Γάστριος</name></persName></rs> <unclear>Με</unclear><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ον.
+                          <lb n="5a"/><space quantity="1" unit="line"/>
+                          <lb n="6"/><rs type="institution" subtype="social_status" role="manumission" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐ<lb 
+                        break="no" n="7"/><supplied reason="lost">λ</supplied>εύθερον</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La manomissione, che si apre con l’invocazione θιοί, è promossa a favore dell’individuo menzionato alla linea 5 da parte della <foreign>polis</foreign> di Gortyna (ll. 1-2, ἁ πόλις οἱ Γορτύνιοι), come avviene anche in <ref type="ins" target="#ic4_236"><title>IC</title> IV 236</ref>. Il documento, inoltre, conserva alle linee 3-5 una datazione che ricorda il cosmo eponimo Archemachos figlio di Gastris della tribù <foreign>Archeia</foreign>, attestata anche a Knossos, Lyttos e Hierapytna.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, tribù (<ref type="inst" target="#archeia"><foreign>Archeia</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 168-169 n. 3</bibl>; 
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> 30.46</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5007</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 184</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 233 <ptr type="phi" target="200675"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

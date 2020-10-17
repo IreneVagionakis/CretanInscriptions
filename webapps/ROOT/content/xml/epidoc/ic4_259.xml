@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria da Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 259</idno>
+                        <idno type="projectNo">363</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Heroon</foreign> nel <foreign>Pythion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Heroon</foreign> nel <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#gortyn">ἐπὶ τῶν <w lemma="Αἰθαλεῖς">Αἰθαλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντων</w>
+                          <lb n="2"/>τῶν σὺν <persName type="attested" key="Erason f. Antiphatas"><name nymRef="Ἐράσων">Ἐράσωνι</name> τῶ <name nymRef="Ἀντιφάτας" type="patronymic">Ἀντι<lb 
+                        break="no" n="3"/>φάτα</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">ἐκόσμιον</w> οἵδε· <persName type="attested" key="Erason f. Antiphatas"><name nymRef="Ἐράσων">Ἐράσων</name>
+                          <lb n="4"/><name nymRef="Ἀντιφάτας" type="patronymic">Ἀντιφάτα</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Agesandros f. Morautas"><name nymRef="Ἀγήσανδρος">Ἀγήσανδρος</name> <name nymRef="Μωραύτας" type="patronymic">Μω<supplied reason="lost">ρ</supplied><lb 
+                        break="no" n="5"/>αύ<unclear>τ</unclear>α</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Amnatos f. Aristophoos"><name nymRef="Ἄμνατος">Ἄμνατος</name> <name nymRef="Ἀριστόφοος" type="patronymic">Ἀριστοφόω</name></persName></rs>, <rs type="institution" subtype="official" role="incumbent" key="hiarorgos" ref="#gortyn"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Ertaios f. Krios"><name nymRef="Ἐρταῖος">Ἐρτα<lb 
+                        break="no" n="6"/>ῖος</name> <name nymRef="Κριός" type="patronymic">Κρίω</name></persName> <w lemma="ἱαροργός">ἱαροργός</w></rs></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Amnatos f. Soarchos"><name nymRef="Ἄμνατος">Ἄμνατος</name> <name nymRef="Σόαρχος" type="patronymic">Σοάρ<lb 
+                        break="no" n="7"/>χω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Mellos f. Diognetos"><name nymRef="Μέ-λλος">Μέ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>λλος</name> <name nymRef="Διόγνητος" type="patronymic">Διογνήτω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Epicharmidas f. Aristodamos"><name nymRef="Ἐπιχαρμίδας">Ἐπιχαρμ<lb 
+                        break="no" n="8"/>ίδας</name> <name nymRef="Ἀριστόδαμος" type="patronymic">Ἀριστοδάμω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Artyas f. Antaukes"><name nymRef="Ἀρτύας">Ἀρτύας</name> <name nymRef="Ἀνταύκης">Ἀντ<lb 
+                        break="no" n="9"/>αύκιος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="-lliarnattos f. Damagoras"><name nymRef="-λλιαρναττος"><gap reason="lost" quantity="4" unit="character"/><unclear>λλι</unclear>αρναττος</name> <name nymRef="Δαμαγόρας" type="patronymic">Δαμα<lb 
+                        break="no" n="10"/>γόρα</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Sotadas f. Kleainetos"><name nymRef="Σωτάδας">Σωτάδας</name> <name nymRef="Κλεαίνετος" type="patronymic">Κλεαινέτω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Kydans f. Nemoneios"><name nymRef="Κύδανς">Κύ<lb 
+                        break="no" n="11"/>δανς</name> <name nymRef="Νεμονήιος" type="patronymic">Νεμονήιω</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, che non fa menzione della struttura costruita o interessata dal restauro, si apre con una datazione che ricorda il cosmo eponimo Erason figlio di Antiphatas della tribù degli <foreign>Aithaleis</foreign>, ben attestata a Gortyna e nota anche a Malla, Knossos e Dreros. Il restante documento è occupato da una elencazione dei cosmi in carica che conserva i nomi di undici magistrati, fra i quali compaiono l’eponimo già commemorato nella datazione e il cosmo <foreign>hiarorgos</foreign> Ertaios figlio di Krios, figura che è presente anche nelle iscrizioni edificatorie gortynie <ref type="ins" target="#ic4_260"><title>IC</title> IV 260</ref>-<ref type="ins" target="#ic4_261">261</ref>, <ref type="ins" target="#ic1_17_4"><title>IC</title> I 17 4</ref> B e forse <ref type="ins" target="#seg_58_992"><title>SEG</title> 58.992</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, tribù (<ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 239-242</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1035-1036 n. 8</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 185</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 259 <ptr type="phi" target="200701"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1683">Schörner 2007</ref>, n. A 14</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

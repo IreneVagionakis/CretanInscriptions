@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica onoraria di Polyrrhenia per Areo I</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 12 A</idno>
+                        <idno type="projectNo">007</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#polyrrhenia_99_fathers">Chiesa dei 99 Padri, Polyrrhenia (come soglia, non visibile)</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base di statua</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, acropoli</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0275" notAfter="-0265">275-265 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/>ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs> ἁ <placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίων</placeName> <w lemma="ἀνατίθημι">ἀνέθηκε</w>
+                        <lb n="2"/><persName type="ruler" key="Areus I" ref="#sparta"><name nymRef="Ἀρεύς"><unclear>Ἀρέα</unclear></name> <name nymRef="Ἀκρότατος" type="patronymic">Ἀκροτάτ<supplied reason="lost">ω</supplied></name></persName> <placeName ref="#sparta" type="ethnic"><unclear>Λακ</unclear>εδαιμονίων
+                        <lb n="3"/><space extent="unknown" unit="character"/></placeName> <w lemma="βασιλεύς"><supplied reason="lost">βασιλέα</supplied></w>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>Il riutilizzo antico della base come sostegno per una statua di Augusto ha comportato l’iscrizione di una dedica all’imperatore (<ref type="ins">B</ref>) parzialmente sopra a quella ad Areo (A).</p>
+                    <p>La dedica è ad opera dalla <foreign>polis</foreign>, esattamente come gli altri documenti analoghi della città che onorano personaggi di spicco, <ref type="ins" target="#ic2_23_13"><title>IC</title> II 23 13</ref> e <ref type="ins" target="#ic2_23_14">14</ref>, oltre che la più tarda dedica ad Augusto <ref type="ins"><title>IC</title> II 23 12 B</ref>. A differenza dei documenti successivi, però, la dedica ad Areo si distingue per la formulazione più estesa, che prevede, in aggiunta ad ἁ πόλις, la specificazione dell’etnico collettivo Πολυρηνίων e del verbo ἀνέθηκε. Ad Areo non viene conferito alcun titolo onorifico da parte della <foreign>polis</foreign>; il nome del sovrano viene invece accompagnato dalla relativa titolatura regale (tendenza degli Spartani a ricercare altrove i riconoscimenti esteriori che non trovano in patria cf. <bibl><ref target="#b1374">Muccioli 2005</ref></bibl>, <bibl><ref target="#b1375">Muccioli 2011</ref>, pp. 118-128</bibl>; per Areo in particolare cf. <ref type="ins"><title>ISE</title> I 54</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1387">Myres 1896</ref>, n. 7</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 12 A <ptr type="phi" target="200049"/></bibl>; 
+                    <bibl><ref target="#bib46"><title>EG</title></ref> I, p. 445, fig. 228</bibl>; 
+                    <bibl><ref target="#bib68"><title>IGR</title></ref> I 953</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 25 (A)</bibl>; 
+                    <bibl><ref target="#b1009">Kotsidou 2000</ref>, n. 197</bibl>; 
+                    <bibl><ref target="#b1252">Martínez Fernández 2006</ref>, n. 2</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 14</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 493-494</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra (?) di Lebena menzionante uno <foreign>hiarorgos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 3</idno>
+                        <idno type="projectNo">221</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge sacra?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0100">III-II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ζω</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ατω <w lemma="θυ-" part="I"><unclear>θ</unclear>υσ<gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ν ὁ <rs type="institution" subtype="official" role="cult" key="hiarorgos" ref="#lebena"><w lemma="ἱαροργός">ἱαροργὸς</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ας κ’ ἐφεύδηι η<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ν κά τις ἔχηι <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ύδων <w lemma="θυ-" part="I"><unclear>θ</unclear>υσ<gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ερ ϝεσπε<supplied reason="lost">ρ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ω απ<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιασκ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento di legge, probabilmente riguardante l’incubazione (l. 4, ἐφεύδηι), testimonia il coinvolgimento in tale contesto di uno ἱαροργός, un ministro del culto noto a Creta solamente a Lebena, Gortyna e Phaistos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 3 <ptr type="phi" target="199266"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 5</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b136">Bile 1991</ref></bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 95-99</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Lappa</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 8</idno>
+                        <idno type="projectNo">087</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">due decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lappa"><w lemma="δοκέω">ἔ<supplied reason="lost">δ</supplied>οξε</w></rs> <placeName ref="#lappa" type="ethnic">Λαππαίων</placeName> τᾶι
+                          <lb n="2"/><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lappa"><w lemma="πόλις">πόλει</w></rs> <persName type="honoured" key="Andromachos f. Menestheus"><name nymRef="Ἀνδρόμαχος">Ἀνδρόμαχον</name> <name nymRef="Μενεσθεύς" type="patronymic">Με<lb 
+                        break="no" n="3"/>νεσθέους</name> <placeName ref="#alexandria" type="ethnic">Ἀλεξανδρέ<lb 
+                        break="no" n="4"/>α</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#lappa"><w lemma="πρόξενος">πρόξενον</w></rs> ἦμεν αὐ<lb 
+                        break="no" n="5"/>τὸν καὶ <w lemma="γένος">γένος</w>.
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Dioneu-" ref="#unknown"><name nymRef="Διονευ-">Διονευ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                          <lb n="2"/><orig>οσθη<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Sebbene del secondo documento sia leggibile ben poco, è molto probabile che sia anch’esso un decreto onorario, come il testo che lo precede. Il documento A, completo, presenta in posizione iniziale la formula di sanzione, che in linea con quanto avviene abitualmente nei decreti onorari di Lappa mostra la <foreign>polis</foreign> in qualità di entità istituzionale preposta alla deliberazione (da sola in <ref type="ins" target="#ic2_16_4"><title>IC</title> II 16 4-7</ref> A-B; assieme ai cosmi in <ref type="ins" target="#ic2_16_3"><title>IC</title> II 16 3</ref> e <ref type="ins" target="#ic2_16_7">7</ref> C).</p>
+                    <p>L’individuo onorato, un cittadino di Alessandria, è insignito della prossenia, la stessa concessione effettuata a tutti gli altri personaggi commemorati nei decreti onorari di Lappa (cf. <ref type="ins" target="#ic2_16_4"><title>IC</title> II 16 4-7</ref>, <ref type="ins" target="#seg_57_846"><title>SEG</title> 57.846</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b762">Guarducci 1931b</ref>, pp. 29-30 n. 2</bibl>;
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 8 <ptr type="phi" target="199975"/> <ptr type="phi" target="199976"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Rhaukos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 27 1*</idno>
+                        <idno type="projectNo">159</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#rhaukos" type="ethnic">Ῥαυκίων</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#rhaukos"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#rhaukos" type="ethnic">Ῥαυκίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#rhaukos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#rhaukos"><w lemma="πόλις">πόλει</w></rs>. ἐπειδὴ παραγε<lb 
+                        break="no" n="3"/>νόμενοι πρεσβευταὶ παρὰ τῶ δάμω<surplus>ι</surplus> τῶ <placeName ref="#teos" type="ethnic">Τηίων</placeName> πορτὶ <placeName ref="#rhaukos" type="ethnic">Ῥω<lb 
+                        break="no" n="4"/>κίονς</placeName> Ἀπολλόδοτος Ἀστυάνακτος, Κωλώτας Ἑκατωνύμου
+                          <lb n="5"/>ἐπελθ<surplus>ι</surplus>όντεν ἐπὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#rhaukos"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs> ἐνεφάνιξαν τάν τε
+                          <lb n="6"/><w lemma="οἰκειότας">οἰκειότατα</w> τὰν ὑπάρχονσαν <placeName ref="#rhaukos" type="ethnic">Ῥαυκίοις</placeName> ποθ’ αὑτόνς
+                          <lb n="7"/>καὶ περὶ τᾶς <w lemma="ἀσυλία">ἀσυλίας</w> τᾶς τε πόλεος καὶ τᾶς χώρας <w lemma="παρακαλέω">πα<lb 
+                        break="no" n="8"/>ρεκάλεσαν</w>, ἔτι δὲ καὶ τῶ παρ’ <persName type="ruler" key="Antiochos III" ref="#seleukeia"><name nymRef="Ἀντίοχος">Ἀντιόχω</name> τῶ <w lemma="βασιλεύς">βασιλέος</w></persName> πρει<lb 
+                        break="no" n="9"/>γευτᾶ Ἀγησάνδρω <w lemma="παρακαλέω">παρακαλέσαντος</w> μετὰ πάνσ<surplus>σ</surplus>α<corr>ς</corr>
+                          <lb n="10"/><w lemma="σπουδά">σπουδᾶ<supplied reason="lost">ς</supplied></w> καὶ <w lemma="φιλοτιμία">φιλοτιμία<supplied reason="lost">ς</supplied></w>, ὁμοίως δὲ καὶ τῶν παρ’ ἁμῶν
+                          <lb n="11"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#rhaukos"><w lemma="πρεισγευτάς">πρεισγευτᾶν</w></rs> ἐμφανιξάντων τὰν ὑμ<supplied reason="lost">ῶ</supplied>ν <w lemma="εὔνοια">εὔνοι<supplied reason="lost">άν</supplied></w> <supplied reason="lost">τε κ</supplied>αὶ
+                          <lb n="12"/><w lemma="προθυμία">προθυμίαν</w>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#rhaukos"><w lemma="δοκέω">δεδόχθαι</w></rs> <placeName ref="#rhaukos" type="ethnic">Ῥαυκίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#rhaukos"><w lemma="κόσμος"><supplied reason="lost">κόσμοι</supplied>ς</w></rs> <supplied reason="lost">καὶ τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#rhaukos"><w lemma="πόλις">πό<lb 
+                        break="no" n="13"/>λει</w></rs> <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> <placeName ref="#teos" type="ethnic">Τ<supplied reason="lost">η</supplied>ίοι<supplied reason="lost">ς</supplied></placeName> ὅτι ἅ τε καθ<supplied reason="lost">ιάρωσι</supplied>ς <supplied reason="lost">τῶι</supplied> <persName type="divine" key="Dionysos"><supplied reason="lost">Δι</supplied>ονύ<lb 
+                        break="no" n="14"/>σωι</persName> τᾶς πόλεος καὶ τᾶς χώρας αὐτοῖς ἅ τε <w lemma="ἀσυλία">ἀσυλία</w> καὶ
+                          <lb n="15"/>τἄλλα ἔνδοξα καὶ <w lemma="τίμια">τίμια</w> παρ’ <supplied reason="lost">ἁμῶν ὑπάρξει αὐτοῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/>νῦν τε καὶ τὸν ἄλλον χρόνον πάντα.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, pervenuto in forma pressoché completa, appartiene alla serie di documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>, <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>, <bibl><ref target="#b1040">Kvist 2003</ref></bibl>, <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>). Nel documento si sono conservate sia la formula di sanzione (l. 2) che quella di mozione (ll. 12-13), che testimoniano come l’attività deliberativa di Rhaukos sia affidata ai cosmi e alla <foreign>polis</foreign>.</p>
+                    <p>La sezione relativa alle motivazioni del decreto (ll. 2-12), che alle linee 10-11 menziona degli ambasciatori di Rhaukos, informa inoltre dell’esistenza nella città cretese di un’<foreign>ekklesia</foreign>, al cui cospetto si presentano gli inviati di Teos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b731">Bailie 1846</ref>, n. 155b</bibl>;
+                            <bibl><ref target="#bib116"><title>CIG</title></ref> 3051</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 63</bibl>;
+                            <bibl><ref target="#b267">Cauer 1877</ref>, n. 50</bibl>; 
+                            <bibl><ref target="#b273">Cauer 1883</ref>, n. 127</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 53</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5167</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 188</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 27 1* <ptr type="phi" target="199651"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 15</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 138</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

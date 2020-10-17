@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Maussollo e Artemisia per Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Labraunda 1</idno>
+                        <idno type="projectNo">161</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#bodrum_museum">Museo di Bodrum</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#labraunda">Labraunda</origPlace>
+                                    <origDate period="#classical" when="-0357" precision="low">357 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><supplied reason="lost">ἔ</supplied>δοξε <persName type="ruler" key="Maussollos" ref="#caria"><name nymRef="Μαυσσώλλος">Μαυσσώλλωι</name></persName> κ<unclear>α</unclear>ὶ <persName type="ruler" key="Artemisia II" ref="#caria"><name nymRef="Ἀρτεμισίη"><supplied reason="lost">Ἀρτε</supplied>μισίηι</name></persName>· ἐπειδ<supplied reason="lost">ὴ</supplied>
+                            <lb n="2"/><rs type="institution" subtype="social_group" role="honoured" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic"><unclear>Κν</unclear>ώσιοι</placeName></rs> καὶ ἰδίηι καὶ <unclear>δ</unclear>ημοσίη<supplied reason="lost">ι διὰ</supplied> <unclear>τέ</unclear><supplied reason="lost">λους</supplied>
+                            <lb n="3"/><w lemma="ἀνήρ">ἄνδρες</w> ἀγαθοί εἰσι περὶ <persName type="ruler" key="Maussollos" ref="#caria"><name nymRef="Μαυσσώλλος">Μαύσ<supplied reason="lost">σ</supplied>ωλλο<supplied reason="lost">ν</supplied></name></persName> <space quantity="3" unit="character"/>
+                            <lb n="4"/>καὶ τὰ <persName type="ruler" key="Maussollos" ref="#caria"><name nymRef="Μαυσσώλλος">Μαυσσώλλου</name></persName> πράγματα, εἶ<unclear>να</unclear><supplied reason="lost">ι</supplied> <space quantity="2" unit="character"/>
+                            <lb n="5"/>αὐτοὺς π<supplied reason="lost">ρ</supplied>οξένους καὶ εὐεργέτα<unclear>ς</unclear> <unclear>ἐ</unclear><supplied reason="lost">ς τ</supplied><unclear>ὸ</unclear><supplied reason="lost">ν</supplied>
+                            <lb n="6"/>ἀεὶ χρόνον· εἶναι δὲ καὶ ἀτέλει<unclear>αν</unclear> <unclear>α</unclear>ὐ<supplied reason="lost">τοῖς,</supplied>
+                            <lb n="7"/>ὁπόσης <persName type="ruler" key="Maussollos" ref="#caria"><name nymRef="Μαυσσώλλος">Μαύσσωλλος</name></persName> ἄρχει, κ<unclear>α</unclear>ὶ ἔ<unclear>σ</unclear><supplied reason="lost">π</supplied><unclear>λο</unclear><supplied reason="lost">υν</supplied>
+                            <lb n="8"/>καὶ ἔκπλουν ἀσυλὶ καὶ ἀσπονδεί· <unclear>ἐὰ</unclear><supplied reason="lost">ν δέ τις</supplied>
+                            <lb n="9"/>ἀδικῆι <placeName ref="#knossos" type="ethnic">Κνωσίους</placeName>, ἐπιμέλεσθα<unclear>ι</unclear> <space extent="unknown" unit="character"/>
+                            <lb n="10"/><persName type="ruler" key="Maussollos" ref="#caria"><name nymRef="Μαυσσώλλος">Μαύσσωλλον</name></persName> καὶ <persName type="ruler" key="Artemisia II" ref="#caria"><name nymRef="Ἀρτεμισίη">Ἀρτεμισίην</name></persName>, ὅπ<unclear>ως</unclear> <space quantity="3" unit="character"/>
+                            <lb n="11"/>μὴ <w lemma="ἀδικέω">ἀδικήσονται</w>, κατὰ δύναμι<unclear>ν</unclear> <space extent="unknown" unit="character"/>
+                            <lb n="12"/><unclear>τ</unclear>ὴν αὐτῶν. <space extent="unknown" unit="character"/>
+                            <lb n="12a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario, emanato da Maussollo e Artemisia, è estremamente insolito in quanto il suo contenuto sembra derivare da un fraintendimento del significato originario delle concessioni accordate. La prossenia e l’<foreign>euergesia</foreign>, infatti, vengono da costoro concesse non a singoli individui bensì all’intera <foreign>polis</foreign> di Knossos come puro titolo onorifico.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib463"><title>I.Labraunda</title></ref> 40</bibl>; 
+                            <bibl><ref target="#b928">Hornblower 1982</ref>, n. M7</bibl>;
+                            <bibl type="main_edition"><ref target="#bib89">Labraunda</ref> 1 <ptr type="phi" target="260029"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib56"><title>RO</title></ref> 55</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

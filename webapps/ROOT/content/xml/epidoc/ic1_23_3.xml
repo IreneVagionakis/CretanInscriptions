@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica alla <foreign>Megale Mater</foreign> da Phaistos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 23 3</idno>
+                        <idno type="projectNo">219</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">43</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#phaistos">Phaistos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>θαῦμα μέγ’ ἀνθρώποις
+                          <lb n="2"/>πάντων <persName type="divine" key="Mater">Μάτηρ</persName> προδίκνυτι·
+                          <lb n="3"/>τοῖς ὁσίοις κίνχρητι καὶ οἱ γον<lb 
+                        break="no" n="4"/>εὰν ὑπέχονται· τοῖς δὲ π<lb 
+                        break="no" n="5"/>αρεσβαίνονσι <w lemma="θιός">θιῶν</w> γέν<lb 
+                        break="no" n="6"/>ος ἀντία πράτει. <space quantity="1" unit="character"/> πάντε<lb 
+                        break="no" n="7"/>ς δ’ <w lemma="εὐσεβίης">εὐσεβίες</w> τε καὶ εὔγλωθ<lb 
+                        break="no" n="8"/><surplus>ι</surplus>οι πάριθ’ ἁγνοὶ <space quantity="1" unit="character"/> <w lemma="ἔνθεος">ἔνθεον</w> ἐς
+                          <lb n="9"/><rs type="institution" subtype="public_space" role="cult" key="naos" ref="#phaistos"><persName type="divine" key="Megale Mater">Μεγάλας Ματρὸς</persName> <w lemma="ναός">ναόν</w></rs>,
+                          <lb n="10"/><w lemma="ἔνθεος">ἔνθεα</w> δ’ ἔργα γνωσῆθ’ ἀ<lb 
+                        break="no" n="11"/>θανάτας ἄξια τῶδε <rs type="institution" subtype="public_space" role="cult" key="naos" ref="#phaistos"><w lemma="ναός">ν<lb 
+                        break="no" n="12"/>αῶ</w></rs>. <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’epigramma, originariamente posto nel luogo di culto della dea, attesta l’esistenza di un altrimenti ignoto tempio della <foreign>Megale Mater</foreign> a Phaistos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#naos"><foreign>naos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 735-737 n. 183</bibl>; 
+                            <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 541-544</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5112</bibl>; 
+                            <bibl><ref target="#b983">Kern 1922</ref>, p. 106 n. 32b IV</bibl>; 
+                            <bibl><ref target="#b1096">Levi 1922</ref>, pp. 371-373 n. 17</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 23 3 <ptr type="phi" target="199604"/></bibl>; 
+                            <bibl><ref target="#bib513"><title>CCCA</title> II</ref> 661</bibl>; 
+                            <bibl><ref target="#b372">Colli 1977</ref>, pp. 216-217, 409-410 n. 4b 20</bibl>; 
+                            <bibl><ref target="#b1581">Pugliese Carratelli 1993</ref>, pp. 46-48</bibl>; 
+                            <bibl><ref target="#b424">Cucuzza 1993</ref></bibl>; 
+                            <bibl><ref target="#b148">Bile 2002</ref>, pp. 125-127</bibl>;
+                            <bibl><ref target="#b120">Bernabé 2005</ref>, pp. 135-136 n. 568 F</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 23</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

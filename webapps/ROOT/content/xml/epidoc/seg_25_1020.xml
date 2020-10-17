@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 25.1020</idno>
+                        <idno type="projectNo">432</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos</repository> 
+                                <idno type="invNo">1633</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἐπιμελέομαι"><supplied reason="lost">ἐπιμ</supplied>ε<unclear>λ</unclear><supplied reason="lost">έσθω</supplied></w> <supplied reason="lost">ἐς <w lemma="στάλα">στάλαμ</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενον</w></rs></supplied>
+                          <lb n="2"/><supplied reason="lost">καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέταμ</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλεως</w></rs></supplied> <w lemma="ἀναγράφω"><supplied reason="lost">ἀνα</supplied><unclear>γ</unclear>ραφή<supplied reason="lost">μειν</supplied></w><supplied reason="lost">· ἐπειδὴ</supplied> <persName type="honoured" key="Me-" ref="#unknown"><name nymRef="Μη-"><supplied reason="lost">Μη</supplied><gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                          <lb n="3"/><supplied reason="lost"><w lemma="εὔνοος">εὔνουν</w> καὶ <w lemma="χρήσιμος">χρήσιμον</w> ἑ</supplied><unclear>α</unclear>υτὸν <supplied reason="lost" cert="low">διατελεῖ παρεχόμενος κοινᾶι τᾶι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs></supplied>
+                          <lb n="4"/><supplied reason="lost">καὶ ἰδίαι πᾶσι τοῖς ἐντυγχ</supplied>άνουσ<unclear>ι</unclear> <unclear>τ</unclear><supplied reason="lost">ῶν <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="polites" ref="#olous"><w lemma="πολίτας">πολιτᾶν</w></rs>, ἀεὶ τὰ συμ</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">φέροντα <w lemma="λέγω">λέγων</w> καὶ</supplied> <w lemma="πράσσω"><supplied reason="lost">πράσσ</supplied>ων</w> <placeName ref="#olous">Ὀλόν<supplied reason="lost">τι</supplied></placeName><supplied reason="lost">· ὅπως οὖν καὶ ἁ <placeName ref="#olous" type="ethnic">Ὀλοντίων</placeName></supplied>
+                          <lb n="6"/><supplied reason="lost"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλις</w></rs> τὰς καταξίας</supplied> <w lemma="χάρις"><supplied reason="lost">χάριτ</supplied>ας</w> ἀποδ<unclear>ιδ</unclear><supplied reason="lost">οῦσα <w lemma="φαίνομαι">φαίνηται</w> τοῖς</supplied>
+                          <lb n="7"/><supplied reason="lost">καλοῖς καὶ ἀγαθοῖς</supplied> <w lemma="ἀνήρ"><supplied reason="lost">ἀνδ</supplied>ράσι</w>· εἴμει<unclear>ν</unclear> <supplied reason="lost">αὐτὸν καὶ <w lemma="γένος">γένος</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προξένους</w></rs></supplied>
+                          <lb n="8"/><supplied reason="lost">καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέτας</w></rs>, ὁ δὲ</supplied> <rs type="institution" subtype="official" role="inscriber" key="grammateus" ref="#olous"><w lemma="γραμματεύς"><supplied reason="lost">γραμμ</supplied>ατεὺς</w></rs> Μη<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="ἐπιμελέομαι">ἐπιμελέσθω</w></supplied>
+                          <lb n="9"/><supplied reason="lost">ἐς <w lemma="στάλα">στάλαμ</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενον</w></rs> καὶ</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας"><supplied reason="lost">ε</supplied>ὐεργέταμ</w></rs> <supplied reason="lost"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλεως</w></rs> <w lemma="ἀναγράφω">ἀναγραφήμειν</w>· καθὰ</supplied>
+                          <lb n="10"/><supplied reason="lost">καὶ τοῖς ἄλλοις εἴμειν δ</supplied>ὲ αὐτῶι <unclear>κ</unclear><supplied reason="lost">αὶ πολέμου καὶ εἰρήνας</supplied>
+                          <lb n="11"/><supplied reason="lost">καὶ <w lemma="εἰσπλέω">εἴσπλουν</w> καὶ <w lemma="ἐκπλέω">ἔκπλουν</w> <w lemma="ἀσυλεί">ἀσυλεὶ</w> καὶ ἀσπονδεὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario, di cui si è conservato solamente un piccolo frammento, è stato in buona parte integrato da Angeliki Petropoulou sulla base del documento analogo <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref>. Il conferimento congiunto di <foreign>euergesia</foreign> e verosimilmente prossenia al beneficiario del decreto, inclusivo forse di ulteriori concessioni, ad Olous trova dei paralleli in <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref>, <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> I, IV-VI, IX-X e forse <ref type="ins" target="#ic1_22_6"><title>IC</title> I 22 6</ref>, oltre che in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> II, XII-XIII in associazione alla cittadinanza. Il frammento conserva inoltre alla linea 8 la menzione di un segretario, figura che a Olous è documentata anche da <ref type="ins" target="#ic1_22_8"><title>IC</title> I 22 8</ref>, il quale sembra essere indicato come il responsabile dell’iscrizione su stele del decreto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?), <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (?), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1425">Orlandos 1960</ref>, pp. 312-314</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 25.1020 <ptr type="phi" target="201799"/> <ptr type="seg" target="a25_1020"/></bibl>); 
+                            <bibl><ref target="#b1527">Petropoulou 1989-1990</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 39.978 <ptr type="phi" target="201800"/> <ptr type="seg" target="a39_978"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

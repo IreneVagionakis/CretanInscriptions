@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lista dei <foreign>theorodokoi</foreign> di Epidauro</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG IV², 1 96 IΙ Α</idno>
+                        <idno type="projectNo">558</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#epidauros_asklepieion">Magazzino dell’<foreign>Asklepieion</foreign> di Epidauro</repository>
+                                <idno type="invNo">292</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#list">lista</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#epidauros">Epidauro, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0260" notAfter="-0240">260-240 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="9"/>μηνὸς Ἀπελλαίου τετάρται, τελείαι, ἐπὶ καταλόγων βουλᾶς, <placeName ref="#selge" type="ethnic">Σελεγεΐς</placeName>, <supplied reason="lost">Ἀ</supplied><unclear>ν</unclear>δρομ<supplied reason="lost">ένευς, Λά</supplied><lb 
+                            break="no" n="10"/>κριος, Ἐπικράτευς, ἔδοξε βουλᾶι καὶ δάμωι τῶν <placeName ref="#epidauros" type="ethnic">Ἐπιδαυρίων</placeName>· προξένους εἶμε<supplied reason="lost">ν καὶ</supplied> εὐ<lb 
+                            break="no" n="11"/>εργέτας τᾶς πόλιος τῶν <placeName ref="#epidauros" type="ethnic">Ἐπιδαυρίων</placeName> καὶ θεαροδό<supplied reason="lost">κου</supplied>ς τοῦ <persName type="divine" key="Apollo">Ἀπόλλωνος</persName> κα<supplied reason="lost">ὶ τοῦ</supplied> <persName type="divine" key="Asklepios"><supplied reason="lost">Ἀ</supplied>σκλα<lb 
+                            break="no" n="12"/>πιοῦ</persName> Ἁγήσαρχον Ἀριστομένευ<supplied reason="lost">ς</supplied> <placeName ref="#kyme" type="ethnic">Κυμαῖον</placeName>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#kydonia"><persName type="attested" key="Kratippos f. Sosos"><name nymRef="Κράτιππος"><unclear>Κρ</unclear><supplied reason="lost">άτ</supplied>ιπ<unclear>π</unclear><supplied reason="lost">ον</supplied></name> <name nymRef="Σῶσος" type="patronymic">Σώσου</name> <placeName ref="#kydonia" type="ethnic">Κυδωνιάταν</placeName></persName></rs>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#phalasarna"><persName type="attested" key="Androkles f. Epigenes"><name nymRef="Ἀνδροκλῆς"><unclear>Ἀν</unclear><supplied reason="lost">δροκλ</supplied>ῆ</name> <name nymRef="Ἐπιγένης" type="patronymic">Ἐπ<supplied reason="lost">ι</supplied><lb 
+                            break="no" n="13"/>γένευς</name> <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιον</placeName></persName></rs>, Σωσίβιον <supplied reason="lost">Δ</supplied>αμονίκου <placeName ref="#alexandria" type="ethnic">Ἀλεξ<supplied reason="lost">αν</supplied>δρῆ</placeName>, Εὔδωρον <unclear>Δερκ</unclear>ίδα <placeName ref="#sparta" type="ethnic">Λ<supplied reason="lost">ακ</supplied>εδαιμό<lb 
+                            break="no" n="14"/>νιον</placeName>· πρόξενον Δαμάτριον Μεγακλείδα <placeName ref="#argos" type="ethnic">Ἀργεῖον</placeName>.
+                        </ab>
+                </div>
+                    <div type="commentary">
+                        <p>All’interno della più ampia lista dei prosseni, <foreign>euergetai</foreign> e <foreign>theorodokoi</foreign> di Epidauro la sezione II A restituisce i nomi di più Cretesi, in particolare un cittadino di Kydonia, Kratippos figlio di Sosos, e uno di Phalasarna, Androkles figlio di Epigenes, possibilmente lo stesso individuo commemorato nell’idria funeraria <ref type="ins" target="#seg_24_1177"><title>SEG</title> 24.1177</ref>. Oltre ad essi, gli unici Cretesi ad essere designati come addetti all’accoglienza degli ambasciatori sacri, nella lista compaiono anche altri due individui originari dell’isola, i quali sono insigniti invece della sola prossenia (un individuo definito come Cretese nella sezione V e un cittadino di Knossos nella sezione VI).</p>
+                <p><emph>Elementi istituzionali attestati</emph>: <ref type="inst" target="#theorodokos"><foreign>theorodokos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b974">Kavvadias 1901</ref>, pp. 57-82, ll. 9-14</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> IV 925, ll. 1-6</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> IV<hi rend="superscript">2</hi>, 1 96 IΙ Α <ptr type="phi" target="28525"/></bibl>;
+                            <bibl type="main_edition"><ref target="#bib300">Peek 1969</ref>, n. 42 II A <ptr type="phi" target="335378"/></bibl>; 
+                            <bibl><ref target="#b1507">Perlman 2000</ref>, n. E3 III</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2015">Wilhelm 1901</ref>, p. 57</bibl>; 
+                            <bibl><ref target="#b1356">Mitsos 1933</ref></bibl>; 
+                            <bibl><ref target="#b1357">Mitsos 1935</ref>, pp. 5-7, n. 1</bibl>;
+                            <bibl><ref target="#b1662">Salač 1940</ref></bibl>; 
+                            <bibl><ref target="#b719">Gondicas 1988</ref>, n. 14</bibl>; 
+                            <bibl><ref target="#b1607">Rizakis 1995</ref>, n. 685</bibl>; 
+                            <bibl><ref target="#b923">Inglese 1996</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

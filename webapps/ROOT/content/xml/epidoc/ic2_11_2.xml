@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto onorario di Polyrrhenia (?)</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 11 2</idno>
+                        <idno type="projectNo">074</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo">E 30</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plaque">lastra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#diktynnaion_rodopou"><foreign>Diktynnaion</foreign> di Rodopou</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/>μίαν κ<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/>καὶ πολέ<supplied reason="lost">μω καὶ εἰρήνας καὶ τὰ λοι</supplied><lb 
+                        break="no" n="4"/>πὰ <w lemma="τίμια">τίμια</w> <supplied reason="lost">ἃ καὶ τοῖς ἄλλοις</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#polyrrhenia"><w lemma="πρόξενος"><supplied reason="lost">προξέ</supplied><lb 
+                        break="no" n="5"/>νοις</w></rs> τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">π<supplied reason="lost">όλιος</supplied></w></rs> <supplied reason="lost">δέδοται· <w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ</supplied>
+                        <lb n="6"/><supplied reason="lost">κα</supplied>ὶ ταῦτ<supplied reason="lost" cert="low">α τὰ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#polyrrhenia"><w lemma="ψάφισμα">ψαφίσματα</w></rs></supplied> <supplied reason="lost">ἐν</supplied> <w lemma="στάλα"><supplied reason="lost">στάλ</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">αι</supplied>ς</w> λιθίν<supplied reason="lost">αις</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ <w lemma="ἀνατίθημι">ἀνθέμεν</w> τὰν</supplied>
+                        <lb n="8"/><supplied reason="lost">μ</supplied>ὲν <unclear>ἐ</unclear><supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="8a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’attribuzione del documento a Kydonia, data pressoché per sicura da Margherita Guarducci sulla base delle presunte raffigurazioni monetali di Diktynna da questa impiegate nel II secolo a.C. (<bibl><ref target="#bib2"><title>IC</title> II</ref>, pp. 129-130</bibl>), viene contestata da Louis Robert, che con altrettanta certezza lo assegna piuttosto a Polyrrhenia (<bibl><ref target="#bib106"><title>BE</title></ref> 1940.121</bibl>: «<foreign>pourquoi le fr. de décret n. 2 est-il attribué à Kydonia? Il appartient sans doute à Polyrrhenia</foreign>»). Nonostante Robert non fornisca alcuna argomentazione, la sua ipotesi trova sostegno nel controllo esercitato sul santuario da Polyrrhenia sia nel secolo precedente che in quello successivo, fatto che rende probabile una prosecuzione della sua influenza anche durante il II secolo a.C. (cf. <ref type="ins" target="#ic2_11_1"><title>IC</title> II 11 1</ref>, <ref type="ins" target="#ic2_11_3"><title>IC</title> II 11 3</ref>, <ref type="lit">Strabo X 4.13</ref>). Un fattore che è finito in secondo piano nella disputa e che tuttavia occorre tenere in considerazione è la dimensione intercittadina del santuario: non è infatti da escludere la possibilità che, pur essendo il <foreign>Diktynnaion</foreign> sotto il controllo di una delle due città, l’altra vi abbia deposto un proprio documento di importanza regionale, come nel caso di <ref type="ins" target="#ic2_11_1"><title>IC</title> II 11 1</ref>.</p>
+                    <p>Il testo, altamente frammentario, sembrerebbe costituire la parte finale di un decreto onorario, recante alcune delle concessioni effettuate dalla città all’individuo onorato, che prevedono dei τίμια equivalenti a quelli garantiti agli altri prosseni della <foreign>polis</foreign>. La sezione che segue conserva inoltre una parte della formula di esposizione, nella quale viene prevista l’iscrizione di più stele, come indica la desinenza dell’accusativo plurale alla linea 7: oltre alla copia rinvenuta ve ne doveva essere una nella città di origine dell’individuo onorato e possibilmente un’altra nella città che ha emanato il decreto. La collocazione di una copia del documento nel <foreign>Diktynnaion</foreign>, in ogni caso, sembra un indice della probabile valenza regionale del decreto onorario, le cui concessioni dovevano verosimilmente beneficiare un individuo proveniente da una città di Creta occidentale.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 11 2 <ptr type="phi" target="199879"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 79</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1940.121</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

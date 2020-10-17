@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Datala per Spensitheos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 27.631</idno>
+                        <idno type="projectNo">199</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#london_british_museum">British Museum, Londra</repository> 
+                                <idno type="invNo">1969.4-2.1</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#mitra">mitra</objectType> bronzea
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#datala">Datala</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0475">500 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>· <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#datala"><w lemma="ϝανδάνω">ἔϝαδε</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#datala"><placeName ref="#datala" type="ethnic">Δαταλεῦσι</placeName></rs> καὶ <w lemma="σπένδω">ἐσπένσαμε<unclear>ς</unclear></w> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#datala"><w lemma="πόλις">πόλις</w></rs>
+                          <lb n="2"/>Σπενσιθίωι <rs type="institution" subtype="social_group" role="belonging" key="phyle" ref="#datala">ἀπὸ <w lemma="πυλά">πυλᾶν</w> πέντε ἀπ’ ἐκάστας</rs> <w lemma="θροπά">θροπά<lb 
+                        break="no" n="3"/>ν</w> τε καὶ <w lemma="ἀτέλεια">ἀτέλειαν</w> πάντων αὐτῶι τε καὶ <w lemma="γενιά">γενιᾶι</w> ὤ<lb 
+                        break="no" n="4"/>ς κα <rs type="institution" subtype="social_group" role="work" key="polis" ref="#datala"><w lemma="πόλις">πόλι</w></rs> τὰ <w lemma="δαμόσιος">δαμόσια</w> τά τε <w lemma="θιήιος">θιήια</w> καὶ <w lemma="ἀνθρώπινος">τἀνθρώπινα</w>
+                          <lb n="5"/><rs type="institution" subtype="official" role="archiving" key="poinikastas" ref="#datala"><w lemma="ποινικάζω">ποινικά<unclear>ζ</unclear>εν</w></rs> τε καὶ <rs type="institution" subtype="official" role="archiving" key="mnamon" ref="#datala"><w lemma="μναμονεύω">μναμονεῦϝην</w></rs>· <rs type="institution" subtype="official" role="archiving" key="poinikastas" ref="#datala"><w lemma="ποινικάζω">ποινικά<unclear>ζ</unclear>εν</w></rs> δὲ
+                          <lb n="6"/><rs type="institution" subtype="social_group" role="work" key="polis" ref="#datala"><w lemma="πόλις"><supplied reason="lost">π</supplied>όλι</w></rs> καὶ <rs type="institution" subtype="official" role="archiving" key="mnamon" ref="#datala"><w lemma="μναμονεύω">μναμονεῦϝεν</w></rs> τὰ <w lemma="δαμόσιος">δαμόσια</w> μήτε τὰ <w lemma="θιήιος">θιήι<lb 
+                        break="no" n="7"/>α</w> μήτε <w lemma="ἀνθρώπινος">τἀνθρώπινα</w> μηδέν’ ἄλον αἰ μὴ Σπενσίθ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">ο</supplied>ν αὐτόν τε καὶ <w lemma="γενιά">γενιὰν</w> το͂νυ, αἰ μὴ ἐπαίροι τ<lb 
+                        break="no" n="9"/>ε καὶ κέλοιτο ἢ αὐτὸς Σπενσίθιος ἢ <w lemma="γενιά">γενιὰ</w>
+                          <lb n="10"/><supplied reason="lost">τ</supplied>ο͂νυ ὄσοι <rs type="institution" subtype="age_class" role="regulation" key="dromeus" ref="#datala"><w lemma="δρομεύς">δρομῆς</w></rs> εἶεν τῶν <supplied reason="lost">υἰ</supplied>ῶν οἰ πλίες.
+                          <lb n="11"/><w lemma="μισθός">μισθὸν</w> δὲ δόμεν το͂ ἐνιαυτο͂ τῶι <rs type="institution" subtype="official" role="archiving" key="poinikastas" ref="#datala"><w lemma="ποινικαστάς">ποινι<supplied reason="lost">κ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">α</supplied>στᾶι</w></rs> πεντήϙοντά τε <w lemma="πρόϙοος">προϙόος</w> κλεύκιο<lb 
+                        break="no" n="13"/>ς κηνδ<unclear>υ</unclear><gap reason="lost" quantity="1" unit="character"/>ε<gap reason="lost" quantity="2" unit="character"/>ς ἰκατιδαρκμίος ἢ κα<unclear>λ</unclear><supplied reason="lost">ϙ</supplied><lb 
+                        break="no" n="14"/><unclear>ό</unclear>ς· δόμεν δὲ τὸ κλεῦϙος ἐς το͂ μόρο ὄ<lb 
+                        break="no" n="15"/>πω κα λῆι ἐλέσθαι. αἰ δὲ μὴ δοίη τὸ κλε<supplied reason="lost">ῦϙ</supplied><lb 
+                        break="no" n="16"/><supplied reason="lost">ο</supplied><unclear>ς</unclear> αιδ<unclear>ε</unclear><gap reason="lost" quantity="3" unit="character"/><orig><unclear>σ</unclear></orig><gap reason="lost" atLeast="3" atMost="4" unit="character" precision="low"/><orig>α</orig><gap reason="lost" quantity="1" unit="character"/><orig>εσδ</orig><gap reason="lost" quantity="3" unit="character"/>ς <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#datala"><w lemma="ϙόσμος">ϙόσμ<lb 
+                        break="no" n="17"/><unclear>ο</unclear>ς</w></rs> <w lemma="ἐφίστημι">ἐπεσ<unclear>τ</unclear>αϙὼς</w> ἀ<gap reason="lost" quantity="4" unit="character" precision="low"/><orig>ι</orig><gap reason="lost" quantity="4" unit="character" precision="low"/><orig><unclear>λ</unclear>ε</orig><gap reason="lost" quantity="1" unit="character"/><orig>εκ</orig><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="18"/><gap reason="lost" quantity="1" unit="character" precision="low"/>σαι ἀπλοπί<unclear>α</unclear><supplied reason="lost">ι</supplied><gap reason="lost" quantity="1" unit="character"/><orig><unclear>α</unclear></orig><gap reason="lost" quantity="1" unit="character"/> <unclear>α</unclear>ι μὴ αὐτοῖσ<lb 
+                        break="no" n="19"/>ι<gap reason="illegible" quantity="3" unit="character"/><orig>πολ</orig><gap reason="lost" quantity="2" unit="character"/>α<unclear>ν</unclear>ε<unclear>σημ</unclear>εν τῶι <rs type="institution" subtype="official" role="unknown" key="kosmos" ref="#datala"><w lemma="ϙόσμος">ϙόσ<lb 
+                        break="no" n="20"/><supplied reason="lost">μωι</supplied></w></rs> <gap reason="lost" quantity="7" unit="character" precision="low"/><orig><unclear>ε</unclear></orig><gap reason="lost" quantity="1" unit="character"/> τεμένια π<unclear>ε</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><orig>ϙ</orig><lb 
+                        break="no" n="21"/><gap reason="lost" quantity="2" unit="character" precision="low"/> τὸ ϝῖσον λακὲν <rs type="institution" subtype="official" role="unknown" key="kosmos" ref="#datala"><w lemma="ϙόσμος">ϙ<unclear>ό</unclear><supplied reason="lost" cert="low">σμωι</supplied></w></rs> <orig>ασ</orig><gap reason="lost" quantity="4" unit="character" precision="low"/>
+                          <lb n="22"/><gap reason="lost" quantity="17" unit="character" precision="low"/><orig><unclear>α</unclear></orig><gap reason="lost" quantity="6" unit="character" precision="low"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="1"/>τὸ ϝῖσον λακὲν τὸν <rs type="institution" subtype="official" role="archiving" key="poinikastas" ref="#datala"><w lemma="ποινικαστάς">ποινικαστὰν</w></rs>· καὶ παρῆμε<lb 
+                        break="no" n="2"/>ν καὶ συνῆμεν ἐπί τε <w lemma="θιήιος">θιηίων</w> καὶ ἐπ’ <w lemma="ἀνθρώπινος">ἀνθρωπί<lb 
+                        break="no" n="3"/>νων</w> πάντε ὄπε καὶ ὀ <rs type="institution" subtype="official" role="onlooker" key="kosmos" ref="#datala"><w lemma="ϙόσμος">ϙόσμος</w></rs> εἴη καὶ τὸν <rs type="institution" subtype="official" role="onlooker" key="poinikastas" ref="#datala"><w lemma="ποινικαστάς">ποινι<lb 
+                        break="no" n="4"/>καστὰν</w></rs>· καὶ ὄτιμί κα <w lemma="θιός">θιῶι</w> <rs type="institution" subtype="official" role="sacrifices" key="hiereus" ref="#datala"><w lemma="ἰαρεύς">ἰαρεὺς</w></rs> μἦι δίαλο<lb 
+                        break="no" n="5"/><supplied reason="lost">ς</supplied> <w lemma="θύω">θύεν</w> τε τὰ <w lemma="δαμόσιος">δαμόσια</w> <w lemma="θῦμα">θύματα</w> τὸ<corr>ν</corr> <rs type="institution" subtype="official" role="sacrifices" key="poinikastas" ref="#datala"><w lemma="ποινικαστάς">ποινικαστὰ<lb 
+                        break="no" n="6"/>ν</w></rs> καὶ τὰ <rs type="institution" subtype="public_space" role="possession" key="temenos" ref="#datala" cert="low"><w lemma="τέμενος">τεμένια</w></rs> ἔκεν. μήδ’ ἐπάγραν ἦμ<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">ν</supplied> μήδε ῥύτιον αἰλε͂ν τὸν <rs type="institution" subtype="official" role="archiving" key="poinikastas" ref="#datala"><w lemma="ποινικαστάς">ποινικαστὰν</w></rs>. <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#datala"><w lemma="δίκα">δ<lb 
+                        break="no" n="8"/>ίκα</w></rs> δέ, ὄτερόν κα <unclear>ϝ</unclear>ώληται ὀ <rs type="institution" subtype="official" role="archiving" key="poinikastas" ref="#datala"><w lemma="ποινικαστάς">ποινικασ<supplied reason="lost">τ</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">ὰ</supplied>ς</w></rs>, αἶπερ οἰ ἄλοι <unclear>κ</unclear>ρήσεται, ἢν <rs type="institution" subtype="official" role="judicial_procedure" key="kosmos" ref="#datala" cert="low"><w lemma="ϙόσμος">ϙόσ<surplus>π</surplus><lb 
+                        break="no" n="10"/>μοι</w></rs> ἀ <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#datala"><w lemma="δίκα">δίκα</w></rs> ϝοι τέλεται, ἄλε δὲ οὐδ<unclear>ὲ</unclear>
+                          <lb n="11"/>ἔν. <w lemma="δίκαιος">δίκαια</w> ἐς <rs type="institution" subtype="public_space" role="commensality" key="andreion" ref="#datala"><w lemma="ἀνδρήιον">ἀνδρήιον</w></rs> δώσει δ<lb 
+                        break="no" n="12"/>έκα <w lemma="πέλεϙυς">πέλεϙυς</w> κρέων, ἆι κα ϙὠι ἄλ<unclear>ο</unclear><supplied reason="lost">ι</supplied>
+                          <lb n="13"/><supplied reason="lost" cert="low">ἀπ</supplied>άρϙωνται καὶ τὸ ἐπενιαύτιον· τὸ
+                          <lb n="14"/>δὲ λάκσιον συνϝαλεῖ. ἄλο δὲ μ<supplied reason="lost">ηδ</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">ὲ</supplied>ν ἐπάνανϙον ἦμεν αἴ κα μὴ λῆι
+                          <lb n="16"/>δόμεν· ἦμεν δὲ τὰ <w lemma="θιήιος">θιήια</w> τ<supplied reason="lost">ῶι</supplied>
+                          <lb n="17"/><gap reason="lost" quantity="4" unit="character" precision="low"/>ίστωι. <space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La formula di sanzione posta all’inizio del documento, subito dopo l’invocazione delle divinità, indica come la decisione sia stata presa dai <foreign>Dataleis</foreign> con la solenne promessa della <foreign>polis</foreign>, rappresentata (?) da cinque cittadini di ogni tribù. L’oggetto della decisione, che occupa il resto del documento, prevede una serie di concessioni per il <foreign>poinikastas</foreign> Spensithios, alle quali corrispondono una serie di doveri di cui costui deve farsi carico (sulla derivazione dell’antroponimo dal verbo <foreign>spendein</foreign> cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 312-314</bibl>). Spensithios ottiene assieme alla propria discendenza la sussistenza e la completa esenzione fiscale, a patto che si occupi di scrivere e ricordare – ποινικάζεν τε καὶ μναμονεῦϝην – gli avvenimenti pubblici per la città, sia divini che umani (ll. A 2-5). La clausola successiva, inoltre, definisce tali mansioni come prerogativa esclusiva di Spensithios e dei suoi discendenti, a meno che non chieda il contrario egli stesso o la maggioranza dei suoi figli maggiorenni (δρομῆς, ll. A 5-10). A costui, inoltre, viene accordata una paga annua in natura, che sembra aggiungersi alla θροπά precedentemente garantita (ll. A 11-15). Nel caso di mancato pagamento la responsibilità ricade sul cosmo in carica (ll. A 15-18); un’ulteriore menzione di un cosmo ricorre inoltre alle linee A 19-20, forse in connessione con i successivi <foreign>temenia</foreign>, e possibilmente anche alla linea A 21.</p>
+                    <p>Il testo che prosegue sul lato B stabilisce inoltre l’obbligo per Spensithios non solo di presenziare ma anche di partecipare attivamente – παρῆμεν καὶ συνῆμεν – a tutte le attività sacre e ‘civili’ della città, oltre che di essere presente in tutte le circostanze in cui lo è il cosmo (ll. B 1-4). Oltre ad assistere agli eventi pubblici della città a fianco delle autorità, Spensithios è anche tenuto a compiere i sacrifici pubblici per le divinità per cui non esiste un sacerdote specifico (?) e ad avere autorità sui recinti sacri (ll. B 4-6). Le clausole alle linee B 6-11, dal significato piuttosto oscuro, sembrano vietare il sequestro dei beni o della persona del <foreign>poinikastas</foreign> e implicare la possibilità per costui di ricorrere ad un particolare tipo di processo in cui è coinvolto un cosmo. Spensithios, infine, è tenuto a fornire all’<foreign>andreion</foreign> una quantità di carne dal valore di dieci <foreign>pelekys</foreign> e, forse, un’ulteriore offerta annua (ll. B 11-16), contributi che sembrano connessi al sistema dei sissizi.</p>
+                    <p>Il testo, piuttosto complesso e ricco di termini di difficile interpretazione, è il documento che più getta luce sulle mansioni dello scriba, che nel caso di Spensithios si fondono con quelle dello <foreign>mnamon</foreign> (a Creta attestato solamente a Gortyna). L’attività di scriba, che nel suo caso è ereditaria, si denota come di alta responsabilità ed elevato prestigio.</p>
+                    <p>Un altro elemento di grande interesse che l’iscrizione presenta è inoltre l’informazione che offre a proposito della procedura decisionale di Datala: oltre al ricordo di una libagione fatta dalla <foreign>polis</foreign> (ἐσπένσαμες̣ πόλις, l. A 1), è particolarmente interessante la menzione della selezione effettuata di un numero preciso di rappresentanti per ogni tribù (ἀπὸ πυλᾶν πέντε ἀπ’ ἐκάστας, l. 2), operazione che sembra trovare un parallelo negli ἴκατι οἱ τᾶς πόλιος di Dreros (<ref type="ins" target="#seg_27_620"><title>SEG</title> 27.620</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#andreion"><foreign>andreion</foreign></ref>, <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#dromeus"><foreign>dromeus</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#mnamon"><foreign>mnamon</foreign></ref>, <ref type="inst" target="#phyla"><foreign>phyle</foreign></ref>, <ref type="inst" target="#poinikastas"><foreign>poinikastas</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bb939">Jeffery – Morpurgo-Davies 1970</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 27.631 <ptr type="phi" target="201833"/> <ptr type="phi" target="201834"/> <ptr type="seg" target="a27_631"/> <ptr type="poinikastas" target="#"/></bibl>); 
+                            <bibl><ref target="#b940">Jeffery – Morpurgo-Davies 1971</ref></bibl>;
+                            <bibl><ref target="#b1889">Van Effenterre 1973</ref></bibl>; 
+                            <bibl><ref target="#b107">Beattie 1975</ref></bibl>; 
+                            <bibl><ref target="#b975">Kazanski 1983</ref>, n. 71</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 28</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 22</bibl>; 
+                            <bibl><ref target="#b1199">Marginesu 2006</ref></bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, pp. 285-286</bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, pp. 312-319, 422-426</bibl>;
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> Da1</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 14</bibl>; 
+                            <bibl><ref target="#b1841">Tribulato 2017</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib401"><title>Axon</title></ref> 78 <ptr type="axon" target="78"/></bibl>);
+                            <bibl><ref target="#bib400"><title>Iscrizioni Greche</title></ref> 11</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1972.351</bibl>; 
+                            <bibl><ref target="#b1587">Raubitschek 1970</ref></bibl>; 
+                            <bibl><ref target="#bib85"><title>Armorers</title></ref>, pp. 47-49</bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 62</bibl>; 
+                            <bibl><ref target="#b354">Chantraine 1972</ref></bibl>; 
+                            <bibl><ref target="#b2047">Willetts 1972</ref></bibl>; 
+                            <bibl><ref target="#b1322">Merkelbach 1972</ref></bibl>; 
+                            <bibl><ref target="#b548">Edwards – Edwards 1974</ref></bibl>; 
+                            <bibl><ref target="#b747">Gschnitzer 1974</ref></bibl>; 
+                            <bibl><ref target="#b549">Edwards – Edwards 1977</ref></bibl>; 
+                            <bibl><ref target="#b1892">Van Effenterre 1979</ref></bibl>; 
+                            <bibl><ref target="#b416">Crawford – Whitehead 1983</ref>, n. 39</bibl>; 
+                            <bibl><ref target="#b1646">Ruzé 1983</ref></bibl>; 
+                            <bibl><ref target="#b1648">Ruzé 1988</ref></bibl>; 
+                            <bibl><ref target="#b725">Gorlin 1988</ref></bibl>; 
+                            <bibl><ref target="#b750">Gschnitzer 1989</ref></bibl>; 
+                            <bibl><ref target="#b1677">Schmitt-Pantel 1992</ref>, pp. 72-74</bibl>; 
+                            <bibl><ref target="#b1819">Thomas 1992</ref>, pp. 69-71</bibl>; 
+                            <bibl><ref target="#b1949">Viviers 1994</ref></bibl>; 
+                            <bibl><ref target="#b247">Capdeville 1994</ref>, pp. 212-214</bibl>; 
+                            <bibl><ref target="#b1610">Robb 1994</ref>, pp. 87-90</bibl>; 
+                            <bibl><ref target="#b1820">Thomas 1995</ref></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib12">Marangou-Lerat</ref> T2</bibl>; 
+                            <bibl><ref target="#b1577">Pritchett 1996</ref>, pp. 17-18</bibl>; 
+                            <bibl><ref target="#b807">Guizzi 1997</ref>, pp. 48-49</bibl>; 
+                            <bibl><ref target="#b1798">Tandy 1997</ref>, pp. 182-183</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 26</bibl>; 
+                            <bibl><ref target="#b1067">Lazzarini 1999</ref></bibl>; 
+                            <bibl><ref target="#b721">Gondicas – Van Effenterre 2000</ref></bibl>; 
+                            <bibl><ref target="#b466">Davies 2002</ref>, pp. 238-240</bibl>; 
+                            <bibl><ref target="#b1948">Viredaz 2003</ref></bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>; 
+                            <bibl><ref target="#b584">Faraguna 2005</ref></bibl>; 
+                            <bibl><ref target="#b373">Colvin 2007</ref>, n. 52</bibl>; 
+                            <bibl><ref target="#b662">Gagarin 2008</ref>, pp. 253-254</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

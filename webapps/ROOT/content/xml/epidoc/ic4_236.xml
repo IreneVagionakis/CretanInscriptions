@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Manomissione di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 236</idno>
+                        <idno type="projectNo">368</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#manumission">manomissione</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0350" notAfter="-0250">350-250 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός"><supplied reason="lost">θι</supplied>οί</w>· <rs type="institution" subtype="tribe" role="eponym" key="Ap" ref="#gortyn">ἐπὶ τῶν <w part="I" lemma="Απ-">Α<unclear>π</unclear><gap reason="illegible" quantity="2" unit="character"/>υμα<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="2"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω"><unclear>κ</unclear>ορμιόντων</w></rs> <w lemma="ἀπολαγαίω">ἀπέλα<corr>γα</corr>σαν</w> τ<supplied reason="lost">ὸν</supplied>
+                          <lb n="3"/><unclear>Ἀ</unclear>κέστιμον καὶ τὸν Σκύτ<unclear>α</unclear><supplied reason="lost">ν</supplied>
+                          <lb n="4"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn">οἱ σὺν <persName type="attested" key="Samagoras f. Kalidamos"><name nymRef="Σαμαγόρας">Σ<corr>α</corr>μαγόραι</name>
+                          <lb n="5"/><supplied reason="lost">τῶ</supplied> <name nymRef="Καλίδαμος" type="patronymic">Καλιδάμω</name></persName></rs>, ἁ <rs type="institution" subtype="assembly" role="manumission" key="polis" ref="#gortyn"><w lemma="πόλις">πόλις</w></rs>
+                          <lb n="6"/><supplied reason="lost">οἱ</supplied> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτύ</supplied>νιο<unclear>ι</unclear></placeName>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La manomissione, che si apre con un’invocazione divina, presenta una 
+                            formulazione dalla sintassi particolarmente insolita. La formula di datazione, infatti, ha inizio alla linea 1 e prosegue alle linee 4-5, menzionando una tribù in carica cominciante in <foreign>Ap</foreign>- e il cosmo eponimo Samagoras figlio di Kalidamos, inglobando dunque al proprio interno il ricordo degli individui liberati (ll. 2-3). Alle ultime due linee del documento, invece, compare il responsabile della manomissione, la <foreign>polis</foreign> dei Gortynii (cf. <ref type="ins" target="#ic4_233"><title>IC</title> IV 233</ref>), alla quale si riferisce il verbo ἀπέλα⟨γα⟩σαν della linea 2 e a cui sembra essere associato il collegio dei cosmi, anch’esso al nominativo (ll. 4-5).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, tribù (<ref type="inst" target="#ap"><foreign>Ap-</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 236 <ptr type="phi" target="200678"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

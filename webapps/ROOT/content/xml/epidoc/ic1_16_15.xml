@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Lato <foreign>pros</foreign> Kamara</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 15*</idno>
+                        <idno type="projectNo">453</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#lato_kamara" type="ethnic">Λατίων τῶν πρὸς Καμάραι</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lato_kamara"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#lato_kamara" type="ethnic">Λατίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#lato_kamara"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lato_kamara"><w lemma="πόλις">πόλει</w></rs>. ἐπει<lb 
+                        break="no" n="3"/>δὴ <placeName ref="#teos" type="ethnic">Τήιοι</placeName> <w lemma="συγγενής">συγγενεῖς</w> καὶ <w lemma="φίλος">φίλοι</w> διὰ <w lemma="πρόγονος">προγόνων</w> ὑπάρ<lb 
+                        break="no" n="4"/>χοντες ψάφισμα καὶ πρειγευτὰν<corr>ς</corr> <w lemma="ἀποστέλλω">ἀπέσταλκαν</w> Ἀ<lb 
+                        break="no" n="5"/>πολλόδοτον καὶ Κωλώταν, οἱ δὲ ἐπελθόντες ἐπὶ τὸ
+                          <lb n="6"/><rs type="institution" subtype="assembly" role="foreign_relations" key="koinon" ref="#lato_kamara"><w lemma="κοινόν">κοινὸν</w> τὸ <placeName ref="#lato_kamara" type="ethnic">Λατίων</placeName></rs> τό τε ψάφισμα ἀπέδωκαν καὶ αὐ<lb 
+                        break="no" n="7"/>τοὶ διελέγεν ἀκολούθως τοῖς <w lemma="γράφω">γεγραμμένοις</w> τὰν
+                          <lb n="8"/>ἐκτενεστάταν <w lemma="σπουδά">σπουδὰν</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίαν</w> ποιού<lb 
+                        break="no" n="9"/>μενοι περί <corr>τε</corr> τῶ γενέσθαι τὰν καθιέρωσιν τῶι <persName type="divine" key="Dionysos">Διονύ<lb 
+                        break="no" n="10"/>σωι</persName> τᾶς πόλιος καὶ τᾶς χώρας τᾶς <placeName ref="#teos" type="ethnic">Τηίων</placeName> καὶ τὰν
+                          <lb n="11"/><w lemma="ἀσυλία">ἀσυλίαν</w>, ἔτι δὲ καὶ τἄλλα τὰ ὑπάρχοντα αὐτοῖς
+                          <lb n="12"/>ἔνδοξα καὶ <w lemma="τίμια">τίμια</w> διὰ τὸν θεὸν ψαφισαμένος
+                          <lb n="13"/>καὶ αὐτὸς συναύξεν καὶ ἀεί τινος ἀγαθῶ πα<lb 
+                        break="no" n="14"/>ραιτίος γίνεσθαι τῶι δάμωι καὶ ὅτι ταῦτα <w lemma="πράσσω">πράξαν<lb 
+                        break="no" n="15"/>τες</w> ἀκόλουθα <w lemma="πράσσω">πραξίομεν</w> τᾶι τε πορτὶ τὸν θεὸν
+                          <lb n="16"/><w lemma="εὐσέβεια">εὐσεβείαι</w> τᾶι μεγίσται καὶ χαρι<corr>ξ</corr>ιόμεθα τῶι δά<lb 
+                        break="no" n="17"/>μωι· περὶ δὲ τῶν αὐτῶν διαλεγέντος μετὰ πάσας
+                          <lb n="18"/><w lemma="εὔνοια">εὐνοίας</w> καὶ <w lemma="προθυμία">προθυμίας</w> καὶ <corr>τῶ</corr> παρὰ τῶ <persName type="ruler" key="Philippos V" ref="#macedonia"><w lemma="βασιλεύς">βασιλέος</w> <name nymRef="Φίλιππος">Φιλίπ<lb 
+                        break="no" n="19"/>πω</name></persName> πρειγευτᾶ Περδίκκα<surplus>ι</surplus>· <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> τῶι δά<lb 
+                        break="no" n="20"/>μωι τῶι <placeName ref="#teos" type="ethnic">Τηίων</placeName> ὅτι πρότερον ἁ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#lato_kamara"><w lemma="πόλις">πόλις</w></rs> καὶ νῦν δ’ ἐ<supplied reason="lost">μ</supplied><lb 
+                        break="no" n="21"/>πᾶσιν <w lemma="εὐχαριστέω">εὐχαριστεῖ</w>, καὶ μεμναμένοι τὰν προϋπάρ<lb 
+                        break="no" n="22"/>χονσαν τᾶι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#lato_kamara"><w lemma="πόλις">πόλει</w></rs> <w lemma="συγγένεια">συγγένειαν</w>, τάν τε καθιέρω<lb 
+                        break="no" n="23"/>σιν τῶι <persName type="divine" key="Dionysos">Διονύσωι</persName> τάν τε πόλιν καὶ τὰν χώραν ἦμεν
+                          <lb n="24"/>ἱερὰν καὶ <w lemma="ἄσυλος">ἄσυλον</w>, βωλόμενοι <w lemma="χαρίζω">χαρίζεσθαι</w> Περδίκ<lb 
+                        break="no" n="25"/>και, δίδομεν δὲ καὶ τὰ λοιπὰ τὰ ὑπάρχοντα ὑμῖν ἔνδο<lb 
+                        break="no" n="26"/>ξα καὶ <w lemma="τίμια">τίμια</w> συνδιαφυλαξίομεν ἀπροφασίστως
+                          <lb n="27"/>ἐφ’ ὅσον κ’ ἴωμεν δυνατοί. καὶ εἴ τινές κα τῶν ὁρ<lb 
+                        break="no" n="28"/>μιομένων <placeName ref="#lato_kamara">Λατόθεν</placeName> <w lemma="ἀδικέω">ἀδικήσωντί</w> τινα <placeName ref="#teos" type="ethnic">Τήιον</placeName>
+                          <lb n="29"/>ἢ κοινᾶι ἢ ἰδίαι παρὰ τὸ <w lemma="γράφω">γραφὲν</w> <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#lato_kamara"><w lemma="δόγμα">δόγμα</w></rs> περὶ τᾶς <w lemma="ἀσυλία">ἀ<lb 
+                        break="no" n="30"/>συλίας</w> τᾶς <corr>τε</corr> πόλιος καὶ τᾶς χώρας ἐξέστω τῶι
+                          <lb n="31"/>παργενομένωι <placeName ref="#teos" type="ethnic">Τηίων</placeName> ἐπιλαβ<corr>έσθαι</corr> καὶ <w lemma="σῶμα">σω<lb 
+                        break="no" n="32"/>μάτων</w> καὶ <w lemma="χρήματα">χρημάτων</w>, εἴ τίς κα ἄγηι· οἱ δὲ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#lato_kamara"><w lemma="κόσμος">κόσμοι</w></rs>
+                          <lb n="33"/>οἱ τόκα <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato_kamara"><w lemma="κοσμέω">κοσμίοντες</w></rs> <w lemma="ἀναγκάζω">ἀναγκαζόντων</w> ἀποδιδό<lb 
+                        break="no" n="34"/>μεν τὸς ἔχοντας ἀζάμιοι ὄντες καὶ ἀνυπόδικοι·
+                          <lb n="35"/><w lemma="γράφω">γράψαι</w> δὲ καὶ τὸ <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#lato_kamara"><w lemma="δόγμα">δόγμα</w></rs> ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#lato"><w lemma="ἱερόν">ἱερὸν</w> τᾶς <persName type="divine" key="Eleuthyia">Ἐλευθυίας</persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), si apre con l’intestazione Λατίων τῶν πρὸς Καμάραι, aggiunta da Teos al momento della redazione su pietra dell’iscrizione.</p>
+                    <p>La formula di sanzione alla linea 2, l’unica conservatasi dalla città, mostra i cosmi e la <foreign>polis</foreign> di Lato <foreign>pros</foreign> Kamara in qualità di responsabili della deliberazione. La <foreign>polis</foreign>, inoltre, viene ricordata anche alle linee 20-21 del documento a proposito delle buone relazioni intercorrenti fra questa e Teos e alle linee 21-22 riguardo alla <foreign>syngeneia</foreign> esistente fra le due città.</p>
+                    <p>La sezione relativa alle motivazioni del decreto, alle linee 2-19, ricorda l’invio da parte di Teos degli ambasciatori Apollodotos e Kolotas presso il <foreign>koinon</foreign> di Lato, attestato esclusivamente nel presente documento e nella concessione di <foreign>asylia</foreign> a Teos di Lato (<ref type="ins" target="#ic1_16_2"><title>IC</title> I 16 2</ref>); il termine <foreign>koinon</foreign> sembra dunque essere impiegato in tali circostanze per indicare l’insieme delle due città, unite verosimilmente fra loro da un legame di <foreign>sympoliteia</foreign> (cf. <bibl><ref >Chaniotis, <title>Verträge</title></ref> 72</bibl>).</p>
+                    <p>L’oggetto del decreto, alle linee 19-34, accorda a Teos ciò che ha richiesto, stabilendo in particolare che, nell’eventualità di mancato rispetto delle decisioni prese, i cosmi in carica abbiano l’autorità di intervenire al fine di ottenere la restituzione di quanto sequestrato indebitamente (ll. 32-34). La formula di esposizione, alla linea 35, prevede infine la pubblicazione del decreto in un santuario di Eleuthyia, verosimilmente quello di Lato, noto da più documenti, nel quale è prevista anche l’iscrizione della concessione di <foreign>asylia</foreign> a Teos da parte di Lato stessa (cf. <ref type="ins" target="#ic1_16_2"><title>IC</title> I 16 2-5</ref>, <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_61b">61B</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon ton Lation</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> 74</bibl>; 
+                            <bibl><ref target="#b267">Cauer 1877</ref>, n. 59</bibl>; 
+                            <bibl><ref target="#b273">Cauer 1883</ref>, n. 125</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 60</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5180</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 15* <ptr type="phi" target="199223"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 14*5</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 152</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 55-59</bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 43i</bibl>; 
+                            <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 72a</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di <foreign>isopoliteia</foreign> fra Praisos e Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 1</idno>
+                        <idno type="projectNo">514</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 94</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0270">inizi III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνιο</placeName><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="9"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>διαθέμε<lb 
+                        break="no" n="2"/>νος τὰ ἴδια
+                          <lb n="3"/>ἑκάτερος
+                          <lb n="4"/>ἑκατέρη, ὅ<supplied reason="lost">ς</supplied>
+                          <lb n="5"/>κα ἦι <rs type="institution" subtype="social_status" role="belonging" key="enphylos" ref="#praisos"><rs type="institution" subtype="social_status" role="belonging" key="enphylos" ref="#hierapytna"><w lemma="ἔνφυλος">ἔνφυ<lb 
+                        break="no" n="6"/>λος</w></rs></rs>, καὶ οὕ<lb 
+                        break="no" n="7"/>τω <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#praisos"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#hierapytna"><w lemma="πολιτεύω">πολιτ<lb 
+                        break="no" n="8"/>ευέσθω</w></rs></rs> <w lemma="μετέχω">μ<lb 
+                        break="no" n="9"/><supplied reason="lost">ε</supplied>τέχων</w> κ<lb 
+                        break="no" n="10"/>αὶ <w lemma="θῖνος">θίνων</w> κ<lb 
+                        break="no" n="11"/>αὶ <w lemma="ἀνθρώπινος">ἀνθρωπί<lb 
+                        break="no" n="12"/>νων</w> πάντ<lb 
+                        break="no" n="13"/>ων, παραιτ<lb 
+                        break="no" n="14"/>ησάμενος
+                          <lb n="15"/>τὰν αὑτῶ <rs type="institution" subtype="public_space" role="exclusion" key="polis" ref="#praisos" cert="low"><rs type="institution" subtype="public_space" role="exclusion" key="polis" ref="#hierapytna" cert="low"><w lemma="πόλις">π<lb 
+                        break="no" n="16"/>όλιν</w></rs></rs>· ἐς ὁπ<lb 
+                        break="no" n="17"/>οτέραν δέ
+                          <lb n="18"/>κα <rs type="institution" subtype="public_space" role="hospitality" key="polis" ref="#praisos"><rs type="institution" subtype="public_space" role="hospitality" key="polis" ref="#hierapytna"><w lemma="πόλις">πόλιν</w></rs></rs> <w lemma="ἕρπω">ἕρ<lb 
+                        break="no" n="19"/>πηι</w> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#praisos"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#hierapytna"><w lemma="πολιτεύω">πολιτε<lb 
+                        break="no" n="20"/>ύσων</w></rs></rs>, <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#praisos"><rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#hierapytna"><w lemma="διαψαφίζω">δια<supplied reason="lost">ψ</supplied><lb 
+                        break="no" n="21"/>αφιζέσθ<unclear>ω</unclear><lb 
+                        break="no" n="22"/>ν</w></rs></rs> ἐν <rs type="institution" subtype="assembly" role="gathering" key="ekklesia" ref="#praisos"><rs type="institution" subtype="assembly" role="gathering" key="ekklesia" ref="#hierapytna"><w lemma="κυρία ἐκκλησία">κυρ<supplied reason="lost">ία</supplied><lb 
+                        break="no" n="23"/>ι ἐκκλησ<supplied reason="lost">ία</supplied><lb 
+                        break="no" n="24"/>ι</w></rs></rs> πότερ<supplied reason="lost">ον</supplied> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#praisos"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω"><supplied reason="lost">δ</supplied><lb 
+                        break="no" n="25"/>οκεῖ</w></rs></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#praisos"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#hierapytna"><w lemma="πολιτεία">πολ<supplied reason="lost">ιτεί</supplied><lb 
+                        break="no" n="26"/>αν</w></rs></rs> δε<supplied reason="lost">δόσθ</supplied><lb 
+                        break="no" n="27"/>αι ἢ μή· κα<supplied reason="lost">ὶ α</supplied><lb 
+                        break="no" n="28"/>ἴ κα ἀντίθ<unclear>ε</unclear><lb 
+                        break="no" n="29"/>τοι <rs type="institution" subtype="practice" role="voting" key="psaphos" ref="#praisos"><rs type="institution" subtype="practice" role="voting" key="psaphos" ref="#hierapytna"><w lemma="ψᾶφος">ψᾶφοι</w></rs></rs> γ<lb 
+                        break="no" n="30"/>ένωνται τ<lb 
+                        break="no" n="31"/>ρεῖς, μὴ ἔσ<lb 
+                        break="no" n="32"/>τω <rs type="institution" subtype="social_status" role="exclusion" key="polites" ref="#praisos"><rs type="institution" subtype="social_status" role="exclusion" key="polites" ref="#hierapytna"><w lemma="πολίτας">πολίτ<unclear>α</unclear><lb 
+                        break="no" n="33"/><unclear>ς</unclear></w></rs></rs>· <w lemma="ἐπινομά">ἐπινομὰ</w>
+                          <lb n="34"/><supplied reason="lost">δ’</supplied> ἔστω τῶ<lb 
+                        break="no" n="35"/><supplied reason="lost">ι τε</supplied> <placeName ref="#hierapytna" type="ethnic">Ἱεραπ<lb 
+                        break="no" n="36"/><supplied reason="lost">υτνί</supplied>ωι</placeName> ἐν τ<lb 
+                        break="no" n="37"/><supplied reason="lost">ᾶι</supplied> <placeName ref="#praisos"><supplied reason="lost">Πρ</supplied>αισίαι</placeName>,
+                          <lb n="38"/><supplied reason="lost">χ</supplied>ῶρι τῶν <rs type="institution" subtype="public_space" role="exclusion" key="temenos" ref="#praisos"><w lemma="τέμενος">τ<lb 
+                        break="no" n="39"/><supplied reason="lost">ε</supplied>μενέων</w></rs>
+                          <lb n="40"/>τῶν ἐν Ἀρ<lb 
+                        break="no" n="41"/>δανιτοι κ<lb 
+                        break="no" n="42"/>αὶ ἐν Δαροι,
+                          <lb n="43"/>καὶ τῶι <placeName ref="#praisos" type="ethnic">Πρ<lb 
+                        break="no" n="44"/>αισίωι</placeName> ἐν τ<lb 
+                        break="no" n="45"/>ᾶι <placeName ref="#hierapytna">Ἱεραπ<lb 
+                        break="no" n="46"/>υτνίαι</placeName>, ἀ<lb 
+                        break="no" n="47"/><unclear>σ</unclear>ινέας ἐόν<lb 
+                        break="no" n="48"/><supplied reason="lost">τα</supplied>ς δὲ κα<unclear>ὶ</unclear>
+                          <lb n="49"/><unclear>δύ</unclear>οντας <supplied reason="lost">ἑ</supplied><lb 
+                        break="no" n="50"/>κατέρος ἐς
+                          <lb n="51"/>τὰν ἰδίαν·
+                          <lb n="52"/>αἰ δέ κα λῆι ὁ
+                          <lb n="53"/><placeName ref="#hierapytna" type="ethnic"><supplied reason="lost">Ἱ</supplied>εραπύτνι<lb 
+                        break="no" n="54"/>ος</placeName> <w lemma="αὐλοστατέω">αὐλοστ<lb 
+                        break="no" n="55"/>ατε͂ν</w> ἐν τᾶ<supplied reason="lost">ι</supplied>
+                          <lb n="56"/><placeName ref="#praisos">Πρ<corr>α</corr>ισίαι</placeName>, <rs type="institution" subtype="official" role="distributor" key="synkritas" ref="#praisos" cert="low"><w lemma="συγκρίτας">σ<lb 
+                        break="no" n="57"/>υγκριτὰν</w></rs> <unclear>ἐ</unclear><lb 
+                        break="no" n="58"/>χέτω <placeName ref="#praisos" type="ethnic">Πραί<lb 
+                        break="no" n="59"/>σιον</placeName>· ὡσαύ<lb 
+                        break="no" n="60"/>τως δὲ καὶ
+                          <lb n="61"/>ὁ <placeName ref="#praisos" type="ethnic">Πραίσιος</placeName> α<supplied reason="lost">ἴ</supplied>
+                          <lb n="62"/>κα λῆι <w lemma="αὐλοστατέω">αὐλ<lb 
+                        break="no" n="63"/>οστατε͂ν</w> ἐ<lb 
+                        break="no" n="64"/>ν τᾶι <placeName ref="#hierapytna">Ἱεραπ<lb 
+                        break="no" n="65"/>υτνίαι</placeName>, <rs type="institution" subtype="official" role="distributor" key="synkritas" ref="#hierapytna" cert="low"><w lemma="συγκρίτας">συν<lb 
+                        break="no" n="66"/>κριτὰν</w></rs> ἐχέ<lb 
+                        break="no" n="67"/>τω <placeName ref="#hierapytna" type="ethnic">Ἱεραπύ<lb 
+                        break="no" n="68"/>τνιον</placeName>· <rs type="institution" subtype="practice" role="performance" key="choros" ref="#praisos"><rs type="institution" subtype="practice" role="performance" key="choros" ref="#hierapytna"><w lemma="χορός">χορὸ<lb 
+                        break="no" n="69"/>ς</w></rs></rs> δὲ καὶ <rs type="institution" subtype="practice" role="competition" key="dromos" ref="#praisos"><rs type="institution" subtype="practice" role="competition" key="dromos" ref="#hierapytna"><w lemma="δρόμος">δρό<lb 
+                        break="no" n="70"/>μος</w></rs></rs> <w lemma="συνκοινός">συνκοι<lb 
+                        break="no" n="71"/>νὸς</w> ἦμεν ἑ<lb 
+                        break="no" n="72"/><unclear>κ</unclear><corr>α</corr>τέροις τ<unclear>ο</unclear><lb 
+                        break="no" n="73"/><supplied reason="lost">ῖ</supplied>ς τε <placeName ref="#hierapytna" type="ethnic">Ἱεραπυ<lb 
+                        break="no" n="74"/>τνίοις</placeName> ἐμ <placeName ref="#praisos">Π<lb 
+                        break="no" n="75"/><unclear>ρ</unclear>αίσωι</placeName> καὶ τ<lb 
+                        break="no" n="76"/>οῖς <placeName ref="#praisos" type="ethnic">Πραισί<unclear>ο</unclear><supplied reason="lost">ι</supplied><lb 
+                        break="no" n="77"/><supplied reason="lost">ς</supplied></placeName> ἐν <placeName ref="#hierapytna">Ἱερα<supplied reason="lost">πύ</supplied><lb 
+                        break="no" n="78"/><supplied reason="lost">τ</supplied>ναι</placeName>· δι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><lb 
+                        break="no" n="79"/><gap reason="illegible" quantity="1" unit="character"/><orig>εταν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="80"/><orig>νεδ<unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="80a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Gli accordi prevedono la concessione reciproca della cittadinanza fra Hierapytna e Praisos a delle condizioni che non hanno paralleli nei trattati analoghi cretesi: la cittadinanza, infatti, viene rilasciata solamente agli individui che appartengono ad una tribù della città di origine (ll. 5-6, ἔνφυλος, limitazione che è presente anche nel trattato fra Hierapytna e Priansos <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>), a patto che costoro lascino (?) la propria <foreign>polis</foreign> e che la concessione di <foreign>politeia</foreign> venga votata dall’<foreign>ekklesia</foreign> della città di destinazione con meno di tre voti negativi (ll. B 1-33). A proposito della votazione viene usata alle linee 22-24 l’espressione ἐν κυρ[ία]ι ἐκκλησ[ία]ι, a Creta impiegata solamente in più iscrizioni di Praisos (cf. <ref type="ins" target="#ic3_6_9"><title>IC</title> III 6 9</ref>-<ref type="ins" target="#ic3_6_10">10</ref>, dove compare nella forma ἐκκλησίας κυρίας γενομένης), il cui valore è apparentemente vicino a quello dell’uso microasiatico della formula, dove assume il significato di «assemblea resa valida dal raggiungimento di un <foreign>quorum</foreign>» (così <bibl><ref target="#b574">Errington 1995</ref>, pp. 34-36</bibl>).</p>
+                    <p>Il trattato, inoltre, garantisce ai cittadini di ciascuna <foreign>polis</foreign> il diritto di pascolo nel territorio dell’altra città, con l’esclusione dei recinti sacri di Ardanitos e Daros presso Praisos (ll. 33-51); nel caso che i cittadini di una delle due contraenti vogliano stanziare i propri animali nel territorio dell’altra città devono avvalersi di un suo <foreign>synkritas</foreign>, verosimilmente un funzionario locale addetto alla ripartizione dei pascoli (ll. 52-68, cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 203-206</bibl>).</p>
+                    <p>Il documento, infine, prevede l’organizzazione di danze e gare di corsa (attestate quest’ultime anche in <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> e <ref type="ins" target="#ic3_4_4"><title>IC</title> III 4 4</ref>) comuni a entrambe le città, da tenersi sia a Praisos che a Hierapytna (ll. 68-78).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#choros1"><foreign>choros</foreign></ref>, <ref type="inst" target="#dromos"><foreign>dromos</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#enphylos"><foreign>enphylos</foreign></ref>, <ref type="inst" target="#polis1"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#psaphos"><foreign>psaphos</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>, <ref type="inst" target="#synkritas"><foreign>synkritas</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1592">Reinach 1911</ref>, pp. 378-391 n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1204-1205 n. 37</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 197</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 1 <ptr type="phi" target="200304"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 554</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 5</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 33</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b53">Austin 1981</ref>, n. 132</bibl>; 
+                            <bibl><ref target="#b1921">Van Effenterre – Van Effenterre 1985</ref>, p. 183 nota 100</bibl>; 
+                            <bibl><ref target="#b1758">Spyridakis 1990</ref></bibl>; 
+                            <bibl><ref target="#b247">Capdeville 1994</ref>, pp. 203-205</bibl>; 
+                            <bibl><ref target="#b248">Capdeville 1994a</ref>, pp. 269-272</bibl>; 
+                            <bibl><ref target="#b305">Chaniotis 1995</ref></bibl>; 
+                            <bibl><ref target="#b574">Errington 1995</ref>, pp. 34-36</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 341</bibl>;
+                            <bibl><ref target="#b813">Guizzi 2001</ref>, p. 326</bibl>; 
+                            <bibl><ref target="#b283">Chandezon 2003</ref>, n. 44</bibl>; 
+                            <bibl><ref target="#b54">Austin 2006</ref>, n. 152</bibl>; 
+                            <bibl><ref target="#b1391">Naerebout 2011</ref>, pp. 253-254</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

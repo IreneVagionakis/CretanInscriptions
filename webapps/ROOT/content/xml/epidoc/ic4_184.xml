@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Gortyna e gli abitanti di Kaudos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 184 + SEG 23.589</idno>
+                        <idno type="projectNo">311</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_praetorium">Pretorio di Gortyna (A); </repository> <idno type="invNo"/>
+                                <altIdentifier><repository ref="#agioi_deka">Agioi Deka, in una casa (B); </repository> <idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#lost">frammento perduto (C)</repository> <idno></idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>più <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0170">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="fragment" n="A">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀγαθ</supplied><unclear>ᾶι</unclear> <w lemma="τύχα"><unclear>τύ</unclear>χαι</w>. <rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#gortyn">ἐπὶ τῶν <w lemma="Αἰθαλεῖς">Αἰθελέων</w></rs> <placeName ref="#gortyn">Γόρτυνι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντων</w>
+                          <lb n="2"/>τῶν σὺν <persName type="attested" key="Ertaios f. Amnatos"><name nymRef="Ἐρταῖος">Ἐρταίωι</name> τῶ <name nymRef="Ἄμνατος" type="patronymic">Ἀμνάτω</name></persName></rs> ὅκα τὸ τέταρτον <w lemma="μείς">μηνὸς</w>
+                          <lb n="3"/><rs type="institution" subtype="month" role="calendar" key="Welchanios" ref="#gortyn"><w lemma="Ϝευχάνιος">Ϝευχανίω</w></rs>, <space extent="unknown" unit="character"/> ἐν δέ <placeName ref="#kaudos">Καυδοῖ</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#kaudos">ἐπὶ τῶν σὺν <persName type="attested" key="Ophelandros f. Porton"><name nymRef="Ὀφέλανδρος">Ὀφελάνδρωι</name> τῶι
+                          <lb n="4"/><name nymRef="Πόρτων" type="patronymic">Πόρτωνος</name></persName></rs>. τάδε <w lemma="ἐπιχωρέω">ἐπεχώρησαν</w> οἱ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></rs> <rs type="institution" subtype="social_group" role="treaty-making" key="oikiontes" ref="#kaudos">τοῖς τὰν <placeName ref="#kaudos">Κα<supplied reason="lost">ῦ</supplied><lb 
+                        break="no" n="5"/>δον</placeName> <w lemma="ϝοικέω">ϝοικίονσι</w></rs>· <rs type="institution" subtype="social_status" role="granted_as_privilege" key="eleutheros" ref="#kaudos"><w lemma="ἐλεύθερος">ἐλευθέρονς</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="autonomos" ref="#kaudos"><w lemma="αὐτόνομος">αὐτονόμονς</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="autodikos" ref="#kaudos"><w lemma="αὐτόδικος">αὐτοδί<lb 
+                        break="no" n="6"/>κονς</w></rs> τὰ πορτὶ ψεαυτὸνς ϝοικῆν, μένονσι ἐν τᾶι κατασ<corr>τάσ</corr>ι ἇι
+                          <lb n="7"/>οἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> κατέστασαν χἠπομένονς κἠμ πολέμωι χἰρήν<supplied reason="lost">αι</supplied>
+                          <lb n="8"/>τοῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> χρημένονς <rs type="institution" subtype="object" role="law" key="nomos" ref="#gortyn"><rs type="institution" subtype="object" role="law" key="nomos" ref="#kaudos"><w lemma="νόμος">νόμοις</w></rs></rs> τοῖς ἰδίοις· φέρεν δὲ τὸνς
+                          <lb n="9"/>ἐν <placeName ref="#kaudos">Καυδοῖ</placeName> <w lemma="ϝοικέω">ϝοικίοντανς</w> τῶν γιννομένων πάντων ἐν τᾶι χώραι
+                          <lb n="10"/><w lemma="δεκάτα">δεκάταν</w> καθὼς οἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName>, πλὰν θνατῶν καὶ τῶν <w lemma="λιμήν">λιμένων</w> τᾶς
+                          <lb n="11"/>προσόδω καὶ λαχάνων· ταῦτα δ’ αὐτοὶ ἐχόντων. <space extent="unknown" unit="character"/> ἁλῶν δὲ δι<lb 
+                        break="no" n="12"/><unclear>δ</unclear>όντων χιλιάδας πέντε κατ’ ἐνιαυτόν, παλλαμβανέτω δὲ ὁ
+                          <lb n="13"/><rs type="institution" subtype="official" role="supply" key="preigistos" ref="#gortyn"><w lemma="πρείγιστος">πρείγιστος</w></rs> καὶ οἱ <rs type="institution" subtype="board" role="supply" key="oros" ref="#gortyn"><w lemma="ὦρος">ὦροι</w></rs> τὰς πέντε χιλιάδανς ἐς τᾶν ἁλᾶν, καὶ αἰ
+                          <lb n="14"/>μέ<supplied reason="lost">ν κ</supplied>α λείωντι διακομιττόντων οἱ τὰν <placeName ref="#kaudos">Καῦδον</placeName> <w lemma="ϝοικέω">ϝοικίοντες</w> ἐφ’ ἡ<lb 
+                        break="no" n="15"/>μίναι, αἰ δὲ μὴ λείοιεν ἐξαρτυόνθων αὐτοὶ οἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName>. διδόν<lb 
+                        break="no" n="16"/>των δὲ καὶ ἀρκεύθων <w lemma="ϝέδιμνος">ϝεδίμνονς</w> διακατίονς ᾗ κ’ ἦι φο<lb 
+                        break="no" n="17"/>ρά, ᾗ <supplied reason="lost">δέ</supplied> κα μὴ ἦι φορὰ ϝεξήκοντα, περὶ δὲ τᾶς κομιδᾶς ἔσ<supplied reason="lost">τω</supplied>
+                          <lb n="18"/><supplied reason="lost">κ</supplied>α<unclear>θ</unclear><supplied reason="lost">ὼ</supplied>ς τῶν ἁλ<del rend="erasure">λ</del>ῶν <w lemma="ἐγράφω">ἤγρατται</w>. <space extent="unknown" unit="character"/> ὅ τι δέ κ’ ἐσπέτηι ἐς τᾶν χ<unclear>ω</unclear><lb 
+                        break="no" n="19"/><supplied reason="lost">ρᾶν ἐθ</supplied>θαλάθθας ἦμεν τῶι <persName type="divine" key="Apollo Pytios">Ἀπέλλωνι τῶ<supplied reason="lost">ι Πυτ</supplied>ίωι</persName> τὰν <w lemma="δεκάτα">δεκ<supplied reason="lost">άταν</supplied></w>.
+                          </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="B">
+                            <ab>
+                          <lb n="1"/><gap reason="lost" quantity="4" unit="character"/><orig><unclear>ιαιδε</unclear></orig><gap reason="lost" quantity="30" unit="character" precision="low"/> <supplied reason="lost">οἱ ἐν</supplied> <placeName ref="#kaudos"><supplied reason="lost">Καυ</supplied><lb 
+                        break="no" n="2"/>δοῖ</placeName> <w lemma="ϝοικέω">ϝοικίοντ<unclear>ε</unclear>ς</w> <orig><unclear>τα</unclear></orig><gap reason="lost" quantity="25" unit="character" precision="low"/> <supplied reason="lost">αἰ δέ κα</supplied>
+                        <lb n="3"/>χρήια ᾖ ἀμπλεόντ<unclear>ων</unclear> <unclear>οἱ</unclear> <unclear>ἐ</unclear><supplied reason="lost">ν <placeName ref="#kaudos">Καυδοῖ</placeName> <w lemma="ϝοικέω">ϝοικίοντες</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><supplied reason="lost">ο</supplied>ἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName>, τραφό<unclear>ντ</unclear>ων δὲ <gap reason="lost" quantity="24" unit="character" precision="low"/>
+                        <lb n="5"/><gap reason="lost" quantity="1" unit="character"/>ιθέντων. αἴ τί κα δέη<unclear>ι</unclear> Ο<gap reason="lost" quantity="21" unit="character" precision="low"/><supplied reason="lost">ν</supplied><lb 
+                            break="no" n="6"/>τες. <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκας</w></rs> δὲ διδόμε<unclear>ν</unclear> <supplied reason="lost" cert="low">πρὸς ἀλλήλους</supplied> <gap reason="lost" quantity="10" unit="character" precision="low"/>
+                        <lb n="7"/><supplied reason="lost">κ</supplied><unclear>α</unclear>τὰ τὰ αὐτὰ δὲ καὶ λαμ<supplied reason="lost">βάνεν</supplied> <gap reason="lost" quantity="21" unit="character" precision="low"/>
+                        <lb n="8"/><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκη"><supplied reason="lost">δί</supplied><unclear>κη</unclear>ν</w></rs> δὲ μὴ ἐξέστω <orig>κα</orig><gap reason="lost" quantity="24" unit="character" precision="low"/> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυ</supplied><lb 
+                            break="no" n="9"/>νίωι</placeName>. αἰ δέ τις <w lemma="ἀδικέω">ἀδικίοι</w> τ<unclear>ὸ</unclear>ν <supplied reason="lost">ἐν <placeName ref="#kaudos">Καυδοῖ</placeName> <w lemma="ϝοικέω">ϝοικίοντα</w>,</supplied> <supplied reason="lost" cert="low">ἑρπέ</supplied><lb 
+                            break="no" n="10"/>τ<unclear>ω</unclear> ὁ <w lemma="ἀδικέω">ἀδικιόμενος</w> τοῖς <rs type="institution" subtype="board" role="judicial_procedure" key="kosmos" ref="#gortyn"><w lemma="κόρμος">κ<unclear>όρ</unclear><supplied reason="lost">μοις</supplied></w></rs><supplied reason="lost">, <w lemma="νικάω">νικῆν</w> δ’ ὅτερά κ’</supplied> <w lemma="ὀμνύω"><supplied reason="lost">ὀμό</supplied><lb 
+                            break="no" n="11"/>σωντι</w> οἱ πλίες. ταῦτ<supplied reason="lost">α δὲ</supplied> <gap reason="lost" quantity="27" unit="character" precision="low"/>
+                        <lb n="12"/><orgName>μεν</orgName> πάντα, τὸν <w lemma="ὅρκος">ὅρ<corr>κ</corr>ον</w> <unclear>καὶ</unclear> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">. αἴ δέ τί κα ὁ μὲν</supplied>
+                        <lb n="13"/><placeName ref="#gortyn" type="ethnic">Γορτύνιος</placeName> τὸν ἐν <placeName ref="#kaudos">Καυδ<unclear>οῖ</unclear></placeName> <supplied reason="lost" cert="low"><w lemma="ϝοικέω">ϝοικίοντα</w> αἰτιᾶται</supplied><supplied reason="lost">, οὗτος δὲ τὸν</supplied>
+                        <lb n="14"/><placeName ref="#gortyn" type="ethnic">Γορτύνιον</placeName>, <w lemma="μαῖτυς">μαί<unclear>τ</unclear>υρ<unclear>ι</unclear></w> χ<supplied reason="lost">ρ</supplied><unclear>ή</unclear><supplied reason="lost">σασθαι, ὁ μὲν <placeName ref="#gortyn" type="ethnic">Γορτύνιος</placeName> ἐκ τῶν ἐν <placeName ref="#kaudos">Καυδοῖ</placeName></supplied>
+                        <lb n="15"/><w lemma="ϝοικέω">ϝοικιόντων</w>, ὁ δ’ ἐ<unclear>ν</unclear> <placeName ref="#kaudos">Καυδ<unclear>ο</unclear><supplied reason="lost">ῖ</supplied></placeName> <w lemma="ϝοικέω"><unclear>ϝο</unclear><supplied reason="lost">ικίων</supplied></w> <supplied reason="lost">ἐκ τῶν <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName>.</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="16"/>χρησιόμεθα <w lemma="πρόδικος"><unclear>πρ</unclear>οδίκωι</w> ἇ<unclear>ι</unclear> <supplied reason="lost">κα τὸ <rs type="institution" subtype="object" role="law" key="diagramma" ref="#unknown"><w lemma="διάγραμμα">διάγραμμα</w></rs> ἔχει. ὁ δ’ <w lemma="ἀδικέω">ἀδικιόμενος</w></supplied>
+                        <lb n="17"/>ἢ ἄλλος πρὸ τ<unclear>ῶ</unclear> <w lemma="ἀδικέω">ἀδικιομ<unclear>έν</unclear><supplied reason="lost">ω</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰς δὲ</supplied> <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα"><supplied reason="lost">δί</supplied><lb
+                            break="no" n="18"/><unclear>κ</unclear>ανς</w></rs> τοῖς <w lemma="προδικάζω">πρ<supplied reason="lost">ο</supplied>δικαξαμέ<unclear>ν</unclear><supplied reason="lost">οις</supplied></w> <w lemma="εἰσάγω"><supplied reason="lost">εἰσαγόντων</supplied></w> <gap reason="lost" quantity="12" unit="character" precision="low"/> <supplied reason="lost">τ</supplied><lb 
+                            break="no" n="19"/>ῶ <rs type="institution" subtype="month" role="calendar" key="meis" ref="#gortyn"><w lemma="μείς">μηνός</w></rs>. <space extent="unknown" unit="character"/> <w lemma="τιμά">τιμ<unclear>α</unclear><supplied reason="lost">ῖ</supplied>ς</w> δὲ χρησ<unclear>ι</unclear><supplied reason="lost">όμεθα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="20"/><orig>αλλα</orig> χρησιόμ<unclear>εθ</unclear>α τῶι <rs type="institution" subtype="object" role="law" key="nomos" ref="#gortyn"><w lemma="νόμος">ν<unclear>όμ</unclear><supplied reason="lost">ω</supplied></w></rs> <supplied reason="lost">τῶι</supplied> <gap reason="lost" quantity="11" unit="character" precision="low"/> <supplied reason="lost" cert="low">ὁ</supplied> <w lemma="ἀποστέλλω"><supplied reason="lost" cert="low">ἀποστελλόμεν</supplied><lb 
+                            break="no" n="21"/>νος</w> ἐπὶ τῶν <rs type="institution" subtype="board" role="defense" key="oros" ref="#gortyn" cert="low"><w lemma="ὦρος">ὤρ<unclear>ων</unclear></w></rs> μὴ <w lemma="ἐμπλέω">ἐμπλ<unclear>ιέ</unclear><supplied reason="lost">τω</supplied></w> <gap reason="lost" quantity="17" unit="character" precision="low"/> <supplied reason="lost">τὸν ἐν</supplied> <placeName ref="#kaudos"><supplied reason="lost">Καυ</supplied><lb 
+                            break="no" n="22"/>δοῖ</placeName> <w lemma="ϝοικέω">ϝοικίοντα</w>, μ<unclear>ηδ</unclear>ὲ <orig>τα<unclear>μ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>τω</unclear></orig><gap reason="lost" quantity="23" unit="character" precision="low"/>
+                        <lb n="23"/><orig>τα</orig> περὶ <w lemma="φυλακά">φυλακᾶς̣</w>. <space extent="unknown" unit="character"/> αἰ δέ <unclear>τίς</unclear> <supplied reason="lost">κα</supplied> <gap reason="lost" quantity="23" unit="character" precision="low"/>
+                        <lb n="24"/>ὁ <rs type="institution" subtype="official" role="unknown" key="preigistos" ref="#gortyn"><w lemma="πρείγιστος">πρείγιστος</w></rs> ἢ ὁ ἐ<unclear>ν</unclear> <placeName ref="#kaudos"><unclear>Κ</unclear>αυδο<unclear>ῖ</unclear></placeName> <w lemma="ϝοικέω"><unclear>ϝ</unclear>οικ<unclear>ίω</unclear><supplied reason="lost">ν</supplied></w> <gap reason="lost" quantity="18" unit="character" precision="low"/>
+                        <lb n="25"/><gap reason="lost" quantity="3" unit="character"/><unclear>λλοντι</unclear> <orig><unclear>αποτ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>χεν</unclear></orig><gap reason="lost" quantity="29" unit="character" precision="low"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="C">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">α</supplied>ἰ δέ κα μὴ <w lemma="ἐσκαλέω">ἐσκαλέσωνται</w> <orig><unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐν</supplied>
+                          <lb n="2"/>δὲ <placeName ref="#gortyn">Γόρτυνι</placeName> ἐπὶ τοῖς ἑκατὸν <orig>χ</orig><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυνί</supplied><lb 
+                        break="no" n="3"/>οις</placeName> καὶ τοῖς ἐν <placeName ref="#kaudos">Καυδοῖ</placeName> <w lemma="ϝοικέω">ϝοικίον<supplied reason="lost">σι</supplied></w><supplied reason="lost">· αἰ δέ τί κα <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#kaudos"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#gortyn"><w lemma="δοκέω">δόξηι</w></rs></rs> τῶν</supplied> <w lemma="ἐπομνύω"><supplied reason="lost">ἐ</supplied><lb 
+                        break="no" n="4"/>πωμοσμένων</w> ἢ ἐξελὲν ἢ <w lemma="ἐντίθημι">ἐν<supplied reason="lost">θέμεν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>καὶ πειθθίωντι, ἃ μέν κα <w lemma="ἐντίθημι">ἐνθίω<supplied reason="lost">μεν</supplied></w> <supplied reason="lost"><w lemma="ἔνορκος">ἔνορκα</w> καὶ ἔνθινα ἦμεν, ἃ</supplied>
+                          <lb n="6"/>δέ κα ἐξέλωμεν, ταῦτα μ<supplied reason="lost">ήτε <w lemma="ἔνορκος">ἔνορκα</w> μήτε ἔνθινα ἦμεν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><orig>σ</orig><gap reason="lost" quantity="2" unit="character"/> ἦμεν τας χώρας <orig>κα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><orig>ρος</orig> ἐλλίπηι ἀναιλῆθθ<supplied reason="lost">αι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>τὰν <w lemma="στάλα">στάλας</w> <placeName ref="#gortyn">Γορτυ<supplied reason="lost">ν</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I tre frammenti conservano parti di un trattato stipulato fra Gortyna e Kaudos, comunità che non pare detenere lo <foreign>status</foreign> di <foreign>polis</foreign> ma che sembra piuttosto soggetta a Gortyna. Tale ipotesi è supportata dall’uso reiterato dell’espressione οἱ τὰν Καῦδον ϝοικίοντες anziché dell’etnico collettivo <foreign>Kaudioi</foreign>, peraltro mai attestato (il singolare <foreign>Kaudios</foreign>, invece, è impiegato come epiclesi di Zeus nella dedica votiva <ref type="ins" target="#ic2_7_1"><title>IC</title> II 7 1</ref> proveniente dalla piccola isola).</p>
+                    <p>Il frammento A, il più esteso e meglio preservato dei tre, conserva l’inizio del trattato. Subito dopo l’invocazione benaugurale ἀγαθᾶι τύχαι il documento presenta la formula di datazione di entrambi i contraenti del trattato, che per Gortyna menziona il cosmo eponimo Ertaios figlio di Amnatos della tribù degli <foreign>Aithaleis</foreign> (cf. <ref type="ins" target="#ic1_17_4"><title>IC</title> I 17 4</ref>; <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, <ref type="ins" target="#ic4_142">142</ref>, <ref type="ins" target="#ic4_167">167</ref>, <ref type="ins" target="#ic4_259">259</ref>; <ref type="ins" target="#seg_48_1208"><title>SEG</title> 48.1208</ref>), in carica per la quarta volta, e il mese <foreign>Welchanios</foreign>, mentre per Kaudos ricorda il cosmo Ophelandros figlio di Porton (ll. 1-4).</p>
+                    <p>L’oggetto del trattato prevede che gli abitanti di Kaudos siano liberi, autonomi e <foreign>autodikoi</foreign> – termini questi ultimi che a Creta ricorrono solamente qui e in <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref> (l. 1, [αὐτ]όνομ[ο]ι κ’ αὐτόδικοι) –, non modificando la situazione stabilita da Gortyna e avvalendosi delle proprie leggi (ll. 4-8). Gli abitanti di Kaukos, inoltre, sono tenuti a versare a Gortyna la decima dei prodotti del proprio territorio ad esclusione del bestiame, delle tasse portuali e degli ortaggi (ll. 8-11) e ad Apollo <foreign>Pytios</foreign> la decima di quanto il mare deposita sulla terra (ll. 18-19). In aggiunta ai due tributi, costoro sono tenuti a consegnare ogni anno cinquemila misure di sale ai funzionari di Gortyna addetti alla loro raccolta, il πρείγιστος (cf. i <foreign>preigistoi</foreign> di <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref>) e le guardie (ὦροι, a Creta menzionati anche in <ref type="ins" target="#seg_39_967"><title>SEG</title> 39.967</ref>), e duecento o sessanta medimni di bacche di ginepro, a seconda che ci sia o meno il raccolto (ll. 11-18).</p>
+                <p>Il frammento B, pertinente a clausole di differente natura, sembra trattare forse dell’educazione (l. 4) e dell’amministrazione della giustizia, prevedendo il ricorso a giuramenti, testimoni, pene, leggi specifiche e forse al <foreign>diagramma</foreign> del <foreign>koinon</foreign> cretese (ll. 6-20; per il <foreign>diagramma</foreign> cf. <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>, <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>, <ref type="ins" target="#ic4_174"><title>IC</title> IV 174</ref>, <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>, <ref type="ins" target="#mylasa_443"><title>Mylasa</title> 443</ref>; cf. <bibl><ref target="#b312">Chaniotis 1999a</ref></bibl>). In particolare viene previsto che, qualora un abitante di Kaudos subisca ingiustizia, costui possa rivolgersi ai cosmi di Gortyna (?). Le ultime linee del frammento, di difficile interpretazione, menzionano inoltre nuovamente guardie, forse in riferimento alla custodia dei prodotti consegnati; in tale frangente viene nominato anche il πρείγιστος, posto sullo stesso piano degli abitanti di Kaudos a proposito di qualcosa che doveva essere definito alle linee 23-25.</p>
+                <p>Il frammento C, che conserva la parte conclusiva del documento, sembra occuparsi di convocazioni in processi (l. 1) e menziona un gruppo di cento persone, possibilmente costituenti un <foreign>quorum</foreign> (l. 2, ἐπὶ τοῖς ἑκατόν; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 420</bibl>); alle linee 3-6, inoltre, viene prevista la possibilità di modificare il trattato qualora lo decretino entrambe le parti. Le ultime linee, di cui ben poco è leggibile, menzionano un territorio (l. 7) e contengono forse la formula di esposizione, che prevede la collocazione a Gortyna di una stele contenente il trattato (l. 9).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#autodikos"><foreign>autodikos</foreign></ref>, <ref type="inst" target="#autonomos"><foreign>autonomos</foreign></ref>, <ref type="inst" target="#diagramma"><foreign>diagramma</foreign></ref> (?), <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref> (?), <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#meis"><foreign>meis</foreign></ref>, mese <ref type="inst" target="#welchanios"><foreign>Welchanios</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#oikiontes"><foreign>oikiontes</foreign></ref>, <ref type="inst" target="#oros"><foreign>oros</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#preigistos"><foreign>preigistos</foreign></ref>, tribù (<ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 232-234 n. 37 (C)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5022 (C)</bibl>; 
+                            <bibl><ref target="#b757">Guarducci 1930a</ref> (A+C)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib4"><title>IC</title> IV</ref> 184 <ptr type="phi" target="200623"/> (A+C)</bibl>; 
+                            <bibl><ref target="#b458">Davaras 1963</ref>, pp. 141-152 n. 1 (B)</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 23.589 <ptr type="phi" target="201785"/> <ptr type="seg" target="a23_589"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 38 (B)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 69 (A+B+C) <ptr type="phi" target="201342"/></bibl>;
+                            <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 14 (B)</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 36 (A)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1061">Latte 1946-1947</ref></bibl>; 
+                            <bibl><ref target="#b248">Capdeville 1994a</ref>, pp. 272-273</bibl>;
+                            <bibl><ref target="#b4">Ager 1996</ref>, App. 5</bibl>; 
+                            <bibl><ref target="#b251">Capdeville 1997</ref>, pp. 293-295</bibl>; 
+                            <bibl><ref target="#b705">Ghinatti 2004</ref>, pp. 149, 165-166</bibl>; 
+                            <bibl><ref target="#b263">Carusi 2008</ref>, pp. 91-93</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

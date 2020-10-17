@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epigramma funerario per un cittadino di Lato</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 39.972</idno>
+                        <idno type="projectNo">472</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos</repository> 
+                                <idno type="invNo">12278</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0116" notAfter="-0100" precision="low">116-100 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Κλητώνυμος
+                          <lb n="2"/>Μναστοκλεῖος,
+                          <lb n="3"/><w lemma="χαίρω">χαῖρε</w>.
+                          <lb n="4"/>εἰ Λίνδο<unclear>ς</unclear> <unclear>Κλεόβ</unclear><supplied reason="lost">ο</supplied>υλον ἐθρέψατο <persName type="divine" key="Sisyphus">Σισυ<supplied reason="lost">φί</supplied>δων</persName> δὲ
+                          <lb n="5"/>χθὼν <supplied reason="lost">Π</supplied><unclear>ε</unclear><supplied reason="lost">ρί</supplied><unclear>αν</unclear>δρον, ἄκρους ἑπτὰ σοφῶν κανόν<supplied reason="lost">ας</supplied>,
+                          <lb n="6"/>οὐ <unclear>μέγ</unclear>α· <unclear>κ</unclear>αὶ <placeName ref="#lato"><unclear>Λ</unclear>ατὼς</placeName> γὰρ ἐνέγκατο τόνδ<supplied reason="lost">ε</supplied> <w lemma="σοφιστής">σοφιστὴ<unclear>ν</unclear></w>
+                          <lb n="7"/><unclear>ὄ</unclear><supplied reason="lost">γ</supplied>δ<unclear>οον</unclear> <supplied reason="lost">ε</supplied>ὐμαθοῦς κοίρανον <w lemma="ἱστορίη">ἱστορίης</w>,
+                          <lb n="8"/>πιστὸν <unclear>ἔρ</unclear><supplied reason="lost">εισ</supplied>μα <rs type="institution" subtype="object" role="law" key="nomos" ref="#lato"><w lemma="νόμος">νό<corr>μ</corr>ων</w></rs> Κλητώνυμον αἰνετὸν υἷ<unclear>α</unclear>
+                          <lb n="9"/><unclear>Μν</unclear>ασ<unclear>τ</unclear><supplied reason="lost">οκ</supplied>λέους ὃν <supplied reason="lost">ἅ</supplied>πᾶς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="demos" ref="#lato"><w lemma="δῆμος">δῆμος</w></rs> ἐπῳκτίσατο·
+                          <lb n="10"/>οὐ γ<unclear>ὰρ</unclear> <supplied reason="lost">ἐπλ</supplied>ήρωσεν γήραι βίον, ὡς δέ τις ἀστὴρ
+                          <lb n="11"/>λάμψ<unclear>α</unclear>ς ἐσβέ<unclear>σ</unclear>θ<unclear>η</unclear> δαίμονος ἀκρισίαις
+                          <lb n="12"/><w lemma="πατρίς">πατρίδα</w> ῥυόμενο<unclear>ς</unclear> <w lemma="βουλή">βουλαῖς</w>· ἀγαθῇ δὲ <w lemma="πρόνοια">προνοίᾳ</w>
+                          <lb n="13"/>οἶκον ὃν οἱ δόξης κίονες ἐκράτεσαν·
+                          <lb n="14"/>τρ<unclear>ισ</unclear>σοὺς γὰρ λίπε παιδὰς ἑοὺς· <w lemma="ἀρετή">ἀρετὴ</w> δὲ τὰ τ<unclear>ο</unclear><supplied reason="lost">ύ</supplied>τ<unclear>ο</unclear><supplied reason="lost">υ</supplied>
+                          <lb n="15"/>τείμια κηρύξει κἠν <persName type="divine" key="Hades">Ἀΐδαο</persName> δόμοις.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il nome del defunto, verosimilmente lo stesso individuo che compare come cosmo nelle iscrizioni edificatorie di Lato del 116/115 a.C. <ref type="ins" target="#ic1_16_26"><title>IC</title> I 16 26</ref> e <ref type="ins" target="#ic1_16_32">32</ref>, è seguito alle linee 4-15 da un epitaffio in distici elegiaci. La sezione metrica dell’iscrizione presenta l’uomo come ottavo saggio generato dalla città di Lato, «signore» della storia e difensore delle leggi, compianto da tutto il <foreign>demos</foreign> (termine che in riferimento a Lato compare solo nell’arbitrato romano <ref type="ins" target="#chaniotis_54-56b">Chaniotis, <title>Verträge</title> 54/56b</ref>). Un probabile riferimento all’attività politica svolta da Kletonymos sembra essere presente alle linee 10-12, in cui il testo lamenta la morte precoce dell’individuo, avvenuta mentre era intento a proteggere la patria Lato con i propri consigli (l. 12, βουλαῖς).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b71">Baldwin Bowsky 1989a</ref>, pp. 118-123 n. 1</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 39.972 <ptr type="phi" target="202066"/> <ptr type="seg" target="a39_972_973"/></bibl>); 
+                            <bibl><ref target="#b1971">Voutiras 1990</ref></bibl>;
+                            <bibl><ref target="#b1236">Martínez Fernández 1998a</ref></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 17</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1603">Rigsby 1990</ref></bibl>;
+                            <bibl><ref target="#b1535">Petzl 1992</ref>, p. 3 nota 16</bibl>; 
+                            <bibl><ref target="#b1231">Martínez Fernández 1999b</ref></bibl>; 
+                            <bibl><ref target="#b1258">Martínez Fernández 2007</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

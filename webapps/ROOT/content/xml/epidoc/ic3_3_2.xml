@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 3 2*</idno>
+                        <idno type="projectNo">489</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="0a"/><supplied reason="lost">τάν τε καθιέρωσιν τῶι <persName type="divine" key="Dionysos">Διονύσωι</persName> τᾶς τε πόλιος</supplied>
+                          <lb n="1"/>καὶ τᾶς χώρας <supplied reason="lost">ὑμῶν δίδομεν καὶ ἐφ’ ὅσον κα δυ</supplied><lb 
+                        break="no" n="2"/>νατὸν ἦι οὐκ ἐπιτ<supplied reason="lost">ρ</supplied>άψομεν οὐδενὶ <w lemma="ἀδικέω">ἀδικε͂ν</w> ἐν τᾶι
+                          <lb n="3"/>ὑμᾶι χώραι, τάν τε <w lemma="φιλία"><supplied reason="lost">φι</supplied>λίαν</w> ἁρμοστὰν ἐῶσαν δι<lb 
+                        break="no" n="4"/>ακαθεξίομεν <supplied reason="lost">ν</supplied>ῦν τε καὶ εἰς τὸ<supplied reason="lost">ν</supplied> λοιπὸν χρόνον
+                          <lb n="5"/>πάντα. εἰ δέ τ<supplied reason="lost">ινές κα</supplied> τῶν ὁρμωμένων ἐξ <placeName ref="#hierapytna">Ἱα<supplied reason="lost">ρα</supplied><lb 
+                        break="no" n="6"/>πύτνας</placeName> <supplied reason="lost"><w lemma="ἀδικέω">ἀδικήσωντί</w> τι</supplied>να <placeName ref="#teos" type="ethnic">Τηίων</placeName> ἢ κο<supplied reason="lost">ι</supplied>νᾶι ἢ ἰδί<lb 
+                        break="no" n="7"/>αι ἐξέ<supplied reason="lost">στω τῶι παραγεν</supplied>ομένωι <supplied reason="lost"><placeName ref="#teos" type="ethnic">Τηίων</placeName></supplied> ἐπιλα<lb 
+                        break="no" n="8"/>βέσθαι καὶ <supplied reason="lost">τῶν</supplied> <w lemma="σῶμα"><supplied reason="lost">σωμάτ</supplied>ων</w> καὶ <w lemma="χρήματα">χ<supplied reason="lost">ρημάτων</supplied></w><supplied reason="lost">, εἴ τίς</supplied>
+                          <lb n="9"/>κα ἄγηι· οἱ δ<supplied reason="lost">ὲ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#hierapytna"><w lemma="κόσμος">κόσμοι</w></rs> οἱ τ</supplied>όκ’ ἀεὶ <supplied reason="lost"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><w lemma="κοσμέω">κοσμίοντες</w></rs></supplied> <w lemma="ἐπαναγκάζω"><supplied reason="lost">ἐπα</supplied><lb 
+                        break="no" n="10"/>ναγκαζόντων</w> ἀποδιδόμεν τὸς ἔχοντας <supplied reason="lost">ἀζάμιοι</supplied>
+                          <lb n="11"/>ἐόντες καὶ ἀνυπόδικοι πάσας ζαμίας. <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), si è conservato solamente nella sua sezione finale. La sezione pervenuta appartiene all’oggetto del decreto, che prevede la concessione da parte di Hierapytna di quanto richiesto da Teos, stabilendo in particolare che, nell’eventualità di appropriazione indebita ai danni di cittadini teii, i cosmi (?) in carica abbiano l’autorità di intervenire al fine di ottenere la restituzione di quanto sequestrato. La presenza del saluto conclusivo ἔρρωσθε, alla linea 11, dimostra l’inclusione del decreto di Hierapytna all’interno di una lettera inviata a Teos, della quale tuttavia non sono note le istituzioni mittenti.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1831">Torres y Ribera 1805</ref>, p. 39 n. 1 (<foreign>non vidi</foreign>)</bibl>; 
+                            <bibl><ref target="#b1388">Naber 1852</ref>, pp. 119-121 n. 4</bibl>;
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 68a</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5172</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 3 2* <ptr type="phi" target="200241"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 10</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 144</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

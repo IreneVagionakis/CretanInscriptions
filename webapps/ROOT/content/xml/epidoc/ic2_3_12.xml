@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Aptera per cittadini di Kythera e Aspendos</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 12</idno>
+                        <idno type="projectNo">050</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">      
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" quantity="2" unit="character"/><orig><unclear>α</unclear>ι<unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><orig>σταρ<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><persName type="honoured" key="Menedamos" ref="#kythera"><name nymRef="Μενέδαμος">Μενέδ<supplied reason="lost">αμος</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/><persName type="honoured" key="Nikokles f. Nikokles" ref="#kythera"><name nymRef="Νικοκλῆς">Νικοκλῆς</name> <name nymRef="Νικοκλῆς"><supplied reason="lost">Ν</supplied>ικο<supplied reason="lost" cert="low">κλέος</supplied></name></persName>
+                        <lb n="6"/><placeName ref="#kythera" type="ethnic">Κυθήριοι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">π<supplied reason="lost">ρό</supplied>ξενοι</w></rs>
+                        <lb n="7"/>αὐτοὶ καὶ <w lemma="γένος">γένος</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs>
+                        <lb n="2"/>καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· 
+                        <lb n="3"/><rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Archetos f. Dexikles"><name nymRef="Ἄρχετος">Ἄρχετος</name> <name nymRef="Δεξικλῆς" type="patronymic">Δεξικ<supplied reason="lost">λέος</supplied></name></persName>
+                        <lb n="4"/><w lemma="λέγω">εἶπε</w></rs>· <persName type="honoured" key="Psamidas" ref="#unknown"><name nymRef="Ψαιμίδας">Ψαιμίδα<supplied reason="lost">ν</supplied></name></persName>
+                        <lb n="5"/><gap reason="lost" quantity="2" unit="character"/><orig><unclear>γ</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig><unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="C">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω"><supplied reason="lost">ἔ</supplied>δοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βω<supplied reason="lost">λᾶι</supplied></w></rs> <supplied reason="lost">καὶ τῶι</supplied>
+                        <lb n="2"/><rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· <rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Eury- f. Tychamenes"><name nymRef="Εὐρυ-">Εὐρυ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></name>
+                        <lb n="3"/><name nymRef="Τυχαμένης" type="patronymic">Τυχαμένεος</name></persName> <supplied reason="lost"><w lemma="λέγω">εἶπε</w></supplied></rs>·
+                        <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">προξένος</w></rs> ἦμ<supplied reason="lost">εν</supplied>
+                        <lb n="5"/><persName type="honoured" key="Eumelos f. Eumelos" ref="#aspendos"><name nymRef="Εὔμηλος">Εὔμηλον</name> <name nymRef="Εὔμηλος" type="patronymic">Εὐμή<supplied reason="lost">λω</supplied></name></persName>, 
+                        <lb n="6"/><persName type="honoured" key="Anaxion f. Eumelos" ref="#aspendos"><name nymRef="Ἀναξίων">Ἀναξίωνα</name> <name nymRef="Εὔμηλος" type="patronymic">Εὐ<unclear>μ</unclear><supplied reason="lost" cert="low">ήλω</supplied></name></persName>,
+                        <lb n="7"/><persName type="honoured" key="Apollonios f. Ko-" ref="#aspendos"><name nymRef="Ἀπολλώνιος">Ἀπολλώνιον</name> <name nymRef="Κο-" type="patronymic">Κο<gap reason="lost" extent="unknown" unit="character"/></name></persName>
+                        <lb n="8"/><placeName ref="#aspendos" type="ethnic"><supplied reason="lost">Ἀ</supplied>σπενδίος</placeName> <supplied reason="lost">αὐτὸς καὶ</supplied>
+                        <lb n="9"/><w lemma="ἔκγονος"><supplied reason="lost">ἔκγ</supplied>ονα</w>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>Nei decreti B e C, come molti documenti analoghi di Aptera (tutti tranne <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>), compare in posizione iniziale la formula di sanzione, dalla quale emergono sia la <foreign>bola</foreign> che il <foreign>damos</foreign> come assemblee atte alla deliberazione. In entrambi, inoltre, si conserva la menzione immediatamente successiva del proponente, in linea con quanto avviene in altri decreti della città.</p>
+                    <p>È probabile che il decreto A, mutilo superiormente, seguisse una formulazione differente: nella parte conservata, infatti, è assente il verbo ἦμεν, che abitualmente caratterizza le trascrizioni epigrafiche di decreti introdotte dalla formula di sanzione e/o mozione; tutti i suoi sostantivi, inoltre, si trovano al nominativo, come di norma avviene negli estratti di decreto iscritti secondo la formulazione ellittica attestata ad Aptera anche in <ref type="ins" target="#ic2_3_6"><title>IC</title> II 3 6</ref> A-B e D-G, <ref type="ins" target="#ic2_3_7">7</ref>, <ref type="ins" target="#ic2_3_8">8</ref> A-B, <ref type="ins" target="#ic2_3_11">11</ref> e <ref type="ins" target="#ic2_3_13">13-15</ref>.</p>
+                    <p>Agli individui onorati in A e C – ma verosimilmente anche in B – viene concessa la sola prossenia, il riconoscimento più comune nei decreti onorari di Aptera.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, proponente (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, pp. 434-435 n. 9</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4948</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 12 <ptr type="phi" target="199719"/></bibl>; 
+                    <bibl><ref target="#b1623">Robert 1963</ref>, p. 388 (C)</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

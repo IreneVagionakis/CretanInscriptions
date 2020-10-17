@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ghiande missili di Phalasarna</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 59.379</idno>
+                        <idno type="projectNo">024</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kythera_museum">Museo archeologico di Kythera</repository>
+                        <idno type="invNo">810, 809</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#sling_bullet">ghianda missile</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#bullet">ghianda missile</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><p>retrograda in A a-b e B a</p> <height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aigilia">Aigilia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0330" notAfter="-0270">fine IV - inizi III secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <div type="textpart" subtype="part" n="A">
+                    <ab>
+                        <lb n="1"/><milestone unit="section" type="face" n="a" rend="A. "/>παρὰ <rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#phalasarna"><placeName ref="#phalasarna" type="ethnic"><expan><abbr>Φ</abbr><ex>αλασ</ex></expan><lb 
+                            break="no" n="2"/><milestone unit="section" type="face" n="b" rend="B. "/>α<corr>ρ</corr>νίω<lb 
+                         break="no" n="3"/>ν</placeName></rs>.
+                </ab>
+                </div>
+                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><milestone unit="section" type="face" n="a" rend="A. "/>παρὰ
+                        <lb n="2"/><milestone unit="section"  type="face" n="b" rend="B. "/><rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#phalasarna"><placeName ref="#phalasarna" type="ethnic"><expan><abbr>Φ</abbr><ex>αλασαρνίων</ex></expan></placeName></rs>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>Le due ghiande missili plumbee, rinvenute sull’isola di Antikythira all’interno della cinta muraria urbana di Aigilia, recano entrambe l’etnico poleico collettivo di Phalasarna. Il fatto che i due proiettili non siano stati utilizzati rende particolarmente significativa la testimonianza offerta dall’etnico che vi è inciso, che attesta dunque l’appartenenza della cittadina di Aigilia a Phalasarna, confermando quanto suggerito dalle evidenze archeologiche e numismatiche. L’isola di Antikythira, situata a metà strada tra Phalasarna e Kythera, viene infatti fortificata attorno al 335-330 a.C., in contemporanea con la costruzione delle fortificazioni portuali di Phalasarna; la vita della cittadina, inoltre, termina bruscamente nello stesso momento che quella di Phalasarna, durante l’attacco romano del 69 a.C. (cf. <bibl><ref target="#b1846">Tsaravopoulos 2004-2009</ref>, p. 328</bibl>, <bibl><ref target="#b1848">Tsaravopoulos <foreign>et al.</foreign> 2012</ref></bibl>, <bibl><ref target="#b1706">Sekunda 2004-2009</ref></bibl>). Il rinvenimento all’interno della cinta urbana di ghiande missili inutilizzate – oltre che di monete (cf. <bibl><ref target="#b1848">Tsaravopoulos <foreign>et al.</foreign> 2012</ref></bibl>) – recanti l’etnico Φαλασαρνίων, pertanto, fornisce la prova epigrafica del controllo che la città cretese esercita su Aigilia probabilmente per tutta la sua esistenza.</p>
+                    <p>Lo <foreign>status</foreign> della cittadina di Aigilia resta però incerto: se quanto esposto finora ne dimostra la dipendenza da Phalasarna, l’esistenza dell’etnico <foreign>Aigileus</foreign>, impiegato come epiclesi di Apollo attorno al 333-330 a.C. in <ref type="ins" target="#ig_v_1_948"><title>IG</title> V, 1 948</ref> e come etnico collettivo nella ghianda missile <ref type="ins"><title>IG</title> V,1 951 B</ref> (oltre alla menzione del toponimo in più fonti letterarie e in <ref type="ins"><title>IG</title> V, 1 1390</ref>, <ref type="ins"><title>SEG</title> 59.881</ref> e probabilmente <ref type="ins"><title>SEG</title> 59.886</ref>; cf. <bibl><ref target="#b62">Badoud 2016</ref></bibl> e <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, p. 573</bibl>), farebbe pensare o ad un suo <foreign>status</foreign> permanente di <foreign>polis</foreign> soggetta o ad una condizione di comunità dipendente interrotta da una fase di indipendenza come <foreign>polis</foreign> autonoma. La mancata datazione di <ref type="ins"><title>IG</title> V,1 951 B</ref>, però, rende problematica una collocazione temporale dell’ipotetica fase di autonomia di Aigilia, che potrebbe trovarsi o tra III e II secolo a.C. o anteriormente alla fortificazione della piccola isola nella seconda metà del IV secolo a.C.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1846">Tsaravopoulos 2004-2009</ref>, n. 12-13</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 59.379 <ptr type="seg" target="a59_376_380"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 60.1859</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

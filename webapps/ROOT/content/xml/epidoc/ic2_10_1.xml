@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Registro di concessioni di terreni di Kydonia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 10 1</idno>
+                        <idno type="projectNo">026</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#account">rendiconto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele" cert="low">stele?</objectType>
+                                    <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#kydonia">Kydonia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0250" notAfter="-0200">250-200 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w>.
+                        <lb n="2"/>τάδε <w lemma="πρίαμαι">ἐπρίατο</w> ἁ <rs type="institution" subtype="assembly" role="concession" key="polis" ref="#kydonia"><w lemma="πόλις">πόλις</w></rs> τοῖς <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#kydonia"><w lemma="πρόξενος">προξένοις</w></rs>
+                        <lb n="3"/>καρπεύειν ἇς κα ἐπιτάδειοι ὦντι· <persName type="honoured" key="Lygdamis f. Pheidon"><name nymRef="Λύγδαμις">Λυγδά<lb 
+                        break="no" n="4"/>μι</name> <name nymRef="Φείδων" type="patronymic">Φείδωνος</name> <placeName ref="#knossos" type="ethnic">Κνωσίωι</placeName></persName> ἐμ Μολοχᾶντι ἀν<lb 
+                        break="no" n="5"/>πέλων πέλεθρα δέκα, ἐν τῶι πεδίωι
+                        <lb n="6"/>ἀμπέλων τετραπελεθρίαν.
+                        <lb n="7"/><persName type="honoured" key="Hermon"><name nymRef="Ἕρμων">Ἕρμωνι</name> <placeName ref="#tylisos" type="ethnic">Τυλισίωι</placeName></persName> ἀνπέλων τετραπλε<lb 
+                        break="no" n="8"/>θρίαν ἐν τῶι πεδίωι.
+                        <lb n="9"/><persName type="honoured" key="Atarbos"><name nymRef="Ἄταρβος">Ἀτάρ<corr>β</corr>ωι</name> <placeName ref="#aptera" type="ethnic">Ἀπταραίωι</placeName></persName> ἀνπέλων πλέθρα
+                        <lb n="10"/>ἴκατι ἐν τῶι πεδίωι κατὰ Βάθειαν.
+                        <lb n="11"/><persName type="honoured" key="Skirtias" ref="#unknown"><name nymRef="Σκιρτίας">Σκιρτίαι</name></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#kydonia"><w lemma="εὐεργέτας">εὐεργέται</w></rs> ἀνπέλων πλέθρα ἴκα<lb 
+                        break="no" n="12"/>τι δύο ἐν <placeName ref="#minoa">Μινώιαι</placeName> ποὶ τῶι πόρωι ἐσχάτω<supplied reason="lost">ι</supplied>.
+                        <lb n="13"/><persName type="honoured" key="Thamykles"><placeName ref="#phaistos" type="ethnic">Φαιστίωι</placeName> <name nymRef="Θαμυκλῆς">Θαμυκλεῖ</name></persName> καὶ <persName type="honoured" key="Phainokles" ref="#phaistos" cert="low"><name nymRef="Φαινοκλῆς">Φαινοκλεῖ</name></persName> ἀν<lb 
+                        break="no" n="14"/>πέλων τετραπλεθρίαν ἐν τᾶι <w lemma="νᾶσος">νάσωι</w>,
+                        <lb n="15"/>ἐπὶ Λιπάραι ἀνπέλων τετραπλεθρίαν.
+                        <lb n="16"/><persName type="honoured" key="Archagoras"><name nymRef="Ἀρχαγόρας">Ἀρχαγόραι</name> <placeName ref="#delphi" type="ethnic">Δελφῶι</placeName></persName> οἰκίαν ἐν τᾶι Ἡραΐδι, ψι<lb 
+                        break="no" n="17"/>λᾶς πλέθρα ἓξ ποὶ τᾶι Κωμικοῦ, ἀνπέ<lb 
+                        break="no" n="18"/>λων τετραπλεθρίαν ἐν τῶι πεδίωι.
+                        <lb n="19"/><persName type="honoured" key="Misgolas"><name nymRef="Μισγόλας">Μισγόλαι</name> <placeName ref="#arkades" type="ethnic">Ἀρκάδι</placeName></persName> ἀνπέλων τετραπλε<lb 
+                        break="no" n="20"/>θρίαν ἐν τῶι πεδίωι, ἄλλαν ἀνπέλων δι<lb 
+                        break="no" n="21"/>πλεθρίαν ἐν τῶι πεδίωι, ἄλλαν ἀνπέ<lb 
+                        break="no" n="22"/>λων διπλεθρίαν ἐν Σχινούρι, οἰκίαν
+                        <lb n="23"/><supplied reason="lost">ἐ</supplied>ν τᾶι <placeName ref="#lachania">Λαχανίαι</placeName> κ<corr>ώ</corr>μαι.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione, in cui è assente il nome della <foreign>polis</foreign> che ha promosso gli acquisti, è stata a lungo considerata di Corcyra, tanto da essere inclusa nella prima edizione del volume delle <foreign>Inscriptiones Graecae</foreign> dedicato alle isole dello Ionio (il testo non compare invece nella seconda edizione del volume). L’attribuzione a Kydonia è tuttavia certa per via di alcuni dei luoghi menzionati, situati nei dintorni della città, in particolare Minoa e Lachania, oltre che per il dialetto impiegato nel testo. L’origine del documento è suggerita anche dalla provenienza dei prosseni, cretese in almeno quattro o cinque dei sette casi: fra i beneficiari della concessione vi sono infatti individui di Aptera, Knossos, Tylisos, Phaistos ed Arkades (?).</p>
+                    <p>Il fatto che la <foreign>polis</foreign> dichiari di aver effettuato l’acquisto dei terreni e delle case elencate porterebbe a ritenere che la concessione ai prosseni avvenga a titolo gratuito e non dietro pagamento; la dichiarazione, inoltre, testimonia che tali beni immobili non sono pubblici in origine, ma lo diventano mediante l’acquisto degli stessi da parte della <foreign>polis</foreign> dai privati che ne erano precedentemente i proprietari. Non è chiaro, invece, se la concessione dei lotti e delle due abitazioni comporti il loro usufrutto o la loro proprietà (cf. <bibl><ref target="#b886">Hennig 1994</ref>, pp. 338-339</bibl>); l’impiego del verbo καρπεύειν, tuttavia, farebbe optare per la prima interpretazione, che tenuto conto del fatto che il conferimento della prossenia non è necessariamente ereditario sembra la più ragionevole: in tal caso, alla morte del prosseno l’immobile concesso sarebbe dunque tornato alla <foreign>polis</foreign>.</p>
+                    <p>La lieve differenziazione nell’attribuzione di titoli onorifici trova una corrispondenza nella diversa entità delle concessioni, sebbene minima: Skirtias, l’unico dei prosseni ad essere insignito anche del titolo di evergete – oltre ad essere l’unico individuo del documento di cui non è specificata la provenienza –, ottiene l’appezzamento più esteso dell’intera concessione. Il prosseno originario di Delfi invece, il solo individuo ad essere certamente di origine non cretese, in aggiunta ai terreni ottiene anche un’abitazione, verosimilmente a causa della distanza intercorrente fra Kydonia e la sua dimora abituale. Il fatto che l’unica altra concessione di una casa dell’iscrizione sia quella dell’arcade Misgolas farebbe ipotizzare una sua provenienza dall’Arcadia piuttosto che dalla cretese Arkades: in tal caso si avrebbero dunque concessioni di abitazioni solamente ai non residenti a Creta. L’onomastica del prosseno in questione, tuttavia, non è mai attestata nella prima, mentre trova un parallelo cretese in <ref type="ins"><title>Milet</title> I.III 38</ref>.</p>
+                    <p>Il rendiconto degli acquisti fornisce una preziosa testimonianza su alcuni toponimi relativi alla <foreign>chora</foreign> di Kydonia altrimenti ignoti e sulle modalità di utilizzo del suo territorio. La maggior parte dei terreni menzionati, infatti, sono vigneti, un consistente gruppo dei quali è situato ἐν τῶι πεδίωι, la striscia pianeggiante in cui si trova anche la città e che si estende in direzione ovest lungo la costa e per un breve tratto anche a sud; un suo settore, forse il più interno, porta il nome di Batheia. I vigneti delle zone di Molochas, Lipara e Schinouris e il terreno incolto presso Komikos sono invece da situare probabilmente sui primi rilievi collinari a sud della piana, sebbene non sia da escludere che Lipara possa essere una delle isole del golfo di Souda (cf. <bibl><ref target="#b314">Chaniotis 2000</ref>, p. 210</bibl>, <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, p. 1171</bibl>). Ulteriori lotti di vigneti, invece, si trovano per certo su di un’isola, che verosimilmente è quella di Thodorou, in antico Koite o Akytos, a nord-ovest di Kydonia (cf. <ref type="lit"><title>Stad.</title> 342</ref>; <ref type="lit">St.Byz. <foreign>s.v.</foreign> Ἄκυτος</ref>; <foreign>contra</foreign> <bibl><ref target="#bib12">Marangou-Lerat</ref>, pp. 10-13</bibl>, <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, p. 1171</bibl>, che interpretano νᾶσος come χερσόνασος e che localizzano pertanto nella penisola di Akrotiri). Oltre ai lotti di terreni, il documento testimonia inoltre l’esistenza di tre centri abitati: Herais, di ignota localizzazione, la κώμη di Lachania, a sud della città, e Minoa, cittadina dotata di propri vigneti sulla costa meridionale della penisola di Akrotiri (<ref type="lit"><title>Stad.</title> 344</ref>, <ref type="lit">Plin. IV 59</ref>; cf. <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, pp. 1170-1172</bibl>, <bibl><ref target="#b132">Bile 1986</ref></bibl>, <bibl><ref target="#b1505">Perlman 1996</ref>, p. 244</bibl>).
+                    Per quanto i lotti di vigneti elencati non siano particolarmente estesi, raggiungendo in totale un’estensione inferiore ai sette ettari, la scelta di concedere perlopiù questa tipologia di terreno suggerisce che l’importanza della viticoltura per la città – esportatrice su scala mediterranea di vino rinomato nel periodo romano – sia considerevole già nel III secolo a.C. (cf. <bibl><ref target="#b349">Chaniotis – Hadzisavvas 2012</ref>, p. 167</bibl>, <bibl><ref target="#bib12">Marangou-Lerat</ref>, pp. 12 e 156</bibl>, <bibl><ref target="#b1446">Pałuchowski 2010</ref>, pp. 42-44</bibl>). L’ipotesi sembra trovare conferma nella frequenza riscontrabile nelle monete di Kydonia di iconografie quali grappoli d’uva, (corone di) foglie di vite ed anfore vinarie, oltre che di rappresentazioni di Dioniso, divinità che peraltro trova proprio a Kydonia la sua più antica attestazione in tutto il mondo greco nella tavoletta in Lineare B <ref type="ins">KH Gh 3</ref> del TM III B (cf. <bibl><ref target="#b1580">Pugliese Carratelli 1991</ref></bibl>, <bibl><ref target="#b1734">Sporn 2002</ref>, p. 334</bibl>, <bibl><ref target="#bib12">Marangou-Lerat</ref>, pp. 31-33</bibl>, <bibl><ref target="#b1793">Svoronos 1890</ref>, tavv. IX-X</bibl>, <bibl><ref target="#b1071">Le Rider 1966</ref>, tavv. X e XXXIV</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref><title>cod. Ambros.</title> D 199</ref> inf., f. 49 <foreign>recto</foreign></bibl>; 
+                    <bibl><ref><title>cod. Ambros.</title> R 124</ref>, f. 85 <foreign>verso</foreign></bibl>; 
+                    <bibl><ref target="#b1383">Muratori 1740</ref>, p. DLXXXVIII, n. I</bibl>; 
+                    <bibl><ref target="#b1384">Mustoxydis 1814</ref>, pp. 65-69</bibl>; 
+                    <bibl><ref target="#bib116"><title>CIG</title></ref> 1840</bibl>; 
+                    <bibl><ref target="#b1385">Mustoxydis 1848</ref>, pp. 184-187 n. V</bibl>; 
+                    <bibl><ref target="#bib117"><title>Syll.</title><hi rend="superscript">1</hi></ref> 320</bibl>; 
+                    <bibl><ref target="#b1591">Reinach 1897</ref>, pp. 138-156</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 3198</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> IX.1 693</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 664</bibl>; 
+                    <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 477</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 940</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 10 1 <ptr type="phi" target="199852"/></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib12">Marangou-Lerat</ref>, pp. 10-13 n. T12</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b994">Klaffenbach 1958</ref>, n. VII</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1976.564a</bibl>; 
+                    <bibl><ref target="#b886">Hennig 1994</ref>, pp. 338-339</bibl>; 
+                    <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 243-244</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

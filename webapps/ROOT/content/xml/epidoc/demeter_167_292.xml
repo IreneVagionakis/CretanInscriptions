@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un cittadino di Knossos a Demetra</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Demeter p. 167 n. 292</idno>
+                        <idno type="projectNo">177</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#knossos">Knossos, santuario di Demetra</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0100" notAfter="0100">I secolo a.C. - I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                                <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="dedicant" key="polites" ref="#knossos"><persName type="attested" key="Kalpournios"><name nymRef="Καλπούρνιος"><supplied reason="lost">Κ</supplied>αλπούρνιος</name></persName> <w lemma="κῖουις">Κῖουις</w></rs>.
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento di base di statua dedicata a Demetra restituisce parte del nome del dedicante; il termine Κῖουις, tuttavia, non appartiene in senso stretto all’onomastica dell’individuo ma ne indica lo <foreign>status</foreign> sociale (<foreign>civis</foreign>), identificandolo dunque come cittadino di Knossos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<foreign>civis</foreign>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib30"><title>Demeter</title></ref> p. 167 n. 292 <ptr type="phi" target="201487"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

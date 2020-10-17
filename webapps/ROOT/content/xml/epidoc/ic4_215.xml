@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Gortyna per cittadini di Alessandria e Tolemaide</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 215</idno>
+                        <idno type="projectNo">348</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mavropapas">Basilica di Mavropapas, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0030" notAfter="-0001">fine I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Serapion f. Herakleidos"><name nymRef="Σεραπίων">Σεραπίω<unclear>ν</unclear></name>
+                          <lb n="2"/><name nymRef="Ἡρακλείδης" type="patronymic">Ἡρακλείδου</name>
+                          <lb n="3"/><placeName ref="#alexandria" type="ethnic">Ἀλεξανδρε<lb 
+                        break="no" n="4"/>ὺς</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνί<lb 
+                        break="no" n="5"/>ων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="6"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολείτας">πολείτας</w></rs>
+                          <lb n="7"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔκ<lb 
+                        break="no" n="8"/>γονοι</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="2"/>καὶ <orig>λ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορ<supplied reason="lost">τυνίων</supplied></placeName></rs> <supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενοι</w></rs> αὐτοὶ καὶ</supplied>
+                          <lb n="4"/><w lemma="ἔκγονος"><unclear>ἔκγονοι</unclear></w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Gaios Lytatios Krispos" ref="#ptolemais"><name nymRef="Γάιος"><expan><abbr>Γ</abbr><ex>άϊος</ex></expan></name> <name nymRef="Λυτάτιος">Λυτ<surplus>ο</surplus>άτιος</name> <name nymRef="Κρίσπος">Κρίσπος</name></persName> <rs type="institution" subtype="official" role="honoured" key="stratiotes" ref="#gortyn"><w lemma="στρατιώτης">στρα<lb 
+                            break="no" n="2"/>τιώτης</w> <placeName ref="#ptolemais" type="ethnic"><expan><abbr>Πτο</abbr><ex>λεμαιεὺς</ex></expan></placeName></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξε<lb 
+                            break="no" n="3"/>νος</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πολίτας</w></rs> αὐτὸς καὶ <w lemma="ἔγγονος">ἔγγονοι</w>.
+                          <lb n="4"/><g type="leaf"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="C2"><note><expan><abbr>Πτο</abbr><ex>λεμαιεύς</ex></expan> <bibl><ref target="#b1605">Rigsby</ref></bibl>; <expan><abbr>Πτο</abbr><ex>λεμαικός</ex></expan> <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>I tre decreti onorari si presentano tutti nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva essenzialmente del nome dell’onorato – associato alla professione nel caso dello στρατιώτης del testo C – e della tipologia di onore conferitogli. Mentre gli individui commemorati in A e C sono insigniti della prossenia e della <foreign>politeia</foreign>, come avviene in un buon numero di altri decreti gortynii, quelli del testo B – i cui nomi sono andati perduti – sembrano ottenere invece la sola prossenia, la concessione più diffusa nella città. I testi, inoltre, contengono il ricordo della <foreign>polis</foreign> attraverso l’uso dell’etnico collettivo cittadino, impiegato come specificazione dell’onore conferito per compensare forse la mancata menzione delle entità istituzionali responsabili della decisione, come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#stratiotes"><foreign>stratiotes</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 327-329 n. 26</bibl>; 
+                            <bibl><ref target="#bib68"><title>IGR</title></ref> I 1515 (C)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 215 <ptr type="phi" target="200656"/></bibl>; 
+                            <bibl><ref target="#b1605">Rigsby 1996</ref>, pp. 251-252 n. 4 (C)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b81">Baldwin Bowsky 2002</ref>, pp. 55 n. 31</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

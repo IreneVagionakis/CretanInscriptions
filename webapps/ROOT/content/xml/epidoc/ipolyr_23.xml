@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Monumento funerario di Polyrrhenia per i propri caduti</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">I.Polyr. 23</idno>
+                        <idno type="projectNo">016</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizioni perdute (Β-Θ); </repository> 
+                                <idno type="invNo"></idno>
+                                <altIdentifier><repository ref="#kissamos_museum">Museo archeologico di Kissamos (A)</repository> <idno type="invNo">E 34</idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>monumento funerario semicircolare formato da più <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#polyrrhenia">Polyrrhenia</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="Α">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><supplied reason="lost">ἐνθάδ’</supplied> ὁρᾶς· <unclear>τ</unclear>όδ’ <w lemma="ἀνίστημι">ἀν<supplied reason="lost">έστησ’</supplied></w> <supplied reason="lost">ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">Μ</supplied>υρταγέτω <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><unclear>Σ</unclear>ῶσος Λε<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>.
+                          </ab>
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">Τυ</supplied>χαμέ<supplied reason="lost">νης</supplied>
+                          <lb n="2"/><supplied reason="lost">Κρ</supplied><unclear>ύ</unclear>τωνο<supplied reason="lost">ς</supplied>.
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="Β">
+                        <ab>
+                            <lb n="1"/>Διόδωρος
+                            <lb n="2"/>Διοδώρω
+                            <lb n="3"/>Φυλ<corr>λ</corr>ὶς Τιμ<lb 
+                                break="no" n="4"/>έα
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="Γ">
+                        <ab>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> Μακῖνος
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="Δ">
+                        <ab>
+                            <lb n="1"/>A<gap reason="illegible" quantity="1" unit="character"/> Ἱστορία
+                            <lb n="2"/>Σῶσος
+                            <lb n="3"/>Να<gap reason="lost" extent="unknown" unit="character"/>ς
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="Ε">
+                        <ab>
+                            <lb n="1"/><supplied reason="lost">Φ</supplied>ιλ<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> Λιμήνιο<supplied reason="lost">ς</supplied>
+                        </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="ΣΤ">
+                        <ab>
+                            <lb n="1"/><unclear>Κ</unclear>ρύ<unclear>τ</unclear>ων Λάσ<gap reason="lost" extent="unknown" unit="character"/> Διοκλ<unclear>ῆ</unclear><supplied reason="lost">ς</supplied> <gap reason="illegible" quantity="2" unit="character"/><orig>υβα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>μ<gap reason="lost" extent="unknown" unit="character"/> Σῶσος Μοι<supplied reason="lost">ρι</supplied><unclear>σ</unclear>θένης Ρ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><supplied reason="lost">Σώ</supplied><unclear>σ</unclear>ανδρος Μένης
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="Ζ">
+                        <ab>
+                            <lb n="1"/>Πυθόδωρος
+                            <lb n="2"/>Σω<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="Η">
+                        <ab>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>νης
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ο</unclear>νος Ἀμ<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/>Φαινοκλ<gap reason="lost" extent="unknown" unit="character"/>
+                        </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="Θ">
+                        <ab>
+                            <lb n="1"/>Σῶσος Πει<unclear>θ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς Πει<gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><orig>ια</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il monumento semicircolare, di cui sono stati rinvenuti più blocchi, è stato identificato in via ipotetica come cenotafio da Ángel Martínez Fernández sulla base del mancato ritrovamento di resti umani al suo interno o nei suoi pressi. Se così fosse, è probabile dunque che il monumento fosse destinato alla commemorazione di cittadini di Polyrrhenia morti lontano dalla propria patria, in guerra o in altre circostanze. L’identificazione di più mani nella redazione dell’iscrizione, inoltre, rende verosimile l’ipotesi di un monumento funerario pubblico ampliatosi nel tempo – perlomeno dal punto di vista epigrafico – mediante l’aggiunta dei nomi di nuovi caduti della città. Sebbene sia andato perduto il nome di chi ha fatto erigere tale struttura, trattandosi di un monumento pubblico è assai verosimile che si tratti della <foreign>polis</foreign>, in accordo con l’integrazione di Ángel Martínez Fernández alla linea A 1.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 39</bibl> (A, = <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 56.1069bis <ptr type="seg" target="a56_1069bis"/></bibl>);
+                            <bibl><ref target="#b1248">Martínez Fernández 2005</ref></bibl> (Β-Θ, = <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 57.851-858 <ptr type="seg" target="a57_851_858"/></bibl>);
+                            <bibl type="main_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 23</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

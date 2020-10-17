@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il progetto</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="projectNo">1</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+             <div type="text">
+                 <div type="section">
+                     <p>Il database è nato nell’ambito di una ricerca di dottorato condotta tra il 2016 e il 2019 presso l’Università Ca’ Foscari Venezia da Irene Vagionakis sotto la supervisione di Claudia Antonetti e Gabriel Bodard (<title>Kretikai politeiai. Le istituzioni cretesi dal VII al I secolo a.C.</title>, XXXII ciclo di Dottorato in Scienze dell’Antichità). 
+                         La ricerca, finalizzata ad un’analisi degli assetti istituzionali delle realtà politiche cretesi dalla nascita delle <foreign>poleis</foreign> alla conquista romana di Creta, ha comportato un riesame della documentazione epigrafica pertinente alle istituzioni cretesi e la conseguente realizzazione di un’edizione delle iscrizioni considerate.</p>
+                     
+                     <p>I documenti inclusi nella raccolta si estendono lungo un arco cronologico che va dalle più antiche attestazioni epigrafiche cretesi in alfabeto greco del VII secolo a.C. alla conquista romana di Creta del 67 a.C., con alcune sporadiche ma necessarie incursioni nell’epoca imperiale.
+                         Per ciascun documento epigrafico è stata realizzata un’edizione digitale in linguaggio XML conforme allo standard internazionale <ref target="http://www.stoa.org/epidoc/gl/latest/">TEI-EpiDoc</ref> finalizzata all’indicizzazione dei testi greci e orientata in particolare alla marcatura del lessico istituzionale pertinente alle realtà cretesi e della connessa prosopografia.
+                         Ogni edizione è comprensiva di un lemma descrittivo essenziale, un lemma bibliografico, il testo greco, un apparato critico selettivo e un commento finalizzato alla contestualizzazione e all’esame delle informazioni di natura istituzionale offerte dall’iscrizione.
+                     Nel lemma bibliografico di ciascun documento sono state considerate come edizioni tutte le pubblicazioni che includono il testo completo dell’iscrizione; nell’apparato critico sono segnalate le letture accolte che si discostano dall’edizione di riferimento, indicata in grassetto nel lemma, ed altre proposte interpretative ritenute particolarmente significative.</p>
+                     
+                     <p>Oltre alla <ref target="../inscriptions/">raccolta epigrafica</ref>, il database include due sezioni catalogiche ausiliarie nel quale sono fornite informazioni sulle <ref target="./realta_politiche.html">realtà politiche</ref> e sulle <ref target="./istituzioni.html">istituzioni</ref> cretesi,
+                         una raccolta dei più significativi <ref target="./fonti_letterarie.html">testi letterari</ref> pertinenti alle istituzioni cretesi e gli <ref target="../indices/epidoc/">indici tematici</ref> relativi alle occorrenze di termini istituzionali, di altri lemmi di particolare interesse, di elementi prosopografici, di elementi onomastici, di toponimi ed etnici e di nomi di divinità, ninfe ed eroi.</p>
+                     <p>Il database è stato sviluppato tramite la piattaforma <ref target="https://github.com/EpiDoc/EFES">EFES</ref> (EpiDoc Front-End Services), basata su <ref target="https://kcl-ddh.github.io/kiln/">Kiln</ref>; la grafica è derivata da <ref target="http://foundation.zurb.com/"> Foundation</ref>.</p></div>
+                
+                 <div type="section"><head type="heading">Note</head>
+                     <p>Le abbreviazioni relative agli autori greci e latini, ai titoli di periodici e ai <foreign>corpora</foreign> epigrafici seguono quanto suggerito rispettivamente dal Liddell – Scott – Jones,<foreign> Greek - English Lexicon</foreign>, dal <foreign>Thesaurus Linguae Latinae</foreign>, dall’<foreign>Année Philologique</foreign> e dal <ref type="bibl" target="#bib5"><title>Supplementum Epigraphicum Graecum</title></ref>, salvo diversa segnalazione.
+                     Le convenzioni epigrafiche adottate nelle edizioni delle iscrizioni sono quelle previste dal sistema di Leida e dal <ref type="bibl" target="#bib5"><title>Supplementum Epigraphicum Graecum</title></ref>.
+                         Sono stati inoltre adottati i seguenti simboli: * per segnalare le attestazioni di natura non epigrafica delle istituzioni trattate; <hi rend="superscript">e</hi> per indicare le <foreign>poleis</foreign> ed i <foreign>koina</foreign> non attestati mediante tali termini bensì attraverso il loro etnico collettivo o toponimo o termini quali <foreign>patris</foreign> o <foreign>patra</foreign>.</p>
+                 <p>Per gli antroponimi ed i toponimi antichi pertinenti ad aree esterne a Creta ed i teonimi è stata adottata la traduzione italiana ove di uso corrente, altrimenti la traslitterazione; per gli antroponimi ed i toponimi cretesi, le epiclesi divine, le festività ed i mesi si è preferito invece adottare tendenzialmente in ogni circostanza la traslitterazione. La grafia adottata nelle traslitterazioni è generalmente quella dorica se tutte le attestazioni considerate di un termine sono in tale forma, mentre quella attica nel caso di varietà grafica.</p>
+                 </div>
+             </div>
+        </body>
+    </text>
+</TEI>

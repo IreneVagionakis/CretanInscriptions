@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Polyrrhenia per Chioti e Lacedemoni</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 4</idno>
+                        <idno type="projectNo">010</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kissamos_museum">Museo archeologico di Kissamos, Syllogi Archaiotiton Kissamou</repository>
+                        <idno type="invNo">E 40</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">due decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, acropoli</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">             
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Niketos f. Philakos" ref="#chios"><name nymRef="Νίκητος">Νίκητος</name> <name nymRef="Φύλακος" type="patronymic"><supplied reason="lost">Φυ</supplied><lb 
+                        break="no" n="2"/>λάκου</name></persName> κα<supplied reason="lost">ὶ</supplied>
+                        <lb n="3"/><persName type="honoured" key="Philakos f. Niketos" ref="#chios"><name nymRef="Φύλακος">Φύλακος</name>
+                        <lb n="4"/><name nymRef="Νίκητος" type="patronymic">Νικήτου</name></persName>
+                        <lb n="5"/><placeName ref="#chios" type="ethnic">Χῖοι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#polyrrhenia"><w lemma="πρόξενος">πρόξε<lb 
+                        break="no" n="6"/>νοι</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#polyrrhenia"><w lemma="εὐεργέτας">εὐ<lb 
+                        break="no" n="7"/>εργέται</w></rs>
+                        <lb n="8"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#polyrrhenia"><placeName ref="#polyrrhenia" type="ethnic">Πολυρρη<lb 
+                        break="no" n="9"/>νίων</placeName></rs>,
+                        <lb n="10"/>καὶ αὐτοὶ
+                        <lb n="11"/>καὶ <w lemma="γένος">γένος</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Aleximachos f. Soidamos" ref="#sparta"><name nymRef="Ἀλεξίμαχος">Ἀλεξίμαχος</name> <name nymRef="Σωίδαμος" type="patronymic">Σωι<lb 
+                        break="no" n="2"/>δάμω</name></persName>, <persName type="honoured" key="Aristodamos f. Autias" ref="#sparta"><name nymRef="Ἀριστόδαμος">Ἀριστόδαμος</name>
+                        <lb n="3"/><name nymRef="Αὐτίας" type="patronymic">Αὐτία</name></persName> <placeName ref="#sparta" type="ethnic">Λακεδαιμόνιοι</placeName>
+                        <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#polyrrhenia"><w lemma="πρόξενος">πρόξενοι</w></rs> αὐτοὶ καὶ
+                        <lb n="5"/><w lemma="ἔκγονος">ἔκγονα</w>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>I due documenti, iscritti sulla medesima stele, esposta sulla terrazza della chiesa dei 99 Padri, onorano due uomini di Chios, forse padre e figlio, e due Lacedemoni, assieme alla rispettiva discendenza. Mentre i secondi sono insigniti del solo titolo di prosseni, i primi vengono dichiarati sia prosseni che evergeti; nella città la concessione dell’<foreign>euergesia</foreign>, documentata nelle dediche onorarie <ref type="ins" target="#ic2_23_13"><title>IC</title> II 23 13</ref> e <ref type="ins" target="#ic2_23_14">14</ref>, è congiunta a quella della prossenia anche nel coevo decreto <ref type="ins" target="#ic2_23_5"><title>IC</title> II 23 5</ref>. La sola prossenia, invece, sembrerebbe essere concessa nei decreti <ref type="ins" target="#seg_50_911"><title>SEG</title> 50.911</ref> A e B del III e II secolo a.C., sebbene nel secondo venga associata ad una sorta di equiparazione alla cittadinanza.</p>
+                    <p>L’estrema ellitticità della formulazione dei due documenti, in realtà, rende in parte problematica la loro inclusione all’interno della tipologia dei decreti: in entrambi, infatti, mancano totalmente sia la formula di sanzione che una qualsiasi menzione della figura istituzionale decretante. Una simile formulazione, peraltro, costituisce un <foreign>unicum</foreign> a Polyrrhenia: negli altri decreti onorari, infatti, è sempre presente la formula di sanzione (cf. <ref type="ins" target="#ic2_23_5"><title>IC</title> II 23 5</ref> del II secolo a.C.), in più casi preceduta dalla datazione (cf. <ref type="ins" target="#seg_64_798"><title>SEG</title> 64.798</ref> del II secolo a.C. e <ref type="ins" target="#seg_50_911"><title>SEG</title> 50.911</ref> A e B, del III e II secolo a.C.). Se da un lato la formulazione ellittica dei documenti in questione potrebbe spingere a ritenerli dediche onorarie, la tipologia del supporto – una stele e non una base di statua – e la menzione degli onorati al nominativo anziché all’accusativo sembrano tuttavia confermare la loro identificazione come decreti, o meglio come estratti particolarmente sintetici dei decreti originali conservati nell’archivio della città. Nel primo dei due documenti, inoltre, è da notare che, a differenza del secondo e di tutti gli altri documenti analoghi della città, vi si trova la menzione dell’etnico poleico collettivo Πολυρρηνίων, forse come indiretta allusione al ruolo decisionale svolto dall’assemblea della <foreign>polis</foreign> nella redazione del decreto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 4 <ptr type="phi" target="200040"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 30</bibl>; 
+                    <bibl><ref target="#b1235">Martínez Fernández 1998</ref>, pp. 102-105 n. 9, fig. 10</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 5</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

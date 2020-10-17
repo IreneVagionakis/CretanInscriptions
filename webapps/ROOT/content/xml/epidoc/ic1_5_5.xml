@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dei cosmi di Arkades</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 5 5</idno>
+                        <idno type="projectNo">208</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">165</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#arkades">Arkades</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="builder" key="kosmos" ref="#arkades">οἱ σὺν <persName type="attested" key="Soteridas f. Nikandros"><name nymRef="Σωτηρίδας">Σωτηρίδαι</name></persName> <w lemma="κόσμος">κόσμοι</w></rs> <w lemma="ἐπιμελέομαι">ἐπε<lb 
+                        break="no" n="2"/>μελήθην</w> τῶ <rs type="institution" subtype="public_space" role="construction" key="naos" ref="#arkades"><w lemma="ναός">ναῶ</w> τᾶς <persName type="divine" key="Artemis">Ἀρτέμι<lb 
+                        break="no" n="3"/>δος</persName></rs> ἐκ τῶν τᾶς <rs type="institution" subtype="assembly" role="funds" key="polis" ref="#arkades"><w lemma="πόλις">πόλεος</w></rs> <rs type="institution" subtype="object" role="funds" key="dapanama" ref="#arkades"><w lemma="δαπάναμα">δαπα<lb 
+                        break="no" n="4"/>ναμάτων</w></rs>. <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><w lemma="κοσμέω">ἐκόσμεον</w> οἵδε· <space extent="unknown" unit="character"/> <persName type="attested" key="Soteridas f. Nikandros"><name nymRef="Σωτηρίδας">Σωτη<lb 
+                        break="no" n="5"/>ρίδας</name> <name nymRef="Νίκανδρος" type="patronymic">Νικάνδρω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><persName type="attested" key="Agathon f. Sosikles"><name nymRef="Ἀγάθων">Ἀγ<supplied reason="lost">ά</supplied>θων</name> <name nymRef="Σωσικλῆς" type="patronymic">Σωσι<lb 
+                        break="no" n="6"/>κλέος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><persName type="attested" key="Aristokles f. Apollonidas"><name nymRef="Ἀριστοκλῆς">Ἀριστοκλῆς</name> <name nymRef="Ἀπολλωνίδας" type="patronymic">Ἀπολλωνί<lb 
+                        break="no" n="7"/>δα</name></persName></rs>, <rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#arkades"><w lemma="γραμματεύς">γραμματεὺς</w> <persName type="attested" key="Charmistas f. Kallibios"><name nymRef="Χαρμίστας">Χαρμίστας</name>
+                          <lb n="8"/><name nymRef="Καλλίβιος" type="patronymic">Καλλιβίω</name></persName></rs>. <space extent="unknown" unit="character"/>
+                          <lb n="9"/><space extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="ergepistates" ref="#arkades"><w lemma="ἐργεπιστάτης">ἐργεπιστάται</w>· <space extent="unknown" unit="character"/>
+                          <lb n="10"/><space quantity="1" unit="character"/> <persName type="attested" key="Kallikrates f. Aristokles"><name nymRef="Καλλικράτης">Καλλικράτης</name> <name nymRef="Ἀριστοκλῆς" type="patronymic">Ἀριστοκλ<supplied reason="lost">έος</supplied></name></persName></rs>,
+                          <lb n="11"/><space quantity="2" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="ergepistates" ref="#arkades"><persName type="attested" key="Myrtos f. Myrtos"><name nymRef="Μύρτος">Μύρτος</name> <name nymRef="Μύρτος" type="patronymic">Μύρτο<supplied reason="lost">υ</supplied></name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria è relativa alla costruzione o riparazione di un tempio di Artemide, effettuata grazie al ricorso a fondi della <foreign>polis</foreign> (come il più tardo documento analogo <ref type="ins" target="#seg_26_1044"><title>SEG</title> 26.1044</ref>). L’intervento edilizio, compiuto nell’anno in cui l’eponimia è detenuta da Soteridas figlio di Nikandros, è promosso dai cosmi di Arkades, i cui nomi sono elencati alle linee 4-7. Al ricordo dei tre cosmi segue quella del segretario (dei cosmi: cf. <ref type="ins" target="#seg_26_1044"><title>SEG</title> 26.1044</ref>), a cui fa eccezionalmente seguito la menzione di due <foreign>ergepistatai</foreign>, unica in tutta Creta.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#funds"><foreign>dapanama</foreign></ref>, <ref type="inst" target="#ergepistates"><foreign>ergepistates</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 5 5 <ptr type="phi" target="199027"/></bibl>;
+                        <bibl><ref target="#b1309">Meier 2012</ref>, n. 41</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

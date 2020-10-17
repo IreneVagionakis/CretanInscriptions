@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto (?) di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 28</idno>
+                        <idno type="projectNo">139</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#axos">Axos, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree" cert="low">decreto?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0170">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="tidai" ref="#axos"><supplied reason="lost" cert="low">ἐπὶ τῶν</supplied> <w part="F" lemma="-τιδαι"><gap reason="lost" extent="unknown" unit="character"/>τιδᾶν</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#axos"><w lemma="κοσμέω">κοσμιόν<unclear>τ</unclear><supplied reason="lost">ων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>αντος και<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ισάμεθα <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ς Εὐφράν<supplied reason="lost" cert="low">ω</supplied>ρ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il breve frammento, pertinente forse ad un decreto di Axos, conserva parte di una datazione eponimica in cui occorre la menzione sia di una tribù – il cui nome termina in -<foreign>tidai</foreign> – sia di più cosmi. Il riferimento a tali magistrati è impiegato anche nell’unica altra formula datante nota da Axos, ovvero l’indicazione presente nella legge sacra <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref> all’anno in cui erano in carica cinque cosmi (ll. 11-12, Σωσοκλέος, [- - -]νόμω, Ἰκειτε[ . . , Σο]άρχω καὶ Τομοκλέος [κ]οσμιόντωγ).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, tribù (<ref type="inst" target="#tidai">-<foreign>tidai</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b877">Haussoullier 1885</ref>, p. 16 nota 1</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 28 <ptr type="phi" target="199789"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

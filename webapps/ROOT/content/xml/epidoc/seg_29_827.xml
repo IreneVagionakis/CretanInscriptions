@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legende monetarie di Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 29.827</idno>
+                        <idno type="projectNo">503</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#coin_legend">sette legende monetarie</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#coin">moneta</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="I">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Arganos"><name nymRef="Ἄργανος">Ἄργανος</name></persName></rs>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="II">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Euchrestas f. Sotadas" cert="low"><name nymRef="Εὐχρήστας">Εὐχρήστας</name></persName></rs>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="III">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Libys"><name nymRef="Λίβυς">Λίβυς</name></persName></rs>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="IV">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Kausilos"><name nymRef="Καυσίλος">Καυσίλος</name></persName></rs>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="V">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Kydas (3)"><name nymRef="Κύδας">Κύδας</name></persName></rs>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="VI">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Samagoras (3)"><name nymRef="Σαμαγόρας">Σαμαγόρας</name></persName></rs>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="VII">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Phauos"><name nymRef="Φαῦος">Φαῦος</name></persName></rs>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Le legende restituiscono i nomi di più magistrati monetari di Hierapytna, uno dei quali, Euchrestas, è verosimilmente lo stesso che compare in <ref type="ins" target="#bile_118">Bile 118</ref> e <ref type="ins" target="#bile_119">119</ref>. Nella città, inoltre, sono documentati altri due individui aventi tale ruolo da <ref type="ins" target="#bile_116">Bile 116</ref>-<ref type="ins" target="#bile_117">117</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#monetarius">magistrato monetario</ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1289">Masson 1979</ref>, pp. 74-82</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 29.827 <ptr type="seg" target="a29_827"/></bibl>); 
+                            <bibl><ref target="#b813">Guizzi 2001</ref>, p. 339</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Aptera</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 1*</idno>
+                        <idno type="projectNo">038</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#bangor_clandeboye_house">Clandeboye House, Irlanda del Nord</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                            <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><placeName ref="#aptera" type="ethnic"><supplied reason="lost">Ἀπτεραίων</supplied></placeName>.
+                        <lb n="0a"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/>καὶ τὸν <placeName ref="#teos" type="ethnic">Τ<supplied reason="lost">ηίων</supplied></placeName> <supplied reason="lost">δᾶμον <w lemma="συγγενής">συγγενῆ</w> ἐόντα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><supplied reason="lost">ἀσπαζ</supplied>όμεθα καὶ <w lemma="ἐπαινέω"><supplied reason="lost">ἐ</supplied>παινῶμεν</w> <supplied reason="lost">δ</supplied>ιό<supplied reason="lost">τ</supplied>ι κ<supplied reason="lost">αλῶς καὶ ἐνδό</supplied><lb 
+                        break="no" n="3"/>ξως καὶ καταξίως <supplied reason="lost">τῶ θ</supplied>ε<supplied reason="lost">ῶ προ</supplied>εστάκα<supplied reason="lost">ν</supplied>τ<supplied reason="lost">ι</supplied>·
+                        <lb n="4"/><supplied reason="lost">ἕνε</supplied>κεν ὧν καὶ παρ’ ἁ<supplied reason="lost">μῶν τὰ καλὰ</supplied> καὶ <w lemma="τίμια">τί<supplied reason="lost">μια</supplied></w> <supplied reason="lost">δίδοται</supplied>
+                        <lb n="5"/>τῶι θεῶι, καὶ <placeName ref="#teos" type="ethnic">Τη<supplied reason="lost">ίων</supplied></placeName> <supplied reason="lost">τάν τε πόλι</supplied>ν καὶ <supplied reason="lost">τὰν χώραν</supplied>
+                        <lb n="6"/><supplied reason="lost">ἀν</supplied>ίεμεν <w lemma="ἄσυλος">ἄσυλον</w> <supplied reason="lost">ν</supplied>ῦν τε καὶ εἰ<supplied reason="lost">ς τὸν ἄλλον χρόνον</supplied>
+                        <lb n="7"/>πάντα, καὶ πειρ<supplied reason="lost">αξ</supplied>ῶμεν ἀεί τινος ἀγαθῶ παραίτι<supplied reason="lost">οι</supplied>
+                        <lb n="8"/><supplied reason="lost">γ</supplied>ίνεσθαι τῶι δάμωι καὶ <supplied reason="lost">κ</supplied>οινᾶι καὶ ἰδίαι. <supplied reason="lost">ἐ</supplied>ὰν δέ τι<lb 
+                        break="no" n="9"/>νές <corr>κ’</corr> ἄγωντι <placeName ref="#teos" type="ethnic"><supplied reason="lost">Τ</supplied>ηίος</placeName> ἢ τὸς κατ<supplied reason="lost">ο</supplied>ικόντας π<supplied reason="lost">αρ’</supplied> αὐτοῖ<supplied reason="lost">ς</supplied>,
+                        <lb n="10"/>οἱ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#aptera"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἄ<corr>λ</corr>λ<supplied reason="lost">ο</supplied>ς ὁ βουλόμενος <placeName ref="#aptera" type="ethnic">Ἀπτεραίων</placeName> <supplied reason="lost">ἢ</supplied> <placeName ref="#teos" type="ethnic"><supplied reason="lost">Τη</supplied><lb 
+                        break="no" n="11"/>ίων</placeName> ἀφελόμενοι καὶ ἀποδιδόντες <supplied reason="lost">τοῖς</supplied> <w lemma="ἀδικέω"><supplied reason="lost">ἀδικημέ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">ν</supplied>οις</w> κύριοι <corr>ἔ</corr>στων. <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#aptera"><w lemma="ψηφίζω">ἐψήφιστ<supplied reason="lost">αι</supplied></w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#aptera"><supplied reason="lost" cert="low">ἐπὶ <w lemma="κόσμος">κόσμων</w></supplied> <supplied reason="lost">τῶν μετὰ</supplied>
+                        <lb n="13"/><persName type="attested" key="Borthios"><name nymRef="Βόρθιος">Βορθίω</name></persName></rs>, <rs type="institution" subtype="month" role="calendar" key="Diktynnaios" ref="#aptera">μηνὸς <w lemma="Δικτυνναῖος">Δ<supplied reason="lost">ι</supplied>κτ<supplied reason="lost">υ</supplied>νναίω</w></rs> <gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’estratto di decreto, che assieme al rinnovo <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref> appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), probabilmente doveva essere incluso all’interno di un’epistola di Aptera, come altri documenti del <foreign>dossier</foreign>. Sebbene mutilo nella sua parte iniziale, il documento conserva una parte delle motivazioni del decreto e l’interezza delle decisioni prese dagli organi istituzionali deliberanti; non si ha menzione però di questi ultimi, dal momento che nel frammento sono assenti sia la formula di sanzione che quella di mozione. Alla fine del documento (ll. 12-13), in una posizione dunque piuttosto insolita, compare invece un riferimento alla votazione avvenuta, di cui si indica la data mediante la menzione di un magistrato eponimo – di cui si è conservato il nome ma di cui è andato perduto il titolo – e del mese <foreign>Diktynnaios</foreign>, attestato unicamente dal presente decreto (cf. <bibl><ref target="#b249">Capdeville 1995</ref>, p. 46</bibl>, <bibl><ref target="#b1734">Sporn 2002</ref>, pp. 261-267</bibl>).</p>
+                    <p>Quanto al magistrato eponimo, nonostante la proposta di integrazione concorde degli editori ἐπὶ κόσμων, sulla base del parallelo del trattato fra Kydonia e Aptera (<ref type="ins" target="#seg_41_731"><title>SEG</title> 41.731</ref>) non è da escludere che la datazione alla linea 12 sia piuttosto ἐπὶ δαμιοργῶν. In ogni caso, la menzione del cosmo o del <foreign>damiorgos</foreign> eponimo potrebbe non essere legata solamente alla datazione ma essere in qualche modo connessa anche alla circostanza di voto ricordata dall’ἐψήφισται.</p>
+                    <p>Come in molti altri documenti della serie, i cosmi compaiono come esecutori della legge, in quanto incaricati di recuperare e consegnare a chi ha subito l’ingiustizia gli eventuali Teii fatti prigionieri e condotti ad Aptera; oltre a costoro, però, ha pari autorità in tale operazione chiunque lo voglia fra i cittadini di Aptera (καὶ ἄλλος ὁ βουλόμενος Ἀπτεραίων).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#diktynnaios"><foreign>Diktynnaios</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1388">Naber 1852</ref>, pp. 121-123, n. 5</bibl>; 
+                    <bibl><ref target="#bib231"><title>LBW</title></ref> n. 68b</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5173</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 1* <ptr type="phi" target="199707"/></bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 5</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 145</bibl>; 
+                    <bibl><ref target="#b1266">Martínez Fernández 2009a</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>; 
+                    <bibl><ref target="#b249">Capdeville 1995</ref>, p. 46</bibl>; 
+                    <bibl><ref target="#b1040">Kvist 2003</ref></bibl>; 
+                    <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto onorario di Aptera per Attalo I</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 4 C</idno>
+                        <idno type="projectNo">042</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#pola_museum">Museo archeologico di Pola</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0205" notAfter="-0197" precision="low">205-197 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε<unclear>ν</unclear></w></rs> <supplied reason="lost">τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βουλά">βουλᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δ<supplied reason="lost">άμωι</supplied></w></rs><supplied reason="lost">·</supplied> <rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><gap reason="lost" extent="unknown" unit="character"/> <w lemma="λέγω"><supplied reason="lost">εἶπε</supplied></w></rs>·
+                        <lb n="2"/>ἐπειδὴ ὁ <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Ἄτταλος">Ἄτταλος</name></persName> <w lemma="φίλος">φίλος</w> <supplied reason="lost">ὑπάρχων διὰ</supplied> <w lemma="πρόγονος"><supplied reason="lost">προ</supplied><lb 
+                        break="no" n="3"/>γόνων</w> <w lemma="πρόνοια">πρόνοιαν</w> ποῆται περὶ τῶ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon">κοιν<supplied reason="lost">ῶ τῶν</supplied> <placeName ref="#crete" type="ethnic"><supplied reason="lost">Κρηταιέων</supplied></placeName></rs>
+                        <lb n="4"/>καὶ ἰδίαι τᾶς τῶν <placeName ref="#aptera" type="ethnic">Ἀπταραίων</placeName> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#aptera"><w lemma="πόλις">πόλιος</w></rs>, καὶ τοῖς <supplied reason="lost">παραγι</supplied><lb 
+                        break="no" n="5"/>νομένοις ποτ’ αὐτὸν τὰμ πᾶσαν <w lemma="φιλανθρωπία">φιλανθρωπίαν</w> ἐνδ<supplied reason="lost">εί</supplied><lb 
+                        break="no" n="6"/>κνυται, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">δεδόχθαι</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· <w lemma="στεφανόω">στεφανῶσ<supplied reason="lost">αι</supplied></w>
+                        <lb n="7"/><persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλέα</w> <space extent="unknown" unit="character"/> <name nymRef="Ἄτταλος">Ἄτταλον</name></persName> <w lemma="εἰκών">εἰκόνι</w> χαλκέαι τελείαι, εἴτε κα <supplied reason="lost">βώ</supplied><lb 
+                        break="no" n="8"/>ληται πεζὸν εἴτε κα ἐφ’ ἵππω. <corr>κ</corr>αὶ αἴ κα <space extent="unknown" unit="character"/> <w lemma="προαιρέω">προαιρῆται</w> <rs type="institution" subtype="official" role="proclamation" key="karyx" ref="#aptera"><w lemma="καρύσσω">καρυ<lb 
+                        break="no" n="9"/>χθῆμεν</w></rs> ἔν τινι τῶν <rs type="institution" subtype="practice" role="competition" key="agones_stephanitai" ref="#aptera"><w lemma="ἀγῶνες στεφανιταί">ἀγώνων τῶν στεφανιτῶν</w></rs>, <w lemma="ἐπιμελέομαι">ἐπιμ<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="10"/>λὲς</w> γενέσθω τοῖς <rs type="institution" subtype="board" role="order" key="kosmos" ref="#aptera"><w lemma="κόσμος">κόσμοις</w></rs> ὅπως <rs type="institution" subtype="official" role="proclamation" key="karyx" ref="#aptera"><w lemma="καρύσσω">καρυχθῇ</w></rs>· ἦμεν δὲ αὐτ<supplied reason="lost">ῶι</supplied>
+                        <lb n="11"/>καὶ <w lemma="προεδρία">προεδρίαν</w> καὶ <w lemma="ἀσυλία">ἀσυλίαν</w> καὶ <w lemma="ἀτέλεια">ἀτέλειαν</w> καὶ <w lemma="ἀσφάλεια">ἀσφάλειαν</w> καὶ <unclear>π</unclear><supplied reason="lost">ο</supplied><lb 
+                        break="no" n="12"/>λέμω καὶ εἰρήνας καὶ ἐν <rs type="institution" subtype="public_space" role="location" key="polis" ref="#aptera"><w lemma="πόλις">πόλι</w></rs> καὶ ἐν τοῖς <w lemma="λιμήν">λιμένοις</w> καὶ <w lemma="ξενολογέω">ξενολο<supplied reason="lost">γ</supplied><lb 
+                        break="no" n="13"/>ῆσθαι</w> καὶ ὁρμίζεσθαι καὶ αὐτῶι καὶ τοῖς <w lemma="ἔκγονος">ἐκγόνοις</w>, καὶ τὰ λοιπὰ <unclear>ὑ</unclear><supplied reason="lost">π</supplied><lb 
+                        break="no" n="14"/>άρχειν ὅσα καὶ τοῖς ἄλλοις <space extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#aptera"><w lemma="εὐεργέτας">εὐεργέταις</w></rs>.
+                </ab>  
+            </div>
+            <div type="commentary">
+                <p>Per l’alta datazione a cui riconduce la paleografia del testo, il re onorato nel decreto non può essere che Attalo I (241-197 a.C.), sovrano che si trova ad essere in buoni rapporti con il re Prusia I, onorato anch’esso da Aptera sulla medesima pietra (<ref type="ins" target="#ic2_3_4ab"><title>IC</title> II 3 4 A</ref>), soltanto nel periodo intercorrente tra la Prima e la Seconda guerra macedonica e cioè negli anni 205-200 a.C. (cf. <ref type="lit">Polyb. XVIII 4-5</ref>). Attalo, inoltre, in entrambi i conflitti contro la Macedonia è alleato dei Romani, con cui Aptera è in buone relazioni nel 189 a.C.: il presente decreto, dunque, potrebbe risalire forse agli anni di vicinanza fra Attalo e la Bitinia o al periodo più esteso dei contatti fra il re e i Romani.</p>
+                    <p>Il re, onorato con una statua, la <foreign>proedria</foreign>, l’<foreign>asylia</foreign>, l’<foreign>ateleia</foreign>, l’<foreign>asphaleia</foreign> e la proclamazione come vincitore nei giochi locali, ottiene inoltre il diritto – forse il più ambito dal sovrano – di usufruire dei due porti della città e di arruolarne i mercenari, lo stesso motivo che spinge qualche anno dopo il figlio Eumene II ad allearsi con il <foreign>koinon</foreign> dei Cretesi (cf. <ref type="ins" target="#ic4_179"><title>IC</title> IV 179</ref>). Il documento è uno dei pochi decreti onorari di Aptera a prevedere inoltre l’<foreign>euergesia</foreign>, sebbene in una forma indiretta (τὰ λοιπὰ ὑπάρχειν ὅσα καὶ τοῖς ἄλλοις εὐεργέταις), riservata dalla città a pochi individui di grande importanza (il re di Bitinia Prusia II, quattro Romani e un medico di Cos; cf. <ref type="ins" target="#ic2_3_4ab"><title>IC</title> II 3 4 A</ref>, <ref type="ins" target="#ic2_3_5"><title>IC</title> II 3 5</ref> A, <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref>).</p>
+                    <p>Il decreto conserva sia la formula di sanzione che quella di mozione (ll. 1 e 6), che mostra la <foreign>bola</foreign>/<foreign>boula</foreign> e il <foreign>damos</foreign> in qualità di responsabili della deliberazione come nella quasi totalità dei documenti simili di Aptera (tutti ad esclusione di <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>). Alla linea 1 doveva inoltre comparire la menzione del proponente del decreto, come negli altri documenti analoghi della città (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref>).</p>
+                    <p>Il ruolo dei cosmi è circoscritto a questioni di secondaria importanza: l’unica loro funzione che emerge dal decreto è quella di ordinare agli araldi di proclamare il re vincitore nel contesto degli agoni <foreign>stephanitai</foreign> della città, tipologia di gare ben nota nel mondo greco e particolarmente diffusa nel periodo ellenistico, a Creta attestata solamente ad Aptera (cf. <bibl><ref target="#b1599">Remijsen 2011</ref></bibl>).</p>
+                    <p>La prima delle motivazioni della concessione di onori espressa alle linee 3-4 – e cioè la <foreign>pronoia</foreign> manifestata da Attalo nei confronti del <foreign>koinon</foreign> cretese e della <foreign>polis</foreign> di Aptera – è particolarmente significativa, in quanto sembra testimoniare l’appartenenza di quest’ultima al <foreign>koinon</foreign> cretese già dai primissimi anni del II secolo a.C., se non dal decennio precedente.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agones_stephanitai"><foreign>agones stephanitai</foreign></ref>, <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#karyx"><foreign>karyx</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>, proponente (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>) (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, pp. 424-428, n. 2 col. II</bibl>; 
+                    <bibl><ref target="#b273">Cauer 1883</ref>, n. 130</bibl>; 
+                    <bibl><ref target="#b1989">Weisshäupl 1898</ref>, pp. 102-106, n. B</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4942 B</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 445</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 4 C <ptr type="phi" target="199711"/></bibl>; 
+                    <bibl><ref target="#bib115"><title>OGIS</title></ref> 270 C</bibl>; 
+                    <bibl><ref target="#b1617">Robert 1940a</ref>, n. 2</bibl>; 
+                    <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 105-111</bibl>; 
+                    <bibl><ref target="#b1009">Kotsidou 2000</ref>, n. 193</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1993">Wescher 1864</ref>, pp. 76-77</bibl>; 
+                    <bibl><ref target="#b1598">Ricci 1893</ref>, p. 309</bibl>; 
+                    <bibl><ref target="#b249">Capdeville 1995</ref>, pp. 52-53</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica ad Apollo <foreign>Aigileus</foreign> da Aigilia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IG V, 1 948</idno>
+                        <idno type="projectNo">025</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#athens_national_museum">Museo Nazionale, Atene</repository>
+                        <idno type="invNo">230</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#votive_dedication">dedica onoraria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aigilia">Aigilia, santuario extramurario di Apollo <foreign>Aigileus</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0333" notAfter="-0330" precision="low">333-330 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/>Ἀριστομένης Ἀριστομήδους
+                        <lb n="2"/><placeName ref="#thessaly" type="ethnic">Θετταλὸς</placeName> ἐκ <placeName ref="#pherai">Φερῶν</placeName>,
+                        <lb n="3"/>Νίκων Κηφισοδώρο<supplied reason="lost">υ</supplied> <placeName ref="#athens" type="ethnic">Ἀθηναῖος</placeName>
+                        <lb n="4"/><persName type="divine" key="Apollo Aigileus">Ἀπόλλ<supplied reason="lost">ω</supplied>νι <placeName ref="#aigilia" type="ethnic">Αἰγιλεῖ</placeName></persName> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀ</supplied>νέθηκαν</w>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La dedica è particolarmente significativa per l’attestazione che offre dell’epiclesi <foreign>Aigileus</foreign> attribuita ad Apollo. Tale epiteto, infatti, sembra testimoniare l’esistenza del relativo etnico cittadino <foreign>Aigileus</foreign>, pertinente alla località di provenienza Aigilia. Dell’etnico di Aigilia, menzionata anche nelle fonti letterarie e in <ref type="ins"><title>IG</title> V, 1 1390</ref>, <ref type="ins"><title>SEG</title> 59.881</ref> e probabilmente <ref type="ins"><title>SEG</title> 59.886</ref> (cf. <bibl><ref target="#b62">Badoud 2016</ref></bibl>, <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, p. 573</bibl>), l’unica altra attestazione è costituita dall’Αἰγιλι(έων) della ghianda missile <ref type="ins"><title>IG</title> V,1 951 B</ref>. Sebbene tali documenti sembrino attestare uno <foreign>status</foreign> di <foreign>polis</foreign> per Aigilia, le evidenze archeologiche e numismatiche ed i proiettili iscritti <ref type="ins" target="#seg_59_379"><title>SEG</title> 59.379</ref> A e B recanti l’etnico collettivo di Phalasarna portano invece a ritenere la cittadina subordinata a quest’ultima (cf. <bibl><ref target="#b1846">Tsaravopoulos 2004-2009</ref>, p. 328</bibl>, <bibl><ref target="#b1848">Tsaravopoulos <foreign>et al.</foreign> 2012</ref></bibl>, <bibl><ref target="#b1706">Sekunda 2004-2009</ref></bibl>). A meno che Aigilia non alterni periodi di autonomia come <foreign>polis</foreign> a fasi di soggezione come comunità dipendente, l’ipotesi più probabile sembra pertanto quella di una sua persistente condizione di <foreign>polis</foreign> dipendente.</p>
+                    <p>La dedica, su base paleografica riconducibile alla seconda metà del IV secolo a.C., è stata datata con maggior precisione agli anni 333-330 a.C. da Aris Tsaravopoulos, che mette in relazione i dedicanti con le vicende della resistenza antimacedone nell’area peloponnesiaca e cretese (<bibl><ref target="#b1846">Tsaravopoulos 2004-2009</ref></bibl>). Negli anni intercorrenti fra la battaglia di Isso del novembre 333 a.C. e la morte di Dario III del 330 a.C., la presenza persiana nell’area è attestata da più autori antichi, i quali informano che è grazie al finanziamento di trenta talenti d’argento e dieci triremi fornito da Farnabazo e Autofradate che l’attivismo antimacedone del re spartano Agide III e del fratello Agesilao ha successo a Creta; la situazione viene tuttavia ribaltata a seguito dell’intervento nell’isola del macedone Anfotero nel giugno 331 a.C. (cf. <ref type="lit">Diod. XVII 48.1-2</ref>, <ref type="lit">Arr. <title>An.</title> II 13.6 e III 6.3</ref>, <ref type="lit">Curt. IV 1.37-40 e 8.15</ref>). È in tale contesto che si colloca la costruzione delle fortificazioni del porto di Phalasarna e di Aigilia sull’isola di Antikythira, rese possibili dalla disponibilità di fondi persiani: è pertanto assai verosimile che, trovandosi a tale scopo nella piccola isola, alcuni membri del contingente antimacedone responsabile di questa concitata fase di edilizia bellica abbiano promosso anche la dedica della statua di Apollo <foreign>Aigileus</foreign>. Una simile ipotesi trova il supporto del dato prosopografico: il primo dei due dedicanti, Aristomenes figlio di Aristomedes di Fere, sembrerebbe essere imparentato con il comandante persiano Aristomedes di Fere, attivo nella battaglia di Isso (cf. <ref type="lit">Arr. <title>An.</title> II 13.2</ref>; <bibl><ref target="#b1846">Tsaravopoulos 2004-2009</ref>, p. 328</bibl>). L’individuo, inoltre, potrebbe essere identificabile con il capo della flotta persiana Aristomenes, sconfitto in una battaglia navale combattutasi nell’Ellesponto fra il 331 ed il 330 a.C. (<ref type="lit">Curt. IV 1.36</ref>; cf. <bibl><ref target="#b1706">Sekunda 2004-2009</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>Aigileus</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1760">Stais 1889</ref>, pp. 233-240</bibl>;
+                    <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> V, 1 948 <ptr type="phi" target="31354"/></bibl>;
+                    <bibl><ref target="#b959">Kaltsas 2001</ref>, n. 567</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 51.17</bibl>); 
+                    <bibl><ref target="#b1846">Tsaravopoulos 2004-2009</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 59.375</bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1432">Palagia 1980</ref>, p. 19, n. 3, fig. 28</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 41.309</bibl>);
+                    <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 60.362</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Eleutherna menzionante un <foreign>dromos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.572</idno>
+                        <idno type="projectNo">102</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 55</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>
+                                            <objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>retrograda alla linea 3</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0400">V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιoνε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>σ</unclear>υνπαρ<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ν <rs type="institution" subtype="practice" role="unknown" key="dromos" ref="#eleutherna"><w lemma="δρόμος"><unclear>δ</unclear>ρόμο</w></rs> ϝ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ολυ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>εκα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, della quale si è preservato solamente un piccolo frammento, conserva una menzione del <foreign>dromos</foreign>, termine che a Creta indica le gare di corsa, l’accesso alle quali è un privilegio di coloro che detengono la maggiore età (cf. <ref type="lit" target="#SuidDromois">Suid. <foreign>s.v.</foreign> δρόμοις</ref>: τοῖς γυμνασίοις κατὰ Κρῆτας; il termine è attestato epigraficamente a Itanos in <ref type="ins" target="#ic3_4_4"><title>IC</title> III 4 4</ref>, a Malla in <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> e a Praisos e Hierapytna in <ref type="ins" target="#ic3_4_1"><title>IC</title> III 4 1</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dromos"><foreign>dromos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1184">Manganaro 1965</ref>, p. 303 n. I</bibl> (= <bibl type="main_edition"><ref target="#bib5">SEG</ref> 23.572 <ptr type="seg" target="dx.doi.org/10.1163/1874-6772_seg_a23_572"/></bibl>);
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 32</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Eleutherna5</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 55 <ptr type="thetima" target="e55"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

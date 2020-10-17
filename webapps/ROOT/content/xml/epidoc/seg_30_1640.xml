@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria dei soldati del <foreign>koinon</foreign> cretese per il proprio <foreign>strategos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 30.1640</idno>
+                        <idno type="projectNo">594</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#turin_egyptian_museum">Museo Egizio, Torino</repository> 
+                                <idno type="invNo">7146</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#salamis_cyprus">Salamina di Cipro</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0142" notAfter="-0131">142-131 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Seleukos" ref="#unknown"><name nymRef="Σέλευκος">Σέλευκον</name></persName>, τòν <w lemma="συγγενής">σ<supplied reason="lost">υγ</supplied>γενῆ</w> τοῦ <persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς">β<supplied reason="lost">ασιλέως</supplied></w></persName><supplied reason="lost">. τòν στρατηγòν</supplied>
+                          <lb n="2"/>καὶ ναύαρχον καὶ ἀρχιερέα, <rs type="institution" subtype="assembly" role="dedicant" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon">τò <w lemma="κοινόν">κο<supplied reason="lost">ινòν</supplied></w> <supplied reason="lost">τῶν ἐν τῆι νήσωι</supplied>
+                          <lb n="3"/>τασσομένων <placeName ref="#crete" type="ethnic">Κρητῶν</placeName></rs> <w lemma="ἀρετή">ἀρετῆς</w> <supplied reason="lost">ἕνεκεν καὶ <w lemma="εὔνοια">εὐνοίας</w> τῆς εἰς</supplied>
+                          <lb n="4"/><persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς">βασιλέα</w> <name nymRef="Πτολεμαῖος">Πτολεμαῖον</name></persName> καὶ <persName type="ruler" key="Kleopatra II" ref="#egypt"><w lemma="βασίλισσα">βασίλισσ<supplied reason="lost">αν</supplied></w> <supplied reason="lost"><name nymRef="Κλεοπάτρα">Κλεοπάτραν</name> τὴν ἀδελφὴν</supplied></persName>
+                          <lb n="5"/>καὶ <persName type="ruler" key="Kleopatra III" ref="#egypt"><w lemma="βασίλισσα">βασίλισσαν</w> <name nymRef="Κλεοπάτρα">Κλεοπάτραν</name> τὴν <w lemma="γυνή">γ<supplied reason="lost">υναῖκα</supplied></w></persName><supplied reason="lost">, <w lemma="Θεός">Θεοὺς</w> <w lemma="Εὐεργέτης">Εὐεργέτας</w></supplied>,
+                          <lb n="6"/>καὶ τὰ τέκνα καὶ τῆς εἰς τò ἔθ<supplied reason="lost">νος <w lemma="εὐεργεσία">εὐεργεσίας</w></supplied>.
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="6"><note>ἔθ<supplied reason="lost">νος</supplied> <bibl><ref target="#b1066">Lazzarini</ref></bibl>; κο<supplied reason="lost">ινόν</supplied> <bibl><ref target="#b1355">Mitford</ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, che commemora lo <foreign>strategos</foreign> (?), <foreign>nauarchos</foreign> e <foreign>archiereus</foreign> Seleukos, è posta dal κο[ινòν τῶν ἐν τῆι νήσωι] τασσομένων Κρητῶν, apparentemente un’associazione militare «a carattere etnico» (<bibl><ref target="#b1066">Lazzarini 1980</ref></bibl>) costituita dai soldati cretesi di stanza a Cipro, ai quali sembra da ascrivere anche la dedica <ref type="ins" target="#ic1_17_33"><title>IC</title> I 17 33</ref> (da Salamina, inoltre, proviene una dedica a un <foreign>hegemon</foreign> inviato a Cipro forse dal <foreign>koinon</foreign> cretese, <ref type="ins" target="#salamine_92"><title>Salamine</title> XIII 92</ref>). Il termine <foreign>ethnos</foreign>, impiegato alla linea 6 a proposito dell’<foreign>euergesia</foreign> mostrata verso questo da Seleukos, è possibile che sia utilizzato per intendere i Cretesi in senso lato e non i soli membri del <foreign>koinon</foreign> (cf. <bibl><ref target="#b1066">Lazzarini 1980</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1644">Ross – Welcker 1850</ref>, pp. 519-520 n. 14</bibl>;
+                            <bibl><ref target="#b1143">Lumbroso 1869</ref>, n. 1</bibl>;
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> III 2757</bibl> (<foreign>non vidi</foreign>); 
+                            <bibl><ref target="#b1423">Oberhummer 1888</ref>, p. 328 n. C</bibl>; 
+                            <bibl><ref target="#b1789">Strack 1897</ref>, p. 260 n. 124</bibl>; 
+                            <bibl><ref target="#bib115"><title>OGIS</title></ref> 153</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib31"><title>SB</title></ref> 4225</bibl>; 
+                            <bibl><ref target="#b1355">Mitford 1953</ref>, p. 135 n. 8</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 13.553</bibl>); 
+                            <bibl><ref target="#b1397">Nicolaou 1968</ref>, p. 32 n. 21</bibl>; 
+                            <bibl><ref target="#b1066">Lazzarini 1980</ref>, pp. 137-141</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 30.1640 <ptr type="seg" target="a30_1640"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib75"><title>Salamine</title> XIII</ref> 76</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

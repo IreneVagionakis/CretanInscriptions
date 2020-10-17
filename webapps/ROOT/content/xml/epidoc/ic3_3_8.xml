@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Genealogia degli Eteanoridi di Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 3 8</idno>
+                        <idno type="projectNo">495</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#verona_maffeiano">Museo Maffeiano, Verona</repository> 
+                                <idno type="invNo">560</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Ἐτεάνωρ Μελανθύρω.
+                          <lb n="2"/>οὗτος <w lemma="οἰκίζω">οἰκιζομένας</w>
+                          <lb n="3"/>τᾶς <rs type="institution" subtype="public_space" role="foundation" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna">Ἱεραπύτνας</placeName></rs> <w lemma="ἀκμάζω">ἄκμα<lb 
+                        break="no" n="4"/>ζε</w>. τούτω <w lemma="γυνά">γυνὰ</w> Πύρρα
+                          <lb n="5"/>καὶ τέκνα <unclear>ε</unclear><gap reason="illegible" quantity="4" unit="character"/>νεων
+                          <lb n="6"/>Μελάνθυ<unclear>ρ</unclear><supplied reason="lost">ος,</supplied> <gap reason="lost" quantity="1" unit="character"/><unclear>α</unclear>λαρος,
+                          <lb n="7"/>Ἐχοίτας, <gap reason="illegible" quantity="6" unit="character"/><unclear>Ι</unclear>υλίς,
+                          <lb n="8"/>Ἐτύμα. ἀπὸ Μελανθύρω
+                          <lb n="9"/><supplied reason="lost">τ</supplied>ὸ ἐπ’ ἀμὲ <w lemma="γένος">γένος</w>· Μελάνθυρος,
+                          <lb n="10"/><gap reason="lost" quantity="4" unit="character"/>ρανος Μελανθύρω,
+                          <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La genealogia degli Eteanoridi di Hierapytna, la sola iscrizione di tale natura nota a Creta, è posta da un individuo che si presenta come discendente di Melanthyros, nipote dell’omonimo capostipite. Fra gli individui commemorati un posto di rilievo è occupato da Eteanor figlio del primo Melanthyros, ricordato in qualità di fondatore della <foreign>polis</foreign> di Hierapytna, uno dei due ecisti di città cretesi ad essere commemorati per via epigrafica (cf. l’<foreign>archagetas</foreign> di Gortyna Gortys di <ref type="ins" target="#ic4_252"><title>IC</title> IV 252</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis1"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1150">Maffei 1749</ref>, p. xxxvi</bibl>;
+                            <bibl><ref target="#b401">Cornelius 1755</ref>, I p. 249</bibl>;
+                            <bibl><ref target="#b885">Hoeck 1829</ref>, p. 516</bibl>; 
+                            <bibl><ref target="#bib116"><title>CIG</title></ref> 2563</bibl>; 
+                            <bibl><ref target="#b1598">Ricci 1893</ref>, p. 306</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5052</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 3 8 <ptr type="phi" target="200247"/></bibl>; 
+                            <bibl><ref target="#b1606">Ritti 1981</ref>, n. 30</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b813">Guizzi 2001</ref>, pp. 302-303</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna menzionante uno <foreign>xenios kosmos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 53</idno>
+                        <idno type="projectNo">260</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>ἐπικα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="unknown" key="xenios_kosmos" ref="#gortyn"><w lemma="κσήνιος κόσμος"><supplied reason="lost">κ</supplied>σήνιο<lb 
+                        break="no" n="3"/>ς παν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ι κόσ<lb 
+                        break="no" n="5"/>μος</w></rs> ἠ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="1"/>όμην δὲ <unclear>τ</unclear>ὰ <w lemma="θῖνος">θῖν<unclear>α</unclear></w> <unclear>ἆ</unclear><lb 
+                        break="no" n="2"/>ιπερ πρόθα. <space extent="unknown" unit="character"/>
+                          <lb n="3"/>αἴ κα πρὸ <unclear>ν</unclear>εμήιο ἢ
+                          <lb n="4"/>πι<unclear>λ</unclear>όσ<supplied reason="lost">ι</supplied>ο<unclear>ς</unclear> ἄλλη δ’ π<lb 
+                        break="no" n="5"/>ερ κ’ οἰ ἄλλοι νεμο<unclear>ν</unclear><lb 
+                        break="no" n="6"/><unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="C">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><orig><unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>κ</orig><lb 
+                        break="no" n="3"/><orig>ρ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig><lb 
+                        break="no" n="5"/><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il testo conservato sul frammento, che si estende su tre colonne, comprende parti di almeno due leggi, individuabili grazie al <foreign>vacat</foreign> presente alla linea 2 della seconda colonna; non è possibile determinare, invece, se le prime due linee della colonna B siano parte della stessa legge della colonna A o meno.</p>
+                    <p>La colonna A, sebbene in un contesto impossibile da ricostruire, conserva un’attestazione dello <foreign>xenios kosmos</foreign>, un magistrato noto solamente a Gortyna (cf.  <ref type="ins" target="#ic4_30"><title>IC</title> IV 30</ref>, <ref type="ins" target="#ic4_78">78</ref> e forse <ref type="ins" target="#ic4_89">89</ref>); qualora le linee B 1-2 siano parte della stessa legge, ne deriverebbe una menzione dello <foreign>xenios kosmos</foreign> in connessione con questioni sacre (τὰ θῖνα).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#xenios_kosmos"><foreign>xenios kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 229-230 n. 35</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5003</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 53 <ptr type="phi" target="200489"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G53 (A-B)</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

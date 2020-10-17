@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Axos sui lavoratori pubblici</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 1</idno>
+                        <idno type="projectNo">116</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#axos_acropolis">acropoli di Axos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos, acropoli</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0500">525-500 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ϝκος <g type="|"/> ἴναντι το͂ν <unclear>ε</unclear>ἰ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ιν δοκε͂ν ἀκσία ἦμεν τᾶς τ<supplied reason="lost">ε <w lemma="τροπά">τροπᾶς</w></supplied>
+                          <lb n="3"/>καὶ τᾶς <w lemma="ἀτέλεια">ἀτελείας</w> <corr>τ</corr>ἀ τέκνα το̃ ἰνυμ<unclear>έ</unclear><supplied reason="lost">νο</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> κατ’ ἀμέραν <unclear>ζ</unclear>αμιο͂μεν. <g type="|"/> αἰ δ’ ἐπέλ<lb 
+                        break="no" n="5"/>θοιεν ἰν ταῖσι πέντε, αἰ μὴ λεοι<supplied reason="lost">εν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ν, <g type="|"/> τᾶν δ’ ἀμερᾶν <g type="|"/> πέντ’ ἀμέρας <w lemma="ϝεργάζω" part="I">ϝεργακσα<gap reason="lost" quantity="2" unit="character" precision="low" cert="low"/></w>
+                          <lb n="7"/><gap reason="lost" quantity="5" unit="character" precision="low"/>ς τᾶι <rs type="institution" subtype="social_group" role="work" key="polis" ref="#axos"><w lemma="πόλις">πόλι</w></rs> <w lemma="ἄμιστος">ἀμίστος</w>. το͂ δὲ <w lemma="μιστός">μισ<supplied reason="lost">το͂</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied><unclear>ᾶ</unclear>ς ἰν <rs type="institution" subtype="public_space" role="commensality" key="andreion" ref="#axos"><w lemma="ἀντρήιον">ἀντρηίοι</w></rs> <w lemma="δίαλσις">διά<unclear>λ</unclear>σιος</w> <g type="|"/> <gap reason="lost" quantity="1" unit="character"/> <orig>ιδια</orig>
+                          <lb n="9"/><orig><unclear>λ</unclear>οι</orig> <unclear>ἐ</unclear>πὶ σποϝδδὰν <g type="|"/> <orig>εκσοαι</orig> <gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied><unclear>ϝ</unclear>τὸς <g type="|"/> ϝεκάστος μὴ <w lemma="ἰντίθημι">ἰνθ<unclear>έ</unclear>μεν</w> <g type="|"/>
+                          <lb n="11"/>τᾶι <rs type="institution" subtype="social_group" role="unknown" key="polis" ref="#axos" cert="low"><w lemma="πόλις">πό<supplied reason="lost">λ</supplied>ι</w></rs>. περὶ δ<unclear>ὲ</unclear> το͂ <w lemma="μιστός">μιστο͂</w> <g type="|"/> αἰ πον<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τά</supplied>δε δὲ τελίοντι· <g type="|"/> ἴσς τε τὰν <rs type="institution" subtype="festivity" role="calendar" key="Hekatonba_ha_megala" ref="#axos"><w lemma="ἐκατόνβα">ἐκατόνβαν</w>
+                          <lb n="13"/>τὰν μεγάλαν</rs> <g type="|"/> καὶ τὸ <w lemma="θῦμα">θῦμα</w> <g type="|"/> κα<unclear>ὶ</unclear> <gap reason="lost" quantity="2" unit="character"/><orig>δ</orig><gap reason="lost" atLeast="3" atMost="5" unit="character" precision="low"/><orig>ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>ρηιον διδόμεν· <g type="|"/> το͂ν δ’ ἄλον πάντον
+                          <lb n="15"/><w lemma="ἀτέλεια">ἀτέλειαν</w> καὶ <w lemma="τροπά">τροπὰν</w> ἰν <rs type="institution" subtype="public_space" role="commensality" key="andreion" ref="#axos"><w lemma="ἀντρήιον">ἀντρηίοι</w></rs> κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge è finalizzata a regolare il sistema di retribuzione dei lavoratori pubblici della città di Axos. Il documento prevede la possibilità di imposizione di multe in caso di inadempienze (ll. 4-5) e di prestazioni lavorative gratuite in favore della <foreign>polis</foreign> per un totale di cinque giorni (ll. 6-7). Il contratto stabilito fra la città ed i lavoratori comporta l’esercizio di una imprecisabile attività per la <foreign>polis</foreign> in cambio di una retribuzione, in parte erogata come paga (ll. 7 e 11, μιστο͂), in parte consistente nella fornitura di pasti (l. 8 διάλσιος) nell’<foreign>andreion</foreign> (cf. <bibl><ref target="#b1065">Lavrencic 1988</ref></bibl>). Il termine <foreign>dialsis</foreign>, attestato unicamente dalla presente iscrizione, sembrerebbe indicare una remunerazione duratura in derrate alimentari, probabilmente affine – se non equivalente – alla <foreign>trophe</foreign> menzionata poco dopo (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 99-102</bibl>).</p>
+                    <p>Dopo una clausola oscura relativa a qualcosa che non deve essere dato o versato alla città (ll. 10-11), la legge si focalizza sugli obblighi contributivi dei lavoratori, per poi tornare sui relativi diritti. Costoro sono infatti tenuti a versare tasse per alcuni sacrifici, fra cui la Grande Ecatombe – forse identificabile con il sacrificio di cento buoi a Zeus <foreign>Agoraios</foreign> attestato due secoli dopo ad Axos da <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref> – ed un altro <foreign>thyma</foreign> (ll. 12-14). Gli stessi, tuttavia, risultano esenti da ogni altra tassa in quanto beneficiari dell’<foreign>ateleia</foreign> e devono ricevere sussistenza (l. 15, τροπάν) nell’<foreign>andreion</foreign>. Le medesime concessioni, l’<foreign>ateleia</foreign> e la <foreign>trophe</foreign>, semrano essere state accordate alle linee 2-3 anche ai figli dei lavoratori o almeno ad una parte di essi, possibilmente soltanto coloro che ne sono stati ritenuti degni da parte della <foreign>polis</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andreion"><foreign>andreion</foreign></ref>, festività/sacrificio (<ref type="inst" target="#hekatonba"><foreign>Hekatonba ha megala</foreign></ref>), <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b377">Comparetti 1888</ref>, pp. 129-140</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 381-394 n. 183</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5125A</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 1 <ptr type="phi" target="199762"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 101</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 28</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 267</bibl>;
+                            <bibl><ref target="#b696">Genevrois 2012</ref></bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, pp. 309-310</bibl>;
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> A1</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 10</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1065">Lavrencic 1988</ref></bibl>; 
+                            <bibl><ref target="#b694">Gehrke 1995</ref></bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref>, pp. 112-115</bibl>; 
+                            <bibl><ref target="#b1643">Rubinstein 2009</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

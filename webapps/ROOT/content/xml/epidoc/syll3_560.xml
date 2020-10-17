@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Epidamnos menzionante il <foreign>koinon</foreign> cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Syll.³ 560</idno>
+                        <idno type="projectNo">597</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#magnesia">Magnesia, <foreign>agora</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0208" notAfter="-0200" precision="low">208-200 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>παρὰ <placeName ref="#epidamnos" type="ethnic">Ἐπιδαμνίων</placeName>·
+                          <lb n="2"/><supplied reason="lost">ἔ</supplied>δ<supplied reason="lost">οξε τῶι δάμωι ἐπ’ ἄρχοντος Φ</supplied>αλακρ<supplied reason="lost">ίωνος τοῦ</supplied> <gap reason="lost" quantity="5" unit="character"/>φῶντος, μη<supplied reason="lost">ν</supplied>ὸς Ἁλι<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="3"/>τροπίου· <supplied reason="lost">ἐπειδὴ</supplied> <placeName ref="#magnesia" type="ethnic"><supplied reason="lost">Μ</supplied>άγ<supplied reason="lost">νητες</supplied> οἱ ἐπὶ Μαι<supplied reason="lost">ά</supplied>νδρ<supplied reason="lost">ου</supplied></placeName>, συγγ<supplied reason="lost">ενεῖς</supplied> ὄντες καὶ φίλοι τῶν <placeName ref="#epidamnos" type="ethnic">Ἐπι<lb 
+                        break="no" n="4"/>δαμνίων</placeName>, εὐ<supplied reason="lost">σεβ</supplied>έως <supplied reason="lost">διακείμ</supplied>ενοι ποτὶ τὸ θεῖον κα<supplied reason="lost">ὶ τὰ κάλ</supplied>λιστα αἱρ<supplied reason="lost">ούμ</supplied>ενοι τ<unclear>ῶ</unclear><supplied reason="lost">ν</supplied>
+                          <lb n="5"/>κατ’ ἀνθρώπο<supplied reason="lost">υς</supplied> ἀφεστά<supplied reason="lost">λκα</supplied>ντ<supplied reason="lost">ι</supplied> πρεσβευτάς, τ<supplied reason="lost">ο</supplied>ὺς δὲ αὐ<supplied reason="lost">τοὺ</supplied>ς καὶ θια<supplied reason="lost">ρ</supplied>ούς, Σωσικ<supplied reason="lost">λῆ</supplied>
+                          <lb n="6"/>Διοκλέος, Ἀρι<supplied reason="lost">σ</supplied>τ<supplied reason="lost">όδαμ</supplied>ον Διοκλ<supplied reason="lost">έ</supplied><unclear>ο</unclear>ς, Διότιμον Μηνοφί<supplied reason="lost">λου, ο</supplied>ἳ ποτελθόντες ποτὶ
+                          <lb n="7"/>τὰν βουλὰν καὶ <supplied reason="lost">τὸν</supplied> δᾶ<unclear>μ</unclear><supplied reason="lost">ον ἁμῶν τὸ ψά</supplied>φισμα ἀπέδωκα<supplied reason="lost">ν καὶ αὐτ</supplied>οὶ διελέχθην μετὰ πά<lb 
+                        break="no" n="8"/>σας φ<supplied reason="lost">ι</supplied>λοτιμία<supplied reason="lost">ς</supplied> ἐμφανί<unclear>ξ</unclear><supplied reason="lost">αντες τὰν</supplied> τᾶς <persName type="divine" key="Artemis">Ἀρτέμι<supplied reason="lost">δος</supplied></persName> <supplied reason="lost">ἐπιφάν</supplied>ειαν καὶ τὰν γεγενημέν<supplied reason="lost">α</supplied>ν
+                          <lb n="9"/>βοάθειαν ὑπὸ τ<supplied reason="lost">ῶ</supplied>ν <unclear>π</unclear><supplied reason="lost">ρ</supplied>ο<supplied reason="lost">γόνων α</supplied>ὐτῶν <supplied reason="lost">εἰ</supplied>ς τὸ ἱερὸν τὸ ἐν <placeName ref="#delphi">Δελφ<supplied reason="lost">οῖς</supplied></placeName>, νικασάντων μάχαι τοὺς
+                          <lb n="10"/>βαρ<supplied reason="lost">β</supplied>άρους το<supplied reason="lost">ὺ</supplied>ς ἐπιστ<supplied reason="lost">ρατεύ</supplied><unclear>σ</unclear>αντας ἐπὶ διαρπαγᾶι τῶ<supplied reason="lost">ν το</supplied>ῦ <supplied reason="lost">θ</supplied>εοῦ χρημάτων, καὶ τὰν
+                          <lb n="11"/>εὐε<supplied reason="lost">ργ</supplied>εσίαν, ἃν <supplied reason="lost">συ</supplied>νετελέσαντο εἰς τὸ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινὸ<supplied reason="lost">ν</supplied></w> τῶν <placeName ref="#crete" type="ethnic">Κρηταιέ<supplied reason="lost">ων</supplied></placeName></rs> δι<supplied reason="lost">α</supplied>λύσαντες τὸν <w lemma="ἐμφύλιος">ἐμφύλι<lb 
+                        break="no" n="12"/>ον</w> πόλεμον, ἐνεφάνιξαν δὲ καὶ τὰς εἰς τοὺς ἄλλους <placeName ref="#greece" type="ethnic"><supplied reason="lost">Ἕλ</supplied>λανας</placeName> γεγενημένας
+                          <lb n="13"/>εὐε<supplied reason="lost">ρ</supplied>γεσίας διά τε τῶν τοῦ θεοῦ χρησμῶν καὶ διὰ τῶ<supplied reason="lost">ν π</supplied>οι<unclear>η</unclear>τᾶν καὶ διὰ τῶν ἱ<supplied reason="lost">σ</supplied><lb 
+                        break="no" n="14"/>τορ<supplied reason="lost">ι</supplied>αγράφων τῶν συγγεγραφότ<supplied reason="lost">ων</supplied> τὰς <placeName ref="#magnesia" type="ethnic">Μαγνήτων</placeName> πρ<supplied reason="lost">άξ</supplied>ει<supplied reason="lost">ς</supplied>, παρανέγνωσαν δὲ
+                          <lb n="15"/>καὶ τὰ ψαφίσματ<supplied reason="lost">α</supplied> τὰ ὑπάρχοντα αὐτοῖς παρὰ ταῖς πόλ<supplied reason="lost">ε</supplied>σιν, ἐν οἷς ἦν καταγε<lb 
+                        break="no" n="16"/>γρ<unclear>α</unclear>μμ<supplied reason="lost">έ</supplied>ναι τιμαί τ<supplied reason="lost">ε</supplied> καὶ στέφαν<supplied reason="lost">ο</supplied>ι εἰς δόξαν ἀνίκοντ<unclear>α</unclear> <corr>τᾶι</corr> <supplied reason="lost">πό</supplied><unclear>λ</unclear><supplied reason="lost">ε</supplied>ι, τοῦ θεοῦ τοῦ ἐν
+                          <lb n="17"/><placeName ref="#delphi">Δε<supplied reason="lost">λ</supplied>φοῖς</placeName> χρήσαντος λώιον εἶμ<supplied reason="lost">εν καὶ ἄ</supplied>μεινον τοῖς σε<supplied reason="lost">βομέ</supplied>νοις <persName type="divine" key="Artemis Leukophryena">Ἄρτεμιν Λευκο<lb 
+                        break="no" n="18"/>φ<supplied reason="lost">ρυ</supplied>ηνὰν</persName> καὶ τὰν πόλιν καὶ τὰγ χώραν τ<supplied reason="lost">ῶ</supplied>μ <placeName ref="#magnesia" type="ethnic"><supplied reason="lost">Μαγ</supplied>νήτων</placeName> ἱ<supplied reason="lost">ερὰν κ</supplied>αὶ ἄσυλον νομιζόν<lb 
+                        break="no" n="19"/>τ<supplied reason="lost">ε</supplied>σσι, τὸν δᾶμον ἐψαφίσθαι τᾶι ἀρχαγέτιδι τᾶς πόλιος <persName type="divine" key="Artemis"><supplied reason="lost">Ἀρ</supplied>τέμιτι</persName> συντελεῖν θυσ<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="20"/><unclear>α</unclear><supplied reason="lost">ν</supplied> τε καὶ πανάγυριν καὶ ἀγῶνα στεφανίταν ἰσοπύθιον μο<unclear>υ</unclear><supplied reason="lost">σι</supplied>κόν τε καὶ γυμνικὸν κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="21"/>ἱ<supplied reason="lost">π</supplied>πικόν, παρεκάλουν δὲ καὶ ἁμὲ ὄντας οἰκείους καὶ φίλους <supplied reason="lost">ἀ</supplied>ποδέξασθαι τάν τε θ<supplied reason="lost">υ</supplied><lb 
+                        break="no" n="22"/><supplied reason="lost">σί</supplied>αν καὶ τὰν ἐκεχ<supplied reason="lost">ει</supplied>ρίαν καὶ τὸν ἀγῶνα στεφανίταν ἰσο<supplied reason="lost">πύ</supplied>θιον ταῖς τιμαῖς·
+                          <lb n="23"/><supplied reason="lost">ἔ</supplied><unclear>δ</unclear>οξε τᾶι βουλᾶι καὶ τῶι δάμωι τῶι <placeName ref="#epidamnos" type="ethnic">Ἐπιδαμνίων</placeName> τύχ<supplied reason="lost">αις</supplied> ἐ<unclear>π</unclear>ὶ ταῖς ἀρίσταις ἀπ<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="24"/><supplied reason="lost">κ</supplied>ρίνασθαι <placeName ref="#magnesia" type="ethnic">Μάγνησιν</placeName>, ὅτι ὁ δᾶμος ὁ τῶν <placeName ref="#epidamnos" type="ethnic">Ἐπιδαμνίων</placeName> <supplied reason="lost">αὐτ</supplied>ός τε ποτὶ τὸ θεῖον εὐ<lb 
+                        break="no" n="25"/>σεβέως τυγχάνει διακείμενος, π<unclear>άτρ</unclear>ιόν τέ ἐστιν <unclear>αὐ</unclear><supplied reason="lost">τῶι</supplied> καὶ τὰς τῶν οἰκείων
+                          <lb n="26"/>τιμὰς συναύξειν, ἐπαιν<supplied reason="lost">έσ</supplied>αι δὲ καὶ τ<supplied reason="lost">ὸν</supplied> δᾶμον τὸμ <placeName ref="#magnesia" type="ethnic">Μαγ<supplied reason="lost">νή</supplied>των</placeName> ἐπί τε τᾶι ποτὶ
+                          <lb n="27"/>τοὺς θεοὺς εὐσεβείαι καὶ ἐπὶ τ<supplied reason="lost">ᾶ</supplied>ι ποτὶ τοὺς <placeName ref="#greece" type="ethnic"><supplied reason="lost">Ἕλλαν</supplied>ας</placeName> εὐνοί<supplied reason="lost">αι</supplied> καὶ ἐπὶ τᾶι εὐεργεσίαι
+                          <lb n="28"/>τᾶι τε εἰς τὸ ἱερὸν τὸ ἐν <placeName ref="#delphi">Δελφοῖς</placeName> καὶ εἰ<supplied reason="lost">ς</supplied> τ<supplied reason="lost">οὺς</supplied> ἄλλους <placeName ref="#greece" type="ethnic">Ἕλλα<supplied reason="lost">νας</supplied></placeName>, δέχεσθαι δὲ καὶ τὸν
+                          <lb n="29"/>ἀγῶνα, ὃν συντελοῦντ<supplied reason="lost">ι</supplied> <placeName ref="#magnesia" type="ethnic">Μάγν<supplied reason="lost">η</supplied>τες</placeName> τᾶι <persName type="divine" key="Artemis Leukophryena">Ἀρτέμι<supplied reason="lost">τ</supplied>ι τ<supplied reason="lost">ᾶ</supplied>ι Λ<supplied reason="lost">ε</supplied>υκ<supplied reason="lost">οφ</supplied>ρυηνᾶι</persName> στεφανίταν ἰσο<lb 
+                        break="no" n="30"/>πύθιο<supplied reason="lost">ν, καθὼς</supplied> ἐπαγγ<supplied reason="lost">έλλοντι ὅ τε ἀρ</supplied>χιθ<supplied reason="lost">έ</supplied>ω<supplied reason="lost">ρος καὶ οἱ</supplied> θ<unclear>ε</unclear><supplied reason="lost">ωροί</supplied>, καὶ ὑπάρχειν τοῖς νικών<lb 
+                        break="no" n="31"/>τε<unclear>σ</unclear><supplied reason="lost">σι τοῦτον τὸν</supplied> ἀγ<supplied reason="lost">ῶνα φιλάνθ</supplied>ρ<supplied reason="lost">ωπα</supplied> <unclear>ὅ</unclear>σα <unclear>κ</unclear><supplied reason="lost">αὶ τοῖς τὰ Πύ</supplied>θια <supplied reason="lost">νικ</supplied>ώντεσσι παρὰ τᾶς πόλι<lb 
+                        break="no" n="32"/><supplied reason="lost">ος δέδοται</supplied>, <unclear>εἶμ</unclear>εν δ<supplied reason="lost">ὲ τὰν πόλιν κα</supplied>ὶ τὰγ <supplied reason="lost">χ</supplied>ώραν τὰ<supplied reason="lost">ν</supplied> <placeName ref="#magnesia" type="ethnic"><supplied reason="lost">Μαγ</supplied>ν<supplied reason="lost">ήτ</supplied>ων</placeName> ἱερὰν καὶ ἄσυ<lb 
+                        break="no" n="33"/><supplied reason="lost">λον, καθότ</supplied>ι ὁ <persName type="divine" key="Apollo">Ἀπόλλων</persName> ὁ ἐν <placeName ref="#delphi"><supplied reason="lost">Δελφοῖ</supplied>ς</placeName> ἔχρησεν, ἐπαινέ<supplied reason="lost">σαι δὲ τ</supplied>όν τε ἀρχιθέωρον
+                          <lb n="34"/><supplied reason="lost">Σωσικλῆ</supplied> <unclear>κ</unclear>αὶ <unclear>τ</unclear>οὺς <supplied reason="lost">θι</supplied>αρούς, Ἀριστόδαμον, Διότιμο<supplied reason="lost">ν ἐπί τ</supplied>ε τᾶι ὑπὲρ τᾶς πατρί<lb 
+                        break="no" n="35"/><supplied reason="lost">δος φιλο</supplied>τιμί<supplied reason="lost">αι καὶ</supplied> <unclear>ἀ</unclear><supplied reason="lost">ναστροφᾶι</supplied> ἇι ἐποιήσαν<supplied reason="lost">το ἀξ</supplied>ίως ἀμφοτερᾶν τᾶν πο<lb 
+                        break="no" n="36"/><supplied reason="lost">λίων καὶ εἶμεν</supplied> <unclear>δ</unclear><supplied reason="lost">ὲ αὐτ</supplied>οὺς προξένους κα<supplied reason="lost">ὶ εὐεργ</supplied>έτας τᾶς πόλιος τῶν
+                          <lb n="37"/><supplied reason="lost"><placeName ref="#epidamnos" type="ethnic">Ἐπιδαμνίων</placeName>· ὅπως δὲ τὰ ἐψηφισ</supplied>μένα μετὰ τᾶς τῶν θε<supplied reason="lost">ῶν εὐ</supplied>νοίας νῦν τε καὶ εἰς
+                          <lb n="38"/><supplied reason="lost">τὸν ἀεὶ</supplied> χρό<supplied reason="lost">νον ἐπ’ ἀγαθῶι συντ</supplied>ελῆται τῶι <supplied reason="lost">τ</supplied>ε <placeName ref="#magnesia" type="ethnic">Μα<supplied reason="lost">γνήτων</supplied></placeName> καὶ <placeName ref="#epidamnos" type="ethnic">Ἐπιδαμνίων</placeName>, τὸμ
+                          <lb n="39"/>πρύ<supplied reason="lost">τα</supplied>νιν <supplied reason="lost">κατεύχεσθαι τᾶ</supplied>ι <persName type="divine" key="Artemis Leukophryena">Ἀρτέμιτι τᾶι Λ<unclear>ε</unclear><supplied reason="lost">υκοφρυη</supplied>νᾶι</persName> καὶ τᾶι <persName type="divine" key="Hestia">Ἑστίαι</persName>, καλέ<lb 
+                        break="no" n="40"/>σα<corr>ντα</corr> δ’ α<supplied reason="lost">ὐτοὺς εἰς τὸ πρυταν</supplied>εῖο<supplied reason="lost">ν ἐ</supplied>πὶ τὰν κοινὰν ἑστ<supplied reason="lost">ίαν</supplied>, ἱερεῖον θῦσαι ἐφέστ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="41"/>ον <supplied reason="lost">καὶ δίδο</supplied>σ<supplied reason="lost">θαι αὐτοῖς</supplied> τὰ <supplied reason="lost">σ</supplied>κέλη καὶ τὸ νάκος καὶ <unclear>ἐ</unclear><supplied reason="lost">νεκέχηρον</supplied> ἀργυρίου Κορινθίου
+                          <lb n="42"/><supplied reason="lost">ἡμιμναῖον, δόμεν δὲ καὶ τᾶι θεᾶι ἀργυ</supplied><unclear>ρ</unclear>ίου <unclear>ἡ</unclear>μιμναῖον, <supplied reason="lost">ὑπάρχειν</supplied> δὲ καὶ τὰ κατάλοιπα
+                          <lb n="43"/><supplied reason="lost">ὥσπερ καὶ τοῖς θιαροῖς τοῖς ἀεὶ ἡκόντεσσι</supplied>ν εἰς ἁ<supplied reason="lost">μέ· ὅτε δέ κα</supplied> ἐς καιρὸν ἦι τᾶν συν<lb 
+                        break="no" n="44"/><supplied reason="lost">τελουμενᾶν θυσιᾶν κ</supplied>αὶ τοῦ ἀγῶνος, <supplied reason="lost">ἀποστέλλεν τοὺς συνθύσοντας· ἵνα δὲ καὶ ἁ ὑποδοχὰ τῶν ἀεὶ</supplied>
+                          <lb n="45"/><supplied reason="lost">ἀποστελλομένων ἐ</supplied>γ <placeName ref="#magnesia">Μαγνησίας</placeName> ἀξία γίνηται τᾶμ <supplied reason="lost">π</supplied>ολίω<supplied reason="lost">ν ἀμφ</supplied>οτερᾶν θεωρ<supplied reason="lost">οδόκον</supplied>
+                          <lb n="46"/><supplied reason="lost">παρ’ ἁμὶν ἑλέσθαι· ἀ</supplied>ναγράψαι δὲ καὶ τὸ ψάφισμα ἐμ βουλευτηρίωι.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto di Epidamnos, relativo a Magnesia, ricorda fra i meriti della città quello di aver dimostrato la propria <foreign>euergesia</foreign> nei confronti del <foreign>koinon</foreign> cretese, portando alla conclusione della guerra di Lyttos (?), indicata come scontro <foreign>emphilios</foreign> (ll. 11-12, εὐε[ργ]εσίαν, ἃν [συ]νετελέσαντο εἰς τὸ κοινὸ[ν] τῶν Κρηταιέ[ων] δι[α]λύσαντες τὸν ἐμφύλιον πόλεμον).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon1"><foreign>koinon</foreign> cretese</ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib109"><title>I.Magnesia</title></ref> 46</bibl>; 
+                            <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 259</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 560</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib56"><title>Magnesia</title></ref> 25</bibl>;
+                            <bibl type="main_edition"><ref target="#bib447"><title>I.Epidamnos</title></ref> 514 <ptr type="phi" target="182698"/></bibl>; 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 58</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 96</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b289">Chaniotis 1988</ref>, T7</bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 46f</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib119">Magnetto, <title>Arbitrati</title></ref> 53</bibl>; 
+                            <bibl><ref target="#b436">Curty 1999</ref></bibl>; 
+                            <bibl><ref target="#b64">Bagnall – Derow 2004</ref>, n. 155</bibl>; 
+                            <bibl><ref target="#b1792">Sumi 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

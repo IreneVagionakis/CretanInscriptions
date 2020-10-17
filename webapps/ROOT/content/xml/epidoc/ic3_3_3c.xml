@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Hierapytna relativo a Magnesia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 3 3 C</idno>
+                        <idno type="projectNo">488</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#venice_museum">Museo archeologico di Venezia</repository>
+                                <idno type="invNo">53</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0204" notAfter="-0175">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                      <ab>
+                          <lb n="1"/><w lemma="θεός"><supplied reason="lost">θ</supplied>εός</w>·
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#hierapytna" type="ethnic">Ἱαραπυτνίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#hierapytna"><w lemma="κόσμος">κόσμοις</w> τοῖς σὺν <persName type="attested" key="Alexandros"><name nymRef="Ἀλέξανδρος">Ἀλεξάνδρωι</name></persName></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#hierapytna"><w lemma="πόλις">πόλι</w></rs>, <placeName ref="#magnesia" type="ethnic">Μαγνήτων</placeName> <w lemma="ἀποστέλλω">ἀποστηλάντων</w>
+                          <lb n="3"/>πρεσβευτὰς Θεόδοτον Ἀντιόχω καὶ Ἀριστόμαχον Ἀριστοκλέος, καὶ ἀ<lb 
+                        break="no" n="4"/>νανεωμένων τὰν <w lemma="πάτριος">πατρίαν</w> <w lemma="οἰκειότης">οἰκειότατα</w> καὶ <w lemma="φιλία">φιλίαν</w> καὶ ἀξιώντων τὰ <w lemma="γράφω">γεγρ<lb 
+                        break="no" n="5"/>αμμένα</w> παρ’ αὐτοῖς <placeName ref="#crete">Κρησὶν</placeName> <w lemma="τίμια">τίμια</w> καὶ παρ’ ἁμῖν <w lemma="ἀναγράφω">ἀναγραφῆμεν</w> κατὰ τὰ αὐτὰ <placeName ref="#magnesia" type="ethnic">Μά<lb 
+                        break="no" n="6"/><supplied reason="lost">γ</supplied><unclear>ν</unclear>ησι</placeName> καὶ <w lemma="τίθημι">θέμεν</w> ἐν <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#hierapytna"><w lemma="ἱαρόν">ἱαρῶι</w></rs>, ἀγαθᾶι <w lemma="τύχα">τύχαι</w> καὶ ἐπὶ <w lemma="σωτηρία">σωτηρίαι</w> <placeName ref="#hierapytna" type="ethnic">Ἱαραπυτνίων</placeName> καὶ <placeName ref="#magnesia" type="ethnic">Μαγνήτων</placeName>, καὶ <w lemma="ἀναγράφω">ἀν<supplied reason="lost">α</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">γράψ</supplied>αι</w> τὸς <rs type="institution" subtype="board" role="inscriber" key="kosmos" ref="#hierapytna"><w lemma="κόσμος">κόσμος</w></rs> ἐς <w lemma="στάλα">στάλαν</w> λιθίναν <placeName ref="#magnesia" type="ethnic">Μάγνησιν</placeName> <w lemma="ἀτέλεια">ἀτέλειαν</w> καὶ <w lemma="προεδρία">προεδρίαν</w> κ<supplied reason="lost">αὶ</supplied> <w lemma="ἐπιγαμία"><supplied reason="lost">ἐπι</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">γαμίαν</supplied></w> καὶ <w lemma="ἔνκτησις">ἔνκτησιν</w> καὶ <w lemma="θεῖος">θείων</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w> <w lemma="μετοχά">μετοχὰν</w> καὶ <w lemma="ἐσαγωγά">ἐσαγωγὰν</w> κ<supplied reason="lost">αὶ</supplied> <w lemma="ἐξαγωγά"><supplied reason="lost">ἐξ</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">αγωγὰν</supplied></w> ὑπάρχεν κατὰ τὰ <w lemma="ἀρχαῖος">ἀρχαῖα</w>, καὶ <w lemma="τίθημι">θέμεν</w> τὰν <w lemma="στάλα">στάλαν</w> ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#hierapytna"><w lemma="ἱαρόν">ἱαρῶι</w> <supplied reason="lost">τᾶς</supplied>
+                          <lb n="10"/><persName type="divine" key="Athena Polias"><supplied reason="lost">Ἀθαν</supplied><unclear>α</unclear>ίας τᾶς Πολιάδος</persName></rs>. αἰ δέ τίς κα <w lemma="ἀδικέω">ἀδικηθῆι</w> <placeName ref="#magnesia" type="ethnic">Μάγνης</placeName> ἐν <placeName ref="#hierapytna">Ἱαραπύτν<supplied reason="lost">αι</supplied></placeName><supplied reason="lost">, δό</supplied><lb 
+                        break="no" n="11"/><supplied reason="lost">μ</supplied>εν αὐτῶι τὸ <w lemma="δίκαιος">δίκαιον</w> καθάπερ καὶ τοῖς <rs type="institution" subtype="social_status" role="judicial_procedure" key="proxenos" ref="#hierapytna"><w lemma="πρόξενος">προξένοις</w></rs>. <w lemma="ἐπαινέω">ἐπαινέσαι</w> δὲ <placeName ref="#magnesia" type="ethnic">Μάγ<supplied reason="lost">νητας</supplied></placeName>
+                          <lb n="12"/>ὅτι διαφυλάσσοντι τὰ παρδεδομένα ὑπὸ τῶν <w lemma="πρόγονος">προγόνων</w> καὶ ἐπὶ πλέο<supplied reason="lost">ν αὔ</supplied><lb 
+                        break="no" n="13"/>ξοντι, καὶ τὸς πρεσβευτὰς ὅτι <w lemma="οἰκήιως">οἰκήιως</w> καὶ <w lemma="φιλοτίμως">φιλοτίμως</w> διελέχθεν καὶ <w lemma="παρακαλέω">παρ<supplied reason="lost">εκάλε</supplied><lb 
+                        break="no" n="14"/>σαν</w> ἀξίως <placeName ref="#magnesia" type="ethnic">Μαγνήτων</placeName> καὶ <placeName ref="#hierapytna" type="ethnic">Ἱαραπυτνίων</placeName>, <w lemma="καλέω">καλέσαι</w> τε τὸς πρεσβευτὰς <supplied reason="lost">ἐς</supplied> <rs type="institution" subtype="public_space" role="hospitality" key="prytaneion" ref="#hierapytna"><w lemma="πρυτανήιον"><supplied reason="lost">πρυ</supplied><lb 
+                        break="no" n="15"/>τανῆιον</w></rs>, καὶ δόμεν αὐτοῖς <w lemma="ξένια">ξένια</w> <w lemma="ἀργύριον">ἀργυρίω</w> <w lemma="μνᾶ">μνᾶν</w>, καὶ <w lemma="παρπέμπω">παρπέμψαι</w> μετ’ <w lemma="ἀσφάλεια">ἀ<supplied reason="lost">σφα</supplied><lb 
+                        break="no" n="16"/>λείας</w> υἷ κα βώλωνται. <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω">ἔδοξε</w></rs>. οἱ <rs type="institution" subtype="board" role="president" key="kosmos" ref="#hierapytna"><w lemma="κόσμος">κόσμοι</w></rs> πάντες <w lemma="ἐφίστημι">ἐπεστάτον</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il terzo documento conservato sulla stele che contiene anche i trattati <ref type="ins" target="#ic3_3_3ab"><title>IC</title> III 3</ref> A-B è un decreto di Hierapytna relativo a Magnesia. Il testo, che si apre con l’invocazione benaugurale [θ]εός, conserva alla linea 2 una formula di sanzione in cui figurano i cosmi e la <foreign>polis</foreign> di Hierapytna in qualità di responsabili della deliberazione (come in <ref type="ins" target="#seg_63_746"><title>SEG</title> 63.746</ref>, mentre in <ref type="ins" target="#seg_51_1056"><title>SEG</title> 51.1056</ref> compaiono i cosmi e il <foreign>damos</foreign>); nella formula è presente eccezionalmente anche la menzione del cosmo eponimo Alexandros, forse per compensare l’omissione della datazione in testa al documento (cf. <bibl><ref target="#b813">Guizzi 2001</ref>, p. 325</bibl>).</p>
+                    <p>La sezione relativa alle motivazioni, alle linee 2-6, documenta l’invio di due ambasciatori da parte di Magnesia con la richiesta di iscrivere e collocare in un santuario quanto stabilito al loro riguardo dai Cretesi (<foreign>i.e.</foreign> verosimilmente dal <foreign>koinon</foreign> cretese) e da Hierapytna stessa. L’oggetto del decreto, preceduto da un’articolata formula benaugurale (l. 6), prevede l’iscrizione da parte dei cosmi della concessione precedentemente effettuata a Magnesia dell’<foreign>ateleia</foreign>, della <foreign>proedria</foreign>, dell’<foreign>epigamia</foreign>, dell’<foreign>enktesis</foreign>, dell’<foreign>isopoliteia</foreign> (l. 8, θείων καὶ ἀνθρωπίνων μετοχάν) e del diritto di importazione ed esportazione, oltre che l’equiparazione dei suoi cittadini ai prosseni a fini giuridici; per la stele è prevista una collocazione nel santuario di Atena <foreign>Polias</foreign> di Hierapytna (ll. 6-11), nel quale è prescritta la pubblicazione anche dei trattati <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref> e <ref type="ins" target="#ic3_3_5">5</ref> della città. Il decreto, inoltre, onora i cittadini di Magnesia e in particolare i suoi ambasciatori, che vengono invitati nel pritaneo (attestato a Hierapytna forse anche in <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref>) e che ottengono come dono ospitale una mina d’argento (ll. 11-16).</p>
+                    <p>Il documento, infine, si chiude con una ripetizione del verbo proprio della formula di sanzione, ἔδοξε, e con un riferimento alla presidenza di tutti i cosmi nel contesto della deliberazione, fatto privo di paralleli nei decreti cretesi (l. 16, οἱ κόσμοι πάντες ἐπεστάτον; cf. <bibl><ref target="#b813">Guizzi 2001</ref>, p. 325</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1831">Torres y Ribera 1805</ref>, pp. 65-88 (<foreign>non vidi</foreign>)</bibl>; 
+                          <bibl><ref target="#b1068">Le Bas 1845</ref>, pp. 266-272 n. 3</bibl>; 
+                          <bibl><ref target="#b1388">Naber 1852</ref>, n. 3</bibl>; 
+                          <bibl><ref target="#b273">Cauer 1883</ref>, n. 118</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 30</bibl>; 
+                          <bibl><ref target="#bib109"><title>I.Magnesia</title></ref> p. xiv n. 54</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5042</bibl>; 
+                          <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 199</bibl>; 
+                          <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 3 3 C <ptr type="phi" target="200242"/></bibl>; 
+                          <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 65</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b208">Brulé 1978</ref>, pp. 47-48</bibl>;
+                          <bibl><ref target="#b1758">Spyridakis 1990</ref></bibl>; 
+                          <bibl><ref target="#b886">Hennig 1994</ref></bibl>; 
+                          <bibl><ref target="#b1656">Sage 1996</ref>, n. 189</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

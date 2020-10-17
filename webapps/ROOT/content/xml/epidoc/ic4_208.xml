@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 208</idno>
+                        <idno type="projectNo">326</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">quattro decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Ptolemaios f. Ptolemaios (1)" ref="#alexandria"><name nymRef="Πτολεμαῖος">Πτολεμαῖον</name> <name nymRef="Πτολεμαῖος" type="patronymic">Πτολεμαίω</name></persName>,
+                          <lb n="2"/>τὸν ἀδευφιὸν Πτολεμαίω
+                          <lb n="3"/>τῶ ἐπὶ <placeName ref="#cyprus">Κύπροι</placeName> <w lemma="στραταγός">στραταγῶ</w>, καὶ
+                          <lb n="4"/><persName type="honoured" key="Noumenios f. Herakleiodoros" ref="#alexandria"><name nymRef="Νουμήνιος">Νουμήνιον</name> <name nymRef="Ἡρακλειόδωρος" type="patronymic">Ἡρακλειοδώρω</name></persName>
+                          <lb n="5"/><placeName ref="#alexandria" type="ethnic">Ἀλεξανδρείανς</placeName> καὶ <persName type="honoured" key="Pedestratos f. Agetor"><name nymRef="Πεδέστρατος">Πεδέ<lb 
+                        break="no" n="6"/>στρατον</name> <name nymRef="Ἀγήτωρ" type="patronymic">Ἀγήτορος</name> <placeName ref="#sparta" type="ethnic">Λακε<lb 
+                        break="no" n="7"/>δαιμόνιον</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξηνος">προξή<lb 
+                        break="no" n="8"/>νονς</w></rs> ἦμεν αὐτὸνς καὶ <w lemma="ἔκγονος">ἐκγόνονς</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Thrasymbrotos f. Thrasymbrotos" ref="#cnidus"><name nymRef="Θρασύμβροτος">Θρασύμβροτος</name> <name nymRef="Θρασύμβροτος" type="patronymic">Θρασυμβρότου</name></persName>
+                          <lb n="2"/>καὶ <persName type="honoured" key="Hagnon f. Hagnon" ref="#cnidus"><name nymRef="Ἅγνων">Ἅγνων</name> <name nymRef="Ἅγνων" type="patronymic">Ἅγνωνος</name></persName> <placeName ref="#cnidus" type="ethnic">Κνίδιοι</placeName>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξηνος">πρόξηνοι</w></rs>
+                          <lb n="4"/>αὐτοὶ καὶ <w lemma="γένος">γένος</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Ariston f. Philinos"><name nymRef="Ἀρίστων">Ἀρίστων</name>
+                          <lb n="2"/><name nymRef="Φιλῖνος" type="patronymic">Φιλίνου</name>
+                          <lb n="3"/><placeName ref="#ephesos" type="ethnic">Ἐφέσιος</placeName></persName>
+                          <lb n="4"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs>
+                          <lb n="5"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="6"/>αὐτὸς
+                          <lb n="7"/>καὶ <w lemma="γένος">γένος</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="D">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Erasiptolemos f. Prepandros"><name nymRef="Ἐρασιπτόλεμος">Ἐρασιπτόλεμος</name>
+                          <lb n="2"/><name nymRef="Πρέπανδρος" type="patronymic"><supplied reason="lost">Πρ</supplied>επάνδρω</name> <placeName ref="#priansos" type="ethnic">Πριάνσιος</placeName></persName>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="4"/>αὐτὸς καὶ <w lemma="γένος">γένος</w>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I quattro decreti onorari si presentano tutti nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva essenzialmente del nome dell’onorato e della tipologia di onore conferitogli. Il decreto A, tuttavia, si differenzia dagli altri tre documenti per la menzione della carica ricoperta dall’onorato alessandrino Ptolemaios figlio di Ptolemaios, <foreign>stratagos</foreign> tolemaico di Cipro; i nomi degli individui onorati e il termine <foreign>proxenoi</foreign>, inoltre, si trovano al caso accusativo anziché al nominativo e sono accompagnati dal verbo ἦμεν: tale costruzione, dunque, dimostra come il testo iscritto sia un estratto del più ampio decreto originario, nel quale costituiva una proposizione subordinata alla formula di sanzione.</p>
+                    <p>In tutti i casi la concessione effettuata da Gortyna consiste nella prossenia, il conferimento onorario più frequente nella città; tutti i testi, inoltre, contengono il ricordo della <foreign>polis</foreign> attraverso l’uso dell’etnico collettivo cittadino, impiegato come specificazione dell’onore conferito per compensare forse la mancata menzione delle entità istituzionali responsabili della decisione, come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 319-322 n. 23</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1036 n. 9</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 187 (A)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 208 <ptr type="phi" target="200649"/></bibl>; 
+                            <bibl><ref target="#b2088">Peremans – Van’t Dack 1955</ref> (A)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1466">Papadakis 2000</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

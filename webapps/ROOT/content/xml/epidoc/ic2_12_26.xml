@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica degli <foreign>agelatai</foreign> di Eleutherna per il proprio <foreign>archos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 26</idno>
+                        <idno type="projectNo">112</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">8</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plinth">plinto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="2" unit="character"/><orig>οσ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="2"/><gap reason="illegible" quantity="2" unit="character"/>ς <w lemma="τιμά">τιμ<unclear>ὰ</unclear><supplied reason="lost">ς</supplied></w>
+                          <lb n="3"/><unclear>ἐ</unclear>δούμεθ<unclear>α</unclear>
+                          <lb n="4"/><rs type="institution" subtype="age_class" role="dedicant" key="agelatas" ref="#eleutherna"><w lemma="ἀγελάτας">ἀγελᾶται</w></rs> δ<lb 
+                        break="no" n="5"/>ούμην <rs type="institution" subtype="official" role="dedicatee" key="archos" ref="#eleutherna"><w lemma="ἄρχων">ἀρχῷ</w>.
+                          <lb n="6"/><persName type="attested" key="Dorkos"><name nymRef="Δόρκος">Δόρκος</name> <name nymRef="Ϝαναξαγόρας" type="patronymic">Ϝα<lb 
+                        break="no" n="7"/>ν<corr>α</corr>ξ<corr>α</corr>γόρα</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il testo, dai contenuti piuttosto oscuri, sembra costituire la parte finale di una dedica promossa dai membri dell’<foreign>agela</foreign>, gli <foreign>agelatai</foreign>, per il proprio <foreign>leader</foreign>, definito <foreign>archos</foreign>, che è probabile che sia da individuare nel Dorkos figlio di Wanaxagoras commemorato nell’ultima linea. A Eleutherna l’<foreign>agela</foreign> è nota anche da un altro documento, il trattato fra la città ed Aptera: sebbene il termine in sé sia in lacuna – [τὰς ἀγέλας ἐπεὶ κ᾽ ἐ]γδράμωντι –, il verbo successivo non lascia dubbi sulla correttezza dell’integrazione (cf. <ref type="ins" target="#seg_41_742"><title>SEG</title> 41.742</ref>).</p>
+                    <p>Il termine <foreign>agelatas</foreign>, noto dalle fonti letterarie (<ref type="lit" target="#Heraclid15">Heraclid.Lemb. 15</ref>), trova la sua unica attestazione epigrafica nella presente dedica: oltre al più diffuso <foreign>agela</foreign>, infatti, per designare i suoi membri le altre iscrizioni cretesi impiegano il sostantivo <foreign>agelaos</foreign>, attestato sia a Dreros (<ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>) che a Eltynia (<ref type="ins" target="#ic1_10_2"><title>IC</title> I 10 2</ref>).</p>
+                    <p>L’<foreign>archon</foreign> dell’<foreign>agela</foreign>, la cui esistenza è testimoniata da più di un autore antico (<ref type="lit" target="#Heraclid15">Heraclid.Lemb. 15</ref>, <ref type="lit" target="#Ephor149">Ephor. <title>FGrHist</title> 70 F 149</ref>), nella dedica viene invece definito <foreign>archos</foreign>, termine che a Creta compare anche a Gortyna in una legge del V secolo a.C. in relazione all’<foreign>andreion</foreign> della città (<ref type="ins" target="#ic4_75"><title>IC</title> IV 75</ref>) e in una dedica a proposito del cretarca Kydas (<ref type="ins" target="#ic4_250"><title>IC</title> IV 250</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agelatas"><foreign>agelatas</foreign></ref>, <ref type="inst" target="#archos"><foreign>archos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 586-588 n. 70</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5142</bibl>;
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 26 <ptr type="phi" target="199910"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

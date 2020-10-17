@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 26</idno>
+                        <idno type="projectNo">126</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> αἰ δέ κα λ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="στατήρ"><supplied reason="lost">σ</supplied>τατῆρας</w> κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ομεν <w lemma="ἄνθρωπος" part="I">ἀνθρ<supplied reason="lost">ωπ</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear>ντ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="στατήρ" part="I"><unclear>σ</unclear>τα<supplied reason="lost">τηρ</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>καλ<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> τρώσ<unclear>ε</unclear><supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">α</supplied>ἰ δὲ κ’ ὀστία<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ηξει <w lemma="στατήρ" part="I">στατη<supplied reason="lost">ρ</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>τοστια <rs type="institution" subtype="official" role="unknown" key="kosmos" ref="#axos"><w part="I" lemma="κόσμος">κοσμ<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>εισει <space extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> τρώσει τοκα<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατα</supplied>στασεῖ. αἴ κα λ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> τῶν ὤμων κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> καταστασ<supplied reason="lost">εῖ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="στατήρ">στατῆρ<unclear>α</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="unknown" key="demosios" ref="#axos"><w part="I" lemma="δαμόσιος"><supplied reason="lost">δ</supplied>αμοσι<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="13a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="B1"><note><gap reason="lost" extent="unknown" unit="character"/> <unclear>σ</unclear>τα<supplied reason="lost">τηρ</supplied><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; <supplied reason="lost">κατα</supplied><unclear>σ</unclear>τα<supplied reason="lost" cert="low">σεῖ</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>La presunta legge, notevolmente frammentaria, conserva la menzione di uno o più cosmi alla linea B 6 e un riferimento a qualcosa di pubblico ([δ]αμοσι-) alla linea B 13.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demosios"><foreign>demosios</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 26 <ptr type="phi" target="199787"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

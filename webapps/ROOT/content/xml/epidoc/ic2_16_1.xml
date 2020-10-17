@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione frammentaria da Lappa menzionante un <foreign>basileus</foreign> (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 1</idno>
+                        <idno type="projectNo">079</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#argyroupoli">Argyroupoli, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#unknown">sconosciuta</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0470">inizi V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear>σ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>. <rs type="institution" subtype="official" role="unknown" key="basileuo" ref="#lappa" cert="low"><w part="I" lemma="βασιλεύω">βασιλ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          </ab>
+                    </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="2"><note>βασιλ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; βασιλ<unclear>ι</unclear><supplied reason="lost" cert="low">κός</supplied> <bibl><ref target="#b261">Carlier</ref></bibl>.</note></app>
+            </p>
+            </div>
+                    <div type="commentary">
+                        <p>La sequenza βασιλι-, difficilmente non collegabile alla famiglia semantica della regalità, potrebbe costituire la parte iniziale dell’aggettivo βασιλικός oppure di una forma verbale di βασιλεύω: qualora si trattasse di un participio *βασιλίοντος si potrebbe ipotizzare un suo impiego nel contesto di una datazione eponimica. L’iscrizione è l’unica fonte epigrafica a restituire un possibile riferimento ad un <foreign>basileus</foreign> cretese: l’alta datazione rende infatti improbabile che il re menzionato sia un sovrano esterno. La presunta attestazione di un re a Creta, dunque, sembra fornire un riscontro epigrafico alla notizia letteraria dell’esistenza di una regalità arcaica a Creta presentata da Erodoto, che nel contesto della narrazione della fondazione di Cirene menziona il mitico (?) re di Axos Etearchos, nonno dell’ecista Battos (<ref type="lit" target="#HdtIV">Hdt. IV 154</ref>). Non è da escludere, tuttavia, che la sequenza possa appartenere ad un antroponimo derivato dalla stessa radice βασιλ-.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#basileus"><foreign>basileuo</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 1 <ptr type="phi" target="199968"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b261">Carlier 1984</ref>, pp. 418-419</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

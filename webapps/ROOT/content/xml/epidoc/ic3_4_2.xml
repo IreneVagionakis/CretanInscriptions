@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Itanos per lo <foreign>strategos</foreign> Patroklos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 2</idno>
+                        <idno type="projectNo">519</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">63</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0269" notAfter="-0262" precision="low">269-262 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θεός">θεό<supplied reason="lost">ς</supplied></w>.
+                          <lb n="2"/><rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#itanos"><w lemma="κόσμος">κόσμου</w></rs> <rs type="institution" subtype="object" role="decreeing" key="gnoma" ref="#itanos"><w lemma="γνώμα">γνώμα</w></rs>. <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#itanos"><w lemma="δοκέω">ἔδοξ<unclear>ε</unclear></w></rs> <placeName ref="#itanos" type="ethnic"><supplied reason="lost">Ἰτα</supplied><lb 
+                        break="no" n="3"/>νίων</placeName> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#itanos"><w lemma="βουλά">βουλᾶι</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="ekklesia" ref="#itanos"><w lemma="ἐκκλησία">ἐ<unclear>κ</unclear><lb 
+                        break="no" n="4"/>κλησίαι</w></rs>· ἐπειδὴ <persName type="honoured" key="Patroklos f. Patron"><name nymRef="Πάτροκλος">Πάτροκλ<supplied reason="lost">ος</supplied></name>
+                          <lb n="5"/><name nymRef="Πάτρων" type="patronymic">Πάτρωνος</name> <placeName ref="#macedonia" type="ethnic">Μακεδὼν</placeName></persName> <w lemma="ἀποστέλλω">ἀπο<unclear>σ</unclear><lb 
+                        break="no" n="6"/>ταλεὶς</w> ὑπὸ <persName type="ruler" key="Ptolemaios II" ref="#egypt"><w lemma="βασιλεύς">βασιλέος</w> <name nymRef="Πτολεμαῖος">Πτο<lb 
+                        break="no" n="7"/>λεμαίου</name></persName> <rs type="institution" subtype="official" role="honoured" key="strategos" ref="#itanos"><w lemma="στραταγός">στραταγὸς</w></rs> ἐς
+                          <lb n="8"/><placeName ref="#crete">Κρήταν</placeName> <w lemma="ἀνήρ">ἀνὴρ</w> ἀγαθὸς καὶ <w lemma="δίκαιος">δί<lb 
+                        break="no" n="9"/>καιος</w> ἐγένετο περὶ τὰν τῶν
+                          <lb n="10"/><placeName ref="#itanos" type="ethnic">Ἰτανίων</placeName> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#itanos"><w lemma="πόλις">πόλιν</w></rs> καὶ πολλὰ
+                          <lb n="11"/>συνήργησε τοῖς <placeName ref="#itanos" type="ethnic">Ἰτανίοις</placeName> ὅ<lb 
+                        break="no" n="12"/>πως τά τε κατὰ τὰν <rs type="institution" subtype="public_space" role="defense" key="polis" ref="#itanos"><w lemma="πόλις">πόλιν</w></rs> <w lemma="ἀσφαλέως">ἀσ<lb 
+                        break="no" n="13"/>φαλέως</w> ἔχηι <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#itanos"><w lemma="πολιτεύω">πολιτευομέ<lb 
+                        break="no" n="14"/>νων</w></rs> τῶν <placeName ref="#itanos" type="ethnic">Ἰτανίων</placeName> κατὰ τοὺς
+                          <lb n="15"/><rs type="institution" subtype="object" role="law" key="nomos" ref="#itanos"><w lemma="νόμος">νόμους</w></rs> καὶ τὰν χώραν μετὰ
+                          <lb n="16"/>πάσας ἀσφαλείας νέμωνται,
+                          <lb n="17"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#itanos"><w lemma="δοκέω">δεδόχθαι</w></rs> τοῖς <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#itanos"><placeName ref="#itanos" type="ethnic">Ἰτανίοις</placeName></rs> ποιή<lb 
+                        break="no" n="18"/><supplied reason="lost">σ</supplied>ασθαι αὐτὸν <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#itanos"><w lemma="πρόξενος">πρόξενόν</w></rs>
+                          <lb n="19"/>τε καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#itanos"><w lemma="εὐεργέτας">εὐεργέταν</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#itanos"><w lemma="πολίτας">πολίταν</w></rs>
+                          <lb n="20"/>καὶ αὐτὸν καὶ <w lemma="ἔγγονος">ἐγ<supplied reason="lost">γόνος</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="20a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, noto anche da un’altra copia (<ref type="ins" target="#ic3_4_3"><title>IC</title> III 4 3</ref>), onora il macedone Patroklos figlio di Patron, inviato a Creta in qualità di <foreign>strategos</foreign> da Tolemeo II (sul <foreign>phrourion</foreign> tolemaico di Itanos cf. <ref type="ins" target="#ic3_4_3"><title>IC</title> III 4 3-5</ref>, <ref type="ins" target="#ic3_4_9">9</ref>, <ref type="ins" target="#ic3_4_14">14</ref>, <ref type="ins" target="#ic3_4_18">18</ref>; cf. <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl>). Il documento, introdotto dall’invocazione θεό[ς], si presenta come esito di una decisione del collegio dei cosmi di Itanos, sebbene la successiva formula di sanzione mostri nel ruolo di responsabili della deliberazione la <foreign>boula</foreign> e l’<foreign>ekklesia</foreign> della città, come avviene anche nei decreti <ref type="ins" target="#ic3_4_4"><title>IC</title> III 4 4</ref> e <ref type="ins" target="#ic3_4_7">7</ref> (ll. 2-4).</p>
+                    <p>La sezione relativa alle motivazioni, alle linee 4-16, informa della protezione offerta alla <foreign>polis</foreign> di Itanos e ai suoi cittadini dallo <foreign>strategos</foreign>, che ha consentito loro di mantenere il proprio <foreign>status</foreign> di <foreign>politai</foreign> rispettando le loro leggi (πολιτευομένων τῶν Ἰτανίων κατὰ τοὺς νόμους) e di abitare in sicurezza nel proprio territorio.</p>
+                    <p>L’oggetto del decreto, introdotto dalla formula di mozione δεδόχθαι τοῖς Ἰτανίοις, conferisce a Patroklos e alla sua discendenza la prossenia, l’<foreign>euergesia</foreign> e la prossenia (ll. 17-20).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#gnoma"><foreign>gnoma</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#strategos"><foreign>strategos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 568-570 n. 2</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 444</bibl>; 
+                            <bibl><ref target="#bib115"><title>OGIS</title></ref> 45</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5059</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 201</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 2 <ptr type="phi" target="200305"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 21-24</bibl>;
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 50-53</bibl>; 
+                            <bibl><ref target="#b1466">Papadakis 2000</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

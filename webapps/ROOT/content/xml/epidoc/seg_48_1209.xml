@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica della <foreign>neotas</foreign> di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 48.1209</idno>
+                        <idno type="projectNo">374</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo">GO 385</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0070">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἁ <rs type="institution" subtype="board" role="dedicant" key="neotas" ref="#gortyn"><w lemma="νεότας">νεότας</w> <supplied reason="lost">ἁ σὺν τῷ</supplied> <persName type="attested" key="- f. Theugines" cert="low"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">τ</supplied>ῶ <name nymRef="Θευγίνης" type="patronymic">Θευγίν<supplied reason="lost" cert="low">ιος</supplied></name></persName></rs> <supplied reason="lost" cert="low"><w lemma="ἀνατίθημι">ἀνέθηκεν</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>·
+                          <lb n="3"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κορμέω">ἐκόρμιον</w> ο<supplied reason="lost">ἵδε·</supplied> <persName type="attested" key="- f. Amnatos (2)"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied>
+                          <lb n="4"/><name nymRef="Ἄμνατος" type="patronymic"><supplied reason="lost">Ἀ</supplied>μνάτω</name></persName></rs>, <rs type="institution" subtype="official" role="incumbent" key="hiarorgos" ref="#gortyn"><persName type="attested" key="On- f. -on" cert="low"><name nymRef="Ὀν-">Ὀν<gap reason="lost" extent="unknown" unit="character"/></name> <supplied reason="lost">τῶ</supplied> <name nymRef="-ων" type="patronymic" cert="low"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" quantity="1" unit="character"/>ος</name></persName> <w lemma="ἱαροργός">ἱαροργός</w></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="A- f. -os"><name nymRef="Α-"><unclear>Α</unclear><gap reason="lost" extent="unknown" unit="character"/></name> <supplied reason="lost">τῶ</supplied> <name nymRef="-ος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" quantity="1" unit="character"/>ω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Soarchos f. - (3)"><name nymRef="Σώαρχος">Σώαρχος</name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="- f. Kallidamos"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied>
+                          <lb n="7"/><name nymRef="Καλλίδαμος" type="patronymic"><supplied reason="lost">Κα</supplied>λλιδάμω</name></persName></rs>· <rs type="institution" subtype="official" role="incumbent" key="kosmon_mnamon" ref="#gortyn"><w lemma="κόρμων μνάμων"><unclear>κ</unclear><supplied reason="lost">όρμων μνάμων</supplied></w> <gap reason="lost" extent="unknown" unit="character"/></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il collegio della <foreign>neotas</foreign>, noto solamente a Gortyna (cf. <ref type="ins" target="#ic4_162"><title>IC</title> IV 162-164</ref>, <ref type="ins" target="#seg_58_986"><title>SEG</title> 58.986</ref>; cf. <bibl><ref target="#b2028">Willetts 1954</ref></bibl>, <bibl><ref target="#b2053">Willetts 1981</ref></bibl>), compare come dedicante in quest’unica iscrizione, dove sembra essere seguita dal nome del suo rappresentante, figlio di un certo Theugines. La dedica è seguita dall’elenco dei cosmi in carica, almeno sei, fra i quali risultano esservi uno <foreign>hiarorgos</foreign> – incluso fra i cosmi anche in <ref type="ins" target="#ic4_195"><title>IC</title> IV 195</ref>, <ref type="ins" target="#ic4_259">259</ref> e <ref type="ins" target="#ic4_260">260</ref> – e verosimilmente uno <foreign>mnamon</foreign> dei cosmi, carica che è nota solo a Gortyna e che vi è attestata anche in <ref type="ins" target="#ic4_260"><title>IC</title> IV 260</ref>-<ref type="ins" target="#ic4_261">261</ref> e forse <ref type="ins" target="#ic4_251">251</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#mnamon"><foreign>kosmon mnamon</foreign></ref>, <ref type="inst" target="#neotas"><foreign>neotas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1161">Magnelli 1992-1993</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 48.1209 <ptr type="seg" target="a48_1209"/></bibl>);
+                            <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 21</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Gortyna e Phaistos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 165</idno>
+                        <idno type="projectNo">356</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mavropapas">Basilica di Mavropapas, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0240" notAfter="-0222" precision="low">240-222 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Dymanes" ref="#gortyn">ἐπὶ τῶν <w lemma="Δυμᾶνες">Δυμάνων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντων</w> <corr>τῶν</corr>
+                          <lb n="2"/>σὺν <persName type="attested" key="Eurybotas f. Damasilas"><name nymRef="Εὐρυβώτας">Εὐρυβώιται</name> τῶ <name nymRef="Δαμασίλας" type="patronymic">Δαμασίλα</name></persName></rs><surplus>ς</surplus>
+                          <lb n="3"/>τάδ’ <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#phaistos"><rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#gortyn"><w lemma="ἀνδάνω">ἔαδε</w></rs></rs> ταῖς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#phaistos"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις">πόλιθι</w> ἀνφοτέραι<lb 
+                        break="no" n="4"/>ς</rs></rs>, τ<corr>ᾶι</corr> τ’ ἄνω καὶ τᾶι κάτω· <rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#gortyn"><w lemma="κόρμος">κ<corr>ό</corr>ρμ<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="5"/>ς</w></rs> ὁπεῖοί <surplus>ο</surplus> κα <w lemma="δίκαιος">δίκαια</w> μὴ συνθίων<lb 
+                        break="no" n="6"/><unclear>τ</unclear>αι, <w lemma="ἀποτίνω">ἀποτεισίοντ’</w> <w lemma="ἄργυρος">ἀρ<surplus>αρ</surplus>γύρω</w> <num value="2000">ΧΧ</num>
+                          <lb n="7"/><w lemma="στατήρ">στατε͂ρανς</w> πὰρ τὸν <rs type="institution" subtype="official" role="collecting_fines" key="titas" ref="#phaistos" cert="low"><rs type="institution" subtype="official" role="collecting_fines" key="titas" ref="#gortyn"><w lemma="τίτας">τίταν</w></rs></rs>,
+                          <lb n="8"/>μωλε͂ν δὲ τὸν βωλόμενον,
+                          <lb n="9"/><unclear>τ</unclear>ὸν μὲν <placeName ref="#gortyn" type="ethnic">Γορτύνιον</placeName> <placeName ref="#gortyn">Γ<corr>ό</corr>ρτυ<surplus>ο</surplus>νι</placeName>
+                          <lb n="10"/><supplied reason="lost">τὸν</supplied> <unclear>δ</unclear>ὲ <placeName ref="#phaistos" type="ethnic">Φαίστιον</placeName> <placeName ref="#phaistos">Φαι<corr>σ</corr>τοῖ</placeName>, καὶ ἔχε<supplied reason="lost">ν</supplied>
+                          <lb n="11"/><supplied reason="lost">τὰν</supplied> <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn"><w lemma="πόλις"><supplied reason="lost">π</supplied>όλιν</w></rs> τὰ<corr>ν</corr> ἡμίναν, τὰν
+                          <lb n="12"/><supplied reason="lost">δὲ ἡ</supplied>μίναν τὸ<corr>ν</corr> μωλίο<surplus>ι</surplus>ντα.
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="4-5"><note>κ<corr>ό</corr>ρμ<supplied reason="lost">ο</supplied>ς (?) ὁπεῖοί <surplus>ο</surplus> κα <bibl><ref target="#bib15">Chaniotis</ref></bibl>; Κρ<unclear>αν</unclear>σοπεῖοι ὅκα <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento è l’unico decreto emanato congiuntamente da Gortyna e Phaistos, unite attorno al terzo quarto del III secolo a.C. da un rapporto di <foreign>sympoliteia</foreign>, testimoniato anche da <ref type="ins" target="#seg_23_563"><title>SEG</title> 23.563</ref> e <ref type="lit">Polyb. IV 55</ref> (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 71</bibl>).</p>
+                    <p>Il decreto si apre con una formula di datazione in cui viene ricordato il cosmo eponimo gortynio Euryboitas figlio di Damasilas della tribù dei <foreign>Dymanes</foreign>, a Creta attestata anche a Dreros, Olous, Lyttos e Hierapytna. La successiva formula di sanzione, alle linee 3-4, mostra come la decisione sia dovuta ad entrambe le <foreign>poleis</foreign>, definite «città superiore» e «città inferiore» (cf. le iscrizioni gortynie <ref type="ins" target="#ic4_231"><title>IC</title> IV 231</ref>, <ref type="ins" target="#ic4_378">378</ref> e forse <ref type="ins" target="#ic4_162">162</ref> e <ref type="ins" target="#ic4_195">195</ref>, le cui formule di sanzione menzionano la sola <foreign>polis</foreign>).</p>
+                    <p>L’oggetto del decreto, alle linee 4-12, prevede una multa per i cosmi che non stabiliscono giusti accordi che deve essere versata al <foreign>titas</foreign>, funzionario noto a Gortyna perlopiù in connessione all’esazione fiscale anche da altri documenti (<ref type="ins" target="#ic4_14"><title>IC</title> IV 14</ref>-<ref type="ins" target="#ic4_15">15</ref>, <ref type="ins" target="#ic4_78">78</ref>-<ref type="ins" target="#ic4_79">79</ref>, <ref type="ins" target="#ic4_102">102</ref>, <ref type="ins" target="#ic4_107">107</ref> e <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>). Viene prevista a tale proposito la possibilità di sporgere denuncia da parte dei singoli cittadini di Gortyna nella loro città e di quelli di Phaistos nella propria; in tale circostanza metà dell’importo dell’ammenda imposta ai cosmi è destinato alla <foreign>polis</foreign>, mentre la rimanente metà al querelante.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#titas"><foreign>titas</foreign></ref>, tribù (<ref type="inst" target="#dymanes"><foreign>Dymanes</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 198-202 n. 21</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5019</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 165 <ptr type="phi" target="200604"/></bibl>; 
+                            <bibl><ref target="#b2024">Wilhelm 1951</ref>, pp. 26-35 n. 9</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 71a</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b321">Chaniotis 2002a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

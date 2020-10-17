@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra degli <foreign>epilykoi</foreign> di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 35.989</idno>
+                        <idno type="projectNo">173</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">278</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge sacra</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#knossos">Knossos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>οἱ <rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><w lemma="ἐπίλυκος">ἐπίλυκοι</w></rs>· <rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><persName type="attested" key="Thychasis"><name nymRef="Θύχασις">Θύχασις</name></persName></rs>, <rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><persName type="attested" key="Theangelos"><name nymRef="Θεάνγελος"><unclear>Θ</unclear>εάν<lb 
+                        break="no" n="2"/>γελος</name></persName></rs>, <rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><persName type="attested" key="Aiolos f. Etearchos"><name nymRef="Αἴολος">Αἴολος</name> <name nymRef="Ἐτέαρχος" type="patronymic">Ἐτεάρχω</name></persName></rs>,
+                          <lb n="3"/><rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><persName type="attested" key="Perantas f. Latimos"><name nymRef="Πηράντας">Πηράντας</name> <name nymRef="Λάτιμος" type="patronymic">Λατίμωι</name></persName></rs>,
+                          <lb n="4"/><rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><persName type="attested" key="Deinomenes f. Dexinas"><name nymRef="Δεινομένης">Δεινομένης</name> <name nymRef="Δεξίνας" type="patronymic">Δεξίνα</name></persName></rs>,
+                          <lb n="5"/><rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><persName type="attested" key="Exakon f. Samos"><name nymRef="Ἐξάκων">Ἐξάκων</name> <name nymRef="Σάμος" type="patronymic">Σάμω</name></persName></rs>,
+                          <lb n="6"/><rs type="institution" subtype="association" role="incumbent" key="epilykos" ref="#knossos"><persName type="attested" key="Peithias f. Koichis"><name nymRef="Πειθίας">Πειθίας</name> <name nymRef="Κοῖχις" type="patronymic">Κοίχιος</name></persName></rs>·
+                          <lb n="7"/>κατὰ <w lemma="πρόσταγμα">πρόσταγμα</w>
+                          <lb n="8"/>σὺν <w lemma="θεός">θεοῖς</w> πᾶσι καὶ
+                          <lb n="9"/>τῶι <w lemma="πατήρ">πατρὶ</w> καὶ
+                          <lb n="10"/><persName type="divine" key="Artemis Skopelitis">Ἀρτέμιδι Σκοπελίτι</persName>,
+                          <lb n="11"/>καὶ τὸς <rs type="institution" subtype="social_status" role="exclusion" key="apetairos" ref="#knossos"><w lemma="ἀφέταιρος">ἀφεταίρος</w></rs>
+                          <lb n="12"/>καὶ <placeName ref="#assyria" type="ethnic">Ἀσσυρίας</placeName>
+                          <lb n="13"/>ἀπὸ τῶ <rs type="institution" subtype="public_space" role="prohibition" key="hieron" ref="#knossos"><w lemma="ἱερόν">ἱερῶ</w></rs> ἀπέ<lb 
+                        break="no" n="14"/>χεθθαι καὶ τὰ κα<lb 
+                        break="no" n="15"/>τάλοιπα ἐμὶν μελησεῖ,
+                          <lb n="16"/><w lemma="κιθαριστάς">κιθαριστὰς</w>
+                          <lb n="17"/>Ἀριστόδαμος
+                          <lb n="18"/>Διοκλεῖος·
+                          <lb n="19"/>ἀνεξέλεντα ἤτω τὰ ἐγὼ
+                          <lb n="20"/>πράσσω καὶ μὴ ἀψυχῆν, σὺν
+                          <lb n="21"/><w lemma="θεός">θεοῖς</w> πάνσιν τ<corr>ὰ</corr> κατάλοιπα
+                          <lb n="22"/>ἐμὶν μελησεῖ· ἕρπεν ἐπὶ τὰ<supplied reason="lost">ν</supplied>
+                          <lb n="23"/>προκειμέναν χρήιαν, ὅπυι κ<supplied reason="lost">α</supplied>
+                          <lb n="24"/>παρανκελθῆι.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Fra le varie ipotesi di interpretazione del termine ἐπίλυκοι, attestato da quest’unica iscrizione, la più convincente sembra quella proposta da Paula Perlman, che lo intende come derivato dell’epiclesi <foreign>Lykeios</foreign> di Apollo, il cui culto a Knossos è testimoniato dalla dedica votiva <ref type="ins"><title>IC</title> I 8 15</ref> (<bibl><ref target="#b1502">Perlman 1994</ref></bibl>; diversamente <bibl><ref target="#b1550">Platon 1948</ref></bibl>, <bibl><ref target="#b1290">Masson 1985</ref></bibl>). Come notato dalla studiosa, le due iscrizioni non sono accomunate solamente dalla presunta connessione con tale culto, ma anche dalla motivazione che ha portato alla redazione dei due testi, avvenuta κατὰ πρόσταγμα nel caso della legge (l. 7), κατὰ ἐπιταγάν nel caso della dedica (<ref type="ins"><title>IC</title> I 8 15</ref>, ll. 4-5), espressioni che riconducono entrambe alla sfera degli ordini divini. Non è tuttavia chiaro quale sia il ruolo in relazione alla legge dei sette <foreign>epilykoi</foreign> elencati alle linee 1-6: questa infatti sembra essere stata promossa su ordine divino dal <foreign>kitharistas</foreign> Aristodamos figlio di Diokles, forse detentore di una carica sacerdotale, che alle linee 14-22 si esprime in prima persona impegnandosi ad occuparsi di «tutto il resto».</p>
+                    <p>L’oggetto della prescrizione sacra, enunciato alle linee 11-15, vieta agli <foreign>aphetairoi</foreign> e alle Assirie (?) di accedere ad un santuario, forse di Artemide <foreign>Skopelitis</foreign> e di Apollo <foreign>Lykeios</foreign>. Il termine <foreign>ap(h)etairos</foreign>, attestato anche a Gortyna dalle leggi <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> e <ref type="ins" target="#ic4_84">84</ref>, in questo contesto sembrerebbe da intendersi come «non appartenente all’associazione religiosa degli <foreign>Epilykoi</foreign>» (cf. <bibl><ref target="#b1290">Masson 1985</ref>, p. 190</bibl>: «<foreign>ceux qui sont étrangers à l’association</foreign>»).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#aphetairos"><foreign>apetairos</foreign></ref>, <ref type="inst" target="#epilykos"><foreign>epilykos</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1550">Platon 1948</ref>, pp. 93-108</bibl>; 
+                            <bibl><ref target="#b1290">Masson 1985</ref>, pp. 189-194</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 35.989 <ptr type="phi" target="201991"/> <ptr type="seg" target="a35_989"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 52</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 47</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1502">Perlman 1994</ref>, pp. 124-125 n. 3</bibl>;
+                            <bibl><ref target="#b551">Egetmeyer 2007</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

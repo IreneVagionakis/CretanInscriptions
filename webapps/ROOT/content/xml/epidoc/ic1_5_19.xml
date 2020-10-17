@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Arkades relativo a Hierapytna; trattato fra Arkades e Knossos (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 5 19</idno>
+                        <idno type="projectNo">206</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (fr. I); </repository>
+                        <idno type="invNo"/>
+                        <altIdentifier>
+                            <repository ref="#lost">perduto (fr. II)</repository>
+                            <idno type="invNo"/>
+                        </altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree #treaty">decreto (A), trattato (B)</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#arkades">Arkades</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0001">fine II - I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="fragment" n="I">
+                            <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><orig>το</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="illegible" quantity="1" unit="character"/><orig>τε</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><orig>αλ<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="illegible" quantity="1" unit="character"/><orig>τοσε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>των ε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><orig>αιπι</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><orig>εστ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><orig>νιασ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>τες <w lemma="χρήματα" cert="low" part="I">χρημ<supplied reason="lost">α</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="10"/>τος τοῖς πα<gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβευτάς"><supplied reason="lost">πρεσ</supplied><lb 
+                        break="no" n="11"/>βευτᾶν</w></rs> παρ<supplied reason="lost">αγενομένων παρὰ τᾶς <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#hierapytna"><w lemma="πόλις">πόλιος</w></rs> τῶν <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName></supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ</supplied> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><persName type="attested" key="Apollonidas f. Th-" ref="#hierapytna"><name nymRef="Ἀπολλωνίδας"><supplied reason="lost">Ἀπολ</supplied><lb 
+                        break="no" n="12"/>λωνίδα</name> τῶ <name nymRef="Θ-" type="patronymic">Θ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          <lb n="13"/>ἐκόμιζον κα<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀνανεωσα</supplied><lb 
+                        break="no" n="14"/>μένων τὰν ὑπά<supplied reason="lost">ρχονσαν <w lemma="φιλία">φιλίαν</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/>δων πρός τε τὰ<supplied reason="lost">ν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#arkades"><w lemma="πόλις">πόλιν</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰν <w lemma="φιλία">φιλίαν</w></supplied>
+                          <lb n="16"/>τάν τε <w lemma="συγγένεια">συγγένεια<supplied reason="lost">ν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#arkades"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#arkades"><w lemma="βουλά">βουλᾶι</w></rs> καὶ</supplied>
+                          <lb n="17"/>τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#arkades"><w lemma="δᾶμος">δάμωι</w></rs>· ἐπειδὴ ἁ <supplied reason="lost"><rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#hierapytna"><w lemma="πόλις">πόλις</w></rs> τῶν <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName> <w lemma="ἀποστέλλω">ἀπέστειλεν</w> πρὸς ἁμὲ</supplied> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβευτάς"><supplied reason="lost">πρεσβευ</supplied><lb 
+                        break="no" n="18"/>τὰς</w></rs> ἀνανεωμένος τ<supplied reason="lost">ὰν <w lemma="φιλία">φιλίαν</w> τὰν ὑπάρχονσαν <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίοις</placeName> πρός τε τὸ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="koinon" ref="#arkades"><w lemma="κοινόν">κοινὸν</w></rs></supplied>
+                          <lb n="19"/>καὶ τὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#arkades"><w lemma="πόλις">πόλιν</w></rs> τῶν <placeName ref="#arkades" type="ethnic">Ἀρκά<supplied reason="lost">δων·</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τάν τε</supplied> <w lemma="συγγένεια"><supplied reason="lost">συγ</supplied><lb 
+                        break="no" n="20"/>γένειαν</w> καὶ εἶναι τοῖς <supplied reason="lost"><rs type="institution" subtype="board" role="honoured" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβευτάς">πρεσβευταῖς</w></rs> τῶν <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName> <rs type="institution" subtype="official" role="proclamation" key="karyx" ref="#arkades"><w lemma="ἀνακαρύσσω">ἀνακαρύξασθαι</w></rs></supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#arkades"><w lemma="πρόξενος"><supplied reason="lost">προξένο</supplied><lb 
+                        break="no" n="21"/><supplied reason="lost">ι</supplied>ς</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#arkades"><w lemma="εὐεργέτας">εὐεργέταις</w></rs> τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#arkades"><w lemma="πόλις">πό<supplied reason="lost">λιος</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐν</supplied>
+                          <lb n="22"/>τοῖς <rs type="institution" subtype="practice" role="competition" key="agones_mousikoi" ref="#hierapytna"><w lemma="ἀγῶνες μουσικοί">ἀγῶσι τοῖς τε μουσ<supplied reason="lost">ικο</supplied>ῖς</w></rs> <placeName ref="#hierapytna">Ἱεραπύ<supplied reason="lost">τναι</supplied></placeName> <supplied reason="lost">καὶ τοῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">παρ’ <placeName ref="#arkades" type="ethnic">Ἀρκάσι</placeName></supplied>.
+                          <lb n="23"/><w lemma="ἐπαινέω">ἐπαινέσαι</w> δὲ καὶ τοὺς <rs type="institution" subtype="board" role="honoured" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβευτάς"><supplied reason="lost">πρεσβ</supplied>ευτὰς</w></rs> ἐπὶ τ<supplied reason="lost">ῶι τὰν <w lemma="παρεπιδαμία">παρεπιδαμίαν</w> πεποιῆσθαι</supplied>
+                          <lb n="24"/>ἀξίως ἑκατερᾶν τᾶν <supplied reason="lost"><rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#hierapytna"><rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#arkades"><w lemma="πόλις">πολίων</w></rs></rs></supplied>· <w lemma="καλέω">καλέ<supplied reason="lost">σα</supplied>ι</w> δὲ <supplied reason="lost">αὐτοὺς ἐπὶ τὰν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#arkades">κοινὰν <w lemma="ἑστία">ἑστίαν</w></rs> καὶ δοῦ</supplied><lb 
+                        break="no" n="25"/>ναι τὸν <rs type="institution" subtype="official" role="inscriber" key="grammateus" ref="#arkades"><w lemma="γραμματεύς">γραμμα<supplied reason="lost">τέα</supplied></w></rs> <supplied reason="lost">ἐς τὸν</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="naos" ref="#arkades"><w lemma="ναός">ναὸ<supplied reason="lost">ν</supplied></w></rs> <gap reason="lost" quantity="1" unit="character"/><orig>ενδ</orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#arkades"><w lemma="ψάφισμα">ψάφισμα</w></rs></supplied>
+                          <lb n="26"/>τόδε <w part="I" lemma="ἀναγράφω">ἀναγραψ<supplied reason="lost">α</supplied></w><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ δὲ</supplied> <w lemma="ἀνάλωμα">ἀνάλωμα</w> <supplied reason="lost">δοῦναι τὸν <rs type="institution" subtype="official" role="funds" key="tamias" ref="#arkades" cert="low"><w lemma="ταμίας">ταμίαν</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="27"/><gap reason="illegible" quantity="2" unit="character"/>θ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>αιρ</unclear>ειπ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ουι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/><orig>αφα<unclear>ν</unclear>ε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="29"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig><gap reason="illegible" quantity="3" unit="character"/><orig>αο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="30"/><gap reason="lost" extent="unknown" unit="character"/><orig>ατε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="30a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ων</orig>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>νω</orig>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>νω</orig>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιο</orig><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>ομ</orig><gap reason="illegible" quantity="2" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>εσδ</orig><gap reason="illegible" quantity="2" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>αν</orig><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ὸν τοῖχον
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>ον ἐς τὸ με<lb 
+                        break="no" n="10"/><supplied reason="lost">ίλιον</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἔ</supplied><unclear>λ</unclear>αιον κἠπὶ τ
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">περι</supplied>ανπὰξ ἐπὶ τ
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> πρείνω καὶ δι<lb 
+                        break="no" n="13"/><supplied reason="lost">ανπὰξ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#knossos" type="ethnic"><unclear>Κ</unclear>νωσίω</placeName> καὶ τῶν
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>ον κεῖται κατὰ τ<lb 
+                        break="no" n="15"/><supplied reason="lost">ὸ κοίλιον</supplied> <gap reason="lost" extent="unknown" unit="character"/> περὶ τὸ τραχὺ
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>. τὸ ὕδωρ ὀρθὸν
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>ων καὶ περιανπὰξ
+                          <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἄ</supplied>χερδον ἐς τ’ ὀρθ<supplied reason="lost">ὸ</supplied>ν
+                          <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">περι</supplied>ανπὰξ τὸ δὲ μακ<corr>ρ</corr>ὸν
+                          <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὀ</supplied>ρθὸν ἐπὶ τὸ μείλιον τὸ
+                          <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ὸ πετρῶδες καὶ διανπὰ<lb 
+                        break="no" n="22"/><supplied reason="lost">ξ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied>ς τὰν <w lemma="ὁδός">ὁδὸν</w> τὰν ἐγ διώ<lb 
+                        break="no" n="23"/><supplied reason="lost">ρυγος</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κεῖτ</supplied>αι κατὰ τὸ κοίλιον ἐπὶ τ<lb 
+                            break="no" n="24"/><gap reason="lost" extent="unknown" unit="character"/> τὸ γαωρύχιον καὶ περ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="25"/><supplied reason="lost">ανπὰξ</supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear>ον τὸ αὐτὸ καὶ κα<lb 
+                        break="no" n="26"/><supplied reason="lost">τὰ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δ</supplied>ιανπὰξ ἐπὶ τὸ μ<lb 
+                        break="no" n="27"/><supplied reason="lost">είλιον</supplied> <gap reason="lost" extent="unknown" unit="character"/>αν τ’ ὄρυμα ἐς
+                          <lb n="28"/><gap reason="lost" extent="unknown" unit="character"/>ικε χάρα<supplied reason="lost">κ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="29"/><gap reason="lost" extent="unknown" unit="character"/>κε χάρα<supplied reason="lost">κ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="30"/><gap reason="lost" extent="unknown" unit="character"/><orig>συ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="30a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="II">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>λι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ιλιαμ</unclear>τα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπὶ</supplied> τὸ μείλιον σα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπὶ τὸ με</supplied>ίλιον καὶ ἀπο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">κεχαρα</supplied>γμένον οι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ον τὸν κεχα<corr>ρ</corr><supplied reason="lost" cert="low">αγμένον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>υεος λίμνας <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> ἐπὶ τὸ μείλιο<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>οτο αν <g type="middot"/> ος <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>υτριο <g type="middot"/> οι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">κ</supplied>εχα<corr>ρα</corr><supplied reason="lost" cert="low">γμένον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                            </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La parte conservatasi del decreto A, relativo al rinnovo di una preesistente <foreign>philia</foreign> (?) tra Arkades e Hierapytna, informa del conferimento di onori a due ambasciatori inviati dalla seconda città, che vengono proclamati prosseni ed evergeti di Arkades; la proclamazione è prevista a Hierapytna in occasione degli <foreign>agones mousikoi</foreign> (non attestati altrove a Creta), mentre ad Arkades in una festività di cui si è perduto il nome.  La formula di sanzione, alle linee 16-17, mostra il <foreign>damos</foreign> di Arkades come assemblea preposta alla deliberazione; è possibile, tuttavia, che assieme a questa comparisse anche la <foreign>boula</foreign> (come suggerisce Margherita Guarducci). La presenza della congiunzione καί prima di τὰν πόλιν τῶν Ἀρκά[δων] (l. 19) rende molto probabile che alla <foreign>polis</foreign> fosse associato il <foreign>koinon</foreign> degli Arcadi, noto da <ref type="ins" target="#ic1_5_52"><title>IC</title> I 5 52</ref> e <ref type="ins" target="#ic1_5_53">53</ref>. Le ultime linee leggibili del decreto (ll. 24-26) prevedono inoltre l’invito degli ambasciatori verosimilmente nella <foreign>koina hestia</foreign> (cf. <ref type="ins" target="#ic1_5_20a"><title>IC</title> I 5 20 A</ref>) e la consegna da parte del segretario (della <foreign>polis</foreign>?) del presente decreto ad un tempio affinché vi sia iscritto; i fondi per l’iscrizione, invece, devono essere forniti probabilmente dal tesoriere della città (cf. <ref type="ins" target="#ic1_5_20a"><title>IC</title> I 5 20 A</ref>).</p>
+                    <p>Il documento B, pertinente ad un trattato, conserva invece parte di una definizione di confini che interessa Arkades e Knossos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agones_mousikoi"><foreign>agones mousikoi</foreign></ref>, <ref type="inst" target="#boule"><foreign>boule</foreign></ref> (?), <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref> (?), <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref> (?), <ref type="inst" target="#karyx"><foreign>karyx</foreign></ref> (<foreign>karysso</foreign>) (?), <ref type="inst" target="#koinon1"><foreign>koinon ton Arkadon</foreign></ref> (?), <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref> (?), <ref type="inst" target="#tamias"><foreign>tamias</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 5 19 <ptr type="phi" target="199041"/> <ptr type="phi" target="199042"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 62 (B)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1923">Van Effenterre – Van Effenterre 1994</ref></bibl>;
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 35</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

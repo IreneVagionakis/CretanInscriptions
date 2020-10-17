@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna relativa alla riscossione di denaro</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 87</idno>
+                        <idno type="projectNo">274</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig><gap reason="lost" quantity="1" unit="character"/>ο το͂ν <rs type="institution" subtype="board" role="unknown" key="esprattas" ref="#gortyn"><w lemma="ἐσπράττας">ἐσπραττᾶν</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>αδδόμεθα αὐτ<gap reason="lost" quantity="2" unit="character"/>αν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> τονδε τοκαν<gap reason="lost" quantity="3" unit="character"/><orig>δ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>οο</orig><gap reason="lost" quantity="3" unit="character"/> ἐπιβάλλει ϝεκ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>εν <supplied reason="lost">τ</supplied>ὰ<unclear>ν</unclear> <unclear>π</unclear>λε<unclear>θ</unclear>ὺν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> τροπὰν δέκσεται <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> παριόντον το͂ν <rs type="institution" subtype="board" role="onlooker" key="esprattas" ref="#gortyn"><w lemma="ἐσπράττας">ἐσπραττ<supplied reason="lost">ᾶν</supplied></w></rs> <supplied reason="lost">καὶ το͂</supplied>
+                          <lb n="8"/><rs type="institution" subtype="official" role="onlooker" key="mnamon_ton_esprattan" ref="#gortyn"><w lemma="μνάμων τῶν ἐσπραττᾶν"><supplied reason="lost">μνάμ</supplied>ονος το͂ το͂ν ἐσπραττᾶν</w></rs> <space extent="unknown" unit="character"/> <unclear>ἀ</unclear>π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> αὐτε͂ κ’ ὀ <rs type="institution" subtype="official" role="proclamation" key="karyx" ref="#gortyn"><w lemma="κᾶρυκς">κᾶρυκς</w></rs> ἀνπεραν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><w part="F" lemma="δικάζω">δδικάκσει</w> τὰν πλεθὺν το<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἄν</supplied><unclear>α</unclear>ιτον δ’ ἔμεν τοῖς <rs type="institution" subtype="board" role="collecting_fines" key="esprattas" ref="#gortyn"><w lemma="ἐσπράττας">ἐσπρά<unclear>τ</unclear><supplied reason="lost">ταις</supplied></w></rs>
+                          <lb n="12"/><w lemma="ἐσπράδδω"><supplied reason="lost">ἐσπρ</supplied>άδονσι</w> ὀπυῖ κα μέτε ἀποδο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" extent="unknown" unit="character"/>ο.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, appartenente ad una legge relativa alla riscossione di denaro, menziona più volte a tale riguardo gli <foreign>esprattai</foreign>, funzionari noti solo a Gortyna e verosimilmente responsabili dell’esazione di multe (cf. <ref type="ins" target="#ic4_75"><title>IC</title> IV 75</ref>, <ref type="ins" target="#ic4_91">91</ref>, <ref type="ins" target="#ic4_160">160</ref>). Fra i documenti in cui tali figure compaiono, questo è l’unico in cui sono accompagnate dallo <foreign>mnamon ton esprattan</foreign>, assieme al quale sono tenute ad essere presenti in una circostanza specificata alle linee 7-8. Lo <foreign>mnamon</foreign> degli <foreign>esprattai</foreign> è possibile che svolga un ruolo di segretario per gli <foreign>esprattai</foreign>; è molto verosimile che la natura della relazione esistente fra lo <foreign>mnamon</foreign> degli <foreign>esprattai</foreign> e questi ultimi sia analoga a quella intercorrente fra lo <foreign>mnamon</foreign> dello <foreign>xenios</foreign>, attestato a Gortyna in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, e lo <foreign>xenios</foreign>.</p>
+                    <p>La legge, inoltre, menziona alla linea 9 un araldo, figura che a Creta è attestata a livello epigrafico anche a Rhittenia (cf. <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref>; cf. inoltre le attestazioni indirette fornite ad Aptera dal verbo καρυχθῆμεν in <ref type="ins" target="#ic2_3_4c"><title>IC</title> II 3 4 C</ref> e a Gortyna da καρύξαντι in <ref type="ins" target="#ic4_172"><title>IC</title> IV 172</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#esprattas"><foreign>esprattai</foreign></ref>, <ref type="inst" target="#karyx"><foreign>karyks</foreign></ref>, <ref type="inst" target="#mnamon"><foreign>mnamon ho ton esprattan</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 87 <ptr type="phi" target="200525"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 97</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G87</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 161*</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

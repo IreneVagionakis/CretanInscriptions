@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Gortyna</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC IV 206</idno>
+                        <idno type="projectNo">321</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#herakleion_museum">Museo archeologico di Gortyna?</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">dodici decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plaque">lastra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#gortyn">Gortyna</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0250" notAfter="-0100">metà III - II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">         
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">,</supplied> <persName type="honoured" key="Damasikrates f. Teleson" ref="#unknown"><name nymRef="Δαμασικράτης"><supplied reason="lost">Δα</supplied>μ<supplied reason="lost">α</supplied>σικράτης</name> <name nymRef="Τελέσων" type="patronymic"><unclear>Τε</unclear>λέσωνος</name></persName>, <persName type="honoured" key="Agemachos f. -" ref="#unknown"><name nymRef="Ἀγέμαχος">Ἀγέμ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">χος</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυνίων</supplied></placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος"><supplied reason="lost">πρό</supplied>ξ<unclear>ε</unclear>νοι</w></rs> αὐτοὶ καὶ <w lemma="ἔγγονος">ἔγγονοι</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Zopyros f. Thrasymedos"><name nymRef="Ζώπυρος"><supplied reason="lost">Ζώ</supplied>πυρος</name> <name nymRef="Θρασυμήδης" type="patronymic">Θρασυμήδου</name>
+                        <lb n="2"/><placeName ref="#ephesos" type="ethnic">Ἐφέσιος</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρό<lb 
+                        break="no" n="3"/>ξενος</w></rs> αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="C">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Damocharis f. Phalakrias"><name nymRef="Δαμόχαρις">Δαμόχαρις</name> <name nymRef="Φαλακρίας" type="patronymic">Φαλακρία</name>
+                        <lb n="2"/><placeName ref="#lyttos" type="ethnic">Λύττιος</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs>
+                        <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs> αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="D">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Euphraios f. Euphraios" ref="#athens"><name nymRef="Εὔφραιος">Εὔφραιος</name> <name nymRef="Εὔφραιος" type="patronymic">Εὐφρα<supplied reason="lost">ίου</supplied></name></persName>,
+                        <lb n="2"/><persName type="honoured" key="Kallias f. Phaidimos" ref="#athens"><name nymRef="Καλλίας">Καλλίας</name> <name nymRef="Φαίδιμος" type="patronymic">Φαιδίμ<supplied reason="lost">ου</supplied></name></persName>
+                        <lb n="3"/><placeName ref="#athens" type="ethnic">Ἀθηναῖοι</placeName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυ<supplied reason="lost">νίων</supplied></placeName></rs>
+                        <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενοι</w></rs> αὐτοὶ κα<supplied reason="lost">ὶ <w lemma="γένος">γένος</w></supplied>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="E">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Agepolis f. Kallippos"><name nymRef="Ἀγέπολις">Ἀγέπολις</name> <name nymRef="Κάλλιππος" type="patronymic">Καλλίππου</name>
+                        <lb n="2"/><placeName ref="#megalopolis" type="ethnic">Μεγαλοπολίτας</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs>
+                        <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs> αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="F">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Kyrtos f. Androskylos"><name nymRef="Κύρτος">Κύρτος</name> <name nymRef="Ἀνδρόσκυλος" type="patronymic">Ἀνδροσκύλω</name>
+                        <lb n="2"/><placeName ref="#eleutherna" type="ethnic">Ἐλευθενναῖος</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                        <lb n="3"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#gortyn"><w lemma="εὐϝεργέτας">εὐϝεργέτας</w></rs>
+                        <lb n="4"/>αὐτὸς καὶ <w lemma="γένος">γένος</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="G">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Pollos f. Phaistionnas"><name nymRef="Πόλλος">Πόλλος</name> <name nymRef="Φαιστιόννας" type="patronymic">Φαιστιόννα</name>
+                        <lb n="2"/><placeName ref="#eltynia" type="ethnic">Ἐλτυνιεὺς</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs>
+                        <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs> αὐτὸς
+                        <lb n="4"/>καὶ <w lemma="γένος">γένος</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="H">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Diodoros f. Theokritos"><name nymRef="Διόδωρος">Διόδωρος</name> <name nymRef="Θεόκριτος" type="patronymic">Θεοκρίτου</name>
+                        <lb n="2"/><placeName ref="#keos" type="ethnic">Κεῖος</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                        <lb n="3"/>αὐτὸς καὶ <w lemma="γένος">γένος</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="I">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Timagoras f. Alexon" ref="#apollonia"><name nymRef="Τιμαγόρας">Τιμαγόρας</name></persName> καὶ <persName type="honoured" key="Proklos f. Alexon" ref="#apollonia"><name nymRef="Πρόκλος">Πρόκλος</name></persName> οἱ <name nymRef="Ἀλέξων" type="patronymic">Ἀλέξωνος</name>
+                        <lb n="2"/><placeName ref="#apollonia" type="ethnic">Ἀπελλωνιᾶται</placeName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενοι</w></rs>
+                        <lb n="3"/>αὐτοὶ καὶ <w lemma="γένος">γένος</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="K">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Bolagoras f. Neokoudes"><name nymRef="Βωλαγόρας">Βωλαγόρας</name> <name nymRef="Νεοκούδης" type="patronymic">Νεοκούδιος</name>
+                        <lb n="2"/><placeName ref="#keraia" type="ethnic">Κεραΐτας</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                        <lb n="3"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="L">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Lygdamis f. Mittyrion"><name nymRef="Λύγδαμις">Λύγδαμις</name> <name nymRef="Μιττυρίων" type="patronymic">Μιττυρίωνος</name>
+                        <lb n="2"/><placeName ref="#rhaukos" type="ethnic">Ῥαύκιος</placeName></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                        <lb n="3"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="M">
+                <ab>
+                        <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="2"/><supplied reason="lost"><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs></supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος"><supplied reason="lost">πρόξενο</supplied>ς</w></rs>
+                        <lb n="3"/><supplied reason="lost">αὐτὸς καὶ</supplied> <w lemma="ἔκγονος"><supplied reason="lost">ἔκ</supplied>γονοι</w>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>I dodici decreti onorari si presentano tutti nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva soltanto del nome dell’onorato e della tipologia di onore conferitogli. Mentre in undici dei dodici casi la concessione consiste nella sola prossenia, l’onore più frequente nella città, nel decreto F ad essa è associata l’<foreign>euergesia</foreign>, non conferita da alcun altro decreto gortynio. In tutti i testi la mancata menzione delle entità istituzionali responsabili della decisione sembra essere sostituita dal ricordo della <foreign>polis</foreign> attraverso l’etnico collettivo cittadino Γορτυνίων, impiegato come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_207"><title>IC</title> IV 207</ref>) come specificazione dell’onore conferito.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 186-187 n. 16</bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5028 C j</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 206 <ptr type="phi" target="200647"/></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

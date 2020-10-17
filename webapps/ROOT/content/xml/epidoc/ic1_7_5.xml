@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica ad Asclepio da Chersonesos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 7 5</idno>
+                        <idno type="projectNo">184</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">179</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#chersonesos">Chersonesos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="καθοσιόω">καθωσ<supplied reason="lost">ιώθη</supplied></w> <rs type="institution" subtype="practice" role="decreeing" key="cheirotonia_meniaia" ref="#chersonesos"><w lemma="χειροτονία μηνιαῖα"><supplied reason="lost">χει</supplied><lb 
+                        break="no" n="2"/>ροτονίᾳ μην<supplied reason="lost">ιαίᾳ</supplied></w></rs>.
+                          <lb n="3"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#chersonesos"><w lemma="κοσμέω">ἐκόσμιον</w> δὲ σὺν <persName type="attested" key="- f. Exakestidas"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>τῶ <name nymRef="Ἐξακεστίδας" type="patronymic">Ἐξακεστίδα</name></persName></rs> οἵδ<supplied reason="lost">ε·</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#chersonesos"><persName type="attested" key="- f. Timotheos"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><name nymRef="Τιμόθεος" type="patronymic">Τιμοθέω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#chersonesos"><persName type="attested" key="Alexas f. D-"><name nymRef="Ἀλεξᾶς">Ἀλεξᾶς</name> <name nymRef="Δ-" type="patronymic">Δ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          <lb n="6"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#chersonesos"><persName type="attested" key="Oikonomos f. Diosk-"><name nymRef="Οἰκονόμος">Οἰκονόμος</name> <name nymRef="Διοσκ-" type="patronymic">Διοσκ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          <lb n="7"/><persName type="divine" key="Asklepios">Ἀσκλα<unclear>π</unclear><supplied reason="lost">ιῶι</supplied></persName>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica ad Asclepio, di iniziativa pubblica, è stata promossa in occasione di una <foreign>cheirotonia meniaia</foreign>, espressione che sembra da intendere come riunione mensile dell’assemblea (<bibl><ref target="#bib1"><title>IC</title> I</ref>, p. 37</bibl>). La lista dei cosmi in carica alle linee 3-7, che menziona il cosmo eponimo all’interno dell’espressione ἐκόσμιον δὲ σὺν ... οἵδε, conserva in tutto quattro nomi di magistrati.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#cheirotonia"><foreign>cheirotonia meniaia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 562-563 n. 43</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 7 5 <ptr type="phi" target="199090"/></bibl>; 
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, pp. 105-106</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 63-64</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

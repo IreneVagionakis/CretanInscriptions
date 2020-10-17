@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un <foreign>doulos</foreign> di Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 39</idno>
+                        <idno type="projectNo">237</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication" cert="low">dedica votiva?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="0030">I secolo a.C. - inizi I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Ῥούφου <rs type="institution" subtype="social_status" role="dedicant" key="doulos" ref="#lebena"><w lemma="δοῦλος">δοῦλος</w></rs> <w lemma="τορευτής">τορευτής</w>
+                          <lb n="2"/><space extent="unknown" unit="character"/> Σελέ<unclear>νι</unclear>ον.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica è promossa da un individuo che si presenta in qualità di schiavo di Rufo, probabilmente il Publio Granio Rufo protagonista della <foreign>sanatio</foreign> <ref type="ins" target="#ic1_17_17"><title>IC</title> I 17 17</ref> (sul quale cf. <bibl><ref target="#b81">Baldwin Bowsky 2002</ref>, p. 53 n. 24</bibl>). Il testo costituisce uno dei pochi documenti cretesi ad attestare lo <foreign>status</foreign> di schiavo al di fuori di un contesto normativo, nello specifico come elemento identificativo di un individuo; una situazione simile è documentata anche dalla dedica coeva da Chersonesos <ref type="ins" target="#ic1_7_6"><title>IC</title> I 7 6</ref>, oltre che forse dall’epitaffio da Keraia <ref type="ins" target="#seg_23_577"><title>SEG</title> 23.577</ref>. Il nome femminile conservatosi alla linea 2, invece, non sembra essere pertinente alla dedica in quanto di mano differente (<bibl><ref target="#bib1"><title>IC</title> I</ref>, p. 175</bibl>).</p>
+                    <p>Sebbene il supporto sia stato definito da Federico Halbherr come un blocco, è verosimile tuttavia che il testo fosse iscritto su di una base, forse relativa ad una statua di Asclepio o – più probabilmente – di Publio Granio Rufo (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, p. 184</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, p. 725 n. 175</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 39 <ptr type="phi" target="199308"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 31</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

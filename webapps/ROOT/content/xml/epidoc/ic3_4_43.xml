@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epigramma funerario per un cittadino di Itanos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 43</idno>
+                        <idno type="projectNo">533</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#erimoupoli_ioannis">Chiesa di Agios Ioannis Theologos, Erimoupoli</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0100">III-II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ς, ὦ <unclear>πα</unclear><supplied reason="lost">ροδῖτα</supplied>,
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> την ἀγλα<supplied reason="lost">ϊ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Κλ</supplied>αυδαίοισι <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><supplied reason="lost">ἐν δὲ</supplied> <w lemma="πάτρα">πάτραι</w> θραφθὶ<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><supplied reason="lost">ἶδος δ’</supplied> ἰσοφ<corr>ά</corr>ρι<unclear>ξ</unclear>εν ἑκηβόλ<supplied reason="lost">ῳ <persName type="divine" key="Apollo">Ἀπόλλωνι</persName></supplied>.
+                          <lb n="6"/><unclear>ἀ</unclear>νθ’ ὧ<unclear>ν</unclear> ἀλλ<supplied reason="lost">οί</supplied>ους ἦλθεν ὑ<supplied reason="lost">πὸ <w lemma="στέφανος">στεφάνους</w></supplied>·
+                          <lb n="7"/><supplied reason="lost">καὶ δὲ</supplied> <rs type="institution" subtype="assembly" role="builder" key="polisE" ref="#itanos"><w lemma="πατρίς">πατρὶς</w></rs> μὲν <w lemma="ἀνατίθημι">ἀνέστ<supplied reason="lost">ησεν</supplied></w> <supplied reason="lost">νῦν <w lemma="εἰκών">εἰκόνα</w> τήνδε</supplied>
+                          <lb n="8"/><supplied reason="lost">ἱ</supplied><unclear>ρ</unclear>εύουσα, ἐχάρη <supplied reason="lost">δ’</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">οιο δόμος</supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’epitaffio è stato dedicato al defunto commemorato dalla sua πατρίς, la <foreign>polis</foreign> di Itanos: il monumento funerario di cui fa parte, dunque, risulta essere pubblico, così come lo è quello posto dalla città per i tre concittadini <ref type="ins" target="#ic3_4_38"><title>IC</title> III 4 38</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, p. 593 n. 12</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 43 <ptr type="phi" target="200347"/></bibl>;
+                            <bibl><ref target="#b1494">Peek 1973-1974</ref>, p. 528 n. 29</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 49</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref>, II p. 419 n. 16, tav. I n. 16</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

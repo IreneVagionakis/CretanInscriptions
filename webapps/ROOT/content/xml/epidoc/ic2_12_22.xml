@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Eleutherna e gli <foreign>Artemitai</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 22</idno>
+                        <idno type="projectNo">108</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 28</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>αν</unclear> τόδε
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>μεναι δ<gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">ἰ</supplied>νῆμεν τα<gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>νεμεν πρ<gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>νηται ἀσφ<lb 
+                        break="no" n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>θεν νεμ<lb 
+                        break="no" n="7"/><gap reason="lost" extent="unknown" unit="character"/>τι δεκ<unclear>α</unclear> α<unclear>γ</unclear>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀμφιλογέω"><supplied reason="lost">ἀμ</supplied><unclear>φ</unclear>ιλογῆι</w> ἢ τω
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><unclear>η</unclear> ὁ <rs type="institution" subtype="social_status" role="regulation" key="epoikos" ref="#eleutherna"><w lemma="ἔποικος">ἔποικος</w></rs>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#eleutherna" type="ethnic"><supplied reason="lost">Ἐλουθ</supplied>ερναίων</placeName>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀμφιλογέω" part="I"><supplied reason="lost">ἀμ</supplied><unclear>φιλ</unclear>ογ<gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="2" unit="character"/>τωι τός κα α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><unclear>ϝ</unclear>ικατιετίας καὶ <rs type="institution" subtype="board" role="unknown" key="presbeutes" ref="#eleutherna"><w lemma="πρεσγηία">πρεσγη<lb 
+                        break="no" n="3"/><supplied reason="lost">ία</supplied>ς</w></rs>. αἰ δέ κα μὴ ἀποφάνηι
+                          <lb n="4"/><supplied reason="lost">ὄ</supplied>χ’ ὁ <rs type="institution" subtype="official" role="order" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσμος</w></rs> κέληται ὁ <placeName ref="#eleutherna" type="ethnic">Ἐλ<lb 
+                        break="no" n="5"/><supplied reason="lost">ου</supplied>θερναῖος</placeName>, πέντε <w lemma="στατήρ">στατ<lb 
+                        break="no" n="6"/>ῆρας</w> <w lemma="ἀποτίνω">ἀποτίνεν</w> ἕκαστον <supplied reason="lost">τ</supplied><lb 
+                        break="no" n="7"/>ὸν μὴ <supplied reason="lost">π</supplied>αρεχόμενον· ὅσ<supplied reason="lost">τ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">ι</supplied>ς δέ κ’ ἀπολείπηι <unclear>τ</unclear>ὰν <rs type="institution" subtype="social_group" role="exclusion" key="politeia" ref="#artemitai" cert="low"><w lemma="πολιτεία">πολ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="9"/>τήιαν</w> τῶν <placeName ref="#artemitai" type="ethnic">Ἀρτεμιτᾶν</placeName></rs> <w lemma="ἐπαγγέλλω"><supplied reason="lost">ἐ</supplied><lb 
+                        break="no" n="10"/>παγγηλάτω</w> τοῖς <rs type="institution" subtype="board" role="judicial_procedure" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσμοι<supplied reason="lost">ς</supplied></w></rs>
+                          <lb n="11"/>τοῖς <placeName ref="#eleutherna" type="ethnic">Ἐλουθερναίοις</placeName>· αἰ δέ <unclear>κ</unclear><supplied reason="lost">α</supplied>
+                          <lb n="12"/>μὴ <w lemma="ἐπαγγέλλω">ἐπαγγήλῃ</w>, τὰ <w lemma="θῖνος">θῖνα</w> μὴ ἰ<lb 
+                        break="no" n="13"/>νῆμεν τῶι<unclear>νυ</unclear>. τοῖς δὲ τ<gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="13a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="C">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="2" unit="character"/><orig>ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="illegible" quantity="1" unit="character"/><orig>καλι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>ευων<unclear>υ</unclear><supplied reason="lost" cert="low">μ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><orig>επαμ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="illegible" quantity="2" unit="character"/><orig>δεκα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="illegible" quantity="1" unit="character"/><orig>οστω</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><supplied reason="lost">τὰ</supplied><unclear>ς</unclear> <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#artemitai"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#eleutherna"><w lemma="συνθήκα">συνθ<supplied reason="lost">ήκας</supplied></w></rs></rs> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶν</supplied><placeName ref="#artemitai" type="ethnic"> <supplied reason="lost">Ἀρ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">τε</supplied>μιτ<unclear>ᾶ</unclear><supplied reason="lost">ν</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="illegible" quantity="1" unit="character"/>η ἰδία <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#eleutherna" type="ethnic"><supplied reason="lost">Ἐλουθ</supplied><lb 
+                        break="no" n="10"/><supplied reason="lost">ε</supplied>ρνα<supplied reason="lost">ι</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, ritenuto una legge da Margherita Guarducci (<bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 163</bibl>), sembra essere piuttosto un trattato fra Eleutherna e la comunità degli <foreign>Artemitai</foreign>, come suggerisce l’impiego del termine <foreign>syntheka</foreign> alla linea C 7.</p>
+                    <p>Gli <foreign>Artemitai</foreign> vengono dapprima definiti <foreign>epoikoi</foreign> alla linea A 9, per essere poi designati nel loro insieme come una <foreign>politeia</foreign> alle linee B 8-9. Quest’ultimo termine, a Creta impiegato esclusivamente qui e in un’accezione differente nel giuramento di Itanos <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref>, sembrerebbe indicare gli <foreign>Artemitai</foreign> come una comunità dipendente di Eleutherna; non è tuttavia da escludere la possibilità che il termine <foreign>politeia</foreign> implichi il possesso da parte della comunità di una propria cittadinanza, eventualità che comporterebbe per gli <foreign>Artemitai</foreign> lo <foreign>status</foreign> di <foreign>polis</foreign> dipendente (cf. Perlman 1996, pp. 252-254).</p>
+                    <p>Il testo conservatosi sul lato B informa sulla possibilità di invii di ambascerie, forse da Eleutherna presso gli <foreign>Artemitai</foreign>, e mostra come il cosmo (o il collegio dei cosmi) di Eleutherna abbia autorità su questioni non meglio chiarite riguardanti la loro comunità. Il frammento testimonia inoltre dell’esistenza della possibilità di abbandonare la comunità (ἀπολείπηι τὰν πολιτήιαν) a patto di darne informazione ai cosmi di Eleutherna, pena l’esclusione dalla vita sacra della <foreign>polis</foreign> dominante.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#epoikos"><foreign>epoikos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#politeia"><foreign>politeia</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1533">Petroulakis 1914</ref>, pp. 228-229</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 22 <ptr type="phi" target="199906"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 68</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 34</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b132">Bile 1986</ref></bibl>; 
+                            <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 252-254</bibl>; 
+                            <bibl><ref target="#b1642">Rubinstein 2007</ref>, p. 283</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

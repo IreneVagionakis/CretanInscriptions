@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Praisos per due Ateniesi</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 6 9</idno>
+                        <idno type="projectNo">512</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">44</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#praisos">Praisos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θεός">θεός</w>. ἀγα<unclear>θ</unclear>ῆι <w lemma="τύχη">τύχηι</w>·
+                          <lb n="1a"/><space quantity="1" unit="line"/>
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#praisos"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#praisos" type="ethnic">Πραισίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="archon" ref="#praisos"><w lemma="ἄρχων">ἄρ<lb 
+                        break="no" n="3"/>χουσι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="koinon" ref="#praisos"><w lemma="κοινόν">κο<unclear>ι</unclear>νῶι</w></rs>, <rs type="institution" subtype="assembly" role="gathering" key="ekklesia" ref="#praisos"><w lemma="ἐκκλησία">ἐκκλη<lb 
+                        break="no" n="4"/>σίας</w> κυρίας γεν<supplied reason="lost">ο</supplied>μένης</rs>·
+                          <lb n="5"/><persName type="honoured" key="Leon f. Pausanias"><name nymRef="Λέων">Λέοντα</name> <name nymRef="Παυσανίας" type="patronymic">Παυσ<supplied reason="lost">ανία</supplied></name> <placeName ref="#athens" type="ethnic">Ἀθηναῖ<lb 
+                        break="no" n="6"/>ον</placeName></persName> καὶ <persName type="honoured" key="Thrason f. Thrasonidas"><name nymRef="Θράσων">Θράσω<unclear>ν</unclear><supplied reason="lost">α</supplied></name> <name nymRef="Θρασωνίδας" type="patronymic"><supplied reason="lost">Θρα</supplied>σωνίδ<supplied reason="lost">α</supplied></name>
+                          <lb n="7"/><placeName ref="#athens" type="ethnic">Ἀθηναῖον</placeName></persName> <w lemma="φιλία">φιλ<supplied reason="lost">ίας</supplied></w> <supplied reason="lost">ἕνεκα καὶ</supplied>
+                          <lb n="8"/><w lemma="εὔνοια">εὐνοίας</w> τῆς <supplied reason="lost">περὶ τὴν</supplied> <placeName ref="#praisos" type="ethnic"><supplied reason="lost">Πραισί</supplied><lb 
+                        break="no" n="9"/>ων</placeName> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#praisos"><w lemma="πόλις">πόλιν</w></rs> δετ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" quantity="1" unit="character"/><orig>ιου</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, mutilo inferiormente, doveva garantire una o più concessioni a due Ateniesi per l’amicizia e la buona disposizione da loro dimostrate nei confronti della <foreign>polis</foreign> di Praisos (ll. 5-10).</p>
+                    <p>La parte superiore del documento, che si apre con una doppia espressione benaugurale, conserva la formula di sanzione, nella quale figurano in qualità di istituzioni responsabili della deliberazione i magistrati ed il <foreign>koinon</foreign> di Praisos, quest’ultimo noto solamente dal presente testo e dal decreto <ref type="ins" target="#ic3_6_10"><title>IC</title> III 6 10</ref>; i magistrati in questione, definiti <foreign>archontes</foreign>, è verosimile che siano i cosmi, che figurano come decretanti anche in <ref type="ins" target="#ic3_6_7"><title>IC</title> III 6 7</ref> e come responsabili della γνώμα in <ref type="ins" target="#ic3_6_10"><title>IC</title> III 6 10</ref> (cf. inoltre l’uso del termine ἀρχᾶς in riferimento al collegio dei cosmi in <ref type="ins" target="#ic3_6_7"><title>IC</title> III 6 7</ref>).</p>
+                    <p>La formula di sanzione, inoltre, è seguita alle linee 3-4 dall’espressione ἐκκλησίας κυρίας γεν[ο]μένης, a Creta impiegata unicamente a Praisos in più iscrizioni (cf. <ref type="ins" target="#ic3_6_10"><title>IC</title> III 6 10</ref> e <ref type="ins" target="#ic3_4_1"><title>IC</title> III 4 1</ref>, dove è priva del verbo γενομένης ed è forse riferita anche a Hierapytna), il cui valore è apparentemente vicino a quello dell’uso microasiatico della formula, dove assume il significato di «assemblea resa valida dal raggiungimento di un <foreign>quorum</foreign>» (così <bibl><ref target="#b574">Errington 1995</ref>, pp. 34-36</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#archon"><foreign>archon</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon ton Praision</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b102">Baunack 1889</ref>, p. 399 n. 2</bibl>; 
+                            <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 599-600 n. 29</bibl>; 
+                            <bibl><ref target="#b181">Bosanquet 1909-1910</ref>, pp. 282-284 n. 1</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 6 9 <ptr type="phi" target="200365"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1755">Spyridakis 1989</ref></bibl>; 
+                            <bibl><ref target="#b1345">Mikrogiannakis 2000</ref>, p. 306</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

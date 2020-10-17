@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lista dei <foreign>theorodokoi</foreign> di Delfi, sezione cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 26.624</idno>
+                        <idno type="projectNo">560</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delphi_museum">Museo archeologico di Delfi</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#list">lista</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delphi">Delfi, portico degli Ateniesi</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0220" notAfter="-0210" precision="low">220-210 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="column" n="III">
+                        <ab>
+                          <lb n="100"/>τῶν ἐπὶ <placeName ref="#crete">Κρῆτας</placeName>
+                          <lb n="101"/>ἐν <placeName ref="#kythera">Κυθήροις</placeName> Ἁρμόδικος Εὐτυχημος
+                          <lb n="102"/>ἐν <placeName ref="#phalasarna">Φαλασάρναι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#phalasarna"><persName type="attested" key="Polyainos f. Geraisios"><name nymRef="Πολύαινος">Πολύαινος</name> <name nymRef="Γεραίσιος" type="patronymic">Γεραισίου</name></persName></rs>
+                          <lb n="103"/>ἐν <placeName ref="#polyrrhenia">Πολύρηνι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#polyrrhenia"><persName type="attested" key="Pasinous f. Andrytos"><name nymRef="Πασίνους">Πασίνους</name></persName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#polyrrhenia"><persName type="attested" key="Timonenes f. Andrytos"><name nymRef="Τιμομένης">Τιμομένης</name> <name nymRef="Ἄνδρυτος" type="patronymic">Ἀνδρύτου</name></persName></rs>
+                          <lb n="104"/>ἐμ <placeName ref="#pelkis">Πελκινι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#pelkis"><persName type="attested" key="Archamenes f. Charinikos"><name nymRef="Ἀρχαμένης">Ἀρχαμένης</name> <name nymRef="Χαρίνικος" type="patronymic">Χαρινίκου</name></persName></rs>
+                          <lb n="105"/>ἐν <placeName ref="#lissos">Λισῶι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#lissos"><persName type="attested" key="Euarestas f. Euthales"><name nymRef="Εὐαρέστας">Εὐαρέστας</name> <name nymRef="Εὐθάλης" type="patronymic">Εὐθάλεος</name></persName></rs>
+                          <lb n="106"/>ἐν <placeName ref="#elyros">Ἰλύρωι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#elyros"><persName type="attested" key="Kollitos f. Parrasidas"><name nymRef="Κόσιλλος">Κόσιλλος</name> <name nymRef="Παρρασίδας" type="patronymic">Παρρασίδα</name></persName></rs>
+                          <lb n="107"/>ἐν <placeName ref="#tarrha">Τάρραι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#tarrha"><persName type="attested" key="Sosos f. Timomenes"><name nymRef="Σῶσος">Σῶσος</name> <name nymRef="Τιμομένης" type="patronymic">Τ<supplied reason="lost">ι</supplied>μομένεος</name></persName></rs>
+                          <lb n="108"/>ἐν <placeName ref="#araden">Ἠραδῆνι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#araden"><unclear>Λ</unclear><gap reason="illegible" quantity="1" unit="character"/><orig>κο<unclear>ι</unclear>ι</orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ω</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></rs>
+                          <lb n="109"/>ἐν <placeName ref="#anopolis">Ἀνωπόλι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#anopolis"><persName type="attested" key="Tharsytas"><name nymRef="Θαρσύτας">Θαρσύ<unclear>τα</unclear><supplied reason="lost">ς</supplied></name></persName></rs>
+                          <lb n="110"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#anopolis"><persName type="attested" key="Stesas"><name nymRef="Στησᾶς">Στησᾶς</name></persName></rs>
+                          <lb n="111"/>ἐν <placeName ref="#keraia"><unclear>Κε</unclear>ρ<unclear>α</unclear>ίαις</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#keraia"><persName type="attested" key="Oruas f. Rhianos"><name nymRef="Ὀρύας">Ὀρ<supplied reason="lost">ύ</supplied>ας</name> <name nymRef="Ῥιανός" type="patronymic">Ῥιανοῦ</name></persName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#keraia"><persName type="attested" key="Leukos"> <name nymRef="Λεῦκος">Λεῦκος</name></persName></rs>
+                          <lb n="112"/>ἐν <placeName ref="#kydonia">Κυδωνίαι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#kydonia"><persName type="attested" key="Oryas f. Stasimenes"><name nymRef="Ὀρύας">Ὀ<supplied reason="lost">ρ</supplied>ύας</name> <name nymRef="Στασιμένης" type="patronymic">Στασιμένεος</name></persName></rs>
+                          <lb n="113"/>ἐν <placeName ref="#aptera">Ἀπτέραι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#aptera"><persName type="attested" key="Pharos f. Xenotimos"><name nymRef="Φάρος">Φάρος</name> <name nymRef="Ξενότιμος" type="patronymic">Ξενοτίμου</name></persName></rs>
+                          <lb n="114"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#aptera"><persName type="attested" key="Sosos f. Pasthenidas"><name nymRef="Σῶσος">Σῶσος</name> <name nymRef="Πασθενίδας" type="patronymic">Πασθενίδα</name></persName></rs>
+                          <lb n="115"/>ἐν <placeName ref="#lappa">Λάππαι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#lappa"><persName type="attested" key="Archon f. Echaridas"><name nymRef="Ἄρχων">Ἄρχων</name> <name nymRef="Ἐχαρίδας" type="patronymic">Ἐχαρίδα</name></persName></rs>
+                          <lb n="116"/>ἐν <placeName ref="#rhithymna">Ῥιθύμναι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#rhithymna"><persName type="attested" key="Epithetos f. Akousilaos"><name nymRef="Ἐπίθετος">Ἐπίθετος</name> <name nymRef="Ἀκουσίλαος" type="patronymic">Ἀκουσ<supplied reason="lost">ι</supplied>λά<supplied reason="lost">ου</supplied></name></persName></rs>
+                          <lb n="117"/>ἐν <placeName ref="#phalanna">Φαλάνναις</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#phalanna"><persName type="attested" key="Aulos"><name nymRef="Αὖλος">Αὖλος</name></persName></rs>
+                          <lb n="118"/>ἐν <placeName ref="#sybrita">Σιβρύτωι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#sybrita"><persName type="attested" key="Eurylaos f. -"><name nymRef="Εὐρύλαος">Εὐρύλαος</name> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>
+                          <lb n="119"/>ἐν <placeName ref="#eleutherna">Ἐλευ<supplied reason="lost">θ</supplied>έρ<supplied reason="lost">ναι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="120"/>ἐν <placeName ref="#axos">Ὀάξω<supplied reason="lost">ι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="121"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="122"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="123"/><gap reason="illegible" quantity="20" unit="character"/>ου
+                          <lb n="124"/><gap reason="illegible" quantity="12" unit="character"/><orig>ο</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ωο</orig><gap reason="illegible" quantity="3" unit="character"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="column" n="IV">
+                        <ab>
+                          <lb n="1"/>ἐν Σ<gap reason="illegible" quantity="4" unit="character"/><orig>νολρλ</orig><gap reason="illegible" quantity="15" unit="character"/>
+                          <lb n="2"/>ἐν <placeName ref="#hierapytna">Ἱεραπύτναι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#hierapytna"><persName type="attested" key="Eurybatos"><name nymRef="Εὐρύβατος">Εὐρύβατος</name></persName></rs>
+                          <lb n="3"/>ἐν <placeName ref="#oleros">Ὠλέρωι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#oleros"><persName type="attested" key="Eumenes f. Poim-"><name nymRef="Εὐμένης">Εὐμένης</name> <name nymRef="Ποιμ-" type="patronymic">Ποι<unclear>μ</unclear><gap reason="illegible" quantity="6" unit="character"/></name></persName></rs>
+                          <lb n="4"/>ἐν <placeName ref="#arkades">Ἀρκάδοις</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#arkades"><persName type="attested" key="Mallaios Apo- f. Theodoros"><name nymRef="Μαλλαῖος">Μαλλαῖος</name> <name nymRef="Ἀπο-">Ἀπο<gap reason="illegible" quantity="3" unit="character"/></name>
+                          <lb n="5"/><name nymRef="Θεόδωρος" type="patronymic">Θεοδώρου</name></persName></rs>
+                          <lb n="6"/>ἐν <placeName ref="#priansos">Πριάμψωι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#priansos"><persName type="attested" key="Erasiptolemos"><name nymRef="Ἐρασιπτόλεμος">Ἐρασιπτόλε<supplied reason="lost">μος</supplied></name></persName></rs>
+                          <lb n="7"/>ἐν <placeName ref="#gortyn">Γόρτυνι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#gortyn"><persName type="attested" key="Archemachos f. E-"><name nymRef="Ἀρχέμαχος">Ἀρχέμαχος</name> <name nymRef="Ε-" type="patronymic">Ε<gap reason="illegible" quantity="4" unit="character"/></name></persName></rs>
+                          <lb n="8"/>ἐν <placeName ref="#lebena">Λεβῆνι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#lebena"><persName type="attested" key="Hippaithos f. Kar-"><name nymRef="Ἵππαιθος">Ἵππαιθος</name> <name nymRef="Καρ-" type="patronymic">Καρ<gap reason="illegible" quantity="4" unit="character"/></name></persName></rs>
+                          <lb n="9"/>ἐν <placeName ref="#lasaia">Λασσοίαι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#lasaia"><persName type="attested" key="Kyllon f. Nau-"><name nymRef="Κύλλων">Κύλλων</name> <name nymRef="Ναυ-" type="patronymic">Ναυ<gap reason="illegible" quantity="4" unit="character"/></name></persName></rs>
+                          <lb n="10"/>ἐν <placeName ref="#phaistos">Φαιστῶι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#phaistos"><persName type="attested" key="Moschos f. Chor-"><name nymRef="Μόσχος">Μόσχος</name> <name nymRef="Χορ-" type="patronymic">Χορ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          <lb n="11"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#phaistos"><persName type="attested" key="Moiseatas f. Philostratos"><name nymRef="Μοισεάτας">Μοισεάτας</name> <name nymRef="Φιλόστρατος" type="patronymic">Φιλοστρ<supplied reason="lost" cert="low">άτου</supplied></name></persName></rs>
+                          <lb n="12"/>ἐν <placeName ref="#psycheion">Ψυχείωι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#psycheion"><persName type="attested" key="Krios f. Arist-"><name nymRef="Κρίος">Κρίος</name> <name nymRef="Ἀριστ-" type="patronymic">Ἀριστ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          <lb n="13"/>ἐν <placeName ref="#bionnos">Βιώννωι</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#bionnos"><persName type="attested" key="Theutimos f. The-"><name nymRef="Θεύτιμος">Θεύτιμος</name> <name nymRef="Θε-" type="patronymic">Θε<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          <lb n="14"/>ἐμ <placeName ref="#matala">Ματάλοις</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#matala"><persName type="attested" key="Hedynous Mel-"><name nymRef="Ἡδύνους"><unclear>Ἡδύ</unclear>νους</name> <name nymRef="Μηλ-" type="patronymic">Μηλ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          </ab>
+                    </div>
+                    </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="III 111"><note><unclear>Κε</unclear>ρ<unclear>α</unclear>ίαις <bibl><ref target="#b594">Faure 1962</ref></bibl>; <gap reason="illegible" quantity="4" unit="character"/>αις <bibl><ref target="#b1548">Plassart</ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>La sezione cretese della lunga lista dei <foreign>theorodokoi</foreign> di Delfi, alle linee 100-124 della colonna III e 1-14 della colonna IV, conserva i nomi degli individui addetti all’accoglienza degli ambasciatori sacri delfici in ventotto città dell’isola, introdotti dall’intestazione τῶν ἐπὶ Κρῆτας. I <foreign>theorodokoi</foreign>, disposti secondo l’ordine in cui le loro città dovevano essere visitate dai <foreign>theoroi</foreign>, sono individuati nelle <foreign>poleis</foreign> di Phalasarna, Polyrrhenia, Pelkis, Lissos, Elyros, Tarrha, Araden, Anopolis, Keraia (?), Kydonia, Aptera, Lappa, Rhithymna, Phalanna, Sybrita, Eleutherna, Axos, Hierapytna, Oleros, Arkades, Priansos, Gortyna, Lebena, Lasaia, Phaistos, Psycheion, Bionnos e Matala.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#theorodokos"><foreign>theorodokos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 2580</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 656</bibl>; 
+                            <bibl><ref target="#b1548">Plassart 1921</ref>, pp. 1-85</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 26.624 <ptr type="seg" target="a26_624"/> <ptr type="phi" target="237934"/></bibl>); 
+                            <bibl><ref target="#b1621">Robert 1946</ref>, pp. 512-523</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 55.574 <ptr type="seg" target="a55_574"/></bibl>, nuovo frammento).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b876">Haussoullier 1883</ref></bibl>; 
+                            <bibl><ref target="#b1401">Nikitsky 1885</ref>, pp. 101-104</bibl>; 
+                            <bibl><ref target="#b2083">Daux 1949</ref></bibl>; 
+                            <bibl><ref target="#b594">Faure 1962</ref>, pp. 40-41, 53</bibl>; 
+                            <bibl><ref target="#b598">Faure 1969</ref></bibl>;
+                            <bibl><ref target="#b46">Arena 1983</ref></bibl>; 
+                            <bibl><ref target="#b1602">Rigsby 1986</ref></bibl>; 
+                            <bibl><ref target="#b719">Gondicas 1988</ref>, n. 83</bibl>; 
+                            <bibl><ref target="#b922">Inglese 1991</ref></bibl>; 
+                            <bibl><ref target="#b1503">Perlman 1995</ref>, pp. 129-130</bibl>;
+                            <bibl><ref target="#b923">Inglese 1996</ref></bibl>; 
+                            <bibl><ref target="#bib443"><title>IThesp</title></ref> 487</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> p. 51 n. 2.6 (III, ll. 100-124)</bibl>;
+                            <bibl><ref target="#b930">Jacquemin <foreign>et al.</foreign> 2012</ref>, n. 125</bibl>;
+                            <bibl><ref target="#b1654">Rutherford 2014</ref>, n. D16 (III, ll. 104-124)</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

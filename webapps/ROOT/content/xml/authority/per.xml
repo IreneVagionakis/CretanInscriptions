@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Periods</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="archaic">
+                    <term xml:lang="en">Archaic</term>
+                    <term xml:lang="it">Arcaico</term>
+                    <origDate>700 - 450 BC</origDate>
+                    <abbr>A</abbr>
+                </item>
+                <item xml:id="archaic_classical">
+                    <term xml:lang="en">Archaic-Classical</term>
+                    <term xml:lang="it">Arcaico-classico</term>
+                    <origDate>700 - 323 BC</origDate>
+                    <abbr>A-C</abbr>
+                </item>
+                <item xml:id="classical">
+                    <term xml:lang="en">Classical</term>
+                    <term xml:lang="it">Classico</term>
+                    <origDate>450 - 323 BC</origDate>
+                    <abbr>C</abbr>
+                </item>
+                <item xml:id="classical_hellenistic">
+                    <term xml:lang="en">Classical-Hellenistic</term>
+                    <term xml:lang="it">Classico-ellenistico</term>
+                    <origDate>500 - 27 BC</origDate>
+                    <abbr>C-E</abbr>
+                </item>
+                <item xml:id="hellenistic">
+                    <term xml:lang="en">Hellenistic</term>
+                    <term xml:lang="it">Ellenistico</term>
+                    <origDate>323 - 27 BC</origDate>
+                    <abbr>E</abbr>
+                </item>
+                <item xml:id="hellenistic_imperial">
+                    <term xml:lang="en">Hellenistic-Imperial</term>
+                    <term xml:lang="it">Ellenistico-imperiale</term>
+                    <origDate>323 BC - 500 AD</origDate>
+                    <abbr>E-I</abbr>
+                </item>
+                <item xml:id="imperial">
+                    <term xml:lang="en">Imperial</term>
+                    <term xml:lang="it">Imperiale</term>
+                    <origDate>27 BC - 500 AD</origDate>
+                    <abbr>I</abbr>
+                </item>
+                <item xml:id="imperial_byzantine">
+                    <term xml:lang="en">Imperial-Byzantine</term>
+                    <term xml:lang="it">Imperiale-bizantino</term>
+                    <origDate>27 BC - 500 AD</origDate>
+                    <abbr>I-B</abbr>
+                </item>
+                <item xml:id="byzantine">
+                    <term xml:lang="en">Byzantine</term>
+                    <term xml:lang="it">Bizantino</term>
+                    <origDate>500 - 1000 AD</origDate>
+                    <abbr>B</abbr>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="en">Unknown</term>
+                    <term xml:lang="it">Sconosciuto</term>
+                    <origDate>800 BC - 1000 AD</origDate>
+                    <abbr>?</abbr>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

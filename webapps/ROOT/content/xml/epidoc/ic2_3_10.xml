@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Aptera</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 10</idno>
+                        <idno type="projectNo">048</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo">17</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">              
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω"><unclear>ἔδοξε</unclear></w></rs> <supplied reason="lost">τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά"><supplied reason="lost">β</supplied>ωλᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· <rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Pheidon f. Archetos"><name nymRef="Φείδων">Φείδων</name>
+                        <lb n="2"/><name nymRef="Ἄρχετος" type="patronymic">Ἀρχέτω</name></persName> <w lemma="λέγω">εἶπε</w></rs>· ἐπειδὴ <persName type="honoured" key="Polykles f. Amphichares"><name nymRef="Πολυκλῆς">Πολυκλῆς</name>
+                        <lb n="3"/><name nymRef="Ἀμφιχάρης" type="patronymic">Ἀμφιχάρη</name> <placeName ref="#paros" type="ethnic">Πάριος</placeName></persName> <w lemma="εὐνόως">εὐνόως</w> διακείμενος
+                        <lb n="4"/>ποθ’ ὅλαν μὲν τὰν <placeName ref="#crete">Κρήταν</placeName>, μάλιστα δὲ πο<lb 
+                        break="no" n="5"/>τὶ τὰν ἁμὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#aptera"><w lemma="πόλις">πόλιν</w></rs>, καὶ κατὰ κοινὸν καὶ κ<supplied reason="lost">ατ’</supplied> ἰδίαν
+                        <lb n="6"/><supplied reason="lost">τ</supplied>οῖς ἐν<supplied reason="lost">τυ</supplied>νχάνωσιν τῶν <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="polites" ref="#aptera"><w lemma="πολίτας">πολιτᾶν</w></rs> καθυπερξεν
+                        <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>τω</orig><gap reason="lost" quantity="1" unit="character"/> <w lemma="φιλοτιμέομαι"><supplied reason="lost">φι</supplied>λοτιμο<supplied reason="lost" cert="low">ύμενος</supplied></w>. <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">δεδόχθαι</w></rs>
+                        <lb n="8"/><supplied reason="lost">τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά"><supplied reason="lost">βω</supplied>λᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δ<supplied reason="lost">άμωι</supplied></w></rs> <supplied reason="lost"><w lemma="ἐπαινέω">ἐπαινέσαι</w> Πολυκλῆν Ἀμ</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">φιχά</supplied><unclear>ρ</unclear>η καὶ ἦμεν <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρ<unclear>όξ</unclear>ε<unclear>ν</unclear>ον</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="θεῖος">θ<unclear>ε</unclear>ίων</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνω<unclear>ν</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><orig>κατατ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><orig>μνημεν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="12a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βω<supplied reason="lost">λᾶι</supplied></w></rs> <supplied reason="lost">καὶ</supplied>     
+                        <lb n="2"/>τ<supplied reason="lost">ῶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· <gap reason="illegible" quantity="1" unit="character"/><orig>ασ</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                        <lb n="3"/><persName type="honoured" key="Andi-las f. Aristarchos" ref="#unknown" cert="low"><name nymRef="Ἀνδι-λας" cert="low"><orig>ανδι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>λαν</orig></name> <name nymRef="Ἀρίσταρχος" type="patronymic">Ἀριστάρ<supplied reason="lost">χω</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>   
+                        <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενον</w></rs> ἦμεν αὐτὸ<supplied reason="lost">ν</supplied>  
+                        <lb n="5"/><supplied reason="lost">κα</supplied>ὶ <w lemma="ἔγγονος">ἐγγόνος</w>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="C">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> κα<lb 
+                        break="no" n="2"/>ὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs> <gap reason="lost" extent="unknown" unit="character"/>   
+                        <lb n="2a"/><space quantity="3" unit="line"/>
+                        <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος"><supplied reason="lost">πρ</supplied>οξέν<supplied reason="lost">ος</supplied></w></rs> <supplied reason="lost">ἦμεν αὐτὸς καὶ <w lemma="ἔγγονος">ἐγγόνος</w></supplied>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>La formula di sanzione, con cui esordiscono tutti e tre i decreti, mostra la <foreign>bola</foreign> e il <foreign>damos</foreign> come agenti nell’atto deliberativo, come nella quasi totalità dei documenti analoghi della città (ad esclusione di <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>), ed è seguita dalla menzione del proponente, elemento caratteristico di alcuni decreti di Aptera.</p>
+                    <p>Il documento A è uno dei pochi decreti della città – assieme ad <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref> e <ref type="ins" target="#ic2_3_4c">4 C</ref> – in cui sono riportate le motivazioni del conferimento di onori, in questo caso la disponibilità e buona disposizione di un cittadino di Paros nei confronti di tutta Creta, della <foreign>polis</foreign> di Aptera e dei suoi <foreign>politai</foreign>. Il decreto, inoltre, conserva alle linee 7-8 anche la formula di mozione (presente anche in <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>, <ref type="ins" target="#ic2_3_3">3</ref> e <ref type="ins" target="#ic2_3_4c">4 C</ref>), nella quale compaiono ancora la <foreign>bola</foreign> e il <foreign>damos</foreign>. Oltre alla prossenia, al cittadino pario dovevano essere concessi altri privilegi, elencati nelle quattro linee lacunose con cui si conclude il decreto; è verosimile che fra questi rientrasse l’<foreign>isopoliteia</foreign>, a cui farebbe pensare la condivisione di tutte le cose divine e umane intravedibile alla linea 10.</p>
+                    <p>I documenti B e C, più semplici, presentano subito dopo la formula di sanzione la sola concessione di prossenia, come nella maggior parte degli altri decreti onorari di Aptera.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, proponente (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, pp. 431-433 n. 6</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4946 (A, ll. 1-8)</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 10 <ptr type="phi" target="199717"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b118">Berranger-Auserve 2000</ref>, pp. 124-126</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

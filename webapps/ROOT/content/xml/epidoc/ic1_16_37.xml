@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Lato</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 37</idno>
+                        <idno type="projectNo">456</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0100" notAfter="0100">I secolo a.C. - I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> <supplied reason="lost">τῶν</supplied> <placeName ref="#lato" type="ethnic"><supplied reason="lost">Λατί</supplied><lb 
+                        break="no" n="2"/>ων</placeName>· <persName type="honoured" key="Pago- m. Echedamos f. -" ref="#unknown"><name nymRef="Παγω-">Παγω<gap reason="lost" extent="unknown" unit="character"/></name> <supplied reason="lost">τὰν</supplied>
+                          <lb n="3"/><name nymRef="Ἐχέδαμος" type="andronym">Ἐχεδάμω</name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName> <w lemma="γυνά"><supplied reason="lost">γυ</supplied><lb 
+                        break="no" n="4"/>ναῖκα</w> <w lemma="σωφροσύνα">σω<supplied reason="lost">φροσύνας</supplied></w>
+                          <lb n="5"/>χάριν. <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione costituisce una delle due dediche pubbliche di Lato, promosse entrambe dalla <foreign>polis</foreign> (cf. la dedica votiva <ref type="ins" target="#chaniotis_54-56d">Chaniotis, <title>Verträge</title> 54/56d</ref>). Il beneficiario della dedica onoraria, una donna, presenta nella propria formula onomastica un riferimento al marito, che stando a quanto conservatosi sulla pietra non sembra aver ricoperto cariche pubbliche a Lato.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, p. 652 n. 64</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5082</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 37 <ptr type="phi" target="199246"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

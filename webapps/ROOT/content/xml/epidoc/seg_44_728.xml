@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dei cosmi di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 44.728</idno>
+                        <idno type="projectNo">174</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">249</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#knossos">Knossos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀγαθᾶι τύ</supplied>χαι <space extent="unknown" unit="character"/>
+                          <lb n="2"/><rs type="institution" subtype="tribe" role="eponym" key="is" ref="#knossos"><supplied reason="lost">ἐπὶ τᾶς</supplied> <w part="F" lemma="-ις"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ίδ</supplied>ος</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos"><w lemma="κοσμέω">κοσμιόν<lb 
+                        break="no" n="3"/><supplied reason="lost">των</supplied></w> <supplied reason="lost">τῶν σὺν</supplied> <persName type="attested" key="Moschos f. Archonidas"><name nymRef="Μόσχος"><supplied reason="lost">Μό</supplied><unclear>σ</unclear>χωι</name> τῶ <name nymRef="Ἀρχωνίδας" type="patronymic">Ἀρχω<lb 
+                        break="no" n="4"/><supplied reason="lost">νίδα</supplied></name></persName></rs> <supplied reason="lost">οἱ</supplied> <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#knossos"><w lemma="κόσμος"><supplied reason="lost">κό</supplied>σμοι</w></rs> τῶι <orig>σα</orig><lb 
+                        break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τᾶ</supplied>ς <rs type="institution" subtype="public_space" role="construction" key="pastas" ref="#knossos"><w lemma="παστάς">παστάδος</w></rs>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>σκο</orig><gap reason="lost" quantity="1" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="lost" atLeast="3" atMost="4" unit="character" precision="low"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, l’unica pervenuta da Knossos, è relativa alla costruzione o al restauro di un portico. L’intervento, datato secondo la tribù in carica – il cui nome termina in -<foreign>is</foreign> – e secondo il cosmo eponimo Moschos figlio di Archonidas, è promosso dall’intero collegio dei cosmi di Knossos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#pastas"><foreign>pastas</foreign></ref>, tribù (<ref type="inst" target="#is"><foreign>-is</foreign></ref>?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1502">Perlman 1994</ref>, pp. 123-124 n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 44.728 <ptr type="phi" target="202163"/> <ptr type="seg" target="a44_728_730"/></bibl>); 
+                            <bibl><ref target="#b306">Chaniotis 1995a</ref>, pp. 31-32 n. 4</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

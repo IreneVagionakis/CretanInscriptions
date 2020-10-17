@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica onoraria di Polyrrhenia per Cornelio Scipione Ispallo</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 13</idno>
+                        <idno type="projectNo">008</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#polyrrhenia_99_fathers">Chiesa dei 99 Padri, Polyrrhenia</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base di statua</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, acropoli</origPlace>
+                            <origDate period="#hellenistic" when="-0189" precision="low">189 a.C. ca.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Gnaios Kornelios Skipion Hispanos f. Gnaios" ref="#rome"><name nymRef="Γναῖος">Γνάιον</name> <name nymRef="Κορνήλιος">Κορνήλιον</name>
+                        <lb n="2"/><name nymRef="Γναῖος" type="patronymic">Γναΐω</name> υἱὸν <name nymRef="Σκιπίων">Σκιπίωνα</name>
+                        <lb n="3"/><name nymRef="Ἱσπανός">Ἱσπανὸν</name></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#polyrrhenia"><w lemma="εὐεργέτας">εὐεργέταν</w></rs>.
+                        <lb n="4"/><space extent="unknown" unit="character"/> ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La dedica della statua, che prosegue la tendenza della città a onorare stranieri illustri inaugurata da <ref type="ins" target="#ic2_23_12a"><title>IC</title> II 23 12 A</ref>, risale al periodo che vede la prima comparsa sullo scenario cretese dei Romani, che Polyrrhenia prontamente si adopera per ingraziarsi. La dedica, promossa dalla <foreign>polis</foreign> come gli altri documenti analoghi della città per individui eminenti della scena politica dell’epoca, <ref type="ins" target="#ic2_23_12a"><title>IC</title> II 23 12 A</ref> e <ref type="ins" target="#ic2_23_14">14</ref>, oltre che il successivo <ref type="ins"><title>IC</title> II 23 12 B</ref>, adotta una formulazione più sintetica di quella in uso un secolo prima: il verbo di dedica viene infatti ora omesso, così come scompare la menzione dell’etnico collettivo della città dedicante. Il destinatario della dedica, diversamente da Areo – ricordato in <ref type="ins" target="#ic2_23_12a"><title>IC</title> II 23 12 A</ref> solamente come re dei Lacedemoni –, viene proclamato evergete; la concessione, più o meno in linea con quanto avviene in alcuni decreti onorari coevi della città, <ref type="ins" target="#ic2_23_4"><title>IC</title> II 23 4</ref> A e <ref type="ins" target="#ic2_23_5">5</ref>, che concedono l’<foreign>euergesia</foreign> in concomitanza con la prossenia, costituisce comunque uno stadio intermedio nell’evoluzione della prassi onoraria della città: un secolo dopo, infatti, Cecilio Metello sarà definito in <ref type="ins" target="#ic2_23_14"><title>IC</title> II 23 14</ref> non più soltanto evergete ma anche <foreign>autokrator</foreign> e <foreign>soter</foreign>.</p>
+                <p>Più che Gneo Cornelio Scipione Ispano, attivo nella seconda metà del II secolo a.C. (cf. <ref type="lit">App. <title>Lyb.</title> 375</ref>, <ref type="ins"><title>CIL</title> I<hi rend="superscript">2</hi> 2.15</ref>), il personaggio onorato sembra essere suo padre Gneo Cornelio Scipione Ispallo, <foreign>pontifex</foreign> nel 199 a.C., <foreign>praetor peregrinus</foreign> nel 179 e console nel 176, anno della morte (<bibl><ref target="#bib111"><title>CIL</title></ref> I, p. 436</bibl>, <ref type="lit"><title>Fasti Capit.</title> XVIIIb</ref>; <ref type="lit">Liv. XLI 14-16</ref>). L’identificazione (già in <bibl><ref target="#bib2"><title>IC</title> II</ref>, pp. 22 e 251</bibl>; diversamente Martínez Fernández in <bibl><ref target="#bib40"><title>I.Polyr.</title></ref>, pp. 103-104</bibl>), ammessa dall’intercambiabilità tra le due forme del <foreign>cognomen ex virtute</foreign>, perfettamente sinonimiche, è supportata anche dall’analisi paleografica, che colloca la redazione della dedica non più tardi degli inizi del II secolo a.C. Il  personaggio è onorato anche in un’iscrizione di Aptera del 189 a.C., <ref type="ins" target="#ic2_3_5"><title>IC</title> II 3 5</ref>, assieme ai propri cugini Lucio Cornelio Scipione Asiatico e Publio Cornelio Scipione Africano e all’ammiraglio Lucio Emilio Regillo (cf. <bibl><ref target="#b480">De Souza 1998</ref></bibl>; sulla paleografia delle iscrizioni cretesi cf. <bibl><ref target="#b920">Ikonomaki 2010</ref></bibl>, <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, pp. 452-459</bibl>). I quattro, di ritorno dalla guerra contro Antioco III (190-189 a.C.) e dalla vittoria di Magnesia, durante il tragitto verso Roma si fermano a Creta, dove in seguito alla battaglia si è rifugiato Annibale, prima di recarsi da Prusia I nel Ponto (<ref type="lit">Nep. <title>Hann.</title> 9-10</ref>: <foreign>Cretam ad Gortynios venit</foreign>). Il loro transito dall’isola è verosimilmente connesso all’intervento diplomatico del pretore Quinto Fabio Labeone dell’estate del 189 a.C. (<ref type="lit">Liv. XXXVII 60.3</ref>), della cui delegazione anche loro sembrano far parte. L’ambasceria, finalizzata al recupero di prigionieri romani, si occupa anche dello scioglimento del conflitto fra Knossos, Gortyna e Kydonia, fatto che giustifica il passaggio da Creta occidentale attestato dalle due iscrizioni. Non è noto un evento particolare che motivi il conferimento del titolo di evergete al Romano; è tuttavia plausibile l’ipotesi di Alexander Karafotias che Polyrrhenia abbia approfittato della circostanza del passaggio della delegazione per redimersi agli occhi di Roma dal sostegno prestato alla Lega Etolica, a Filippo V e a Nabide, da questa recentemente sconfitto, durante la Prima guerra rodio-cretese (<bibl><ref target="#b966">Karafotias 1998</ref></bibl>; cf. <ref type="ins" target="#ic2_23_1"><title>IC</title> II 23 1</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1387">Myres 1896</ref>, n. 6</bibl>; 
+                    <bibl><ref target="#bib68"><title>IGR</title></ref> I 954</bibl>; 
+                    <bibl><ref target="#b754">Guarducci 1929</ref>, pp. 66-67</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 13 <ptr type="phi" target="200051"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 26</bibl>; 
+                    <bibl><ref target="#b966">Karafotias 1998</ref>, p. 108</bibl>; 
+                    <bibl><ref target="#b1252">Martínez Fernández 2006</ref>, n. 3</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 15</bibl>.
+                    <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 492-494</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

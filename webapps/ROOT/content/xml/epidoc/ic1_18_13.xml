@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria da Lyttos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 18 13</idno>
+                        <idno type="projectNo">197</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lyttos">Lyttos</origPlace>
+                                    <origDate period="#imperial" notBefore="0001" notAfter="0100">I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost"><w lemma="θιός">θιοί</w>· ἀγαθᾶι <w lemma="τύχα">τύχαι</w>.</supplied> <rs type="institution" subtype="tribe" role="eponym" key="Lasynthioi" ref="#lyttos"><supplied reason="lost">ἐπὶ τῶν</supplied>
+                          <lb n="2"/><w lemma="Λασύνθιοι"><supplied reason="lost">Λ</supplied>ασυνθίων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lyttos"><w lemma="κοσμέω">κο<corr>σ</corr><unclear>μ</unclear><supplied reason="lost">ιόντων</supplied></w>
+                          <lb n="3"/><supplied reason="lost">τῶ</supplied>ν σὺν <persName type="attested" key="Endialos f. Komastas"><name nymRef="Ἐνδίαλος">Ἐνδιάλῳ</name> τῶ <name nymRef="Κωμάστας" type="patronymic"><supplied reason="lost">Κωμάστα</supplied></name></persName></rs>
+                          <lb n="4"/><w lemma="ἐπιμελέομαι"><supplied reason="lost">ἐπ</supplied>εμελήθην</w> <w lemma="καταρτίζω">κατ<supplied reason="lost">αρτισθῆ</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">με</supplied>ν</w> τὸν <rs type="institution" subtype="public_space" role="construction" key="bomos" ref="#lyttos"><w lemma="βωμός">βωμὸν</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> κατὰ τὸν δοθέ<supplied reason="lost">ντα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ν ἐκ τῶν τ<corr>ᾶ</corr>ς <rs type="institution" subtype="assembly" role="funds" key="polis" ref="#lyttos"><w lemma="πόλις">π<supplied reason="lost">όλεως</supplied></w></rs> <w lemma="πρόσοδος"><supplied reason="lost">προ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">σ</supplied>όδ<surplus>ι</surplus>ων</w>· <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lyttos"><w lemma="κοσμέω">ἐκόσμ<supplied reason="lost">ιον</supplied></w> <supplied reason="lost">δὲ</supplied> <persName type="attested" key="Endialos f. Komastas"><name nymRef="Ἐνδίαλος"><supplied reason="lost">Ἐν</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">δία</supplied>λος</name> <name nymRef="Κωμάστας" type="patronymic">Κωμάσ<supplied reason="lost">τα</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="2"><note><supplied reason="lost">Λ</supplied>ασυνθίων <bibl><ref target="#b1029">Kritzas</ref></bibl>; <supplied reason="lost">Ὑ</supplied>α<corr>κ</corr>υνθίων <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, relativa al restauro di un altare, è datata all’anno in cui è cosmo eponimo di Lyttos Endialos figlio di Komastas, della tribù dei <foreign>Lasynthioi</foreign>. Il nome della tribù, correttamente integrato da Charalambos Kritzas, è attestato anche in un’iscrizione edificatoria del santuario di Hermes e Afrodite di Symi Viannou, molto probabilmente anch’essa frutto dell’iniziativa dei magistrati di Lyttos (<ref type="ins" target="#seg_50_937"><title>SEG</title> 50.937</ref>). Quanto al cosmo eponimo, il suo patronimico è particolarmente degno di interesse in quanto attestato quasi soltanto in relazione all’onomastica di cosmi eponimi e protocosmi di Lyttos (cf. <ref type="ins" target="#ic1_18_12"><title>IC</title> I 18 12</ref>, <ref type="ins">19-21</ref>, <ref type="ins">32-36</ref> e forse <ref type="ins" target="/ic1_18_63">63</ref>; l’unica occorrenza che fa eccezione è quella in <ref type="ins"><title>IG</title> IV<hi rend="superscript">2</hi>,1 64</ref>). Sebbene aventi lo stesso patronimico, tuttavia, i cosmi Endialos del presente testo e Lasthenes, eponimo nell’iscrizione edificatoria <ref type="ins" target="#ic1_18_12"><title>IC</title> I 18 12</ref>, dovevano appartenere a rami differenti di una stessa famiglia di spicco, in quanto membri rispettivamente della tribù dei <foreign>Lasynthioi</foreign> e dell’<foreign>Archeia</foreign>. Il nome del cosmo eponimo, ripetuto anche alle linee 8-9, era originariamente seguito dall’elenco degli altri cosmi della città.</p>
+                    <p>Le linee 7-8, inoltre, informano che la ristrutturazione del <foreign>bomos</foreign> è avvenuta per mezzo del ricorso ai fondi della <foreign>polis</foreign> (a differenza dell’intervento edilizio attestato in <ref type="ins" target="#ic1_18_12"><title>IC</title> I 18 12</ref>, che si è invece avvalso dei fondi degli <foreign>hieromnamones</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#bomos"><foreign>bomos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, tribù (<ref type="inst" target="#lasynthioi"><foreign>Lasynthioi</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b580">Falkener 1854</ref>, p. 18</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 18 13 <ptr type="phi" target="199341"/></bibl>;
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, p. 108</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b811">Guizzi 1999a</ref>, p. 284</bibl>; 
+                            <bibl><ref target="#b1029">Kritzas 2000</ref>, p. 95</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

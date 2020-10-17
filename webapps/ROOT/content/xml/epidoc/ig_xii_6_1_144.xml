@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Gortyna relativo a Samo</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG XII, 6 1 144</idno>
+                        <idno type="projectNo">355</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#samos_heraion">Lapidario dell’<foreign>Heraion</foreign>, Samo</repository> 
+                                <idno type="invNo">J 230</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#samos">Samo, <foreign>Heraion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0250" notAfter="-0200">250-200 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#gortyn"><w lemma="δοκέω">ἔδοξε</w></rs> το<unclear>ῖ</unclear><supplied reason="lost">ς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#gortyn"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs> τ</supplied><lb 
+                        break="no" n="2"/>ῶν <placeName ref="#gortyn" type="ethnic">Γορτυνί<supplied reason="lost">ων</supplied></placeName><supplied reason="lost">· <space extent="unknown" unit="character"/> ἐπειδὴ <placeName ref="#samos" type="ethnic">Σάμιοι</placeName></supplied> <w lemma="φίλος"><supplied reason="lost">φί</supplied><lb 
+                        break="no" n="3"/>λοι</w> καὶ <w lemma="εὔνοος">εὖνο<supplied reason="lost">ι</supplied></w> <supplied reason="lost">ὄντες ἁμῖν <w lemma="ἀποστέλλω">ἀπέστειλαν</w></supplied>
+                          <lb n="4"/>ψάφισμα κ<supplied reason="lost">αὶ πρειγευτὰν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>Φράσωνος <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>αὐτοῖς <orig>οι<unclear>ι</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>πρειγευτα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><supplied reason="lost">δ</supplied>ιὰ πλιόν<supplied reason="lost">ων</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" quantity="3" unit="character"/> <unclear>χρ</unclear>όν<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, relativo a Samo, si apre con una formula di sanzione, nella quale vengono ricordati come responsabili della deliberazione verosimilmente i cosmi e la <foreign>polis</foreign> di Gortyna, come avviene anche nel decreto <ref type="ins" target="#ic4_176"><title>IC</title> IV 176</ref>. Quanto all’oggetto del documento, la sezione relativa alle motivazioni sembra fare riferimento all’invio a Gortyna di un decreto e di ambasciatori da parte di Samo.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> XII, 6 1 144 <ptr type="phi" target="343906"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

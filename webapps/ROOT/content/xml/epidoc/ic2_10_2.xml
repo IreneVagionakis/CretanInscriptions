@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Kydonia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 10 2*</idno>
+                        <idno type="projectNo">027</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#bangor_clandeboye_house">Clandeboye House, Irlanda del Nord</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                            <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><space extent="unknown" unit="character"/> <placeName ref="#kydonia" type="ethnic">Κυδωνιατᾶν</placeName>. <space extent="unknown" unit="character"/>
+                        <lb n="2"/><placeName ref="#kydonia" type="ethnic">Κυδωνιατᾶν</placeName> ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#kydonia"><w lemma="πόλις">πόλις</w></rs> καὶ οἱ <rs type="institution" subtype="board" role="foreign_relations" key="archon" ref="#kydonia"><w lemma="ἄρχων">ἄρχοντες</w></rs> <placeName ref="#teos" type="ethnic">Τηίων</placeName> τᾶι βωλ<supplied reason="lost">ᾶι</supplied>
+                        <lb n="3"/>καὶ τῶι δάμωι <w lemma="χαίρω">χαίρειν</w>. ἐπειδὴ <placeName ref="#teos" type="ethnic"><supplied reason="lost">Τήι</supplied>οι</placeName> <w lemma="φίλος">φίλοι</w> καὶ <w lemma="συγγενής">συγγενεῖς</w>
+                        <lb n="4"/>ὑπάρχοντες διὰ <w lemma="πρόγονος">προγόνων</w> τᾶι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#kydonia"><w lemma="πόλις">πόλει</w></rs> ψάφισμα καὶ πρεσ<lb 
+                        break="no" n="5"/>βευτὰς ἀπεστάλκαντι Ἀπολλόδοτον καὶ Κωλώταν, οἳ
+                        <lb n="6"/>ἐπελθόντες ἐπὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#kydonia"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs> τό τε ψάφισμ<corr>α</corr> ἀπέδω<lb 
+                        break="no" n="7"/>καν καὶ αὐτοὶ διελέγην ἀκολούθως τοῖς γεγραμμένοις
+                        <lb n="8"/>τὰν ἐκτενεστάταν <w lemma="σπουδά">σπουδὰν</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίαν</w> ποιιόμε<lb 
+                        break="no" n="9"/>νοι περὶ τῶ γενέσθαι τὰν καθιάρωσιν τῶι <persName type="divine" key="Dionysos">Διονύσωι</persName> τᾶς
+                        <lb n="10"/>τε πόλιος καὶ τᾶς χώρας τᾶς <placeName ref="#teos" type="ethnic">Τηίων</placeName> καὶ τὰν ἀσυλίαν, ἔτι
+                        <lb n="11"/>δὲ καὶ τἄλλα τὰ ὑπάρχοντα αὐτοῖς ἔνδοξα καὶ τίμια εἰς
+                        <lb n="12"/>τὸν θεὸν ψαφιξαμένος καὶ αὐτὸς συναύξεν καὶ αἰεί τι<lb 
+                        break="no" n="13"/>νος ἀγαθῶ παραιτίος γενέσθαι τῶι δάμωι καὶ ὅτι ταῦτα
+                        <lb n="14"/>ποιήσαντες ἀκόλουθα πράξομεν τᾶι τε <supplied reason="lost"><w lemma="συγγένεια">συγγενείαι</w> καὶ τᾶι</supplied>
+                        <lb n="15"/>ποτὶ τὸ θεῖον εὐσεβείαι καὶ τὰ μέγιστα χαρι<supplied reason="lost">ξώμεθα τῶι</supplied>
+                        <lb n="16"/>δάμωι· <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> <placeName ref="#teos" type="ethnic">Τηίοις</placeName> <w lemma="φίλος">φίλοις</w> καὶ <w lemma="οἰκεῖος">οἰκεί<supplied reason="lost">οις</supplied></w> <supplied reason="lost">ἐῶσιν δι</supplied><lb 
+                        break="no" n="17"/>ότι τὸν <persName type="divine" key="Dionysos">Διόνυσον</persName> καὶ αὐτοὶ σεβόμεθα καὶ τὸν <placeName ref="#teos" type="ethnic">Τηίω<supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">δᾶμον</supplied>
+                        <lb n="18"/><w lemma="συγγενής">συγγενέα</w> ὄντα ἀσπαζόμεθα καὶ <w lemma="ἐπαινέω">ἐπαινῶμεν</w> δ<supplied reason="lost">ι</supplied>ό<supplied reason="lost">τι κα</supplied><lb 
+                        break="no" n="19"/>λῶς καὶ ἐνδόξως καὶ καταξίως τῶ<del rend="erasure">ι</del> θεῶ<del rend="erasure">ι</del> προεστάκαντι·
+                        <lb n="20"/>ἕνεκα ὧν καὶ παρ’ ἁμῶν τὰ καλὰ καὶ <w lemma="τίμια">τίμια</w> δίδοται τῶι θεῶι
+                        <lb n="21"/>καὶ <placeName ref="#teos" type="ethnic">Τηίων</placeName> τάν τε πόλιν καὶ τὰν χώραν ἀνίεμεν ἱερὰν καὶ
+                        <lb n="22"/><w lemma="ἄσυλος">ἄσυλον</w> νῦν τε καὶ εἰς τὸν ἄλλον χρόνον πάντα, καὶ πει<supplied reason="lost">ρα</supplied><lb 
+                        break="no" n="23"/>σώμεθα αἰεί τινος ἀγαθῶ παραίτιοι γίνεσθαι τῶι δάμωι
+                        <lb n="24"/>καὶ κοινᾶι καὶ ἰδίαι. εἰ καί τινες ἄγωντι <placeName ref="#teos" type="ethnic">Τηίος</placeName> ἢ τὸς κατοικόν<lb 
+                        break="no" n="25"/>τας παρ’ αὐτοῖς, οἱ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#kydonia"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἄλλος ὁ λῶν <placeName ref="#kydonia" type="ethnic">Κυδωνια<lb 
+                        break="no" n="26"/>τᾶν</placeName> ἢ <placeName ref="#teos" type="ethnic">Τηίων</placeName> ἀφελόμενοι καὶ διδόντες τοῖς <w lemma="ἀδικέω">ἀδικη<lb 
+                        break="no" n="27"/>μένοις</w> κύριοι ἔστωσαν. <space extent="unknown" unit="character"/> <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="2"><note>καὶ οἱ ἄρχοντες <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; καὶ οἱ κόσμοι <bibl><ref target="#bib116"><title>CIG</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>L’epistola, che appartiene alla serie dei documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>, <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>, <bibl><ref target="#b1040">Kvist 2003</ref></bibl>, <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>), è particolarmente interessante per la conoscenza della realtà istituzionale di Kydonia. Il decreto, infatti, oltre a menzionare la <foreign>polis</foreign> come attore politico (l. 2), offre l’unica attestazione dell’<foreign>ekklesia</foreign> (l. 6) e dei cosmi (l. 25) della città.</p>
+                    <p>Quanto agli ἄρχοντες menzionati alla linea 2 (κόσμοι nell’edizione di Boeckh, probabilmente per ipercorrettismo), più che un nome alternativo per indicare i κόσμοι dovuto all’influenza attica derivante dai rapporti di Kydonia con Atene – come suggerisce Margherita Guarducci (<bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 119</bibl>; cf. <bibl><ref target="#bib13">Bile</ref>, p. 339</bibl>) – sembra invece un termine non corrispondente ad una figura istituzionale precisa ma indicante in modo generico l’insieme dei magistrati di Kydonia, tra i quali figurano senz’altro i cosmi. Il termine <foreign>archontes</foreign>, infatti, a Creta è impiegato nel periodo ellenistico anche ad Itanos (<ref type="ins" target="#ic3_4_7"><title>IC</title> III 4 7</ref> e <ref type="ins" target="#ic3_4_8">8</ref>), Knossos (<ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>), Praisos (<ref type="ins" target="#ic3_6_9"><title>IC</title> III 6 9</ref>) e Hierapytna (<ref type="ins" target="#ic3_4_10"><title>IC</title> III 4 10</ref>), fatto che rende improbabile un’influenza ateniese all’origine della sua adozione. La genericità del termine sembra inoltre confermata dalla menzione di altre figure istituzionali più specifiche sia nelle due iscrizioni di Itanos e Knossos, <ref type="ins" target="#ic3_4_7"><title>IC</title> III 4 7</ref> e <ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>, che nel caso di Kydonia.</p>
+                    <p>La <foreign>polis</foreign> è presente solamente nella formula dei saluti iniziali dell’epistola, nei quali precede gli <foreign>archontes</foreign>, diversamente da quanto avviene abitualmente: nei casi di menzione congiunta di magistrati ed assemblee, infatti, i primi sono soliti precedere le seconde. Sia la <foreign>polis</foreign> che gli <foreign>archontes</foreign>, in ogni caso, si presentano come i rappresentanti della collettività civica e come responsabili delle relazioni estere, in quest’ultimo ambito coadiuvati dall’<foreign>ekklesia</foreign>.</p>
+                    <p>L’<foreign>ekklesia</foreign>, presieduta dagli <foreign>archontes</foreign> della città, è addetta all’accoglienza degli ambasciatori di Teos; è ad essa inoltre che costoro consegnano il decreto inviato dalla propria città.</p>
+                    <p>Per quanto riguarda i cosmi, l’impressione è che a Kydonia costoro si trovino in una posizione piuttosto marginale, senz’altro meno dominante di quanto avviene invece in altre città cretesi. L’unica attività che li vede coinvolti è la restituzione degli eventuali ostaggi teii, operazione che per di più non risulta nemmeno essere una loro prerogativa esclusiva: tale azione, stando al documento, può infatti essere compiuta da chiunque altro lo voglia (οἱ κόσμοι καὶ ἄλλος ὁ λῶν Κυδωνιατᾶν). L’impiego del termine <foreign>archontes</foreign> nel prescritto dell’epistola, inoltre, rende molto probabile la presenza di altre figure istituzionali di rilievo nel gruppo esteso dei magistrati: non si spiegherebbe altrimenti la scelta lessicale, un <foreign>unicum</foreign> nell’intera serie di documenti cretesi relativi a Teos, caratterizzati tutti dalla menzione delle istituzioni specifiche nel proprio <foreign>incipit</foreign>.</p>
+                    <p>Un altro elemento peculiare dell’epistola di Kydonia è la sua struttura: la commistione delle tipologie documentarie di lettera e decreto, infatti, in questo caso raggiunge un livello tale che la prima non si limita a contenere un estratto del secondo – come avviene ad esempio in <ref type="ins" target="#ic2_23_3"><title>IC</title> II 23 3</ref> – ma vi si fonde al punto da arrivare all’omissione totale delle formule di sanzione e mozione del decreto (cf. <bibl><ref target="#b277">Ceccarelli 2005</ref>, pp. 361-369</bibl>). Tale scelta documentaria rende pertanto impossibile determinare chi sia preposto alla delibera a Kydonia: non sono infatti noti altri decreti della città oltre a questo, del quale si conservano solamente gli estratti relativi alla motivazione (ll. 3-16) e alla decisione presa (ll. 16-25).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#archon"><foreign>archon</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> n. 64</bibl>; 
+                    <bibl><ref target="#b273">Cauer 1883</ref>, n. 124</bibl>; 
+                    <bibl><ref target="#bib116"><title>CIG</title></ref> 3055 (ll. 1-2)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5168</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 54</bibl>; 
+                    <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 203</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 10 2* <ptr type="phi" target="199853"/></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 50</bibl>; 
+                    <bibl><ref target="#b435">Curty 1995</ref>, n. 43b (ll. 1-19)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 139</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>; 
+                    <bibl><ref target="#b1040">Kvist 2003</ref></bibl>; 
+                    <bibl><ref target="#b277">Ceccarelli 2005</ref>, pp. 361-369</bibl>; 
+                    <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

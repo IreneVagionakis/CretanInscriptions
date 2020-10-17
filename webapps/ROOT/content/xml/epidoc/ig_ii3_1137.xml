@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto onorario ateniese per Eumaridas di Kydonia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IG II³ 1 1137 I</idno>
+                        <idno type="projectNo">596</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#athens_national_museum">Museo Nazionale, Atene</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#athens">Atene, santuario del <foreign>Demos</foreign> e delle <foreign>Charites</foreign> nell’<foreign>agora</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0228" notAfter="-0227">228/7 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/>θεοί·
+                        <lb n="2"/>ἐπὶ Ἡλιοδώρου ἄρχοντος, ἐπὶ τῆς Κεκροπίδος ἑνδεκά<lb 
+                        break="no" n="3"/>της πρυτανείας· Θαργηλιῶνος· Λυσίστρατος Φυλαρχί<lb 
+                        break="no" n="4"/>δου Ο<unclear>ἰ</unclear>ναῖος εἶπεν· ἐπειδὴ Εὐμαρ<del rend="erasure"><gap reason="illegible" quantity="1" unit="character"/></del>ίδας πρότερόν τε <space quantity="1" unit="character"/>
+                        <lb n="5"/>καθ’ ὃν καιρὸν συνέβη Βοῦκριν καταδραμόντα τὴν χώ<lb 
+                        break="no" n="6"/>ραν καταγαγεῖν εἰς <placeName ref="#crete">Κρήτην</placeName> τῶν τε πολιτῶν πλείους κα<supplied reason="lost">ὶ</supplied>
+                        <lb n="7"/>τῶν ἄλλων τῶν ἐκ τῆς πόλεως, πολλὰς καὶ μεγάλας χρεί<lb 
+                        break="no" n="8"/>ας παρέσχετο τῶι δήμωι καὶ προεισήνεγκε χρήματα ἐ<lb 
+                        break="no" n="9"/>κ τῶν ἰδίων εἰς τὰ εἴκοσι τάλαντα τὰ συνφωνηθέντα ὑπὲρ
+                        <lb n="10"/>τῶν αἰχμαλώτων, ἐδάνεισε δὲ καὶ τοῖς ἁλοῦσιν εἰς ἐφόδια,
+                        <lb n="11"/>καὶ νῦν ἀποστείλαντος τοῦ δήμου πρεσβευτάς, ὅπως τά
+                        <lb n="12"/>τε φιλάνθρωπα διαμένει πρὸς πάντας <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιεῖς</placeName></rs> καὶ ἵνα,
+                        <lb n="13"/>εἴ που λάφυρον ἀποδέδοται τοῖς καταπλέουσιν, ἀρθεῖ τοῦ<lb 
+                        break="no" n="14"/>το, συνηγόρησεν εἰς τὸ πάντα πραχθῆναι τὰ συνφέροντα
+                        <lb n="15"/>τῶι δήμωι, <w lemma="συνπρεσβεύω">συνεπρέσβευσεν</w> δὲ καὶ εἰς <rs type="institution" subtype="social_group" role="foreign_relations" key="symmachoi" ref="#knossos_symmachia"><placeName ref="#knossos">Κνωσὸν</placeName> καὶ τοὺς <w lemma="σύμμαχος">συμμά<lb 
+                        break="no" n="16"/>χους</w></rs>, ἔδωκε δὲ καὶ <rs type="institution" subtype="object" role="foreign_relations" key="epistole" ref="#kydonia"><w lemma="ἐπιστολά">ἐπιστολὰς</w></rs> τοῖς πρεσβευταῖς εἰς <placeName ref="#polyrrhenia">Πολύ<lb 
+                        break="no" n="17"/>ρηνα</placeName> πρὸς τοὺς <w lemma="φίλος">φίλους</w>, ὅπως συνπραγματεύωνται μετ’ αὐ<lb 
+                        break="no" n="18"/>τῶν περὶ τῶν συμφερόντων, ἀναδέχεται δὲ τὴν πᾶσαν ἐπιμέ<lb 
+                        break="no" n="19"/>λειαν ποιήσεσθαι τοῦ δι<unclear>α</unclear>μένειν τὰ φιλάνθρωπα τῶι δήμω<supplied reason="lost">ι</supplied>
+                        <lb n="20"/>πρὸς τοὺς <w lemma="οἰκέω">οἰκοῦντας</w> ἐγ <placeName ref="#crete">Κρήτει</placeName> πάντας. ὅπως ἂν οὖν καὶ ὁ δῆ<lb 
+                        break="no" n="21"/>μος φαίνηται τιμῶν τοὺς ἀποδεικνυμένους, ἣν ἔχουσιν αἵ<lb 
+                        break="no" n="22"/>ρεσιν ἐμ παντὶ καιρῶι, ἀγαθεῖ τύχει, δεδόχθαι τῶι δήμωι·
+                        <lb n="23"/>ἐπαινέσαι <persName type="honoured" key="Eumaridas f. Pankles"><name nymRef="Εὐμαρίδας">Εὐμ<corr>αρ</corr>ίδαν</name> <name nymRef="Πανκλῆς" type="patronymic">Πανκλέους</name> <placeName ref="#kydonia" type="ethnic">Κυδωνιάτην</placeName></persName> καὶ στεφα<lb 
+                        break="no" n="24"/>νῶσαι αὐτὸν χρυσῶι στεφάνωι κατὰ τὸν νόμον εὐνοίας ἕ<lb 
+                        break="no" n="25"/>νεκα καὶ φιλοτιμίας τῆς εἰς τὴν βουλὴν καὶ τὸν δῆμον τὸ<supplied reason="lost">ν</supplied>
+                        <lb n="26"/><placeName ref="#athens" type="ethnic">Ἀθηναίων</placeName>, στῆσαι δὲ αὐτοῦ καὶ εἰκόνα χαλκῆν ἐν ἀκροπό<lb 
+                        break="no" n="27"/>λει· εἶναι δ’ αὐτῶι καὶ εἰς τὸ λοιπὸν χρείας παρεχομένωι
+                        <lb n="28"/>τιμηθῆναι καταξίως, ὧν ἂν εὐεργετήσει· ἀναγράψαι δὲ τό<lb 
+                        break="no" n="29"/>δε τὸ ψήφισμα τὸν γραμματέα τοῦ δήμου εἰς στήλην λιθί<lb 
+                        break="no" n="30"/>νην καὶ στῆσαι παρὰ τὴν εἰκόνα· τὸ δὲ γενόμενον ἀνάλωμα
+                        <lb n="31"/>εἰς τὴν ἀνάθεσιν τῆς εἰκόνος καὶ τῆς στήλης μερίσαι τὸν
+                        <lb n="32"/>ταμίαν τῶν στρατιωτικῶν καὶ τοὺς ἐπὶ τεῖ διοικήσει. <space quantity="2" unit="character"/>
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>Il decreto ateniese onora con il conferimento di una corona d’oro e di una statua di bronzo sull’acropoli un cittadino di Kydonia, Eumaridas figlio di Pankles, individuo possibilmente imparentato con il concittadino Pankles figlio di Pankles, noto dal suo epitaffio conservatosi in una delle tombe ipogee di Kydonia (<ref type="ins" target="#seg_40_776"><title>SEG</title> 40.776</ref>B). Il documento, che è seguito da altri due decreti riguardanti Eumaridas stesso – dovuto alla mancata collocazione della statua prevista – e suo figlio e suo nipote (il primo dei quali è dichiarato prosseno di Atene e risulta essere stato <foreign>theoros</foreign> di Kydonia), si inscrive nel quadro delle complesse relazioni diplomatiche tra Atene e più città cretesi che sembrano avere sullo sfondo la problematica della pirateria (quanto a Kydonia cf. <ref type="ins" target="#ig_ii3_1190"><title>IG</title> II<hi rend="superscript">3</hi> 1 1190</ref>, <ref type="ins" target="#ig_ii3_358"><title>IG</title> II<hi rend="superscript">3</hi> 1 358</ref>, <ref type="ins" target="#seg_17_20"><title>SEG</title> 17.20</ref> e <ref type="ins"><title>IG</title> II<hi rend="superscript">2</hi> 745</ref>). Eumaridas, infatti, è onorato per aver funto da mediatore fra Boukris e gli Ateniesi da lui rapiti, aiutandoli a pagare il riscatto e facilitandone il rientro in patria (ll. 4-10), operazione simile a quella compiuta un secolo prima dal concittadino Eurylochos, onorato da Atene in <ref type="ins" target="#ig_ii3_358"><title>IG</title> II<hi rend="superscript">3</hi> 1 358</ref> (cf. <bibl><ref target="#b1361">Monaco 2001</ref></bibl> e <bibl><ref target="#b651">Gabrielsen 2003</ref></bibl>). 
+                    
+                    La questione della pirateria è anche la tematica per cui l’ambasceria ateniese aiutata da Eumaridas si dirige a Knossos, nell’intento di abolire il diritto di saccheggio vigente sul proprio territorio (su questa accezione del termine λάφυρον cf. <bibl><ref target="#b1576">Pritchett 1991</ref>, pp. 144-147</bibl>) e conseguentemente ristabilire buone relazioni con il <foreign>koinon</foreign> cretese (ll. 11-20), di cui al momento la città sembra essere portavoce (l. 12 πάντας Κρηταιεῖς, ll. 15-16 Κνωσὸν καὶ τοὺς συμμάχους; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 79</bibl>).</p>
+                    <p>Il decreto, che documenta l’appartenenza di Kydonia all’alleanza guidata da Knossos, testimonia d’altro canto l’autonomia di Polyrrhenia rispetto al gruppo cnossio: l’ambasceria ateniese che vi si reca, infatti, è separata da quella diretta a Knossos, indice verosimilmente dell’estraneità di Polyrrhenia dall’alleanza e dal <foreign>koinon</foreign>. Il fatto che l’ambasceria ateniese diretta a Polyrrhenia abbia bisogno delle lettere di supporto di Eumaridas, inoltre, sembrerebbe indicare che le relazioni fra Atene e Polyrrhenia non siano particolarmente distese (ll. 16-18).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#symmachia">alleanza di Knossos</ref>, <ref type="inst" target="#epistole"><foreign>epistole</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b907">Homolle 1891</ref>, n. 6</bibl>;
+                    <bibl><ref target="#b973">Kavvadias 1891</ref>, pp. 45-51</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> II 5 385c</bibl>; 
+                    <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 241-243</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 131</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> II<hi rend="superscript">2</hi> 844</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 535-537</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 24 (ll. 11-18)</bibl>; 
+                    <bibl><ref target="#b128">Bielman 1994</ref>, n. 31</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> II<hi rend="superscript">3</hi> 1 1137 I <ptr type="phi" target="347432"/> <ptr type="ela" target="ela-27"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1835">Edmunds – Tracy 1978</ref>, pp. 255-256</bibl>; 
+                    <bibl><ref target="#b208">Brulé 1978</ref>, pp. 17-20</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 28.64</bibl>); 
+                    <bibl><ref target="#b1576">Pritchett 1991</ref>, pp. 144-147</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 41.56</bibl>); 
+                    <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 79b</bibl>;
+                    <bibl><ref target="#bib112"><title>HGIU</title></ref> 424</bibl>; 
+                    <bibl><ref target="#b1361">Monaco 2001</ref>, pp. 120-121, fig. 7</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 53.16</bibl>); 
+                    <bibl><ref target="#b329">Chaniotis 2005b</ref>, pp. 39, 119-120</bibl>; 
+                    <bibl><ref target="#b54">Austin 2006</ref>, 106</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> pp. 52-53 n. 2.10</bibl>;
+                    <bibl><ref target="#b486">De Vita 2012-2013</ref></bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib501"><title>AIO</title></ref> 629 <ptr type="aio" target="IGII31/1137"/></bibl>;
+                    <bibl><ref target="#b1051">Lambert 2014</ref>, pp. 13-15</bibl>; 
+                    <bibl><ref target="#b1145">Mack 2015</ref>, pp. 29-32, 67</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

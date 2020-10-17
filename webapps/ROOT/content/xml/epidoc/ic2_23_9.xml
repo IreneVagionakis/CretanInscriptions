@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica dei <foreign>syneunomiotai</foreign> di Polyrrhenia a Pan</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 9</idno>
+                        <idno type="projectNo">004</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#polyrrhenia_99_fathers">Chiesa dei 99 Padri, Polyrrhenia</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, acropoli</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change> 
+        </revisionDesc>
+    </teiHeader>
+    
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                    <lb n="1"/><gap reason="lost" extent="unknown"/> <rs type="institution" subtype="board" role="dedicant" key="eunomia" ref="#polyrrhenia"><persName type="attested" key="- f. Taskos"><gap reason="lost" extent="unknown"/> <name nymRef="Τάσκος" type="patronymic"><supplied reason="lost">T</supplied>άσκω</name></persName>
+                    <lb n="2"/>οἱ <w lemma="συνευνομιῶται">συνευνομιῶται</w></rs>
+                    <lb n="3"/><persName type="divine" key="Pan">Πανί</persName>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’<foreign>hapax</foreign> συνευνομιῶται, che trova una sorta di parallelo negli εὐνομιῶτ[αι] di Aptera (<ref type="ins" target="#ic2_3_21"><title>IC</title> II 3 21</ref>), designa con ogni probabilità i membri del collegio dell’εὐνομία, attestato solo a Creta nelle città di Lato, Olous e forse Knossos (cf. <bibl><ref target="#b768">Guarducci 1933</ref>, pp. 201-205</bibl>). 
+                    Se il legame dell’<foreign>eunomia</foreign> con la sfera sacra – documentato nelle sue altre occorrenze cretesi – è valido anche per Polyrrhenia, come lascerebbe ipotizzare il contesto di dedica votiva, nell’iscrizione in questione il collegio potrebbe possibilmente essere il responsabile della costruzione o del restauro di un santuario di Pan.</p>
+                    <p>Quanto a Pan, sebbene il suo culto sia abitualmente relegato a contesti più agresti e marginali, la sua eccezionale presenza sull’acropoli trova uno stretto parallelo nella vicina <foreign>polis</foreign> di Hyrtakina, dove un santuario del dio minore è ospitato nel cuore della città (cf. <bibl><ref target="#b1734">Sporn 2002</ref>, pp. 283-290</bibl>).</p>
+                    <p>Il patronimico di uno dei συνευνομιῶται dedicanti, Τάσκος, è uno dei numerosi antroponimi derivanti dalla radice τασκ- noti esclusivamente a Creta occidentale (Τάσκος, Τάσσκος, Τάσκις, Τάσσκις, Τάσκυς, Τασκίάδας, Τασκομένης) e in particolare a Polyrrhenia (Τασκαιννάδας, Τασκαννάδας, Τασκάδας, Τασκύδας; cf. <bibl><ref target="#b1290">Masson 1985</ref>, n. VII</bibl>, <bibl><ref target="#b894">Hitchman 2002</ref>, pp. 118-120</bibl>, <bibl><ref target="#b719">Gondicas 1988</ref>, pp. 252-257</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#eunomia"><foreign>syneunomiotai</foreign></ref>.</p>
+            </div>
+            
+            <div type="bibliography">
+                    <p>
+                        <emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 475-476 n. 1</bibl>; 
+                        <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5119a</bibl>; 
+                        <bibl><ref target="#b768">Guarducci 1933</ref>, n. 7</bibl>; 
+                        <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 9 <ptr type="phi" target="200046"/></bibl>;
+                        <bibl><ref target="#b719">Gondicas 1988</ref>, n. 39</bibl>;
+                        <bibl><ref target="#b1235">Martínez Fernández 1998</ref>, pp. 96-100 n. 7, fig. 8</bibl>;
+                        <bibl><ref target="#b1252">Martínez Fernández 2006</ref>, n. 1</bibl>;
+                        <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 11</bibl>.
+                        <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b844">Halbherr 1899</ref>, p. 527</bibl>.
+                    </p>
+            </div>
+        </body>
+    </text>
+</TEI>

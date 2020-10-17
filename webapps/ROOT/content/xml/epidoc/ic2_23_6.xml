@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II  23 6</idno>
+                        <idno type="projectNo">012</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">due decreti</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#unknown">sconosciuto</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">    
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ἀποδ<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς εἰς αὐτ<unclear>ὰ</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐν τῶι</supplied> <w lemma="ἐνίστημι"><supplied reason="lost">ἐνε</supplied>στακότι</w> <rs type="institution" subtype="month" role="calendar" key="meis" ref="#polyrrhenia"><w lemma="μείς">μηνὶ</w></rs> κ<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="public_space" role="archiving" key="chreophylakion" ref="#polyrrhenia"><w lemma="χρεοφυλάκιον"><supplied reason="lost">χρ</supplied>εοφυλάκιον</w></rs>. <space extent="unknown" unit="character"/>
+                        <lb n="4a"/><space quantity="1" unit="line"/>
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#polyrrhenia"><supplied reason="lost" cert="low">ἐπὶ <w lemma="κόσμος">κόσμω</w></supplied> <persName type="attested" key="Talthybios f. Biaththos"><name nymRef="Ταλθύβιος">Ταλθυβίου</name> τοῦ <name nymRef="Ταλθύβιος" type="patronymic">Βιάθθο<supplied reason="lost">υ</supplied></name></persName></rs>
+                        <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#polyrrhenia"><w lemma="δοκέω"><supplied reason="lost">ἔδοξ</supplied>ε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλει</w></rs> τῶν <placeName ref="#polyrrhenia" type="ethnic"><unclear>Πο</unclear><supplied reason="lost">λυρηνίων</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ον Περγενίδα <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>αντασ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> ὑπαρχ<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>σικ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="6a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="B1"><note><supplied reason="lost" cert="low">ἐπὶ κόσμω</supplied> <bibl><ref target="#bib40"><title>I.Polyr.</title></ref></bibl>; <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπὶ κόσμων τῶν μετὰ</supplied> o <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπὶ πρωτοκόσμου</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>Il frammento, contenente la parte finale di un primo decreto e quella iniziale di un secondo, attesta nella sua prima sezione l’esistenza di un edificio pubblico, il <foreign>chreophylakion</foreign>. Noto anche a Gortyna, Knossos e Lato e Olous (cf. rispettivamente <ref type="ins" target="#seg_48_1208"><title>IC</title> IV 232</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref> A e <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref>, l. 40) oltre che in altre aree del mondo greco, il <foreign>chreophylakion</foreign> è la struttura che ospita gli archivi pubblici, dove in particolare sono depositati i registri dei debiti e dei contratti fra privati (cf. <bibl><ref target="#b450">Dareste 1882</ref></bibl>, <bibl><ref target="#b810">Guizzi 1999</ref>, pp. 242-243</bibl>, <bibl><ref target="#b1238">Martínez Fernández 1999</ref>, pp. 424-425</bibl>, <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 356-362</bibl>). La forte frammentarietà del testo non consente di avanzare molte ipotesi circa la sua possibile funzione a Polyrrhenia. Il riferimento temporale della linea A 3, forse una scadenza, favorisce tuttavia un’interpretazione del termine in linea con quanto è testimoniato altrove: la data potrebbe infatti alludere al termine fissato per il deposito di un qualche documento nel <foreign>chreophylakion</foreign> o per la saldatura di un debito la cui documentazione è in esso conservata.</p>
+                    <p>Il secondo decreto, che esordisce con la formula di datazione, non conserva il titolo del magistrato eponimo Talthybios. L’assenza di fotografie o apografi dell’iscrizione impedisce purtroppo di verificare l’estensione della lacuna alle linee 1-2 e, conseguentemente, di valutare se l’integrazione ἐπὶ κόσμω proposta da Ángel Martínez Fernández, basata su quanto appare negli altri decreti della città di cui si è conservato l’<foreign>incipit</foreign> della datazione eponimica, <ref type="ins" target="#seg_64_798"><title>SEG</title> 64.798</ref> A e <ref type="ins" target="#seg_50_911"><title>SEG</title> 50.911</ref> A, sia la più plausibile o meno; le proposte di integrazione avanzate da Margherita Guarducci lascerebbero infatti intendere che la lacuna sia più estesa delle otto lettere calcolate nell’edizione di Martínez Fernández.</p>
+                    <p>Il decreto B conserva inoltre parte della formula di sanzione, nella quale figura solamente la <foreign>polis</foreign> come organo istituzionale decretante, diversamente da quanto avviene negli altri documenti analoghi di Polyrrhenia: in <ref type="ins" target="#seg_64_798"><title>SEG</title> 64.798</ref> A e B, <ref type="ins" target="#seg_50_911"><title>SEG</title> 50.911</ref> A e B e <ref type="ins" target="#ic2_23_5"><title>IC</title> II 23 5</ref>, infatti, il decreto è promosso congiuntamente dalla <foreign>polis</foreign> e dai cosmi. La formula di sanzione si differenzia inoltre dalle altre occorrenze nella città per l’aggiunta della specificazione dell’etnico collettivo τῶν Πο[λυρηνίων] al termine <foreign>polis</foreign>; fra gli altri decreti di Polyrrhenia l’etnico poleico compare anche in <ref type="ins" target="#ic2_23_4"><title>IC</title> II 23 4</ref> A, in riferimento però all’essere prosseni ed evergeti della comunità, esternamente alla formula di sanzione.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#chreophylakion"><foreign>chreophylakion</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#meis"><foreign>meis</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, p. 70</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5116</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 6 <ptr type="phi" target="200042"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 36</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 4</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Lyttos menzionante più giudici</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 18 3</idno>
+                        <idno type="projectNo">187</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_saia">Sede SAIA, Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lyttos">Lyttos</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0475">500 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>ιοσιτε η<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="dikastas" ref="#lyttos"><w lemma="δικαστάς"><supplied reason="lost">δ</supplied>ικαστα<lb 
+                        break="no" n="3"/>ὶ</w></rs> ἰς τ<corr>ὰ</corr>ν <g type="|"/> α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ασι <g type="|"/> <orig>αια</orig>
+                          <lb n="5"/><orig>ια</orig> <g type="|"/> <orig>η</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ουο</orig>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>αιτο <g type="|"/> ἔ<lb 
+                        break="no" n="7"/>τι <g type="|"/> το͂ι το<gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="7a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ημε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><g type="|"/> τον ἀλ<unclear>λ</unclear><supplied reason="lost">ο</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> τὸν <persName type="divine" key="Hermes">Ἐρ<unclear>μ</unclear><lb 
+                              break="no" n="4"/><unclear>ε̃ν</unclear></persName> ἢ ἐν <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>αν<unclear>ρ</unclear>ατε</orig>
+                          <lb n="6"/><gap reason="illegible" quantity="1" unit="character"/><orig>αοι</orig> <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>νιπα</orig>
+                          <lb n="7a"/><space quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    </div>            
+                    <div type="apparatus">
+                <p>
+                    <app loc="B3-4"><note>τὸν Ἐρ<unclear>με̃ν</unclear> ἢ ἐν <gap reason="illegible" quantity="1" unit="character"/> <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>; τον ερ<gap reason="illegible" quantity="1" unit="character"/><unclear>εγ</unclear>ηενν <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il testo, molto frammentario, fornisce la menzione di più giudici in un contesto che purtroppo non è ricostruibile.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dikastas"><foreign>dikastas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, pp. 65-66</bibl>; 
+                            <bibl><ref target="#b386">Comparetti 1893c</ref>, p. 438 n. 204</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 18 3 <ptr type="phi" target="199331"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> L3</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1921">Van Effenterre – Van Effenterre 1985</ref>, p. 165</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 96*</bibl>; 
+                            <bibl><ref target="#b721">Gondicas – Van Effenterre 2000</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

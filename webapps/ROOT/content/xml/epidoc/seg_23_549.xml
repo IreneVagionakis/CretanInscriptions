@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Olous per un cittadino di Chios</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.549</idno>
+                        <idno type="projectNo">430</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><supplied reason="lost">ἐπ</supplied>ὶ <w lemma="δαμιοργός">δαμιορ<unclear>γοῦ</unclear></w> <persName type="attested" key="Botrynos"><name nymRef="Βότρυνος"><unclear>Β</unclear>οτρύνου</name></persName></rs> καὶ <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><persName type="attested" key="Ky-"><name nymRef="Κυ-">Κυ<gap reason="illegible" quantity="5" unit="character"/></name></persName></rs> <unclear>κ</unclear>αὶ <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><persName type="attested" key="Eubolidas"><name nymRef="Εὐβουλίδας">Εὐβουλίδα</name></persName></rs> καὶ <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><persName type="attested" key="Tychasios"><name nymRef="Τυχάσιος"><supplied reason="lost">Τυ</supplied><lb 
+                        break="no" n="2"/><unclear>χ</unclear>α<unclear>σ</unclear>ίου</name></persName></rs> καὶ <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><persName type="attested" key="Aretis"><name nymRef="Ἄρετις">Ἀρέτιος</name></persName></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#olous" type="ethnic">Ὀλο<unclear>ν</unclear><supplied reason="lost">τί</supplied>ω<supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">τ</supplied>ᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs>· ἐπειδὴ <persName type="honoured" key="Polemon f. Symmachos"><name nymRef="Πολέμων"><supplied reason="lost">Πο</supplied><lb 
+                        break="no" n="3"/>λέμων</name> <name nymRef="Σύμμαχος" type="patronymic">Συμμάχου</name> <placeName ref="#sparta" type="ethnic">Χῖος</placeName></persName> <w lemma="εὔνοος">εὔνου<supplied reason="lost">ν</supplied></w> <supplied reason="lost">καὶ</supplied> <w lemma="χρήσιμος"><supplied reason="lost">χρή</supplied>σιμον</w> αὑτὸν διατ<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="4"/>λεῖ παρεχ<supplied reason="lost">ό</supplied>μεν<supplied reason="lost">ος</supplied> κοινᾷ τε <supplied reason="lost">τᾶ</supplied>ι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs> καὶ ἰδίᾳ το<supplied reason="lost">ῖς</supplied> ἐντυγ<unclear>χ</unclear><supplied reason="lost">ά</supplied><lb 
+                        break="no" n="5"/>νουσι τῶ<supplied reason="lost">ν</supplied> <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="polites" ref="#olous"><w lemma="πολίτας"><supplied reason="lost">π</supplied>ο<supplied reason="lost">λ</supplied>ι<supplied reason="lost">τᾶν</supplied></w></rs>, <w lemma="λέγω">λέγων</w> καὶ <w lemma="πράσσω">πράσσων</w> ἀεὶ τὰ συμφέρο<supplied reason="lost">ντα</supplied>
+                          <lb n="6"/>τᾶι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs>, <supplied reason="lost">εἶν</supplied>α<supplied reason="lost">ι αὐ</supplied>τὸν <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενον</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέταν</w></rs> <placeName ref="#olous" type="ethnic">Ὀλοντί<unclear>ω</unclear><supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">αὐ</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">τὸ</supplied>ν <unclear>κ</unclear>αὶ <supplied reason="lost">γ</supplied>έ<unclear>ν</unclear>ος· ε<supplied reason="lost">ἶ</supplied>ν<supplied reason="lost">α</supplied>ι δὲ αὐτῶι καὶ <w lemma="εἰσπλέω">εἴσπλουν</w> καὶ <w lemma="ἐκπλέω">ἔκπλου<unclear>ν</unclear></w> <supplied reason="lost">καὶ</supplied>
+                          <lb n="8"/><w lemma="ἀτέλεια"><supplied reason="lost" cert="low">ἀτέλειαν</supplied></w> <w lemma="ἀσυλεί">ἀσυλ<unclear>ε</unclear><supplied reason="lost">ὶ</supplied></w> <supplied reason="lost">καὶ</supplied> <unclear>ἀ</unclear>σπονδεὶ καὶ ἐμ πολέμῳ καὶ ἐν <unclear>ε</unclear>ἰ<supplied reason="lost">ράνᾳ</supplied>
+                          <lb n="9"/><supplied reason="lost">καὶ κατὰ γᾶν καὶ κατὰ</supplied> <unclear>θ</unclear>ά<supplied reason="lost">λ</supplied><unclear>α</unclear>σσαν· ὑπάρ<unclear>χ</unclear>ειν δὲ αὐτῶι <supplied reason="lost">καὶ τὰ</supplied>
+                          <lb n="10"/><supplied reason="lost">ἄλλα <w lemma="τίμια">τίμια</w> πάν</supplied><unclear>τ</unclear>α καθάπερ <supplied reason="lost">καὶ τοῖς</supplied> <unclear>ἄ</unclear>λλοις <supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">προξένοις</w></rs> καὶ</supplied>
+                          <lb n="11"/><supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#olous"><w lemma="εὐεργέτας">εὐεργέταις</w></rs>·</supplied> <w lemma="ἀναγράφω"><supplied reason="lost">ἀναγράψα</supplied>ι</w> δὲ τό<supplied reason="lost">δε τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#olous"><w lemma="ψάφισμα">ψάφισμα</w></rs> ἐς <w lemma="στάλα">στάλας</w> δύο</supplied>
+                          <lb n="12"/><supplied reason="lost">καὶ <w lemma="ἵστημι">στῆσαι</w> τὰν μὲν ἐ</supplied><unclear>ν</unclear> <placeName ref="#olous" type="ethnic">Ὀ<supplied reason="lost">λ</supplied>όν<unclear>τ</unclear><supplied reason="lost">ι</supplied></placeName><supplied reason="lost">, τὰν δὲ ἐν <placeName ref="#sparta" type="ethnic">Χίωι</placeName></supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario, dalla formulazione piuttosto elaborata, si apre con una datazione eponimica nella quale vengono ricordati i nomi di cinque <foreign>damiorgoi</foreign>, similmente a quanto avviene in <ref type="ins" target="#seg_23_548"><title>SEG</title> 23.548</ref> (in cui i magistrati sembrano tre) e nella maggioranza dei documenti analoghi conservati sulla stele <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> (tre in VII-VIII, uno in III-VI, IX-XII), oltre che forse in <ref type="ins" target="#seg_23_551"><title>SEG</title> 23.551</ref> (uno).</p>
+                    <p>Il documento conserva alla linea 2 una formula di sanzione dove la <foreign>polis</foreign> figura come responsabile della decisione, analogamente ai decreti <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> II e VII (mentre vi compaiono l’etnico cittadino collettivo in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> VIII e forse <ref type="ins" target="#seg_23_548"><title>SEG</title> 23.548</ref>, i cittadini in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> V e i cosmi assieme alla <foreign>polis</foreign> in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> IX-XI).</p>
+                    <p>L’individuo onorato, originario di Chios, per i propri meriti nei confronti della <foreign>polis</foreign> e dei singoli cittadini di Olous ottiene la concessione congiunta della prossenia e dell’<foreign>euergesia</foreign>, che nella città compaiono assieme nei decreti <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> I, IV-VI, IX-X e forse <ref type="ins" target="#ic1_22_6"><title>IC</title> I 22 6</ref> e <ref type="ins" target="#seg_25_1020"><title>SEG</title> 25.1020</ref>, oltre che in associazione alla cittadinanza in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> II e XII-XIII.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1882">Van Effenterre 1948</ref>, p. 319</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 23.549 <ptr type="phi" target="201747"/> <ptr type="seg" target="a23_549"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 101</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

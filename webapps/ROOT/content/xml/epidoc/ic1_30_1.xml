@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Knossos e Tylisos con mediazione argiva</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 30 1</idno>
+                        <idno type="projectNo">156</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#epistyle">architrave</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>stoichedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#tylisos">Tylisos</origPlace>
+                                    <origDate period="#archaic" notBefore="-0460" notAfter="-0450" precision="low">460-450 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="8" unit="character"/> <supplied reason="lost">παρ</supplied>εχόντο τοὶ πα<lb 
+                        break="no" n="2"/><supplied reason="lost">ρέντες τούτ</supplied>ον, <supplied reason="lost">δ</supplied>έρματα δὲ φ<lb 
+                        break="no" n="3"/><supplied reason="lost">ερέσθον οἱ</supplied> <placeName ref="#knossos" type="ethnic"><supplied reason="lost">Κν</supplied>όℎιοι</placeName> πρὸτ’ αὐ<lb 
+                        break="no" n="4"/><supplied reason="lost">τὸς</supplied> <gap reason="lost" quantity="9" unit="character"/>ν ἐν <placeName ref="#tylisos">Τυλίσοι</placeName> ϝ<lb 
+                        break="no" n="5"/><gap reason="lost" quantity="9" unit="character"/> <supplied reason="lost">ἑμί</supplied>ναν δὲ καὶ δι<lb 
+                        break="no" n="6"/><gap reason="lost" quantity="10" unit="character"/> <w lemma="σπονδά"><supplied reason="lost">σ</supplied>πονδὰς</w> νεοτ<lb 
+                        break="no" n="7"/><supplied reason="lost">έρας</supplied> <unclear>μ</unclear>ὲ <w lemma="τίθημι">τίθεσθαι</w> μεδατέρο<lb 
+                        break="no" n="8"/><supplied reason="lost">νς αἰ</supplied> <unclear>μ</unclear>ὲ <rs type="institution" subtype="practice" role="decreeing" key="syndokeo" ref="#knossos"><rs type="institution" subtype="practice" role="decreeing" key="syndokeo" ref="#tylisos"><w lemma="συνδοκέω">συνδοκοῖ</w></rs></rs> το͂ι <rs type="institution" subtype="assembly" role="decreer" key="plethos" ref="#knossos" cert="low"><rs type="institution" subtype="assembly" role="decreer" key="plethos" ref="#tylisos" cert="low"><w lemma="πλῆθος">πλέθε<lb 
+                        break="no" n="9"/><supplied reason="lost">ι</supplied></w></rs></rs><supplied reason="lost">, συνβ</supplied>άλλεσθαι δὲ τὰν τρίτ<lb 
+                        break="no" n="10"/><supplied reason="lost">αν αἶσ</supplied>αν τὸς <placeName ref="#argos" type="ethnic">Ἀργείος</placeName> τᾶν ψά<lb 
+                        break="no" n="11"/><supplied reason="lost">φον· ὅκα</supplied> τινὰς το͂ν εὐμενέον
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="1"/>δυσμενέας <w lemma="τίθημι">τιθείμεθα</w> καὶ τ<lb 
+                        break="no" n="2"/>ο͂ν δυσμενέον εὐμενέας, μὲ <w lemma="τίθημι">θ<lb 
+                        break="no" n="3"/>έσθαι</w> αἰ μὲ <rs type="institution" subtype="practice" role="decreeing" key="syndokeo" ref="#knossos"><rs type="institution" subtype="practice" role="decreeing" key="syndokeo" ref="#tylisos"><w lemma="συνδοκέω">συνδοκοῖ</w></rs></rs> το͂ι <rs type="institution" subtype="assembly" role="decreer" key="plethos" ref="#knossos" cert="low"><rs type="institution" subtype="assembly" role="decreer" key="plethos" ref="#tylisos" cert="low"><w lemma="πλῆθος">πλ<lb 
+                        break="no" n="4"/>έθει</w></rs></rs>· συνβάλλεσθαι δὲ τὸνς
+                          <lb n="5"/>ἐκ <placeName ref="#tylisos">Τυλίσο</placeName> τᾶν <rs type="institution" subtype="practice" role="voting" key="psaphos" ref="#tylisos"><w lemma="ψᾶφος">ψάφον</w></rs> τὰν τρί<lb 
+                        break="no" n="6"/>ταν αἶσαν. αἰ δὲ μάχα γένοιτ<lb 
+                        break="no" n="7"/>ο μὲ παρέντον το͂ν ἁτέρον, <w lemma="σπονδά">σπ<lb 
+                        break="no" n="8"/>ονδὰνς</w> <w lemma="τίθημι">θέσθον</w> τοὶ δεόμενο<lb 
+                        break="no" n="9"/>ι πέντε ἁμέρανς. αἰ <w lemma="στρατήα">στρατήα</w>
+                          <lb n="10"/>ἐνσ<supplied reason="lost">είει</supplied> ἐνς τὰν γᾶν τὰν <placeName ref="#knossos">Κνο<lb 
+                        break="no" n="11"/>ℎίαν</placeName>, <supplied reason="lost"><placeName ref="#tylisos" type="ethnic">Τυλισίονς</placeName></supplied> ὀφέλεν παντ<lb break="no"/> 
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="C">
+                        <ab>
+                          <lb n="1"/>ὶ σθένει <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>παρεχον<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ</supplied><lb 
+                        break="no" n="3"/>ς <placeName ref="#argos" type="ethnic">Ἀργείο<supplied reason="lost">ς</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#argos" type="ethnic"><supplied reason="lost">Ἀργ</supplied><lb 
+                        break="no" n="4"/>εῖοι</placeName> τοι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>ι ἐν <w lemma="στρατεία">στρα<supplied reason="lost">τείαι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἁμέ</supplied><lb 
+                        break="no" n="6"/>ρανς· αἰ δ<supplied reason="lost">ὲ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>ιμεν τὰν <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὅ</supplied><lb 
+                        break="no" n="8"/>ς κ’ ἐν <placeName ref="#tylisos">Τυλ<supplied reason="lost">ίσοι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>εκα ϝαρθ<supplied reason="lost">μ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">συνε</supplied><lb 
+                        break="no" n="10"/>πάγεσθαι <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/>να αἴ κεν θ<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="a">
+                        <ab>
+                          <lb n="1"/><w lemma="τύχα"><gap reason="lost" extent="unknown" unit="character"/> τύχα<supplied reason="lost">ι</supplied></w> <supplied reason="lost" cert="low">ἀγαθᾶι</supplied>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#argos" type="ethnic"><unclear>Ἀ</unclear>ρ<supplied reason="lost">γ</supplied>ει<supplied reason="lost">ο</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig>τ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>να</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>αϝ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="b">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>νο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>οιδ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>εκα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>κα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>αβο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>ντ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="c">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#knossos" type="ethnic"><supplied reason="lost">Κ</supplied>νοℎιοι</placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ντοι <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="d">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ϝιι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="e">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>αν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>εν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ν<unclear>ο</unclear>ε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>ιτ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ι</unclear>ι<unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>οτ<unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento conserva parte della copia di Tylisos del trattato fra la stessa e Knossos, di cui è pervenuta anche una sezione dell’iscrizione fatta erigere ad Argo dalla città mediatrice (<ref type="ins" target="#ic1_8_4"><title>IC</title> I 8 4</ref>). Il documento, che restituisce una sezione del trattato non presente nell’altra copia, prevede che le città contraenti non stringano altri accordi – definiti <foreign>spondai</foreign> e non <foreign>synthekai</foreign> – in seguito a quello presente, a meno che non sia così sancito dal <foreign>plethos</foreign> (ll. A 8-9). Quanto all’espressione συνδοκοῖ το͂ι πλέθει, che ricorre poco dopo alle linee B 3-4 a proposito del modificare le esistenti relazioni estere, non è ben chiaro se si riferisca ad una specifica assemblea delle due città cretesi  – possibilmente equivalente all’<foreign>ekklesia</foreign> – o se sia piuttosto impiegata nel senso di «maggioranza». La seconda ipotesi è resa tuttavia più probabile dall’aggiunta del voto di Argo come terzo voto, di cui occorre tenere conto ai fini del calcolo della decisione maggioritaria (ll. A 9-11). La medesima precisazione occorre nuovamente alle linee B 4-6, in questo caso però in relazione al voto di Tylisos, che a quanto pare va ad aggiungersi a quello di Knossos e Argo.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#plethos"><foreign>plethos</foreign></ref>, <ref type="inst" target="#psaphos"><foreign>psaphos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>syndokeo</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b871">Hatzidakis 1914</ref>, pp. 94-98</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 84 (A-B)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 30 1 <ptr type="phi" target="199686"/></bibl>; 
+                            <bibl><ref target="#b1963">Vollgraff 1948</ref></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> II 147</bibl>; 
+                            <bibl><ref target="#bib512"><title>ML</title></ref> 42A</bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 35.1</bibl>; 
+                            <bibl><ref target="#b1538">Piccirilli 1973</ref>, n. 18</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 54.I</bibl>; 
+                            <bibl><ref target="#b1350">Minon 2007</ref></bibl>;
+                            <bibl><ref target="#b1042">Kyriakidis 2012</ref></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib362"><title>RO</title> II</ref> 126A</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b251">Capdeville 1997</ref>, pp. 291-293</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 71</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

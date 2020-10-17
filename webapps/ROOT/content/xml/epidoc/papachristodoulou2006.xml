@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Papachristodoulou 2006</idno>
+                        <idno type="projectNo">490</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rhodes_museum">Museo archeologico di Rodi</repository> 
+                                <idno type="invNo">E 5516</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#rhodos">Rodi</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0150" notAfter="-0100" precision="low">150-100 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="1"/>ὅπως ὦν καὶ <orig>αισ</orig><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/>αὐτὰν <w lemma="χάρις">χάριτας</w> <w lemma="ἀποτίθημι">ἀποτιθεμένων</w> <supplied reason="lost">κ</supplied><unclear>αὶ</unclear> <w lemma="τιμάω" part="I">τιμ<unclear>ῶσ</unclear><supplied reason="lost">α</supplied><gap reason="lost" extent="unknown" unit="character"/></w> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω"><supplied reason="lost">δε</supplied><lb 
+                                break="no" n="3"/><supplied reason="lost">δό</supplied>χθαι</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίοις</placeName></rs> <space quantity="2" unit="character"/> <w lemma="ἐπαινέω">ἐπαινέσαι</w> τὸ<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="4"/><supplied reason="lost">κ</supplied><unclear>αὶ</unclear> <w lemma="στεφανόω">στεφανῶσαι</w> α<supplied reason="lost">ὐτ</supplied><unclear>ὸ</unclear>ν <w lemma="χρύσεος">χρυσέωι</w> <w lemma="στέφανος">στεφάνωι</w> ἐπὶ τῶι <orig>ισ</orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸς</supplied> <w lemma="ἐξαποστέλλω"><supplied reason="lost">ἐξαποσ</supplied><lb 
+                                break="no" n="5"/>ταλέντας</w> <corr>σ</corr>ὺν <unclear>αὐτῶι</unclear> <unclear>δικαστὰς</unclear> <space quantity="1" unit="character"/> <persName type="honoured" key="Nikasimachos f. Sosipatres" ref="#unknown"><name nymRef="Νικασίμαχος">Νικασίμαχον</name> <name nymRef="Σωσίπατρος" type="patronymic">Σωσιπά<supplied reason="lost">τρου</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="6"/><unclear>κ</unclear>ράτην Πρωτα<unclear>ρ</unclear><gap reason="illegible" quantity="6" unit="character"/> Ισασ<gap reason="illegible" quantity="2" unit="character"/><unclear>ι</unclear> τὰ<unclear>ν</unclear> <w lemma="διεξαγωγά">διεξαγωγὰν</w> πε<supplied reason="lost">ρί</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="7"/><gap reason="illegible" quantity="3" unit="character"/><orig>οσ<unclear>κ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>ι</unclear></orig><gap reason="illegible" quantity="4" unit="character"/><orig><unclear>ασιοσ</unclear></orig><gap reason="illegible" quantity="4" unit="character"/><w lemma="γράφω" part="F" cert="low">γρα<unclear>π</unclear>ταν</w> <rs type="institution" subtype="social_group" role="unknown" key="polis" ref="#hierapytna"><w lemma="πόλις">πόλεω<supplied reason="lost" cert="low">ς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>τε</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>οσααυτοις</unclear></orig> <w lemma="χρύσεος">χρυσέ<unclear>ω</unclear><supplied reason="lost">ι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="9"/><gap reason="illegible" quantity="3" unit="character"/><orig>ασε</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ντ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario di Hierapytna, conservatosi in forma frammentaria, documenta la concessione di onori a più individui inviati da Rodi presso la città cretese, fra i quali almeno due giudici, Nikasimachos figlio di Sosipatros e -krates figlio di Protar-, a cui è accordato il conferimento di una corona d’oro. La formula di mozione, alle linee 2-3, mostra la collettività civica degli Hierapytnii – indicata mediante l’etnico collettivo – come responsabile della deliberazione. Un riferimento alla <foreign>polis</foreign> di Hierapytna è inoltre presente alla linea 7, sebbene non sia chiaro a quale proposito.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#b1459">Papachristodoulou 2006</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

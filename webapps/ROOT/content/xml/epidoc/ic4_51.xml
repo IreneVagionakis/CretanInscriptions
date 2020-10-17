@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna sui giuramenti</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 51</idno>
+                        <idno type="projectNo">259</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, ‘Muro orientale’ dell’<foreign>agora</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>. <w lemma="ὀμνύω">ὀμνύμην</w> δὲ <w lemma="δικάζω">δικά<unclear>κ</unclear><supplied reason="lost">σαι</supplied></w> <supplied reason="lost">τὸν</supplied> <persName type="divine" key="Zeus"><supplied reason="lost">Ζῆ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">να</supplied></persName> <supplied reason="lost">καὶ τὸν</supplied> <persName type="divine" key="Apollo">Ἀπέλλονα</persName> καὶ τὰν <persName type="divine" key="Athena">Ἀθα<unclear>ν</unclear><lb 
+                        break="no" n="3"/>αίαν</persName> καὶ τὸν <persName type="divine" key="Hermes">Ἔρμαον</persName>, ο<unclear>τ</unclear><gap reason="lost" quantity="8" unit="character"/>
+                          <lb n="4"/><gap reason="lost" quantity="3" unit="character"/> <supplied reason="lost">μηδένα</supplied> ἄλλον <w lemma="θιός">θιὸν</w> ὀνυμαινέ<unclear>τ</unclear><lb 
+                        break="no" n="5"/>ο. το͂ <w lemma="δεκαστάτηρον">δεκαστατήρο</w> καὶ πλ<unclear>ί</unclear><supplied reason="lost">ονος</supplied> <gap reason="lost" quantity="4" unit="character"/>
+                          <lb n="6"/><gap reason="lost" quantity="8" unit="character"/> <supplied reason="lost">μ</supplied>ὲν κ’ υἰὺνς οἴ κ’ <rs type="institution" subtype="age_class" role="oath-taking" key="ebion" ref="#gortyn"><w lemma="ἠβίων">ἠβίοντι</w></rs>
+                          <lb n="7"/>καὶ <rs type="institution" subtype="social_status" role="oath-taking" key="polites" ref="#gortyn"><w lemma="πολιατεύω">πολιατεύοντι</w></rs> καὶ τ<supplied reason="lost">ούτον υἰὺ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">νς οἴ κ’</supplied> <rs type="institution" subtype="age_class" role="oath-taking" key="ebion" ref="#gortyn"><w lemma="ἠβίων"><supplied reason="lost">ἠβίο</supplied>ντι</w></rs> <w lemma="ὀμνύω">ὀμνύμην</w> πάντανς
+                          <lb n="9"/><supplied reason="lost">ϝ</supplied>ιναυτο͂ι ϝέκαστον ἐπαριό<supplied reason="lost">μενον ἦ μὰν</supplied>
+                          <lb n="10"/><supplied reason="lost">κακίστοι</supplied> ὀλέτροι ἐκσόλλυθαι, τὸ<supplied reason="lost">ν</supplied><lb 
+                        break="no" n="11"/><supplied reason="lost">ς</supplied> <w lemma="μαῖτυς">μαίτυρανς</w> αὐτὸν ϝέκασ<supplied reason="lost">τον καὶ τὸ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">νς ἀδευπι</supplied>ὸνς οἴ κ’ <rs type="institution" subtype="age_class" role="oath-taking" key="ebion" ref="#gortyn"><w lemma="ἠβίων">ἠβίοντι</w></rs> κἠς το͂ α<supplied reason="lost">ὐ</supplied><lb 
+                        break="no" n="13"/><supplied reason="lost">τ</supplied>ο͂ <w lemma="πατήρ">πατρὸς</w> ἴοντι κ’ ἀδαιτηὶ <gap reason="lost" quantity="8" unit="character"/>
+                          <lb n="14"/><gap reason="lost" quantity="8" unit="character"/><unclear>ρ</unclear>ονς αὐτὸν ϝέκαστο<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, che regola l’uso dei giuramenti, informa del fatto che questi – perlomeno quelli appartenenti alle tipologie specificate nel testo – possono essere pronunciati solamente dagli <foreign>ebiontes</foreign>, ovvero i maggiorenni (sul termine, impiegato anche in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 370-372</bibl>). Nella circostanza di una disputa dal valore di dieci o più stateri descritta alle linee 5-10, inoltre, viene richiesto che i figli degli individui coinvolti nella causa oltre che maggiorenni siano anche dotati dello <foreign>status</foreign> di cittadini (l. 7, πολιατεύοντι).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#ebion"><foreign>ebion</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<foreign>poliateuo</foreign>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, pp. 35-36 n. 5</bibl>; 
+                            <bibl><ref target="#b389">Comparetti 1918</ref></bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 179a</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 51 <ptr type="phi" target="200487"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 139</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 13</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, pp. 272-273</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G51</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 24</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b192">Brause 1914</ref></bibl>; 
+                            <bibl><ref target="#b1509">Perlman 2002</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

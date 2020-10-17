@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione frammentaria da Inatos menzionante un protocosmo</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Lempesi 1970, p. 461</idno>
+                        <idno type="projectNo">402</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#unknown">sconosciuta</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#inatos">Inatos</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0300" notAfter="0300">III secolo a.C. - III secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="protokosmos" ref="#priansos">ἐπὶ <w lemma="πρωτόκοσμος">πρω<supplied reason="lost" cert="low">τοκόσμου</supplied></w></rs>
+                        <lb n="1a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, di età ellenistica o imperiale, conserva parte di una datazione che sembra menzionare il cosmo eponimo, indicato con il termine <foreign>protokosmos</foreign>; il documento, rinvenuto a Inatos, è verosimile che sia pertinente a Priansos, <foreign>polis</foreign> per la quale la prima località funge da porto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#protokosmos"><foreign>protokosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib484">Lempesi 1970</ref>, p. 461 <ptr type="phi" target="201048"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

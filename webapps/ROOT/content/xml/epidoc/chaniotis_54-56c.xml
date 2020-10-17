@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato relativa al santuario di Dera e alla fissazione di confini</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Chaniotis, Verträge 54/56c</idno>
+                        <idno type="projectNo">543</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dera"><foreign>Aphrodision</foreign> di Dera</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0111" notAfter="-0110">111/110 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀγαθ</supplied>ᾶι <w lemma="τύχα">τύχαι</w>.
+                          <lb n="2"/><supplied reason="lost"><rs type="institution" subtype="tribe" role="eponym" key="Echanoreis" ref="#lato">ἐπὶ τῶν <w lemma="Ἐχανορεῖς">Ἐχανορέων</w></rs></supplied> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><w lemma="κοσμέω"><supplied reason="lost">κοσμ</supplied>ιόντων</w> τῶν σὺν <persName type="attested" key="Aution f. Podaithon"><name nymRef="Αὐτίων">Αὐτίωνι</name>
+                          <lb n="3"/><supplied reason="lost">τῶ <name nymRef="Ποδαίθων" type="patronymic">Ποδαίθωνος</name></supplied></persName></rs><supplied reason="lost">, ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> τ</supplied>ᾶι <w lemma="παστάς">παστάδι</w> τὰν <w lemma="ὀροφά">ὀρο<unclear>φὰν</unclear></w>
+                          <lb n="4"/><supplied reason="lost"><w lemma="ἐπιτίθημι">ἐπέθηκε</w> καὶ τὰ</supplied> <w lemma="θύρωμα"><supplied reason="lost">θυρώματ</supplied>α</w> <w lemma="κονιάω">ἐκο<supplied reason="lost">νί</supplied>ασε</w> καὶ τὸν <w lemma="περίβολος">πε<unclear>ρ</unclear>ί<lb 
+                        break="no" n="5"/><supplied reason="lost">βολον</supplied></w> <w lemma="ἐποικοδομέω"><supplied reason="lost">ἐπωικοδόμη</supplied>σε</w> καὶ οἱ ἐς <placeName ref="#miletus">Μιλήτο</placeName> <w lemma="ὁροθέτας">ὁροθέτα<supplied reason="lost">ι</supplied></w>
+                          <lb n="6"/><supplied reason="lost">κατὰ τὸ τᾶς</supplied> <supplied reason="lost">συγκλή</supplied>τω <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#lato"><w lemma="δόγμα">δόγμα</w></rs> τὸς <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><w lemma="ὅρος">ὅρος</w></rs> <w lemma="καθίστημι">κατέστη<lb 
+                        break="no" n="7"/><supplied reason="lost">σαν</supplied></w> <supplied reason="lost">τᾶς κατακ</supplied>εκριμένας χώρας κα<supplied reason="lost">ὶ</supplied> <w lemma="νᾶσος"><unclear>ν</unclear>ασῶν</w> <unclear>κ</unclear><supplied reason="lost">αὶ</supplied>
+                          <lb n="8"/><supplied reason="lost" cert="low">τῶ <rs type="institution" subtype="public_space" role="landmark" key="hieron" ref="#dera"><w lemma="ἱερόν">ἱαρῶ</w></rs></supplied> <supplied reason="lost">ἀκο</supplied>λούθ<supplied reason="lost">ω</supplied>ς τοῖς προγεγονόσι
+                          <lb n="9"/><supplied reason="lost"><rs type="institution" subtype="object" role="decreeing" key="krima" ref="#lato"><w lemma="κρίμα">κρίμασι</w></rs>.</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><supplied reason="lost"><w lemma="κοσμέω">ἐκόσμιον</w> οἵδε·</supplied> <persName type="attested" key="Aution f. Podaithon"><name nymRef="Αὐτίων"><supplied reason="lost">Α</supplied>ὐτίων</name> <name nymRef="Ποδαίθων" type="patronymic">Ποδαίθω<lb 
+                        break="no" n="10"/><supplied reason="lost">νος</supplied></name></persName></rs><supplied reason="lost">, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Thiaris f. Laston"><name nymRef="Θίαρις">Θίαρις</name> <name nymRef="Λάστων" type="patronymic">Λάστωνος</name></persName></rs>,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Somantis f. Laston"><supplied reason="lost"><name nymRef="Σώμαντις">Σώμαντις</name></supplied> <name nymRef="Λάστων" type="patronymic"><supplied reason="lost">Λ</supplied>άστωνος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Chenos f. Enipas"><name nymRef="Χένος">Χέ<lb 
+                        break="no" n="11"/><supplied reason="lost">νος</supplied></name> <supplied reason="lost"><name nymRef="Ἐνίπας" type="patronymic">Ἐνίπαντος</name></supplied></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Sophios f. Kleanor"><name nymRef="Σόφιος"><supplied reason="lost">Σόφιο</supplied>ς</name> <name nymRef="Κλεάνωρ" type="patronymic">Κλεάνορος</name></persName></rs>,
+                          <lb n="12"/><supplied reason="lost"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Praxon f. Kolakas"><name nymRef="Πράξων">Πράξων</name> <name nymRef="Κόλαξ" type="patronymic">Κολάκα</name></persName></rs>,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Polytimos f. Polytimos"><name nymRef="Πολύτιμος"><supplied reason="lost">Πολύτιμ</supplied>ος</name> <name nymRef="Πολύτιμος" type="patronymic">Πολυτίμω</name></persName></rs>
+                          <lb n="13"/><rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#lato"><supplied reason="lost"><w lemma="γραμματεύς">γραμματεὺς</w></supplied> <persName type="attested" key="Polytimos f. Androlas"><supplied reason="lost"><name nymRef="Πολύτιμος">Πολύτιμος</name></supplied> <name nymRef="Ἀνδρόλας" type="patronymic">Ἀνδρόλα</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, che si apre con un’espressione benaugurale, conserva una formula di datazione contenente il ricordo della tribù dei cosmi in carica, quella degli <foreign>Echanoreis</foreign> (attestata a Lato anche in <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>, <ref type="ins" target="#ic1_16_31"><title>IC</title> I 16 31</ref> e forse <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref>), e dell’eponimo Aution figlio di Podaithon, noto anche dai documenti coevi <ref type="ins" target="#ic1_16_31"><title>IC</title> I 16 31</ref> e <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref> (sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>).</p>
+                    <p>L’intervento commemorato, piuttosto articolato, comporta da un lato l’aggiunta di una copertura all’atrio del santuario di Dera, il restauro del suo <foreign>peribolos</foreign> e la stuccatura delle sue porte (cf. le altre iscrizioni edificatorie di Lato relative ad Afrodite o al santuario di Dera <ref type="ins" target="#ic1_16_24"><title>IC</title> I 16 24-27</ref>, <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e <ref type="ins" target="#bile_47">Bile 47</ref>), dall’altro la fissazione dei confini mediante il ricorso a specializzati <foreign>horothetai</foreign> milesii, secondo quanto stabilito dal giudizio arbitrale di Knossos e Roma, intervenute nella disputa in corso fra Lato e Olous nell’ultimo ventennio del II secolo a.C. (cf. <ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>; <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>; <ref type="ins" target="#ic1_16_18"><title>IC</title> I 16 18</ref>; cf. inoltre <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>). Come previsto dai <foreign>krimata</foreign>, la collocazione di pietre di confine interessa il territorio conteso (di Kresa), le isole (Agioi Pantes e Mikronisi) e il santuario di Dera (cf. <ref type="ins" target="#chaniotis_54-56a">Chaniotis, <title>Verträge</title> 54/56a</ref> e <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>).</p>
+                    <p>L’iniziativa dell’intervento sembrerebbe essere della <foreign>polis</foreign> di Lato, come avviene nei documenti analoghi della città <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29-31</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e forse <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref>.</p>
+                    <p>Il ricordo del cosmo eponimo nella formula di datazione è seguito alle linee 9-12 da una lista di tutti i nomi al nominativo dei cosmi in carica al momento dell’intervento edilizio, sette in tutto, fra i quali è incluso nuovamente l’eponimo (analogamente a quanto avviene in <ref type="ins" target="#ic1_16_29"><title>IC</title> I 16 29</ref>-<ref type="ins" target="#ic1_16_30">30</ref>). A quello dei cosmi segue alla linea 12 il ricordo di un segretario, figura che compare anche nelle iscrizioni edificatorie di Lato <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref>, <ref type="ins" target="#ic1_16_25">25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29</ref>, <ref type="ins" target="#ic1_16_31">31</ref>-<ref type="ins" target="#ic1_16_32">32</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e <ref type="ins" target="#bile_47">Bile 47</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref> (?), <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref> (?), <ref type="inst" target="#horos"><foreign>horos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#krima"><foreign>krima</foreign></ref> (?), <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?), tribù (<ref type="inst" target="#echanoreis"><foreign>Echanoreis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib459">Bougrat – Van Effenterre 1969</ref>, pp. 28-32 <ptr type="phi" target="201446"/></bibl>;
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 54/56c <ptr type="phi" target="201325"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1970.467</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

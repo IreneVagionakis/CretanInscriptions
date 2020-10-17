@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> ad Anaphe da parte del <foreign>koinon</foreign> cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 197*</idno>
+                        <idno type="projectNo">573</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#anafi_kalamiotissa">Monastero di Panagia Kalamiotissa, Anafi</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#anaphe">Anaphe</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#koinon_kretaieon"><w lemma="δοκέω"><supplied reason="lost">ἔδοξ</supplied>ε</w></rs> τοῖς <rs type="institution" subtype="board" role="decreer" key="synedros" ref="#koinon_kretaieon"><w lemma="σύνεδρος">συνέδροις</w></rs> καὶ τῶ<supplied reason="lost">ι</supplied>
+                          <lb n="2"/><rs type="institution" subtype="assembly" role="decreer" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν"><supplied reason="lost">κοινῶ</supplied>ι</w> τῶν <placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></rs>, <placeName ref="#knossos">Κνω<lb 
+                        break="no" n="3"/><supplied reason="lost">σοῖ</supplied></placeName> <supplied reason="lost">ἐ</supplied>ν τῶι <rs type="institution" subtype="practice" role="decreeing" key="syllogos" ref="#koinon_kretaieon"><w lemma="σύνλογος">συνλόγωι</w></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμι<lb 
+                        break="no" n="4"/><supplied reason="lost">όντω</supplied>ν</w></rs> ἐν <placeName ref="#gortyn">Γόρτυνι</placeName> μὲν <rs type="institution" subtype="tribe" role="eponym" key="Dymanes" ref="#gortyn">ἐ<lb 
+                        break="no" n="5"/><supplied reason="lost">πὶ τῶ</supplied>ν <w lemma="Δυμᾶνες">Δυμάνων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn">τῶν σὺν
+                          <lb n="6"/><persName type="attested" key="-ios f. Allodamos"><name nymRef="-ιος"><gap reason="lost" quantity="4" unit="character"/>ίωι</name> τῶι <name nymRef="Ἀλλόδαμος" type="patronymic">Ἀλλοδάμω</name></persName></rs>
+                          <lb n="7"/><supplied reason="lost">ὅκα τ</supplied>ὸ <w lemma="δεύτερος">δεύτερον</w>, <w lemma="μείς">μηνὸς</w>
+                          <lb n="8"/><rs type="institution" subtype="month" role="calendar" key="Karneios" ref="#gortyn"><w lemma="Καρνήιος"><supplied reason="lost">Καρ</supplied><unclear>ν</unclear>ήιω</w></rs> τετράδι, <placeName ref="#knossos">Κνωσο<supplied reason="lost">ῖ</supplied></placeName>
+                          <lb n="9"/><supplied reason="lost">δὲ</supplied> <rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#knossos"><supplied reason="lost">ἐ</supplied><unclear>π</unclear>ὶ τῶν <w lemma="Αἰθαλεῖς">Αἰθαλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos"><w lemma="κορμέω">κο<supplied reason="lost">ρ</supplied><lb 
+                        break="no" n="10"/><supplied reason="lost">μιόντ</supplied>ων</w> τῶν σὺν <persName type="attested" key="Kypselos f. -"><name nymRef="Κύψελος">Κυψέλω<supplied reason="lost">ι</supplied></name>
+                          <lb n="11"/><supplied reason="lost">τῶι</supplied> <gap reason="lost" quantity="3" unit="character"/>ρέτω</persName></rs>, <w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Agyeios" ref="#knossos"><w lemma="Ἀγυήιος">Ἀγυ<unclear>ή</unclear><supplied reason="lost">ι</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">ω</supplied></w></rs> <supplied reason="lost">τετρά</supplied>δι· <w lemma="ἄσυλος">ἄσυλον</w> ἦμεν <placeName ref="#anaphe" type="ethnic"><supplied reason="lost">Ἀ</supplied><lb 
+                        break="no" n="13"/><supplied reason="lost">ναφαίω</supplied><unclear>ν</unclear></placeName> τὰν πόλιν κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="14"/><supplied reason="lost">τὰν χώρ</supplied><unclear>α</unclear>ν καθὼς καὶ τὸ <supplied reason="lost">ἱ</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">ερὸν ὑ</supplied><unclear>π</unclear>άρχει <w lemma="ἄσυλος">ἄσυλον</w>
+                          <lb n="16"/><supplied reason="lost">τῶι τῶ</supplied> <rs type="institution" subtype="assembly" role="decreer" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν"><supplied reason="lost">κ</supplied>οινῶ</w> τῶν <placeName ref="#crete" type="ethnic">Κρητα<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="17"/><supplied reason="lost">έων</supplied></placeName></rs> <w lemma="ῥητός"><supplied reason="lost">ῥη</supplied>τῶι</w>. εἰ δέ τίς τι<lb 
+                        break="no" n="18"/><supplied reason="lost">να</supplied> <w lemma="συλάω"><supplied reason="lost">συλά</supplied>σηι</w> <placeName ref="#anaphe" type="ethnic">Ἀναφαίων</placeName> τῶν
+                          <lb n="19"/><supplied reason="lost">ἐκ</supplied> <placeName ref="#crete"><supplied reason="lost">Κρήτ</supplied>ας</placeName> ὁρμιομένων
+                          <lb n="20"/><supplied reason="lost">ἢ ἐκ τ</supplied><unclear>ᾶ</unclear>ς πόλεως ἢ ἐκ τ<supplied reason="lost">ᾶς</supplied>
+                          <lb n="21"/><supplied reason="lost">χώρα</supplied><unclear>ς</unclear>, ὑπόδικος ἔστω <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#koinon_kretaieon"><w lemma="δίκα"><supplied reason="lost">δί</supplied><lb 
+                        break="no" n="22"/><supplied reason="lost">καν</supplied></w></rs> <supplied reason="lost">ἔν</supplied> τε <placeName ref="#anaphe" type="ethnic">Ἀναφαίοι<supplied reason="lost">ς</supplied></placeName>
+                          <lb n="23"/><supplied reason="lost">ἅν κ’ α</supplied><unclear>ὐτ</unclear><supplied reason="lost">ο</supplied>ὶ προστά<unclear>ξ</unclear>ω<supplied reason="lost">ντι</supplied>,
+                          <lb n="24"/><supplied reason="lost">κ’ ἐν</supplied> <rs type="institution" subtype="practice" role="judicial_procedure" key="koinodikion" ref="#koinon_kretaieon"><w lemma="κοινοδίκιον"><supplied reason="lost">κ</supplied>οινοδικίωι</w></rs> ἀπρ<supplied reason="lost">όδι</supplied><lb 
+                        break="no" n="25"/><supplied reason="lost">κον κ’ ἀπ</supplied>άρβολον καὶ κ<supplied reason="lost">υ</supplied><lb 
+                        break="no" n="26"/><supplied reason="lost">ρία ἁ</supplied> <w lemma="πρᾶξις"><unclear>πρ</unclear>ᾶξις</w> ἔστω κὰ<unclear>τ</unclear> <supplied reason="lost">τὸ</supplied>
+                          <lb n="27"/><rs type="institution" subtype="object" role="law" key="diagramma" ref="#koinon_kretaieon"><w lemma="διάγραμμα"><supplied reason="lost">διάγρ</supplied>αμμα</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto è uno dei pochi documenti ascrivibili con certezza al <foreign>koinon</foreign> cretese di cui si sia conservata la formula di sanzione, nella quale è appunto il <foreign>koinon</foreign> cretese a figurare come entità istituzionale responsabile della deliberazione assieme ai <foreign>synedroi</foreign>, termine che pare riferirsi ai membri di un’assemblea pertinente al <foreign>koinon</foreign>, impiegato anche nel trattato <ref type="ins" target="#ic4_175"><title>IC</title> IV 175</ref> (ll. 1-2; cf. <ref type="ins" target="#ic2_5_22"><title>IC</title> II 5 22</ref> e il probabile falso <ref type="ins" target="#magnesia_40-41"><title>Magnesia</title> 40</ref>, in cui compare in tale ruolo il solo <foreign>koinon</foreign>; cf. inoltre <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref> e <ref type="ins" target="#ic1_24_2"><title>IC</title> I 24 2</ref>). Il documento, inoltre, conserva alle linee 2-3 un riferimento alla circostanza e alla sede contestuale di riunione del <foreign>koinon</foreign>, il <foreign>syllogos</foreign> di Knossos, attestato anche nel decreto <ref type="ins" target="#ic2_16_9"><title>IC</title> II 16 9</ref>.</p>
+                    <p>Il documento conserva alle linee 3-12 una doppia formula di datazione, nella quale vengono menzionati i cosmi eponimi di Gortyna e Knossos, rispettivamente -ios figlio di Allodamos della tribù dei <foreign>Dymanes</foreign> (a Creta attestata anche a Olous, Lyttos, Dreros e Hierapytna), in carica per la seconda volta, e Kypselos figlio di -retos della tribù degli <foreign>Aithaleis</foreign> (nota anche a Gortyna, Malla e Dreros). Nella datazione, inoltre, viene ricordato anche il giorno esatto dell’emanazione del decreto, il quarto giorno del mese <foreign>Karneios</foreign> di Gortyna (noto anche a Knossos da <ref type="ins" target="#ic4_181"><title>IC</title> IV 181</ref>), corrispondente al medesimo giorno del mese <foreign>Agyeios</foreign> di Knossos (non attestato altrove).</p>
+                    <p>L’oggetto del decreto, alle linee 12-27, consiste nella concessione dell’<foreign>asylia</foreign> ad Anaphe, che prevede in particolare che, nel caso di contravvenzione a quanto stabilito, i colpevoli siano sottoponibili ad un’azione giudiziaria da svolgersi sia ad Anaphe che presso il <foreign>koinodikion</foreign>, il tribunale del <foreign>koinon</foreign> cretese (l. 24; cf. <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>; cf. inoltre <bibl><ref target="#b3">Ager 1994</ref></bibl>), secondo quanto previsto dal <foreign>diagramma</foreign>, una sorta di codice procedurale proprio del <foreign>koinon</foreign> (l. 27; cf. <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>, <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>, <ref type="ins" target="#ic4_174"><title>IC</title> IV 174</ref>, <ref type="ins" target="#mylasa_443"><title>Mylasa</title> 443</ref>; cf. inoltre <bibl><ref target="#b312">Chaniotis 1999a</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#diagramma"><foreign>diagramma</foreign></ref>, <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#koinodikion"><foreign>koinodikion</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mesi (<ref type="inst" target="#agyeios"><foreign>Agyeios</foreign></ref>, <ref type="inst" target="#karneios"><foreign>Karneios</foreign></ref>), <ref type="inst" target="#syllogos"><foreign>syllogos</foreign></ref>, <ref type="inst" target="#synedros"><foreign>synedroi</foreign></ref>, tribù (<ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>, <ref type="inst" target="#dymanes"><foreign>Dymanes</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1547">Pittakis 1840</ref>, pp. 372-373 n. 477</bibl>; 
+                            <bibl><ref target="#b1082">Legrand 1892</ref>, pp. 144-147 n. 35</bibl>; 
+                            <bibl><ref target="#b1682">Semenoff 1893</ref>, p. 53 (<foreign>non vidi</foreign>)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 439</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII 3.254</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5146</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 197* <ptr type="phi" target="200636"/></bibl>;
+                            <bibl><ref target="#b3">Ager 1994</ref></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 175</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b770">Guarducci 1933b</ref>, pp. 230-232</bibl>;
+                            <bibl><ref target="#b451">Daux 1937</ref></bibl>;
+                            <bibl><ref target="#b705">Ghinatti 2004</ref>, p. 148</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

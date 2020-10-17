@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 14</idno>
+                        <idno type="projectNo">243</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (I, L, M, N, P); </repository> <idno type="invNo"/>
+                                <altIdentifier><repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna (A, Q); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#gortyn_storeroom">deposito di Gortyna (S); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#agioi_deka">Agioi Deka, in una casa (O); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#lost">iscrizione perduta (frammenti restanti)</repository><idno></idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>diciotto <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0525">600-525 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="fragment" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>η <unclear>π</unclear>εδαθ<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>η ἀμύοτον π<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="C">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>α <g type="|"/> <unclear>τ</unclear>αν π<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="D">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ι λαγάσαι ὀ ἀ<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="E">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ς ταν πσαμ<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="F">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ονοα<unclear>ϙ</unclear>ο<unclear>σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="G-P">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>πε</unclear>ντήκοντα <w lemma="λέβης">λέβ<unclear>η</unclear><supplied reason="lost">τας</supplied></w> <supplied reason="lost">ϝ</supplied>εκάστο καταστᾶσαι. <rs type="institution" subtype="official" role="collecting_fines" key="kosmos" ref="#gortyn"><w lemma="ϙόσμος">ϙόσμος</w> ὀ ἐπιστάς</rs> <g type="|"/> αἰ μὴ <w lemma="ἐστίνω">ἐστείσαιτο</w>, ἀ<unclear>ϝτ</unclear><supplied reason="lost">ὸν ὀ</supplied><unclear>π</unclear>ήλεν <g type="|"/> καὶ τὸ<unclear>ν</unclear> <rs type="institution" subtype="official" role="collecting_fines" key="titas" ref="#gortyn"><w lemma="τίτας"><unclear>τ</unclear>ίταν</w></rs> <g type="|"/> αἰ μὴ <w lemma="ἐστίνω">’<unclear>σ</unclear>τείσαιτο</w> τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="λέβης">λέβητας</w> κα<supplied reason="lost">τ</supplied>αστ<unclear>ᾶ</unclear>σαι ϝέκαστον. <g type="|"/> τρι<supplied reason="lost">ο͂</supplied><unclear>ν</unclear> ϝετίον τὸν ἀϝτὸν μὴ <rs type="institution" subtype="official" role="exclusion" key="kosmos" ref="#gortyn"><w lemma="ϙοσμέω">ϙοσμε͂ν</w></rs>, <g type="|"/> δέκα μὲν <rs type="institution" subtype="board" role="exclusion" key="gnomon" ref="#gortyn"><w lemma="γνώμων">γνόμονας</w></rs>, <g type="|"/> πέντ<unclear>ε</unclear> <supplied reason="lost">δὲ</supplied> <rs type="institution" subtype="official" role="exclusion" key="xenios" ref="#gortyn"><w lemma="κσένιος"><supplied reason="lost"> κσ</supplied>ενίος</w></rs> <g type="|"/> <space extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="Q">
+                        <ab>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>σε<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>κ</unclear>αὶ πσ<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="R">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>μον <g type="|"/> τοσ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τα</unclear>ς δο<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="S">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>εν ἆι<unclear>π</unclear>ερ το͂ <rs type="institution" subtype="age_class" role="regulation" key="aner" ref="#gortyn"><w lemma="ἀνήρ">ἀνδ<supplied reason="lost">ρὸς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> τὸν <rs type="institution" subtype="age_class" role="regulation" key="anebos" ref="#gortyn"><w lemma="ἄνηβος">ἄνηβ<unclear>ο</unclear>ν</w></rs> το<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Fra i numerosi frammenti della legge particolarmente interessanti risultano quelli G-P, nei quali è possibile individuare alla linea 2 un divieto di iterazione di più cariche pubbliche. Nello specifico il testo vieta che la stessa persona ricopra per più volte la carica di cosmo in un intervallo di tempo di tre anni, quella di <foreign>gnomon</foreign> in dieci anni o quella di <foreign>xenios</foreign> in cinque anni. Il divieto relativo ai cosmi, in particolare, è analogo a quello espresso nella legge di Dreros <ref type="ins" target="#seg_27_620"><title>SEG</title> 27.620</ref>, nella quale tuttavia il margine di tempo fissato è di dieci anni (cf. <bibl><ref target="#b1111">Link 2003</ref></bibl>). Mentre la carica di <foreign>gnomon</foreign> è priva di paralleli a Creta (ma è nota a Iasos e ad Atene: cf. <ref type="ins"><title>Iasos</title> 78</ref> e <ref type="lit">Lys. VII 25</ref>), quella di <foreign>xenios</foreign> invece, mai attestata fuori da Creta, è documentata da altre iscrizioni di Gortyna (<ref type="ins" target="#ic4_79"><title>IC</title> IV 79</ref> e forse <ref type="ins" target="#ic4_144">144</ref>, mentre <ref type="ins" target="#ic4_30"><title>IC</title> IV 30</ref>, <ref type="ins" target="#ic4_53">53</ref>, <ref type="ins" target="#ic4_78">78</ref> e forse <ref type="ins" target="#ic4_89">89</ref> conservano la menzione di uno <foreign>xenios kosmos</foreign>; uno <foreign>xenios</foreign> è forse menzionato anche nella legge <ref type="ins" target="#ic2_12_4"><title>IC</title> II 12 4</ref> da Eleutherna).</p>
+                    <p>La linea 1 dei frammenti G-P, invece, conserva una clausola relativa alla riscossione di multe, secondo cui nel caso di mancata esazione di un’ammenda dal valore di cinquanta calderoni il cosmo in carica è tenuto a fornire egli stesso tale importo. Una prescrizione analoga sembra interessare anche il <foreign>titas</foreign>, un funzionario che è attestato sempre in connessione con la riscossione di multe, noto solamente a Gortyna (cf. <ref type="ins" target="#ic4_15"><title>IC</title> IV 15</ref>, <ref type="ins" target="#ic4_78">78</ref>-<ref type="ins" target="#ic4_79">79</ref>, <ref type="ins" target="#ic4_102">102</ref>, <ref type="ins" target="#ic4_107">107</ref> e <ref type="ins" target="#ic4_165">165</ref>) e forse a Lato (sebbene la sola occorrenza relativa alla città sia nel trattato fra Lato e Gortyna <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>, nel quale è possibile che i <foreign>titai</foreign> menzionati siano solamente di quest’ultima).</p>
+                    <p>La legge, inoltre, nel contesto non ricostruibile del frammento S menziona degli individui appartenenti a due differenti classi di età, quella degli adulti (ἀνδ[ρός]) e quella dei giovani non ancora in età da nozze (ἄνηβον). Quest’ultimo termine è attestato epigraficamente soltanto in contesti legislativi: oltre all’iscrizione in questione, compare anche in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> e due volte in una legge di Axos (<ref type="ins" target="#ic2_5_25"><title>IC</title> II 5 25</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#anebos"><foreign>anebos</foreign></ref>, <ref type="inst" target="#aner1"><foreign>aner</foreign></ref>, <ref type="inst" target="#gnomon"><foreign>gnomon</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#titas"><foreign>titas</foreign></ref>, <ref type="inst" target="#xenios"><foreign>xenios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b378">Comparetti 1888a</ref>, pp. 216-218 nn. 74-78 (K-L, O, R-S)</bibl>; 
+                            <bibl><ref target="#b381">Comparetti 1889</ref>, pp. 87-92 nn. 39-49 (A-I, M-N, P-Q)</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 47-50 nn. 43-60</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4979</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 14 <ptr type="phi" target="200450"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 121 (G-P)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 82</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, pp. 268-269</bibl>;
+                            <bibl><ref target="#b662">Gagarin 2008</ref>, p. 248 n. 2 (G-P)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G14</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1000">Koerner 1987</ref></bibl>; 
+                            <bibl><ref target="#b694">Gehrke 1995</ref></bibl>; 
+                            <bibl><ref target="#b1469">Papakonstantinou 1996</ref></bibl>; 
+                            <bibl><ref target="#b1965">Von Reden 1997</ref></bibl>; 
+                            <bibl><ref target="#b1110">Link 2002</ref></bibl>; 
+                            <bibl><ref target="#b1111">Link 2003</ref></bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

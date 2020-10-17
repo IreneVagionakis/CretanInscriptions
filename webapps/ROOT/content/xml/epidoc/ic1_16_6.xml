@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Leggi sacre di Lato</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 6</idno>
+                        <idno type="projectNo">447</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">160-162</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge sacra</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato">Lato, <foreign>agora</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="fragment" n="I-III">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear></orig>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ακατεκο</orig>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ενναιτο</orig>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ενεβαλ</orig>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>οι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>δολ</orig>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>θαι αἴ τι κρ<lb 
+                              break="no" n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">ἀποθ</supplied>άνοι ἢ καὶ ερ<lb 
+                              break="no" n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig>αι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>αιδετε</orig>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>τισι<unclear>α</unclear> ἔστω
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">παρα</supplied>χρῆμα ἢ ἕλ<lb 
+                        break="no" n="11"/><supplied reason="lost" cert="low">κος ἔχων</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μη</supplied>θ<supplied reason="lost">ὲ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">ν ἐπικωλύεσ</supplied>θ<supplied reason="lost">α</supplied>ι ἀλλὰ <w lemma="καθαρός"><corr>κα</corr>θαρὸν</w> ἦμεν. αἴ τίς τινα ἐς <supplied reason="lost">τὸ</supplied>
+                          <lb n="13"/><supplied reason="lost">πῦρ ἄκων βά</supplied>λοι <supplied reason="lost">κ</supplied>αὶ πάθοι τι ὁ <w lemma="ἄνθρωπος"><supplied reason="lost">ἄ</supplied>νθρωπος</w> ὁ ἐς τὸ πῦρ
+                          <lb n="14"/><supplied reason="lost">πεσὼν ἢ παραχρ</supplied>ῆμα ἢ ὕστερον ἕλκος ἔ<supplied reason="lost">χ</supplied>ων <w lemma="καθαρός">καθαρὸ<supplied reason="lost">ν</supplied></w> <supplied reason="lost">ἦ</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">μεν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied>κ τοῦ πυρὸς καὶ ἐπιβο<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/>ς <w lemma="ἐφίστημι">ἐπεστακ<corr>ὼ</corr>ς</w> αὐτός. αἰ δὲ τοῦ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> ἢ καταχέαι τὸ <surplus>το</surplus> ὕδωρ καὶ ἀποθάν<lb 
+                        break="no" n="18"/>οι ἢ παραχρῆ<supplied reason="lost">μα ἢ ὕ</supplied>στερον ἕλκος ἔ<supplied reason="lost">χ</supplied>ων τὸν <w lemma="ἐφίστημι">ἐπιστάσα<lb 
+                        break="no" n="19"/>ντα</w> ἢ τὸ ἑψη<corr>τ</corr>ὸν ἢ τ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μηθὲν ἐ</supplied><lb 
+                        break="no" n="20"/>πικωλύεσθαι ἀλλὰ <w lemma="καθαρός">καθαρὸ<supplied reason="lost">ν</supplied></w> <supplied reason="lost">ἦμεν. αἴ τις ἀκόντως</supplied>
+                          <lb n="21"/>καταχέαι τινὶ ὕδωρ ζέον ἢ πυρὶ καί<supplied reason="lost">οι καὶ ἀποθάνοι κα</supplied><lb 
+                        break="no" n="22"/>τακαυθὲς ἢ παραχρῆμα ἢ ὕστερον <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="23"/>καθαρὸν ἦμεν τὸν καταχέαντ<supplied reason="lost">α ἢ τὸν κατακαύσαν</supplied><lb 
+                        break="no" n="24"/>τα. αἴ τις <w lemma="ἄνθρωπος">ἄνθρωπον</w> μαδαρ<supplied reason="lost">ώσαι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="IV">
+                            <div type="textpart" subtype="face" n="a">
+                                <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>α <w lemma="ἀρά">ἀρὰν</w> αρ
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ηι αἴ τίς κα
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> μὴ <w lemma="ἐφίστημι">ἐπεστάκηι</w>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>σηι <persName type="divine" key="Ares">Ἄρεα</persName> οἱ <rs type="institution" subtype="board" role="cult" key="hiereus" ref="#lato"><w lemma="ἱερεύς">ἱερεῖς</w></rs>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ου ἄλπαρ αὐτεῖ το
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>εαι ὑπο<gap reason="lost" extent="unknown" unit="character"/><orig>π</orig>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="face" n="b">
+                                <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/> <persName type="divine" key="Zeus">Δ<unclear>ιι</unclear></persName> καὶ ἐπα<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἁγ</supplied><lb 
+                        break="no" n="2"/>νὸς ἔστω. αἴ τι<supplied reason="lost">να</supplied> κύω<lb 
+                        break="no" n="3"/>ν δάκοι, αἴ κα ἄλλως μ<lb 
+                        break="no" n="4"/>όνον δυνατὸς ἦι, μηθὲ<supplied reason="lost">ν</supplied>
+                          <lb n="5"/><supplied reason="lost">ἐπ</supplied>ικωλύεσθαι κατὰ
+                          <lb n="6"/><supplied reason="lost">ὁ</supplied>σίαν μηδεμίαν. <space extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="face" n="c">
+                                <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><orig>ενα<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>κλίναις <unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="3"/>νηι πρὸς τὰν <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>ἐγκαθεύδοντα <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="5"/>δον πάθηι τι τοῦ κλιν<gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="6"/>ν. ὅς κα μὴ ἐ<supplied reason="lost">π</supplied>ὶ κοιτα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="V-VI">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>αι</orig><gap reason="lost" extent="unknown" unit="character"/><orig>α<unclear>μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#lato"><w lemma="δοῦλος"><supplied reason="lost">δ</supplied>οῦλος</w></rs> ἢ <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#lato"><w lemma="δούλη">δο<supplied reason="lost">ύλη</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ς <rs type="institution" subtype="social_status" role="regulation" key="allopoliatas" ref="#lato"><w part="I" lemma="ἀλλοπ-">ἀλλοπ<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>τα <w lemma="καθαρός">καθα<supplied reason="lost">ρὸν</supplied></w> <supplied reason="lost">ἦμεν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>τηια</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>οτο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="VII-VIII">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>α τηρημα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>αππας η<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="IX">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>καιο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ἐφίερον ε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>αγων και<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> μηθὲν <supplied reason="lost">ἐπικωλύεσθαι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>το</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="X-XI">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>πα<unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς ἐφιε<supplied reason="lost">ρ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>δια η κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><orig>υτα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>ις <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="XII">
+                            <div type="textpart" subtype="face" n="a">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>νε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ετο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ωνη</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ετ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ε</unclear>ρα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                            </div>
+                            <div type="textpart" subtype="face" n="b">
+                                <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>δδ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>νικατα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>αλπ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ηι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                            </div>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="XIII">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>τατονδ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ποτα<unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>σθαι α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>μηδ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="XIV">
+                        <ab>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>δι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>αχρ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Le prescrizioni, che nel loro complesso trattano di purificazioni, fanno menzione di più sacerdoti di Lato (fr. IV a, l. 4) e sembrano implicare delle distinzioni relative allo <foreign>status</foreign> sociale degli individui interessati. Alle linee 3-4 dei frammenti V-VI, infatti, vengono nominati uno schiavo o una schiava, seguiti verosimilmente dal termine <foreign>allopoliatas</foreign> (ἀλλοπ-); il sostantivo, che indica gli individui dotati della cittadinanza di un’altra <foreign>polis</foreign> residenti nel territorio della città in questione, è attestato anche da altre leggi cretesi (<ref type="ins" target="#seg_35_991"><title>SEG</title> 35.991</ref> da Lyttos, <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> da Gortyna, <ref type="ins" target="#ic2_12_3"><title>IC</title> II 12 3</ref> da Eleutherna).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#allopoliatas"><foreign>allopoliatas</foreign></ref>, <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b493">Demargne 1903</ref>, pp. 226-229</bibl>; 
+                            <bibl><ref target="#b2019">Wilhelm 1911</ref>, pp. 202-203 (I-III)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1034 n. 3 (I-III ll. 20-24)</bibl>; 
+                            <bibl><ref target="#b763">Guarducci 1931c</ref></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 6 <ptr type="phi" target="199214"/></bibl>; 
+                            <bibl><ref target="#bib230"><title>LSCG Suppl.</title></ref> 112 (I-IV)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib505"><title>CGRN</title></ref> 166 (I-IV) <ptr type="cgrn" target="166"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1921">Van Effenterre – Van Effenterre 1985</ref>, p. 186</bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 59</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

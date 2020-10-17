@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Erannos (rinnovo)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Teos 19</idno>
+                        <idno type="projectNo">409</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><space extent="unknown" unit="character"/> <placeName ref="#erannos" type="ethnic">Ἐραννίων</placeName>. <space extent="unknown" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">ἐπειδ</supplied>ὴ ὁ δᾶμος ὁ <placeName ref="#teos" type="ethnic">Τηΐων</placeName> ἐκ <w lemma="παλαιός">παλαιῶν</w>
+                          <lb n="3"/><supplied reason="lost">χρόνων</supplied> <w lemma="συγγενής">συγγενὴς</w> ὑπάρχων καὶ <w lemma="φίλος">φίλος</w>
+                          <lb n="4"/><supplied reason="lost">δι</supplied>ὰ <w lemma="πρόγονος">προγόνων</w> τᾶς τῶν <placeName ref="#erannos" type="ethnic">Ἐραννίων</placeName> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#erannos"><w lemma="πόλις">πόλιος</w></rs>
+                          <lb n="5"/><w lemma="ἐξαποστέλλω">ἐξαπέσταλκεν</w> ψάφισμα καὶ πρεγ<lb 
+                        break="no" n="6"/>γευτὰς Ἡρόδοτον καὶ Μενεκλῆν, <w lemma="παρακαλέω">πα<lb 
+                        break="no" n="7"/>ρακαλίων</w> ἁμὲ συντηρεῖν τὰ δεδομέ<lb 
+                        break="no" n="8"/>να <w lemma="τίμια">τίμια</w> ὑπὸ τῶν <w lemma="πρόγονος">προγόνων</w> ἁμίων καὶ
+                          <lb n="9"/>ἐπὶ πλεῖον αὔξειν, καὶ ὅπως <w lemma="ἀναγράφω">ἀναγρα<lb 
+                        break="no" n="10"/>φῇ</w> τὸ πρότερον <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#erannos"><w lemma="δόγμα">δόγμα</w></rs>, ὃ κατεβάλοντο
+                          <lb n="11"/>οἱ <w lemma="πρόγονος">πρόγονοι</w> περὶ τᾶς <w lemma="ἀσυλία">ἀσυλίας</w> καὶ καθιε<lb 
+                        break="no" n="12"/>ρώσιος τᾶς τῶν <placeName ref="#teos" type="ethnic">Τηΐων</placeName> πόλιος καὶ τᾶς
+                          <lb n="13"/>χώρας, ἐν ὁποίωι κα <w lemma="κρίνω">κρίνωμεν</w> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#erannos"><w lemma="ἱερόν">ἱερῶι</w></rs>, περὶ
+                          <lb n="14"/>ὧν καὶ οἱ πρεγγευταὶ διελέγησαν ἀκο<lb 
+                        break="no" n="15"/>λούθως τοῖς ἐν τῶι ψαφίσματι κα<lb 
+                        break="no" n="16"/>τακεχωρισμένοις μετὰ πάσης <w lemma="φιλοτιμία">φιλο<lb 
+                        break="no" n="17"/>τιμίας</w>· <space quantity="1" unit="character"/> ἀγαθᾶι <w lemma="τύχα">τύχαι</w> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#erannos"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#erannos" type="ethnic">Ἐρωνίων</placeName>
+                          <lb n="18"/>τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#erannos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#erannos"><w lemma="πόλις">πόλει</w></rs> <w lemma="ἐπαινέω">ἐπαινέσαι</w>
+                          <lb n="19"/>τὸν δᾶμον τὸν <placeName ref="#teos" type="ethnic">Τηΐων</placeName> ἐπὶ τῶι πρός
+                          <lb n="20"/>τε τὸς θεὸς <w lemma="εὐσεβῶς">εὐσεβῶς</w> διακεῖσθαι καὶ
+                          <lb n="21"/>μεμνᾶσθαι τῶν <w lemma="φίλος">φίλων</w> καὶ <w lemma="συγγενής">συγγενέων</w>,
+                          <lb n="22"/>καὶ <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> ὅτι ἁ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#erannos"><w lemma="πόλις">πόλις</w></rs> τῶν <placeName ref="#erannos" type="ethnic">Ἐρωνίων</placeName>
+                          <lb n="23"/>καὶ πρότερον τετήρηκεν τὰν πρὸς <placeName ref="#teos" type="ethnic">Τη<lb 
+                        break="no" n="24"/>ΐους</placeName> <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="εὔνοια">εὔνοιαν</w>, καὶ νῦν δὲ
+                          <lb n="25"/>μένουσα ἐπὶ τᾶς αὐτᾶς <w lemma="αἵρεσις">αἱρέσιος</w>, τό τε
+                          <lb n="26"/><rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#erannos"><w lemma="δόγμα">δόγμα</w></rs> τὸ πρότερον <w lemma="γράφω">γραφὲν</w> ὑπὸ τῶν <w lemma="πρόγονος">προ<lb 
+                        break="no" n="27"/>γόνων</w> περὶ τᾶς καθιερώσιος καὶ <w lemma="ἀσυλία">ἀσυ<lb 
+                        break="no" n="28"/>λίας</w> τᾶς πόλιος καὶ τᾶς χώρας τᾶς <placeName ref="#teos" type="ethnic">Τη<lb 
+                        break="no" n="29"/>ΐων</placeName> ὁμοίως δὲ καὶ τὸ νῦν <w lemma="ἀναγράφω">ἀναγραψ<corr>ε</corr>ῖ</w> ἐς τὸ
+                          <lb n="30"/><rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#erannos"><w lemma="ἱαρόν">ἱαρὸν</w> τὸ τοῦ <persName type="divine" key="Asklepios">Ἀσκλαπιοῦ</persName></rs>, καὶ τηρήσει
+                          <lb n="31"/>τὰν <w lemma="φιλία">φιλίαν</w> καὶ ἐπὶ πλεῖον αὐξήσει, καὶ ἐ<lb 
+                        break="no" n="32"/>άν τις ἐπὶ τὰν πόλιν τὰν <placeName ref="#teos" type="ethnic">Τηΐων</placeName> ἢ τὰν
+                          <lb n="33"/>χώραν τὰν καθιερωμέναν τῶι <persName type="divine" key="Dionysos">Διονύσωι</persName>
+                          <lb n="34"/>τῶι ἀρχαγέται τᾶς πόλιος αὐτῶν <w lemma="στρατεύω">στρα<lb 
+                        break="no" n="35"/>τεύηται</w> ἢ κατὰ γᾶν ἢ κατὰ θάλασσαν
+                          <lb n="36"/><w lemma="βοαθέω">βοαθήσει</w> ὁ <rs type="institution" subtype="assembly" role="war" key="demos" ref="#erannos"><w lemma="δᾶμος">δᾶμος</w></rs> ὁ <placeName ref="#erannos" type="ethnic">Ἐραννίων</placeName> καθότι ἂν
+                          <lb n="37"/>ᾖ δυνατός· ὅπως δὲ εἴδωντι <placeName ref="#teos" type="ethnic">Τήϊοι</placeName>
+                          <lb n="38"/>τὰν <placeName ref="#erannos" type="ethnic">Ἐραννίων</placeName> <w lemma="εὔνοια">εὔνοιαν</w>, ἃν ἔχοντι πορ<lb 
+                        break="no" n="39"/>τ’ αὐτός, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#erannos"><w lemma="δοκέω">δεδόχθαι</w></rs> ἦμεν <placeName ref="#teos" type="ethnic">Τηΐους</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#erannos"><w lemma="πολίτας">πολίτας</w></rs>
+                          <lb n="40"/><placeName ref="#erannos" type="ethnic">Ἐραννίων</placeName>, εἶναι δὲ αὐτοῖς καὶ <w lemma="ἀτέλεια">ἀτέλειαν</w>
+                          <lb n="41"/>καὶ <w lemma="ἔνκτησις">ἔνκτησιν</w> γᾶς καὶ οἰκίας· <w lemma="ἐπαινέω">ἐπαινοῦ<lb 
+                        break="no" n="42"/>μεν</w> δὲ καὶ τοῦς πρεγγευτὰς <persName type="honoured" key="Herodotos f. Menodotos" ref="#teos"><name nymRef="Ἡρόδοτος">Ἡρόδοτον</name>
+                          <lb n="43"/><name nymRef="Μηνόδοτος" type="patronymic">Μηνοδότω</name></persName>, <persName type="honoured" key="Menekles f. Dionysios" ref="#teos"><name nymRef="Μενεκλῆς">Μενεκλέα</name> <name nymRef="Διονύσιος" type="patronymic">Διονυσίω</name></persName> ἐπί τε
+                          <lb n="44"/>τῶι σπεύδειν ὑπὲρ τᾶς <w lemma="πατρίς">πατρίδος</w> <w lemma="φιλοτίμως">φιλο<lb 
+                        break="no" n="45"/>τίμως</w>, καὶ τὰν <w lemma="ἐνδαμία">ἐνδαμίαν</w> πεποιῆσθαι
+                          <lb n="46"/>ἀξίως ἀμφοτερᾶν τᾶν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#erannos"><w lemma="πόλις">πολίων</w></rs>, ἦμεν
+                          <lb n="47"/>δὲ αὐτὸς καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#erannos"><w lemma="πρόξενος">προξένος</w></rs> τᾶς τῶν <placeName ref="#erannos" type="ethnic">Ἐραν<lb 
+                        break="no" n="48"/>νίων</placeName> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#erannos"><w lemma="πόλις">πόλιος</w></rs>, <w lemma="καλέω">καλέσαι</w> δὲ αὐτὸς καὶ ἐπὶ
+                          <lb n="49"/><w lemma="ξενισμός">ξενισμὸν</w> ἐπὶ τὰν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#erannos">κοινὰν <w lemma="ἑστία">ἑστίαν</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), è l’unica iscrizione di natura ufficiale di Erannos ad essersi conservata. Il testo, preceduto dall’intestazione Ἐραννίων, presenta alle linee 2-17 le motivazioni del decreto, dove sono citate la <foreign>syngeneia</foreign> e l’amicizia fra Teos e la <foreign>polis</foreign> di Erannos (l. 4) ed è documentata l’esistenza di un precedente decreto di quest’ultima relativo alla concessione di <foreign>asylia</foreign> alla città micrasiatica (ll. 10-13, menzionato anche alle ll. 25-29).</p>
+                    <p>La formula di sanzione alle linee 17-18, che indica i cosmi e la <foreign>polis</foreign> di Erannos in qualità di istituzioni preposte alla deliberazione, introduce l’oggetto del decreto, che viene però presentato subito dopo come frutto dell’iniziativa della sola <foreign>polis</foreign> (l. 22); la formula di mozione alla linea 39, invece, è composta dal solo verbo δεδόχθαι, senza alcun riferimento ai responsabili del decreto.</p>
+                    <p>La decisione, esposta alle linee 18-37, prevede l’iscrizione in un altrimenti ignoto santuario di Asclepio del presente decreto e di quello precedente e una promessa di aiuto da parte del <foreign>damos</foreign> di Erannos a Teos in caso di attacco. Il decreto, inoltre, prevede più concessioni all’intera comunità di Teos, che ottiene la cittadinanza di Erannos (<foreign>i.e.</foreign> l’<foreign>isopoliteia</foreign>), l’esenzione fiscale e l’<foreign>enktesis</foreign>, e ai suoi ambasciatori per la propria <foreign>philotimia</foreign> e per aver soggiornato in modo degno di entrambe le città, i quali vengono dichiarati prosseni della <foreign>polis</foreign> di Erannos ed invitati come ospiti presso la <foreign>koina hestia</foreign> (ll. 37-49).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> 76</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5182</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib57"><title>Teos</title></ref> 19 <ptr type="phi" target="256407"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 46</idno>
+                        <idno type="projectNo">257</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, ‘Muro settentrionale’ dell’<foreign>agora</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>ν τι
+                          <lb n="2"/><unclear>σ</unclear>ι <orig>κο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>κε</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig>
+                          <lb n="4"/><gap reason="illegible" quantity="2" unit="character"/><orig>ια<unclear>γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>δι<unclear>α</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig>
+                          <lb n="6"/><gap reason="illegible" quantity="3" unit="character"/><orig>λυ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>ηιδ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ι</orig>
+                          <lb n="8"/><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>σ</unclear>αι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> κ’ <w lemma="ὄρκος">ὄρ<supplied reason="lost">κ</supplied>ο</w>
+                          <lb n="10"/>ἀντὶ <w lemma="μαίτυρς">μ<supplied reason="lost">αιτύρον</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>ι ἢ αὐτ<lb 
+                        break="no" n="12"/>ὸν θε<unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="1"/>ρος ἐκσο͂σαι ἢ διαϝά<lb 
+                        break="no" n="2"/>κσαι ἢ ὀπαῖον δόμα<lb 
+                        break="no" n="3"/>τος δέκα <w lemma="στατήρ">στατῆραν</w><lb 
+                        break="no" n="4"/>ς καταστασεῖ αἰ ἀ<lb 
+                        break="no" n="5"/>ποπονίο<corr>ι</corr> <w lemma="μαίτυρς">μαίτυρς</w>. <space extent="unknown" unit="character"/>
+                          <lb n="6"/>αἰ μὴ εἴη <rs type="institution" subtype="public_space" role="travel" key="damosia_hodos" ref="#gortyn"><w lemma="δαμοσία ὀδός">δαμοσία ὀ<lb 
+                        break="no" n="7"/>δός</w></rs>, δι’ ἀλλότριον κο<lb 
+                        break="no" n="8"/>ρίον νέκυν πέρονσ<lb 
+                        break="no" n="9"/>ι ἄπατον ἤμην· αἰ δὲ
+                          <lb n="10"/>κολύοι τις, δέκα <w lemma="στατήρ">σ<lb 
+                        break="no" n="11"/>τατῆρανς</w> καταστα<lb 
+                        break="no" n="12"/>σεῖ· αἰ δ’ ἰάττας ὀδο͂
+                          <lb n="13"/>διαπέροιεν οἰ καδ<lb 
+                        break="no" n="14"/><supplied reason="lost">εσταὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il testo conserva parti relative ad almeno due – se non tre – disposizioni legislative, l’ultima delle quali regolamenta il trasporto di cadaveri (ll. B 6-14). La legge è significativa per la testimonianza che offre dell’importanza delle strade pubbliche (δαμοσία ὀδός), che vanno obbligatoriamente percorse da chi trasporta un cadavere; qualora non ve ne siano viene invece concesso al trasportatore di poter passare nei terreni altrui.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damosia_hodos"><foreign>damosia hodos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, p. 35 n. 4 (B)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 46 <ptr type="phi" target="200482"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 136-137 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 85 (B)</bibl>; 
+                            <bibl><ref target="#b635">Frisone 2000</ref>, pp. 25-31 (B)</bibl>; 
+                            <bibl><ref target="#b1198">Marginesu 2005</ref>, n. 9 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G46</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b681">Garland 1989</ref>, pp. 10-11</bibl>; 
+                            <bibl><ref target="#b634">Frisone 1995</ref></bibl>; 
+                            <bibl><ref target="#b695">Gehrke 1997</ref></bibl>; 
+                            <bibl><ref target="#b557">Engels 1998</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

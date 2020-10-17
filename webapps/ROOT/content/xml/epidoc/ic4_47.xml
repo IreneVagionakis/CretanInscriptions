@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna sulla servitù a contratto</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 47</idno>
+                        <idno type="projectNo">258</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, ‘Muro orientale’ dell’<foreign>agora</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="3" unit="character"/> κατακείμενος. αἰ κ’ <w lemma="ἀδικέω">ἀδική<lb 
+                        break="no" n="2"/>σει</w> <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλος">δο͂λος</w></rs> ἢ <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλα">δόλα</w></rs>, ὄτι μέν κ<supplied reason="lost">α κα</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">τα</supplied><unclear>θ</unclear>εμένο κελομένο ἀμάρτη<lb 
+                        break="no" n="4"/>ι το͂ι καταθεμένοι τὰν <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκαν</w></rs>
+                          <lb n="5"/>ἤμην, ὄτι δὲ κ’ αὐτὸς πρὸ ϝιαυτ<lb 
+                        break="no" n="6"/>ο͂ το͂ι <w lemma="ἀρκαῖος">ἀρκαίοι</w> <w lemma="πάστας">πάσται</w> τὰν <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκ<lb 
+                        break="no" n="7"/>αν</w></rs> ἤμην το͂ι δὲ καταθεμένοι μ<lb 
+                        break="no" n="8"/>ή. αἰ δέ κα <w lemma="νικάω">νικαθῆι</w> ὀ καθένς, ἀπ<lb 
+                        break="no" n="9"/>οδότο το͂ι καταθεμένοι ὄτι κ’
+                          <lb n="10"/>ὀπήληι. <g type="leaf"/> αἰ δέ κα τὸν κατακεί<lb 
+                        break="no" n="11"/>μενον <w lemma="ἀδικέω">ἀδικήσει</w> ἄλλος, αἰ μὲν
+                          <lb n="12"/>κ’ ἀνπότεροι μολίοντες <w lemma="νικάω">νικά<lb 
+                        break="no" n="13"/>σοντι</w>, τὰν ἠμίναν ϝεκάτερο<lb 
+                        break="no" n="14"/>ς ἐκσίοντι· αἰ δέ κ’ ὀ ἄτερος μ<lb 
+                        break="no" n="15"/>ὴ λῆι, ὀ ἄτερος μολίον αἴ κα <w lemma="νικάω">νι<lb 
+                        break="no" n="16"/>κάσει</w> αὐτὸς ἐκσεῖ. αἰ δέ κ’ ἀ<lb 
+                        break="no" n="17"/>πόληται ὀ κατακείμενος, <w lemma="δικάζω">δικ<lb 
+                        break="no" n="18"/>ακσάτο</w> <w lemma="ὀμνύω">ὀμόσαι</w> τὸν καταθέμε<lb 
+                        break="no" n="19"/>νον μήτ’ αὐτὸν αἴτιον ἔμην μήτ<lb 
+                        break="no" n="20"/>ε σὺν ἄλλοι, μήτ’ ἐπ’ ἄλλοι ϝισάμη<lb 
+                        break="no" n="21"/>ν. αἰ δέ κ’ ἀποθάνηι, δεικσάτο
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="22"/>ἀντὶ <w lemma="μαῖτυς">μαιτύρον</w> δυο͂ν.
+                          <lb n="23"/>αἰ δέ κα μὴ <w lemma="ὀμνύω">ὀμόσει</w> ἆι <w lemma="ἐγράφω">ἔ<lb 
+                        break="no" n="24"/>γραται</w> ἢ μὴ δείκσει, τ<lb 
+                        break="no" n="25"/>ὰν ἀπλόον τιμὰν κατα<lb 
+                        break="no" n="26"/>στασεῖ. αἰ δὲ κ’ αὐτὸν αἰ<lb 
+                        break="no" n="27"/>τιῆται ναὶ ἀποδόθαι ἢ
+                          <lb n="28"/>ἀποκρύπσαι, αἴ κα <w lemma="νικάω">νικ<lb 
+                        break="no" n="29"/>αθεῖ</w>, τὰν ἀπλόον τ<lb 
+                        break="no" n="30"/>ιμὰν διππλεῖ κατα<lb 
+                        break="no" n="31"/>στασεῖ. αἰ δέ κα <rs type="institution" subtype="social_status" role="regulation" key="naosantes" ref="#gortyn"><w lemma="ναεύω">ναεύ<lb 
+                        break="no" n="32"/>ηι</w></rs>, ἐμπανία δεικσάτ<lb 
+                        break="no" n="33"/>ο.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, distribuita su due colonne, riguarda contese relative alla servitù a contratto. Nel testo viene infatti stabilito di chi sia la responsabilità e contro chi e come vada svolto il processo nel caso che un δο͂λος o una δόλα a contratto commettano un torto (ll. 1-10), così come procedere nel caso in cui siano invece gli schiavi a subirlo (ll. 11-16). Fra le casistiche considerate rientrano anche la possibilità che lo schiavo scompaia o muoia (ll. 16-31) o che si rifugi in un tempio (ll 31-33), pratica che a Creta è nota solamente a Gortyna (cf. <ref type="ins" target="#ic4_41"><title>IC</title> IV 41</ref>, <ref type="ins" target="#ic4_72">72</ref>, <ref type="ins" target="#ic4_83">83</ref>, <ref type="ins" target="#ic4_86">86</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>, <ref type="inst" target="#naeuon"><foreign>naosantes</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, p. 34 n. 3</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 182</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 47 <ptr type="phi" target="200483"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 138</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 26</bibl>; 
+                            <bibl><ref target="#b662">Gagarin 2008</ref>, pp. 257-258 n. 5</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 272</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G47</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 23</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b657">Gagarin 1989</ref></bibl>; 
+                            <bibl><ref target="#b49">Arnaoutoglou 1998</ref>, n. 27</bibl>; 
+                            <bibl><ref target="#b1156">Maffi 2003a</ref></bibl>; 
+                            <bibl><ref target="#b1018">Kristensen 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

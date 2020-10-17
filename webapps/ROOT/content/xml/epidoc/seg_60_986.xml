@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Eltynia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 60.986</idno>
+                        <idno type="projectNo">200</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 423</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eltynia">Eltynia</origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0525">600-525 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>η</unclear></orig><gap reason="illegible" quantity="1" unit="character"/> <w lemma="ὠνέομαι"><unclear>ὀ</unclear>νη<unclear>θ</unclear>ὲν</w> <g type="|"/> <w lemma="δικάζω">δικάζε<unclear>ν</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰ</supplied> <w lemma="ποινικήιον"><unclear>π</unclear>οινικήια</w> <g type="|"/> τάδε <g type="|"/> ἄ <unclear>κ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>η <g type="|"/> ἄ κα μὴ συνπρασια<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ι <g type="|"/> τα<unclear>π</unclear><gap reason="lost" quantity="2" unit="character"/><unclear>ι</unclear>ς <g type="|"/> ἄ <unclear>κ</unclear>α μὴ ἀμ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>οδε <g type="|"/> ὂγ κατεκ<unclear>σ</unclear>εῖ <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>ι <g type="|"/> ι κα <gap reason="lost" quantity="2" unit="character"/>αι <g type="|"/> παρῆι <g type="|"/> τοι<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, forse relativa alla regolamentazione di acquisti (l. 1 ὀνηθέν e δικάζεν, l. 3 συνπρασια-), testimonia l’utilizzo del termine <foreign>poinikeia</foreign> per indicare i testi (i)scritti, come equivalente del più diffuso τὰ ἐγραμμένα.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <foreign>poinikeia</foreign>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1034">Kritzas 2010</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 60.986 <ptr type="seg" target="a60_986"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Eltynia1</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

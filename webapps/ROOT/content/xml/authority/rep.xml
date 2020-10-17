@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Current locations</title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="afrati">
+                    <term xml:lang="en">Afrati</term>
+                    <term xml:lang="it">Afrati</term>
+                </item>
+                <item xml:id="agia_dynamis_mary">
+                    <term xml:lang="en">Agia Dynamis, Church of Presentation of Mary</term>
+                    <term xml:lang="it">Agia Dynamis, Chiesa della Presentazione di Maria</term>
+                </item>
+                <item xml:id="agia_triada">
+                    <term xml:lang="en">Agia Triada</term>
+                    <term xml:lang="it">Agia Triada</term>
+                </item>
+                <item xml:id="agioi_deka">
+                    <term xml:lang="en">Agioi Deka</term>
+                    <term xml:lang="it">Agioi Deka</term>
+                </item>
+                <item xml:id="agioi_deka_saia_storeroom">
+                    <term xml:lang="en">Agioi Deka, SAIA storeroom</term>
+                    <term xml:lang="it">Agioi Deka, Magazzino SAIA</term>
+                </item>
+                <item xml:id="agios_ioannis">
+                    <term xml:lang="en">Agios Ioannis, Gavdos</term>
+                    <term xml:lang="it">Agios Ioannis, Gavdos</term>
+                </item>
+                <item xml:id="agios_nikolaos">
+                    <term xml:lang="en">Agios Nikolaos</term>
+                    <term xml:lang="it">Agios Nikolaos</term>
+                </item>
+                <item xml:id="agios_nikolaos_museum">
+                    <term xml:lang="en">Agios Nikolaos, Archaeological Museum</term>
+                    <term xml:lang="it">Agios Nikolaos, Museo archeologico</term>
+                </item>
+                <item xml:id="apessokari">
+                    <term xml:lang="en">Apessokari</term>
+                    <term xml:lang="it">Apessokari</term>
+                </item>
+                <item xml:id="apessokari_panagia">
+                    <term xml:lang="en">Apessokari, Church of Panagia</term>
+                    <term xml:lang="it">Apessokari, Chiesa di Panagia</term>
+                </item>
+                <item xml:id="argyroupoli">
+                    <term xml:lang="en">Argyroupoli</term>
+                    <term xml:lang="it">Argyroupoli</term>
+                </item>
+                <item xml:id="argyroupoli_agia_paraskevi">
+                    <term xml:lang="en">Argyroupoli, Church of Agia Paraskevi</term>
+                    <term xml:lang="it">Argyroupoli, Chiesa di Agia Paraskevi</term>
+                </item>
+                <item xml:id="axos">
+                    <term xml:lang="en">Axos</term>
+                    <term xml:lang="it">Axos</term>
+                </item>
+                <item xml:id="axos_acropolis">
+                    <term xml:lang="en">Axos, acropolis</term>
+                    <term xml:lang="it">Axos, acropoli</term>
+                </item>
+                <item xml:id="sideros_cape">
+                    <term xml:lang="en">Sideros Cape</term>
+                    <term xml:lang="it">Capo Sidero</term>
+                </item>
+                <item xml:id="chania_museum">
+                    <term xml:lang="en">Chania, Archaeological Museum</term>
+                    <term xml:lang="it">Chania, Museo archeologico</term>
+                </item>
+                <item xml:id="choustouliana">
+                    <term xml:lang="en">Choustouliana</term>
+                    <term xml:lang="it">Choustouliana</term>
+                </item>
+                <item xml:id="epano_kastelliana">
+                    <term xml:lang="en">Epano Kastelliana</term>
+                    <term xml:lang="it">Epano Kastelliana</term>
+                </item>
+                <item xml:id="erimoupoli">
+                    <term xml:lang="en">Erimoupoli</term>
+                    <term xml:lang="it">Erimoupoli</term>
+                </item>
+                <item xml:id="eleutherna_museum">
+                    <term xml:lang="en">Eleutherna, Archaeological Museum</term>
+                    <term xml:lang="it">Eleutherna, Museo archeologico</term>
+                </item>
+                <item xml:id="erimoupoli_ioannis">
+                    <term xml:lang="en">Erimoupoli, Church of Agios Ioannis Theologos</term>
+                    <term xml:lang="it">Erimoupoli, Chiesa di Agios Ioannis Theologos</term>
+                </item>
+                <item xml:id="gortyn_museum">
+                    <term xml:lang="en">Gortyn, Archaeological Museum</term>
+                    <term xml:lang="it">Gortyna, Museo archeologico</term>
+                </item>
+                <item xml:id="gortyn_agios_titos">
+                    <term xml:lang="en">Gortyn, Basilica of Agios Titos</term>
+                    <term xml:lang="it">Gortyna, Basilica di Agios Titos</term>
+                </item>
+                <item xml:id="gortyn_mavropapas">
+                    <term xml:lang="en">Gortyn, Basilica of Mavropapas</term>
+                    <term xml:lang="it">Gortyna, Basilica di Mavropapas</term>
+                </item>
+                <item xml:id="gortyn_mitropolis">
+                    <term xml:lang="en">Gortyn, Basilica of Mitropolis</term>
+                    <term xml:lang="it">Gortyna, Basilica di Mitropolis</term>
+                </item>
+                <item xml:id="gortyn_agia_paraskevi">
+                    <term xml:lang="en">Gortyn, Church of Agia Paraskevi</term>
+                    <term xml:lang="it">Gortyna, Chiesa di Agia Paraskevi</term>
+                </item>
+                <item xml:id="gortyn_storeroom">
+                    <term xml:lang="en">Gortyn, storeroom</term>
+                    <term xml:lang="it">Gortyna, deposito</term>
+                </item>
+                <item xml:id="gortyn_odeion">
+                    <term xml:lang="en">Gortyn, Odeion</term>
+                    <term xml:lang="it">Gortyna, Odeion</term>
+                </item>
+                <item xml:id="gortyn_praetorium">
+                    <term xml:lang="en">Gortyn, Praetorium</term>
+                    <term xml:lang="it">Gortyna, Pretorio</term>
+                </item>
+                <item xml:id="gortyn_pythion">
+                    <term xml:lang="en">Gortyn, Pythion</term>
+                    <term xml:lang="it">Gortyna, Pythion</term>
+                </item>
+                <item xml:id="grigoriana">
+                    <term xml:lang="en">Grigoriana</term>
+                    <term xml:lang="it">Grigoriana</term>
+                </item>
+                <item xml:id="herakleion">
+                    <term xml:lang="en">Herakleion</term>
+                    <term xml:lang="it">Herakleion</term>
+                </item>
+                <item xml:id="herakleion_museum">
+                    <term xml:lang="en">Herakleion, Archaeological Museum</term>
+                    <term xml:lang="it">Herakleion, Museo archeologico</term>
+                </item>
+                <item xml:id="herakleion_saia">
+                    <term xml:lang="en">Herakleion, SAIA headquarters</term>
+                    <term xml:lang="it">Herakleion, sede SAIA</term>
+                </item>
+                <item xml:id="ierapetra_collection">
+                    <term xml:lang="en">Ierapetra, Archaeological Collection</term>
+                    <term xml:lang="it">Ierapetra, Collezione archeologica</term>
+                </item>
+                <item xml:id="ini">
+                    <term xml:lang="en">Ini</term>
+                    <term xml:lang="it">Ini</term>
+                </item>
+                <item xml:id="ini_dormition">
+                    <term xml:lang="en">Ini, Church of the Dormition of the Mother of God</term>
+                    <term xml:lang="it">Ini, Chiesa della Dormizione di Maria</term>
+                </item>
+                <item xml:id="itanos_basilica">
+                    <term xml:lang="en">Itanos, Basilica A</term>
+                    <term xml:lang="it">Itanos, Basilica A</term>
+                </item>
+                <item xml:id="kadros_agios_ioannis">
+                    <term xml:lang="en">Kadros, Church of Agios Ioannis</term>
+                    <term xml:lang="it">Kadros, Chiesa di Agios Ioannis</term>
+                </item>
+                <item xml:id="kissamos_museum">
+                    <term xml:lang="en">Kissamos, Archaeological Museum</term>
+                    <term xml:lang="it">Kissamos, Museo archeologico</term>
+                </item>
+                <item xml:id="knossos_museum">
+                    <term xml:lang="en">Knossos, Stratigraphical Museum</term>
+                    <term xml:lang="it">Knossos, Museo stratigrafico</term>
+                </item>
+                <item xml:id="kydonia_graves">
+                    <term xml:lang="en">Kydonia, hypogeous graves</term>
+                    <term xml:lang="it">Kydonia, tombe ipogee</term>
+                </item>
+                <item xml:id="lissos_asklepieion">
+                    <term xml:lang="en">Lissos, Asklepieion</term>
+                    <term xml:lang="it">Lissos, Asklepieion</term>
+                </item>
+                <item xml:id="lyttos_stavromenos">
+                    <term xml:lang="en">Lyttos, Church of Stavromenos</term>
+                    <term xml:lang="it">Lyttos, Chiesa di Stavromenos</term>
+                </item>
+                <item xml:id="makrytichos">
+                    <term xml:lang="en">Makrytichos</term>
+                    <term xml:lang="it">Makrytichos</term>
+                </item>      
+                <item xml:id="malles">
+                    <term xml:lang="en">Malles</term>
+                    <term xml:lang="it">Malles</term>
+                </item>
+                <item xml:id="malles_panagia">
+                    <term xml:lang="en">Malles, Church of Panagia</term>
+                    <term xml:lang="it">Malles, Chiesa di Panagia</term>
+                </item>
+                <item xml:id="mellabes">
+                    <term xml:lang="en">Mellabes</term>
+                    <term xml:lang="it">Mellabes</term>
+                </item>
+                <item xml:id="milatos">
+                    <term xml:lang="en">Milatos</term>
+                    <term xml:lang="it">Milatos</term>
+                </item>
+                <item xml:id="mitropolis">
+                    <term xml:lang="en">Mitropolis</term>
+                    <term xml:lang="it">Mitropolis</term>
+                </item>
+                <item xml:id="mitropolis_agios_nikolaos">
+                    <term xml:lang="en">Mitropolis, Church of Agios Nikolaos</term>
+                    <term xml:lang="it">Mitropolis, Chiesa di Agios Nikolaos</term>
+                </item>
+                <item xml:id="neapoli_collection">
+                    <term xml:lang="en">Neapoli, Archaeological Collection</term>
+                    <term xml:lang="it">Neapoli, Collezione archeologica</term>
+                </item>
+                <item xml:id="pines">
+                    <term xml:lang="en">Pines, fort</term>
+                    <term xml:lang="it">Pines, forte</term>
+                </item>
+                <item xml:id="polyrrhenia">
+                    <term xml:lang="en">Polyrrhenia</term>
+                    <term xml:lang="it">Polyrrhenia</term>
+                </item>
+                <item xml:id="polyrrhenia_99_fathers">
+                    <term xml:lang="en">Polyrrhenia, Church of the 99 Holy Fathers</term>
+                    <term xml:lang="it">Polyrrhenia, Chiesa dei 99 Padri</term>
+                </item>
+                <item xml:id="polyrrhenia_necropolis">
+                    <term xml:lang="en">Polyrrhenia, western necropolis</term>
+                    <term xml:lang="it">Polyrrhenia, necropoli occidentale</term>
+                </item>
+                <item xml:id="prines">
+                    <term xml:lang="en">Prines</term>
+                    <term xml:lang="it">Prines</term>
+                </item>
+                <item xml:id="rethymno">
+                    <term xml:lang="en">Rethymno</term>
+                    <term xml:lang="it">Rethymno</term>
+                </item>
+                <item xml:id="rethymno_museum">
+                    <term xml:lang="en">Rethymno, Archaeological Museum</term>
+                    <term xml:lang="it">Rethymno, Museo archeologico</term>
+                </item>
+                <item xml:id="rhittenia_acropolis">
+                    <term xml:lang="en">Rhittenia, acropolis</term>
+                    <term xml:lang="it">Rhittenia, acropoli</term>
+                </item>
+                <item xml:id="rodovani">
+                    <term xml:lang="en">Rodovani</term>
+                    <term xml:lang="it">Rodovani</term>
+                </item>
+                <item xml:id="siteia_museum">
+                    <term xml:lang="en">Siteia, Archaeological Museum</term>
+                    <term xml:lang="it">Siteia, Museo archeologico</term>
+                </item>
+                <item xml:id="sougia_byzantine">
+                    <term xml:lang="en">Sougia, ruined Byzantine church</term>
+                    <term xml:lang="it">Sougia, rovine di una chiesa bizantina</term>
+                </item>
+                <item xml:id="spinalonga">
+                    <term xml:lang="en">Spinalonga</term>
+                    <term xml:lang="it">Spinalonga</term>
+                </item>
+                <item xml:id="sta_lenika">
+                    <term xml:lang="en">Sta Lenika</term>
+                    <term xml:lang="it">Sta Lenika</term>
+                </item>
+                <item xml:id="symi_viannou_sanctuary">
+                    <term xml:lang="en">Symi Viannou, Sanctuary of Hermes and Aphrodite</term>
+                    <term xml:lang="it">Symi Viannou, Santuario di Hermes e Afrodite</term>
+                </item>
+                <item xml:id="toplou_monastery">
+                    <term xml:lang="en">Toplou, Monastery</term>
+                    <term xml:lang="it">Toplou, Monastero</term>
+                </item>
+                
+                
+                <item xml:id="alexandria_museum">
+                    <term xml:lang="en">Alexandria, Graeco-Roman Museum</term>
+                    <term xml:lang="it">Alessandria, Museo greco-romano</term>
+                </item>
+                <item xml:id="amorgos_museum">
+                    <term xml:lang="en">Amorgos, Archaeological Museum</term>
+                    <term xml:lang="it">Amorgos, Museo archeologico</term>
+                </item>
+                <item xml:id="anafi_kalamiotissa">
+                    <term xml:lang="en">Anafi, Monastery of Panagia Kalamiotissa</term>
+                    <term xml:lang="it">Anafi, Monastero di Panagia Kalamiotissa</term>
+                </item>
+                <item xml:id="andros_museum">
+                    <term xml:lang="en">Andros, Paleopolis, Archaeological Museum</term>
+                    <term xml:lang="it">Andros, Paleopolis, Museo archeologico</term>
+                </item>
+                <item xml:id="argos_museum">
+                    <term xml:lang="en">Argos, Archaeological Museum</term>
+                    <term xml:lang="it">Argo, Museo archeologico</term>
+                </item>
+                <item xml:id="athens_agora_museum">
+                    <term xml:lang="en">Athens, Agora Museum</term>
+                    <term xml:lang="it">Atene, Museo dell’Agora</term>
+                </item>
+                <item xml:id="athens_epigraphic_museum">
+                    <term xml:lang="en">Athens, Epigraphic Museum</term>
+                    <term xml:lang="it">Atene, Museo Epigrafico</term>
+                </item>
+                <item xml:id="athens_national_museum">
+                    <term xml:lang="en">Athens, National Museum</term>
+                    <term xml:lang="it">Atene, Museo Nazionale</term>
+                </item>
+                <item xml:id="bangor_clandeboye_house">
+                    <term xml:lang="en">Bangor, Northern Ireland, Clandeboye House</term>
+                    <term xml:lang="it">Bangor, Irlanda del Nord, Clandeboye House</term>
+                </item>
+                <item xml:id="berlin">
+                    <term xml:lang="en">Berlin</term>
+                    <term xml:lang="it">Berlino</term>
+                </item>
+                <item xml:id="berlin_pergamon_museum">
+                    <term xml:lang="en">Berlin, Pergamon Museum</term>
+                    <term xml:lang="it">Berlino, Pergamon Museum</term>
+                </item>
+                <item xml:id="bodrum_museum">
+                    <term xml:lang="en">Bodrum, Museum</term>
+                    <term xml:lang="it">Bodrum, Museo</term>
+                </item>
+                <item xml:id="cambridge_museum">
+                    <term xml:lang="en">Cambridge, Museum of Classical Archaeology</term>
+                    <term xml:lang="it">Cambridge, Museum of Classical Archaeology</term>
+                </item>
+                <item xml:id="cnidus">
+                    <term xml:lang="en">Cnidus</term>
+                    <term xml:lang="it">Cnido</term>
+                </item>
+                <item xml:id="cos_neratzia">
+                    <term xml:lang="en">Cos, Neratzia Castle</term>
+                    <term xml:lang="it">Cos, Castello di Neratzia</term>
+                </item>
+                <item xml:id="cos_asklepieion">
+                    <term xml:lang="en">Cos, Asklepieion storeroom</term>
+                    <term xml:lang="it">Cos, Magazzino dell’Asklepieion</term>
+                </item>
+                <item xml:id="delphi">
+                    <term xml:lang="en">Delphi</term>
+                    <term xml:lang="it">Delfi</term>
+                </item>
+                <item xml:id="delphi_museum">
+                    <term xml:lang="en">Delphi, Archaeological Museum</term>
+                    <term xml:lang="it">Delfi, Museo archeologico</term>
+                </item>
+                <item xml:id="delos">
+                    <term xml:lang="en">Delos</term>
+                    <term xml:lang="it">Delos</term>
+                </item> 
+                <item xml:id="delos_museum">
+                    <term xml:lang="en">Delos, Archaeological Museum</term>
+                    <term xml:lang="it">Delos, Museo archeologico</term>
+                </item>
+                <item xml:id="epidauros_asklepieion">
+                    <term xml:lang="en">Epidauros, Asklepieion storeroom</term>
+                    <term xml:lang="it">Epidauro, Magazzino dell’Asklepieion</term>
+                </item>
+                <item xml:id="glasgow">
+                    <term xml:lang="en">Glasgow</term>
+                    <term xml:lang="it">Glasgow</term>
+                </item>  
+                <item xml:id="istambul_museum">
+                    <term xml:lang="en">Istambul, Archaeological Museum</term>
+                    <term xml:lang="it">Istambul, Museo archeologico</term>
+                </item>
+                <item xml:id="izmir">
+                    <term xml:lang="en">Izmir</term>
+                    <term xml:lang="it">Izmir</term>
+                </item>
+                <item xml:id="kythera_museum">
+                    <term xml:lang="en">Kythera, Archaeological Museum</term>
+                    <term xml:lang="it">Kythera, Museo archeologico</term>
+                </item>
+                <item xml:id="london">
+                    <term xml:lang="en">London</term>
+                    <term xml:lang="it">Londra</term>
+                </item>     
+                <item xml:id="london_british_museum">
+                    <term xml:lang="en">London, British Museum</term>
+                    <term xml:lang="it">Londra, British Museum</term>
+                </item>
+                <item xml:id="magnesia_agora">
+                    <term xml:lang="en">Magnesia, agora</term>
+                    <term xml:lang="it">Magnesia, agora</term>
+                </item>
+                <item xml:id="messene">
+                    <term xml:lang="en">Messene</term>
+                    <term xml:lang="it">Messene</term>
+                </item>
+                <item xml:id="milas">
+                    <term xml:lang="en">Milas</term>
+                    <term xml:lang="it">Milas</term>
+                </item>
+                <item xml:id="milas_museum">
+                    <term xml:lang="en">Milas, Museum</term>
+                    <term xml:lang="it">Milas, Museo</term>
+                </item>
+                <item xml:id="new_york">
+                    <term xml:lang="en">New York</term>
+                    <term xml:lang="it">New York</term>
+                </item>
+                <item xml:id="new_york_metropolitan">
+                    <term xml:lang="en">New York, Metropolitan Museum</term>
+                    <term xml:lang="it">New York, Metropolitan Museum</term>
+                </item>
+                <item xml:id="new_york_rockefeller">
+                    <term xml:lang="en">New York, Rockefeller Archive Center</term>
+                    <term xml:lang="it">New York, Rockefeller Archive Center</term>
+                </item>
+                <item xml:id="oropos_amphiaraion">
+                    <term xml:lang="en">Oropos, Amphiaraion</term>
+                    <term xml:lang="it">Oropos, Amphiaraion</term>
+                </item>
+                <item xml:id="oxford_ashmolean">
+                    <term xml:lang="en">Oxford, Ashmolean Museum</term>
+                    <term xml:lang="it">Oxford, Ashmolean Museum</term>
+                </item>
+                <item xml:id="paris">
+                    <term xml:lang="en">Paris</term>
+                    <term xml:lang="it">Parigi</term>
+                </item>  
+                <item xml:id="paris_louvre">
+                    <term xml:lang="en">Paris, Louvre Museum</term>
+                    <term xml:lang="it">Parigi, Museo del Louvre</term>
+                </item>
+                <item xml:id="paros_panagia">
+                    <term xml:lang="en">Paros, Paroikia, Basilica of Panagia Ekatontapiliani</term>
+                    <term xml:lang="it">Paros, Paroikia, Basilica della Madonna di Katapoliani</term>
+                </item>
+                <item xml:id="pola_museum">
+                    <term xml:lang="en">Pola, Archaeological Museum</term>
+                    <term xml:lang="it">Pola, Museo archeologico</term>
+                </item>
+                <item xml:id="rhodes_museum">
+                    <term xml:lang="en">Rhodes, Archaeological Museum</term>
+                    <term xml:lang="it">Rodi, Museo archeologico</term>
+                </item>
+                <item xml:id="samos_heraion">
+                    <term xml:lang="en">Samos, Heraion Lapidarium</term>
+                    <term xml:lang="it">Samo, Lapidario dell’Heraion</term>
+                </item>
+                <item xml:id="sparta_museum">
+                    <term xml:lang="en">Sparta, Archaeological Museum</term>
+                    <term xml:lang="it">Sparta, Museo archeologico</term>
+                </item>
+                <item xml:id="thebes_museum">
+                    <term xml:lang="en">Thebes, Archaeological Museum</term>
+                    <term xml:lang="it">Tebe, Museo archeologico</term>
+                </item>
+                <item xml:id="teos">
+                    <term xml:lang="en">Teos</term>
+                    <term xml:lang="it">Teos</term>
+                </item>
+                <item xml:id="turin_egyptian_museum">
+                    <term xml:lang="en">Turin, Egyptian Museum</term>
+                    <term xml:lang="it">Torino, Museo Egizio</term>
+                </item>
+                <item xml:id="venice_maria_salute">
+                    <term xml:lang="en">Venice, Basilica of Santa Maria della Salute</term>
+                    <term xml:lang="it">Venezia, Basilica di Santa Maria della Salute</term>
+                </item>
+                <item xml:id="venice_museum">
+                    <term xml:lang="en">Venice, Archaeological Museum</term>
+                    <term xml:lang="it">Venezia, Museo archeologico</term>
+                </item>
+                <item xml:id="verona_maffeiano">
+                    <term xml:lang="en">Verona, Museo Maffeiano</term>
+                    <term xml:lang="it">Verona, Museo Maffeiano</term>
+                </item>
+                <item xml:id="volos_museum">
+                    <term xml:lang="en">Volos, Archaeological Museum</term>
+                    <term xml:lang="it">Volos, Museo archeologico</term>
+                </item>
+                
+                
+                <item xml:id="lost">
+                    <term xml:lang="en">Inscription lost</term>
+                    <term xml:lang="it">Iscrizione perduta</term>
+                </item>
+                <item xml:id="probably_lost">
+                    <term xml:lang="en">Inscription probably lost</term>
+                    <term xml:lang="it">Iscrizione probabilmente perduta</term>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="en">Unknown</term>
+                    <term xml:lang="it">Sconosciuta</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

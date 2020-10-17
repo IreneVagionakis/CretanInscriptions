@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lettera di Calpurnio Pisone relativa a Itanos e Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 10</idno>
+                        <idno type="projectNo">518</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">212</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#letter">lettera</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0112" notAfter="-0111">112/111 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="illegible" quantity="14" unit="character"/> <w lemma="κατάστασις">καταστάσιος</w> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβευτάς">πρεσβευταὶ</w></rs> <placeName ref="#crete" type="ethnic">Κρῆτες</placeName> <placeName ref="#hierapytna" type="ethnic">Ἱεραπύτνιοι</placeName> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><persName type="attested" key="Pheidon f. Eteanor"><name nymRef="Φείδων">Φείδων</name> <name nymRef="Ἐτεάνωρ" type="patronymic">Ἐτεάνορος</name> ὑός</persName></rs>,
+                          <lb n="2"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><persName type="attested" key="Komon f. -r"><name nymRef="Κώμων"><unclear>Κ</unclear>ώμων</name> <name nymRef="-ρ" type="patronymic"><gap reason="lost" quantity="6" unit="character"/>ρος</name> <supplied reason="lost">ὑ</supplied>ός</persName></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><persName type="attested" key="Mnasippos f. Dion"><name nymRef="Μνάσιππος">Μνάσιππος</name> <name nymRef="Δίων" type="patronymic">Δίωνος</name> ὑός</persName></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><persName type="attested" key="Eubetes f. Beidylos"><name nymRef="Εὐβέτης">Εὐβέτης</name> <name nymRef="Βείδυλος" type="patronymic">Βειδύλω</name> ὑός</persName></rs>, λόγον ἐποιή<lb 
+                        break="no" n="3"/>σαντο χ<supplied reason="lost">άριτα</supplied> <w lemma="φιλία"><supplied reason="lost">φιλ</supplied>ίαν</w> <w lemma="συμμαχία">συμμαχίαν</w> τε ἀνενεώσαντο καὶ συνησθῆναι τῇ συνκλήτῳ ἐπὶ τῷ
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">εἴπ</supplied>ασαν καὶ καθ’ ἰδίαν ἐπὶ τὸ βέλτειον προχωρεῖν περί τε τῆς γεγενημ<supplied reason="lost">έ</supplied><lb 
+                        break="no" n="5"/>νης <gap reason="lost" extent="unknown" unit="character"/> <w lemma="φιλοτιμία"><supplied reason="lost">φιλοτ</supplied>ιμίας</w> <w lemma="εὐχαριστέω">εὐχαρίστησα<supplied reason="lost">ν</supplied></w> καὶ περὶ τῶν <w lemma="ἀδίκημα">ἀδικημάτων</w> τῶν ἡμῖν γεγενη<lb 
+                        break="no" n="6"/>μένων <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#itanos" type="ethnic">Ἰτάνιοι</placeName> γὰρ <w lemma="ἀδίκημα">ἀδικημάτων</w> μὴ γινομένων ὑ<supplied reason="lost">φ’</supplied> ἡμῶν αὐτοῖς, ὑπὸ δὲ
+                          <lb n="7"/><supplied reason="lost">τῆς τῶν</supplied> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> <rs type="institution" subtype="social_group" role="war" key="polis" ref="#knossos"><w lemma="πόλις"><supplied reason="lost">πό</supplied>λεως</w></rs> ποτέ, πόλεμον ἀπαράνγελτον ἡμῖν ἐποίησαν παρὰ τὰ τῆς συν<lb 
+                        break="no" n="8"/>κλήτου δόγματα καὶ <w lemma="ἀδίκημα">ἀδικήματα</w> <supplied reason="lost">ἡμῖν</supplied> ἐξετελέσαντο, περὶ ὧν καὶ πρότερον <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβεία">πρεσβείας</w></rs> <w lemma="ἀποστέλλω">ἀ<lb 
+                        break="no" n="9"/>πεστείλαμεν</w> <supplied reason="lost">ἐπὶ τὴν σύνκλητον</supplied> <w lemma="μαρτυρέω">μ<supplied reason="lost">αρτυρού</supplied>σας</w> τὰ γεγενημένα <w lemma="ἀδίκημα">ἀδικήματα</w> εἰς ἡμᾶς. ἡ δὲ
+                          <lb n="10"/><supplied reason="lost">σύνκλ</supplied>ητος κατα<gap reason="lost" extent="unknown" unit="character"/>μεν ἐπὶ Μάρκου Αἰμυλίου καὶ ἐπὶ Μανί<lb 
+                        break="no" n="11"/>ου Ἀκιλίου <w lemma="ὕπατος">ὑπάτων</w> καὶ <supplied reason="lost">ο</supplied>ὔτε <w lemma="σύμμαχος">συμμάχους</w> αὐτοὺς προσηγόρευσε οὔτε <placeName ref="#hierapytna" type="ethnic">Κνωσίους</placeName> οὔτε τοὺς
+                          <lb n="12"/><unclear>επ</unclear><gap reason="lost" quantity="7" unit="character" precision="low"/> <placeName ref="#dragmos" type="ethnic">Δραγμίοις</placeName> οὔτε <gap reason="lost" extent="unknown" unit="character"/> ὅπως <w lemma="ἀνακρίνω">ἀνεκρίθη</w> καὶ <w lemma="δογματίζω">ἐδογμάτισε</w> πόλεμον καὶ <w lemma="ἀδίκημα">ἀδικήματα</w> ἡ<lb 
+                        break="no" n="13"/>μῖν αν<gap reason="lost" extent="unknown" unit="character"/> παραγενόμενοι ὑπέρ τε τοῦ πολέμου
+                          <lb n="14"/>καὶ <gap reason="lost" extent="unknown" unit="character"/>της ἡμέρας <gap reason="lost" quantity="5" unit="character"/>ν ην ἀπεδείξαμεν ἡμετέραν οὖ<lb 
+                        break="no" n="15"/>σαν <gap reason="lost" extent="unknown" unit="character"/> διὰ <w lemma="γένος">γένους</w> καὶ ἀνάβατ<supplied reason="lost">ο</supplied>ν ὑπὸ μηθενὸ<supplied reason="lost">ς</supplied> <w lemma="γεωργέω">γεωργηθεῖσαν</w>, τὴν
+                          <lb n="16"/>δὲ <w lemma="νῆσος">νῆσον</w> τὴν καλουμένην Λεύκην ἡμετέραν οὖσαν ἐκ <w lemma="πρόγονος">προγόνων</w>. <placeName ref="#itanos" type="ethnic">Ἰτάνιοι</placeName> δὲ μὴ δυνάμενοι περὶ τῶν
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>των εἰς ἡμᾶς <w lemma="ἀδίκημα">ἀδικημάτ<supplied reason="lost">ω</supplied>ν</w> ἀπολογήσασθαι μήτε πρότερον
+                          <lb n="18"/>μήτε νῦν <gap reason="lost" extent="unknown" unit="character"/>των <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#itanos"><w lemma="πρεσβευτάς">πρεσβευτῶν</w></rs> <w lemma="ἀντενκαλέω">ἀντενκαλοῦσιν</w> ἡμῖν
+                          <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> τὴν χώραν περισσὰν οὖσαν ἔτεσι εἴκοσι ὀκτώ, λόγους ἐ<lb 
+                        break="no" n="20"/>ποιησα<gap reason="lost" extent="unknown" unit="character"/> πρὸς τῇ συνκλήτῳ, ἡ δὲ σύνκλητος <w lemma="δογματίζω">ἐδογμάτισε</w>
+                          <lb n="21"/><supplied reason="lost">ὅπως τὴν χώραν καὶ τὴν <w lemma="νῆσος">νῆσον</w> πολ</supplied>έ<supplied reason="lost">μου ἀρ</supplied>χὴν ἑλομένου διακατέσχομεν, ἵνα οὕτως κα<lb 
+                        break="no" n="22"/>τέ<supplied reason="lost">χω</supplied>μεν· <w lemma="πρᾶξις">πρᾶξιν</w> <w lemma="στρατηγός">στρατηγοῦ</w> εἶναι, καὶ ὅπως Λαίλιος δῆμον δῷ τὸν ἐν ἡμῖν <w lemma="κρίνω">κρινοῦντα</w>. δοθέν<lb 
+                        break="no" n="23"/>τος δὲ ἡμῖν τοῦ <placeName ref="#magnesia" type="ethnic">Μαγνήτων</placeName> δήμου καὶ Γαΐου Λαιλίου <w lemma="ὕπατος">ὑπάτου</w> <w lemma="γράφω">γράψαντος</w> <supplied reason="lost">πρ</supplied>ὸς τὸν δῆμον τὸν Μα<lb 
+                        break="no" n="24"/>γνήτων <gap reason="lost" extent="unknown" unit="character"/> καὶ τὴν ἐπιστολὴν τὴν ὑπ’ αὐ<supplied reason="lost">τ</supplied>οῦ <w lemma="γράφω"><supplied reason="lost">γ</supplied>ραφεῖσαν</w> ἐμ μη<lb 
+                        break="no" n="25"/><gap reason="lost" extent="unknown" unit="character"/> δὲ ὡς ὑφ’ ἡμῶν τε κἀκείνων <w lemma="ὁμόλογος">ὁμόλογον</w> ἐγενήθη. <space extent="unknown" unit="character"/>
+                          <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/> ἴσαντι τὴν <w lemma="νῆσος">νῆσον</w> τὴν καλουμένην Λεύκην καὶ τὴν χώ<lb 
+                        break="no" n="27"/>ραν <gap reason="lost" extent="unknown" unit="character"/>ος ὁ δῆμος ὁ <placeName ref="#magnesia" type="ethnic">Μαγνήτων</placeName> <w lemma="κρίνω">ἔκρινε</w> κατὰ τὸ δό<lb 
+                        break="no" n="28"/><supplied reason="lost">γμα</supplied> <supplied reason="lost">τῆς συνκλήτου ὑπ’</supplied> <placeName ref="#itanos" type="ethnic">Ἰτανίων</placeName> <w lemma="προγονικός"><supplied reason="lost">προγο</supplied>νικὰς</w> οὔσας <w lemma="καρπίζω">καρπίζεσθαι</w> κυρίως. οὐ συναντη<lb 
+                        break="no" n="29"/>σαμέν<supplied reason="lost">ων δὲ ἡμῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/> ἡμῶν αἰτίαν ἐπιφέρουσι
+                          <lb n="30"/><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="1" unit="character"/><orig>σον</orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τε</supplied>λευτα<supplied reason="lost">ί</supplied>ας ὑπ’ αὐτῶν ἀνει<lb 
+                        break="no" n="31"/><gap reason="lost" extent="unknown" unit="character"/>αντες ἐπὶ τὴν σύνκλητον εν
+                          <lb n="32"/><gap reason="lost" extent="unknown" unit="character"/>ν εἰς <placeName ref="#crete">Κρήτην</placeName> τε παραγεγονότων
+                          <lb n="33"/>καὶ τὰς <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρ</supplied>εσ<supplied reason="lost">β</supplied>εία<unclear>ς</unclear> οὐδέποτε περὶ τούτων φω<lb 
+                        break="no" n="34"/>νὴν προῆκαν <gap reason="lost" extent="unknown" unit="character"/> πρεσβεύοντες περὶ τῶν ἐν<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="35"/><gap reason="lost" extent="unknown" unit="character"/>ν <w lemma="μνήμη">μνήμην</w> ἐποιήσαντο
+                          <lb n="36"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐν τῷ</supplied> μεταξὺ χρόνῳ συνβόλων γεγε<lb 
+                        break="no" n="37"/>νημένων ὑπε<gap reason="lost" extent="unknown" unit="character"/>χότων ὑπέρ τε <rs type="institution" subtype="social_status" role="judicial_procedure" key="aner" ref="#hierapytna"><w lemma="ἀνήρ">ἀνδρῶν</w></rs> <unclear>ε</unclear>
+                          <lb n="38"/><gap reason="lost" extent="unknown" unit="character"/>ν ἀντιποιοῦ<supplied reason="lost">ν</supplied>ται καὶ νενικηκό<lb 
+                        break="no" n="39"/>των <gap reason="lost" extent="unknown" unit="character"/>νημα κα<supplied reason="lost">θ</supplied>ὼς <w lemma="συντίθημι">συνεθέμε<lb 
+                        break="no" n="40"/>θα</w> <gap reason="lost" extent="unknown" unit="character"/><orig>αυ</orig><gap reason="lost" quantity="2" unit="character"/>ν καὶ δεδωκότων καὶ εἰ<lb 
+                        break="no" n="41"/>ληφότων <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οὔ</supplied>τε λόγον ἐποιήσαντο οὔ<lb 
+                        break="no" n="42"/>τε σα<gap reason="lost" extent="unknown" unit="character"/>τουμ<supplied reason="lost">έ</supplied>νους ὑπ’ αὐτῶν
+                          <lb n="43"/><gap reason="lost" extent="unknown" unit="character"/>του καθὼς ἡμεῖς ο
+                          <lb n="44"/><gap reason="lost" extent="unknown" unit="character"/> ἐν <placeName ref="#magnesia">Μ<supplied reason="lost">α</supplied>γνησίᾳ</placeName> γενομε<lb 
+                        break="no" n="45"/>ν<gap reason="lost" extent="unknown" unit="character"/>σης διὰ τοῦ πρὸς αὐ<lb 
+                        break="no" n="46"/>τ<gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ι</unclear>ω</orig><gap reason="lost" quantity="1" unit="character"/> δ’ <w lemma="ἐνκαλέω">ἐνκαλέσαι</w> καὶ
+                          <lb n="47"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πε</supplied>ρὶ τῶν <rs type="institution" subtype="social_status" role="judicial_procedure" key="aner" ref="#hierapytna"><w lemma="ἀνήρ">ἀνδρῶν</w></rs> καὶ περὶ τῶν <rs type="institution" subtype="social_status" role="judicial_procedure" key="oiketas" ref="#hierapytna"><w lemma="οἰκέτας">οἰ<lb 
+                        break="no" n="48"/>κετῶν</w></rs> οὓς ἐπι<gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀδίκημα"><supplied reason="lost">ἀδ</supplied>ικήματά</w> τε κ<supplied reason="lost">α</supplied>ὶ πρότερον καὶ νῦν
+                          <lb n="49"/><gap reason="lost" quantity="7" unit="character"/>ιοι οὖσιν <gap reason="lost" extent="unknown" unit="character"/> τῶν πα<supplied reason="lost">ρα</supplied>γεγονότων εἰς
+                          <lb n="50"/><placeName ref="#rome">Ῥώμην</placeName> πρεσβευτῶν ὑμῶν, ἐπέμψαμεν δὲ ἐπὶ τὴν σύνκλητον, ἀξιοῦμεν οὖν τὴν
+                          <lb n="51"/>σύνκλητον <gap reason="lost" extent="unknown" unit="character"/> ἐμ παντὶ καιρῷ τὴν <w lemma="εὔνοια">εὔνοιαν</w> πρὸς
+                          <lb n="52"/>ἡμᾶς <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοῖ</supplied>ς ὑμετέροις δόγμασι <w lemma="βοηθέω">βοηθῆσαι</w> ἡ<lb 
+                        break="no" n="53"/>μῖν ὅπως ἴσαντι <gap reason="lost" extent="unknown" unit="character"/> ψηφίσματος δι’ ὑμῶν ἀναγκασθῶσιν ἡμῖν τὸ <w lemma="δίκαιος">δίκαι<lb 
+                        break="no" n="54"/>ον</w> <gap reason="lost" extent="unknown" unit="character"/>τες πρὸς τὴν ὑμετέραν <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="συμμαχία">συμμαχίαν</w> πρὸς ἡ<lb 
+                        break="no" n="55"/><supplied reason="lost">μᾶς</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρεσβ</supplied>ευταῖς. περὶ τούτου τοῦ πράγματος
+                          <lb n="56"/><supplied reason="lost">οὕτως ἔδοξεν</supplied>· ὃν τρόπον ἑκάτεροι <supplied reason="lost">τὴν χώραν καὶ τὴν</supplied> <w lemma="νῆσος"><supplied reason="lost">νῆσ</supplied>ον</w> νενωμημένοι εἴησαν τῇ πρὸ
+                          <lb n="57"/>τοῦ ἡμέρα<supplied reason="lost">ι ἢ ὁ πόλεμος ἐν αὐτοῖς ἤρξατο οὗ πο</supplied>λέμου ἕνεκεν Σερούιος Σο<corr>λ</corr>πίκιος κἀκείνη ἡ
+                          <lb n="58"/>πρεσβεία εἰς <placeName ref="#crete">Κρήτην</placeName> <w lemma="ἀποστέλλω">ἀπεστάλησαν</w> ὅπως οὕτως <supplied reason="lost">νωμ</supplied>ῶνται ἔχωσιν <w lemma="καρπίζω">καρπίζωνταί</w> τε
+                          <lb n="59"/>τοῦτο το<gap reason="lost" extent="unknown" unit="character"/>σθαι πρὸς Λεύκιον Καλοπόρνιον
+                          <lb n="60"/><w lemma="στρατηγός">στρατηγὸν</w> <w lemma="ὕπατος">ὕπατον</w> <gap reason="lost" extent="unknown" unit="character"/> τινες τούτου τοῦ <w lemma="κριτήριον">κριτη<lb 
+                        break="no" n="61"/><supplied reason="lost">ρίου</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οὔ</supplied>τ<supplied reason="lost">ε</supplied> ἐπὶ τὸ <w lemma="κριτήριον">κριτήρι<supplied reason="lost">ον</supplied></w> παρετύχοσαν οὔτε
+                          <lb n="62"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Λεύκιος Καλοπ</supplied>όρ<supplied reason="lost">νιος</supplied> <w lemma="στρατηγός"><supplied reason="lost">σ</supplied>τρατηγὸς</w> <w lemma="ὕπατος">ὕπα<lb 
+                        break="no" n="63"/>τος</w> <gap reason="lost" extent="unknown" unit="character"/>ην <supplied reason="lost">ὅ</supplied>πως ἑαυτοῖς <w lemma="κρίνω">κρί<lb 
+                        break="no" n="64"/>νηι</w> ὃν τρόπον ἑκάτεροι ταύτην <supplied reason="lost">τὴν χώραν καὶ</supplied> τὴν <w lemma="νῆσος">νῆσον</w> περὶ οὗ ἡ <w lemma="πρᾶξις">πρᾶξις</w> <supplied reason="lost">ἐνέ</supplied>στηκε νενωμη<lb 
+                        break="no" n="65"/>μένοι εἴησαν τῆι πρὸ τοῦ ἡμέραι ἢ ὁ πόλεμος ἐν αὐτοῖς ἤρξατο οὗ πολέμ<supplied reason="lost">ου</supplied> ἕνεκεν Σερούιος
+                          <lb n="66"/>Σολπίκιος κἀκείνη ἡ πρεσβεία εἰς <placeName ref="#crete">Κρήτην</placeName> <w lemma="ἀποστέλλω">ἀπεστάλησαν</w> ὅπως ο<supplied reason="lost">ὕτ</supplied>ω <w lemma="κρίνω">κρίνωσιν</w> αὐτοὺ<supplied reason="lost">ς</supplied>
+                          <lb n="67"/><supplied reason="lost">ἔχειν</supplied> κατέχειν <w lemma="καρπίζω">καρπίζεσθαί</w> τε ἐξεῖναι καὶ <w lemma="θῦμα">θύματα</w>τελῇ ἡμέραν τε ὁρίσῃ πρὸ ἧς ἡμέ<lb 
+                        break="no" n="68"/>ρας <w lemma="κρίνω">κρίνωσιν</w> ε<gap reason="lost" extent="unknown" unit="character"/>τας Κόϊντος Φάβιος κα
+                          <lb n="69"/><gap reason="lost" extent="unknown" unit="character"/>ν ὅπως Λεύκιος Καλο<lb 
+                        break="no" n="70"/>πόρνιος <w lemma="στρατηγός">στρατηγὸς</w> <w lemma="ὕπατος">ὕπατος</w> ὑπὸ τῆς αὐτοῦ πρεσβείας ἐπιγνῷ ἐὰν ἐν ταύτῃ τ<supplied reason="lost">ῇ</supplied>
+                          <lb n="71"/>χώρᾳ <w lemma="οἰκοδομέω">ὠικοδομημένον</w> ἔνεσ<supplied reason="lost">τιν</supplied> ὅπως αὐτοὺς καθελεῖν κελεύ<supplied reason="lost">σ</supplied>ῃ. περὶ δὲ τῶν λο<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="72"/><supplied reason="lost">π</supplied>ῶν πραγμάτων ὧν λόγους ἐποιήσασθε ὅταν ἡ ἐσχάτη <placeName ref="#crete" type="ethnic">Κρητῶν</placeName> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#itanos"><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβεία">πρεσβεία</w></rs></rs> εἰς
+                          <lb n="73"/>τὴν σύνκλητον <w lemma="εἰσπρεσβεύω">εἰσεπρέσ<supplied reason="lost">βευ</supplied>σαν</w> οὕτ<supplied reason="lost">ω</supplied>ς <w lemma="ἀποκρίνω">ἀποκρῖναι</w> καθὼς ἂν αὐτῷ ἐκ τῶν <w lemma="δημόσιος">δημοσί<lb 
+                        break="no" n="74"/>ων</w> πραγμάτων πίστεώς τε τῆς ἰδίας φαίνηται, ἔδοξε. <space extent="unknown" unit="character"/>
+                          <lb n="75"/><supplied reason="lost">τοῦ</supplied>το τὸ πρᾶγμα δέλτου ὀγδόης κηρώματι <gap reason="lost" extent="unknown" unit="character"/>καιδεκάτῳ μετὰ συμ<lb 
+                        break="no" n="76"/>βουλίου ἐπέγνων πρὸ ἡμερῶν δέκα ἑπτὰ Καλ. Κοινκτειλίων ἐν τῇ βασιλι<lb 
+                        break="no" n="77"/>κῇ τῇ Πορκίᾳ ταισι<gap reason="lost" quantity="2" unit="character"/><orig>ραισ</orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἡ</supplied>μέρας τυχούσ<supplied reason="lost">ης ἱε</supplied>ρᾶς κατὰ συνκλήτου
+                          <lb n="78"/><supplied reason="lost">δόγμα</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀπὸ συμβουλί</supplied>ου γνώμης γνώμην
+                          <lb n="79"/><supplied reason="lost">ἀπεφηνάμην</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ο</supplied>ὕτω<supplied reason="lost">ς</supplied> καθὼς πρότερον
+                          <lb n="80"/><gap reason="lost" extent="unknown" unit="character"/>σι ἡμέραν ὁρ<supplied reason="lost">ιῶ</supplied> πρὸ ἧς ἡμέρας <w lemma="κρίνω">κρίνωσι</w>
+                          <lb n="81"/>ε<gap reason="lost" extent="unknown" unit="character"/> καὶ ε<supplied reason="lost">ἴ τι</supplied> <w lemma="ἐνοικοδομέω"><supplied reason="lost">ἐνῳ</supplied>κοδόμηται</w> μετὰ τὸ
+                          <lb n="82"/>τοὺς πρεσβευτὰς <gap reason="lost" extent="unknown" unit="character"/><unclear>νιοι</unclear> <w lemma="ἵστημι"><unclear>στή</unclear>σω</w> ἐν αὐτοῖς τὸν δῆ<lb 
+                        break="no" n="83"/>μον τὸν ὑμέτερον κατα<gap reason="lost" extent="unknown" unit="character"/> φροντίσαι ὅπως ἐκ τοῦ
+                          <lb n="84"/>πολιτεύματος <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δικα</supplied>στὰς καλοὺς κἀγαθοὺς τριάκον<lb 
+                        break="no" n="85"/>τα ἕνα οἳ το<gap reason="lost" extent="unknown" unit="character"/> κατὰ τὸ τῆς συνκλήτου δόγμα <w lemma="κρίνω">κρίνωσι</w> Κοινκτειλί<lb 
+                        break="no" n="86"/>ων τῶν ἐ<supplied reason="lost">πὶ Λευκίου Καλο</supplied>πορνίου καὶ Μάρκου Λειβίου ὑπάτων ἐν ἡμέραις τριακο<lb 
+                        break="no" n="87"/>σίαις ἑξήκοντα, ἐὰν δὲ πρὸ ἐκείνης τῆς ἡμέρας μὴ <w lemma="κρίνω">κρίνωσι</w>, τότε ὅπως
+                          <lb n="88"/>ἐν τῇ ἑξηκοστῇ καὶ τριακοσιοστῇ ἡμέρᾳ <w lemma="κρίνω">κρίνωσ<supplied reason="lost">ι</supplied></w>. <space extent="unknown" unit="character"/>
+                          <lb n="89"/>Λεύκιος Καλοπόρνιος Λευκίου ὑὸς Πείσων <w lemma="ὕπατος">ὕπατος</w> <placeName ref="#hierapytna" type="ethnic">Ἱεραπυ<lb 
+                        break="no" n="90"/>τνίων</placeName> τοῖς <rs type="institution" subtype="board" role="foreign_relations" key="archon" ref="#hierapytna"><w lemma="ἄρχων">ἄρχουσι</w></rs> καὶ τῇ <rs type="institution" subtype="assembly" role="foreign_relations" key="boule" ref="#hierapytna"><w lemma="βουλή">βουλῇ</w></rs> καὶ τῷ <rs type="institution" subtype="assembly" role="foreign_relations" key="demos" ref="#hierapytna"><w lemma="δῆμος">δήμῳ</w></rs> <w lemma="χαίρω">χαίρειν</w>· <supplied reason="lost">ἰό</supplied>ντες
+                          <lb n="91"/><placeName ref="#itanos" type="ethnic">Ἰτάνιοι</placeName> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#itanos"><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#hierapytna"><w lemma="πρεσβευτάς">πρεσβευταὶ</w></rs></rs> καὶ ὑμέτεροι προσήλθοσάν μ<supplied reason="lost">οι ὅπ</supplied>ως
+                          <lb n="92"/>αὐτοῖς σύνκλητον δῷ. ἐγὼ αὐτοῖς σύνκλητ<supplied reason="lost">ο</supplied>ν ἔδωκα.
+                          <lb n="93"/>συνκλήτου δόγμα τοῦτο γεγονός ἐστι· ὑμᾶς θέλ<supplied reason="lost">ω</supplied> φροντί<lb 
+                        break="no" n="94"/>σαι εἴ τι ἐν ταύτῃ τῇ χώρᾳ τῇ ἐν ἀνφιλ<supplied reason="lost">ογ</supplied>είᾳ οὔσῃ ἐνῳ<lb 
+                        break="no" n="95"/>κοδομημένον ἐστί, ὅπως ἐκ ταύτης τ<supplied reason="lost">ῆς χώ</supplied>ρας καθέ<lb 
+                        break="no" n="96"/>λητε οὕτως καθὼς ἡ σύνκλητος ἐδογμάτισε καὶ κα
+                          <lb n="97"/><gap reason="lost" quantity="5" unit="character"/><unclear>ι</unclear>ωσε. ἀπὸ συμβουλίου γνώμης γνώ<supplied reason="lost">μην ἀ</supplied>πεφηνάμην.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La stele, proveniente da Itanos, conserva il testo delle epistole inviate dal console romano Lucio Calpurnio Pisone a Magnesia (ll. 1-88) e a Hierapytna (ll. 89-97) relativamente alla contesa territoriale in corso fra quest’ultima e Itanos.</p>
+                    <p>La prima epistola del console, mutila superiormente, si apre con un lungo resoconto (ll. 1-55) del discorso  tenuto al cospetto del senato di Roma dagli ambasciatori di Hierapytna Pheidon figlio di Eteanor, Komon figlio di -r (?), Mnasippos figlio di Dion ed Eubetes figlio di Beidylos, i quali accusano Itanos di aver mosso loro guerra contro le decisioni del senato, senza che Hierapytna o la <foreign>polis</foreign> di Knossos avvessero commesso mai ingiustizie nei suoi confronti, motivo per cui hanno già inviato in precedenza ambascerie al senato (ll. 1-9). Gli ambasciatori ricordano un intervento promosso dal senato durante il consolato di Marco Emilio e Manio Acilio che interessa le città di Knossos e Dragmos e che comporta un sopralluogo da parte di legati romani nelle aree contese, a cui gli abitanti di Hierapytna hanno cercato di dimostrare il proprio possesso del territorio di Heleia (cf. <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref>, l. 78) e dell’isola di Leuke (ll. 9-16). Gli ambasciatori, inoltre, informano delle accuse sporte contro di loro da Itanos presso il senato romano (ll. 16-20) e dell’emanazione di un primo senatoconsulto con cui Roma conferma il possesso dei territori contesi da parte di Hierapytna poiché li possedeva prima dello scoppio di una guerra da poco conclusa e con cui stabilisce la designazione di una città che funga da arbitro fra le <foreign>poleis</foreign> cretesi, la cui scelta è ricaduta su Magnesia (ll. 20-25). Gli ambasciatori di Hierapytna riportano dunque l’esito dell’arbitrato di Magnesia, che riconosce ad Itanos il possesso delle aree contese (ll. 26-28), giudizio a cui sembrano seguire proteste da parte di Hierapytna che comportano sopralluoghi di Magnesia e Roma (?) nelle aree contese e invii di altri ambasciatori di Hierapytna presso Roma, forse anche a proposito di problematiche sorte a proposito di uomini di <foreign>status</foreign> libero e schiavi (ll. 28-50). Il discorso degli ambasciatori si chiude dunque con la loro richiesta al senato romano di far valere le loro ragioni tramite l’emanazione di senatoconsulti (ll. 50-55).</p>
+                    <p>Il senatoconsulto emesso in risposta alla richiesta degli ambasciatori è riportato integralmente alle linee 55-74 e prevede che ciascuna città abbia il possesso dei terreni che deteneva prima dello scoppio della guerra in questione, situazione che si stabilisce che debba essere appurata mediante il ricorso a giudici di Magnesia; il documento, inoltre, ordina l’abbattimento futuro delle costruzioni non autorizzate presenti nel territorio conteso.</p>
+                    <p>La sezione alle linee 75-88 conserva la decisione del console Lucio Calpurnio Pisone che costui invia a Magnesia, affermando di aver esaminato il caso e chiedendo alla città di inviare giudici a Creta affinché emettano un giudizio entro un anno dall’anno di consolato di Lucio Calpurnio stesso e di Marco Livio (il cui esito è riportato in <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref>).</p>
+                    <p>Il documento, infine, si chiude con una lettera inviata da Lucio Calpurnio Pisone ai magistrati (l. 90, ἄρχουσι, termine che designa verosimilmente i cosmi), alla <foreign>boule</foreign> e al <foreign>demos</foreign> di Hierapytna come accompagnamento dei documenti precedenti, con la quale chiede loro di abbattere le costruzioni presenti nel territorio conteso (nei saluti della lettera inviata da Hierapytna a Itanos citata in <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref>, invece, compaiono e cosmi e la <foreign>polis</foreign> di Hierapytna; per la sua <foreign>boule</foreign> cf. <ref type="ins" target="#ic1_8_13"><title>IC</title> I 8 13</ref>, mentre per il <foreign>demos</foreign> cf. <ref type="ins" target="#seg_51_1056"><title>SEG</title> 51.1056</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#aner"><foreign>aner</foreign></ref>, <ref type="inst" target="#archon"><foreign>archon</foreign></ref>, <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#oiketas"><foreign>oiketas</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2067">Xanthoudidis 1920</ref>, pp. 81-86</bibl>; 
+                          <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 10 <ptr type="phi" target="200313"/></bibl>; 
+                          <bibl><ref target="#bib443"><title>IThesp</title></ref> 14</bibl>; 
+                          <bibl><ref target="#b4">Ager 1996</ref>, n. 158</bibl>; 
+                          <bibl><ref target="#b241">Canali De Rossi 1997</ref>, nn. 126-129, 140-143, 152, 164, 169-170, 174-176</bibl>;
+                          <bibl><ref target="#b237">Camia 2009</ref></bibl>;
+                          <bibl><ref target="#b1844">Tropea 2017</ref>, n. III.1</bibl>.</p>
+                      <p><emph>Cf.</emph> <bibl><ref target="#b264">Cary 1926</ref></bibl>; 
+                          <bibl><ref target="#b477">De Sanctis 1926</ref>, pp. 130-131</bibl>; 
+                          <bibl><ref target="#b290">Chaniotis 1988a</ref></bibl>; 
+                          <bibl><ref target="#b1015">Kreuter 1995</ref></bibl>; 
+                          <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 49b, 57a-b</bibl>; 
+                          <bibl><ref target="#b809">Guizzi 1997b</ref></bibl>; 
+                          <bibl><ref target="#b813">Guizzi 2001</ref>, pp. 328, 373-382</bibl>; 
+                          <bibl><ref target="#b330">Chaniotis 2005c</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

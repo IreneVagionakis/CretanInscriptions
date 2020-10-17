@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Gortyna e Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 49.1217</idno>
+                        <idno type="projectNo">182</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#chersonesos">Chersonesos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0225" notAfter="-0215">220 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="face" n="B">
+                            <ab>
+                          <lb n="14"/><supplied reason="lost" cert="low">τὸς δὲ ἑκατέρ</supplied><unclear>ω</unclear>ν <w lemma="σύνμαχος">συνμάχος</w> <w lemma="ὁρκίζω">ὁρκιξάντων</w> <supplied reason="lost">κοινῆι</supplied>
+                          <lb n="15"/><supplied reason="lost"><placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName> καὶ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></supplied> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#knossos"><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#gortyn"><w lemma="πρειγήια"><supplied reason="lost">πρε</supplied>ιγηίας</w></rs></rs> <w lemma="ἀποστέλλω">ἀποσστήλαντες</w> ἐπὶ τὰ<supplied reason="lost">ς</supplied>
+                          <lb n="16"/><supplied reason="lost"><rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#unknown"><w lemma="πόλις">πόλιας</w></rs> ἐν ἁμέραις τρι</supplied><unclear>ά</unclear>κοντα ἀφ’ ἇς ἅδε ἁ <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#knossos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#gortyn"><w lemma="συνθήκα">συνθήκα</w></rs></rs> <w lemma="κυρόω">κεκύρωται</w>·
+                          <lb n="17"/><supplied reason="lost"><w lemma="τίθημι">θέντων</w> δὲ τὰ</supplied>ν <w lemma="ὑπογράφω">ὑπογεγραμμέναν</w> <w lemma="ἐπαρά">ἐπαρὰν</w> κατὰ <rs type="institution" subtype="public_space" role="oath-taking" key="polis" ref="#knossos"><rs type="institution" subtype="public_space" role="oath-taking" key="polis" ref="#gortyn"><w lemma="πόλις">πόλιν</w></rs></rs> ο<supplied reason="lost">ἱ</supplied>
+                          <lb n="18"/><supplied reason="lost"><rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#knossos"><rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#gortyn"><w lemma="κόσμος">κόσμοι</w></rs></rs> ὑπὲρ</supplied> τῶν συνκειμένων ἧ κα τελεσθῆι <w lemma="ὅρκος">ὅρκος</w>, <w lemma="συνάγω">συ<unclear>ν</unclear><lb 
+                        break="no" n="19"/><supplied reason="lost">άγοντες</supplied></w> <supplied reason="lost">τὸς</supplied> <rs type="institution" subtype="social_group" role="oath-taking" key="polites" ref="#knossos"><rs type="institution" subtype="social_group" role="oath-taking" key="polites" ref="#gortyn"><w lemma="πολίτας"><unclear>π</unclear>ολίτας</w></rs></rs>, οἱ μὲν <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> παριόνσα<unclear>ς</unclear> <placeName ref="#knossos" type="ethnic">Κνωσ<unclear>ί</unclear>ων</placeName>
+                          <lb n="20"/><supplied reason="lost"><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#knossos"><w lemma="πρειγήια">πρειγηίας</w></rs> οἱ δὲ</supplied> <placeName ref="#knossos" type="ethnic"><supplied reason="lost">Κ</supplied>νώσιοι</placeName> <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName>, οἱ δὲ <rs type="institution" subtype="social_group" role="oath-taking" key="symmachoi" ref="#gortyn_symmachia"><w lemma="σύνμαχος">σύνμαχοι</w> <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs>
+                          <lb n="21"/><supplied reason="lost" cert="low">καὶ <rs type="institution" subtype="social_group" role="oath-taking" key="symmachoi" ref="#knossos_symmachia"><placeName ref="#knossos" type="ethnic">Κνωσίων</placeName></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Del trattato, iscritto su due lati di una stele, sono state pubblicate finora solamente poche linee della faccia B.
+                            L’accordo, stretto fra Knossos e Gortyna e i rispettivi alleati (sui quali cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78-79</bibl>), nella parte ancora inedita trattava della risoluzione della questione dei disertori attraverso il ricorso al <foreign>koinodikion</foreign> e al <foreign>diagramma</foreign> del <foreign>koinon</foreign> cretese e l’intervento degli <foreign>ereutai</foreign> per l’esazione di multe.</p>
+                    <p>Il testo edito, invece, è relativo al giuramento che devono prestare i contraenti e prevede che a tale scopo Knossos e Gortyna inviino un’ambasceria presso le <foreign>poleis</foreign> alleate entro trenta giorni dall’entrata in vigore del trattato. I cosmi sono tenuti a far pronunciare la <foreign>epara</foreign> in ogni città dopo aver radunato la cittadinanza, a Gortyna in presenza di un’ambasceria di Knossos e in quest’ultima in presenza di un’ambasceria della prima, mentre nelle città alleate verosimilmente in presenza di ambascerie di entrambe.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#symmachia">alleanza di Gortyna</ref>, <ref type="inst" target="#symmachia">alleanza di Knossos</ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b312">Chaniotis 1999a</ref>, pp. 291-295</bibl> (B, ll. 14-21, = <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 49.1217 <ptr type="seg" target="a49_1217"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b350">Chaniotis – Kritzas 2010</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

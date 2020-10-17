@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto onorario di Aptera per un medico di Cos</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 3*</idno>
+                        <idno type="projectNo">040</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#cos_asklepieion">Magazzino dell’<foreign>Asklepieion</foreign> di Cos</repository>
+                        <idno type="invNo">AS 7</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#cos">Cos, <foreign>Asklepieion</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><space extent="unknown" unit="character"/> <placeName ref="#aptera" type="ethnic">Ἀπτεραίων</placeName>.
+                        <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>·
+                        <lb n="3"/><rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Sosos f. Abdias (1)"><name nymRef="Σῶσος">Σῶσος</name> <name nymRef="Ἀβδίας" type="patronymic">Ἀβδία</name></persName> <w lemma="λέγω">εἶπε</w></rs>· ἐπειδὴ <persName type="honoured" key="Kallippos f. Aristokritos"><name nymRef="Κάλλιππος">Κάλ<lb 
+                        break="no" n="4"/><supplied reason="lost">λ</supplied>ιππος</name> <name nymRef="Ἀριστόκριτος" type="patronymic">Ἀριστοκρίτω</name> <placeName ref="#cos" type="ethnic">Κῶιος</placeName></persName> ἰατρὸ<supplied reason="lost">ς</supplied>
+                        <lb n="5"/>ἀποσταλεὶς ὑπὸ τᾶς πόλιος ἀξίω<supplied reason="lost">ς</supplied>
+                        <lb n="6"/>ἀνέστραπται ἀμφοτερᾶν τᾶν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#aptera"><w lemma="πόλις">πολ<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="7"/>ων</w></rs> κα<corr>τά</corr> τε τὸμ βίον καὶ τὰν τέχναν προ<lb 
+                        break="no" n="8"/>θυμίας οὐθὲν ἐλλείπων, πολλός
+                        <lb n="9"/>τε τῶμ <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="polites" ref="#aptera"><w lemma="πολίτας">πολιτᾶν</w></rs> ἐγ μεγάλαν ἀρρωστ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="10"/>ᾶν σεσώικει, ἵνα ὦν καὶ ὁ <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δᾶμος</w></rs> φαίνη<lb 
+                        break="no" n="11"/>ται τιμῶν τὸς ἀγαθὸς ἄνδρας,
+                        <lb n="12"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">δεδόχθαι</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμω<supplied reason="lost">ι</supplied></w></rs>·
+                        <lb n="13"/><w lemma="ἐπαινέω">ἐπαινέσαι</w> Κάλλιπον Ἀριστοκρ<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="14"/>τω <placeName ref="#cos" type="ethnic">Κῶιον</placeName> ἰατρὸν καὶ <w lemma="στεφανόω">στεφανῶ<corr>σαι</corr></w> αὐτὸ<supplied reason="lost">ν</supplied>
+                        <lb n="15"/><w lemma="στέφανος">στεφάνωι</w> <w lemma="χρύσεος">χρυσέωι</w> <w lemma="ἀρετά">ἀρετᾶς</w> ἕν<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="16"/>κα καὶ <w lemma="εὔνοια">εὐνοίας</w> τᾶς εἰς αὐτόν. <supplied reason="lost">δόν</supplied><lb 
+                        break="no" n="17"/>τω δὲ αὐτῶι τοὶ <rs type="institution" subtype="board" role="funds" key="tamias" ref="#aptera"><w lemma="ταμίας">ταμίαι</w></rs> ἔς τε τ<supplied reason="lost">ὸν</supplied>
+                        <lb n="18"/><w lemma="στέφανος">στέφανον</w> καὶ <w lemma="πορεῖον">πορεῖον</w> <w lemma="στατήρ">στ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="19"/>τῆρας</w> τριακοσίος. ἵνα δὲ καὶ <placeName ref="#cos" type="ethnic">Κ<supplied reason="lost">ῶιοι</supplied></placeName>
+                        <lb n="20"/>ἀκολουθῶντι τὰν αἵρεσιν τ<gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="21"/>σαμανάμενοι τοὶ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#aptera"><w lemma="κόσμος">κόσμοι</w></rs> τᾶ<supplied reason="lost">ι</supplied> <rs type="institution" subtype="object" role="foreign_relations" key="damosia_sphragis" ref="#aptera"><w lemma="δαμοσία σφραγίς"><supplied reason="lost">δαμο</supplied><lb 
+                        break="no" n="22"/>σίαι σφραγῖδι</w></rs> <w lemma="ἐξαποστέλλω">ἐξαποστ<supplied reason="lost">ηλάτω</supplied><lb 
+                        break="no" n="23"/>σαν</w> πρὸς αὐτός· καὶ <supplied reason="lost">τὸς <placeName ref="#cos" type="ethnic">Κωίος</placeName></supplied> <w lemma="φίλος"><supplied reason="lost">φί</supplied><lb 
+                        break="no" n="24"/>λος</w> ὑπάρχοντας τ<supplied reason="lost">ᾶι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#aptera"><w lemma="πόλις">πόλει</w></rs> ἐπιμέλει</supplied><lb 
+                        break="no" n="25"/>αν ποιήσασθαι <supplied reason="lost">ὅπως</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="26"/>θέτως τε τὰν <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="27"/><gap reason="illegible" quantity="1" unit="character"/>οις τῶ πρατ<unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="28"/><supplied reason="lost">τ</supplied>οῖς <persName type="divine" key="Asklepios">Ἀσκλα<unclear>π</unclear><supplied reason="lost">ιείοις</supplied></persName><supplied reason="lost">. δόμεν δὲ καὶ</supplied>
+                        <lb n="29"/><w lemma="στάλα"><unclear>σ</unclear>τάλαι</w> τόπ<supplied reason="lost">ον ἐν τῶι ἱαρῶι τῶ</supplied> <persName type="divine" key="Asklepios"><supplied reason="lost">Ἀσκλα</supplied><lb 
+                        break="no" n="30"/>πιῶ</persName> ἐν τῶι <w lemma="ἐπιφανέστατος">ἐπ<supplied reason="lost">ιφανεστάτωι</supplied></w> <supplied reason="lost">τόπωι</supplied>,
+                        <lb n="31"/>ἐς ἃν <w lemma="ἀναγράφω">ἀναγ<supplied reason="lost">ραφήσεται</supplied></w> <supplied reason="lost">τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#aptera"><w lemma="ψάφισμα">ψάφισμα</w></rs></supplied>
+                        <lb n="32"/>τῶ <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμω</w></rs>· ἦ<supplied reason="lost">μεν δὲ αὐτὸν <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενον</w></rs></supplied>
+                        <lb n="33"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#aptera"><w lemma="εὐεργέτας">εὐεργ<unclear>έ</unclear><supplied reason="lost">ταν</supplied></w></rs> <supplied reason="lost">τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#aptera"><w lemma="πόλις">πόλιος</w></rs> τῶν</supplied> <placeName ref="#aptera" type="ethnic"><supplied reason="lost">Ἀ</supplied><lb 
+                        break="no" n="34"/>πταραίω<supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">αὐτὸν καὶ <w lemma="ἔκγονος">ἐκγόνους</w></supplied>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="20"><note>τ<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; τ<supplied reason="lost">άνδε</supplied> o τ<supplied reason="lost">ὰν ἁμάν</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione per il medico Kallipos di Cos è l’unico decreto onorario di Aptera a non provenire dal ‘Muro delle iscrizioni’ bensì dalla città di provenienza del personaggio onorato (sui medici di Cos onorati a Creta cf. anche <ref type="ins" target="#ic1_8_7"><title>IC</title> I 8 7</ref> e <ref type="ins" target="#ic4_168"><title>IC</title> IV 168</ref>; cf. <bibl><ref target="#b426">Cucuzza 1997</ref></bibl>). Il decreto, completo e preceduto dal titolo Ἀπτεραίων apposto da Cos, esordisce con la formula di sanzione ἔδοξε τᾶι βωλᾶι καὶ τῶι δάμωι, la stessa che viene impiegata nella maggioranza dei documenti analoghi di Aptera (tutti tranne <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>). Le medesime assemblee ricorrono poco dopo anche nella formula di mozione δεδόχθαι τᾶι βωλᾶι καὶ τῶι δάμωι (l. 12), confermando quindi il ruolo primario svolto da <foreign>boula</foreign> e <foreign>damos</foreign> nell’ambito deliberativo. La reale preminenza del secondo sulla prima, tuttavia, emerge dalla successiva definizione del documento come [τὸ ψάφισμα] τῶ δάμω (ll. 31-32) e dalla sua rivendicazione dell’iniziativa del conferimento degli onori (ll. 10-11: ἵνα ὦν καὶ ὁ δᾶμος φαίνηται τιμῶν τὸς ἀγαθὸς ἄνδρας); un indizio della sua predominanza è suggerito anche dalla formula di mozione di <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>, l’unico caso ad Aptera di decreto promosso dal solo <foreign>damos</foreign>, senza la <foreign>boula</foreign>.</p>
+                    <p>Come spesso avviene ad Aptera, nella formula di proposta (ll. 3-11) oltre alle motivazioni viene incluso anche il nome del proponente, menzione che è estremamente insolita nei decreti cretesi (sulla rarità dell’emergere delle singole personalità che caratterizza le iscrizioni cretesi pubbliche di età ellenistica cf. <bibl><ref target="#b325">Chaniotis 2004b</ref></bibl>). Fra le motivazioni è da notare che il lessico formulare tipico dei decreti onorari (ἐπειδὴ ... ἀξίως ἀνέστραπται ἀμφοτερᾶν τᾶν πολίων) si fonde alla linea 7 con quello che sembra un riecheggiamento di un passo del giuramento ippocratico (ἀξίως ... κατά τε τὸμ βίον καὶ τὰν τέχναν; cf. <ref type="lit">Hipp. <title>Jusj.</title> 16-17</ref>: ἁγνῶς δὲ καὶ ὁσίως διατηρήσω βίον τὸν ἐμὸν καὶ τέχνην τὴν ἐμήν; cf. <bibl><ref target="#b503">Detorakis 1995</ref>, pp. 222-223</bibl>).</p>
+                    <p>Nel corpo del decreto viene stabilito l’esborso di trecento stateri per la corona d’oro e per le spese del rientro in patria del medico, da compiersi per mezzo dei tesorieri (l. 17, τοὶ ταμίαι), a Creta noti anche a Gortyna, Lyttos e Arkades (<ref type="ins" target="#ic4_235"><title>IC</title> IV 235</ref>; <ref type="ins" target="#seg_45_1528"><title>SEG</title> 45.1528</ref>; <ref type="ins" target="#ic1_5_19"><title>IC</title> I 5 19</ref> e <ref type="ins" target="#ic1_5_20a">20 A</ref>).</p>
+                    <p>Nella parte conclusiva del decreto il medico viene proclamato evergete e verosimilmente prosseno della <foreign>polis</foreign>; mentre la prossenia viene conferita alla maggior parte degli individui onorati da Aptera (cf. <ref type="ins" target="#ic2_3_4ab"><title>IC</title> II 3 4 B</ref>, <ref type="ins" target="#ic2_3_5">5</ref> B e <ref type="ins" target="#ic2_3_6">6-15</ref>), l’<foreign>euergesia</foreign> costituisce un elemento di prestigio che la città riserva solamente ai personaggi di un certo rilievo: viene concessa infatti da sola ad Attalo I (<ref type="ins" target="#ic2_3_4c"><title>IC</title> II 3 4 C</ref>), assieme alla prossenia a Prusia II (<ref type="ins" target="#ic2_3_4ab"><title>IC</title> II 3 4 A</ref>) ed ai romani Lucio Cornelio Scipione Asiatico, Publio Cornelio Scipione Africano, Gneo Cornelio Scipione Ispallo e Lucio Emilio Regillo (<ref type="ins" target="#ic2_3_5"><title>IC</title> II 3 5</ref> A).</p>
+                    <p>La <foreign>polis</foreign> complessivamente compare tre volte nel decreto, due delle quali in realtà sono frutto di integrazione di lacuna; in tutti i casi, comunque, appare non come assemblea ma come comunità civica. Un altro riferimento alla collettività civica è inoltre costituito dalla menzione dei <foreign>polites</foreign> colpiti da malattie e salvati dal medico (ll. 8-10).</p>
+                    <p>Quanto ai cosmi, il documento conferma per Aptera il loro ruolo subordinato a quello delle assemblee e limitato a questioni di rappresentanza (cf. <ref type="ins" target="#ic2_3_4c"><title>IC</title> II 3 4 C</ref>, <ref type="ins" target="#seg_41_742"><title>SEG</title> 41.742</ref>, <ref type="ins" target="#ic2_3_1"><title>IC</title> II 3 1</ref>): i magistrati sono addetti infatti solamente all’apposizione del sigillo pubblico sulle lettere indirizzate da Aptera ad altre città (ll. 21-22, δαμοσίαι σφραγῖδι) e al loro invio.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#damosia_sphragis"><foreign>damosia sphragis</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, proponenti (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref> (?), <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, <ref type="inst" target="#tamias"><foreign>tamias</foreign></ref>.</p>
+
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII.4 171</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 3* <ptr type="phi" target="199709"/></bibl>; 
+                    <bibl><ref target="#b1663">Samama 2003</ref>, n. 136</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b503">Detorakis 1995</ref>, pp. 222-223 (ll. 5-11)</bibl>; 
+                    <bibl><ref target="#b1967">Von Staden 1997</ref>, pp. 166-168</bibl>; 
+                    <bibl><ref target="#b825">Habicht <foreign>et al.</foreign> 1998</ref>, pp. 129-131, n. 17</bibl>; 
+                    <bibl><ref target="#b924">Interdonato 2004</ref>, p. 271</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

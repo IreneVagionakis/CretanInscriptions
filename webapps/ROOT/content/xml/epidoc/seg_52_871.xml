@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epitaffio di una coppia di Lato <foreign>pros</foreign> Kamara</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 52.871</idno>
+                        <idno type="projectNo">473</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos</repository> 
+                                <idno type="invNo">13138</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0100" notAfter="0100">I secolo a.C. - I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Ἀπελλᾶς Πάτρωνος καὶ
+                          <lb n="2"/>Ῥόδα ἡ σύμβιος α<unclear>ὐ</unclear>τοῦ ἀμ<lb 
+                        break="no" n="3"/>φότεροι ὑπὸ γᾶν ἐνθάδε κῖν<lb 
+                        break="no" n="4"/>ται, ζῶντες τὰ πρὸς αὐτοὺς
+                          <lb n="5"/>πάντα καλῶς καὶ προσηνῖς
+                          <lb n="6"/>πᾶσι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polites" ref="#lato_kamara"><w lemma="πολίτης">πολίταις</w></rs> καὶ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="xenos" ref="#lato_kamara"><w lemma="ξένος">ξένοισι</w></rs> πο<lb 
+                        break="no" n="7"/>θινοί· σὺ δὲ <w lemma="χαίρω">χαῖρε</w> <rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#lato_kamara"><w lemma="πόλις">πόλις</w> <placeName ref="#lato_kamara">Καμάρα</placeName></rs>
+                          <lb n="8"/>καὶ θάλλοις διὰ παντὸς <unclear>ἀεί</unclear>· καὶ
+                          <lb n="9"/>ἡμεῖς <w lemma="χαίρω">χαίρωμεν</w>, εἰ <w lemma="χαίρω">χαίρουσι</w>
+                          <lb n="10"/>θανόντες.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’epitaffio commemora Apellas figlio di Patron e sua moglie Rhoda, ricordati come cari a tutti i loro concittadini e agli stranieri, secondo uno stilema diffuso negli epigrammi funerari e attestato a Creta anche attraverso il nesso costituito dall’associazione dei termini <foreign>astoi</foreign> e <foreign>xenoi</foreign> (cf. <ref type="ins" target="#ic2_6_10"><title>IC</title> II 6 10</ref> da Kantanos e <ref type="ins" target="#ic2_21_2"><title>IC</title> II 21 2</ref> da Poikilasion). L’iscrizione, inoltre, è particolarmente significativa per il saluto alla città presente alle linee 7-8, che definisce la località di Lato <foreign>pros</foreign> Kamara come <foreign>polis</foreign> e che offre una delle rare menzioni del toponimo Kamara (cf. <ref type="ins" target="#ic1_16_15"><title>IC</title> I 16 15</ref> e <ref type="ins" target="#ic1_16_19"><title>IC</title> I 16 19</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#xenos"><foreign>xenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1278">Martínez Fernández – Zografaki 2002</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 52.871 <ptr type="seg" target="a52_871"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b36">Apostolakou 2003</ref>, p. 87 n. 22</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

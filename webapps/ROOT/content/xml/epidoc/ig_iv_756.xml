@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Trezene per due fratelli di Polyrrhenia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG IV 756</idno>
+                        <idno type="projectNo">020</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#troizen">Trezene</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0205" notAfter="-0201">205-201 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">θ</supplied>εοί.
+                          <lb n="2"/><placeName ref="#troizen" type="ethnic"><supplied reason="lost">Τροζ</supplied>ανίων</placeName> πρόξε<unclear>ν</unclear><supplied reason="lost">οι</supplied>
+                          <lb n="3"/><supplied reason="lost">καὶ</supplied> εὐεργέτ<unclear>α</unclear><supplied reason="lost">ι</supplied>.
+                          <lb n="4"/><supplied reason="lost">πόθο</supplied>δον ποιησαμένου Δορκύλου τοῦ Δα<unclear>μ</unclear><supplied reason="lost">ο</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">στρά</supplied>του, ὅπως δοθῆ<corr>ι</corr> προξενία ὑπὸ τᾶς πό<lb 
+                        break="no" n="6"/><supplied reason="lost">λιος Ἀ</supplied>νδροκλεῖ καὶ Μένωνι τοῖς Μενεδά<lb 
+                        break="no" n="7"/><supplied reason="lost">μου</supplied> <placeName ref="#polyrrhenia" type="ethnic"><supplied reason="lost">Πο</supplied>λυρρ<corr>η</corr>νίοις</placeName>· ἀγαθᾶι τύχαι· δεδόχ<lb 
+                        break="no" n="8"/><supplied reason="lost">θαι ταῖς</supplied> <unclear>σ</unclear>υναρχίαις καὶ τῶι δάμωι ἐπαινέ<lb 
+                        break="no" n="9"/><supplied reason="lost">σαι</supplied> <persName type="honoured" key="Androkles f. Menedamos" ref="#polyrrhenia"><name nymRef="Ἀνδροκλῆς"><supplied reason="lost">Ἀνδρο</supplied>κλῆ</name></persName> καὶ <persName type="honoured" key="Menon f. Menedamos" ref="#polyrrhenia"><name nymRef="Μένων">Μένωνα</name> τοὺς <name nymRef="Μενέδαμος" type="patronymic">Μενεδάμου</name></persName>
+                          <lb n="10"/><placeName ref="#polyrrhenia" type="ethnic"><supplied reason="lost">Πολυρρη</supplied><unclear>ν</unclear>ίους</placeName> ἐπί τε τᾶι εὐνοίαι καὶ καλοκἀγ<unclear>α</unclear><lb 
+                        break="no" n="11"/><supplied reason="lost">θίαι ἃς ἔχοντ</supplied>ες διατε<surplus>ε</surplus>λοῦντι εἴς τε τὰ<supplied reason="lost">ν</supplied>
+                          <lb n="12"/><supplied reason="lost">πόλιν τὰν ἁμῶν</supplied> καὶ τῶν πολιτᾶν τοῖς
+                          <lb n="13"/><supplied reason="lost">χρείαν τινὰ ἔχου</supplied>σιν αὐτῶν καὶ τοὺς ἁλόν<lb 
+                        break="no" n="14"/><supplied reason="lost">τας τῶν ἡμετέρων</supplied> πολιτᾶν ἐν τῶι πολέ<lb 
+                        break="no" n="15"/><supplied reason="lost">μωι ὃν ἐξήνεγκαν Ῥόδ</supplied>ιοι ποτὶ <rs type="institution" subtype="social_group" role="war" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταεῖς</placeName></rs> ἐ<lb 
+                        break="no" n="16"/><supplied reason="lost" cert="low">λύτρωσαν τριῶν ταλάν</supplied>των. εἶμεν δὲ αὐ<lb 
+                        break="no" n="17"/><supplied reason="lost">τοὺς καὶ προξένους κα</supplied>ὶ εὐεργέτας τᾶ<supplied reason="lost">ς</supplied>
+                          <lb n="18"/><supplied reason="lost">πόλιος, αὐτοὺς καὶ ἐκγό</supplied><unclear>ν</unclear>ους αὐτῶν, ὑπά<lb 
+                        break="no" n="19"/><supplied reason="lost" cert="low">ρχεν δὲ αὐτοῖς κατὰ τὰν πό</supplied><unclear>λ</unclear>ιν ἀσφάλεια<supplied reason="lost">ν</supplied>
+                          <lb n="20"/><supplied reason="lost">καὶ ἀσυλίαν καὶ πολέμου κ</supplied>αὶ εἰράν<supplied reason="lost">α</supplied><lb 
+                        break="no" n="21"/><supplied reason="lost">ς καὶ γᾶς καὶ οἰκίας ἔγκτη</supplied>σιν κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="21a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="15"><note><supplied reason="lost">ἐξήνεγκαν Ῥόδ</supplied>ιοι <bibl><ref target="#b889">Herzog</ref></bibl>, <bibl><ref target="#b128">Bielman</ref></bibl>; <supplied reason="lost">ἦραν</supplied> <gap reason="lost" quantity="6" unit="character"/>ιοι <bibl><ref target="#bib6"><title>IG</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, emanato da Trezene, onora due fratelli di Polyrrhenia, Androkles e Menon, per i propri meriti nei confronti di alcuni suoi cittadini in occasione di una guerra ποτὶ Κρηταεῖς. Presupponendo con Chaniotis che il termine <foreign>Kretaieis</foreign> si riferisca al <foreign>koinon</foreign> cretese (cf. <bibl><ref target="#b348">Chaniotis 2015</ref></bibl>), il documento testimonierebbe dunque l’esistenza di buone relazioni fra Polyrrhenia ed il <foreign>koinon</foreign>, se non addirittura la sua appartenenza ad esso (sebbene il decreto ateniese <ref type="ins" target="#ig_ii3_1137"><title>IG</title> II<hi rend="superscript">3</hi> 1137</ref> I del 228/7 a.C. suggerisca l’opposto). La probabile menzione dei Rodii alla linea 15, integrata da Rudolf Herzog, rende molto probabile che la redazione del decreto sia da collocare ai tempi della Prima guerra rodio-cretese, con un conseguente alzamento della datazione proposta nell’<foreign>IG</foreign> – 197-195 a.C. – agli anni 205-201 a.C. (cf. <bibl><ref target="#b128">Bielman 1994</ref>, pp. 158-159</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1083">Legrand 1893</ref>, pp. 107-109 n. 26</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> IV 756 <ptr type="phi" target="28284"/></bibl>;
+                            <bibl><ref target="#b128">Bielman 1994</ref>, n. 43</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> pp. 54-55 n. 2.14</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b889">Herzog 1902</ref>, p. 330 (l. 15)</bibl>;
+                            <bibl><ref target="#b208">Brulé 1978</ref>, pp. 42-50</bibl>;
+                            <bibl><ref target="#b719">Gondicas 1988</ref>, n. 35</bibl>; 
+                            <bibl><ref target="#b1238">Martínez Fernández 1999</ref>, p. 422</bibl>; 
+                            <bibl><ref target="#b2011">Wiemer 2002</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

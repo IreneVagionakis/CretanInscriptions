@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Lappa per Tolemeo III o IV</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 11</idno>
+                        <idno type="projectNo">089</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#argyroupoli_agia_paraskevi">Chiesa di Agia Paraskevi, Argyroupoli</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="ruler" key="Ptolemaios III/IV" ref="#egypt"><w lemma="βασιλεύς"><supplied reason="lost">βασιλέ</supplied>ως</w> <name nymRef="Πτολεμαῖος">Πτολεμαίου</name> <unclear>τ</unclear>οῦ <gap reason="lost" extent="unknown" unit="character"/></persName>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, forse iscritta su una base di statua, è promossa molto probabilmente dalla <foreign>polis</foreign> di Lappa, che risulta essere il promotore dell’unica altra dedica pubblica pervenuta dalla città (<ref type="ins" target="#seg_57_847"><title>SEG</title> 57.847</ref>).</p>
+                    <p>Il personaggio onorato, un re della dinastia lagide, potrebbe essere identificabile in Tolemeo III o IV sulla base della paleografia del testo (cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 202</bibl>). 
+                            
+                           Qualora si trattasse di Tolemeo Evergete, il documento si inserirebbe nel quadro di dediche analoghe tributate allo stesso sovrano da parte di città di Creta occidentale e centro-occidentale, <ref type="ins" target="#ic2_12_25"><title>IC</title> II 12 25</ref> da Eleutherna e <ref type="ins" target="#ic2_19_2"><title>IC</title> II 19 2</ref> da Phalasarna, alle quali si aggiunge anche il decreto onorario <ref type="ins" target="#ic3_4_4"><title>IC</title> III 4 4</ref> da Itanos. Nel caso si trattasse del suo successore, il documento troverebbe invece un parallelo nella dedica a Tolemeo IV e Arsinoe III promossa dal <foreign>phrourarchon</foreign> di Itanos, <ref type="ins" target="#ic3_4_18"><title>IC</title> III 4 18</ref> (sulle relazioni fra Creta e Tolemei cf. <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 17-45</bibl>, <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: nessuno nello specifico.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 11 <ptr type="phi" target="199979"/></bibl>; 
+                            <bibl><ref target="#b1009">Kotsidou 2000</ref>, *351</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

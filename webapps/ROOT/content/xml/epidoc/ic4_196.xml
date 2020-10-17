@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Gortyna relativo a Tenos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 196*</idno>
+                        <idno type="projectNo">357</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#tenos">Tenos, santuario di Poseidone ed Anfitrite</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#gortyn"><w lemma="δόγμα">δόγματα</w></rs> <placeName ref="#crete" type="ethnic">Κρητ<supplied reason="lost">ῶν</supplied></placeName>
+                          <lb n="2"/><placeName ref="#gortyn" type="ethnic">Γορτυνί<supplied reason="lost">ων</supplied></placeName>.
+                          <lb n="3"/><rs type="institution" subtype="tribe" role="eponym" key="Ainaones" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied><w lemma="Αἰνάωνες"> <supplied reason="lost">Αἰ</supplied><unclear>να</unclear>ώνων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντων</w></rs> <placeName ref="#gortyn">Γορ<unclear>τ</unclear><supplied reason="lost">υν</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δευτέ</supplied><unclear>ρα</unclear>ι ψίνοντος ἀπο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto gortynio, di cui si è conservata solamente la sezione iniziale, è preceduto da una duplice intestazione aggiunta al momento dell’iscrizione su pietra a Tenos, che doveva introdurre una serie di δόγματα provenienti da più città cretesi.</p>
+                    <p>Il decreto vero e proprio si apre con la formula di datazione, nella quale vengono ricordati la tribù degli <foreign>Ainaones</foreign>, attestata solo a Gortyna (cf. l’iscrizione edificatoria <ref type="ins" target="#ic1_17_6"><title>IC</title> I 17 6</ref>) e un cosmo eponimo di cui si è perduto il nome.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, tribù (<ref type="inst" target="#ainaones"><foreign>Ainaones</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b732">Graindor 1907</ref>, p. 20 n. 32</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII 5.867</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 196* <ptr type="phi" target="200635"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 56</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1744">Spyridakis 1977-1978</ref>, pp. 51-61</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

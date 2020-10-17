@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Axos relativa all’<foreign>agela</foreign> (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 24</idno>
+                        <idno type="projectNo">124</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#axos">Axos, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>γ</unclear>α</orig><gap reason="illegible" quantity="1" unit="character"/>ος ἐστ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σο</unclear> ἀπὸ αδ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>κα ὁ <rs type="institution" subtype="official" role="unknown" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσ<unclear>μ</unclear><supplied reason="lost">ος</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="θύω"><unclear>θ</unclear>ύσει</w> ὀμν<supplied reason="lost">υ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ν <w lemma="ἄδικος">ἄδικος</w> αδ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="στατήρ"><supplied reason="lost">στατ</supplied>ῆρα</w> ὅττα <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀλ</supplied>λ’ <rs type="institution" subtype="age_class" role="unknown" key="ekdyomenos" ref="#axos" cert="low"><w lemma="ἐγδύω">ἐγδύεν</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ρον καὶ το<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> μὴ <rs type="institution" subtype="age_class" role="unknown" key="ekdyomenos" ref="#axos" cert="low"><w lemma="ἐγδύω">ἐγδύσε<supplied reason="lost">ι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τρ</supplied>ισὶ ὕστε<supplied reason="lost">ρον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><orig>ινε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, che doveva appartenere ad una stele o una lastra, è stato identificato come legge di Axos da Margherita Guarducci. I pochi termini superstiti, tuttavia, consentirebbero di vedere nel testo la sezione di un trattato relativa al giuramento dell’<foreign>agela</foreign>. Sebbene il termine non sia conservato, infatti, a rimandare alla sfera efebica è il verbo <foreign>ekdyo</foreign>, ricorrente sia alla linea 7 che alla linea 9, che nelle iscrizioni cretesi è solitamente riferito all’<foreign>agela</foreign> (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic1_19_1"><title>IC</title> I 19 1</ref>). La menzione di un cosmo (l. 3) e forse di multe (l. 6) ed il probabile riferimento a sacrifici e giuramenti (l. 4) rendono il testo vicino alle clausole di numerosi trattati ellenistici in cui è prescritto l’obbligo dei cosmi di far giurare i giovani membri dell’<foreign>agela</foreign> e in cui sono previste ammende nel caso di inadempienza da parte dei magistrati (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#ekdyomenos"><foreign>ekdyomenos</foreign></ref> (<foreign>ekdyo</foreign>), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 741-742 n. 196</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5130</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 24 <ptr type="phi" target="199785"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 17*</idno>
+                        <idno type="projectNo">138</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#izmir">Izmir</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#axos" type="ethnic">Ϝαξίων</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#axos"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#axos" type="ethnic">Ϝαξίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#axos"><w lemma="πόλις">πόλει</w></rs> <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#axos"><w lemma="ψαφίζω">ψαφιξαμένοις</w></rs>
+                          <lb n="3"/>κατὰ τὸν <rs type="institution" subtype="object" role="law" key="nomos" ref="#axos"><w lemma="νόμος">νόμον</w></rs>· ἐπειδὴ <placeName ref="#teos" type="ethnic">Τήιοι</placeName> διὰ <w lemma="πρόγονος">προγόνων</w> <w lemma="φίλος">φίλοι</w> καὶ <w lemma="συγγενής">συγ<lb 
+                        break="no" n="4"/>γενεῖς</w> ὑπάρχοντε<supplied reason="lost">ς</supplied> τᾶς ἁμᾶς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#axos"><w lemma="πόλις">πόλεος</w></rs> <w lemma="ἀποστέλλω">ἀπέστειλαν</w> ψά<lb 
+                        break="no" n="5"/>φισμα καὶ πρειγευτὰς Ἀπολλόδοτον καὶ Κωλώταν,
+                          <lb n="6"/>οἳ καὶ ἐπελθόντες ἐπὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#axos"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs> καὶ τὸ ψάφισμα
+                          <lb n="7"/>ἀποδόντες διελέγεν πεδὰ πάνσας <w lemma="σπουδά">σπουδᾶς</w> καὶ <w lemma="φιλοτιμία">φι<lb 
+                        break="no" n="8"/>λοτιμίας</w> περὶ τῶ<surplus>ι</surplus> γενέσθαι τὰν καθιέρωσιν τῶι <persName type="divine" key="Dionysos">Διονύ<lb 
+                        break="no" n="9"/>σωι</persName> τᾶς τε πόλεος αὐτῶν καὶ τᾶς χώρας καὶ τὰν <w lemma="ἀσυλία">ἀσυ<lb 
+                        break="no" n="10"/>λίαν</w> τά τε ἄλλα τὰ ὑπάρχοντα αὐτοῖς ἔνδοξα καὶ <w lemma="τίμια">τίμι<lb 
+                        break="no" n="11"/>α</w> διαφυλάδεν καὶ συνεπαύξεν ἐς τὸν ἀεὶ χρόνον, περ<supplied reason="lost">ὶ</supplied>
+                          <lb n="12"/>δὲ τῶν αὐτῶν διαλεγέντος καὶ Περδίκκα τῶ παρὰ τῶ <persName type="ruler" key="Philippos V" ref="#macedonia"><w lemma="βασιλεύς">βα<lb 
+                        break="no" n="13"/>σιλέως</w> <name nymRef="Φίλιππος">Φιλίππω</name></persName> πρειγευτᾶ· <space extent="unknown" unit="character"/> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#axos"><w lemma="δοκέω">δεδόχθαι</w></rs> <placeName ref="#axos" type="ethnic">Ϝαυξίων</placeName> τοῖς
+                          <lb n="14"/><rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#axos"><w lemma="πόλις">πόλει</w></rs>· <w lemma="ἐπαινέω">ἐπαινέσαι</w> μὲν τὸν<corr>ς</corr> πρειγευτὰν<corr>ς</corr>
+                          <lb n="15"/>διότι καλῶς καὶ συμφερόντως διελέγεν περὶ τᾶς <w lemma="οἰκειότης">οἰκειότατος</w>
+                          <lb n="16"/>τᾶς ὑπαρχόνσας αὐτοῖς πορτ’ ἀμὲ καὶ τῶν λοιπῶν ἐνδό<lb 
+                        break="no" n="17"/>ξων καὶ <w lemma="τίμια">τιμίων</w>· <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> δ<corr>ὲ</corr> ὅτι ὁ <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#axos"><w lemma="δᾶμος">δᾶμος</w></rs> ὁ <placeName ref="#axos" type="ethnic">Ϝαυξίων</placeName> δια<lb 
+                        break="no" n="18"/>φυλάδων τὰν πορτὶ τὸ θεῖον εὐσέβειαν καὶ τᾶι πόλει τῶν
+                          <lb n="19"/><placeName ref="#teos" type="ethnic">Τηίων</placeName> εὐχαριστεῖν βωλόμενος τάν τε καθιέρωσιν τῶι <persName type="divine" key="Dionysos">Δι<lb 
+                        break="no" n="20"/>ονύσωι</persName> τᾶς τε πόλεος τῶν <placeName ref="#teos" type="ethnic">Τηίων</placeName> καὶ τᾶς χώρας ἀναδεί<lb 
+                        break="no" n="21"/>κνυντι· καὶ παρδέχεται ἱερὰν καὶ <w lemma="ἄσυλος">ἄσυλον</w> καθότι <w lemma="παρκαλέω">παρκα<lb 
+                        break="no" n="22"/>λεῖ</w> ὁ δᾶμος ὁ <placeName ref="#teos" type="ethnic">Τηίων</placeName>, ὑπαρξεῖ δὲ καὶ τὰ ἄλλα <w lemma="τίμια">τίμια</w>
+                          <lb n="23"/><placeName ref="#teos" type="ethnic">Τηίοις</placeName> πὰρ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#axos"><w lemma="πόλις">πόλει</w></rs> τῶν <placeName ref="#axos" type="ethnic">Ϝαυξίων</placeName> νῦν τε καὶ αἰεί.
+                          <lb n="24"/><w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione appartiene alla ricca serie di documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>, <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>, <bibl><ref target="#b1040">Kvist 2003</ref></bibl>, <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>). Sebbene il testo si presenti inizialmente come un decreto, il saluto finale ἔρρωσθε svela il suo originario inserimento all’interno di un’epistola, di cui è stata omessa l’intestazione al momento dell’iscrizione.</p>
+                    <p>Il decreto esordisce con la formula di sanzione, nella quale sono i cosmi e la <foreign>polis</foreign> di Axos a risultare come responsabili della deliberazione e a cui fa seguito un riferimento ad una votazione avvenuta secondo la legge, fatto privo di paralleli a Creta (ll. 2-3). Le medesime istituzioni sono commemorate in relazione all’attività deliberativa anche nella formula di mozione, che occorre alle linee 13-14.</p>
+                    <p>Quanto alle assemblee della città, il decreto testimonia l’esistenza dell’<foreign>ekklesia</foreign> ad Axos, nota unicamente da questa iscrizione, che accoglie gli ambasciatori teii e alla quale questi consegnano il decreto inviato dalla propria madrepatria (ll. 6-7). Nell’oggetto del decreto, inoltre, viene menzionato il <foreign>damos</foreign> di Axos in qualità di responsabile delle decisioni prese (l. 17). Il termine <foreign>polis</foreign>, infine, è impiegato dapprima in relazione alla <foreign>syngeneia</foreign> e alle buone relazioni intercorrenti fra la città di Axos e Teos (l. 4), per poi comparire nuovamente in merito al conferimento di ἄλλα τίμια da parte di Axos ai Teii, che si aggiungono alla concessione dell’<foreign>asylia</foreign> alla città microasiatica e di onori ai suoi ambasciatori (ll. 22-23).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 3050</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 65</bibl>; 
+                            <bibl><ref target="#b267">Cauer 1877</ref>, n. 52</bibl>; 
+                            <bibl><ref target="#b273">Cauer 1883</ref>, n. 122</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 55</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5169</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 17* <ptr type="phi" target="199778"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 7</bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 43c</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 140</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1617">Robert 1940a</ref>, p. 118</bibl>; 
+                            <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

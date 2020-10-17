@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di un <foreign>kapaneus</foreign> da Pyloros</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 25 2</idno>
+                        <idno type="projectNo">403</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#apessokari_panagia">Chiesa di Panagia, Apessokari</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#pyloros">Pyloros</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="builder" key="epimeletes" ref="#gortyn"><w lemma="ἐπιμελέομαι">ἐπεμελήθη</w> <supplied reason="lost">τῶν</supplied>
+                          <lb n="2"/><w lemma="κοίτη">κοιτῶν</w> <persName type="attested" key="Amarantos f. Matros"><name nymRef="Ἀμάραντος">Ἀμάρ<supplied reason="lost">αντος</supplied></name>
+                          <lb n="3"/><name nymRef="Μᾶτρος" type="patronymic">Μάτρω</name></persName> ὁ καπανεὺς</rs>.
+                          <lb n="4"/>Στραψιμένης Σωμένω.
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="1-2"><note>ἐπεμελήθη <supplied reason="lost">τῶν</supplied> κοιτῶν Ἀμάρ<supplied reason="lost">αντος</supplied> <bibl><ref target="#b1318">Melfi</ref></bibl>; ἐπεμελήθη κοιτῶν Αμαρ <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione documenta un intervento edilizio riguardante degli alloggi o letti per la pratica dell’incubazione (l. 2, κοιτῶν) promosso in qualità di καπανεύς dal privato Amarantos figlio di Matros. L’assenza di un titolo che sia associato al secondo dedicante menzionato alla linea 4, Strapsimenes figlio di Somenos, porterebbe a ritenere anch’esso un privato. La natura dell’oggetto dell’intervento e la relativa vicinanza del luogo di ritrovamento a Lebena rendono ipotizzabile una provenienza del documento dall’<foreign>Asklepieion</foreign> di quest’ultima, sebbene non sia da escludere che vi potesse essere una struttura sacra dotata di incubatorio anche a Pyloros stessa; la soggezione della località a Gortyna rende verosimile che i promotori dell’intervento edilizio ricordato provengano da quest’ultima.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#epimeletes"><foreign>epimeletes</foreign></ref> (<foreign>epimeleomai</foreign>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, p. 718 n. 168</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5089</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 25 2 <ptr type="phi" target="199639"/></bibl>; 
+                            <bibl><ref target="#b1530">Petros-Mesogitis 1939</ref>, pp. 278-279 n. 13</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 6</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 80-81</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

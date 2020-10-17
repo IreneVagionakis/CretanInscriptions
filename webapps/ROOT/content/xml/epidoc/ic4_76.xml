@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 76</idno>
+                        <idno type="projectNo">267</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>αι, α<lb 
+                        break="no" n="2"/>ἰ δὲ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ρατ<lb 
+                        break="no" n="4"/>ος <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ὀ</unclear>δὸ<lb 
+                        break="no" n="6"/>ς ἐ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>δι</orig>
+                          <lb n="8"/><orig>αλ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig>εκ</orig>
+                          <lb n="10"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="1"/>θανάτοι, αἴ κ’ οἰ ἐπιβάλλ<supplied reason="lost">οντες</supplied>
+                          <lb n="2"/><w lemma="καθαιρέω"><supplied reason="lost">καθαίρ</supplied>εν</w> μὲ λείοντι, <w lemma="δικάζω">δικάκσα<lb 
+                        break="no" n="3"/>ι</w> τὸν <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικαστάς">δικαστὰν</w></rs> <w lemma="καθαιρέω">καθαίρε<supplied reason="lost">ν</supplied></w> <gap reason="lost" quantity="4" unit="character"/>
+                          <lb n="4"/><gap reason="lost" quantity="5" unit="character"/>νσι. αἰ δέ κα μὲ <w lemma="καθαιρέω">καθαίρει</w>
+                          <lb n="5"/>ἆι <w lemma="ἐγράφω">ἔγρατται</w>, αὐτὸν <w lemma="καθαιρέω">καθα<supplied reason="lost">ίρεν</supplied></w> <supplied reason="lost">κ’ ὄ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">τι κ’ ἀν</supplied>αισιμόσει <w lemma="ὀμνύω"><supplied reason="lost">ὀ</supplied>μόσαντα</w>
+                          <lb n="7"/>διπλεῖ <w lemma="πράδδω">π<unclear>ρ</unclear><supplied reason="lost">άδ</supplied>δεθαι</w>. <space extent="unknown" unit="character"/> αἰ κ<gap reason="lost" quantity="5" unit="character"/>
+                          <lb n="8"/><gap reason="lost" quantity="5" unit="character"/>ας <w lemma="ϝεργάδδω">ϝεργάδ<supplied reason="lost">δε</supplied>ται</w> ἀθάνα<lb 
+                        break="no" n="9"/>τα <w lemma="κρήματα">κρέμα<unclear>τ</unclear><supplied reason="lost">α</supplied></w> <supplied reason="lost">ἒ δ</supplied>ένδρεα ἒ κ<gap reason="lost" quantity="5" unit="character"/>
+                          <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La prescrizione conservata alle linee 1-7 della colonna B, che doveva iniziare forse già nella colonna A, è relativa ad una purificazione, forse di cadaveri (cf. l. B 1, θανάτοι), che il giudice deve obbligare a compiere; nel caso ciò non avvenga è egli stesso a doversene occupare in prima persona. Le linee B 7-9, concernenti l’amministrazione di beni e di piante, appartengono probabilmente ad una legge differente (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 155-160</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dikastas"><foreign>dikastas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b761">Guarducci 1931a</ref>, pp. 14-18 n. 2</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 76 <ptr type="phi" target="200513"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, nn. 150-151 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 86 (B)</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 282 (B, ll. 1-7)</bibl>;
+                            <bibl><ref target="#b635">Frisone 2000</ref>, pp. 31-43 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G76</bibl>;
+                            <bibl><ref target="#bib400"><title>Iscrizioni Greche</title></ref> 33 (B)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b478">De Sanctis 1932</ref></bibl>;
+                            <bibl><ref target="#b681">Garland 1989</ref>, pp. 10-11</bibl>; 
+                            <bibl><ref target="#b634">Frisone 1995</ref></bibl>; 
+                            <bibl><ref target="#b557">Engels 1998</ref></bibl>; 
+                            <bibl><ref target="#b1046">La Rosa 2002</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

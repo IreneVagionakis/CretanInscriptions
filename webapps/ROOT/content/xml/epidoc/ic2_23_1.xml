@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto tebano relativo a Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 1</idno>
+                        <idno type="projectNo">015</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kissamos_museum">Museo archeologico di Kissamos</repository>
+                        <idno type="invNo">E 5</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plaque">lastra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0230" notAfter="-0170">fine III - inizi II secolo a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><space extent="unknown" unit="character"/> <placeName ref="#thebes" type="ethnic">Θηβαίων</placeName>.
+                        <lb n="2"/><supplied reason="lost">οἱ</supplied> <placeName ref="#thebes" type="ethnic">Θηβαίων</placeName> πολέμαρχοι καὶ οἱ σύνεδροι <placeName ref="#polyrrhenia" type="ethnic">Π<supplied reason="lost">ολυ</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">ρη</supplied>νίων</placeName> τοῖς <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κόσμοις</w></rs> κ<supplied reason="lost">α</supplied>ὶ τῇ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλει</w></rs> <w lemma="χαίρω">χαίρ<supplied reason="lost">ειν</supplied></w>.
+                        <lb n="4"/><supplied reason="lost">τοῦ</supplied> παρ’ ἡμῖν ψηφίσματος τοῖς <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><w lemma="ἀποστέλλω">ἀποστα<supplied reason="lost">λεῖ</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">σι</supplied></w></rs> <supplied reason="lost">π</supplied>αρ’ ὑμῶν ὑπογεγράφαμεν ὑμῖν τὸ <corr>ἀντίγραφον</corr>· ἄ<supplied reason="lost">ρχ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">οντο</supplied>ς Θεοζότου, μηνὸς Πανάμου, ἔδ<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">ξεν τ</supplied>ῶι συνεδρίωι καὶ τῶι δήμωι· <supplied reason="lost">ἐπεὶ</supplied> <placeName ref="#polyrrhenia" type="ethnic"><supplied reason="lost">Πο</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">λυρηνίω</supplied>ν</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἡ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs> <w lemma="ἐξαποστέλλω">ἐξαπέ<supplied reason="lost">στει</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">λαν</supplied></w> <supplied reason="lost">π</supplied>ρὸς τὴν ἡμετέραν πόλιν ἐγ μὲ<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="10"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="-aion f. Philtos"><name nymRef="-αίων"><gap reason="lost" extent="unknown" unit="character"/>αίωνα</name> <name nymRef="Φλίτος" type="patronymic">Φλίτου</name></persName></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="Menodoros f. An-"><name nymRef="Μηνόδωρος">Μηνόδωρον</name> <name nymRef="Ἀν-" type="patronymic">Ἀν<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                        <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="Sosos f. Agesippos"><name nymRef="Σῶσος">Σῶσον</name> <name nymRef="Ἀγήσιππος" type="patronymic">Ἀγησίππου</name></persName></rs>, τῶν δὲ <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="12"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="-os f. Taskannadas"><name nymRef="-ος"><gap reason="lost" extent="unknown" unit="character"/>ον</name> <name nymRef="Τασκαννάδας" type="patronymic">Τασκαννάδα</name></persName></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="Theodoros f. Xan-"><name nymRef="Θεόδωρος">Θεόδωρον</name> <name nymRef="Ξαν-" type="patronymic">Ξαν<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                        <lb n="13"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="-os f. Menedemos"><name nymRef="-ος"><gap reason="lost" extent="unknown" unit="character"/>ον</name> <name nymRef="Μενέδημος" type="patronymic">Μενεδήμου</name></persName></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="Pyri-"><name nymRef="Πυρι-">Πυρ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                        <lb n="13a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La lettera, contenente la copia (<foreign>antigraphon</foreign>) di un decreto emanato dal sinedrio e dal <foreign>demos</foreign> di Tebe e da questa consegnata agli ambasciatori di Polyrrhenia, purtroppo si interrompe prima di arrivare all’oggetto della delibera 
+                    (per i legami fra Polyrrhenia e la Beozia cf. inoltre il decreto onorario di Oropos del 260 e il 246 a.C. <ref type="ins"><title>IG</title> VII 307</ref> del 260-246 a.C. per un suo cittadino e la raffigurazione di uno scudo beotico su numerose monete della città degli anni 260-180 a.C., per le quali cf. <bibl><ref target="#b1779">Stefanakis 2013</ref>, pp. 39-40, 47-52, nn. 54-101</bibl>; legami con la Lega Etolica – di cui Tebe è parte – sono invece documentati dagli onori conferiti dagli Etoli a tre suoi cittadini tra fine III e inizi II secolo a.C. in <ref type="ins"><title>IG</title> IX<hi rend="superscript">2</hi> 1 31</ref>, A.k, ll. 86-88). 
+                    Del documento si è comunque conservato l’<foreign>incipit</foreign>, nella cui formula di saluto iniziale figurano sia i cosmi che la <foreign>polis</foreign> di Polyrrhenia in qualità di destinatari dell’epistola e quindi di rappresentanti della comunità nelle relazioni estere, ruolo testimoniato anche dalla lettera inviata dalla città a Teos, <ref type="ins" target="#ic2_23_3"><title>IC</title> II 23 3</ref>.
+                    La parte dell’epistola conservata informa inoltre dell’invio di una o due delegazioni di Polyrrhenia verso la città della Beozia: due se la scansione determinata da ἐγ μέν e τῶν δέ alle linee 9-13 è temporale, una se invece l’articolazione è fra componenti diverse all’interno della stessa ambasceria. Tali missioni diplomatiche, come afferma la lettera stessa, sono state inviate dalle medesime figure istituzionali, il collegio dei cosmi e la <foreign>polis</foreign>, confermando dunque la loro prerogativa nella gestione dei contatti con le realtà politiche esterne.</p>
+                    <p>Il patronimico di uno degli inviati, Τασκαννάδας, appartiene al gruppo degli antroponimi derivanti dalla radice τασκ-, peculiari di Creta occidentale e nello specifico di Polyrrhenia (cf. <bibl><ref target="#b1290">Masson 1985</ref>, n. VII</bibl>, <bibl><ref target="#b894">Hitchman 2002</ref>, pp. 118-120</bibl>, <bibl><ref target="#b719">Gondicas 1988</ref>, pp. 252-257</bibl>; cf. inoltre <ref type="ins" target="#ic2_23_9"><title>IC</title> II 23 9</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref> (<foreign>apostello</foreign>).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, pp. 68-69</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 232</bibl>; 
+                    <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 489-492</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 1 <ptr type="phi" target="200037"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 19</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 6</bibl>.
+                    <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2025">Wilhelm 1980</ref>, p. 54, nota 1</bibl>; 
+                    <bibl><ref target="#b277">Ceccarelli 2005</ref>, pp. 361-369</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

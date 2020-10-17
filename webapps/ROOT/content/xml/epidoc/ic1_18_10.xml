@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di <foreign>isopoliteia</foreign> fra Lyttos e Kydonia (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 18 10</idno>
+                        <idno type="projectNo">193</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 219</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lyttos">Lyttos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="μετέχω"><supplied reason="lost">μετέχον</supplied><lb 
+                        break="no" n="2"/>τα</w> καὶ <w lemma="θῖνος">θίνων</w> <supplied reason="lost">καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#lyttos"><w lemma="πολίτας">πολίτας</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>αται πα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>τευεν<gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀνθρώπινος"><supplied reason="lost">ἀνθρω</supplied><lb 
+                        break="no" n="6"/>πίνων</w> ο<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>ο τῶν <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lyttos"><placeName ref="#lyttos" type="ethnic">Λυττί<unclear>ων</unclear></placeName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><orig>βι<unclear>π</unclear>α<unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><orig>τα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                        <ab>
+                            <lb n="9b"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἰ</supplied>
+                          <lb n="11"/>μὲν <w lemma="ἐφιορκέω">ἐ<unclear>φ</unclear>ι<unclear>ο</unclear>ρκί<unclear>ο</unclear>ιμε<supplied reason="lost">ν</supplied></w> κακίστωι ὀλέθρωι ἐ<supplied reason="lost">ξόλ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">λ</supplied>υσθαι καὶ αὐτὸς καὶ χρῆια καὶ <w lemma="γένος">γένος</w>, <w lemma="εὐορκέω">εὐορκίονσ<supplied reason="lost">ι</supplied></w>
+                          <lb n="13"/><supplied reason="lost">δ</supplied>ὲ ἱλέος τὸς <w lemma="θιός">θιὸς</w> ἦμεν.
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="3-4"><note><gap reason="lost" extent="unknown" unit="character"/>αται <bibl><ref target="#bib1"><title>IC</title></ref></bibl>; <supplied reason="lost" cert="low">Κυδωνι</supplied>ᾶται <bibl><ref target="#bib15">Chaniotis</ref></bibl> nel commento.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato sembra essere stato stipulato da Lyttos e – in via altamente ipotetica – da Kydonia: se della prima si conserva interamente l’etnico collettivo Λυττίων in riferimento alla comunità civica, della seconda è possibile leggere solamente le lettere finali del nominativo plurale -αται. Il frammento, illeggibile nella sua parte centrale, restituisce superiormente parte della clausola relativa alla concessione (reciproca?) di <foreign>isopoliteia</foreign>, che prevede la possibilità per i cittadini di una delle due <foreign>poleis</foreign> di acquisire la cittadinanza dell’altra (l. 3). La sezione finale del testo conservato, invece, costituisce la parte conclusiva del giuramento prestato dalle città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 18 10 <ptr type="phi" target="199338"/></bibl>;
+                        <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 42</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b721">Gondicas – Van Effenterre 2000</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

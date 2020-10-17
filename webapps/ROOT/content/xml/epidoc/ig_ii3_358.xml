@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario ateniese per Eurylochos di Kydonia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG II³ 1 358</idno>
+                        <idno type="projectNo">033</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele" cert="low">stele?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>stoichedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#athens">Atene</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0328" notAfter="-0327">328/327 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" atLeast="2" atMost="3" unit="character" precision="low"/> δεκ<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>πρυτανεία<supplied reason="lost">ς· τῶν προέδρων ἐπεψή</supplied><lb 
+                        break="no" n="3"/>φιζεν Πάμφιλος Φ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ συμ</supplied><lb 
+                        break="no" n="4"/>πρόεδροι· Δημάδης Δη<supplied reason="lost">μέου <expan><abbr>Παιαν</abbr><ex>ιεὺς</ex></expan></supplied>
+                          <lb n="5"/>εἶπεν· ἐπειδὴ πρότερό<supplied reason="lost">ν τε οἱ</supplied> <w lemma="πρόγονος"><supplied reason="lost">πρό</supplied><lb 
+                        break="no" n="6"/><unclear>γ</unclear>ονοι</w> οἱ Εὐρυλόχου κ<unclear>α</unclear><supplied reason="lost">ὶ ὁ πατὴρ</supplied>
+                          <lb n="7"/>Ἀκέσανδρος <w lemma="φίλος">φίλοι</w> ὄντε<supplied reason="lost">ς καὶ εὖνοι</supplied>
+                          <lb n="8"/>τῆι πόλει πολλὰ καὶ μεγάλ<supplied reason="lost">α εὐεργέ</supplied><lb 
+                        break="no" n="9"/>τησαν τὸν δῆμον τὸν <placeName ref="#athens" type="ethnic">Ἀθ<supplied reason="lost">ηναίων</supplied></placeName>,
+                          <lb n="10"/>καὶ νῦν <persName type="honoured" key="Eurylochos f. Akesandros" ref="#kydonia"><name nymRef="Εὐρύλοχος">Εὐρύλοχος</name></persName> πατ<supplied reason="lost">ρικὴν ἔ</supplied><lb 
+                        break="no" n="11"/>χων <w lemma="εὔνοια">εὔνοιαν</w> πρὸς τὸν δῆ<supplied reason="lost">μον τὸν</supplied>
+                          <lb n="12"/><placeName ref="#athens" type="ethnic">Ἀθηναίων</placeName> διατελεῖ χρή<supplied reason="lost">σιμος ὢν</supplied>
+                          <lb n="13"/>καὶ κοινεῖ καὶ ἰδίαι τοῖς <unclear>ἀ</unclear><supplied reason="lost">φικνου</supplied><lb 
+                        break="no" n="14"/>μένοις <placeName ref="#athens" type="ethnic">Ἀθηναίων</placeName> εἰς <placeName ref="#kydonia">Κυδ<supplied reason="lost">ωνίαν</supplied></placeName>
+                          <lb n="15"/>καὶ πολλοὺς <placeName ref="#athens" type="ethnic">Ἀθηναίων</placeName> λ<supplied reason="lost">υτρωσά</supplied><lb 
+                        break="no" n="16"/>μενος ἐκ <placeName ref="#crete">Κρήτης</placeName> ἀπέστ<supplied reason="lost">ειλε τοῖς ἑ</supplied><lb 
+                        break="no" n="17"/>αυτοῦ ἀναλ<corr>ώ</corr>μασιν καὶ <supplied reason="lost">αἴτιος ἐ</supplied><lb 
+                        break="no" n="18"/>γένετο τοῦ σωθῆναι <orig>ει</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19"/><gap reason="lost" atLeast="2" atMost="3" unit="character" precision="low"/>ν εἰς τὴν ἰδίαν συν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto ateniese, che come <ref type="ins" target="#ig_ii3_1190"><title>IG</title> II<hi rend="superscript">3</hi> 1 1190</ref>, <ref type="ins" target="#ig_ii3_1137"><title>IG</title> II<hi rend="superscript">3</hi> 1 1137</ref> e <ref type="ins"><title>IG</title> II<hi rend="superscript">2</hi> 745</ref> attesta relazioni fra Kydonia e la città attica, è significativo per il ruolo svolto da Eurylochos nel facilitare il riscatto di cittadini ateniesi tenuti prigionieri a Creta. La liberazione degli Ateniesi avviene grazie all’intervento sia diplomatico che finanziario di Eurylochos, che appartiene pressoché certamente ad una famiglia di prosseni di Atene a Kydonia; la sua azione, però, non si limita al territorio della propria città ma opera nel più ampio panorama cretese di razzie e rapimenti (l. 16): quello che emerge, dunque, è che lo spettro delle operazioni affidate ai prosseni prevede molto probabilmente delle mediazioni intercittadine su scala cretese, che in alcune fasi potrebbero avvenire attraverso il tramite del <foreign>koinon</foreign> cretese (cf. <ref type="ins" target="#ig_ii3_1137"><title>IG</title> II<hi rend="superscript">3</hi> 1 1137</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <foreign>lytrosamenos</foreign>.</p>
+                    </div>
+                    
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1586">Raoul-Rochette 1822</ref>, pp. 175-177</bibl>;
+                            <bibl><ref target="#bib116"><title>CIG</title></ref> 96</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> II 193</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 1472</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> II<hi rend="superscript">2</hi> 399</bibl>; 
+                            <bibl><ref target="#bib360"><title>ISE</title></ref> 2</bibl>; 
+                            <bibl><ref target="#b1567">Potter 1984</ref></bibl>; 
+                            <bibl><ref target="#b128">Bielman 1994</ref>, n. 6</bibl>; 
+                            <bibl><ref target="#b1556">Poddighe 2002</ref>, pp. 163-165, n. 12</bibl>; 
+                            <bibl><ref target="#b1050">Lambert 2006</ref>, pp. 140-143, n. 56, fig. 36</bibl>;
+                            <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> II<hi rend="superscript">3</hi> 1 358 <ptr type="phi" target="347215"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1622">Robert 1960</ref>, p. 138 nota 1</bibl>; 
+                            <bibl><ref target="#b617">Figueira 1988</ref>, pp. 538-542</bibl>; 
+                            <bibl><ref target="#b60">Badian 1989</ref>, pp. 59-64, n. I</bibl>; 
+                            <bibl><ref target="#b823">Habicht 1989</ref>, pp. 1-5</bibl>; 
+                            <bibl><ref target="#b243">Canali De Rossi 2002</ref>, n. 2</bibl>; 
+                            <bibl><ref target="#b1399">Nieto 2002</ref>, pp. 121-122</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib501"><title>AIO</title></ref> 71 <ptr type="aio" target="IGII31/358"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

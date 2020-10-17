@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto (?) di Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 32.871</idno>
+                        <idno type="projectNo">491</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#ierapetra_collection">Collezione archeologica di Ierapetra</repository> 
+                                <idno type="invNo">751</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree" cert="low">decreto?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#imperial" notBefore="-0030" notAfter="0100">fine I secolo a.C. - I secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Μ</supplied>αρκελλίνωι <w lemma="ὕπατος">ὑπάτοι<unclear>ς</unclear></w>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="εἰδοί"><supplied reason="lost">εἰδῶ</supplied>ν</w> <w lemma="Ὀκτώβριος">Ὀκτ<unclear>ω</unclear>βρίων</w> <supplied reason="lost">ἐ</supplied>νδε<lb 
+                        break="no" n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna" cert="low"><supplied reason="lost" cert="low"><w lemma="κοσμέω">κοσμόντων</w></supplied> τῶν σὺν <persName type="attested" key="Etearchos f. -"><name nymRef="Ἐτέαρχος">Ἐτεάρ<lb 
+                        break="no" n="4"/><supplied reason="lost">χῳ</supplied></name> <supplied reason="lost">τῷ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs> <rs type="institution" subtype="month" role="calendar" key="Poseidanios" ref="#hierapytna"><supplied reason="lost">μη</supplied>νὸς <w lemma="Ποσειδάνιος">Ποσειδανίου</w></rs> ι<lb 
+                        break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/>στούντων ἐν <placeName ref="#gortyn">Γόρ<lb 
+                        break="no" n="6"/><supplied reason="lost" cert="low">τυνι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ούτων σόρος ἀν<unclear>θ</unclear><lb 
+                        break="no" n="7"/><gap reason="lost" extent="unknown" unit="character"/>εκωνίου <expan><abbr>Φ<unclear>λα</unclear>ου</abbr><ex>ίου</ex></expan> Τ<lb 
+                        break="no" n="8"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>π</unclear>ροσήγαγον <placeName ref="#hierapytna">Ἱερ<unclear>απ</unclear><lb 
+                        break="no" n="9"/><supplied reason="lost">ύτνῃ</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>ον κἀπὸ τούτους ὑ<lb 
+                        break="no" n="10"/><gap reason="lost" extent="unknown" unit="character"/>αν <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Μ</supplied>άρκου Οὐιψ<unclear>τ</unclear>άνου Νι<lb 
+                        break="no" n="12"/><gap reason="lost" extent="unknown" unit="character"/>μένησε λείας η<lb 
+                        break="no" n="13"/><gap reason="lost" extent="unknown" unit="character"/>αι περὶ τῶν ἐκ τα<unclear>ύ</unclear><lb 
+                        break="no" n="14"/><supplied reason="lost">της</supplied> <gap reason="lost" extent="unknown" unit="character"/>ν ὑπὸ Ἱεραπυτνίω<supplied reason="lost">ν</supplied>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> ἀντικαταστὰς σ<lb 
+                        break="no" n="16"/><gap reason="lost" extent="unknown" unit="character"/>τος ὑπὲρ αὐτῆς π<gap reason="lost" quantity="1" unit="character"/><lb 
+                        break="no" n="17"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear></orig><gap reason="lost" quantity="4" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="lost" quantity="2" unit="character"/><orig><unclear>υ</unclear></orig><gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="17a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="3"><note><gap reason="lost" extent="unknown" unit="character"/> τῶν σύν <bibl><ref target="#b459">Davaras</ref></bibl>.</note></app>
+                    <app loc="8-9"><note>Ἱερ<unclear>απ</unclear><supplied reason="lost">ύτνῃ</supplied> <bibl><ref target="#b459">Davaras</ref></bibl>; Ἱερ<unclear>απ</unclear><supplied reason="lost" cert="low">υτνίοις</supplied> <bibl><ref target="#b459">Davaras</ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il documento, risalente ai primi anni del dominio romano a Creta, conserva una doppia datazione romana e greca: alla menzione dei consoli e delle Idi di ottobre segue il ricordo del magistrato eponimo di Hierapytna Etearchos, verosimilmente un cosmo, e del mese <foreign>Poseidanios</foreign>, non altrestato altrove. Il contenuto del documento, piuttosto frammentario, include alle linee 5-6 una menzione di Gortyna, purtroppo in un contesto difficilmente ricostruibile.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), mese <ref type="inst" target="#poseidanios"><foreign>Poseidanios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b459">Davaras 1980</ref>, pp. 21-25 n. 23</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 32.871 <ptr type="phi" target="201913"/> <ptr type="seg" target="a32_871"/></bibl>); 
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, pp. 101-103</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b546">Eck 1991</ref>, p. 42</bibl>; 
+                            <bibl><ref target="#b1439">Pałuchowski 2005a</ref>, p. 425</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

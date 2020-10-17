@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Kalymna menzionante Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Syll.³ 567</idno>
+                        <idno type="projectNo">492</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#london_british_museum">British Museum, Londra</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#kalymna">Kalymna, tempio di Apollo</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0205" notAfter="-0202" precision="low">205-202 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost" cert="low">Νικί</supplied>ας Νικία, Δικαστοφῶν Τύρωνος, Ἁγήτωρ Α<gap reason="illegible" quantity="1" unit="character"/><lb 
+                        break="no" n="2"/><gap reason="illegible" quantity="3" unit="character"/>ου, Ἀλεξικράτης Λυσάνδρου, Τάχιππος Ξε<lb 
+                        break="no" n="3"/><supplied reason="lost">ν</supplied>οδίκου, Χαιρέδαμος Ἁγνοδάμου εἶπαν· <space extent="unknown" unit="character"/>
+                          <lb n="4"/>ἐπειδὴ τῶι σύμπαντι δάμωι πολέμου ἐξενεχθέν<lb 
+                        break="no" n="5"/><supplied reason="lost">το</supplied>ς ὑπὸ <rs type="institution" subtype="social_group" role="war" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName></rs> <w lemma="ἀδίκως">ἀδίκως</w>, καὶ πληρωθεισᾶν μα<lb 
+                        break="no" n="6"/><supplied reason="lost">κρᾶν</supplied> τε ναῶν καὶ λεπτῶν πλοίων, Λύσανδρος Φοίνι<lb 
+                        break="no" n="7"/><supplied reason="lost">κος κεχ</supplied>ειροτονημένος ἄρχων ὑπηρετικοῦ καὶ στρα<lb 
+                        break="no" n="8"/><supplied reason="lost">τευσάμεν</supplied>ος ἐν αὐτῶι, ποταγγελίας γενομένας ὅτι μέλλοντι τοὶ πο<lb 
+                        break="no" n="9"/><supplied reason="lost">λέμιοι ἐπιπλ</supplied>εῖν ἐπὶ τὰν πόλιν καὶ τὰν χώραν καὶ τὰς νάσος τὰς <placeName ref="#kalymna" type="ethnic">Κα<lb 
+                        break="no" n="10"/><supplied reason="lost">λυμνίων</supplied></placeName> <supplied reason="lost">στόλ</supplied>ωι καὶ πλείονι, καὶ τοῦ ναυάρχου κρίναντος ἀπαντᾶ<lb 
+                        break="no" n="11"/><supplied reason="lost">σαι τοῖς πολεμίοι</supplied>ς, ἀνὴρ ἀγαθὸς ἐγένετο ἔν τε τᾶι συμπλοκᾶι τᾶ<supplied reason="lost">ι</supplied>
+                          <lb n="12"/><supplied reason="lost">γενομέναι ποτὶ τὸς π</supplied><unclear>ο</unclear>λεμίος κατὰ τὸν Λακητῆρα, συμπαραμείνα<supplied reason="lost">ς</supplied>
+                          <lb n="13"/><supplied reason="lost">τε αὐτοῖς ἰσχυρότατα καὶ κιν</supplied>δυνεύσας ἀνάγαγε αἰχμαλώτος
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>οι</unclear></orig> <supplied reason="lost">ἐ</supplied>πά<unclear>μι</unclear>λ<supplied reason="lost">λαι</supplied> διατάγμασι
+                          <lb n="14a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἐ</supplied>ν ἀρχαιρεσίαις
+                          <lb n="2"/>κα<unclear>ὶ</unclear> παρακαλε<lb 
+                        break="no" n="3"/><supplied reason="lost">σ</supplied><unclear>εῦ</unclear>ντι ποτιδεξα<lb 
+                        break="no" n="4"/><unclear>μ</unclear>ένος αὐτὰς ποι<lb 
+                        break="no" n="5"/><unclear>ή</unclear>σασθαι τὰν ἀνα<lb 
+                        break="no" n="6"/><unclear>γ</unclear>όρευσιν Διονυσί<lb 
+                        break="no" n="7"/><supplied reason="lost">ω</supplied>ν τῶι πράτωι ἀγῶ<lb 
+                        break="no" n="8"/><supplied reason="lost">ν</supplied>ι μετὰ τὰς σπον<lb 
+                        break="no" n="9"/><supplied reason="lost">δά</supplied>ς, ἁ δὲ ἀναγόρευ<lb 
+                        break="no" n="10"/><supplied reason="lost">σις</supplied> ἅδε ἔστω· ὁ δᾶ<lb 
+                        break="no" n="11"/><supplied reason="lost">μος</supplied> ὁ <placeName ref="#kalymna" type="ethnic">Καλυμνίων</placeName>
+                          <lb n="12"/><supplied reason="lost">στεφα</supplied>νοῖ Λ<supplied reason="lost">ύσανδρον</supplied>
+                          <lb n="13"/><supplied reason="lost">Φοίνικος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto di Kalymna, che onora il proprio ammiraglio Lysandros figlio di Phoinix, ricorda una guerra avviata «ingiustamente» dalla <foreign>polis</foreign> di Hierapytna nei confronti dell’isola del Dodecaneso; il <foreign>polemos</foreign> in questione sembra essere la Prima guerra rodio-cretese, alla quale la presente iscrizione riconduce una partecipazione attiva dell’intera città di Hierapytna, che viene indicata come responsabile primaria del conflitto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib76"><title>GIBM</title></ref> 259</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 3586</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 567</bibl>;
+                            <bibl type="main_edition"><ref target="#bib444"><title>Tit. Calymnii</title></ref> 64 <ptr type="phi" target="187433"/></bibl>;
+                            <bibl><ref target="#b66">Baker 1991</ref>, pp. 24-30</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b889">Herzog 1902</ref>, pp. 318-319</bibl>; 
+                            <bibl><ref target="#b208">Brulé 1978</ref>, pp. 35-42</bibl>; 
+                            <bibl><ref target="#b68">Baker 2001</ref></bibl>; 
+                            <bibl><ref target="#b2011">Wiemer 2002</ref>, pp. 150-155</bibl>; 
+                            <bibl><ref target="#b824">Habicht 2007</ref>, pp. 140-141</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

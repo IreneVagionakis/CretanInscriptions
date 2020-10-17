@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un <foreign>demosios</foreign> di Knossos al <foreign>Theos Hypsistos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 18</idno>
+                        <idno type="projectNo">178</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuta</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#knossos">Knossos</origPlace>
+                                    <origDate period="#imperial" notBefore="0001" notAfter="0200">I-II secolo d.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Κόρωνος <persName type="divine" key="Theos Hypsistos"><unclear>Θε</unclear><lb 
+                        break="no" n="2"/>ῶι Ὑψίστωι</persName>
+                          <lb n="3"/><w lemma="εὐχή">εὐχήν</w>, <rs type="institution" subtype="social_status" role="dedicant" key="demosios" ref="#knossos"><w lemma="δημόσιος">δη<lb 
+                        break="no" n="4"/>μόσιος</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il dedicante, che si presenta come <foreign>demosios</foreign>, è l’unico schiavo pubblico noto a Creta.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demosios"><foreign>demosios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref> II, p. 414 n. 1</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 18 <ptr type="phi" target="199136"/></bibl>; 
+                            <bibl><ref target="#b1025">Kritzas 1990</ref>, p. 16</bibl>;
+                            <bibl><ref target="#b1353">Mitchell 1999</ref>, n. 120</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1255">Martínez Fernández 2006a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

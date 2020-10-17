@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato relativa ad una statua di Afrodite</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 25</idno>
+                        <idno type="projectNo">457</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0150" notAfter="-0100">150-100 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀγαθ</supplied>ᾶι <w lemma="τύχα">τύχαι</w>.
+                          <lb n="2"/><rs type="institution" subtype="tribe" role="eponym" key="Echanoreis" ref="#lato"><supplied reason="lost">ἐπὶ</supplied> τῶν <w lemma="Ἐχανορεῖς">Ἐχανορέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><w lemma="κοσμέω">κοσμ<supplied reason="lost">ιόντων</supplied></w>
+                          <lb n="3"/><persName type="attested" key="Herakletos f. Thiopheides"><name nymRef="Ἡράκλητος"><supplied reason="lost">Ἡρ</supplied>ακλ<supplied reason="lost">ήτω</supplied></name> τῶ <name nymRef="Θιοφείδης" type="patronymic">Θιοφείδιος</name></persName></rs>,
+                          <lb n="4"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Polytimos f. Tymon"><name nymRef="Πολύτιμος">Πολυτίμω</name> τῶ <name nymRef="Τύμων" type="patronymic"><supplied reason="lost">Τ</supplied>ύμωνος</name></persName></rs>,
+                          <lb n="5"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Enipas f. Pyron"><name nymRef="Ἐνίπας">Ἐνίπαντος</name> τῶ <name nymRef="Πύρων" type="patronymic">Πύρωνος</name></persName></rs>,
+                          <lb n="6"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Kleanor f. Chyrilos"><name nymRef="Κλεάνωρ">Κλεάνορος</name> τῶ <name nymRef="Χύριλος" type="patronymic">Χυρίλω</name></persName></rs>,
+                          <lb n="7"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Pollias f. Apellas"><name nymRef="Πολλίας">Πολλία</name> τῶ <name nymRef="Ἀπελλᾶς" type="patronymic">Ἀπελλᾶ</name></persName></rs>,
+                          <lb n="8"/><rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#lato"><w lemma="γραμματεύς">γραμ<corr>μ</corr>ατέος</w> <persName type="attested" key="Lamyros f. Thiodotos"><name nymRef="Λάμυρος">Λαμύ<supplied reason="lost">ρ</supplied>ω</name> τῶ
+                          <lb n="9"/><name nymRef="Θιόδοτος" type="patronymic">Θιοδότω</name></persName></rs>, ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> τὸ <w lemma="ἄγαλμα">ἄγαλ<supplied reason="lost">μα</supplied></w>
+                          <lb n="10"/><persName type="divine" key="Aphrodite">Ἀφροδίται</persName> <w lemma="ἀνατίθημι">ἀνέθηκε</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, che si apre con un’espressione benaugurale, conserva una formula di datazione contenente il ricordo della tribù dei cosmi in carica, quella degli <foreign>Echanoreis</foreign> (attestata a Lato anche in <ref type="ins" target="#ic1_16_31"><title>IC</title> I 16 31</ref> e forse <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref>), seguito dall’elenco di tutti i loro nomi al genitivo, in questo caso cinque, come avviene anche nei documenti analoghi di Lato <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref> (in cui i magistrati sono sempre cinque) e <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref> (in cui i cosmi sono invece sette; sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>).</p>
+                    <p>La lista dei nomi include anche un segretario, menzionato pure nelle iscrizioni edificatorie di Lato <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref>, <ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29</ref>, <ref type="ins" target="#ic1_16_31">31</ref>-<ref type="ins" target="#ic1_16_32">32</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>.</p>
+                    <p>L’iniziativa dell’intervento ricordato dall’iscrizione, la consacrazione di una statua ad Afrodite (beneficiaria di dediche anche in <ref type="ins" target="#ic1_16_24"><title>IC</title> I 16 24</ref>, <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>, <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref> e <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, oltre che verosimilmente in <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>), risulta essere della <foreign>polis</foreign> di Lato, come avviene anche nei documenti analoghi <ref type="ins" target="#ic1_16_26"><title>IC</title> I 16 26</ref>, <ref type="ins" target="#ic1_16_29">29-31</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e forse <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <foreign>tribù</foreign> (<ref type="inst" target="#echanoreis"><foreign>Echanoreis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, p. 56</bibl>; 
+                            <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 645-646 n. 58</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5076</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 25 <ptr type="phi" target="199233"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b154">Bile 2008</ref>, p. 266</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

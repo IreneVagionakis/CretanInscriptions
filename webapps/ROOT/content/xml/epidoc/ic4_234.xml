@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Manomissione di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 234</idno>
+                        <idno type="projectNo">371</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#manumission">manomissione</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Μ</supplied>ελισ<supplied reason="lost">τ</supplied>ίχα <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/> <rs type="institution" subtype="social_status" role="manumission" key="apolagasas" ref="#gortyn"><supplied reason="lost">παρι</supplied><lb 
+                        break="no" n="3"/>όντος τῶ <w lemma="ἀπολαγαίω">ἀπολαγάσαντος</w>
+                          <lb n="4"/><persName type="attested" key="Erason f. Telemnastos"><name nymRef="Ἐράσων">Ἐράσωνος</name> τῶ <name nymRef="Τηλέμναστος" type="patronymic">Τηλεμνάστω</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La manomissione, di cui si è conservata solamente la parte finale, documenta un affrancamento avvenuto in presenza del responsabile della liberazione dell’individuo in questione, che verosimilmente è l’ex padrone del liberto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#apolagasas"><foreign>apolagasas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b382">Comparetti 1893</ref>, p. 69 n. 137</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5008</bibl>;
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 234 <ptr type="phi" target="200676"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

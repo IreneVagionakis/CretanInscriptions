@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Sybrita</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 60.1000</idno>
+                        <idno type="projectNo">148</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 102 α-ζ</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">nove (?) decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#epistyle">architrave</objectType> formato da metope iscritte alternate a triglifi
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#sybrita">Sybrita</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0250" notAfter="-0100">fine III - II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="I">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Philon f. Sotadas"><name nymRef="Φίλων">Φίλων</name> <name nymRef="Σωτάδας" type="patronymic">Σωτάδα</name>
+                          <lb n="2"/><placeName ref="#gortyn" type="ethnic">Γορτύνιος</placeName></persName>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος">πρό<lb 
+                        break="no" n="3"/>ξενος</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Συβριτί<lb 
+                        break="no" n="4"/>ων</placeName></rs>, αὐτὸς καὶ <space quantity="2" unit="character"/>
+                          <lb n="5"/><w lemma="ἔκγονος">ἔκγονοι</w>.
+                          <lb n="5a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="II">
+                        <ab>
+                          <lb n="6"/><persName type="honoured" key="Aphthonetos f. Sotimidas" ref="#epidauros"><name nymRef="Ἀφθόνητος">Ἀφθόνητος</name> <name nymRef="Σωτιμίδας" type="patronymic">Σωτιμί<lb 
+                        break="no" n="7"/>δα</name></persName>, <persName type="honoured" key="Sotimidas" ref="#epidauros"><name nymRef="Σωτιμίδας">Σωτιμίδας</name></persName>, <persName type="honoured" key="Kleomachos f. Aphthonetos" ref="#epidauros"><name nymRef="Κλεόμαχος">Κλεό<lb 
+                        break="no" n="8"/>μαχος</name> <name nymRef="Ἀφθόνητος" type="patronymic">Ἀφθονήτου</name></persName>, <placeName ref="#epidauros" type="ethnic">Ἐπι<lb 
+                        break="no" n="9"/>δαύριοι</placeName>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος">πρόξ<corr>ε</corr>νοι</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Συβρι<lb 
+                        break="no" n="10"/>τίων</placeName></rs>, αὐτοὶ καὶ <w lemma="γένος">γένος</w>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="III">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Meleagros f. Artemidoros"><name nymRef="Μελέαγρος">Μελέαγρος</name> <name nymRef="Ἀρτεμιδώρος" type="patronymic">Ἀρτε<lb 
+                        break="no" n="2"/>μιδώρου</name> <placeName ref="#alabanda" type="ethnic">Ἀλα<lb 
+                        break="no" n="3"/>βανδεύς</placeName></persName>, <rs type="institution" subtype="official" role="honoured" key="hegemon" ref="#sybrita"><w lemma="ἡγεμών">ἡγε<lb 
+                        break="no" n="4"/>μών</w></rs>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="5"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#sybrita"><w lemma="πολίτης">πολίτης</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Συβρι<lb 
+                        break="no" n="6"/>τίων</placeName></rs>, αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγο<lb 
+                        break="no" n="7"/>νοι</w>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="IV">
+                        <ab>
+                          <lb n="8"/><persName type="honoured" key="Poseidaios f. Diphilos" ref="#mytilene"><name nymRef="Ποσειδαῖος">Ποσειδαῖος</name> <name nymRef="Δίφιλος" type="patronymic">Διφί<lb 
+                        break="no" n="9"/>λου</name></persName>, <persName type="honoured" key="Diodotos f. Dioskouridos" ref="#mytilene"><name nymRef="Διόδοτος">Διόδοτος</name> <name nymRef="Διοσκουρίδος" type="patronymic">Δι<lb 
+                        break="no" n="10"/>οσκουρίδου</name></persName>, <placeName ref="#mytilene" type="ethnic">Μι<lb 
+                        break="no" n="11"/>τυληναῖοι</placeName>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος">πρόξε<lb 
+                        break="no" n="12"/>νοι</w></rs>, αὐτοὶ καὶ <w lemma="ἔκγονος">ἔ<supplied reason="lost">κ</supplied>γονοι</w>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="V">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Hierokles f. Menoitos n. Hiatrokles"><name nymRef="Ἱεροκλῆς"><supplied reason="lost">Ἱ</supplied>εροκλῆς</name> <space extent="unknown" unit="character"/>
+                          <lb n="1a"/><space quantity="1" unit="line"/>
+                          <lb n="2"/><space quantity="1" unit="character"/> <name nymRef="Μενοῖτος" type="patronymic">Μενοίτου</name> τοῦ
+                          <lb n="3"/><space quantity="1" unit="character"/> <name nymRef="Ἰατροκλῆς" type="patronymic">Ἰατροκλέους</name>
+                          <lb n="4"/><space quantity="1" unit="character"/> <placeName ref="#stratonikeia" type="ethnic">Στρατονικεύς</placeName></persName>,
+                          <lb n="5"/><space quantity="1" unit="character"/> <rs type="institution" subtype="official" role="honoured" key="hegemon" ref="#sybrita"><w lemma="ἡγεμών">ἡγεμών</w></rs>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος">πρό<lb 
+                        break="no" n="6"/><space quantity="1" unit="character"/> ξενος</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Συβρι<lb 
+                        break="no" n="7"/><space quantity="1" unit="character"/> τίων</placeName></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#sybrita"><w lemma="πολίτης">πολίτης</w></rs>
+                          <lb n="8"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="VI">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Ari- f. Menandros"><name nymRef="Ἀρι-">Ἀρι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" atLeast="6" atMost="8" unit="character" precision="low"/></name> <name nymRef="Μένανδρος" type="patronymic"><supplied reason="lost">Με</supplied><lb 
+                        break="no" n="2"/>νάν<supplied reason="lost">δρου</supplied></name> <placeName ref="#stratonikeia" type="ethnic"><supplied reason="lost">Στρατο</supplied><lb 
+                        break="no" n="3"/>νικ<supplied reason="lost">εύς</supplied></placeName></persName><supplied reason="lost">,</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος"><supplied reason="lost">πρόξε</supplied><lb 
+                        break="no" n="4"/>νος</w></rs> <supplied reason="lost">καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#sybrita"><w lemma="πολίτης">πολίτης</w></rs></supplied>
+                          <lb n="5"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Σ<unclear>υ</unclear><supplied reason="lost">βριτίων</supplied></placeName></rs><supplied reason="lost">, αὐ</supplied><lb 
+                        break="no" n="6"/>τὸ<supplied reason="lost">ς καὶ <w lemma="ἔκγονος">ἔκγονοι</w></supplied>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="VII">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Agathodoros f. Straton"><name nymRef="Ἀγαθόδωρος">Ἀγαθόδωρος</name>
+                          <lb n="2"/><name nymRef="Στράτων" type="patronymic">Στράτωνος</name> <space quantity="2" unit="character"/>
+                          <lb n="3"/><placeName ref="#sidon" type="ethnic">Σιδώνιος</placeName></persName>, <space quantity="3" unit="character"/>
+                          <lb n="4"/><w lemma="ῥωμαϊστής">ῥωμαϊστής</w>, <space quantity="2" unit="character"/>
+                          <lb n="5"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος">πρόξενος</w></rs> <space quantity="3" unit="character"/>
+                          <lb n="6"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Συβριτίω<unclear>ν</unclear></placeName></rs>, αὐτὸς
+                          <lb n="7"/>καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="VIII">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Ptolemaios f. Demetrios"><name nymRef="Πτολεμαῖος">Πτολεμαῖος</name>
+                          <lb n="2"/><space quantity="1" unit="character"/> <name nymRef="Δημήτριος" type="patronymic">Δημητρίου</name>
+                          <lb n="3"/><placeName ref="#argos" type="ethnic">Ἀργεῖος</placeName></persName>, <w lemma="κωμωιδός">κωμωι<lb 
+                        break="no" n="4"/><space quantity="1" unit="character"/> δός</w>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#sybrita"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="5"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Συβριτίων</placeName></rs>, αὐτὸς
+                          <lb n="6"/><space quantity="1" unit="character"/> καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="IX">
+                        <ab>
+                          <lb n="1"/><orig>μ</orig>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="X">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ο</unclear>ς
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λ</unclear></orig>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ο</unclear></orig>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>L’architrave conserva almeno otto decreti onorari di Sybrita (I-VIII), oltre ad una metopa in cui è iscritta solo una lettera (IX) e ad un ultimo documento piuttosto rovinato (X) che verosimilmente doveva essere dello stesso contenuto dei testi I-VIII. Tutti i decreti presentano una formulazione ellittica, priva sia di verbo che di formule di sanzione o mozione. Ad esclusione del testo IV, tutti i decreti includono un riferimento alla <foreign>polis</foreign> mediante l’impiego dell’etnico collettivo Συβριτίων in relazione ai termini <foreign>proxenos</foreign> e/o <foreign>polites</foreign>.</p>
+                    <p>Le concessioni garantite da Sybrita interessano sia gli individui commemorati che la relativa discendenza, indicata con il termine ἔκγονοι nei testi I e III-VIII, con γένος nel decreto II. Fra gli individui onorati alcuni sono accompagnati dall’indicazione della professione esercitata: i decreti VII e VIII interessano due attori – rispettivamente un <foreign>rhomaistes</foreign> di Sidone e un <foreign>komoidos</foreign> argivo (cf. <foreign>IG</foreign> XI 2 133 e <bibl><ref target="#b1604">Rigsby 1994</ref></bibl>, pp. 191-192 per paralleli) –, mentre i testi III e V due condottieri originari di Alabanda e Stratonicea. Quanto agli onori conferiti, tutti gli individui commemorati sono insigniti della prossenia, mentre la cittadinanza viene concessa solamente ai due condottieri e ad una terza persona anch’essa di Stratonicea (VI).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hegemon"><foreign>hegemon</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1071">Le Rider 1966</ref>, pp. 258-259 (I-VIII)</bibl>;
+                            <bibl><ref target="#b1864">Tzifopoulos 2010</ref>, pp. 355-368 (I-X)</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 60.1000 <ptr type="seg" target="a60_1000"/></bibl>);
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 102 β-ζ (I-VIII) <ptr type="thetima" target="e102v"/> <ptr type="thetima" target="e102g"/> <ptr type="thetima" target="e102d"/> <ptr type="thetima" target="e102e"/> <ptr type="thetima" target="e0102z"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

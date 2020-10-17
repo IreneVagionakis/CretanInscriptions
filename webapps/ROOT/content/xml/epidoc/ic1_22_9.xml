@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica a <foreign>Phoibos</foreign> da Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 22 9</idno>
+                        <idno type="projectNo">437</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#spinalonga">Spinalonga</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#epistyle">architrave</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0400" notAfter="-0200">IV-III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">τόνδ’</supplied> <w lemma="ἀνατίθημι"><supplied reason="lost">ἀνέθηκ</supplied>ε</w> <rs type="institution" subtype="public_space" role="dedication" key="naos" ref="#olous"><w lemma="ναός">ναὸν</w></rs> <persName type="divine" key="Phoibos">Φοίβωι</persName> χάριν Ἠρίλα υἱὸς
+                          <lb n="2"/>Δαμ<supplied reason="lost">οχ</supplied>άρης, <w lemma="θύω">θύ<supplied reason="lost">σας</supplied></w> <supplied reason="lost">ἴκ</supplied>ατι καὶ δύο βοῦς.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il distico commemora l’edificazione di un tempio consacrato ad Apollo – indicato mediante l’epiclesi <foreign>Phoibos</foreign> – promossa da Damochares figlio di Erilas, avvenuta successivamente ad un sacrificio di ventidue buoi; l’individuo, non provvisto di una titolatura, sembrerebbe dunque un privato e non un magistrato di Olous.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#naos"><foreign>naos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b492">Demargne 1900</ref>, p. 235 n. 2</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5105</bibl>; 
+                            <bibl><ref target="#b1096">Levi 1922</ref>, p. 378 n. 23</bibl>;
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 22 9 <ptr type="phi" target="199544"/></bibl>;
+                            <bibl><ref target="#bib69"><title>CEG</title></ref> II 848</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 22</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Eleutherna e Rhaukos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 54.841</idno>
+                        <idno type="projectNo">106</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 77 α-β</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0250" notAfter="-0200">250-200 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ι <placeName ref="#eleutherna" type="ethnic">Ἐλευ<supplied reason="lost">θερναι</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied><unclear>ά</unclear>δε <w lemma="ὀμνύω">ὤμ<unclear>ο</unclear>σαν</w> <supplied reason="lost">ο</supplied>ἱ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐ<supplied reason="lost">λευθερναῖοι</supplied></placeName></rs>
+                          <lb n="3"/><supplied reason="lost">τοῖς <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhaukos"><placeName ref="#rhaukos" type="ethnic">Ῥαυκίοις</placeName></rs> χοἰ</supplied> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhaukos"><placeName ref="#rhaukos" type="ethnic"><supplied reason="lost">Ῥ</supplied>αύκιοι</placeName></rs> τοῖς <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθερναί<supplied reason="lost">οις</supplied></placeName></rs> <gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ</supplied> <persName type="divine" key="Zeus Widatas">Ζῆνα <placeName ref="#idaeum_antrum" type="ethnic">ϝιδάταν</placeName></persName> καὶ <persName type="divine" key="Zeus Thenatas">Ζῆνα Θε<unclear>ν</unclear><supplied reason="lost">ά</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">ταν</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰν</supplied> <persName type="divine" key="Hera"><supplied reason="lost">Ἥ</supplied>ραν</persName> καὶ τὸμ <persName type="divine" key="Poseidon">Ποτειδα̃</persName> καὶ τὰ<supplied reason="lost">ν</supplied>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> καὶ <persName type="divine" key="Ares">Ἄρια</persName> καὶ <persName type="divine" key="Aphrodite">Ἀφροδίταν</persName> καὶ <persName type="divine" key="Athena">Ἀθα<unclear>ν</unclear><supplied reason="lost">αί</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">αν</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>αν καὶ <persName type="divine" key="Apollo Delphinios">Ἀπέλλωνα τὸν Δελ<supplied reason="lost">φίνι</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">ον</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/> καὶ <persName type="divine" key="Artemis">Ἄρτεμιν</persName> καὶ τὸν <persName type="divine" key="Welchanos">ϝελχα<supplied reason="lost">νον</supplied></persName>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied><unclear>α</unclear>ὶ <persName type="divine" key="Nymphai">Λύμφας</persName> καὶ <w lemma="θιός">θιὸνς</w> πάντ<corr>α</corr><supplied reason="lost">νς</supplied>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="σύμμαχος"><unclear>σ</unclear>ύμμαχοι</w> τέλεσθαι τοῖς <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhaukos"><placeName ref="#rhaukos" type="ethnic">Ῥ<unclear>α</unclear><supplied reason="lost">υκί</supplied><lb 
+                        break="no" n="11"/><supplied reason="lost">οις</supplied></placeName></rs> <gap reason="lost" extent="unknown" unit="character"/> τὸμ πάντα χρόνον χοἰ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhaukos"><placeName ref="#rhaukos" type="ethnic">Ῥαύκιοι</placeName></rs>
+                          <lb n="12"/><supplied reason="lost">τοῖς</supplied> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic"><supplied reason="lost">Ἐλευθερναίοι</supplied><unclear>ς</unclear></placeName></rs> ἐπίπανσι ἁπλόως καὶ ἀδόλ<supplied reason="lost">ως</supplied>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><orig>η</orig><gap reason="lost" quantity="2" unit="character"/><orig>ιν</orig> τῶι αὐτῶι χἰρηνησεῖν κο<unclear>ὐ</unclear><gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>ω τ<supplied reason="lost">ὸ</supplied>ς <placeName ref="#rhaukos" type="ethnic">Ῥαυκίος</placeName> οὔτ᾽ ἰμ πολέμωι οὔτ᾽ <supplied reason="lost">ἰν</supplied>
+                          <lb n="15"/><supplied reason="lost">ἰρήναι οὔ</supplied>τ᾽ αὐ<supplied reason="lost">τὸ</supplied><unclear>ς</unclear> ἐγὼ οὔτ᾽ ἄλλωι ἐπιτραψ<unclear>ί</unclear><supplied reason="lost">ω οὐ</supplied><lb 
+                        break="no" n="16"/><supplied reason="lost">δενὶ κατὰ τὸ δυν</supplied>ατόν· κ<unclear>α</unclear>ὶ εἰ μὴ ἐμμένοιεν οἱ <placeName ref="#knossos" type="ethnic">Κν<unclear>ώ</unclear><supplied reason="lost">σιοι</supplied></placeName>
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>γ τᾶς <unclear>χ</unclear>ώρας καὶ τᾶν <w lemma="ἐπιγαμέω">ἐπιγαμι<unclear>ῶ</unclear><supplied reason="lost">ν</supplied></w> <gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁμολογέω"><supplied reason="lost">ὡμο</supplied>λόγησαν</w> τοῖς <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhaukos"><placeName ref="#rhaukos" type="ethnic">Ῥαυκίοις</placeName></rs> πεδὰ <unclear>τ</unclear><gap reason="lost" quantity="4" unit="character"/>
+                          <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/>αν τὸς <placeName ref="#knossos" type="ethnic">Ῥα<supplied reason="lost">υκίος</supplied></placeName>
+                            <lb n="19a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento conserva in parte un trattato di alleanza fra Eleutherna e Rhaukos, nel quale le due <foreign>poleis</foreign> vengono identificate mediante l’impiego degli etnici collettivi Ἐλευθερναῖοι e Ῥαύκιοι. Le linee 16-18, inoltre, informano dell’esistenza di un trattato stipulato in precedenza fra Rhaukos e Knossos, nel quale era prevista la concessione alla prima da parte della seconda di <foreign>epigamia</foreign> e forse di ulteriori diritti legati alla terra. Il presente accordo sembra dunque un tentativo di Rhaukos di tutelarsi da concrete mire espansionistiche di Knossos, che nonostante ciò si concretizzeranno attorno al 166-165 a.C. con l’annientamento e la spartizione della città fra Gortyna e Knossos testimoniato dal trattato <ref type="ins" target="#ic4_182"><title>IC</title> IV 182</ref>.</p>
+                    <p>Fra le numerose divinità invocate nel giuramento è significativa la presenza di Zeus <foreign>Widatas</foreign>, ovvero lo Zeus venerato nell’Antro Ideo, nelle cui vicinanze si trovano sia Eleutherna che Rhaukos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1299">Matthaiou – Themelis 2004</ref>, p. 156 n. 12</bibl>; 
+                            <bibl><ref target="#b1300">Matthaiou – Themelis 2008</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 54.841 <ptr type="seg" target="a54_841"/></bibl>); 
+                            <bibl><ref target="#b1862">Tzifopoulos 2009</ref>, n. 6</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 77α-β <ptr type="thetima" target="e77a-v"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1807">Themelis 2002</ref>, p. 15</bibl>;
+                            <bibl><ref target="#b1861">Tzifopoulos 2008</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

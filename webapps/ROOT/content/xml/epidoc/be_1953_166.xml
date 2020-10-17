@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title><foreign>Horos</foreign> di un santuario di Hyrtakina (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">BE 1953.166</idno>
+                        <idno type="projectNo">065</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#terminus"><foreign>horos</foreign></summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hyrtakina">Hyrtakina</origPlace>
+                                    <origDate period="#classical_hellenistic" notBefore="-0500" notAfter="-0001">IV-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="column" n="I">
+                        <ab>
+                             <lb n="1"/><orig>εαλειφος</orig>
+                             <lb n="2"/><rs type="institution" subtype="public_space" role="location" key="hieron" ref="#hyrtakina"><w lemma="ἱερόν">ἱεροῦ</w></rs>.
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="column" n="II">
+                            <ab>
+                            <lb n="1"/><rs type="institution" subtype="public_space" role="location" key="temenos" ref="#hyrtakina"><w lemma="τέμενος">τέμενος</w></rs>
+                            <lb n="2"/><rs type="institution" subtype="public_space" role="location" key="hieron" ref="#hyrtakina"><w lemma="ἱερόν">ἱερόν</w></rs>.
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, distribuita su due colonne, è di difficile interpretazione poiché non è chiaro l’ordine di lettura dei quattro termini. In ogni caso, quello che è ricavabile con certezza dall’epigrafe è la testimonianza dell’esistenza di un santuario di Hyrtakina provvisto di recinto sacro, di cui la stele costituisce probabilmente una pietra di confine.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib503">Theophanidis 1948-1949</ref>, p. 21 n. 13 <ptr type="phi" target="201065"/></bibl> (= <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1953.166</bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

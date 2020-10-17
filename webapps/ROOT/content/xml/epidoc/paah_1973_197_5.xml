@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica (?) dal santuario di Hermes e Afrodite di Symi Viannou</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Lempesi 1973, p. 197 n. 5</idno>
+                        <idno type="projectNo">407</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication" cert="low">dedica votiva?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>
+                                            <objectType ref="#tile">tegola</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#symi_viannou">Santuario di Hermes e Afrodite, Symi Viannou</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="public_space" role="location" key="naos" ref="#symi_viannou"><w lemma="ναός">να<supplied reason="lost">οῦ</supplied></w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La tegola, rinvenuta nel santuario di Hermes <foreign>Kedrites</foreign> e Afrodite di Symi Viannou, sembra conservare un riferimento al tempio stesso, come avviene anche in un’altra tegola proveniente dallo stesso luogo sacro, nella quale una dedica votiva è seguita dal termine ναοῦ (<ref type="ins" target="#paah_1972_202_4">Lempesi 1972, p. 202 n. 4</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#naos"><foreign>naos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib486">Lempesi 1973</ref>, p. 197 n. 5 <ptr type="phi" target="201561"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

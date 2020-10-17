@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria (?) degli ex <foreign>naokoroi</foreign> di Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 38</idno>
+                        <idno type="projectNo">223</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">55</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription" cert="low">iscrizione edificatoria?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0125" notAfter="-0075">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="builder" key="naokoros" ref="#lebena"><persName type="attested" key="- f. Ertaios (2)"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Ἐρταῖος" type="patronymic"><supplied reason="lost">Ἐ</supplied><unclear>ρ</unclear>ταίω</name></persName></rs> καὶ <rs type="institution" subtype="board" role="builder" key="naokoros" ref="#lebena"><persName type="attested" key="Perikles f. -"><name nymRef="Περικλῆς">Περικλῆς</name>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/></persName> <w lemma="νακορέω">νακορήσαντες</w></rs>
+                          <lb n="3"/><rs type="institution" subtype="tribe" role="eponym" key="Archeia" ref="#gortyn"><supplied reason="lost">ἐπὶ τᾶς</supplied> <w lemma="Ἀρχεῖα"><supplied reason="lost">Ἀ</supplied>ρχείας</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόν<lb 
+                        break="no" n="4"/><supplied reason="lost">των</supplied></w> <supplied reason="lost">τῶν</supplied> σὺν <persName type="attested" key="Kalabis f. Soarchos"><name nymRef="Κάλαβις">Κάλαβι</name> τῶ <name nymRef="Σόαρχος" type="patronymic">Σοάρ<lb 
+                        break="no" n="5"/><supplied reason="lost">χω</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/><orig>αντ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, di cui si conserva solamente il prescritto, più che un decreto sembrerebbe essere un’iscrizione edificatoria, analoga ad altri testi provenienti dall’<foreign>Asklepieion</foreign> di Lebena (<ref type="ins" target="#ic1_17_4"><title>IC</title> I 17 4-6</ref>, <ref type="ins" target="#ic1_17_21">21</ref>, <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref> e in parte <ref type="ins" target="#ic1_17_8"><title>IC</title> I 17 8</ref>). Così farebbe pensare la menzione al nominativo degli ex <foreign>naokoroi</foreign>, il figlio di Ertaios e un certo Perikles, che potrebbero dunque essere i responsabili di un intervento edilizio. I <foreign>naokoroi</foreign> – a Creta attestati unicamente a Lebena e presso il <foreign>Diktynnaion</foreign> di Rodopou (<ref type="ins" target="#ic2_11_3"><title>IC</title> II 11 3</ref>) – compaiono con tale funzione anche in <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref>, <ref type="ins" target="#ic1_17_21"><title>IC</title> I 17 21</ref> e probabilmente <ref type="ins" target="#ic1_17_5"><title>IC</title> I 17 5</ref> e <ref type="ins" target="#ic1_17_8">8</ref> (sui <foreign>naokoroi</foreign> cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 104-109</bibl>, <bibl><ref target="#b1620">Ricl 2011</ref></bibl>).</p>
+                    <p>La menzione dei due funzionari religiosi precede nel testo la datazione menzionante il cosmo eponimo Kalabos figlio di Soarchos della tribù <foreign>Archeia</foreign>, probabilmente un magistrato di Gortyna (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 101-103</bibl>), indicando verosimilmente un maggior peso dei primi nell’attività a cui l’iscrizione è relativa. L’eponimia sembrerebbe essere a Lebena una prerogativa dei cosmi: tali magistrati compaiono infatti in tale ruolo in tutte le datazioni conservatesi dal santuario (<ref type="ins" target="#ic1_17_2"><title>IC</title> I 17 2</ref>, <ref type="ins" target="#ic1_17_4">4-6</ref> e <ref type="ins" target="#ic1_17_8">8</ref>), in un solo caso assieme ad un <foreign>naokoros</foreign> (in <ref type="ins" target="#ic1_17_8"><title>IC</title> I 17 8</ref>, in cui però la menzione del funzionario sacro sembra perlopiù connessa al suo ruolo attivo nella messa per iscritto delle <foreign>sanationes</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naokoros"><foreign>naokoros</foreign></ref>, tribù (<ref type="inst" target="#archeia"><foreign>Archeia</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 38 <ptr type="phi" target="199307"/></bibl>;
+                            <bibl><ref target="#b1670">Savelkoul 1985-1986</ref>, p. 52</bibl>; 
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, p. 106</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 21</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b136">Bile 1991</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

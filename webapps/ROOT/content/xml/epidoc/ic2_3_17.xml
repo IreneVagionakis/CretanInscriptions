@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto di Aptera del mese <foreign>Phthinoporios</foreign></title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 17</idno>
+                        <idno type="projectNo">054</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plaque">lastra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><rs type="institution" subtype="official" role="eponym" key="eponymos" ref="#aptera"><persName type="attested" key="-os f. Thrasymedes"><name nymRef="-ος"><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="1"/>ος</name> <name nymRef="Θρασυμήδης" type="patronymic"><supplied reason="lost">Θρα</supplied><unclear>σ</unclear>υμήδη</name></persName></rs>,
+                        <lb n="2"/><w lemma="μείς">μηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Phthinoporios" ref="#aptera"><w lemma="Φθινοπώριος">Φθινοπ<supplied reason="lost">ωρίου</supplied></w></rs>
+                        <lb n="3"/>ἐνάται ἱστα<supplied reason="lost">μέ</supplied><lb 
+                        break="no" n="4"/>νου, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τ<unclear>ᾶ</unclear><supplied reason="lost">ι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά"><supplied reason="lost">βω</supplied><lb 
+                        break="no" n="5"/>λᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δ<supplied reason="lost">άμωι</supplied></w></rs>,
+                        <lb n="6"/><rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Stratokles f. -"><name nymRef="Στρατοκλῆς">Στρατοκλῆς</name> <gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="7"/><gap reason="lost" quantity="4" unit="character"/></persName> <w lemma="λέγω"><unclear>εἶπε</unclear></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="7a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La distanza del luogo di ritrovamento del decreto dal ‘Muro delle iscrizioni’ farebbe pensare che l’edificio a cui il blocco apparteneva non fosse il tempio centrale di Artemide <foreign>Aptera</foreign> ma piuttosto un altro santuario o un’altra struttura della città adibita alle attività politiche.</p>
+                    <p>Il decreto, che si interrompe prima dell’enunciazione dell’oggetto della deliberazione, restituisce la formula di datazione meno frammentaria fra le poche conservate nei documenti di Aptera (cf. <ref type="ins" target="#ic2_3_1"><title>IC</title> II 3 1</ref>, <ref type="ins" target="#ic2_3_5"><title>IC</title> II 3 5</ref> A, <ref type="ins" target="#seg_41_731"><title>SEG</title> 41.731</ref>). La formula datante, con cui si apre il decreto, conserva il patronimico del magistrato eponimo, di cui oltre al nome è andata perduta anche l’indicazione della carica ricoperta. Sulla base di quanto avviene nell’alleanza fra Aptera e Kydonia (<ref type="ins" target="#seg_41_731"><title>SEG</title> 41.731</ref>) è possibile tuttavia ipotizzare con un buon grado di certezza che il figlio di Thrasymedes fosse un <foreign>damiorgos</foreign> piuttosto che un cosmo.</p>
+                    <p>La menzione dell’eponimo è seguita dall’indicazione del mese e del giorno. Il mese <foreign>Phthinoporios</foreign>, attestato in tutto il mondo greco unicamente da questa iscrizione, è da mettere in connessione con il termine indicante la stagione autunnale, φθινόπωρον, noto nella documentazione epigrafica soltanto nella forma aggettivale φθινοπωρι[νή] di una meridiana di Oropos del IV secolo a.C. (<ref type="ins"><title>SEG</title> 54.508</ref>).</p>
+                    <p>Alla datazione fa immediatamente seguito la formula di sanzione, che testimonia la detenzione del potere decisionale da parte sia della <foreign>bola</foreign> che del <foreign>damos</foreign>, come nella maggioranza dei decreti di Aptera in cui tale formula si conservata (ad esclusione di <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>). La formula di sanzione è seguita a sua volta dalla menzione del proponente, in linea con quanto avviene in un buon numero di altri decreti della città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#eponymos">eponimo</ref> (<ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref>?), mese <ref type="inst" target="#phthinoporios"><foreign>Phthinoporios</foreign></ref>, proponente (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 17 <ptr type="phi" target="199724"/></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

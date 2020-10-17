@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato relativa ad una <foreign>stoa</foreign> (?) di Eleuthyia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 27</idno>
+                        <idno type="projectNo">458</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">91</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0150" notAfter="-0100">150-100 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>μω ο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><supplied reason="lost">ἐ</supplied>πὶ δ<unclear>ὲ</unclear> <w lemma="κοσμέω"><unclear>κ</unclear>όσ<supplied reason="lost">μων</supplied></w> <supplied reason="lost">τῶν σὺν</supplied> <persName type="attested" key="- f. Ikadion"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>τῶ <name nymRef="Ἰκαδίων" type="patronymic">Ἰ<unclear>κ</unclear>αδίων<supplied reason="lost">ος</supplied></name></persName></rs> <supplied reason="lost">ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> τᾶι</supplied> <persName type="divine" key="Eleuthyia"><supplied reason="lost">Ἐ</supplied><lb 
+                        break="no" n="4"/>λουθύαι</persName> τὰ<unclear>ν</unclear> <supplied reason="lost"><rs type="institution" subtype="public_space" role="construction" key="stoa" ref="#lato"><w lemma="στῳά">στωιὰν</w></rs> καὶ τὰν</supplied>
+                          <lb n="5"/><w lemma="ὀροφά">ὀροφὰν</w> <w lemma="ἐπισκευάζω">ἐπεσ<supplied reason="lost">κεύασε</supplied></w> <supplied reason="lost"><space extent="unknown" unit="character" cert="low"/></supplied>
+                          <lb n="6"/><rs type="institution" subtype="official" role="incumbent" key="choregos" ref="#lato"><w lemma="χοραγέω">χ<supplied reason="lost">ο</supplied>ραγήσαντ<supplied reason="lost">ος</supplied></w> <persName type="attested" key="- f. Lattygos"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>τῶ <name nymRef="Λάττυγος" type="patronymic">Λαττύγω</name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><supplied reason="lost">τ</supplied>ὸ <persName type="divine" key="Aphrodite"><rs type="institution" subtype="public_space" role="construction" key="hieron" ref="#dera"><placeName ref="#dera">Ἀφροδίσ<supplied reason="lost">ιον</supplied></placeName></rs></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, di cui è andato perduto l’inizio, conserva alle linee 2-3 una datazione che ricorda il cosmo eponimo Ikadion, mediante l’adozione di una formula analoga a quella presente in <ref type="ins" target="#ic1_16_28"><title>IC</title> I 16 28</ref> (sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>).</p>
+                    <p>Il restauro di un tetto e forse di una <foreign>stoa</foreign> commemorato sembra essere frutto dell’iniziativa della <foreign>polis</foreign> di Lato, che compare nel ruolo di promotrice di un intervento edilizio nelle iscrizioni edificatorie della città <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29-31</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e forse <ref type="ins" target="#ic1_16_28"><title>IC</title> I 16 28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref>. Il documento, inoltre, presenta alle linee 6-7 il ricordo di un ex <foreign>choregos</foreign>, figura che a Creta compare solamente nel presente testo e in un’iscrizione edificatoria di Olous (<ref type="ins" target="#ic1_22_8"><title>IC</title> I 22 8</ref>).</p>
+                    <p>Sebbene le strutture restaurate siano consacrate ad Elouthyia, la menzione alla linea 8 di un <foreign>Aphrodision</foreign> potrerebbe a ritenere che la copertura e la <foreign>stoa</foreign> si trovassero presso l’<foreign>Aphrodision</foreign> di Dera, al quale sembra ricondurre l’epiclesi <foreign>Deramis</foreign> di Atena, beneficiaria di una dedica assieme ad Eleuthyia in <ref type="ins" target="#ic1_16_26"><title>IC</title> I 16 26</ref> (altre iscrizioni edificatorie di Lato che interessano Afrodite o nello specifico il suo santuario di Dera sono <ref type="ins" target="#ic1_16_24"><title>IC</title> I 16 24</ref>-<ref type="ins" target="#ic1_16_25">25</ref>, <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#choregos"><foreign>choregos</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?), <ref type="inst" target="#stoa"><foreign>stoa</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 27 <ptr type="phi" target="199235"/></bibl>;
+                            <bibl><ref target="#b1879">Van Effenterre 1943</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 58-59</bibl>; 
+                        <bibl><ref target="#b154">Bile 2008</ref>, p. 266</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Lato ed Eumene II</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 16.524</idno>
+                        <idno type="projectNo">450</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos</repository> 
+                                <idno type="invNo">203</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0190" notAfter="-0170" precision="low">190-170 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ιαμ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><w lemma="ὀμνύω"><supplied reason="lost">ὀμν</supplied>ύομεν</w> <persName type="divine" key="Zeus Tallaios">Δί<supplied reason="lost">α Ταλλαῖον</supplied></persName> <supplied reason="lost">καὶ <persName type="divine" key="Hera">Ἥραν</persName> καὶ <persName type="divine" key="Ares">Ἄρην</persName> καὶ</supplied>
+                          <lb n="3"/><persName type="divine" key="Athena Areia"><supplied reason="lost">Ἀθ</supplied>ηνᾶν Ἀρείαν</persName> κ<supplied reason="lost">αὶ <persName type="divine" key="Lato">Λατὼ</persName> καὶ <persName type="divine" key="Eleuthyia">Ἐλεύθυιαν</persName> καὶ τοὺ</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">ς</supplied> ἄλλους <w lemma="θεός">θεοὺς</w> π<supplied reason="lost">άντας καὶ πάσας ἦ μὴν ἐσαεὶ</supplied>
+                          <lb n="5"/><supplied reason="lost">ἦ</supplied>μεν ἐν τῆι <w lemma="φιλία">φιλίαι</w> <supplied reason="lost">καὶ <w lemma="συμμαχία">συμμαχίαι</w> καὶ ἐπιβουλεύ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">ει</supplied>ν μεθατέρος <persName type="ruler" key="Eumenes II" ref="#pergamon"><w lemma="βασιλεύς">βασι<supplied reason="lost">λέα</supplied></w> <supplied reason="lost"><name nymRef="Εὐμένης">Εὐμένην</name> <name nymRef="Ἄτταλος" type="patronymic">Ἀττάλου</name></supplied></persName> <supplied reason="lost">καὶ τοὺς</supplied>
+                          <lb n="7"/><w lemma="ἔκγονος">ἐκγόνους</w> αὐτοῦ κ<supplied reason="lost">αὶ ἐμμένειν ἐν οἷς</supplied> <w lemma="συντίθημι"><supplied reason="lost">συνεθέ</supplied><lb 
+                        break="no" n="8"/>μεθα</w> ἐμμένοντος <supplied reason="lost">ἐν τούτοις τοῦ <persName type="ruler" key="Eumenes II" ref="#pergamon"><w lemma="βασιλεύς">βασιλέως</w></persName></supplied>
+                          <lb n="9"/>καὶ τῶν ἐκγόνων αὐ<supplied reason="lost">τοῦ καὶ οὔτε πολεμεῖν ἐκεί</supplied><lb 
+                        break="no" n="10"/>νοις οὔτε ἄλλωι ἐπι<supplied reason="lost">τρέπειν ταῦτ᾽ ἐπιχειροῦν</supplied><lb 
+                        break="no" n="11"/>τι εἰς δύναμιν τὴν <supplied reason="lost">ἡμετέραν· <w lemma="εὐορκέω">εὐορκοῦσι</w> μὲ</supplied><lb 
+                        break="no" n="12"/>ν ἡμῖν γίνοιτο πολλ<supplied reason="lost">ὰ τἀγαθά, <w lemma="ἐπιορκέω">ἐπιορκοῦσι</w> δ᾽ ἦ</supplied><lb 
+                        break="no" n="13"/>μεν τἀναντία.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento restituisce parte del giuramento di un trattato fra Lato ed un re (l. 6, βασι[λέα]), identificato in Eumene II sulla base del formulario del testo – affine a quello di documenti analoghi pertinenti al regno di Pergamo – e della sua paleografia, che colloca il documento nella prima metà del II secolo a.C. (cf. <bibl><ref target="#b1551">Platon 1953</ref></bibl>). Sebbene la sezione iniziale del documento non sia pervenuta, è verosimile che l’accordo con il sovrano sia stato sottoscritto dalla <foreign>polis</foreign> di Lato – indicata abitualmente attraverso l’etnico collettivo –, come avviene in altri trattati della città (<foreign>e.g.</foreign> <ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, ἔδοξε Λατίοις).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: nessuno nello specifico.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1551">Platon 1953</ref>, pp. 436-445, tav. 4</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 16.524 <ptr type="phi" target="201703"/> <ptr type="seg" target="a16_524"/></bibl>);
+                            <bibl><ref target="#b1552">Platon 1958</ref></bibl>;
+                            <bibl><ref target="#b531">Ducrey – Van Effenterre 1969</ref>, n. 1</bibl>;
+                            <bibl><ref target="#b527">Ducrey 1970</ref>, pp. 637-638 n. 1</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 58</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

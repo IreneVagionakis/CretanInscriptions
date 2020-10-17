@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 3*</idno>
+                        <idno type="projectNo">013</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#bangor_clandeboye_house">Clandeboye House, Irlanda del Nord</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                            <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><placeName ref="#polyrrhenia" type="ethnic">Πολυρρηνίων</placeName>.
+                        <lb n="2"/><placeName ref="#polyrrhenia" type="ethnic">Πολυρρηνίων</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#teos" type="ethnic">Τηίων</placeName> τῶι δάμωι
+                        <lb n="3"/>καὶ τᾶι βωλᾶι <w lemma="χαίρω">χαίρειν</w>. κομισάμενοι τὸ ψάφισμα τὸ παρ’
+                        <lb n="4"/>ὑμῶν <w lemma="ἀναγιγνώσκω">ἀνέγνωμεν</w> καὶ τῶν πρεσβευτᾶν Ἀπολλοδό<lb 
+                        break="no" n="5"/><surplus>δο</surplus>τω<surplus>ι</surplus> καὶ Κωλώτα<surplus>ι</surplus> διακούσαμεν, παρακαλούντων μετὰ
+                        <lb n="6"/>πάνσας <w lemma="σπουδά">σπουδᾶς</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίας</w> ἀκολούθως τοῖς ἐν τῶι
+                        <lb n="7"/>ψαφίσματι κατακεχωρισμένοις. περὶ δὲ τούτων <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#polyrrhenia"><w lemma="δοκέω">δεδό<lb 
+                        break="no" n="8"/>χθαι</w></rs> <placeName ref="#polyrrhenia" type="ethnic">Πολυρρηνίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλει</w></rs>· <w lemma="ἀποκρίνω">ἀποκρίνασ<lb 
+                        break="no" n="9"/>θαι</w> <placeName ref="#teos" type="ethnic">Τηίοις</placeName> διότι τὸν <persName type="divine" key="Dionysos">Διόνυσον</persName> καὶ αὐτοὶ σεβόμεθα καὶ δίδο<lb 
+                        break="no" n="10"/>ται τῶι θεῶι <supplied reason="lost">παρ’ ἁ</supplied>μῶν τάν τε πόλιν καὶ τὰν χώραν ἀνιέμεν
+                        <lb n="11"/>ἱερὰν καὶ <w lemma="ἄσυλος">ἄσυλον</w> νῦν τε καὶ εἰς τὸν ἅπαντα χρόνον. ἦμεν δὲ
+                        <lb n="12"/>καὶ <supplied reason="lost">πάνσι τ</supplied>οῖς ἐν <placeName ref="#teos">Τέῳ</placeName> <w lemma="ἀσφάλεια">ἀσφάλειαν</w> καὶ κατὰ γᾶν καὶ κατὰ
+                        <lb n="13"/><supplied reason="lost">θάλασσ</supplied>αν ἐ<supplied reason="lost">ς</supplied> τὸν ἅπαντα χρόνον. <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione, rinvenuta a Teos, conserva una lettera proveniente da Polyrrhenia, preceduta alla linea 1 dall’intestazione Πολυρρηνίων, aggiunta dalla città microasiatica. L’epistola, che appartiene alla nutrita serie dei documenti riguardanti la concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>, <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>, <bibl><ref target="#b1040">Kvist 2003</ref></bibl>, <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>), è l’unico testo epigrafico relativo alle relazioni estere di Polyrrhenia ad essersi conservato nella sua interezza (sono infatti mutile le iscrizioni <ref type="ins" target="#ic2_23_1"><title>IC</title> II 23 1</ref> e <ref type="ins" target="#ic2_23_2">2</ref>, <ref type="ins" target="#ic2_11_1"><title>IC</title> II 11 1</ref> e <ref type="ins" target="#seg_50_936"><title>SEG</title> 50.936</ref>).</p>
+                    <p>L’epistola, la sola di Polyrrhenia ad essere pervenuta, presenta nella formula di saluto iniziale i cosmi e la <foreign>polis</foreign>, responsabili dunque dell’interazione fra la propria comunità e le altre realtà politiche. Costoro, come chiarisce il messaggio della lettera, sono le figure istituzionali addette all’accoglienza degli ambasciatori stranieri e alla redazione e alla consegna agli stessi della missiva diretta alla loro comunità di provenienza. L’estratto del decreto di Polyrrhenia riportato nell’epistola, contenente la formula di mozione, testimonia inoltre che l’atto deliberativo è dovuto sia alla <foreign>polis</foreign> che ai cosmi, come d’altronde avviene anche negli altri decreti della città (cf. <ref type="ins" target="#seg_64_798"><title>SEG</title> 64.798</ref>, <ref type="ins" target="#ic2_23_5"><title>IC</title> II 23 5</ref> e verosimilmente <ref type="ins" target="#seg_50_911"><title>SEG</title> 50.911</ref> A e B).</p>
+                    <p>Quanto alle concessioni effettuate da Polyrrhenia, è da segnalare come l’<foreign>asylia</foreign> della città e del territorio – riconosciuta dai sottoscrittori di tutti i decreti della serie teia – sia in questo caso accompagnata dall’inviolabilità personale, l’<foreign>asphaleia</foreign>, garantita all’intera popolazione di Teos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b731">Bailie 1846</ref>, n. 154</bibl>; 
+                    <bibl><ref target="#bib231"><title>LBW</title></ref> n. 62</bibl>; 
+                    <bibl><ref target="#b273">Cauer 1883</ref>, n. 126</bibl>; 
+                    <bibl><ref target="#bib116"><title>CIG</title></ref> 3054 (ll. 1-5)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5166</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 52</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 3* <ptr type="phi" target="200039"/></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 51</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 21</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 137</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 7</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>; 
+                    <bibl><ref target="#b1040">Kvist 2003</ref></bibl>; 
+                    <bibl><ref target="#b277">Ceccarelli 2005</ref>, pp. 361-369</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

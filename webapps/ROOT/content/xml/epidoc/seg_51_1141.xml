@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un ex <foreign>agoranomos</foreign> di Gortyna a Hermes <foreign>Polykarpos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 51.1141</idno>
+                        <idno type="projectNo">376</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo">GO 387</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0050">100-50 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="dedicant" key="agoranomos" ref="#gortyn"><gap reason="lost" extent="unknown" unit="character"/><persName type="attested" key="-lianos f. Dionysios"><name nymRef="-λιανός"><gap reason="illegible" quantity="1" unit="character"/>λιανὸς</name> <name nymRef="Διονύσιος" type="patronymic">Διονυσ<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="2"/><space extent="unknown" unit="character"/> ο<supplied reason="lost">υ</supplied></name></persName>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀγορανομέω">ἀγορανομήσας</w></rs>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="divine" key="Hermes Polykarpos">Ἑρμῆν Πολύκαρπον</persName>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica ad Hermes <foreign>Polykarpos</foreign>, patrono dell’<foreign>agora</foreign>, è promossa dall’ex <foreign>agoranomos</foreign> -lianos figlio di Dionysios; a Gortyna, la sola città cretese in cui sono attestati tali funzionari, dei singoli ex <foreign>agoranomoi</foreign> compaiono come dedicanti anche in <ref type="ins" target="#ic4_250"><title>IC</title> IV 250</ref>, <ref type="ins" target="#ic4_252">252</ref> e forse <ref type="ins" target="#ic4_253">253</ref>, mentre l’intero collegio in carica occorre in <ref type="ins" target="#ic4_254"><title>IC</title> IV 254</ref> e <ref type="ins" target="#ic3_4_44"><title>IC</title> III 4 44</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agoranomos"><foreign>agoranomos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1168">Magnelli 2001</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 51.1141 <ptr type="seg" target="a51_1141"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b124">Bevilacqua 2009</ref>, p. 236</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

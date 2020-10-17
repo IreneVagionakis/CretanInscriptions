@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trattato di alleanza fra Eleutherna e Aptera</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 41.742</idno>
+                        <idno type="projectNo">109</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository>
+                        <idno type="invNo">E 132</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0175" precision="low">200-175 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><w lemma="συμμαχία"><supplied reason="lost">σ</supplied><unclear>υ</unclear><supplied reason="lost" cert="low">μμαχία</supplied> </w>
+                        <lb n="2"/>ἀγ<unclear>α</unclear><supplied reason="lost">θ</supplied><unclear>ᾶι</unclear> <w lemma="τύχα"><unclear>τύχ</unclear>αι</w>.
+                        <lb n="3"/>ἀγαθᾶι <w lemma="τύχα">τύχ<unclear>α</unclear><supplied reason="lost">ι</supplied></w><supplied reason="lost">. τάδε <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera"><placeName ref="#aptera" type="ethnic">Ἀπταραῖοι</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθενναῖοι</placeName></rs>,</supplied>
+                        <lb n="4"/><placeName ref="#aptera">Ἀπτάρ<unclear>αι</unclear></placeName> <supplied reason="lost">μὲν</supplied> <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#aptera" cert="low"><supplied reason="lost" cert="low">ἐπὶ <w lemma="δαμιουργός">δαμιουργῶν</w></supplied> <persName type="attested" key="-ras f. Timochos" cert="low"><name nymRef="-ρας" cert="low"><gap reason="lost" extent="unknown" unit="character"/><lb 
+                            break="no" n="5"/>ραι</name> <name nymRef="Τιμῶχος" type="patronymic" cert="low">Τιμώχ<supplied reason="lost">ῳ</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="month" role="calendar" key="meis" ref="#aptera"><supplied reason="lost"><w lemma="μείς">μηνὸς</w></supplied> <gap reason="lost" extent="unknown" unit="character"/></rs><supplied reason="lost">, ἐν δὲ</supplied> <placeName ref="#eleutherna"><supplied reason="lost">Ἐ</supplied><lb 
+                        break="no" n="6"/>λ<unclear>ε</unclear>υθένν<supplied reason="lost">αι</supplied></placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#eleutherna"><supplied reason="lost">ἐπὶ <w lemma="κόσμος">κόσμων</w> τῶν σὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></rs> <w lemma="μείς"><supplied reason="lost">μ</supplied><lb 
+                        break="no" n="7"/>ηνὸς</w> <rs type="institution" subtype="month" role="calendar" key="Sph" ref="#eleutherna"><w part="I" lemma="Σφ-">Σ<unclear>φ</unclear><gap reason="lost" extent="unknown" unit="character"/></w></rs><supplied reason="lost">. ὑπάρχειν <placeName ref="#eleutherna" type="ethnic">Ἐλευθενναίοις</placeName> καὶ <placeName ref="#aptera" type="ethnic">Ἀπταραίοις</placeName></supplied> <w lemma="συμμαχία"><supplied reason="lost">συμμαχία</supplied><lb 
+                        break="no" n="8"/>ν</w> καὶ πο<unclear>λ</unclear><supplied reason="lost">έμω καὶ εἰρήνας τὸν ἅπαντα χρόνον. αἴ τίς κ᾽ ἐνβάλ</supplied><lb 
+                        break="no" n="9"/>ληι ἐς τ<supplied reason="lost">ὰν</supplied> <unclear>χώρ</unclear><supplied reason="lost">αν τῶν <placeName ref="#aptera" type="ethnic">Ἀπταραίων</placeName> ἢ ἀποτάμνηται</supplied>
+                        <lb n="10"/>τᾶς χ<unclear>ώ</unclear><supplied reason="lost">ρα</supplied>ς <supplied reason="lost">τ</supplied><unclear>ῶ</unclear><supplied reason="lost">ν <placeName ref="#aptera" type="ethnic">Ἀπταραίων</placeName> ἢ φθείρηι <rs type="institution" subtype="social_status" role="defense" key="klaros" ref="#aptera"><w lemma="κλᾶρος">κλάρος</w></rs> ἢ <rs type="institution" subtype="social_status" role="defense" key="oikeus" ref="#aptera"><w lemma="οἰκετεία">οἰκετήιαν</w></rs></supplied>
+                        <lb n="11"/>ἢ <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#aptera"><w lemma="φρώριον">φ<unclear>ρώρι</unclear><supplied reason="lost">α</supplied></w></rs> <supplied reason="lost">ἢ <w lemma="νᾶσος">νάσος</w> ἢ <w lemma="λιμήν">λιμένας</w> καταλαμβάνηται ἢ <w lemma="πολεμέω">πολεμῆι</w>,</supplied> <w lemma="βοαθέω"><supplied reason="lost">β</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">οα</supplied>θήτω</w> ὁ <placeName ref="#eleutherna" type="ethnic">Ἐ<unclear>λευθεν</unclear><supplied reason="lost">ναῖος</supplied></placeName> <supplied reason="lost">ἀπροφασίστως κατὰ γᾶν καὶ κατὰ</supplied>
+                        <lb n="13"/>θάλα<unclear>σ</unclear>σαν κ<unclear>α</unclear><supplied reason="lost">τὰ τὸ δυνατόν. ὡσαύτως δ᾽ αἴ τίς κα ἐς τὰν τ</supplied><lb 
+                        break="no" n="14"/>ῶν <placeName ref="#eleutherna" type="ethnic">Ἐλευθεν<unclear>ν</unclear>α<unclear>ί</unclear><supplied reason="lost">ων</supplied></placeName> <supplied reason="lost">χώραν ἐνβάλληι ἢ ἀποτάμνηται τᾶς τῶν</supplied>
+                        <lb n="15"/><placeName ref="#eleutherna" type="ethnic">Ἐλευθεν<unclear>να</unclear><supplied reason="lost">ίων</supplied></placeName> <supplied reason="lost">χώρας ἢ <rs type="institution" subtype="social_status" role="defense" key="klaros" ref="#eleutherna"><w lemma="κλᾶρος">κλάρος</w></rs> ἢ <rs type="institution" subtype="social_status" role="defense" key="oikeus" ref="#eleutherna"><w lemma="οἰκετεία">οἰκετήιαν</w></rs> φθείρηι ἢ</supplied>
+                        <lb n="16"/>καταλαμ<supplied reason="lost">β</supplied>ά<supplied reason="lost">ν</supplied><unclear>η</unclear>τ<unclear>α</unclear><supplied reason="lost">ι <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#eleutherna"><w lemma="φρώριον">φρώρια</w></rs> ἢ <w lemma="λιμήν">λιμένας</w> ἢ <w lemma="πολεμέω">πολεμῆι</w>,</supplied> <w lemma="βοαθέω"><supplied reason="lost">βοαθή</supplied><lb 
+                        break="no" n="17"/>τω</w> ὁ <placeName ref="#aptera" type="ethnic">Ἀπτα<supplied reason="lost">ρ</supplied>α<unclear>ῖ</unclear>ο<supplied reason="lost">ς</supplied></placeName> <supplied reason="lost">κατὰ γᾶν καὶ κατὰ θάλασσαν κατὰ τὸ δυνατόν.</supplied>
+                        <lb n="18"/><w lemma="ἐξαγωγά">ἐξαγωγὰν</w> <supplied reason="lost">ἦ</supplied><unclear>μ</unclear><supplied reason="lost">εν πάντων, τῶι τε</supplied> <placeName ref="#aptera" type="ethnic"><supplied reason="lost">Ἀπτ</supplied>αρ<supplied reason="lost">αίωι</supplied></placeName> <supplied reason="lost">ἐξ</supplied> <placeName ref="#eleutherna"><supplied reason="lost">Ἐλευ</supplied><lb 
+                        break="no" n="19"/>θέννας</placeName> καὶ τ<unclear>ῶι</unclear> <placeName ref="#eleutherna" type="ethnic"><unclear>Ἐ</unclear><supplied reason="lost">λευ</supplied>θ<supplied reason="lost">ενναίωι</supplied></placeName> <supplied reason="lost">ἐξ</supplied> <placeName ref="#aptera"><supplied reason="lost">Ἀπτ</supplied>άρ<supplied reason="lost">ας</supplied></placeName><supplied reason="lost">, κατὰ γᾶν</supplied>
+                        <lb n="20"/>μὲν <w lemma="ἀτελής">ἀτελέα<supplied reason="lost">ς</supplied></w> <unclear>κα</unclear><supplied reason="lost">τὰ θάλασσαν δὲ</supplied> τὰ <supplied reason="lost"><w lemma="τέλια">τέλια</w> καταβάλ</supplied><lb 
+                        break="no" n="21"/>λοντας κατὰ τ<supplied reason="lost">ὸ</supplied>ς <supplied reason="lost">πα</supplied>ρ᾽ <supplied reason="lost">ἑ</supplied><unclear>κα</unclear><supplied reason="lost">τέροις <rs type="institution" subtype="object" role="law" key="nomos" ref="#aptera"><rs type="institution" subtype="object" role="law" key="nomos" ref="#eleutherna"><w lemma="νόμος">νόμος</w></rs></rs>, <w lemma="ὀμνύω">ὀμόσαντας</w> ἐς ἰδί</supplied><lb 
+                        break="no" n="22"/>αν χρείαν <w lemma="ἐξάγω">ἐξάγεν</w>. <unclear>κ</unclear>᾽ <unclear>αἴ</unclear> <unclear>μ</unclear><supplied reason="lost">έν τι κοινᾶι</supplied> <unclear>ἐνβα</unclear><supplied reason="lost" cert="low">λλόμενοι</supplied> <supplied reason="lost"><w lemma="θεός">θεῶν</w> βω</supplied><lb 
+                        break="no" n="23"/>λομένων λά<unclear>β</unclear>οιμεν ἀπὸ τ<supplied reason="lost">ῶ</supplied>ν <supplied reason="lost">πο</supplied>λ<unclear>εμί</unclear>ω<supplied reason="lost">ν</supplied> ἀ<supplied reason="lost">γαθόν, λαγχάνεν ἑκα</supplied><lb 
+                        break="no" n="24"/>τέρος κατὰ τὸ τέλος, κ᾽ αἰ <unclear>μ</unclear>ὴ, <unclear>υἷ</unclear> κα <supplied reason="lost">χρε</supplied><unclear>ία</unclear> ἧι, ἔσ<supplied reason="lost">τω τῶν</supplied> <w lemma="μετέχω"><supplied reason="lost">μετεχόν</supplied><lb 
+                        break="no" n="25"/>των</w> <unclear>κ</unclear>ατὰ τὸ τέλος. <w lemma="ἐξορκίζω">ἐξορκιξάντω</w><supplied reason="lost">ν</supplied> δὲ κ<supplied reason="lost">αὶ τὰς <rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#aptera"><rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#eleutherna"><w lemma="ἀγέλα">ἀγέλας</w></rs></rs> ἐπεὶ κ᾽</supplied> <w lemma="ἐγτρέχω"><supplied reason="lost">ἐ</supplied><lb 
+                        break="no" n="26"/>γδρά<unclear>μ</unclear>ωντι</w> ἐν ἑκατέραι τᾶι <rs type="institution" subtype="public_space" role="oath-taking" key="polis" ref="#aptera"><rs type="institution" subtype="public_space" role="oath-taking" key="polis" ref="#eleutherna"><w lemma="πόλις">πόλι</w></rs></rs> οἱ <rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#aptera"><rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#eleutherna"><w lemma="κόρμος">κό<unclear>ρ</unclear><supplied reason="lost">μοι</supplied></w></rs></rs> <supplied reason="lost">ἐπ᾽ αὐτῶν</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#aptera"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#eleutherna"><w lemma="κόρμος"><supplied reason="lost">κορμιόν</supplied><lb 
+                        break="no" n="27"/>των</w></rs></rs>, παριόντων ἐν <placeName ref="#aptera">Ἀ<unclear>πτ</unclear>ά<supplied reason="lost">ρ</supplied>αι</placeName> <placeName ref="#eleutherna" type="ethnic">Ἐ<unclear>λευθ</unclear><supplied reason="lost">ενναίων</supplied></placeName> <supplied reason="lost"><rs type="institution" subtype="board" role="onlooker" key="presbeutes" ref="#eleutherna"><w lemma="πρειγήια">πρειγηίας</w></rs>, ἐν δὲ</supplied>
+                        <lb n="28"/><placeName ref="#eleutherna"><supplied reason="lost">Ἐ</supplied><unclear>λευθένν</unclear><supplied reason="lost">α</supplied>ι</placeName> πα<supplied reason="lost">ριό</supplied>ν<unclear>τω</unclear><supplied reason="lost">ν <placeName ref="#aptera" type="ethnic">Ἀπταραίων</placeName> <rs type="institution" subtype="board" role="onlooker" key="presbeutes" ref="#aptera"><w lemma="πρειγήια">πρειγηίας</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="4-5"><note><gap reason="lost" extent="unknown" unit="character"/>ραι Τιμώχ<supplied reason="lost">ῳ</supplied> <bibl><ref target="#b1528">Petropoulou – Stavrianopoulou</ref></bibl> in apparato; <gap reason="lost" extent="unknown" unit="character"/><orig>ραιτιμωχ</orig><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref></bibl>.</note></app>
+                    <app loc="24-25"><note>κ᾽ αἰ <unclear>μ</unclear>ὴ, <unclear>υἷ</unclear> κα <supplied reason="lost">χρε</supplied><unclear>ία</unclear> ἧι, ἔσ<supplied reason="lost">τω τῶν μετεχόν</supplied>των <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> in nota; <orig>και</orig><gap reason="lost" quantity="2" unit="character"/><orig>η</orig><gap reason="lost" quantity="2" unit="character"/><orig>κα</orig><gap reason="lost" quantity="2" unit="character"/><orig>ιαηιεσ</orig><gap reason="lost" extent="unknown" unit="character"/><orig>των</orig> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref></bibl>.</note></app>
+                    <app loc="25"><note>κ<supplied reason="lost">αί</supplied> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref></bibl>; κ<supplied reason="lost">ατ᾽ ἔτος</supplied> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>Il formulario del trattato, che presenta molti punti di contatto con l’alleanza fra Eleutherna e Lato <ref type="ins" target="#ic1_16_17"><title>IC</title> I 16 17</ref>, risalente al periodo in cui le due città fanno parte del <foreign>koinon</foreign> cretese a guida gortynia, porterebbe a collocare la redazione del documento nel medesimo contesto, probabilmente prima del 184 a.C. (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 280</bibl>).</p>
+                    <p>All’intestazione συμμαχία (?) e alla doppia espressione benaugurale seguono le formule di datazione dei due contraenti, entrambe menzionanti il magistrato eponimo della città e il mese. Mentre il mese di Aptera è interamente perduto, di quello di Eleutherna si conservano le lettere iniziali, Σφ-. Quanto agli eponimi, entrambi in lacuna, è possibile ipotizzare sulla base di paralleli delle due città che ad Aptera vi fossero menzionati uno o più <foreign>damiorgoi</foreign> (come nel trattato con Kydonia <ref type="ins" target="#seg_41_731"><title>SEG</title> 41.731</ref>, anteriore di circa un secolo), mentre ad Eleutherna un cosmo (cf. l’iscrizione arcaica <ref type="ins" target="#ic2_12_9"><title>IC</title> II 12 9</ref>).</p>
+                    <p>La clausola relativa all’aiuto reciproco in caso di attacco (ll. 8-17), sebbene in gran parte integrata sulla base di trattati coevi, attesta l’esistenza di <foreign>phrouria</foreign> nel territorio di Aptera e forse di Eleutherna, oltre che possibilmente delle classi servili del <foreign>klaros</foreign> e dell’<foreign>oiketeia</foreign> presso entrambe le città. La sezione in cui viene effettuata la reciproca concessione del diritto di esportazione e dell’esenzione fiscale sul trasporto di beni via terra (ll. 18-22), invece, sembrerebbe fare riferimento alle leggi che regolano la tassazione in vigore presso entrambe le <foreign>poleis</foreign>. La clausola che regola la spartizione del bottino in caso di spedizioni congiunte (ll. 22-25), inoltre, include una specificazione piuttosto oscura che potrebbe riferirsi alla destinazione di una parte di bottino all’erario, se non a incursioni organizzate da privati (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 280</bibl>).</p>
+                    <p>Il documento, infine, regolamenta le modalità secondo cui deve essere prestato il giuramento previsto (ll. 25-28): in tale frangente la responsabilità è affidata ai cosmi in carica – κόρμοι nella variante dialettale –, che in ciascuna <foreign>polis</foreign> devono guidare il giuramento dei giovani parte dell’<foreign>agela</foreign> in presenza di un’ambasceria dell’altra città (ll. 25-28).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela"><foreign>agela</foreign></ref>, <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref> (?), <ref type="inst" target="#klaros"><foreign>klaros</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#sph"><foreign>Sph-</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref> (?), <ref type="inst" target="#oikeus"><foreign>oikeus</foreign></ref> (?), <ref type="inst" target="#phrourion"><foreign>phrourion</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1528">Petropoulou – Stavrianopoulou 1991</ref>, pp. 51-68 n. 6</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 41.742 <ptr type="phi" target="202105"/></bibl>); 
+                    <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 38</bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 132 <ptr type="thetima" target="e132"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b305">Chaniotis 1995</ref></bibl>; 
+                    <bibl><ref target="#b311">Chaniotis 1999</ref></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

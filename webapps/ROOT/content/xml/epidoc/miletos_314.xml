@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dediche onorarie di Axos, Gortyna ed Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Miletos 314</idno>
+                        <idno type="projectNo">556</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">tre dediche onorarie</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType> appartenente ad una base
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#miletus">Mileto, presso il <foreign>bouleuterion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0210" notAfter="-0190">200 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="assembly" role="dedicant" key="polisE" ref="#axos"><placeName ref="#axos" type="ethnic">Ὀαξίων</placeName></rs>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part">
+                        <ab>
+                          <lb n="2"/><rs type="institution" subtype="assembly" role="dedicant" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γο<unclear>ρτυ</unclear>νίων</placeName></rs>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part">
+                        <ab>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="dedicant" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθενναίων</placeName></rs>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La lastra conserva più dediche promosse dalle <foreign>poleis</foreign> cretesi di Axos, Gortyna ed Eleutherna, indicate attraverso i loro etnici cittadini collettivi.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib108"><title>Milet</title></ref> I 2 11</bibl>;
+                            <bibl type="main_edition"><ref target="#bib29"><title>Miletos</title></ref> 314 <ptr type="phi" target="252405"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

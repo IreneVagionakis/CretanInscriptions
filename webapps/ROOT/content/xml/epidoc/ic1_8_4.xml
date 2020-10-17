@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Knossos e Tylisos con mediazione argiva</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 4*</idno>
+                        <idno type="projectNo">160</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#argos_museum">Museo archeologico di Argo</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>stoichedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#argos">Argo</origPlace>
+                                    <origDate period="#archaic" notBefore="-0460" notAfter="-0450" precision="low">460-450 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="fragment" n="a">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>νεσε</orig><gap reason="illegible" quantity="9" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ατον χο<gap reason="illegible" quantity="5" unit="character"/><orig>να</orig><gap reason="illegible" quantity="2" unit="character"/>
+                          <lb n="3"/><supplied reason="lost">το͂ι <placeName ref="#tylisos" type="ethnic">Τυλισίοι</placeName> ἀδεο͂ς ἐξε͂μ</supplied>εν ξύλλεσθαι πλὰ<supplied reason="lost">ν</supplied> τ<lb 
+                        break="no" n="4"/><supplied reason="lost">ὰ μέρε τὰ <placeName ref="#knossos" type="ethnic">Κνοσίον</placeName> συν</supplied>τέλλοντα ἐνς <rs type="institution" subtype="assembly" role="payments" key="polis" ref="#knossos"><w lemma="πόλις">πόλιν</w></rs>. ℎότ<supplied reason="lost">ι</supplied>
+                          <lb n="5"/><supplied reason="lost">δέ κα ἐκ δυσμεν</supplied>έον ℎέλομες συνανφότεροι, δα<supplied reason="lost">σ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">μο͂ι το͂ν κὰτ</supplied> γᾶν τὸ τρίτον μέρος ἔχεν πάντον, τ<supplied reason="lost">ο͂</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">ν δὲ κὰτ</supplied> θάλασαν τὰ ℎέμισα ἔχεν πάντον. τὰν δὲ <w lemma="δεκάτα"><supplied reason="lost">δ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">εκ</supplied>άταν</w> τὸνς <placeName ref="#knossos" type="ethnic">Κνοσίονς</placeName> ἔχεν, ℎότι χ’ ἕλομες κοι<supplied reason="lost">ν</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">ᾶ</supplied>ι. το͂ν δὲ φαλύρον τὰ μὲν καλλ<corr>ι</corr>στεῖα <placeName ref="#delphi">Πυθο͂δε</placeName> ἀπ<supplied reason="lost">ά</supplied><lb 
+                        break="no" n="10"/>γεν κοινᾶι ἀμφοτέρονς, τὰ δ’ ἄλλα το͂ι <persName type="divine" key="Ares">Ἄ<supplied reason="lost">ρει</supplied></persName> <placeName ref="#knossos"><supplied reason="lost">Κν</supplied>ο<supplied reason="lost">σ</supplied><lb 
+                        break="no" n="11"/>οῖ</placeName> <w lemma="ἀντιτίθημι">ἀντιθέμεν</w> κοινᾶι ἀμφοτέρονς. ἐξ<supplied reason="lost">αγογὰν δ’ </supplied><lb 
+                        break="no" n="12"/>μεν <placeName ref="#knossos">Κνοσόθεν</placeName> ἐνς <placeName ref="#tylisos">Τύλισον</placeName> κἐκ <placeName ref="#tylisos">Τυλί<supplied reason="lost">σο</supplied></placeName> <placeName ref="#knossos"><supplied reason="lost">Κνοσόνδ</supplied><lb 
+                        break="no" n="13"/>ε</placeName>· α<supplied reason="lost">ἰ</supplied> δὲ πέρανδε <w lemma="ἐξάγω">ἐξάγοι</w>, <w lemma="τελέω">τελίτο</w> ℎόσσα<supplied reason="lost">περ οἱ</supplied> <placeName ref="#knossos" type="ethnic"><supplied reason="lost">Κν</supplied><lb 
+                        break="no" n="14"/>όσιοι</placeName>· τὰ δ’ ἐκ <placeName ref="#tylisos">Τυλίσο</placeName> <w lemma="ἐξάγω">ἐξαγέσθο</w> ℎοπυ<supplied reason="lost">ῖ κα λοίε. το͂</supplied><lb 
+                        break="no" n="15"/>ι <persName type="divine" key="Poseidon">Ποσειδᾶνι</persName> το͂ι ἐν <rs type="institution" subtype="public_space" role="sacrifices" key="hieron" ref="#knossos"><w lemma="Ἰυτός">Ἰυτο͂ι</w></rs> τὸν <placeName ref="#knossos" type="ethnic">Κνοσίο<supplied reason="lost">ν</supplied></placeName> <supplied reason="lost"><rs type="institution" subtype="official" role="sacrifices" key="hiereus" ref="#knossos"><w lemma="ἰαρεύς">ἰαρέα</w></rs></supplied> <w lemma="θύω"><supplied reason="lost">θύ</supplied><lb 
+                        break="no" n="16"/>εν</w>. τᾶι <persName type="divine" key="Hera">ℎέραι</persName> ἐν <persName type="divine" key="Hera"><rs type="institution" subtype="public_space" role="sacrifices" key="hieron" ref="#tylisos"><rs type="institution" subtype="public_space" role="sacrifices" key="hieron" ref="#knossos"><w lemma="Ἡραῖον">Ἑραίοι</w></rs></rs></persName> <w lemma="θύω">θύεν</w> βο͂ν θέλει<supplied reason="lost">αν ἀμφοτ</supplied><lb 
+                        break="no" n="17"/>έρον<supplied reason="lost">ς κ</supplied>οινᾶι, <w lemma="θύω">θύεν</w> δὲ πρὸ <rs type="institution" subtype="festivity" role="calendar" key="Wakinthia" ref="#tylisos"><rs type="institution" subtype="festivity" role="calendar" key="Wakinthia" ref="#knossos"><w lemma="Ϝακίνθια">Ϝακινθ<supplied reason="lost">ίον</supplied></w></rs></rs> <gap reason="lost" quantity="8" unit="character"/>
+                          <lb n="18"/><gap reason="illegible" quantity="1" unit="character"/><orig>κο</orig><gap reason="illegible" quantity="3" unit="character"/><orig><unclear>κ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18a"/><gap reason="lost" quantity="2" unit="line"/>
+                          </ab>
+                        </div>
+                        <div type="textpart" subtype="fragment" n="b">
+                        <ab>
+                          <lb n="1"/><gap reason="illegible" quantity="14" unit="character"/>ανον το<gap reason="illegible" quantity="14" unit="character"/> <w lemma="πρατομενία">πρ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="2"/>τομενίαν</w> ἄγεν κατὰ ταὐτ<supplied reason="lost">ὰ</supplied> <gap reason="lost" quantity="11" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ο ἀμ<supplied reason="lost">φ</supplied><lb 
+                        break="no" n="3"/>οτέρον. <w lemma="χρήματα">χρέματα</w> δὲ μὲ ’νπιπασκέσθο ℎο <placeName ref="#knossos" type="ethnic">Κνόσιο<supplied reason="lost">ς</supplied></placeName>
+                          <lb n="4"/>ἐν <placeName ref="#tylisos">Τυλίσοι</placeName>, ℎο δὲ <placeName ref="#tylisos" type="ethnic">Τυλίσιος</placeName> ἐν <placeName ref="#knossos">Κνοσο͂ι</placeName> ℎο χρέιζ<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="5"/>ν. μεδὲ χόρας ἀποτάμνεσθαι μεδατέρονς μεδ’ ἅ<supplied reason="lost">π</supplied><lb 
+                        break="no" n="6"/>ανσαν ἀφαιρῖσθαι. <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#tylisos"><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#knossos"><w lemma="ὄρος">ροι</w></rs></rs> τᾶς γᾶς· ℎυο͂ν ὄρος καὶ Α<lb 
+                        break="no" n="7"/>ἰετοὶ <persName type="divine" key="Artemis"><rs type="institution" subtype="public_space" role="landmark" key="hieron" ref="#tylisos"><rs type="institution" subtype="public_space" role="landmark" key="hieron" ref="#knossos"><w lemma="Ἀρταμίτιον">κἀρταμίτιον</w></rs></rs></persName> καὶ  <rs type="institution" subtype="public_space" role="landmark" key="temenos" ref="#acharna">τὸ το͂ <persName type="divine" key="Archos">Ἀρχο͂</persName> <w lemma="τέμενος">τέμενος</w></rs> κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="8"/>ℎο ποταμὸς κἐλ Λευκόπορον κἀγάθοια, ℎᾶι ℎύδο<lb 
+                        break="no" n="9"/>ρ ῥεῖ τὄμβριον, καὶ Λᾶος. ℎῖ κα το͂ι <persName type="divine" key="Machaneus">Μαχανεῖ</persName> <w lemma="θύω">θύομ<lb 
+                        break="no" n="10"/>ες</w> τὸνς ϝεξέκοντα τελέονς ὄϝινς, καὶ τᾶι <persName type="divine" key="Hera">ℎ<corr>έ</corr>ραι</persName>
+                          <lb n="11"/>τὸ σκέλος ϝεκάστο διδόμεν το͂ <w lemma="θῦμα">θύματος</w>. αἰ δὲ συ<lb 
+                        break="no" n="12"/>μπλέονες <rs type="institution" subtype="social_group" role="war" key="polis" ref="#unknown"><w lemma="πόλις">πόλιες</w></rs> ἐκ πολεμίων ἕλοιεν <w lemma="χρήματα">χρήματα</w>
+                          <lb n="13"/>ℎοπᾶι <w lemma="συνγιγνώσκω">συνγνοῖεν</w> ℎοι <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνόσιοι</placeName></rs> καὶ τοὶ <placeName ref="#argos" type="ethnic">Ἀργεῖοι</placeName>
+                          <lb n="14"/>ℎούτο μεν. το͂ι <persName type="divine" key="Ares">Ἄρει</persName> καὶ <persName type="divine" key="Aphrodite">τἀφροδίται</persName> τὸν <placeName ref="#knossos" type="ethnic">Κνόσι<lb 
+                        break="no" n="15"/>ον</placeName> <rs type="institution" subtype="official" role="sacrifices" key="hiereus" ref="#knossos"><w lemma="ἰαρεύς">ἰαρέα</w></rs> <w lemma="θύω">θύεν</w>, φέρεν δὲ τὸ σκέλος ϝεκάστο. <rs type="institution" subtype="public_space" role="possession" key="temenos" ref="#acharna">τὸν <persName type="divine" key="Archos">Ἀ<lb 
+                        break="no" n="16"/>ρχὸν</persName> τὸ <w lemma="τέμενος">τέμενος</w></rs> ἔχεν τὀν <placeName ref="#acharna">Ἀχάρναι</placeName>. τοῖς <w lemma="θύω">θύονσι</w>
+                          <lb n="17"/><w lemma="ξένια">ξένια</w> παρέχεν τὸνς <placeName ref="#knossos" type="ethnic">Κνοσίονς</placeName>, τὸνς δ’ <placeName ref="#argos" type="ethnic">Ἀργείονς</placeName>
+                          <lb n="18"/>το͂ι <rs type="institution" subtype="association" role="dedicatee" key="choros" ref="#tylisos" cert="low"><w lemma="χορός">χορο͂ι</w></rs> ἐν <placeName ref="#tylisos">Τυλίσοι</placeName>. αἴ κα καλε͂ι ℎο <placeName ref="#knossos" type="ethnic">Κνόσιος</placeName> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#tylisos"><w lemma="πρεσγέα">πρ<lb 
+                        break="no" n="19"/>εσγέαν</w></rs>, ℎέπεσθαι ℎοπυῖ κα δέεται· καἴ χὀ <placeName ref="#tylisos" type="ethnic">Τυλίσ<lb 
+                        break="no" n="20"/>ιος</placeName> τὸν <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνόσιον</placeName></rs> κατὰ ταὐτά. αἰ δὲ μὲ δοῖεν <w lemma="ξένια">ξένι<lb 
+                        break="no" n="21"/>α</w>, <rs type="institution" subtype="assembly" role="imposing_fines" key="boule" ref="#tylisos"><rs type="institution" subtype="assembly" role="imposing_fines" key="boule" ref="#knossos"><w lemma="βωλά">βολὰ</w></rs></rs> ἐπαγέτο ῥύτιον δέκα <w lemma="στατήρ">στατέρον</w> αὐτίκα ἐ<lb 
+                        break="no" n="22"/>πὶ <rs type="institution" subtype="board" role="fineable" key="kosmos" ref="#knossos"><rs type="institution" subtype="board" role="fineable" key="kosmos" ref="#tylisos"><w lemma="κόσμος">κόσμος</w></rs></rs>, κἐν <placeName ref="#tylisos">Τυλίσοι</placeName> κατὰ ταὐτὰ ℎο <placeName ref="#knossos" type="ethnic">Κνόσιος</placeName>.
+                          <lb n="23"/>ℎα <w lemma="στάλα">στάλα</w> ἔσστα ἐπὶ Μελάντα <w lemma="βασιλεύς">βασιλέος</w>. ἀϝρέτευ<lb 
+                        break="no" n="24"/>ε Λυκοτάδας ℎυλλεύς. ἀλιαίαι ἔδοξε τᾶι το͂ν
+                          <lb n="25"/>ἰαρο͂ν. <expan><abbr>ἀ</abbr><ex>ϝρέτευε</ex></expan> βολᾶς Ἀρχίστρατος Λυκοφρονίδας.
+                          <lb n="26"/>τοὶ <placeName ref="#tylisos" type="ethnic">Τυλίσιοι</placeName> ποὶ τὰν <w lemma="στάλα">στάλαν</w> <w lemma="ποιγράφω">ποιγραψάνσθο</w> τάδε·
+                          <lb n="27"/>αἴ τις ἀφικνοῖτο <placeName ref="#tylisos" type="ethnic">Τυλισίον</placeName> ἐνς <placeName ref="#argos">Ἄργος</placeName>, κατὰ ταὐτά
+                          <lb n="28"/>σφιν ἔστο ℎᾶιπερ <placeName ref="#knossos" type="ethnic">Κνοσίοις</placeName>.
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I due frammenti appartengono alla copia di Argo del trattato fra Knossos e Tylisos, di cui è pervenuta anche una differente sezione della copia iscritta da quest’ultima nella propria città (<ref type="ins" target="#ic1_30_1"><title>IC</title> I 30 1</ref>). La prima parte del frammento A (ll. 3-11), relativa alla spartizione e dedica del bottino, informa dell’appartenenza di una parte di esso alla <foreign>polis</foreign> di Knossos e specifica inoltre che a questa spetta anche la decima di quanto preso insieme dalle due città (cf. <bibl><ref target="#b1515">Perlman 2010</ref></bibl>); le due città sono tenute a dedicare insieme a Delfi i pezzi più belli fra quelli saccheggiati, mentre il resto in un santuario di Ares a Knossos. Il medesimo santuario – nel quale è venerata anche Afrodite – ricorre anche nel frammento B, a proposito di sacrifici che un sacerdote di Knossos deve compiere alle due divinità (ll. 14-15). Un sacerdote di Knossos – possibilmente lo stesso – è inoltre tenuto a sacrificare a Poseidone, forse sul monte Iouktas (<foreign>Iutos</foreign>, ll. 14-16), mentre entrambe le città devono compiere sacrifici ad Hera presso un <foreign>Heraion</foreign> di cui non è specificata la collocazione, prima delle festività dette <foreign>Wakinthia</foreign>, che a quanto pare dovevano esistere sia a Knossos che a Tylisos (ll. 16-17; cf. il mese <foreign>Bakinthios</foreign> noto a Knossos, Lato e Malla: <ref type="ins" target="#chaniotis_54-56a">Chaniotis, <title>Verträge</title> 54/56a</ref>, <ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> A).</p>
+                    <p>La definizione dei confini fra le due città, descritti alle linee B 6-9, testimonia l’esistenza sulla frontiera di Tylisos e Knossos di un <foreign>Artemision</foreign> e di un <foreign>temenos</foreign> di Archos, che viene più avanti localizzato ad Acharna (ll. B 15-16). Il frammento B conserva inoltre alcune clausole relative ai doni ospitali, che si prescrive che vengano offerti dagli abitanti di Knossos a chi sacrifica (a Knossos) e dagli Argivi ad un coro a Tylisos (ll. 16-18); nel caso in cui ciò non avvenga, la <foreign>bola</foreign> di ciascuna città cretese deve imporre una multa di dieci stateri ai cosmi della <foreign>polis</foreign> inadempiente (ll. 20-22). Meno chiaro risulta il senso della clausola che si inserisce all’interno della regolazione degli <foreign>xenia</foreign>, che prevede che – qualora un cittadino di Knossos o Tylisos richieda l’ausilio di un ambasciatore quando si trova nell’altra città – poi lo debba seguire dove necessario.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#choros"><foreign>choros</foreign></ref>, festività <ref type="inst" target="#wakinthia"><foreign>Wakinthia</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#horos"><foreign>horos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1961">Vollgraff 1910</ref></bibl>; 
+                            <bibl><ref target="#b1962">Vollgraff 1913</ref></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 56</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 83</bibl>; 
+                            <bibl><ref target="#b1728">Solmsen – Fränkel 1930</ref>, n. 27</bibl>; 
+                            <bibl><ref target="#bib439">Tod, <title>GHI</title></ref> 33</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 4* <ptr type="phi" target="199121"/></bibl>; 
+                            <bibl><ref target="#b954">Kahrstedt 1941</ref></bibl>; 
+                            <bibl><ref target="#b1963">Vollgraff 1948</ref></bibl>; 
+                            <bibl><ref target="#b212">Buck 1955</ref>, n. 85</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> II 148</bibl>; 
+                            <bibl><ref target="#bib512"><title>ML</title></ref> 42B</bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 35.2</bibl>; 
+                            <bibl><ref target="#b1538">Piccirilli 1973</ref>, n. 19</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 54.II</bibl>; 
+                            <bibl><ref target="#b1350">Minon 2007</ref></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib505"><title>CGRN</title></ref> 22 <ptr type="cgrn" target="22"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib362"><title>RO</title> II</ref> 126B</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1601">Rigsby 1976</ref></bibl>; 
+                            <bibl><ref target="#b193">Bravo 1980</ref></bibl>; 
+                            <bibl><ref target="#b261">Carlier 1984</ref>, pp. 381-382</bibl>; 
+                            <bibl><ref target="#b1325">Merrill 1991</ref></bibl>; 
+                            <bibl><ref target="#b886">Hennig 1994</ref></bibl>; 
+                            <bibl><ref target="#b1923">Van Effenterre – Van Effenterre 1994</ref></bibl>; 
+                            <bibl><ref target="#b251">Capdeville 1997</ref></bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 72</bibl>; 
+                            <bibl><ref target="#b1515">Perlman 2010</ref>, pp. 95-98</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

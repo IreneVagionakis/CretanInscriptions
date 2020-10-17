@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna relativa a pagamenti</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 84</idno>
+                        <idno type="projectNo">272</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ανς ἒ μεῖον, <supplied reason="lost">π</supplied><unclear>λ</unclear>ίον δ<supplied reason="lost">ὲ μέ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear> <w lemma="τίθημι"><unclear>θ</unclear>έντον</w> <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn" cert="low"><w lemma="πόλις">πόλι</w></rs> καὶ καρ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>τάνς, δαμιόντο<supplied reason="lost">ν</supplied> <gap reason="lost" quantity="1" unit="character"/><orig><unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>τα. <g type="leaf"/> ὀ δ’ <rs type="institution" subtype="official" role="collecting_fines" key="epottas" ref="#gortyn" cert="low"><w lemma="ἐπόττας">ἐπόττας</w></rs> δαμ<supplied reason="lost">ι</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ὸμ μὲ πειθόμενον το<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> καὶ το͂ν <rs type="institution" subtype="social_status" role="regulation" key="apetairos" ref="#gortyn"><w lemma="ἀπέταιρος">ἀπεταίρον</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὀδελός"><supplied reason="lost">ὀδε</supplied>λὸν</w> κατ’ ἀμέραν ἒ τριο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="6"><note>το͂ν ἀπεταίρον  <bibl><ref target="#bib4"><title>IC</title></ref></bibl>; τὸν ἀπέταιρον (?) <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, relativo a dei pagamenti che devono essere effettuati alla <foreign>polis</foreign>, fornisce la sola attestazione epigrafica esistente dell’<foreign>epottas</foreign>, noto solamente a Gortyna; il termine, che è stato accostato all’ἐπόπτας menzionato in <ref type="lit">Dem. <title>Phil.</title> I 25</ref>, sembra riferirsi ad un funzionario pubblico, forse un supervisore, che pare coinvolto in una punizione inflitta in caso di disobbedienza a quanto prescritto (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, p. 139</bibl>).</p>
+                    <p>Fra gli individui sanzionati dall’<foreign>epottas</foreign> sembra esservi un <foreign>apetairos</foreign> (l. 6), ovvero un individuo di <foreign>status</foreign> intermedio fra quello libero e servile, escluso dalla partecipazione alle eterie; altri <foreign>apetairoi</foreign> sono attestati a Gortyna da <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> e a Knossos da <ref type="ins" target="#seg_35_989"><title>SEG</title> 35.989</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#aphetairos"><foreign>apetairos</foreign></ref>, <ref type="inst" target="#epottas"><foreign>epottas</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b379">Comparetti 1888b</ref>, pp. 649-650 n. 4</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 312-313 n. 157</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4995</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 84 <ptr type="phi" target="200522"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 158</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 20</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 284</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G84</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

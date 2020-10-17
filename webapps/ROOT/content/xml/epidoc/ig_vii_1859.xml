@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un vincitore di un agone del <foreign>koinon</foreign> cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG VII 1859</idno>
+                        <idno type="projectNo">593</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#thebes_museum">Museo archeologico di Tebe</repository> 
+                                <idno type="invNo">1435</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#thespiai">Tespie</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἐν <placeName ref="#gortyn">Γόρτυν<supplied reason="lost">ι</supplied></placeName>
+                          <lb n="2"/><rs type="institution" subtype="assembly" role="dedicant" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινὸν</w> <placeName ref="#crete" type="ethnic"><supplied reason="lost">Κρηταιέων</supplied></placeName></rs>
+                          <lb n="3"/>τὸν <rs type="institution" subtype="practice" role="competition" key="hisolympion_pankration" ref="#koinon_kretaieon"><w lemma="ἰσολύμπιον παγκράτιον">ἰσ<corr>ο</corr><supplied reason="lost">λύμπιο</supplied><lb 
+                        break="no" n="4"/>ν παγ<supplied reason="lost">κράτιον</supplied></w></rs>
+                          <lb n="5"/><w lemma="παῖς">πα<supplied reason="lost">ίδων</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="2"><note><supplied reason="lost">Κρητῶν</supplied> <bibl><ref target="#bib6"><title>IG</title></ref></bibl>, <bibl><ref target="#bib443"><title>IThesp</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione è stata posta da un individuo – il cui nome non è pervenuto – che è risultato vincitore di una gara di pancrazio organizzata a Gortyna dal <foreign>koinon</foreign> cretese (altri agoni connessi al <foreign>koinon</foreign> sono attestati per l’età imperiale inoltrata; cf. <ref type="ins"><title>IC</title> I 18 55</ref> e <ref type="ins"><title>SEG</title> 51.1137</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hisolympion_pankration"><foreign>hisolympion pankration</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> VII 1859 <ptr type="phi" target="145347"/></bibl>; 
+                        <bibl><ref target="#bib443">IThesp</ref> 209B</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

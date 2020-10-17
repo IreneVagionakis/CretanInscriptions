@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto del <foreign>koinon</foreign> cretese relativo a Magnesia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">Magnesia 40-41</idno>
+                        <idno type="projectNo">571</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#magnesia">Magnesia, <foreign>agora</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0210" notAfter="-0190">200 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">           
+                <div type="textpart" subtype="fragment" n="A">
+                <ab>
+                        <lb n="1"/>πα<supplied reason="lost">ρ</supplied>ὰ τοῦ <rs type="institution" subtype="assembly" role="decreer" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινοῦ</w> τῶν <placeName ref="#crete" type="ethnic">Κρητῶν</placeName></rs>·
+                        <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#koinon_kretaieon"><w lemma="δοκέω"><supplied reason="lost">ἔ</supplied>δοξεν</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κ<supplied reason="lost">ρ</supplied><unclear>η</unclear>ταιέων</placeName> τῶι <w lemma="κοινόν">κοινῶι</w></rs> <w lemma="συνέρχομαι">συνελ<lb 
+                        break="no" n="3"/><supplied reason="lost">θ</supplied>ουσᾶν</w> <supplied reason="lost">τ</supplied>ᾶμ <rs type="institution" subtype="assembly" role="gathering" key="polis" ref="#unknown"><w lemma="πόλις">πολίων</w></rs> πασᾶν ἐς <placeName ref="#bilkon">Βίλκω<lb 
+                        break="no" n="4"/>να</placeName> ἐς τὸ <rs type="institution" subtype="public_space" role="gathering" key="hieron" ref="#bilkon"><w lemma="ἱερόν">ἱε<supplied reason="lost">ρ</supplied>ὸν</w> τῶ <persName type="divine" key="Apollo Bilkonios">Ἀπέλλωνος τῶ <placeName ref="#bilkon" type="ethnic">Βιλ<lb 
+                        break="no" n="5"/>κωνίω</placeName></persName></rs>, <w lemma="ἁγέομαι">ἁγουμένων</w> <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> <rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#gortyn">ἐπὶ
+                        <lb n="6"/><w lemma="κόσμος">κόσμω<surplus>ι</surplus></w> <persName type="attested" key="Kydas f. Kynnios"><name nymRef="Κύδας">Κύδαντος</name> τῶ <name nymRef="Κύννιος" type="patronymic">Κυννίω</name></persName></rs>· ἐπει<lb 
+                        break="no" n="7"/>δὴ <placeName ref="#magnesia" type="ethnic">Μάγνητες</placeName> <w lemma="οἰκεῖος">οἰκεῖοί</w> ἐντι καὶ <w lemma="φίλος">φίλοι</w> <placeName ref="#crete" type="ethnic">Κρη<lb 
+                        break="no" n="8"/>ταιέων</placeName> πάντων, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#koinon_kretaieon"><w lemma="δοκέω">ἔδοξεν</w></rs> δέ τισιν αὐ<lb 
+                        break="no" n="9"/>τῶν ἐς τὰν <placeName ref="#asia_minor">Ἀσίαν</placeName> <w lemma="ἀποικία">ἀποικίαν</w> <w lemma="στέλλω">στείλασθα<unclear>ι</unclear></w>,
+                        <lb n="10"/>ὑπάρχειν <placeName ref="#magnesia" type="ethnic">Μάγνησιν</placeName> πᾶσιν <w lemma="οἰκειότης">οἰκειότατα</w>
+                        <lb n="11"/>καὶ <w lemma="φιλία">φιλίαν</w> ἀγήρατον καὶ ἐμ <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="prytaneion" ref="#unknown"><w lemma="πρυτανεῖον">πρυτανεί<lb 
+                        break="no" n="12"/>ωι</w></rs> <w lemma="σίτησις">σίτησιν</w>, καὶ <w lemma="εἰσάγω">εἰσάγουσιν</w> καὶ <w lemma="ἐξάγω">ἐξάγουσιν</w> <w lemma="ἀτέλεια">ἀτέ<lb 
+                        break="no" n="13"/>λειαν</w> εἶμεν <w lemma="ἀσυλεί">ἀσυλεὶ</w> καὶ ἀσπονδεὶ κατὰ πᾶ<lb 
+                        break="no" n="14"/>σαγ <placeName ref="#crete">Κρήταγ</placeName> καὶ <w lemma="ἔγκτησις">ἔγκτησιν</w> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#unknown"><w lemma="πολιτεία">πολιτείαν</w></rs>,
+                        <lb n="15"/>δόμεν δὲ αὐτοῖς <w lemma="ἀποπλέω">ἀποπλέουσιν</w> ἑκάστα<supplied reason="lost">μ</supplied>
+                        <lb n="16"/><rs type="institution" subtype="assembly" role="payments" key="polis" ref="#unknown"><w lemma="πόλις">πόλιν</w></rs> <w lemma="ἀργύριον">ἀργυρίω</w> τέσσαρα <w lemma="τάλαντον">τάλαντα</w> κα<supplied reason="lost">ὶ σῖ</supplied><lb 
+                        break="no" n="17"/>τομ πεπονημένον καὶ ἱερεῖα ὅσ’ ἂν θέ<supplied reason="lost">λω</supplied><lb 
+                        break="no" n="18"/><supplied reason="lost">σ</supplied><unclear>ιν</unclear> <supplied reason="lost">α</supplied><unclear>ὐ</unclear><supplied reason="lost">τ</supplied>οὶ εἰς <w lemma="θυσία">θυσίαν</w>, <supplied reason="lost">π</supplied>ροπέμψαι <supplied reason="lost">δὲ</supplied>
+                        <lb n="19"/>αὐτοὺς μέχρι εἰς τὰν <placeName ref="#asia_minor">Ἀσίαν</placeName> ταῖς μακραῖς
+                        <lb n="20"/>ναυσὶν καὶ συμπέμψαι αὐτοῖς <w lemma="τοξότας">τοξό<lb 
+                        break="no" n="21"/>τας</w> εἰς πεντακοσίους <w lemma="ἀνήρ">ἄνδρας</w>, προ<lb 
+                        break="no" n="22"/>πέμψαι δὲ καὶ ἀσπάσασθαι αὐτοὺς καὶ
+                        <lb n="23"/><w lemma="ἀνήρ">ἄνδρας</w> καὶ <w lemma="παῖς">παῖδας</w> καὶ <w lemma="γυνά">γυναῖκας</w> καθ’ ἁ<lb 
+                        break="no" n="24"/>λικίαν καὶ τοὺς <rs type="institution" subtype="board" role="travel" key="hiereus" ref="#unknown"><w lemma="ἱερεύς">ἱερεῖς</w></rs> καὶ τὰς <rs type="institution" subtype="board" role="travel" key="hiereus" ref="#unknown"><w lemma="ἱερεία">ἱερείας</w></rs>·
+                        <lb n="25"/>τὸ δὲ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#koinon_kretaieon"><w lemma="ψάφισμα">ψάφισμα</w></rs> τόδε <w lemma="στάλα">εἰστάλαν</w> λιθίναν
+                        <lb n="26"/><w lemma="ἀναγράφω">ἀναγράψαντας</w> <w lemma="ἀνατίθημι">ἀναθέμεν</w> εἰς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#bilkon"><w lemma="ἱερόν">ἱερὸν</w> τῶ
+                        <lb n="27"/><persName type="divine" key="Apollo Bilkonios">Ἀ<supplied reason="lost">πέλ</supplied><unclear>λ</unclear>ωνος τῶ <placeName ref="#bilkon" type="ethnic">Βιλκωνίω</placeName></persName></rs>, δόμεν δὲ καὶ <rs type="institution" subtype="official" role="payments" key="kathagemon" ref="#koinon_kretaieon"><persName type="attested" key="Leukippos f. Lykios"><name nymRef="Λευκίππος">Λευ<lb 
+                        break="no" n="28"/><supplied reason="lost">κίππωι</supplied></name> <supplied reason="lost">τ</supplied><unclear>ῶι</unclear> <name nymRef="Λύκιος" type="patronymic">Λυκίωι</name></persName> τῶι <w lemma="καθαγεμών">καθαγεμόνι</w> γενομένωι εἰς τὰν <placeName ref="#asia_minor">Ἀσί<lb 
+                        break="no" n="29"/><supplied reason="lost">αν</supplied></placeName></rs> <placeName ref="#crete"><supplied reason="lost">Κρήτα</supplied>ς</placeName> πάσας <rs type="institution" subtype="assembly" role="payments" key="polis" ref="#unknown"><w lemma="πόλις">πόλεις</w></rs> <w lemma="ἀργύριον">ἀργυρίω</w> <w lemma="τάλαντον">τάλαντον</w>· τὸ δὲ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#koinon_kretaieon"><w lemma="ψάφισμα">ψά<lb 
+                        break="no" n="30"/><supplied reason="lost">φισμα</supplied></w></rs> <supplied reason="lost">τ</supplied>ὸ <rs type="institution" subtype="official" role="eponym" key="hiereus" ref="#koinon_kretaieon">ἐπὶ <w lemma="ἱερεύς">ἱερέως</w> <persName type="attested" key="Agaimenis f. Lampaios"><name nymRef="Ἀγαίμενις">Ἀγαιμένιος</name> <unclear>τ</unclear>ῶ <name nymRef="Λαμπαῖος" type="patronymic"><unclear>Λ</unclear><supplied reason="lost">αμ</supplied>παίω</name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="30a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="fragment" n="B">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#milatos"><placeName ref="#milatos" type="ethnic"><supplied reason="lost">Μ</supplied><unclear>ι</unclear>λάτι<supplied reason="lost">οι</supplied></placeName></rs>
+                        <lb n="2"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera"><placeName ref="#aptera" type="ethnic">Ἀπταραῖοι</placeName></rs>
+                        <lb n="3"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eltynia"><placeName ref="#eltynia" type="ethnic">Ἐλτύνιοι</placeName></rs>
+                        <lb n="4"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#keraia"><placeName ref="#keraia" type="ethnic">Κεραιῖται</placeName></rs>
+                        <lb n="5"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#allaria"><placeName ref="#allaria" type="ethnic">Ἀλλαριῶται</placeName></rs>
+                        <lb n="6"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#polyrrhenia"><placeName ref="#polyrrhenia" type="ethnic">Πολυρ<unclear>ρ</unclear>ήνιοι</placeName></rs>
+                        <lb n="7"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phalasarna"><placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName></rs>
+                        <lb n="8"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#rhithymna"><placeName ref="#rhithymna" type="ethnic">Ἀρσινοεῖς</placeName></rs>.
+                   </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>Il decreto, ritenuto dalla maggioranza degli editori un falso antico prodotto da Magnesia, appartiene alla serie di documenti con cui sul finire del III secolo a.C. numerose città greche ed alcuni re ellenistici conferiscono l’<foreign>asylia</foreign> alla città microasiatica in relazione alla sua recente istituzione delle festività in onore di Artemide <foreign>Leukophryena</foreign> (<ref type="ins"><title>I.Magnesia</title> 16-84</ref>).</p>
+                    <p>Il documento, di cui si conservano la parte iniziale (A) e quella finale (B), quand’anche non genuino offre comunque alcune informazioni che potrebbero trovare una corrispondenza nelle realtà istituzionali cretesi dell’epoca.</p>
+                    <p>La formula di sanzione alla linea 2 del frammento A, che mostra il <foreign>koinon</foreign> cretese in qualità di responsabile della decisione, è infatti analoga a quella attestata nel decreto <ref type="ins" target="#ic2_5_22"><title>IC</title> II 5 22</ref> e affine a quella di mozione di <ref type="ins" target="#ic1_24_2"><title>IC</title> I 24 2</ref> (in <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>, invece, compaiono in tale ruolo anche i <foreign>synedroi</foreign>; cf. inoltre <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref>).</p>
+                    <p>La sezione alle linee 2-6 conserva il ricordo dell’occasione della deliberazione, un raduno delle <foreign>poleis</foreign> cretesi (appartenenti al <foreign>koinon</foreign>) a Bilkon, presso il santuario di Apollo <foreign>Bilkonios</foreign> (il cui culto è attestato dal giuramento del trattato <ref type="ins" target="#seg_41_743"><title>SEG</title> 41.743</ref>, in cui viene invocato Ἀπέλλωνα τόμ Βιλκώ[νιον]), seguito dalla datazione dell’incontro. La formula di datazione, che ricorda il cosmo eponimo di Gortyna Kydas figlio di Kynnios, presenta una formulazione piuttosto inusuale rispetto a quelle analoghe attestate per il <foreign>koinon</foreign> e per Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>); la sequenza del ricordo della circostanza della riunione seguita dalla datazione della città a guida del <foreign>koinon</foreign>, tuttavia, trova un parallelo nei decreti <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref> e in <ref type="ins" target="#ic2_16_9"><title>IC</title> II 16 9</ref>.</p>
+                    <p>L’oggetto del decreto – preceduto dalla sua motivazione, individuata nell’<foreign>oikeiotes</foreign> e nell’amicizia di Magnesia nei confronti di tutti i <foreign>Kretaieis</foreign> (ll. 6-8) – include la ripetizione del verbo ἔδοξεν e prevede l’invio di una <foreign>apoikia</foreign> cretese in Asia (ll. 8-9), oltre alla concessione ai cittadini di Magnesia della <foreign>sitesis</foreign> nel pritaneo (delle singole città cretesi?), del diritto di importare ed esportare da o verso Creta esenti da tasse, dell’<foreign>enktesis</foreign> e della cittadinanza, sebbene non sia chiaro se sia intesa quella federale del <foreign>koinon</foreign> – peraltro non altrimenti documentata – o quella di qualsiasi città cretese i beneficiari desiderino (ll. 10-14).</p>
+                    <p>Alle ultime concessioni, tutto sommato in linea con quanto previsto da numerosi decreti onorari cretesi (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic2_3_9"><title>IC</title> II 3 9</ref>), fanno seguito alle linee 15-24 dettagliate disposizioni relative all’improbabile fondazione di una colonia cretese in Asia (che fa da <foreign>pendant</foreign> al fittizio mito delle origini cretesi di Magnesia esposto in <ref type="ins" target="#magnesia_158"><title>Magnesia</title> 158</ref>), che prevedono che ciascuna <foreign>polis</foreign> consegni a chi parte – uomini, donne, bambini, sacerdoti e sacerdotesse – quattro talenti d’argento, grano maturo e quante vittime sacrificali costoro desiderino per compiere un sacrificio; tale primo invio deve essere accompagnato da un contingente di massimo cinquecento arcieri.</p>
+                    <p>La formula di esposizione, alle linee 25-27, prevede l’iscrizione del decreto nel santuario di Apollo <foreign>Bilkonios</foreign> ed è seguita da un’ulteriore clausola che prescrive la consegna di un talento d’argento da parte di tutte le <foreign>poleis</foreign> cretesi a Leukippos figlio di Lykios, scelto come <foreign>kathagemon</foreign> della spedizione (ll. 27-29).</p>
+                    <p>Alle linee 29-30, inoltre, è presente quella che pare una datazione del decreto commemorante il sacerdote Agaimenes figlio di Lampaios, l’unico caso di formula datante cretese a ricordare uno <foreign>hiereus</foreign> (oltre all’espressione ἐπὶ Αἰγύλω ἱαριτεύοντος di <ref type="ins" target="#ic2_23_7"><title>IC</title> II 23 7</ref> A, aggiunta ad una datazione che ricorda i <foreign>damiorgoi</foreign> in carica; l’espressione ἐφ’ ἱαρέος Πανάριος Ἱπποκλε[ί]δα presente in <ref type="ins" target="#ic2_25_3"><title>IC</title> II 25 3</ref>, invece, sembra riferirsi all’atto di dedica compiuta dal sacerdote).</p>
+                    <p>Quanto alle otto <foreign>poleis</foreign> cretesi elencate nel frammento B, dislocate tutte a Creta occidentale o centro-occidentale, non è possibile determinare se queste appartenessero veramente al <foreign>koinon</foreign> cretese nel periodo in questione o se la lista sia stata redatta da Magnesia sulla base delle proprie conoscenze geografiche relative a Creta.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kathagemon"><foreign>kathagemon</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<ref type="inst" target="#politeia"><foreign>politeia</foreign></ref>), <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b981">Kern 1894</ref>, pp. 14-17 (A</bibl>); 
+                    <bibl><ref target="#b1661">Sakolowski 1896</ref>, p. XXIV (A)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 438 (A)</bibl>; 
+                    <bibl><ref target="#bib109"><title>I.Magnesia</title></ref> 20-21</bibl>; 
+                    <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 206</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5152</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib56"><title>Magnesia</title></ref> 40-41 <ptr type="phi" target="260482"/> <ptr type="phi" target="260483"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 82 (B)</bibl>; 
+                    <bibl><ref target="#b1792">Sumi 2004</ref> (A, ll. 6-29)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> p. 54 n. 2.12 (B)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1482">Parke – Wormell 1956</ref>, n. 382 (A)</bibl>; 
+                    <bibl><ref target="#b543">Dušanić 1983</ref></bibl>; 
+                    <bibl><ref target="#b289">Chaniotis 1988</ref>, D27</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, p. 181</bibl>;
+                    <bibl><ref target="#b313">Chaniotis 1999b</ref></bibl>;
+                    <bibl><ref target="#b258">Carless Unwin 2013</ref></bibl>;
+                    <bibl><ref target="#b355">Chaniotis 2015a</ref></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

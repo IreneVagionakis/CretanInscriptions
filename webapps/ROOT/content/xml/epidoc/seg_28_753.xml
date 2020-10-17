@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di una <foreign>hetaireia</foreign> da Soulia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 28.753</idno>
+                        <idno type="projectNo">150</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 100</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#soulia">Soulia</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0100">III-II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="builder" key="preigistos" ref="#soulia"><w lemma="πρειγιστεύω">πρειγιστεύσας</w>
+                          <lb n="2"/><persName type="attested" key="Soarchos Tribalis f. Paithemidas "><name nymRef="Σόαρχος">Σόαρχος</name> <name nymRef="Παιθεμίδας" type="patronymic">Παιθε<lb 
+                        break="no" n="3"/>μίδα</name> <name nymRef="Τριβάλις">Τριβάλις</name></persName></rs>
+                          <lb n="4"/>καὶ <rs type="institution" subtype="social_group" role="builder" key="pentekostys" ref="#soulia">ἁ <w lemma="πεντηκοστύς">πεντηκοστύ<lb 
+                        break="no" n="5"/>ς</w> ἀπὸ Διοσκώρων</rs>,
+                          <lb n="6"/><rs type="institution" subtype="social_group" role="builder" key="hetaireia" ref="#soulia"><w lemma="ἑταιρήια">ἑταιρήια</w></rs> ἁ <rs type="institution" subtype="official" role="eponym" key="eponymos" ref="#soulia"><persName type="attested" key="Stryphidas"><name nymRef="Στρυφίδας">Στρυ<lb 
+                        break="no" n="7"/>φίδα</name></persName></rs> καὶ <rs type="institution" subtype="official" role="eponym" key="eponymos" ref="#soulia"><persName type="attested" key="Hyrtaios"><name nymRef="Ὑρταῖος">Ὑρταίω</name></persName></rs>,
+                          <lb n="8"/>τῶ <rs type="institution" subtype="public_space" role="construction" key="naos" ref="#soulia"><w lemma="ναός">ναῶ</w> </rs><w lemma="ἐπιμελέομαι">ἐπεμελή<lb 
+                        break="no" n="9"/>θεν</w>. <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="5"><note>ἀπὸ Διοσκώρων <bibl><ref target="#b1186">Manganaro</ref></bibl>, <bibl><ref target="#bib13">Bile</ref></bibl>, <bibl><ref target="#b1">Ackermann</ref></bibl>; ἁ πόλιος Κωρίων <bibl><ref target="#b1178">Makris</ref></bibl>, <bibl><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, relativa all’edificazione o al restauro di un tempio, è particolarmente interessante per le figure istituzionali che vi sono menzionate. Il responsabile dell’attività edilizia è Soarchos figlio di Paithemidas detto Tribalis, che ha rivestito la carica di <foreign>preigistos</foreign> (a Creta altri <foreign>preigistoi</foreign> sono noti a Gortyna, Hierapytna, Biannos, Lato e Olous: cf. <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref> e <ref type="ins" target="#ic4_184">184</ref>, <ref type="ins" target="#seg_39_967"><title>SEG</title> 39.967</ref>, <ref type="ins" target="#be_1973_355"><title>BE</title> 1973.355</ref>, <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref> e forse <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref>).</p>
+                    <p>Oltre a lui, nell’iscrizione compare come curatrice del tempio anche la <foreign>pentekostys</foreign> detta «dei Dioscuri», che viene ulteriormente definita come eteria di Stryphis e Hyrtaios. La frase, dal significato piuttosto oscuro, fornisce l’unica attestazione cretese della <foreign>pentekostys</foreign>, che potrebbe essere un’unità militare o politico-religiosa (cf. <bibl><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref></bibl>). Potrebbe trattarsi di un raggruppamento di origine antica e dapprima militare (così <bibl><ref target="#b1">Ackermann 2011</ref></bibl>, che cita un parallelo arcaico dalla Sicilia, <ref type="ins"><title>SEG</title> 47.1433.1</ref>), meno probabilmente una creazione tardiva su emulazione delle ripartizioni civiche di Cos, come suggerisce invece Giacomo Manganaro. In ogni caso, sfugge il collegamento esistente fra la <foreign>pentekostys</foreign> e l’eteria, componente sociale che a Creta è nota solo a Malla, Dreros, Gortyna e Axos (cf. <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> A, <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>, <ref type="ins" target="#seg_23_530"><title>SEG</title> 23.530</ref>, <ref type="ins" target="#ic4_42"><title>IC</title> IV 42</ref>, <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref>). Non è chiaro neppure il tipo di relazione intercorrente fra l’eteria e i due individui menzionati alle linee 6-7: costoro potrebbero forse essere magistrati eponimi di qualche sorta (cosmi o sacerdoti?) appartenenti all’eteria a cui a sua volta appartiene la <foreign>pentekostys</foreign> dei Dioscuri.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hetaireia"><foreign>hetaireia</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#pentekostys"><foreign>pentekostys</foreign></ref>, <ref type="inst" target="#preigistos"><foreign>preigistos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1178">Makris 1970</ref>, p. 1 (<foreign>non vidi</foreign>)</bibl>; 
+                            <bibl><ref target="#b1186">Manganaro 1974-1978</ref>, pp. 43-50</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 28.753 <ptr type="phi" target="201866"/> <ptr type="seg" target="a28_753"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 49</bibl>; 
+                            <bibl><ref target="#b1">Ackermann 2011</ref>, pp. 63-64</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 100 <ptr type="thetima" target="e100"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

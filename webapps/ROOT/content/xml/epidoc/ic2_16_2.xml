@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Tenos da parte di Lappa (rinnovo)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 2*</idno>
+                        <idno type="projectNo">080</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#athens_national_museum">Museo Nazionale, Atene</repository> 
+                                <idno type="invNo">11568</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#tenos">Tenos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0250">300-250 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ιω<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear> <w lemma="γράφω" part="I">γ<unclear>ε</unclear>γραμ<supplied reason="lost">μ</supplied><unclear>εν</unclear><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear> <unclear>ἀ</unclear><supplied reason="lost">ν</supplied>ανέω<unclear>ν</unclear>ταί <unclear>τ</unclear><supplied reason="lost">ε τὰν <w lemma="ἀσυλία">ἀσυλίαν</w> τῶ ἱρῶ τῶ</supplied>
+                          <lb n="4"/><supplied reason="lost"><persName type="divine" key="Poseidon">Ποτειδάωνος</persName> καὶ τᾶς</supplied> <persName type="divine" key="Amphitrite"><supplied reason="lost">Ἀ</supplied><unclear>μ</unclear>φιτρίτας</persName> καὶ τὰν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>π</unclear>α<unclear>ρ</unclear>ακαλῶντι <placeName ref="#tenos" type="ethnic">Την<supplied reason="lost">ι</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ τὰ λο</supplied>ιπὰ παρὰ <placeName ref="#lappa" type="ethnic">Λαππαίων</placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="ἐπαινέω">ἐπαινῶντι</w></supplied>
+                          <lb n="7"/><supplied reason="lost">δὲ καὶ τὼς πρεσβευτ</supplied><unclear>ὰ</unclear>ς καὶ τὸν συνεσδεδα<unclear>μ</unclear><supplied reason="lost">ηκότα αὐτοῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπ</supplied>ὶ τᾶι ἀναστροφᾶι ἃν ἐπο<supplied reason="lost">ιήσαντο ἀξίως ἀμφοτε</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">ρᾶν τε τᾶν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#lappa"><w lemma="πόλις">πολίων</w></rs> καὶ α</supplied>ὑτῶν· ἐποιησάμεθα δὲ αὐ<unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <w lemma="θεός">θεῶ</w> καὶ τοῖς πρεσβευταῖς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ε καιρὸν καὶ ἐν τῶι <rs type="institution" subtype="assembly" role="unknown" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινῶ<supplied reason="lost">ι</supplied></w> <supplied reason="lost">τῶν <placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></supplied></rs>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>. τῶι <w lemma="θεός">θεῶι</w>. <w lemma="εὐτυχέω">εὐτυχεῖτε</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che per la presenza del saluto finale εὐτυχεῖτε è identificabile come un’epistola, conserva una parte del decreto inviato da Lappa a Tenos con cui la città cretese rinnova una precedente concessione di <foreign>asylia</foreign> effettuata nei confronti di quest’ultima (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 154-163</bibl>). Il decreto prevede inoltre il conferimento di onori agli ambasciatori di Tenos giunti a Lappa, motivato dal loro comportamento degno di entrambe le <foreign>poleis</foreign>. Nel documento sono andate perdute le menzioni delle entità istituzionali responsabili dell’emanazione del decreto e della redazione dell’epistola; è verosimile che alla linea 6 l’etnico collettivo Λαππαίων fosse seguito dal termine <foreign>polis</foreign>, sebbene non sia da escludere la possibile presenza di un differente organo assembleare della città come ad esempio l’<foreign>ekklesia</foreign>, attestata da <ref type="ins" target="#ic2_16_3"><title>IC</title> II 16 3</ref>.</p>
+                    <p>Il <foreign>koinon</foreign> nominato alla linea 11 è molto verosimilmente il <foreign>koinon</foreign> cretese; sebbene sfugga quale sia il suo ruolo nel contesto dell’emanazione del decreto da parte di Lappa, la sua menzione è tuttavia significativa poiché suggerisce l’appartenenza di quest’ultima al <foreign>koinon</foreign>, ipotesi supportata anche dal ritrovamento nella città del decreto del <foreign>koinon</foreign> <ref type="ins" target="#ic2_16_9"><title>IC</title> II 16 9</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1062">Latyschev 1883</ref>, pp. 247-250</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII 5.868A</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1032</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 2* <ptr type="phi" target="199969"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 59</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

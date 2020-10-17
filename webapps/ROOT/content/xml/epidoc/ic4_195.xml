@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Gortyna relativo all’alleanza con Tolemeo V, VI o VIII</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 195</idno>
+                        <idno type="projectNo">310</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_storeroom">deposito di Gortyna (A); </repository> <idno type="invNo"/>
+                                <altIdentifier><repository ref="#agioi_deka">Agioi Deka, in una casa (B); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#herakleion_museum">Museo archeologico di Herakleion (C)</repository><idno type="invNo">166</idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>tre <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="fragment" n="A">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="κορμέω">κορμιόντων</w> τῶν σὺν</supplied> <persName type="attested" key="Pyroos f. Kallidamos"><name nymRef="Πύρωος"><supplied reason="lost">Π</supplied>υ<supplied reason="lost">ρ</supplied>ώω<supplied reason="lost">ι</supplied></name> <supplied reason="lost">τ</supplied>ῶ <name nymRef="Καλλίδαμος" type="patronymic">Καλ<supplied reason="lost">λι</supplied><unclear>δ</unclear>άμω</name></persName></rs> τά<supplied reason="lost">δ’</supplied> <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#gortyn"><w lemma="ϝανδάνω">ἔ<lb 
+                        break="no" n="2"/><supplied reason="lost">ϝαδε</supplied></w></rs> <supplied reason="lost">τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs>. <space extent="unknown" unit="character"/> ἐπειδὴ πρὸς τὸ</supplied><unclear>ν</unclear>ς ὑπεναντίονς <w lemma="συνμαχέω">συνεμαχή<lb 
+                        break="no" n="3"/><supplied reason="lost">σαντο</supplied></w> <supplied reason="lost">ἁμῖν οἱ <w lemma="ἐξαποστάλλω">ἐξαποσταλέντες</w> ὑ</supplied>πὸ <persName type="ruler" key="Ptolemaios V/VI/VIII" ref="#egypt"><w lemma="βασιλεύς">βασιλέως</w> <name nymRef="Πτολεμαῖος">Πτολεμαίω</name></persName> <w lemma="ἀνήρ">ἄν<lb 
+                        break="no" n="4"/><supplied reason="lost">δρες</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="θιός"><supplied reason="lost">θι</supplied><unclear>ὸ</unclear>νς</w> πάντας καὶ πάνσανς ἀπο
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>κ</unclear>αὶ <w lemma="ἀνγράφω">ἀνγράψαι</w> τὰ <w lemma="ὄνομα">ὀνό<unclear>μ</unclear><supplied reason="lost">α</supplied>τα</w> ἑκασ<lb 
+                        break="no" n="6"/><supplied reason="lost">τ</supplied><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ω</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ω</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ο</supplied><unclear>ἵ</unclear>δε <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κόρμος">κόρμοι</w>· <space extent="unknown" unit="character"/> <persName type="attested" key="Pyroos f. Kallidamos"><name nymRef="Πύρωος">Πύρωος</name> <name nymRef="Καλλίδαμος" type="patronymic">Καλλιδάμ<unclear>ω</unclear></name></persName></rs>,
+                          <lb n="3"/><rs type="institution" subtype="official" role="incumbent" key="hiarorgos" ref="#gortyn"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="- f. -andros"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="-ανδρος" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/>άνδρω</name></persName> <space extent="unknown" unit="character"/> <w lemma="ἱαρουργός">ἱαρουργός</w></rs></rs>,
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Damagoras f. Aristophoos"><name nymRef="Δαμαγόρας">Δαμαγόρας</name> <name nymRef="Ἀριστόφοος" type="patronymic">Ἀριστόφω</name></persName></rs>,
+                          <lb n="5"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="-anax f. Euryanax"><name nymRef="-άναξ"><gap reason="lost" extent="unknown" unit="character"/>άναξ</name> <name nymRef="Εὐρυάναξ" type="patronymic">Εὐρυάναττος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="Kalabis f. Nikandros"><name nymRef="Κάλαβις">Κάλαβις</name> <name nymRef="Νίκανδρος" type="patronymic">Νικάνδρω</name></persName></rs>,
+                          <lb n="6"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><persName type="attested" key="-enos f. Thilaios"><name nymRef="-ενος"><gap reason="lost" extent="unknown" unit="character"/>ενος</name> <name nymRef="Θιλαῖος" type="patronymic">Θιλαίω</name></persName></rs>. <space extent="unknown" unit="character"/> <w lemma="ἀνήρ">ἀνδρῶν</w> <w lemma="ὄνομα">ὀνόματα</w>·
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> Παθρ<unclear>η</unclear>ς Ἰνάρωτος
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ο</supplied><unclear>υ</unclear> <space extent="unknown" unit="character"/> Νέχθης Παΐτος
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> Ὄννωφρις Ὤρο<unclear>υ</unclear>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear> <space extent="unknown" unit="character"/> Κελέησις Πετοσίριος
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> Ψενόβαστις <unclear>Ἀθ</unclear>οννώφριος
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>νοφιος
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <space extent="unknown" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="C">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ει<unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">Νεφ</supplied>εριεὺς <supplied reason="lost">Π</supplied>ετεμέ<supplied reason="lost">νιος</supplied>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>τε<supplied reason="lost">ὺς</supplied> <unclear>Ἁ</unclear>ρ<unclear>ε</unclear>ώρ<supplied reason="lost">ου</supplied>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Πα</supplied>τεῶτ<supplied reason="lost">ος</supplied>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> Πάσιτος
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>μ</unclear></orig><gap reason="lost" quantity="3" unit="character"/> Παχω<supplied reason="lost">μίου</supplied>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ<unclear>ε</unclear></orig><gap reason="lost" quantity="5" unit="character"/>ς
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ς Ψ<supplied reason="lost">εν</supplied>ιήσιος
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>ρχ<unclear>ε</unclear>χήους
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Πατ</supplied>εῶτος
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> Ἀμφιωμίο<supplied reason="lost">υ</supplied>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Πετε</supplied><unclear>φ</unclear>νεφόρω
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Πε</supplied>τοσίριος
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>ενοφό<supplied reason="lost">ριος</supplied>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><unclear>ο</unclear>υ
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><orig>υ<unclear>χ</unclear>ι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento si apre con una formula di datazione, nella quale viene ricordato il cosmo eponimo Pyroos figlio di Kallidamos, a cui fa seguito la formula di sanzione, che è verosimile che menzionasse come decretante la sola <foreign>polis</foreign> di Gortyna (così in <ref type="ins" target="#ic4_165"><title>IC</title> IV 165</ref>, <ref type="ins" target="#ic4_231">231</ref>, <ref type="ins" target="#ic4_378">378</ref> e forse <ref type="ins" target="#ic4_162">162</ref>; sono invece presenti anche i cosmi in <ref type="ins" target="#ic4_176"><title>IC</title> IV 176</ref> e forse <ref type="ins" target="#ig_xii_6_1_144"><title>IG</title> XII, 6 1 144</ref>).</p>
+                    <p>L’oggetto del decreto, esposto assieme alle sue motivazioni alle linee A 2-6, prevede che vengano iscritti i nomi di coloro che sono stati inviati da un re lagide (Tolemeo V, VI o VIII) a combattere come alleati al fianco di Gortyna contro i suoi nemici. La lista, che occupa i frammenti B e C, elenca dapprima i cosmi in carica a Gortyna – almeno sette, fra i quali figurano il cosmo eponimo Pyroos figlio di Kallidamos e un cosmo <foreign>hiarorgos</foreign> (ll. B 2-6) –, ai quali fanno seguito i nomi dei soldati inviati da Tolemeo (ll. B 6 - C 16).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b839">Halbherr 1889</ref>, pp. 59-61 n. 4 (C)</bibl>; 
+                            <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 234-236 n. 38 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5030a (B)</bibl>;
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 195 <ptr type="phi" target="200634"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2081">Bagnall 1973</ref>, pp. 124-127</bibl>; 
+                            <bibl><ref target="#b1162">Magnelli 1994-1995</ref>, pp. 47-49</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza ed <foreign>isopoliteia</foreign> fra Axos e la Lega Etolica</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 18</idno>
+                        <idno type="projectNo">132</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#axos">Axos, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/> <w lemma="συγγενής">συγγεν<supplied reason="lost">ει</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="2"/><gap reason="illegible" quantity="1" unit="character"/>ταδε συ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="illegible" quantity="1" unit="character"/>ται <placeName ref="#aetolia">Αἰτω<unclear>λ</unclear></placeName><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#aetolia"><supplied reason="lost">Αἰτ</supplied><lb 
+                        break="no" n="4"/>ωλίαν</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#axos"><w lemma="ἰσοπολιτ-" part="I">ἰσοπ<supplied reason="lost">ολιτ</supplied></w></rs><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="illegible" quantity="1" unit="character"/>τι κοινα δ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>ροις τοῖς θεο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><w lemma="βοαθέω">βοαθεῖν</w> των<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/>κατὰ δύνα<unclear>μ</unclear><supplied reason="lost">ιν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>χόντων δὲ <unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/>τὰ ὀψώνια τε<unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/>τας τὰ ὀψώνια <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><orig>νο</orig><gap reason="lost" quantity="6" unit="character" precision="low"/><orig>οα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><orig><unclear>λ</unclear>ε<unclear>ο</unclear>τ</orig>
+                          <lb n="2"/><orig>θ</orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>λ</unclear></orig>
+                          <lb n="3"/><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="3a"/><space quantity="1" unit="line" cert="low"/>
+                          <lb n="4"/><orig>κ</orig>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>γ</unclear>α</orig>
+                          <lb n="6"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="7"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="7a"/><space quantity="1" unit="line" cert="low"/>
+                          <lb n="8"/><orig>εοινο</orig><gap reason="illegible" quantity="1" unit="character"/><orig>γ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><orig>ριτωεοιι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><orig>καταπε<unclear>η</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento di trattato, che fa riferimento ad una preesistente <foreign>syngeneia</foreign> fra gli Etoli ed Axos, sembra prevedere sia un’alleanza (l. A 7, βοαθεῖν) che un rapporto di <foreign>isopoliteia</foreign> (l. A 4, ἰσοπ[ολιτ-]) fra i contraenti. La questione della concessione di cittadinanza fra Etoli ed Axos è documentata anche dalla lettera inviata ai primi dalla città cretese <ref type="ins" target="#ic2_5_19"><title>IC</title> II 5 19</ref>, in cui Axos richiede che venga concessa la <foreign>koinopoliteia</foreign> etolica a quattro propri cittadini residenti ad Anfissa, e dalla relativa risposta <ref type="ins" target="#seg_18_248"><title>SEG</title> 18.248</ref>, in cui gli Etoli dichiarano di concedere loro la <foreign>politeia</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 742-743 n. 197</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> IX<hi rend="superscript">2</hi> 193</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 18 <ptr type="phi" target="199779"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 585 (A)</bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 36 (A)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b648">Funke 2008</ref>, pp. 265-266</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

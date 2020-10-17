@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Iscrizioni edificatorie dal <foreign>naiskos</foreign> fluviale di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 7</idno>
+                <idno type="projectNo">002</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kissamos_museum">Museo archeologico di Kissamos</repository>
+                        <idno type="invNo">E 14</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#building_inscription">due iscrizioni edificatorie</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#thesaurophylakion">tesoro</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, <foreign>naiskos</foreign> fluviale</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0170">A 300-250 a.C., B inizi II secolo a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <div type="textpart" subtype="part" n="A">
+                    <ab>
+                        <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia">ἐπὶ <w lemma="δαμιοργός">δαμιοργῶν</w> <persName type="attested" key="Onasandros f. Parmenon"><name nymRef="Ὀνάσανδρος">Ὀνάσανδρος</name> <name nymRef="Παρμένων" type="patronymic">Παρμένοντος</name></persName></rs>,
+                        <lb n="2"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Oionikles f. Taskydas"><name nymRef="Οἰωνικλῆς">Οἰωνικλῆς</name> <name nymRef="Τασκύδας" type="patronymic">Τασκύδα</name></persName></rs>,
+                        <lb n="3"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Oryas f. Pithos"><name nymRef="Ὀρύας">Ὀρύας</name> <name nymRef="Πίθος" type="patronymic">Πίθω</name></persName></rs>,
+                    </ab>
+                    <div type="textpart" subtype="column" n="I">
+                        <ab>
+                            <lb n="4"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Taskainnadas f. Sosos"><name nymRef="Τασκαιννάδας">Τασκαιννάδας</name> <name nymRef="Σῶσος" type="patronymic">Σώσω</name></persName></rs>,
+                            <lb n="5"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Thales f. Menedamos"><name nymRef="Θάλης">Θάλης</name> <name nymRef="Μενέδαμος" type="patronymic">Μενεδάμω</name></persName></rs>.
+                        </ab>
+                    </div>
+                    <div type="textpart" subtype="column" n="II">
+                        <ab>
+                            <lb n="4"/><rs type="institution" subtype="official" role="eponym" key="hiereus" ref="#polyrrhenia" cert="low">ἐπὶ <persName type="attested" key="Aigylos"><name nymRef="Αἰγύλος">Αἰγύλω</name></persName> <w lemma="ἱαριτεύω">ἱαριτεύοντος</w></rs>
+                            <lb n="5"/>Καλλίκριτος <w lemma="ποιέω">ἐποίησε</w>.
+                        </ab>
+                    </div>
+                </div>
+                <div type="textpart" subtype="part" n="B">
+                    <ab>
+                        <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia">ἐπὶ <w lemma="δαμιοργός">δαμιοργῶν</w></rs> ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs>
+                        <lb n="2"/><w lemma="ἐπισκευάζω">ἐπεσκεύασαν</w>
+                        <lb n="3"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia">ἐπὶ <persName type="attested" key="Sokrates f. Stratokydes"><name nymRef="Σωκράτης">Σωκράτεος</name> <name nymRef="Στρατοκύδης" type="patronymic">Στρατοκύδεος</name></persName></rs>,
+                        <lb n="4"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Boulagoras f. Orouas"><name nymRef="Βουλαγόρας">Βουλαγόρας</name> <name nymRef="Ὀρούας" type="patronymic">Ὀρούα</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Androitos f. Aristion"><name nymRef="Ἄνδροιτος">Ἄνδροιτος</name> <name nymRef="Ἀριστίων" type="patronymic">Ἀριστίωνος</name></persName></rs>,
+                        <lb n="5"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Theodoros f. Sosos"><name nymRef="Θεόδωρος">Θεόδωρος</name> <name nymRef="Σῶσος" type="patronymic">Σώσω</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#polyrrhenia"><persName type="attested" key="Androkles f. Sosos"><name nymRef="Ἀνδροκλῆς">Ἀνδροκλῆς</name> <name nymRef="Σῶσος" type="patronymic">Σώσω</name></persName></rs>.
+                    </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>I <foreign>damiorgoi</foreign>, in numero di cinque in entrambe le iscrizioni, rivestono una funzione eponima come in tutte le loro altre attestazioni cretesi (con l’eccezione dell’ex <foreign>damiorgos</foreign> di <ref type="ins" target="#seg_60_984"><title>SEG</title> 60.984</ref>). Ad esclusione di Sokrateus alla linea B3, i nomi di tutti gli altri <foreign>damiorgoi</foreign> si trovano al nominativo nonostante il precedente ἐπὶ δαμιοργῶν, che presupporrebbe invece l’uso del genitivo. Oltre ai <foreign>damiorgoi</foreign>, la più antica delle due iscrizioni impiega anche un sacerdote come elemento datante e fa inoltre menzione dell’artefice – o più probabilmente del finanziatore – della costruzione (cf. <bibl><ref target="#bib13">Bile</ref>, pp. 356-357</bibl>; <bibl><ref target="#b1238">Martínez Fernández 1999</ref>, pp. 424-425</bibl>). A tale iniziativa privata di Kallikritos, non insignito di alcun titolo, fa da contrappeso nella seconda iscrizione il coinvolgimento della <foreign>polis</foreign>, responsabile del restauro o della ricostruzione del <foreign>naiskos</foreign>. Occorre tuttavia notare che il verbo relativo al restauro, pur essendo sintatticamente connesso alla <foreign>polis</foreign>, è plurale e pare pertanto da mettere in relazione con i <foreign>damiorgoi</foreign> stessi, la cui menzione risulta bruscamente interrotta dall’inserimento di ἁ πόλις ἐπεσκεύασαν. L’impressione, dunque, è che la collettività della <foreign>polis</foreign> cerchi di inserirsi a forza in un’attività che meno di un secolo prima era in mano all’iniziativa privata e legata alla sfera sacerdotale e che, ancora nel II secolo a.C., continua ad essere controllata dai <foreign>damiorgoi</foreign>.</p>
+                    <p>Quanto agli aspetti prosopografici, il <foreign>damiorgos</foreign> Boulagoras figlio di Oruas (B, l. 4) potrebbe essere parente – forse il fratello – di Aristagoras figlio di Orouas, commemorato da una stele funeraria del II secolo a.C. (<ref type="ins"><title>IC</title> II 23 15</ref>).</p>
+                    <p>Il patronimico di uno dei <foreign>damiorgoi</foreign>, Τασκύδας, e il nome di un altro membro del collegio, Τασκαιννάδας, sono antroponimi derivanti dalla radice τασκ-, peculiari di Creta occidentale e nello specifico di Polyrrhenia (cf. <bibl><ref target="#b1290">Masson 1985</ref>, n. VII</bibl>, <bibl><ref target="#b894">Hitchman 2002</ref>, pp. 118-120</bibl>, <bibl><ref target="#b719">Gondicas 1988</ref>, pp. 252-257</bibl>; cf. inoltre <ref type="ins" target="#ic2_23_9"><title>IC</title> II 23 9</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                 <p>
+                    <emph>Edd.</emph> <bibl><ref target="#b1387">Myres 1896</ref>, n. 15</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5117</bibl>; 
+                    <bibl><ref target="#b756">Guarducci 1930</ref>, pp. 57, 68-69</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 7 <ptr type="phi" target="200043"/> <ptr type="phi" target="200044"/></bibl>;
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 37</bibl>; 
+                    <bibl><ref target="#b960">Kaminski 1991</ref>, n. II.1</bibl>;
+                    <bibl><ref target="#b1243">Martínez Fernández 2002</ref>, n. 2</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 9</bibl>;
+                     <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 42</bibl>.
+                     <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b844">Halbherr 1899</ref>, p. 527</bibl>; 
+                    <bibl><ref target="#b1671">Savignoni 1901</ref>, pp. 333-334</bibl>; 
+                    <bibl><ref target="#b1712">Sherk 1990a</ref>, pp. 268-269</bibl>; 
+                    <bibl><ref target="#b1380">Muller-Dufeu 2002</ref>, n. 2721</bibl>.
+                 </p>
+            </div>
+        </body>
+    </text>
+</TEI>

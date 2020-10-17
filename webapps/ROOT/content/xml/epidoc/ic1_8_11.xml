@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Knossos (rinnovo)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 11*</idno>
+                        <idno type="projectNo">170</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#knossos" type="ethnic">Κνωσίων</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλει</w></rs>· ἐπει<lb 
+                        break="no" n="3"/>δὴ <persName type="honoured" key="Herodotos f. Menodotos" ref="#teos"><name nymRef="Ἡρόδοτος">Ἡρόδοτος</name> <name nymRef="Μηνόδοτος" type="patronymic">Μηνοδότω</name></persName> καὶ <persName type="honoured" key="Menekles f. Dionysios" ref="#teos"><name nymRef="Μενεκλῆς">Μενεκλῆς</name> <name nymRef="Διονύσιος" type="patronymic">Διονυσίω</name></persName>
+                          <lb n="4"/><w lemma="ἀποστέλλω">ἀποσταλθέντες</w> πρεγγευταὶ πὰρ <placeName ref="#teos" type="ethnic">Τηίων</placeName> πορτὶ
+                          <lb n="5"/>τὰς ἐν <placeName ref="#crete">Κρήται</placeName> <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#unknown"><w lemma="πόλις">πόλιας</w></rs> καὶ διατρίψαντεν τὸν πλεῖσ<lb 
+                        break="no" n="6"/>τον χρόνον ἐν τᾶι ἁμᾶι <rs type="institution" subtype="public_space" role="hospitality" key="polis" ref="#knossos"><w lemma="πόλις">πόλει</w></rs>, οὐ μόνον τὰν ἀπὸ τᾶς
+                          <lb n="7"/>ἀναστροφᾶς εὐταξίαν ἀπεδείξαντο, ἀλλὰ καὶ ἐπε<lb 
+                        break="no" n="8"/>δείξατο Μενεκλῆς μετὰ <w lemma="κιθάρα">κιθάρας</w> πλεονάκις τά τε
+                          <lb n="9"/>Τιμοθέω καὶ Πολυίδω καὶ τῶν ἁμῶν <w lemma="ἀρχαῖος">ἀρχαίων</w> <w lemma="ποιητής">ποιη<lb 
+                        break="no" n="10"/>τᾶν</w> καλῶς καὶ ὡς προσῆκεν <w lemma="ἀνήρ">ἀνδρὶ</w> πεπαιδευμέ<lb 
+                        break="no" n="11"/>νωι· ὁπᾶι ὦν ἰσᾶντι <placeName ref="#teos" type="ethnic">Τήιοι</placeName> ὅτι ἁ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλις</w></rs> ἀποδέδεκται
+                          <lb n="12"/>τὸς τοιούτος τῶν <w lemma="ἀνήρ">ἀνδρῶν</w>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">δεδόχθαι</w></rs> <w lemma="ἐπαινέω">ἐπαινέσαι</w>
+                          <lb n="13"/>τάν τε τῶν <placeName ref="#teos" type="ethnic">Τηίων</placeName> πόλιν ἐπὶ τῶι τοιούτος <w lemma="ἀνήρ">ἄνδρας</w>
+                          <lb n="14"/>πέμψαι, ὁμοίως δὲ καὶ τὸς πρεγγευτάς, Ἡρόδοτον
+                          <lb n="15"/>καὶ Μενεκλῆν, ὅτι καλῶς καὶ εὐτάκτως ἐνδεδα<lb 
+                        break="no" n="16"/>μήκαντι. τὸς δὲ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμος</w></rs> δόμεν <w lemma="ἀντίγραφον">ἀντίγραφον</w> τῶδε
+                          <lb n="17"/>τῶ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#knossos"><w lemma="ψάφισμα">ψαφίσματος</w></rs>, <w lemma="σφραγίζω">σφραγίξαντας</w> τᾶι <rs type="institution" subtype="object" role="foreign_relations" key="damosia_sphragis" ref="#knossos">δαμοσίαι <w lemma="σφραγίς">σφρα<lb 
+                        break="no" n="18"/>γῖδι</w></rs>, ἀποκομίσαι Ἡροδότωι καὶ Μενεκλεῖ πρὸς <placeName ref="#teos" type="ethnic">Τηίος</placeName>
+                          <lb n="19"/>ἵν’ ἐπιγνῶντι καὶ αἰεί ποκα <w lemma="πρόνοια">πρόνοιαν</w> ποΐωνται τῶν
+                          <lb n="20"/>τοιούτων <w lemma="ἀνήρ">ἀνδρῶν</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), in realtà non prevede il rinnovo della concessione accordata in <ref type="ins" target="#ic1_8_8"><title>IC</title> I 8 8</ref>, che doveva forse essere garantita da un altro decreto non pervenuto. Il documento, infatti, è di fatto un decreto onorario per gli ambasciatori inviati da Teos, uno dei quali si è prodigato nell’esecuzione con la <foreign>kithara</foreign> di componimenti musicali di Timotheos, Polyidos e di antichi poeti locali, di Knossos o comunque cretesi (cf. il decreto di Priansos relativo a Teos <ref type="ins" target="#ic1_14_1"><title>IC</title> I 14 1</ref>, di contenuto analogo).</p>
+                    <p>La formula di sanzione, alla linea 2, presenta i cosmi e la <foreign>polis</foreign> di Knossos come i detentori del potere decisionale, come in tutti i documenti analoghi pervenuti dalla città (cf. <ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>, <ref type="ins" target="#ic1_8_9">9</ref>-<ref type="ins" target="#ic1_8_10">10</ref>, <ref type="ins" target="#ic1_8_12">12</ref>, <ref type="ins" target="#ic1_8_14">14</ref>). Nella formula di mozione, invece, non vengono ripetuti i nomi delle istituzioni decretanti, ma compare solamente il verbo δεδόχθαι (l. 12).</p>
+                    <p>Oltre che nella formula di sanzione, la <foreign>polis</foreign> di Knossos viene menzionata anche alla linea 6 con accezione spaziale, mentre compare nuovamente alla linea 11 come responsabile della decisione presa. I cosmi, invece, vengono chiamati in causa nella sezione finale del documento, dove emerge come siano costoro a dover consegnare ai Teii una copia del presente decreto, dopo averla sigillata con il sigillo pubblico di Knossos (ll. 16-20).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damosia_sphragis"><foreign>damosia sphragis</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 3053</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 81</bibl>; 
+                            <bibl><ref target="#b273">Cauer 1883</ref>, n. 129</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 65</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5186</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 190</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 11* <ptr type="phi" target="199129"/></bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 68</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 21*5</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b289">Chaniotis 1988</ref>, E71</bibl>; 
+                            <bibl><ref target="#b436">Curty 1999</ref>, pp. 174-177</bibl>; 
+                            <bibl><ref target="#b1821">Thompson 2007</ref>, pp. 121-123</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

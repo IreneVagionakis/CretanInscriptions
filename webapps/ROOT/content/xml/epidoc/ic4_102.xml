@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 102</idno>
+                        <idno type="projectNo">277</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>κ</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig>σα</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>τον περ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ἐκς <rs type="institution" subtype="public_space" role="unknown" key="agora" ref="#gortyn"><w lemma="ἀγορά">ἀγο<unclear>ρ</unclear><supplied reason="lost">ᾶς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="unknown" key="titas" ref="#gortyn"><w lemma="τίτας">τίτας</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ρ</unclear>αι<unclear>ο</unclear> ἀρ<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="μαίτυρς"><supplied reason="lost">μα</supplied>ίτυ<unclear>ρι</unclear></w> π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>καδδο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ἐ</unclear>νεκυ<supplied reason="lost">ρ</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="3"><note>ἐκς ἀγο<unclear>ρ</unclear><supplied reason="lost">ᾶς</supplied> <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>; ἐκσαγο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il testo, pertinente verosimilmente ad una procedura giudiziaria (cf. l. 6, [μα]ίτυρι), menziona in tale contesto un <foreign>titas</foreign>, un funzionario noto soltanto a Gortyna che è attestato abitualmente in connessione con la riscossione di multe (cf. <ref type="ins" target="#ic4_14"><title>IC</title> IV 14</ref>-<ref type="ins" target="#ic4_15">15</ref>, <ref type="ins" target="#ic4_78">78</ref>-<ref type="ins" target="#ic4_79">79</ref>, <ref type="ins" target="#ic4_107">107</ref> e <ref type="ins" target="#ic4_165">165</ref>; in <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref> è possibile che il <foreign>titas</foreign> attestato sia sia di Lato che di Gortyna).</p>
+                    <p>Il frammento, inoltre, offre la menzione dell’<foreign>agora</foreign> di Gortyna, che nella città è attestata come luogo di svolgimento di processi (in <ref type="ins" target="#ic4_13"><title>IC</title> IV 13</ref>, <ref type="ins" target="#ic4_75">75</ref> e <ref type="ins" target="#ic4_81">81</ref>) e di acquisto di schiavi (<ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>), oltre che come semplice punto di riferimento geografico (<ref type="ins" target="#ic4_43"><title>IC</title> IV 43</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>:  <ref type="inst" target="#agora"><foreign>agora</foreign></ref>, <ref type="inst" target="#titas"><foreign>titas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 102 <ptr type="phi" target="200540"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G102</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b846">Halbherr 1901a</ref>, p. 295</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

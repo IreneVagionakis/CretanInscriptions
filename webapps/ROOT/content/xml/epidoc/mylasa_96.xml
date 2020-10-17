@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di una città cretese relativo a Mylasa</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Mylasa 96</idno>
+                        <idno type="projectNo">567</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#milas">Milas, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#mylasa">Mylasa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="1"/><supplied reason="lost">τάν</supplied> τε πόλ<supplied reason="lost">ιν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀδικέω"><supplied reason="lost">ἀδι</supplied><lb 
+                             break="no" n="2"/>κῶντι</w> ἐξ α<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/>καὶ αἲ κά τιν<supplied reason="lost">ες</supplied> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="πράσσω "><supplied reason="lost">πράσσων</supplied><lb 
+                             break="no" n="4"/>τι</w> πολέμια τ<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="5"/><placeName ref="#mylasa" type="ethnic">Μυλασέων</placeName> ἢ <supplied reason="lost">χώραι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="6"/><w lemma="βοαθέω">βοαθεῖν</w> <placeName ref="#mylasa" type="ethnic">Μυλ<supplied reason="lost">ασεῦσι</supplied></placeName> <supplied reason="lost">παντὶ σθένει</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὡς αὐτᾶς τᾶς</supplied>
+                            <lb n="7"/><rs type="institution" subtype="social_group" role="war" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρήτας</placeName></rs> <w lemma="πολεμέω">πολε<supplied reason="lost">μωμένας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="πρεσβεύω">πρεσβεύειν</w> δὲ</supplied>
+                            <lb n="8"/>καὶ πορτὶ τὸν<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="9"/>καὶ προ<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, appartenente ad un gruppo di iscrizioni di Mylasa riguardanti città cretesi e il <foreign>koinon</foreign> cretese (cf. <ref type="ins" target="#mylasa_92"><title>Mylasa</title> 92-110*5</ref> e <ref type="ins" target="#mylasa_443">443</ref>, <ref type="ins" target="#seg_42_1004"><title>SEG</title> 42.1004-1006</ref>), è emanato da una città cretese di cui non si è conservato il nome, possibilmente per accordare alla città caria l’<foreign>asylia</foreign> richiesta, come avviene in altri documenti del <foreign>dossier</foreign> (cf. <ref type="ins" target="#mylasa_94"><title>Mylasa</title> 94</ref>-<ref type="ins" target="#mylasa_95">95</ref>, <ref type="ins" target="#mylasa_97">97</ref>, <ref type="ins" target="#mylasa_101">101</ref> e <ref type="ins" target="#mylasa_103">103</ref>, <ref type="ins" target="#seg_42_1003"><title>SEG</title> 42.1003</ref>-<ref type="ins" target="#seg_42_1004">1004</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> 383b</bibl>; 
+                            <bibl><ref target="#b101">Baunack 1886</ref>, n. 3b</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5160b</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib460"><title>I.Mylasa</title></ref> 645</bibl>;
+                            <bibl type="main_edition"><ref target="#bib32"><title>Mylasa</title></ref> 96 <ptr type="phi" target="261024"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 191</bibl>;
+                            <bibl><ref target="#b260">Carless Unwin 2017</ref>, p. 220</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b259">Carless Unwin 2016</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

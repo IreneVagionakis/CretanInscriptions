@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto onorario di Aptera per cittadini di Hierapolis</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 9</idno>
+                        <idno type="projectNo">047</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0175" notAfter="-0125">150 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/>ἀγαθᾶι τύχαι. <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τ<supplied reason="lost">ᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά"><supplied reason="lost">β</supplied>ωλᾶι</w></rs>
+                        <lb n="2"/>καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· <rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Klesthenes f. Sosos"><name nymRef="Κλησθένης">Κλησθ<supplied reason="lost">έν</supplied>ης</name> <name nymRef="Σῶσος" type="patronymic">Σώ<lb 
+                        break="no" n="3"/>σω</name></persName> <w lemma="λέγω">εἶπε</w></rs>· <persName type="honoured" key="Antiochos f. Sosigenes" ref="#hierapolis"><name nymRef="Ἀντίοχος">Ἀντίοχον</name></persName> καὶ <persName type="honoured" key="Agathokles f. Sosigenes" ref="#hierapolis"><name nymRef="Ἀγαθοκλῆς">Ἀγαθοκλ<lb 
+                        break="no" n="4"/>ῆν</name> <name nymRef="Σωσιγένης" type="patronymic">Σωσιγένεος</name></persName> <placeName ref="#hierapolis" type="ethnic">Ἱεροπολίτας</placeName>
+                        <lb n="5"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">προξένος</w></rs> ἦμεν αὐτὸς καὶ
+                        <lb n="6"/><w lemma="ἔγγονος">ἔγγονα</w>· ὑπάρχεν δὲ αὐτοῖς καὶ
+                        <lb n="7"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#aptera"><w lemma="ἰσοπολιτεία">ἰσοπολιτείαν</w></rs> καὶ γᾶς καὶ οἰκίας
+                        <lb n="8"/><w lemma="ἔνκτησις">ἔνκτησιν</w> καὶ <w lemma="ἀτέλεια">ἀτέλειαν</w> εἰσ<lb 
+                        break="no" n="9"/>άγωσι καὶ ἐξάγωσι καὶ κατὰ
+                        <lb n="10"/>γᾶν καὶ κατὰ θάλασσαν καὶ ἐν
+                        <lb n="11"/>πολέμῳ καὶ ἐν εἰρήνᾳ <w lemma="ἀσυλί">ἀσυλὶ</w> καὶ 
+                        <lb n="12"/><space extent="unknown" unit="character"/> ἀσπονδί.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione per due fratelli di Hierapolis (di Frigia?) è l’unico decreto onorario di Aptera ad esordire con l’invocazione ἀγαθᾶι τύχαι. La formula di sanzione, che segue, mostra la <foreign>bola</foreign> e il <foreign>damos</foreign> come agenti nell’atto deliberativo, come nella quasi totalità dei documenti analoghi della città (ad esclusione di <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>), ed è accompagnata dalla menzione del proponente, elemento caratteristico di alcuni decreti di Aptera.</p>
+                    <p>Oltre alla più comune prossenia, concessa alla maggioranza degli individui onorati dalla città, i due fratelli ottengono anche una serie di privilegi supplementari: a costoro vengono infatti garantiti il diritto di possedere terra e dimora nel territorio di Aptera, la possibilità di importazione ed esportazione e soprattutto l’<foreign>isopoliteia</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>, proponente (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1484">Pashley 1837</ref>, I pp. 40-41</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref>, II p. 427 n. 12, tav. II (ll. 1-5 e 7)</bibl>; 
+                    <bibl><ref target="#b874">Haussoullier 1879</ref>, pp. 430-431 n. 5</bibl>; 
+                    <bibl><ref target="#b273">Cauer 1883</ref>, n. 131</bibl>; 
+                    <bibl><ref target="#bib117"><title>Syll.</title><hi rend="superscript">1</hi></ref> 318</bibl>; 
+                    <bibl><ref target="#bib116"><title>CIG</title></ref> 2558</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4945</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 44</bibl>; 
+                    <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 205</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 9 <ptr type="phi" target="199716"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1598">Ricci 1893</ref>, p. 306, ll. 2-3</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

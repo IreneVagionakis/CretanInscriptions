@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Rhittenia menzionante una <foreign>preisgeia</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 28 7</idno>
+                        <idno type="projectNo">211</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">427</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#pillar">pilastro</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#rhittenia">Rhittenia</origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0575">600-575 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">παν</supplied>σεϝδὶ ἀποϝει<supplied reason="lost">π</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>κα ϝέκτος <g type="|"/> α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> πέρηται <g type="|"/> πσε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>εν <g type="|"/> ἐπεὶ τάδε <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ι <g type="|"/> τρισϝε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><orig>νο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="C">
+                        <ab>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="line"/>
+                            <lb n="2"/><gap reason="illegible" quantity="1" unit="line"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> αἰ δέ τις <gap reason="lost" extent="unknown" unit="character"/>
+                           </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="D">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="preisgeia" ref="#rhittenia"><w lemma="πρεισγήια">πρεισγήια</w></rs>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>μενεα ἢ συν πλι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="preisgeia" ref="#rhittenia"><w lemma="πρεισγήια">πρεσγήιαι</w></rs> <g type="|"/> ο
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, che per l’andamento verticale del testo sulle quattro facce del pilastro può ricordare le <foreign>kyrbeis</foreign>, restituisce una duplice menzione del termine πρεισγήια. Tale sostantivo non sembra avere in questo contesto il più comune significato di «ambasceria», ampiamente attestato soprattutto in epoca ellenistica, ma pare piuttosto essere semanticamente affine a <foreign>preigys</foreign>/<foreign>preigystos</foreign>, ovvero «anziano» (cf. <foreign>e.g.</foreign> in <ref type="ins" target="#ic4_184"><title>IC</title> IV 184</ref>), con il valore quindi di «collegio degli anziani» (cf. <bibl><ref target="#bib122"><title>Laws</title></ref>, p. 505</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#preigistos"><foreign>preisgeia</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b764">Guarducci 1931d</ref>, pp. 105-107</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 28 7 <ptr type="phi" target="199661"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 63</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 293</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Pr7</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 100*</bibl>; 
+                            <bibl><ref target="#b1650">Ruzé 1997</ref></bibl>; 
+                            <bibl><ref target="#b899">Hölkeskamp 1999</ref>, pp. 237-239</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

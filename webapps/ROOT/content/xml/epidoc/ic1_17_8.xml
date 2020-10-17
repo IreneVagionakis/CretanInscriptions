@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Istituzione del catalogo delle <foreign>sanationes</foreign> da Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 8</idno>
+                        <idno type="projectNo">229</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">53</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#sanatio"><foreign>sanatio</foreign></summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Archeia" ref="#gortyn">ἐπὶ τᾶς <w lemma="Ἀρχήια">Ἀρχήιας</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κο<supplied reason="lost">ρμιόντων</supplied></w> <supplied reason="lost">τῶν σὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/></rs>
+                          <lb n="2"/><rs type="institution" subtype="official" role="incumbent" key="naokoros" ref="#lebena"><w lemma="νακορέω">νακορίοντος</w> <persName type="attested" key="Ischonidas f. -"><name nymRef="Ἰσχωνίδας">Ἰσχωνίδα</name> <supplied reason="lost">τῶ</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/></rs> <supplied reason="lost">τῶν <w lemma="ἴαμα">ἰαμάτων</w></supplied>
+                          <lb n="3"/><w lemma="ἀναγράφω">ἀνεγράφη</w> τῶ <w lemma="θιός">θιῶ</w> ὁ <rs type="institution" subtype="object" role="archiving" key="katalogos" ref="#lebena"><w lemma="κατάλογος">κατά<supplied reason="lost">λογος</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><unclear>α</unclear>ιτε ἐς τᾶν <rs type="institution" subtype="object" role="archiving" key="sanis" ref="#lebena"><w lemma="σανίς">σανίδων</w></rs> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>Θέων Ἀνθώτα <placeName ref="#lebena" type="ethnic">Λεβηναῖος</placeName> α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>ων ἐν <placeName ref="#epidauros">Ἐπιδαύρῳ</placeName> ἐθεραπε<supplied reason="lost">υ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρὸς τὸν</supplied>
+                          <lb n="7"/><w lemma="θιός">θιὸν</w> ἔχων ναῦν ἰδίαν καὶ <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/>ιαν τὸς <w lemma="οἰκήιος">οἰκήιος</w> καὶ ἐπετυχ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>ω καὶ ἰάτρευσεν ἇι ἐχρηματ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="illegible" quantity="1" unit="character"/><orig>οιαπ</orig><gap reason="illegible" quantity="3" unit="character"/> πλῆν ϝοίκαδε ο<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il testo, che apre ufficialmente la serie delle <foreign>sanationes</foreign> dell’<foreign>Asklepieion</foreign> di Lebena, include al proprio interno un <foreign>incipit</foreign> assimilabile per contenuto e forma alle altre iscrizioni edificatorie del santuario (ll. 1-4; cf. <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref>, <ref type="ins" target="#ic1_17_4"><title>IC</title> I 17 4-6</ref>, <ref type="ins" target="#ic1_17_21">21</ref> e probabilmente <ref type="ins" target="#ic1_17_38">38</ref>). Le linee iniziali del documento, infatti, ricordano la messa per iscritto su pietra del catalogo delle <foreign>sanationes</foreign>, originariamente conservate su delle tavolette lignee, le <foreign>sanides</foreign>.</p>
+                    <p>L’attività di iscrizione, promossa dal <foreign>naokoros</foreign> Ischonidas, è datata all’anno in cui è eponimo un cosmo della tribù <foreign>Archeia</foreign>, probabilmente un magistato di Gortyna (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 101-103</bibl>; altri cosmi eponimi occorrono a Lebena in <ref type="ins" target="#ic1_17_2"><title>IC</title> I 17 2</ref>, <ref type="ins" target="#ic1_17_4">4</ref>-<ref type="ins" target="#ic1_17_6">6</ref>, <ref type="ins" target="#ic1_17_38">38</ref>). Anche il responsabile dell’iscrizione delle <foreign>sanationes</foreign>, Ischonidas, compare eccezionalmente al genitivo in una formula che costituisce di fatto anch’essa una datazione, che va ad aggiungersi a quella basata sul cosmo eponimo. Il ruolo attivo di Ischonidas nella redazione delle epigrafi sembra del tutto assimilabile alla funzione di responsabili di inteventi edilizi testimoniata per altri <foreign>naokoroi</foreign> di Lebena dalle iscrizioni <ref type="ins" target="#ic1_17_5"><title>IC</title> I 17 5</ref>, <ref type="ins" target="#ic1_17_21">21</ref>, <ref type="ins" target="#ic1_17_38">38</ref> e <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref> (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 104-109</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#katalogos"><foreign>katalogos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naokoros"><foreign>naokoros</foreign></ref>, <ref type="inst" target="#sanis"><foreign>sanis</foreign></ref>, tribù (<ref type="inst" target="#archeia"><foreign>Archeia</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b773">Guarducci 1934</ref>, pp. 414-416 n. 1</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 8 <ptr type="phi" target="199272"/></bibl>; 
+                            <bibl><ref target="#b713">Girone 1998</ref>, 3.1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 10A</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1670">Savelkoul 1985-1986</ref>, p. 53</bibl>; 
+                            <bibl><ref target="#b289">Chaniotis 1988</ref>, T12</bibl>; 
+                            <bibl><ref target="#b136">Bile 1991</ref></bibl>; 
+                            <bibl><ref target="#b2062">Wolter 1992</ref></bibl>; 
+                            <bibl><ref target="#b503">Detorakis 1995</ref></bibl>; 
+                            <bibl><ref target="#b714">Girone 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

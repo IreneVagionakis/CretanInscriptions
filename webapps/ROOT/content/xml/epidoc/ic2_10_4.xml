@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lista di cittadini di Eleutherna residenti a Sipilen</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 10 4</idno>
+                        <idno type="projectNo">032</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo">24</idno>
+                    </msIdentifier>
+                    <msContents><summary corresp="#list">lista</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#kydonia">Kydonia?</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0100">III-II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><placeName ref="#eleutherna" type="ethnic">Ἐλευθερναῖοι</placeName>
+                        <lb n="2"/><supplied reason="lost">ο</supplied><unclear>ἱ</unclear> ἐν <placeName ref="#sipilen">Σιπιλῆνι</placeName>·
+                        <lb n="3"/><supplied reason="lost">Δ</supplied>αμασίλας
+                        <lb n="4"/><supplied reason="lost">Π</supplied><unclear>ε</unclear>ρίφω,
+                        <lb n="5"/><gap reason="lost" quantity="2" unit="character"/><unclear>ρ</unclear>τιδάμας
+                        <lb n="5a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione, mutile inferiormente, conserva l’inizio di una lista di individui originari di Eleutherna e residenti in una località di nome Sipilen. Tale elenco potrebbe costituire la parte superiore di una dedica votiva offerta dalla comunità degli <foreign>Eleuthernaioi hoi en Sipileni</foreign> oppure essere a un registro a sé stante dei membri della stessa. L’incerta provenienza della stele, conservata nel Museo archeologico di Chania, impedisce di stabilire con certezza a quale delle città antiche vicine potesse appartenere l’abitato di Sipilen. Nel caso non si trattasse di Kydonia, città sui cui resti si trova l’attuale Chania, l’ipotesi più probabile rimane quella di Aptera: il numero di inventario della stele, infatti, rivela una sua acquisizione da parte del Museo archeologico di Chania concomitante a quella di altri reperti provenienti da queste due <foreign>poleis</foreign>.</p>
+                    <p>L’intestazione che precede l’elenco (ll. 1-2) suggerisce che la comunità degli <foreign>Eleuthernaioi hoi en Sipileni</foreign> sia piuttosto consistente e/o ufficialmente distinta dalla popolazione locale; i suoi componenti potrebbero essere dunque prosseni a cui la città ha concesso terreni – come nel caso di <ref type="ins" target="#ic2_10_1"><title>IC</title> II 10 1</ref> – oppure semplici cittadini di Eleutherna trasferitisi nell’abitato di Sipilen a seguito di un trattato di <foreign>isopoliteia</foreign> fra la propria città e Kydonia/Aptera (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 112</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>Eleuthernaioi hoi en Sipileni</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 10 4 <ptr type="phi" target="199855"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b603">Faure 1993</ref>, pp. 71-72</bibl>;
+                    <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> p. 112</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 31</idno>
+                        <idno type="projectNo">462</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">191</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0110" notAfter="-0109">110/109 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἀ</supplied>γαθᾶι <w lemma="τύχα">τύχαι</w>.
+                          <lb n="2"/><rs type="institution" subtype="tribe" role="eponym" key="Echanoreis" ref="#lato">ἐπὶ τῶν <w lemma="Ἐχανορεῖς">Ἐχανορέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><w lemma="κοσμέω">κοσμιόντω<supplied reason="lost">ν</supplied></w></rs>
+                          <lb n="3"/>ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> <supplied reason="lost">τὰν</supplied> <rs type="institution" subtype="public_space" role="construction" key="stoa" ref="#lato"><w lemma="στῳά">στωιὰν</w></rs> τὰν ἐς ἀῶ βλέπον<lb 
+                        break="no" n="4"/>σ<supplied reason="lost">α</supplied>ν <w lemma="οἰκοδομέω">ὠικοδόμη<supplied reason="lost">σε</supplied></w> καὶ τὰν <w lemma="ὀροφά">ὀροφὰν</w> καὶ
+                          <lb n="5"/>τὸν <w lemma="κέραμος">κέραμον</w> <w lemma="ἐπιτίθημι">ἐπέθηκε</w>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><w lemma="κοσμέω">ἐκόσμιον</w> ο<supplied reason="lost">ἵδε</supplied>·
+                          <lb n="6"/><persName type="attested" key="Aution f. Podaithon"><name nymRef="Αὐτίων">Αὐτίων</name> <name nymRef="Ποδαίθων" type="patronymic">Ποδαίθων<supplied reason="lost">ος</supplied></name></persName></rs>,
+                          <lb n="7"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Thiaris f. Laston"><name nymRef="Θίαρις">Θία<corr>ρ</corr>ις</name> <name nymRef="Λάστων" type="patronymic">Λάστωνος</name></persName></rs>,
+                          <lb n="8"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Somantis f. Laston"><name nymRef="Σώμαντις">Σώμαντις</name> <name nymRef="Λάστων" type="patronymic">Λάστωνος</name></persName></rs>,
+                          <lb n="9"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Chenos f. Enipas"><name nymRef="Χένος">Χένος</name> <name nymRef="Ἐνίπας" type="patronymic">Ἐνίπαντος</name></persName></rs>,
+                          <lb n="10"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Sophios f. Kleanor"><name nymRef="Σόφιος">Σόφιος</name> <name nymRef="Κλεάνωρ" type="patronymic">Κλεάνορος</name></persName></rs>,
+                          <lb n="11"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Praxon f. Kalax"><name nymRef="Πράξων">Πράξων</name> <name nymRef="Καλακᾶς" type="patronymic">Καλάκα</name></persName></rs>,
+                          <lb n="12"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Polytimos f. Polytimos"><name nymRef="Πολύτιμος">Πολύτιμος</name> <name nymRef="Πολύτιμος" type="patronymic">Πολυτίμω</name></persName></rs>· <rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#lato"><w lemma="γραμματεύς">γραμ<lb 
+                        break="no" n="13"/>ματεὺς</w> <persName type="attested" key="Polytimos f. Androlas"><name nymRef="Πολύτιμος">Πολύτιμος</name> <name nymRef="Ἀνδρόλας" type="patronymic">Ἀνδρόλα</name></persName></rs>.
+                          <lb n="13a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, che si apre con un’espressione benaugurale, conserva una formula di datazione contenente il ricordo della tribù dei cosmi in carica, quella degli <foreign>Echanoreis</foreign> (attestata a Lato anche in <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref> e forse <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref>). La menzione dei cosmi in carica, invece, è staccata dalla datazione e si trova alle linee 5-13, sotto forma di elenco dei nomi al nominativo dei sette magistrati – come in <ref type="ins" target="#bile_47">Bile 47</ref> (sette), <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> (otto?), <ref type="ins" target="#ic1_16_34"><title>IC</title> I 16 34</ref> (almeno cinque) –, il primo dei quali è l’eponimo Aution figlio di Podaithon, noto anche dai documenti coevi <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref> (sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>). La lista dei cosmi è seguita da ultimo dal ricordo del segretario, figura che compare anche nelle iscrizioni edificatorie di Lato <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref>, <ref type="ins" target="#ic1_16_25">25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29</ref>, <ref type="ins" target="#ic1_16_32">32</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>.</p>
+                    <p>L’iniziativa dell’intervento commemorato, la costruzione di una <foreign>stoa</foreign>, completa di tetto e della sua copertura in tegole, risulta essere della <foreign>polis</foreign> di Lato, come avviene anche nei documenti analoghi <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29</ref>-<ref type="ins" target="#ic1_16_30">30</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e forse <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#stoa"><foreign>stoa</foreign></ref>, tribù (<ref type="inst" target="#echanoreis"><foreign>Echanoreis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2066">Xanthoudidis 1916</ref>, pp. 1-5 n. 1</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 31 <ptr type="phi" target="199239"/></bibl>; 
+                            <bibl><ref target="#b1879">Van Effenterre 1943</ref> (ll. 1-6)</bibl>;
+                            <bibl><ref target="#b1309">Meier 2012</ref>, n. 43c</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

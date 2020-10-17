@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge (?) di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">ΘΕΤΙΜΑ E 259</idno>
+                        <idno type="projectNo">129</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 259</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0101">III-II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2018-02-27" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="fragment" n="a">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ωιτοισισταρα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λοιισ</unclear></orig> <unclear>ἁ</unclear> <rs type="institution" subtype="assembly" role="unknown" key="polis" ref="#axos" cert="low"><w lemma="πόλις">π<unclear>ό</unclear>λις</w></rs> <orig>κ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>
+                        </ab>
+                   </div>                        
+                   <div type="textpart" subtype="fragment" n="b">
+                        <ab>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ι</unclear></orig> βωλεῦσαι ἢ τὸν <rs type="institution" subtype="association" role="regulation" key="thiasos" ref="#axos" cert="low"><w lemma="θίασος">θίασ<supplied reason="lost">ον</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>αφαιαιοιτο</orig> ἢ τέχναι ἢ μ<supplied reason="lost">αχανᾶι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λ</unclear>τεπιταραιοι</orig> τῶι Ἁπέλλων<supplied reason="lost">ι</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                             <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>παρ<unclear>γ</unclear>ι<unclear>ο</unclear></orig><gap reason="illegible" quantity="4" unit="character"/><orig>τ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ττοι<unclear>γιγ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                             <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>
+                          </ab>
+                   </div>
+                  </div>
+                    <div type="commentary">
+                        <p>Nel testo conservato sul lato A è distinguibile solamente il termine <foreign>polis</foreign> al nominativo, preceduto dall’articolo. Il lato B, invece, è significativo per la menzione di un tiaso, ad Axos attestato anche dalla legge sacra di fine IV secolo a.C. <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref>. Il termine <foreign>thiasos</foreign> compare inoltre in più trattati ellenistici cretesi nel contesto del prestamento del giuramento e della connessa esecuzione di sacrifici (cf. <ref type="ins" target="#ic4_174"><title>IC</title> IV 174</ref>, <ref type="ins" target="#seg_61_722"><title>SEG</title> 61.722</ref>, <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>), sì che Yannis Tzifopoulos ipotizza che possa trattarsi anche in questo caso dell’analoga sezione di un trattato.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#thiasos"><foreign>thiasos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1880">Tzifopoulos 2006</ref>, pp. 140-142, n. 3</bibl>;
+                            <bibl type="main_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 259 <ptr type="thetima" target="e259"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

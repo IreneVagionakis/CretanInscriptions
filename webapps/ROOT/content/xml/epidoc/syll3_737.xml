@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Delfi per un <foreign>hydraulos</foreign> di Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Syll.³ 737</idno>
+                        <idno type="projectNo">115</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delphi_museum">Museo archeologico di Delfi</repository> 
+                                <idno type="invNo">1494</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delphi">Delfi, presso il tempio di Apollo</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0094" notAfter="-0086" precision="low">94-86 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἄρχοντο</supplied><unclear>ς</unclear> Κλεάνδρου τοῦ Τίμωνος, βουλευόντων Πολίτα τοῦ Ἀσάν<lb 
+                        break="no" n="2"/><supplied reason="lost">δρου, Εὐκ</supplied><unclear>λ</unclear>είδα τοῦ Ἡρακλείδα, Δίωνος τοῦ Καλλία, Θεοξένου τοῦ Πολύωνος,
+                          <lb n="3"/><supplied reason="lost">ἔδοξε τᾶι</supplied> <unclear>π</unclear>όλει τῶν <placeName ref="#delphi" type="ethnic">Δελφῶν</placeName> ἐν ἀγ<unclear>ορ</unclear>ᾶι τελείωι· ἐπεὶ <persName type="honoured" key="Antipatros f. Breukos"><name nymRef="Ἀντίπατρος">Ἀντίπατρος</name> <name nymRef="Βρεῦκος" type="patronymic">Βρεύκου</name>
+                          <lb n="4"/><placeName ref="#eleutherna" type="ethnic"><supplied reason="lost">Ἐλευθερν</supplied><unclear>αῖ</unclear>ος</placeName>,</persName> <w lemma="ὕδραυλος">ὕδραυλος</w>, <w lemma="ἀποστέλλω">ἀποστειλάσας</w> ποτ’ αὐτὸν τᾶς πόλιος πρεσβεί<lb 
+                        break="no" n="5"/><supplied reason="lost">αν</supplied> <supplied reason="lost">παραγ</supplied>ενηθεὶς ἐν <placeName ref="#delphi">Δελφοὺς</placeName> καὶ παρακληθεὶς ὑπὸ τῶν ἀρχόντων καὶ τᾶς
+                          <lb n="6"/><supplied reason="lost">πόλιος</supplied> ἀγωνίξατο ἁμέρας δύο καὶ εὐδοκίμησε μεγαλομερῶς καὶ ἀξίω<unclear>ς</unclear>
+                          <lb n="7"/><supplied reason="lost">τ</supplied>οῦ τε θεοῦ καὶ τᾶς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#eleutherna"><w lemma="πόλις">πόλιος</w></rs> τῶν <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίων</placeName> καὶ τᾶς ἁμετέρας πόλιο<unclear>ς</unclear>,
+                          <lb n="8"/><supplied reason="lost">ἐ</supplied>φ’ οἷς καὶ ἐστεφανώθη ἐν τῶι ἀγῶν <del rend="erasure"><gap reason="illegible" quantity="29" unit="character" precision="low"/></del>
+                          <lb n="9"/><del rend="erasure"><gap reason="illegible" quantity="14" unit="character" precision="low"/></del> εἰκόνι χαλκέαι καὶ τοῖς ἄλλοις τιμίοις πάντοις, ἃ<unclear>ς</unclear> καὶ
+                          <lb n="10"/>συνετέλε<unclear>σ</unclear>ε ὑπὲρ αὐτοσαυτὸν τῶι θεῶι, ἐπὶ οὖν τούτοις, ἀγα<unclear>θᾶι</unclear> τύ<unclear>χαι</unclear>, <unclear>δ</unclear>ε<unclear>δ</unclear>ό<lb 
+                        break="no" n="11"/>χθαι· ἐπαινέσαι Ἀντίπατρον Βρεύκου <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναῖον</placeName> <w lemma="ὕδραυλος">ὕδραυλον</w> ἐπί τε <unclear>τ</unclear>ᾶι ποτὶ τὸν
+                          <lb n="12"/>θεὸν εὐσεβείαι καὶ ὁσιότατι καὶ ἐ<unclear>π</unclear>ὶ τᾶι προαιρέσει, ἇι ἔχων <unclear>περὶ</unclear> <unclear>τὰν</unclear> τέχναν <unclear>δ</unclear>ιατε<lb 
+                        break="no" n="13"/>λεῖ, καὶ τᾶι ποτὶ τὰν πό<unclear>λ</unclear>ιν ἁμῶν εὐνοίαι. ἐπαινέσαι <unclear>δ</unclear>ὲ καὶ τὸν ἀ<lb 
+                        break="no" n="14"/>δελφὸν αὐτοῦ <persName type="honoured" key="Kryton f. Breukos"><name nymRef="Κρύτων">Κρύτων<unclear>α</unclear></name> <name nymRef="Βρεῦκος" type="patronymic">Βρεύκου</name> <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναῖον</placeName></persName>, καὶ δεδό<unclear>σ</unclear>θαι αὐτοῖς καὶ
+                          <lb n="15"/>ἐκγόνοις <unclear>π</unclear>αρὰ τᾶς <unclear>π</unclear>όλιος προξενίαν, προμαντεί<unclear>αν</unclear>, προδικί<unclear>αν</unclear>, ἀ<unclear>σ</unclear>υ<lb 
+                        break="no" n="16"/>λίαν, ἀτέ<unclear>λ</unclear>ειαν π<unclear>άντ</unclear>ων, προεδρίαν ἐμ πᾶσι τοῖς ἀγώ<unclear>ν</unclear>οι<unclear>ς</unclear> <unclear>οἷς</unclear> <unclear>ἁ</unclear> πό<lb 
+                        break="no" n="17"/>λις τίθητι, <unclear>καὶ</unclear> γᾶς <unclear>καὶ</unclear> <unclear>οἰκί</unclear>ας ἔγκτησιν καὶ τᾶλλα τίμ<unclear>ια</unclear> <unclear>πάν</unclear>τα ὅ<unclear>σα</unclear>
+                          <lb n="18"/>καὶ τοῖς ἄλλο<unclear>ι</unclear>ς πρ<supplied reason="lost">ο</supplied><unclear>ξ</unclear>έ<unclear>ν</unclear>οις <unclear>κ</unclear>αὶ εὐεργέταις τᾶς πόλι<unclear>ος</unclear> ὑπάρχ<unclear>ει</unclear>.
+                          <lb n="19"/>ἀποστεῖλαι δὲ αὐτ<unclear>οῖς</unclear> τοὺς ἄρχοντας καὶ <unclear>ξ</unclear>ένια τὰ μέγιστα·
+                          <lb n="20"/>καλέ<unclear>σ</unclear>αι <unclear>δὲ</unclear> αὐτοὺς κ<unclear>α</unclear>ὶ τοὺς μετ’ αὐτῶν ἐν τὸ πρυ<unclear>ταν</unclear>εῖο<unclear>ν</unclear> ἐ<unclear>πὶ</unclear>
+                          <lb n="21"/>τὰν <unclear>κ</unclear>οιν<unclear>ὰν</unclear> τᾶς πόλ<unclear>ι</unclear>ος ἑστίαν. ἀναγράψαι <unclear>δ</unclear>ὲ τὸ ψάφι<unclear>σμα</unclear> <unclear>τοὺς</unclear> <unclear>ἄ</unclear>ρχο<unclear>ν</unclear><lb 
+                        break="no" n="22"/>τας ἐν τῶι ἱερ<unclear>ῶι</unclear> τοῦ <persName type="divine" key="Apollo">Ἀπόλλωνος</persName> ἐν τῶι ἐπιφανεσ<unclear>τάτωι</unclear> τό<unclear>πωι</unclear>,
+                          <lb n="23"/>καὶ διαπέμψαι ποτὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#eleutherna"><w lemma="πόλις">πόλιν</w></rs> τῶν <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίων</placeName>, ὅπ<unclear>ως</unclear> εἰ<unclear>δ</unclear>ῶ<unclear>σι</unclear>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto delfico onora un un suonatore di organo idraulico di Eleutherna, Antipatros figlio di Breukos, giunto nella città su richiesta di un’ambasceria inviata da Delfi a Creta. La <foreign>polis</foreign> di Eleutherna è chiamata in causa due volte all’interno del testo: alla linea 7 si afferma che Antipatros si è dimostrato degno della propria <foreign>polis</foreign> – oltre che di Delfi e della divinità –, mentre alla linea 23 la città decretante stabilisce che i propri magistrati inviino il presente decreto alla <foreign>polis</foreign> cretese affinché ne sia informata.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1564">Pomtow 1918</ref>, pp. 28-30 n. 51</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 737 <ptr type="phi" target="242041"/></bibl>; 
+                            <bibl><ref target="#b930">Jacquemin <foreign>et al.</foreign> 2012</ref>, n. 192</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1410">Nöthe 1909</ref>, p. 797</bibl>; 
+                            <bibl><ref target="#b1563">Pomtow 1909</ref></bibl>; 
+                            <bibl><ref target="#b1807">Themelis 2002</ref>, pp. 18-19</bibl>; 
+                            <bibl><ref target="#b338">Chaniotis 2009</ref>, pp. 88-93</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

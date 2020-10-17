@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Olous per tre <foreign>theoroi</foreign> rodii</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 22 5</idno>
+                        <idno type="projectNo">434</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">187</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>Λ</unclear>αφ<supplied reason="lost" cert="low">είδους</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ε</supplied>ἰς <placeName ref="#rhodos">Ῥόδο<supplied reason="lost">ν</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ευχέ<supplied reason="lost">σθ</supplied>ωσαν τἀγαθὰ γίν<supplied reason="lost">εσθαι</supplied>
+                          <lb n="3"/><supplied reason="lost">τῆι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs> τῆι</supplied> <placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀ</supplied>λουν<supplied reason="lost">τίω</supplied>ν</placeName> καὶ τῶι δήμωι τῶι <placeName ref="#rhodos" type="ethnic">Ῥ<supplied reason="lost">οδί</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">ων</supplied></placeName><supplied reason="lost">· ἐμφανιζόντ</supplied><unclear>ω</unclear> δὲ οἱ θ<supplied reason="lost">ε</supplied>ωροὶ τῆι <rs type="institution" subtype="assembly" role="foreign_relations" key="boule" ref="#olous"><w lemma="βουλή">βουλῆι</w></rs> καὶ τῶι
+                          <lb n="5"/><supplied reason="lost"><rs type="institution" subtype="assembly" role="foreign_relations" key="demos" ref="#olous"><w lemma="δῆμος">δήμωι</w></rs> τὴν</supplied> <w lemma="εὔνοια"><supplied reason="lost">εὔ</supplied>νοιαν</w> τὴν ὑπάρχουσαν <placeName ref="#rhodos" type="ethnic">Ῥοδίοις</placeName> π<lb 
+                        break="no" n="6"/><supplied reason="lost">ρὸς τὴν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλιν</w></rs> τὴν</supplied> <placeName ref="#olous" type="ethnic">Ὀλουν<supplied reason="lost">τί</supplied>ων</placeName> <w lemma="ἐπαινέω">ἐπαινέσαι</w> δὲ καὶ τοὺ<lb 
+                        break="no" n="7"/><supplied reason="lost">ς θεωροὺς</supplied> <supplied reason="lost">Π</supplied>ολυά<supplied reason="lost">ρα</supplied>τον Ἰφιάδα, Φίλωνα Ἱέρω<lb 
+                        break="no" n="8"/><supplied reason="lost">νος</supplied><supplied reason="lost">,</supplied> <supplied reason="lost">Μνάσιππον</supplied> Λαφ<supplied reason="lost">είδ</supplied>ους ὅτι πάντ’ <w lemma="πράσσω">ἔπρασσον</w> ὑ<lb 
+                        break="no" n="9"/><supplied reason="lost">πὲρ ὧν ἐδήμ</supplied><unclear>ε</unclear>υον <supplied reason="lost">ἀξ</supplied>ίως τοῦ δήμου τοῦ <w lemma="ἀποστέλλω">ἀποστεί<lb 
+                        break="no" n="10"/><supplied reason="lost">λαντο</supplied>ς</w>. <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#olous"><w lemma="πρόξενος">πρόξενοι</w></rs> <placeName ref="#olous" type="ethnic">Ὀλο<lb 
+                        break="no" n="11"/><supplied reason="lost">υντίων</supplied></placeName> <supplied reason="lost">ἐ</supplied>ν <placeName ref="#rhodos">Ῥόδωι</placeName> <g type="dipunct"/> <persName type="honoured" key="Polyaratos f. Iphiadas" ref="#rhodos"><name nymRef="Πολυάρατος">Πολυ<lb 
+                        break="no" n="12"/><supplied reason="lost">άρατος</supplied></name> <name nymRef="Ἰφιάδας" type="patronymic"><supplied reason="lost">Ἰφι</supplied>άδα</name></persName> <g type="dipunct"/> <persName type="honoured" key="Philon f. Hieron" ref="#rhodos"><name nymRef="Φίλων">Φίλων</name>
+                          <lb n="13"/><name nymRef="Ἱέρων" type="patronymic"><supplied reason="lost">Ἱέρωνος</supplied></name></persName> <supplied reason="lost"><g type="dipunct"/></supplied> <persName type="honoured" key="Mnasippos f. Lapheides" ref="#rhodos"><name nymRef="Μνάσιππος"><supplied reason="lost">Μν</supplied>άσιππος</name> <name nymRef="Λαφείδης" type="patronymic"><supplied reason="lost">Λα</supplied><lb 
+                        break="no" n="14"/><supplied reason="lost">φείδους</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/> τούτοις <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear>το<unclear>υ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario, di cui è andato perduto il prescritto, conferisce la prossenia a tre <foreign>theoroi</foreign> inviati da Rodi ad Olous, concessione che nei documenti analoghi della città compare abitualmente associata alla cittadinanza e/o all’<foreign>euergesia</foreign> (cf. <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref>, <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref>, <ref type="ins" target="#seg_23_551"><title>SEG</title> 23.551</ref> e forse <ref type="ins" target="#ic1_22_6"><title>IC</title> I 22 6</ref> e <ref type="ins" target="#seg_25_1020"><title>SEG</title> 25.1020</ref>). La sezione relativa alle motivazioni, conservatasi alle linee 1-10, presenta come una delle ragioni del conferimento l’<foreign>eunoia</foreign> di Rodi nei confronti della <foreign>polis</foreign> che gli inviati sacri hanno mostrato alla <foreign>boule</foreign> e al <foreign>demos</foreign> di Olous, assemblee che non hanno altre attestazioni nelle iscrizioni della città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref> (?), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 22 5 <ptr type="phi" target="199540"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b848">Halbherr 1924</ref>, p. 98</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica (?) dei cosmi di Knossos (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 33.727</idno>
+                        <idno type="projectNo">399</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication" cert="low">dedica votiva?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#amnisos">Amnisos, tempio di Zeus <foreign>Thenatas</foreign> </origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos">ἐπὶ <w lemma="κόσμος">κόσμων</w> τῶν
+                          <lb n="2"/>σὺν <persName type="attested" key="Teisilas f. Andromenes Pheidon"><name nymRef="Τεισίλας">Τεισίλαι</name> τῷ
+                          <lb n="3"/><name nymRef="Ἀνδρομένης" type="patronymic">Ἀνδρομένιος</name> φύσι
+                          <lb n="4"/>δὲ <name nymRef="Φείδων" type="patronymic">Φείδωνος</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica (?), proveniente dal santuario di Zeus <foreign>Thenatas</foreign> di Amnisos, appartiene alla serie di documenti analoghi promossi verosimilmente dai cosmi di Knossos, città per la quale la località funge da porto (cf. <ref type="ins" target="#seg_33_718"><title>SEG</title> 33.718-726</ref> e <ref type="ins" target="#seg_33_728"><title>SEG</title> 33.728</ref>-<ref type="ins" target="#seg_33_729">729</ref>). L’iscrizione, che consiste in una formula di datazione, sembra testimoniare una dedica effettuata da parte dei cosmi l’anno in cui è eponimo Teisilas, figlio adottivo di Andromenes e figlio naturale di Pheidon, forse parente del cosmo Tharsymachos figlio di Andromenes attestato in <ref type="ins" target="#seg_33_726"><title>SEG</title> 33.726</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1212">Marinatos 1936a</ref>, p. 86 n. 5</bibl>; 
+                            <bibl><ref target="#b461">Davaras – Masson 1983</ref>, p. 399 n. 11</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 33.727 <ptr type="seg" target="a33_717_729"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 97</bibl>;
+                            <bibl><ref target="#b299">Chaniotis 1992</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b252">Capdeville 2000</ref></bibl>;
+                            <bibl><ref target="#b332">Chaniotis 2006</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

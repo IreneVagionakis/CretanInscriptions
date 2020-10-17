@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaffio di un ambasciatore (?) di Phalasarna</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 24.1177</idno>
+                        <idno type="projectNo">023</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#new_york_metropolitan">Metropolitan Museum, New York</repository>
+                        <idno type="invNo">90.9.39</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#hydria">idria funeraria di tipo Hadra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#alexandria">Alessandria, necropoli Hadra</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0220" notAfter="-0219">220/219 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><g type="year"/> <num value="2">β</num>, μηνὸς Πανήμου, διὰ Θευδότου
+                        <lb n="2"/><rs type="institution" subtype="official" role="dedicatee_deceased" key="presbeutes" ref="#phalasarna"><persName type="attested" key="Androkles f. Epigenes"><name nymRef="Ἀνδροκλῆς">Ἀνδρο<unclear>κ</unclear>λῆς</name> <name nymRef="Ἐπιγένης" type="patronymic">Ἐπιγένους</name> <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιος</placeName> <placeName ref="#crete" type="ethnic">Κρής</placeName></persName></rs>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’idria appartiene ad una serie di urne funerarie alessandrine perfettamente analoghe fra loro, ospitanti i resti terreni di ambasciatori, <foreign>theoroi</foreign> o alti ufficiali dell’esercito assoldati dai Tolemei (sui vasi Hadra cf. <bibl><ref target="#b397">Cook 1966</ref></bibl>, <bibl><ref target="#b559">Enklaar 1992</ref></bibl>, <bibl><ref target="#b560">Enklaar 1998</ref></bibl>): tutti stranieri illustri, dunque, sì che la conclusione più ovvia è che anche Androkles figlio di Epigenes abbia ricoperto qualche posizione di spicco nella terra nilotica. La deduzione ben si accorda con la proposta di Paula Perlman di identificare il defunto con l’omonimo individuo attestato come <foreign>theorodokos</foreign> di Phalasarna del santuario di Apollo e Asclepio ad Epidauro negli anni 260-240 a.C., sebbene nel relativo documento il nome si trovi per buona parte in lacuna (<ref type="ins" target="#ig_iv2_1_96"><title>IG</title> IV<hi rend="superscript">2</hi> 1 96</ref>, ll. 12-13; cf. <bibl><ref target="#b1507">Perlman 2000</ref>, n. E 3</bibl>). Androkles, uomo di rappresentanza di Phalasarna, potrebbe essere giunto ad Alessandria come membro di un’ambasceria (sacra?) in occasione degli <foreign>Ptolemaia</foreign> del settembre del 200 a.C. – come ragionevolmente ipotizza Paula Perlman –, trovandovi la morte forse a causa dell’età avanzata, deducibile dal fatto che costui fosse già operativo come <foreign>theorodokos</foreign> venti o quarant’anni prima (cf. <bibl><ref target="#b1507">Perlman 2000</ref>, p. 88, pros.cat. n. 24</bibl>).</p>
+                    <p>L’iscrizione, datata al secondo anno del regno di Tolemeo IV, conferma le relazioni fra Phalasarna e l’Egitto già testimoniate ai tempi del predecessore Tolemeo III dalla dedica della città al sovrano <ref type="ins" target="#ic2_19_2"><title>IC</title> II 19 2</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1324">Merriam 1885</ref>, p. 21, n. 1</bibl>; 
+                    <bibl><ref target="#b1396">Neroutsos-Bey 1887</ref>, p. 62, n. 32</bibl>; 
+                    <bibl><ref target="#b1395">Neroutsos 1888</ref>, p. 111 n. 32</bibl>; 
+                    <bibl><ref target="#b1430">Pagenstecher 1909</ref>, p. 407 n. 9</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib31"><title>SB</title></ref> 1638</bibl>;
+                    <bibl><ref target="#b397">Cook 1966</ref>, n. 4, tavv. I.4 e IX.4</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 24.1177 <ptr type="phi" target="223380"/></bibl>); 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 18</bibl>; 
+                    <bibl><ref target="#b559">Enklaar 1992</ref>, appendix A, n. 22</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 55.1780</bibl>).</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1967.662</bibl>; 
+                    <bibl><ref target="#b1507">Perlman 2000</ref>, pros.cat. n. 24</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

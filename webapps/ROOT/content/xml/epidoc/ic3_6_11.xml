@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Praisos e Lyttos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 6 11</idno>
+                        <idno type="projectNo">510</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 105, E 110</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#praisos">Praisos, acropoli</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0260" notAfter="-0240">metà III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ῶι <placeName ref="#lyttos" type="ethnic">Λυ<unclear>τ</unclear><supplied reason="lost">τίωι</supplied></placeName> Δ<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>πόμεν<unclear>ο</unclear>ν <orig>εκ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lyttos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#praisos"><w lemma="συνθήκα"><supplied reason="lost">σ</supplied>υνθήκαν</w></rs></rs>. αἴ τις <supplied reason="lost">κ’ ἐνβάλληι ἐς τὰν τῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">χώραν</supplied>
+                            <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">τὰν <placeName ref="#lyttos" type="ethnic">Λυττίων</placeName></supplied> <supplied reason="lost">χ</supplied>ώραν ἢ τ<unclear>ὰ</unclear>ν τ<unclear>ῶ</unclear>ν <placeName ref="#praisos" type="ethnic"><unclear>Π</unclear><supplied reason="lost" cert="low">ραισίων</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#lyttos" type="ethnic"><supplied reason="lost">Λυτ</supplied>τίων</placeName>, πο<unclear>λ</unclear>εμῆν ἀ<unclear>δ</unclear><supplied reason="lost" cert="low">όλως καὶ ἀπροφασίστως</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οἱ</supplied> <placeName ref="#praisos" type="ethnic"><supplied reason="lost">Πραίσιο</supplied>ι</placeName> <placeName ref="#lyttos" type="ethnic">Λυτ<supplied reason="lost">τ</supplied>ίοις</placeName> ἢ οἱ <placeName ref="#lyttos" type="ethnic">Λύ<unclear>τ</unclear><supplied reason="lost">τιοι</supplied></placeName> <supplied reason="lost"><placeName ref="#praisos" type="ethnic">Πραισίοις</placeName></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#praisos" type="ethnic"><supplied reason="lost">Πρ</supplied><unclear>α</unclear>ι<supplied reason="lost">σί</supplied>ων</placeName> <orig>πολιτ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig><gap reason="lost" quantity="3" unit="character"/><orig>αστασιν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">π</supplied>ολλῶν καὶ Α<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> καὶ οὐκ ἐγκ<supplied reason="lost">αταλείψ</supplied><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀλλὰ</supplied> <w lemma="πολεμέω" part="I"><supplied reason="lost" cert="low">πολεμησ</supplied><gap reason="lost" extent="unknown" unit="character"/></w> <supplied reason="lost">ἀ</supplied>πὸ χώρα<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κα</supplied>θεξίο<supplied reason="lost" cert="low">μεν</supplied> <supplied reason="lost">τὸς <w lemma="ὅρκος">ὅρκος</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="13a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, appartenente ad un trattato di alleanza fra Praisos e Lyttos, restituisce parte delle clausole relative all’impegno di reciproco aiuto militare fra le due <foreign>poleis</foreign> contraenti, di cui si sono conservati gli etnici collettivi.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b181">Bosanquet 1909-1910</ref>, p. 284 n. 2</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib3"><title>IC</title> III</ref> 6 11 <ptr type="phi" target="200367"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 580</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 12 <ptr type="phi" target="201277"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1755">Spyridakis 1989</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

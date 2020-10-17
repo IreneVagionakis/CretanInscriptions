@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Messene e più città di Creta occidentale</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 58.369</idno>
+                        <idno type="projectNo">551</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#messene">Messene</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#messene">Messene</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0250">300-250 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="συμμαχία">συμμαχία</w> πο<supplied reason="lost">τὶ</supplied> <gap reason="lost" quantity="14" unit="character" precision="low"/> <supplied reason="lost">καὶ</supplied>
+                          <lb n="2"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera"><placeName ref="#aptera" type="ethnic">Ἀπτεραίους</placeName></rs> κ<supplied reason="lost">αὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίους</placeName></rs> καὶ</supplied>
+                          <lb n="3"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic">Σιβρυτίους</placeName></rs> κα<supplied reason="lost">ὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#anopolis"><placeName ref="#anopolis" type="ethnic">Ἀνωπολίτας</placeName></rs></supplied>
+                          <lb n="3a"/><space quantity="1" unit="line"/>
+                          <lb n="4"/>καθὰ καὶ ποτὶ <gap reason="lost" quantity="13" unit="character" precision="low"/> <supplied reason="lost">ἐποιή</supplied><lb 
+                        break="no" n="5"/>σαντο τοὶ <placeName ref="#messene" type="ethnic">Με<supplied reason="lost">σσάνιοι</supplied></placeName> <gap reason="lost" quantity="12" unit="character" precision="low"/>
+                          <lb n="6"/>τάδε <w lemma="ὀμνύω">ὤμοσαν</w> <placeName ref="#messene" type="ethnic">Μεσσα<supplied reason="lost">νίων</supplied></placeName> <gap reason="lost" quantity="20" unit="character" precision="low"/> <supplied reason="lost">καὶ ὁ</supplied>
+                          <lb n="7"/>ἐπὶ τῶν ὅπλων ἵππαρχος <gap reason="lost" quantity="32" unit="character" precision="low"/>
+                          <lb n="8"/><persName type="divine" key="Poseidon">Ποσειδᾶ</persName>, τὸν <persName type="divine" key="Enyalios">Ἐνυάλιον</persName>, τ<gap reason="lost" quantity="20" unit="character" precision="low"/> <supplied reason="lost"><w lemma="θεός">θεοὺς</w> <w lemma="ὅρκιος">ὁρκίους</w></supplied>
+                          <lb n="9"/>πάντας καὶ πάσας· <w lemma="συμμαχέω">συμμ<supplied reason="lost">αχήσω</supplied></w> <gap reason="lost" quantity="14" unit="character" precision="low"/><supplied reason="lost">, <placeName ref="#aptera" type="ethnic">Ἀπτεραίοις</placeName>,</supplied> <placeName ref="#eleutherna" type="ethnic"><supplied reason="lost">Ἐλευ</supplied><lb 
+                        break="no" n="10"/>θερναίοις</placeName>, <placeName ref="#sybrita" type="ethnic">Σιβρυτίοις</placeName> καὶ τοῖς <placeName ref="#anopolis" type="ethnic">Ἀ<supplied reason="lost">νωπολίταις</supplied></placeName> <supplied reason="lost">κατὰ τοὺς <w lemma="ὅρκος">ὅρκους</w> ἁπλόως καὶ ἀδό</supplied><lb 
+                        break="no" n="11"/>λως τὸν ἀεὶ χρόνον καὶ ὠφελ<gap reason="lost" atLeast="32" atMost="35" unit="character" precision="low"/> <supplied reason="lost">τὸν αὐτὸ</supplied><lb 
+                        break="no" n="12"/>ν <w lemma="φίλος">φίλον</w> καὶ ἐχθρὸν ἕξω καὶ εἴ τ<supplied reason="lost">ις κα ἐπὶ τὰν χώραν</supplied> <gap reason="lost" atLeast="18" atMost="21" unit="character" precision="low"/> <supplied reason="lost">ἢ</supplied> <placeName ref="#aptera" type="ethnic"><supplied reason="lost">Ἀπτ</supplied><lb 
+                        break="no" n="13"/>εραίων</placeName> ἢ <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίων</placeName> ἢ <placeName ref="#sybrita" type="ethnic">Σι<supplied reason="lost">βρυτίων</supplied></placeName> <supplied reason="lost">ἢ τῶν <placeName ref="#anopolis" type="ethnic">Ἀνωπολιτῶν</placeName> κατὰ γᾶν ἢ κατὰ θάλαττ</supplied><lb 
+                        break="no" n="14"/>αν ὅπλα ἐπιφέρηι ἢ ἐπὶ πολέμ<supplied reason="lost">ωι <w lemma="στρατεύω">στρατεύηται</w>, <w lemma="βοαθέω">βοαθεῖν</w> <placeName ref="#messene" type="ethnic">Μεσσανίους</placeName> παντὶ σθένει</supplied>
+                          <lb n="15"/>καθότι κα <w lemma="παραγγέλλω">παραγγέλλωντι</w> <gap reason="lost" atLeast="12" atMost="15" unit="character" precision="low"/> <supplied reason="lost">ἢ <placeName ref="#aptera" type="ethnic">Ἀπτεραῖοι</placeName> ἢ <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναῖοι</placeName> ἢ</supplied> <placeName ref="#sybrita" type="ethnic"><supplied reason="lost">Σιβρ</supplied><lb 
+                        break="no" n="16"/>ύτιοι</placeName> ἢ τοὶ <placeName ref="#anopolis" type="ethnic">Ἀνωπολῖται</placeName>· <w lemma="εὐορκέω">εὐορ<supplied reason="lost">κοῦντι</supplied></w> <supplied reason="lost">μέν μοι εἴη πολλὰ καὶ ἀγαθά, εἰ δὲ μὴ τὰ ὅμ</supplied><lb 
+                        break="no" n="17"/>οια τοῖς <w lemma="ἐπίορκος">ἐπιόρκοις</w>· <w lemma="ὀμνύω">ὤμοσαν</w> <supplied reason="lost">τοίδε· ἔφοροι·</supplied> <gap reason="lost" atLeast="28" atMost="31" unit="character" precision="low"/>
+                          <lb n="18"/>Σάκα, Ὀνασιτέλης Εὐτέλε<supplied reason="lost">ος,</supplied> <gap reason="lost" atLeast="39" atMost="42" unit="character" precision="low"/>
+                          <lb n="19"/>νης Ἀρχίππου· γέροντες· <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="20"/>νος, Δαμόνικος Πανθήρο<supplied reason="lost">υ,</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="21"/>τεος, Χαρύλλος Χαρητίδ<supplied reason="lost">α,</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="22"/>Δεξιππίδας Δεξικλέος <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="23"/><supplied reason="lost">ο</supplied>ς, Τρίτων Εὐοίνου, Ῥίψας Ῥ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="24"/><supplied reason="lost">Ἀ</supplied>ριστοκλέος, Ἀλκέτας Τι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="25"/><supplied reason="lost">ιν</supplied>ιτίδα, Εὔδαμος Εὐτ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Ἀ</supplied><lb 
+                        break="no" n="26"/><supplied reason="lost">ρί</supplied><unclear>σ</unclear>τιππος Ἀριστ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="27"/><gap reason="lost" atLeast="4" atMost="5" unit="character"/><orig>δε<unclear>μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="27a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento conserva parte di un trattato di alleanza stipulato fra Messene e cinque <foreign>poleis</foreign> cretesi, Aptera, Eleutherna, Sybrita, Anopolis e una quinta città di cui non è pervenuto il nome (possibilmente Phalasarna: così <bibl><ref target="#b1809">Themelis 2010</ref>, p. 61</bibl>). La sezione pervenuta del documento è pertinente al giuramento di Messene, che si impegna a fornire sostegno militare alle <foreign>poleis</foreign> nel caso che queste lo richiedano.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1809">Themelis 2010</ref>, pp. 59-62</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 58.369 <ptr type="seg" target="a58_369"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1810">Themelis 2010a</ref>, p. 32</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

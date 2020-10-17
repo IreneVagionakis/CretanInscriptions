@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+           xmlns:xi="http://www.w3.org/2001/XInclude"
+           xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <!-- Imports the default variables. -->
+  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/defaults.xsl" />
+
+  <!-- Imports the menu stylesheet -->
+  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/menu/menu.xsl" />
+
+  <xsl:import href="cocoon://_internal/url/reverse.xsl" />
+
+  <kiln:block name="html">
+    <html class="no-js">
+      <kiln:block name="head">
+        <head>
+          <meta charset="utf-8" />
+          <meta content="width=device-width" name="viewport" />
+          <meta content="IE=edge,chrome=IE8" http-equiv="X-UA-Compatible" />
+          <title>
+            <kiln:block name="title">EFES: </kiln:block>
+          </title>
+          <kiln:block name="css">
+            <link href="{$kiln:assets-path}/foundation/css/normalize.css" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/foundation/css/foundation.min.css" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/styles/base.css" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet" type="text/css" />
+            <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
+          </kiln:block>
+          <kiln:block name="js">
+            <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
+            <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+            <script src="{$kiln:assets-path}/scripts/cookieinfo.min.js" type="text/javascript" id="cookieinfo"></script>
+          </kiln:block>
+          <kiln:block name="head-extra"></kiln:block>
+        </head>
+      </kiln:block>
+      
+      <kiln:block name="body">        
+        <body>
+          <kiln:block name="navigation">
+            <div class="text-center">
+              <h1 id="site-name">Cretan Institutional Inscriptions</h1>
+        </div>
+            <nav class="top-bar">
+              <kiln:block name="main-navigation">
+                  <ul class="title-area">
+                  <li class="name"><h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">⌂</a></h1></li>
+                  <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                </ul>
+                <section class="top-bar-section">
+                  <ul class="left">
+                    <li><xsl:apply-templates mode="main-menu" select="/aggregation/kiln:nav" /></li>
+                    </ul>
+                </section>
+              </kiln:block>
+            </nav>
+          </kiln:block>
+          
+          <kiln:block name="page-header">
+            <div class="row">
+              <div class="large-12 columns">
+                <h1>
+                  <kiln:block name="page-heading"></kiln:block>
+                </h1>
+              </div>
+            </div>
+          </kiln:block>
+          <kiln:block name="content-section">
+            <main>
+              <kiln:block name="content"/>
+            </main>
+          </kiln:block>
+          <kiln:block name="footer">
+            <footer>
+              <p>
+                <a href="https://www.unive.it/"><img style="height:3.5em; padding-right:1em" alt="CaFoscari" src="{$kiln:assets-path}/images/cafoscari.png"/></a>
+                <a href="https://www.unive.it/pag/39287"><img style="height:2.5em; padding-right:0.7em; padding-left:0.5em" alt="vedph" src="{$kiln:assets-path}/images/vedph.png"/></a>
+                <a href="https://www.scuoladiatene.it/"><img style="height:5.5em; padding-right:1em; padding-left:0.5em" alt="SAIA" src="{$kiln:assets-path}/images/saia.png"/></a>
+                <a href="https://tei-c.org/"><img style="height:4em; padding-right:1em; padding-left:0.7em" alt="TEI" src="{$kiln:assets-path}/images/tei.png"/></a>
+                <a href="https://www.stoa.org/epidoc/gl/latest/"><img style="height:3em; padding-right:1em; padding-left:0.8em" alt="epidoc" src="{$kiln:assets-path}/images/epidoc.png"/></a>
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="CC BY-NC" style="padding-left:0.9em; padding-right:1.2em; padding-bottom:0.2em" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+                <span>Irene Vagionakis, <i>Cretan Institutional Inscriptions</i> (2020)</span>
+              </p>
+            </footer>
+          </kiln:block>
+          <kiln:block name="end-js">
+            <!-- Since we make use of jQuery for other purposes, there is no reason to use Foundation's check whether to use jQuery or Zepto. -->
+            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js" />
+            <script src="{$kiln:assets-path}/foundation/js/foundation.min.js" />
+            <script>$(document).foundation();</script>
+          </kiln:block>
+        </body>
+      </kiln:block>
+    </html>
+  </kiln:block>
+</kiln:root>

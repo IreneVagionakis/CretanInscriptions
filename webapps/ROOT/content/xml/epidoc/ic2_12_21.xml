@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 21*</idno>
+                        <idno type="projectNo">110</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίων</placeName>.
+                          <lb n="2"/>ἐπειδὴ <placeName ref="#teos" type="ethnic">Τήιοι</placeName> <w lemma="φίλος">φίλοι</w> καὶ <w lemma="συγγενής">συγγενεῖς</w> διὰ <w lemma="πρόγονος">προγόνων</w>
+                          <lb n="3"/>ὑπάρχοντες ψάφισμά τε καὶ πρεσβευτὰς <w lemma="ἀποστέλλω">ἀπεστάλ<lb 
+                        break="no" n="4"/><supplied reason="lost">κ</supplied>αντ<corr>ι</corr></w> παρ’ ἁμὲ Ἀπολλόδοτόν τε καὶ Κωλώταν, οἵ<lb 
+                        break="no" n="5"/>τινες ἐπελθόντες ἐπὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#eleutherna"><w lemma="ἐσκλησία">ἐσκλησίαν</w></rs> τὰν <w lemma="φιλία">φι<lb 
+                        break="no" n="6"/>λίαν</w> καὶ τὰν <w lemma="συγγένεια">συγγένειαν</w> τὰν ὑπάρχουσαν
+                          <lb n="7"/>ποτ’ αὐτοὺς καὶ τἄλλα διελέγησαν <supplied reason="lost">εὖ καὶ</supplied> ἐν<lb 
+                        break="no" n="8"/>δόξως περί τε τῶ θεῶ καὶ τᾶς καθιερώσεως τᾶς πό<lb 
+                        break="no" n="9"/>λεως καὶ τᾶς χώρας, ἀκολούθως ἀπολο<supplied reason="lost">γιζόμενοι</supplied>
+                          <lb n="10"/>τοῖς ἐν τῶι ψαφίσματι κατακεχωρισμένοις
+                          <lb n="11"/>τάν τε <w lemma="φιλία">φιλίαν</w> καὶ τὰν <w lemma="εὔνοια">εὔνοιαν</w> διαφυλάσσειν καί
+                          <lb n="12"/>τινος ἀγαθῶ παραιτίους γίνεσθαι καὶ τὰ <w lemma="παρακαλέω"><unclear>π</unclear><supplied reason="lost">αρακαλώ</supplied><lb 
+                        break="no" n="13"/>μενα</w> ἐπὶ πλέον συναύξειν, ὁμοίως δὲ <w lemma="παρακαλέω">παρεκάλ<supplied reason="lost">εσε</supplied></w>
+                          <lb n="14"/>καὶ Ἀγήσανδρος Εὐκράτευς <placeName ref="#rhodos" type="ethnic">Ῥόδιος</placeName> ὁ παρὰ τῶ <persName type="ruler" key="Antiochos III" ref="#seleukeia"><w lemma="βασιλεύς">βασι<lb 
+                        break="no" n="15"/>λέως</w> <name nymRef="Ἀντίοχος">Ἀντιόχω</name></persName> πρεσβευτὰς ἐπὶ τὰς τῶ πολέμω
+                          <lb n="16"/>διαλύσεις <w lemma="ἀποστέλλω">ἀποσταλείς</w>, οὐθὲν ἐλλείπων <w lemma="σπουδά">σπου<lb 
+                        break="no" n="17"/>δᾶς</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίας</w> κατ’ οὐθένα τρόπον· ὡσαύτως δὲ
+                          <lb n="18"/>καὶ Περδίκκας ὁ παρὰ τῶ <persName type="ruler" key="Philippos V" ref="#macedonia"><w lemma="βασιλεύς">βασιλέως</w> <name nymRef="Φίλιππος">Φιλίππω</name></persName> πεμ<lb 
+                        break="no" n="19"/>φθείς· <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#eleutherna"><w lemma="δοκέω">δεδόχθαι</w></rs> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#eleutherna"><w lemma="πόλις">πόλει</w></rs> τῶν <placeName ref="#eleutherna" type="ethnic">Ἐλευ<lb 
+                        break="no" n="20"/>θερναίων</placeName> <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> <placeName ref="#teos" type="ethnic">Τηίοις</placeName> <w lemma="φίλος">φίλοις</w> καὶ <w lemma="οἰκεῖος">οἰκείοις</w>
+                          <lb n="21"/>οὖσιν διότι τά τε περὶ τὸν <persName type="divine" key="Dionysos">Διόνυσον</persName> καὶ αὐτοὶ σεβό<lb 
+                        break="no" n="22"/>μεθα καὶ τὸν ὑμὸν δᾶμον ἀσπαζόμεθά τε <w lemma="ἐπαινέω">κἠ<lb 
+                        break="no" n="23"/>παινίομεν</w> διότι καλῶς καὶ ἱεροπρεπῶς καὶ κατα<lb 
+                        break="no" n="24"/>ξίως τῶ θεῶ διεξάγοντες οὐ μόνον καθῶς πὰρ τῶν
+                          <lb n="25"/><w lemma="πρόγονος">προγόνων</w> παρέλαβον διαφυλάσσοντες, ἀλλὰ καὶ
+                          <lb n="26"/>πολλῶι μᾶλλον προσαύξοντες, ἕνεκεν ὧν καὶ παρ’ ἁ<lb 
+                        break="no" n="27"/>μίων τὰ σεμνὰ καὶ <w lemma="τίμια">τίμια</w> δίδοται τῶι θεῶι καὶ <placeName ref="#teos" type="ethnic">Τηίοις</placeName>
+                          <lb n="28"/>καὶ τάν τε πόλιν αὐτῶν καὶ τὰν χώραν ἱερὰν καὶ <w lemma="ἄσυλος">ἄσυ<lb 
+                        break="no" n="29"/>λον</w> ἀποδείκνυμεν καὶ πειρασόμεθα συναύξειν.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La concessione di <foreign>asylia</foreign> a Teos da parte di Eleutherna, che appartiene alla ricca serie di documenti analoghi emanati da numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), è notevole per l’informazione che fornisce sullo scopo della presenza dell’ambasciatore Agesandros, inviato dal re Antioco per la risoluzione di un conflitto in corso (ll. 14-16). Il documento, che si è conservato nella sua interezza, presenta nella sua sezione iniziale le motivazioni del decreto, dalle quali emerge come l’<foreign>ekklesia</foreign> sia addetta alle relazioni estere, occupandosi dell’accoglienza degli ambasciatori inviati da Teos e dai re Antioco e Filippo (ll. 2-19).</p>
+                    <p>La successiva formula di mozione, l’unica ad essersi conservata nei documenti di Eleutherna, testimonia l’affidamento nella città dell’attività deliberativa ai cosmi e alla <foreign>polis</foreign> (ll. 19-20).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 3047</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 71</bibl>; 
+                            <bibl><ref target="#b267">Cauer 1877</ref>, n. 56</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 57</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5177</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 21* <ptr type="phi" target="199905"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 9</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 149</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2">Ager 1991</ref>, pp. 18-20</bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 43f</bibl>; 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 58.II</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib119">Magnetto, <title>Arbitrati</title></ref> 58</bibl>; 
+                            <bibl><ref target="#b437">Curty 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

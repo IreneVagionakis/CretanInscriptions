@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 9</idno>
+                        <idno type="projectNo">240</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna (A-N tranne alcune pietre, A*-L*); </repository> <idno type="invNo"/>
+                                <altIdentifier><repository ref="#agioi_deka">Agioi Deka, in una casa (O); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#gortyn_storeroom">deposito di Gortyna (N); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#lost">iscrizione perduta (M)</repository><idno></idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>tredici <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>retrograda</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0525">600-525 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part">
+                    <div type="textpart" subtype="fragment" n="A-B">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">τ</supplied>ο͂ <rs type="institution" subtype="public_space" role="unknown" key="agreion" ref="#gortyn"><w lemma="ἀγρήιον">ἀγρήιο</w></rs> <g type="|"/> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>α<unclear>λ</unclear>ρ</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="C-G">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ι</orig><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>ος <g type="|"/> ἄγεν <g type="|"/> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> πον<unclear>ό</unclear>σει <g type="|"/> ἢ <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα"><unclear>δ</unclear>ίκ<supplied reason="lost">αν</supplied></w></rs> <w lemma="δικάζω">δ<supplied reason="lost">ι</supplied>κάζ<unclear>ε</unclear><supplied reason="lost">ν</supplied></w> <g type="|"/> ἢ ἀ<unclear>ϝτ</unclear>ὸ<supplied reason="lost">ς</supplied> κατα<gap reason="lost" extent="unknown" unit="character"/><orig>ηι</orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="H">
+                        <ab>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>δ</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="I-L">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ελες <g type="|"/> ον <g type="|"/> ἐλ<supplied reason="lost">ὸ</supplied>ν <g type="|"/> μ<unclear>η</unclear> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>λεν <g type="|"/> <unclear>το͂</unclear> <rs type="institution" subtype="public_space" role="unknown" key="agreion" ref="#gortyn"><w lemma="ἀγρήιον"><unclear>ἀ</unclear>γρήιο </w></rs><g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="M-N">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig><gap reason="lost" quantity="1" unit="character"/><orig>ε</orig> πο<unclear>ν</unclear><gap reason="lost" quantity="1" unit="character"/>ιον <gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>μὴ ἀ<unclear>ϝ</unclear>τ<supplied reason="lost">ὰ</supplied> <unclear>ϝ</unclear>οιζη<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                    </div>
+                    </div>
+                    <div type="textpart" subtype="part">
+                    <div type="textpart" subtype="fragment" n="A*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> <orig><unclear>η</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig><unclear>η</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="B*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>βκ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="C*">
+                        <ab>
+                          <lb n="1"/>κρηιο<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>η</unclear>ι</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="D*">
+                        <ab>
+                          <lb n="1"/><orig>λο</orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="E*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ϝ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="F*-H*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="I*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ϝ</unclear></orig><gap reason="illegible" quantity="5" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="K*">
+                        <ab>
+                          <lb n="1"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="L*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="M*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ε<unclear>σ</unclear>μ<gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>η<unclear>τ</unclear>αι<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="N*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὄρϙος">ὄρϙοι</w> <g type="|"/> ἢ ἐ<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="O*">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν μολοῖ <g type="|"/> ἢ <rs type="institution" subtype="official" role="unknown" key="propolos" ref="#gortyn"><w part="I" lemma="πρόπολος">προπο<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          </ab>
+                    </div>
+                    </div>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="C-G1"><note><unclear>δ</unclear>ίκ<supplied reason="lost">αν</supplied> <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>; <unclear>δ</unclear>ίκ<supplied reason="lost">ας</supplied> <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>I frammenti A-B e I-L della legge offrono le uniche attestazioni note dell’<foreign>agreion</foreign>, termine che è stato inteso come uno spazio adibito forse alla riunione dei cittadini in arme sulla base della vicinanza etimologica ad <foreign>agretas</foreign> (Hsch. <foreign>s.v.</foreign> Ἀγρέταν· ἡγεμόνα θεόν; cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 19-25</bibl>). È possibile, tuttavia, che il termine non sia legato alla sfera militare ma piuttosto a quella giuridica, alla quale sono connessi i frammenti C-G, menzionanti un processo ed il verbo <foreign>dikazein</foreign>: in tal caso l’<foreign>agreion</foreign> potrebbe essere interpretato come luogo in cui si svolgono le azioni giudiziarie.</p>
+                    <p>Il frammento O*, invece, sembra restituire parte del termine <foreign>propolos</foreign>, indicante un addetto ad un culto, a Creta attestato anche da un’iscrizione arcaica di Dreros mediante l’espressione ὄστις προπολ[εὺ]ς εἴε (<ref type="ins" target="#bile_4">Bile 4</ref>). Il documento di Dreros, peraltro, è l’unico contesto epigrafico ad attesare un ἀγρέτας; non è pertanto da escludere che la vicinanza dei termini <foreign>agretas</foreign> e <foreign>agreion</foreign> alla menzione di <foreign>propoloi</foreign> sia dovuta ad una possibile connotazione sacra della loro famiglia lessicale (attestata peraltro per le <foreign>agretai</foreign> di Cos; cf. <ref type="ins"><title>IG</title> XII,4 1 332</ref>, <ref type="lit">Hsch. <foreign>s.v.</foreign> ἀγρεταί</ref>· παρὰ Κῴοις ἐννέα κόραι κατ’ ἐνιαυτὸν αἱρούμεναι πρὸς θεραπείαν τῆς Ἀθηνᾶς).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agreion"><foreign>agreion</foreign></ref>, <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#propolos"><foreign>propolos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b378">Comparetti 1888a</ref>, pp. 199-200 nn. 48 (N*), 49 (O*), 50 (M*)</bibl>; 
+                            <bibl><ref target="#b381">Comparetti 1889</ref>, pp. 85-87 n. 38 (A-N)</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 69-70 nn. 145-146</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4970</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 9 <ptr type="phi" target="200444"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 78 (A-N)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G9 (A-N, M*-O*)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 119*</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

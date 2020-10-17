@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Axos menzionante più giudici</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 27</idno>
+                        <idno type="projectNo">127</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno">Rethymno, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ε</unclear>νι<unclear>ω</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="2" unit="character"/>ν πάντων <unclear>ἢ</unclear> <unclear>ϝ</unclear><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><orig><unclear>ε</unclear>καμεκρινει</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ατ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>να <unclear>α</unclear>ὐτὸς ἀγέσθ<unclear>ω</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>ναι δ’ αλγι<unclear>οι</unclear>και<unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>τῶν <rs type="institution" subtype="board" role="unknown" key="dikastas" ref="#axos"><w lemma="δικαστάς">δι<unclear>κ</unclear>αστ<unclear>ᾶν</unclear></w></rs> <unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><orig><unclear>τ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>α</unclear></orig><gap reason="lost" quantity="6" unit="character" precision="low"/><orig><unclear>μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, molto lacunosa, conserva la menzione di più giudici, gli unici noti da Axos, putroppo in un contesto che è impossibile da ricostruire.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dikastas"><foreign>dikastas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 578-579 n. 61</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5133</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 27 <ptr type="phi" target="199788"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

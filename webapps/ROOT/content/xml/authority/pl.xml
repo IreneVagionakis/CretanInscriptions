@@ -1,0 +1,1680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Origin places and mentioned places</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="acharna">
+                    <placeName xml:lang="en">Acharna</placeName>
+                    <placeName xml:lang="it">Acharna</placeName>
+                    <idno type="pleiades">589657</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="aegaeum_antrum">
+                    <placeName xml:lang="en">Aegaeum Antrum</placeName>
+                    <placeName xml:lang="it">Aegaeum Antrum</placeName>
+                    <idno type="pleiades">589675</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="allaria">
+                    <placeName xml:lang="en">Allaria</placeName>
+                    <placeName xml:lang="it">Allaria</placeName>
+                    <idno type="pleiades">589679</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="amnisos">
+                    <placeName xml:lang="en">Amnisos</placeName>
+                    <placeName xml:lang="it">Amnisos</placeName>
+                    <idno type="pleiades">524143100</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="hieron/limen"></state></place>
+                </place>
+                
+                <place xml:id="ampelos">
+                    <placeName xml:lang="en">Ampelos</placeName>
+                    <placeName xml:lang="it">Ampelos</placeName>
+                    <idno type="pleiades">589686</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="amyklaion">
+                    <placeName xml:lang="en">Amyklaion</placeName>
+                    <placeName xml:lang="it">Amyklaion</placeName>
+                    <idno type="pleiades">589690</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="hieron/limen"></state></place>
+                </place>
+                
+                <place xml:id="anopolis">
+                    <placeName xml:lang="en">Anopolis</placeName>
+                    <placeName xml:lang="it">Anopolis</placeName>
+                    <idno type="pleiades">589694</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="dera">
+                    <placeName xml:lang="en">Aphrodision at Dera</placeName>
+                    <placeName xml:lang="it">Aphrodision di Dera</placeName>
+                    <idno type="pleiades">589707</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="apollonia">
+                    <placeName xml:lang="en">Apollonia</placeName>
+                    <placeName xml:lang="it">Apollonia</placeName>
+                    <idno type="pleiades">589696</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="aptera">
+                    <placeName xml:lang="en">Aptera</placeName>
+                    <placeName xml:lang="it">Aptera</placeName>
+                    <idno type="pleiades">589704</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="araden">
+                    <placeName xml:lang="en">Araden</placeName>
+                    <placeName xml:lang="it">Araden</placeName>
+                    <idno type="pleiades">589705</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="aria">
+                    <placeName xml:lang="en">Aria</placeName>
+                    <placeName xml:lang="it">Aria</placeName>
+                    <idno type="pleiades">589709</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="arkades">
+                    <placeName xml:lang="en">Arkades</placeName>
+                    <placeName xml:lang="it">Arkades</placeName>
+                    <idno type="pleiades">589710</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="arkoudospilia">
+                    <placeName xml:lang="en">Arkoudospilia</placeName>
+                    <placeName xml:lang="it">Arkoudospilia</placeName>
+                    <idno type="pleiades">589904</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="artemitai">
+                    <placeName xml:lang="en">Artemitai</placeName>
+                    <placeName xml:lang="it">Artemitai</placeName>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="aulon">
+                    <placeName xml:lang="en">Aulon</placeName>
+                    <placeName xml:lang="it">Aulon</placeName>
+                    <idno type="pleiades">589721</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="axos">
+                    <placeName xml:lang="en">Axos</placeName>
+                    <placeName xml:lang="it">Axos</placeName>
+                    <idno type="pleiades">590095</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="azoria">
+                    <placeName xml:lang="en">Azoria</placeName>
+                    <placeName xml:lang="it">Azoria</placeName>
+                    <idno type="pleiades">180252821</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="biannos">
+                    <placeName xml:lang="en">Biannos</placeName>
+                    <placeName xml:lang="it">Biannos</placeName>
+                    <idno type="pleiades">589730</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="bilkon">
+                    <placeName xml:lang="en">Bilkon</placeName>
+                    <placeName xml:lang="it">Bilkon</placeName>
+                    <idno type="pleiades">594952</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="bionnos">
+                    <placeName xml:lang="en">Bionnos</placeName>
+                    <placeName xml:lang="it">Bionnos</placeName>
+                    <idno type="pleiades">589733</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="chersonesos">
+                    <placeName xml:lang="en">Chersonesos</placeName>
+                    <placeName xml:lang="it">Chersonesos</placeName>
+                    <idno type="pleiades">589744</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="cranaeum_antrum">
+                    <placeName xml:lang="en">Cranaeum Antrum</placeName>
+                    <placeName xml:lang="it">Cranaeum Antrum</placeName>
+                    <idno type="pleiades">589881</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="crete">
+                    <placeName xml:lang="en">Crete</placeName>
+                    <placeName xml:lang="it">Creta</placeName>
+                    <place><region>Creta</region></place>
+                </place>
+                
+                <place xml:id="east_crete">
+                    <placeName xml:lang="en">East Crete</placeName>
+                    <placeName xml:lang="it">Creta orientale</placeName>
+                    <place><region>Lasithi</region></place>
+                </place>
+                
+                <place xml:id="datala">
+                    <placeName xml:lang="en">Datala</placeName>
+                    <placeName xml:lang="it">Datala</placeName>
+                    <idno type="pleiades">589752</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="diatonion">
+                    <placeName xml:lang="en">Diatonion</placeName>
+                    <placeName xml:lang="it">Diatonion</placeName>
+                    <idno type="pleiades">589756</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="dictaeum_fanum">
+                    <placeName xml:lang="en">Dictaeum Fanum</placeName>
+                    <placeName xml:lang="it">Dictaeum Fanum</placeName>
+                    <idno type="pleiades">589759</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="diktynnaion_rodopou">
+                    <placeName xml:lang="en">Diktynnaion at Rodopou</placeName>
+                    <placeName xml:lang="it">Diktynnaion di Rodopou</placeName>
+                    <idno type="pleiades">589760</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="dragmos">
+                    <placeName xml:lang="en">Dragmos</placeName>
+                    <placeName xml:lang="it">Dragmos</placeName>
+                    <idno type="pleiades">589765</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="dreros">
+                    <placeName xml:lang="en">Dreros</placeName>
+                    <placeName xml:lang="it">Dreros</placeName>
+                    <idno type="pleiades">589767</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                <place xml:id="eleutherna">
+                    <placeName xml:lang="en">Eleutherna</placeName>
+                    <placeName xml:lang="it">Eleutherna</placeName>
+                    <idno type="pleiades">589772</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="eltynia">
+                    <placeName xml:lang="en">Eltynia</placeName>
+                    <placeName xml:lang="it">Eltynia</placeName>
+                    <idno type="pleiades">589774</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>    
+                
+                <place xml:id="elyros">
+                    <placeName xml:lang="en">Elyros</placeName>
+                    <placeName xml:lang="it">Elyros</placeName>
+                    <idno type="pleiades">589775</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="erannos">
+                    <placeName xml:lang="en">Erannos</placeName>
+                    <placeName xml:lang="it">Erannos</placeName>
+                    <idno type="pleiades">589781</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="gortyn">
+                    <placeName xml:lang="en">Gortyn</placeName>
+                    <placeName xml:lang="it">Gortyna</placeName>
+                    <idno type="pleiades">589796</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="gortyn_symmachia">
+                    <placeName xml:lang="en">Gortyn league</placeName>
+                    <placeName xml:lang="it">Gortyna ed i suoi alleati</placeName>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="symmachia"></state></place>
+                </place>
+                
+                <place xml:id="lera">
+                    <placeName xml:lang="en">Lera Cave</placeName>
+                    <placeName xml:lang="it">Grotta di Lera</placeName>
+                    <idno type="pleiades">589904</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="herakleion">
+                    <placeName xml:lang="en">Herakleion</placeName>
+                    <placeName xml:lang="it">Herakleion</placeName>
+                    <idno type="pleiades">589802</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="hierapytna">
+                    <placeName xml:lang="en">Hierapytna</placeName>
+                    <placeName xml:lang="it">Hierapytna</placeName>
+                    <idno type="pleiades">589807</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="hydramia">
+                    <placeName xml:lang="en">Hydramia</placeName>
+                    <placeName xml:lang="it">Hydramia</placeName>
+                    <idno type="pleiades">589810</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="hyrtaia">
+                    <placeName xml:lang="en">Hyrtaia</placeName>
+                    <placeName xml:lang="it">Hyrtaia</placeName>
+                    <idno type="pleiades">589812</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="hyrtakina">
+                    <placeName xml:lang="en">Hyrtakina</placeName>
+                    <placeName xml:lang="it">Hyrtakina</placeName>
+                    <idno type="pleiades">589813</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="idaeum_antrum">
+                    <placeName xml:lang="en">Idaeum Antrum</placeName>
+                    <placeName xml:lang="it">Idaeum Antrum</placeName>
+                    <idno type="pleiades">589817</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="ilattia">
+                    <placeName xml:lang="en">Ilattia</placeName>
+                    <placeName xml:lang="it">Ilattia</placeName>
+                    <idno type="pleiades">594972</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="inachorion">
+                    <placeName xml:lang="en">Inachorion</placeName>
+                    <placeName xml:lang="it">Inachorion</placeName>
+                    <idno type="pleiades">589818</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="inatos">
+                    <placeName xml:lang="en">Inatos</placeName>
+                    <placeName xml:lang="it">Inatos</placeName>
+                    <idno type="pleiades">589819</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="hieron/limen"></state></place>
+                </place>
+                
+                <place xml:id="istron">
+                    <placeName xml:lang="en">Istron</placeName>
+                    <placeName xml:lang="it">Istron</placeName>
+                    <idno type="pleiades">589822</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="itanos">
+                    <placeName xml:lang="en">Itanos</placeName>
+                    <placeName xml:lang="it">Itanos</placeName>
+                    <idno type="pleiades">589824</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="kantanos">
+                    <placeName xml:lang="en">Kantanos</placeName>
+                    <placeName xml:lang="it">Kantanos</placeName>
+                    <idno type="pleiades">589838</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="kaudos">
+                    <placeName xml:lang="en">Kaudos</placeName>
+                    <placeName xml:lang="it">Kaudos</placeName>
+                    <idno type="pleiades">589859</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="keraia">
+                    <placeName xml:lang="en">Keraia</placeName>
+                    <placeName xml:lang="it">Keraia</placeName>
+                    <idno type="pleiades">589863</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="kissamos">
+                    <placeName xml:lang="en">Kissamos</placeName>
+                    <placeName xml:lang="it">Kissamos</placeName>
+                    <idno type="pleiades">589870</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="knossos">
+                    <placeName xml:lang="en">Knossos</placeName>
+                    <placeName xml:lang="it">Knossos</placeName>
+                    <idno type="pleiades">589872</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>  
+                
+                <place xml:id="knossos_symmachia">
+                    <placeName xml:lang="en">Knossos league</placeName>
+                    <placeName xml:lang="it">Knossos ed i suoi alleati</placeName>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="symmachia"></state></place>
+                </place>
+                
+                <place xml:id="koinon_kretaieon">
+                    <placeName xml:lang="en">Koinon ton Kretaieon</placeName>
+                    <placeName xml:lang="it">Koinon ton Kretaieon</placeName>
+                    <place><region>Creta</region></place>
+                    <place><state type="status" key="koinon"></state></place>
+                </place>
+                
+                <place xml:id="kourtolia">
+                    <placeName xml:lang="en">Kourtolia</placeName>
+                    <placeName xml:lang="it">Kourtolia</placeName>
+                    <idno type="pleiades">589685</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="kydonia">
+                    <placeName xml:lang="en">Kydonia</placeName>
+                    <placeName xml:lang="it">Kydonia</placeName>
+                    <idno type="pleiades">589886</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>  
+                
+                <place xml:id="kytaion">
+                    <placeName xml:lang="en">Kytaion</placeName>
+                    <placeName xml:lang="it">Kytaion</placeName>
+                    <idno type="pleiades">589889</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="lachania">
+                    <placeName xml:lang="en">Lachania</placeName>
+                    <placeName xml:lang="it">Lachania</placeName>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>  
+                
+                <place xml:id="lappa">
+                    <placeName xml:lang="en">Lappa</placeName>
+                    <placeName xml:lang="it">Lappa</placeName>
+                    <idno type="pleiades">589894</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="larisa">
+                    <placeName xml:lang="en">Larisa</placeName>
+                    <placeName xml:lang="it">Larisa</placeName>
+                    <idno type="pleiades">589895</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="lasaia">
+                    <placeName xml:lang="en">Lasaia</placeName>
+                    <placeName xml:lang="it">Lasaia</placeName>
+                    <idno type="pleiades">589897</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="hieron/limen"></state></place>
+                </place>
+                
+                <place xml:id="lato">
+                    <placeName xml:lang="en">Lato</placeName>
+                    <placeName xml:lang="it">Lato</placeName>
+                    <idno type="pleiades">589899</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="lato_kamara">
+                    <placeName xml:lang="en">Lato pros Kamara</placeName>
+                    <placeName xml:lang="it">Lato pros Kamara</placeName>
+                    <idno type="pleiades">589900</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="latosion">
+                    <placeName xml:lang="en">Latosion</placeName>
+                    <placeName xml:lang="it">Latosion</placeName>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>   
+                
+                <place xml:id="lebena">
+                    <placeName xml:lang="en">Lebena</placeName>
+                    <placeName xml:lang="it">Lebena</placeName>
+                    <idno type="pleiades">589901</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="lissos">
+                    <placeName xml:lang="en">Lissos</placeName>
+                    <placeName xml:lang="it">Lissos</placeName>
+                    <idno type="pleiades">589914</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="lykastos">
+                    <placeName xml:lang="en">Lykastos</placeName>
+                    <placeName xml:lang="it">Lykastos</placeName>
+                    <idno type="pleiades">589917</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>   
+                
+                <place xml:id="lyttos">
+                    <placeName xml:lang="en">Lyttos</placeName>
+                    <placeName xml:lang="it">Lyttos</placeName>
+                    <idno type="pleiades">589918</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="lyttos_symmachia">
+                    <placeName xml:lang="en">Lyttos league</placeName>
+                    <placeName xml:lang="it">Lyttos ed i suoi alleati</placeName>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="symmachia"></state></place>
+                </place>
+                
+                <place xml:id="malla">
+                    <placeName xml:lang="en">Malla</placeName>
+                    <placeName xml:lang="it">Malla</placeName>
+                    <idno type="pleiades">589921</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="matala">
+                    <placeName xml:lang="en">Matala</placeName>
+                    <placeName xml:lang="it">Matala</placeName>
+                    <idno type="pleiades">589925</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="milatos">
+                    <placeName xml:lang="en">Milatos</placeName>
+                    <placeName xml:lang="it">Milatos</placeName>
+                    <idno type="pleiades">589932</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="minoa">
+                    <placeName xml:lang="en">Minoa</placeName>
+                    <placeName xml:lang="it">Minoa</placeName>
+                    <idno type="pleiades">589933</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="moda">
+                    <placeName xml:lang="en">Moda</placeName>
+                    <placeName xml:lang="it">Moda</placeName>
+                    <idno type="pleiades">590034</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="oleros">
+                    <placeName xml:lang="en">Oleros</placeName>
+                    <placeName xml:lang="it">Oleros</placeName>
+                    <idno type="pleiades">589957</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="olous">
+                    <placeName xml:lang="en">Olous</placeName>
+                    <placeName xml:lang="it">Olous</placeName>
+                    <idno type="pleiades">589959</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="oreioi">
+                    <placeName xml:lang="en">Oreioi</placeName>
+                    <placeName xml:lang="it">Oreioi</placeName>
+                    <idno type="pleiades">589962</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="koinon"></state></place>
+                </place>
+                
+                <place xml:id="osmida">
+                    <placeName xml:lang="en">Osmida</placeName>
+                    <placeName xml:lang="it">Osmida</placeName>
+                    <idno type="pleiades">594990</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="pantomatrion">
+                    <placeName xml:lang="en">Pantomatrion</placeName>
+                    <placeName xml:lang="it">Pantomatrion</placeName>
+                    <idno type="pleiades">589976</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="pelkis">
+                    <placeName xml:lang="en">Pelkis</placeName>
+                    <placeName xml:lang="it">Pelkis</placeName>
+                    <idno type="pleiades">589983</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="pergamos">
+                    <placeName xml:lang="en">Pergamos</placeName>
+                    <placeName xml:lang="it">Pergamos</placeName>
+                    <idno type="pleiades">589984</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="petra">
+                    <placeName xml:lang="en">Petra</placeName>
+                    <placeName xml:lang="it">Petra</placeName>
+                    <idno type="pleiades">589985</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="phaistos">
+                    <placeName xml:lang="en">Phaistos</placeName>
+                    <placeName xml:lang="it">Phaistos</placeName>
+                    <idno type="pleiades">589987</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>     
+                
+                <place xml:id="phalanna">
+                    <placeName xml:lang="en">Phalanna</placeName>
+                    <placeName xml:lang="it">Phalanna</placeName>
+                    <idno type="pleiades">589988</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="phalasarna">
+                    <placeName xml:lang="en">Phalasarna</placeName>
+                    <placeName xml:lang="it">Phalasarna</placeName>
+                    <idno type="pleiades">589989</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="phoinix1">
+                    <placeName xml:lang="en">Phoinix 1</placeName>
+                    <placeName xml:lang="it">Phoinix 1</placeName>
+                    <idno type="pleiades">589993</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="phoinix2">
+                    <placeName xml:lang="en">Phoinix 2</placeName>
+                    <placeName xml:lang="it">Phoinix 2</placeName>
+                    <idno type="pleiades">589994</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="poikilasion">
+                    <placeName xml:lang="en">Poikilasion</placeName>
+                    <placeName xml:lang="it">Poikilasion</placeName>
+                    <idno type="pleiades">589999</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="hieron/limen"></state></place>
+                </place>
+                
+                <place xml:id="polichna">
+                    <placeName xml:lang="en">Polichna</placeName>
+                    <placeName xml:lang="it">Polichna</placeName>
+                    <idno type="pleiades">590000</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="polyrrhenia">
+                    <placeName xml:lang="en">Polyrrhenia</placeName>
+                    <placeName xml:lang="it">Polyrrhenia</placeName>
+                    <idno type="pleiades">590003</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="polyrrhenia_symmachia">
+                    <placeName xml:lang="en">Polyrrhenia league</placeName>
+                    <placeName xml:lang="it">Polyrrhenia ed i suoi alleati</placeName>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="symmachia"></state></place>
+                </place>    
+                
+                <place xml:id="praisos">
+                    <placeName xml:lang="en">Praisos</placeName>
+                    <placeName xml:lang="it">Praisos</placeName>
+                    <idno type="pleiades">590011</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="priansos">
+                    <placeName xml:lang="en">Priansos</placeName>
+                    <placeName xml:lang="it">Priansos</placeName>
+                    <idno type="pleiades">590013</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>          
+                
+                <place xml:id="psycheion">
+                    <placeName xml:lang="en">Psycheion</placeName>
+                    <placeName xml:lang="it">Psycheion</placeName>
+                    <idno type="pleiades">590018</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="pyloros">
+                    <placeName xml:lang="en">Pyloros</placeName>
+                    <placeName xml:lang="it">Pyloros</placeName>
+                    <idno type="pleiades">590021</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="pyranthos">
+                    <placeName xml:lang="en">Pyranthos</placeName>
+                    <placeName xml:lang="it">Pyranthos</placeName>
+                    <idno type="pleiades">590022</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="rhaukos">
+                    <placeName xml:lang="en">Rhaukos</placeName>
+                    <placeName xml:lang="it">Rhaukos</placeName>
+                    <idno type="pleiades">590026</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>          
+                
+                <place xml:id="rhithymna">
+                    <placeName xml:lang="en">Rhithymna</placeName>
+                    <placeName xml:lang="it">Rhithymna</placeName>
+                    <idno type="pleiades">590028</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="rhittenia">
+                    <placeName xml:lang="en">Rhittenia</placeName>
+                    <placeName xml:lang="it">Rhittenia</placeName>
+                    <idno type="pleiades">590029</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="rhytion">
+                    <placeName xml:lang="en">Rhytion</placeName>
+                    <placeName xml:lang="it">Rhytion</placeName>
+                    <idno type="pleiades">590033</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="samonium_fanum">
+                    <placeName xml:lang="en">Samonium Fanum</placeName>
+                    <placeName xml:lang="it">Samonium Fanum</placeName>
+                    <idno type="pleiades">590037</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="hieron/limen"></state></place>
+                </place>        
+                
+                <place xml:id="symi_viannou">
+                    <placeName xml:lang="en">Sanctuary of Hermes and Aphrodite, Symi Viannou</placeName>
+                    <placeName xml:lang="it">Santuario di Hermes e Afrodite, Symi Viannou</placeName>
+                    <idno type="pleiades">589805</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+
+                <place xml:id="myrtos_pyrgos">
+                    <placeName xml:lang="en">Myrtos-Pyrgos sanctuary</placeName>
+                    <placeName xml:lang="it">Santuario di Myrtos-Pyrgos</placeName>
+                    <idno type="pleiades">589949</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="spinalonga">
+                    <placeName xml:lang="en">Spinalonga sanctuary</placeName>
+                    <placeName xml:lang="it">Santuario di Spinalonga</placeName>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="tsiskiana">
+                    <placeName xml:lang="en">Tsiskiana sanctuary</placeName>
+                    <placeName xml:lang="it">Santuario di Tsiskiana</placeName>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="tylifos">
+                    <placeName xml:lang="en">Tylifos sanctuary</placeName>
+                    <placeName xml:lang="it">Santuario di Tylifos</placeName>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="sipilen">
+                    <placeName xml:lang="en">Sipilen</placeName>
+                    <placeName xml:lang="it">Sipilen</placeName>
+                    <idno type="pleiades">594998</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="comunità_dipendente"></state></place>
+                </place>
+                
+                <place xml:id="sisai">
+                    <placeName xml:lang="en">Sisai</placeName>
+                    <placeName xml:lang="it">Sisai</placeName>
+                    <idno type="pleiades">590050</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="siteia">
+                    <placeName xml:lang="en">Siteia</placeName>
+                    <placeName xml:lang="it">Siteia</placeName>
+                    <idno type="pleiades">590045</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>        
+                
+                <place xml:id="soulia">
+                    <placeName xml:lang="en">Soulia</placeName>
+                    <placeName xml:lang="it">Soulia</placeName>
+                    <idno type="pleiades">590056</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="hieron/limen"></state></place>
+                </place>
+                
+                <place xml:id="stalai">
+                    <placeName xml:lang="en">Stalai</placeName>
+                    <placeName xml:lang="it">Stalai</placeName>
+                    <idno type="pleiades">590059</idno>
+                    <place><region>Lasithi</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="sybrita">
+                    <placeName xml:lang="en">Sybrita</placeName>
+                    <placeName xml:lang="it">Sybrita</placeName>
+                    <idno type="pleiades">590063</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="syia">
+                    <placeName xml:lang="en">Syia</placeName>
+                    <placeName xml:lang="it">Syia</placeName>
+                    <idno type="pleiades">590064</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="limen"></state></place>
+                </place>
+                
+                <place xml:id="tallaeum_antrum">
+                    <placeName xml:lang="en">Tallaeum Antrum</placeName>
+                    <placeName xml:lang="it">Tallaeum Antrum</placeName>
+                    <idno type="pleiades">590070</idno>
+                    <place><region>Rethymno</region></place>
+                    <place><state type="status" key="hieron"></state></place>
+                </place>
+                
+                <place xml:id="tarrha">
+                    <placeName xml:lang="en">Tarrha</placeName>
+                    <placeName xml:lang="it">Tarrha</placeName>
+                    <idno type="pleiades">590072</idno>
+                    <place><region>Chania</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                <place xml:id="tylisos">
+                    <placeName xml:lang="en">Tylisos</placeName>
+                    <placeName xml:lang="it">Tylisos</placeName>
+                    <idno type="pleiades">590084</idno>
+                    <place><region>Herakleion</region></place>
+                    <place><state type="status" key="polis"></state></place>
+                </place>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <place xml:id="achaia">
+                    <placeName xml:lang="en">Achaia</placeName>
+                    <placeName xml:lang="it">Achaia</placeName>
+                    <idno type="pleiades">570028</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place> 
+                
+                <place xml:id="aphrodisias">
+                    <placeName xml:lang="en">Aphrodisias</placeName>
+                    <placeName xml:lang="it">Afrodisia</placeName>
+                    <idno type="pleiades">638753</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="aigilia">
+                    <placeName xml:lang="en">Aigilia</placeName>
+                    <placeName xml:lang="it">Aigilia</placeName>
+                    <idno type="pleiades">560230</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="alabanda">
+                    <placeName xml:lang="en">Alabanda</placeName>
+                    <placeName xml:lang="it">Alabanda</placeName>
+                    <idno type="pleiades">599479</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>     
+                
+                <place xml:id="alexandria">
+                    <placeName xml:lang="en">Alexandria</placeName>
+                    <placeName xml:lang="it">Alessandria</placeName>
+                    <idno type="pleiades">727070</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="halicarnassus">
+                    <placeName xml:lang="en">Halicarnassus</placeName>
+                    <placeName xml:lang="it">Alicarnasso</placeName>
+                    <idno type="pleiades">599636</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="anaphe">
+                    <placeName xml:lang="en">Anaphe</placeName>
+                    <placeName xml:lang="it">Anaphe</placeName>
+                    <idno type="pleiades">599491</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="arkesine">
+                    <placeName xml:lang="en">Arkesine</placeName>
+                    <placeName xml:lang="it">Arkesine</placeName>
+                    <idno type="pleiades">599925</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="aspendos">
+                    <placeName xml:lang="en">Aspendos</placeName>
+                    <placeName xml:lang="it">Aspendos</placeName>
+                    <idno type="pleiades">638776</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="ambracia">
+                    <placeName xml:lang="en">Ambracia</placeName>
+                    <placeName xml:lang="it">Ambracia</placeName>
+                    <idno type="pleiades">530794</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="amisos">
+                    <placeName xml:lang="en">Amisos</placeName>
+                    <placeName xml:lang="it">Amisos</placeName>
+                    <idno type="pleiades">857024</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="andros">
+                    <placeName xml:lang="en">Andros</placeName>
+                    <placeName xml:lang="it">Andros</placeName>
+                    <idno type="pleiades">589692</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="amphissa">
+                    <placeName xml:lang="en">Amphissa</placeName>
+                    <placeName xml:lang="it">Anfissa</placeName>
+                    <idno type="pleiades">540630</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>      
+                
+                <place xml:id="argos">
+                    <placeName xml:lang="en">Argos</placeName>
+                    <placeName xml:lang="it">Argo</placeName>
+                    <idno type="pleiades">570106</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="asia_minor">
+                    <placeName xml:lang="en">Asia Minor</placeName>
+                    <placeName xml:lang="it">Asia Minore</placeName>
+                    <idno type="pleiades">837</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="assyria">
+                    <placeName xml:lang="en">Assyria</placeName>
+                    <placeName xml:lang="it">Assiria</placeName>
+                    <idno type="pleiades">29492</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>            
+                
+                <place xml:id="astypalaia">
+                    <placeName xml:lang="en">Astypalaia</placeName>
+                    <placeName xml:lang="it">Astypalaia</placeName>
+                    <idno type="pleiades">599535</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place> 
+                
+                <place xml:id="athens">
+                    <placeName xml:lang="en">Athens</placeName>
+                    <placeName xml:lang="it">Atene</placeName>
+                    <idno type="pleiades">579885</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="berenike">
+                    <placeName xml:lang="en">Berenike</placeName>
+                    <placeName xml:lang="it">Berenice</placeName>
+                    <idno type="pleiades">785986</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="bithynia">
+                    <placeName xml:lang="en">Bithynia</placeName>
+                    <placeName xml:lang="it">Bitinia</placeName>
+                    <idno type="pleiades">511189</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="chalcis">
+                    <placeName xml:lang="en">Chalcis</placeName>
+                    <placeName xml:lang="it">Calcide</placeName>
+                    <idno type="pleiades">540703</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="caria">
+                    <placeName xml:lang="en">Caria</placeName>
+                    <placeName xml:lang="it">Caria</placeName>
+                    <idno type="pleiades">599564</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="chios">
+                    <placeName xml:lang="en">Chios</placeName>
+                    <placeName xml:lang="it">Chios</placeName>
+                    <idno type="pleiades">550497</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>       
+                
+                <place xml:id="cyprus">
+                    <placeName xml:lang="en">Cyprus</placeName>
+                    <placeName xml:lang="it">Cipro</placeName>
+                    <idno type="pleiades">707498</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="cyrene">
+                    <placeName xml:lang="en">Cyrene</placeName>
+                    <placeName xml:lang="it">Cirene</placeName>
+                    <idno type="pleiades">373778</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="cnidus">
+                    <placeName xml:lang="en">Cnidus</placeName>
+                    <placeName xml:lang="it">Cnido</placeName>
+                    <idno type="pleiades">599575</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="corinth">
+                    <placeName xml:lang="en">Corinth</placeName>
+                    <placeName xml:lang="it">Corinto</placeName>
+                    <idno type="pleiades">570182</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="cos">
+                    <placeName xml:lang="en">Cos</placeName>
+                    <placeName xml:lang="it">Cos</placeName>
+                    <idno type="pleiades">599728</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="delphi">
+                    <placeName xml:lang="en">Delphi</placeName>
+                    <placeName xml:lang="it">Delfi</placeName>
+                    <idno type="pleiades">540726</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="delos">
+                    <placeName xml:lang="en">Delos</placeName>
+                    <placeName xml:lang="it">Delos</placeName>
+                    <idno type="pleiades">599587</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="demetrias">
+                    <placeName xml:lang="en">Demetrias</placeName>
+                    <placeName xml:lang="it">Demetriade</placeName>
+                    <idno type="pleiades">540730</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="didyma">
+                    <placeName xml:lang="en">Didyma</placeName>
+                    <placeName xml:lang="it">Didima</placeName>
+                    <idno type="pleiades">599593</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="ephesos">
+                    <placeName xml:lang="en">Ephesos</placeName>
+                    <placeName xml:lang="it">Efeso</placeName>
+                    <idno type="pleiades">599612</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="egypt">
+                    <placeName xml:lang="en">Egypt</placeName>
+                    <placeName xml:lang="it">Egitto</placeName>
+                    <idno type="pleiades">981503</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="epidamnos">
+                    <placeName xml:lang="en">Epidamnos</placeName>
+                    <placeName xml:lang="it">Epidamnos</placeName>
+                    <idno type="pleiades">481818</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place> 
+                
+                <place xml:id="epidauros">
+                    <placeName xml:lang="en">Epidauros</placeName>
+                    <placeName xml:lang="it">Epidauro</placeName>
+                    <idno type="pleiades">570228</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="erythrai">
+                    <placeName xml:lang="en">Erythrai</placeName>
+                    <placeName xml:lang="it">Eritre</placeName>
+                    <idno type="pleiades">550535</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>      
+                
+                <place xml:id="hermione">
+                    <placeName xml:lang="en">Hermione</placeName>
+                    <placeName xml:lang="it">Ermione</placeName>
+                    <idno type="pleiades">570292</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>     
+                
+                <place xml:id="aetolia">
+                    <placeName xml:lang="en">Aetolia</placeName>
+                    <placeName xml:lang="it">Etolia</placeName>
+                    <idno type="pleiades">540591</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="euromos">
+                    <placeName xml:lang="en">Euromos</placeName>
+                    <placeName xml:lang="it">Euromos</placeName>
+                    <idno type="pleiades">599616</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="pherai">
+                    <placeName xml:lang="en">Pherai</placeName>
+                    <placeName xml:lang="it">Fere</placeName>
+                    <idno type="pleiades">570596</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="gaza">
+                    <placeName xml:lang="en">Gaza</placeName>
+                    <placeName xml:lang="it">Gaza</placeName>
+                    <idno type="pleiades">687902</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="greece">
+                    <placeName xml:lang="en">Greece</placeName>
+                    <placeName xml:lang="it">Grecia</placeName>
+                    <idno type="pleiades">1001896</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="hierapolis">
+                    <placeName xml:lang="en">Hierapolis</placeName>
+                    <placeName xml:lang="it">Hierapolis</placeName>
+                    <idno type="pleiades">638860</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="iasos">
+                    <placeName xml:lang="en">Iasos</placeName>
+                    <placeName xml:lang="it">Iaso</placeName>
+                    <idno type="pleiades">599664</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>     
+                
+                <place xml:id="illyria">
+                    <placeName xml:lang="en">Illyria</placeName>
+                    <placeName xml:lang="it">Illiria</placeName>
+                    <idno type="pleiades">481866</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="kallipolis">
+                    <placeName xml:lang="en">Kallipolis</placeName>
+                    <placeName xml:lang="it">Kallipolis</placeName>
+                    <idno type="pleiades">540849</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="kalymna">
+                    <placeName xml:lang="en">Kalymna</placeName>
+                    <placeName xml:lang="it">Kalymna</placeName>
+                    <idno type="pleiades">599684</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="kaphyai">
+                    <placeName xml:lang="en">Kaphyai</placeName>
+                    <placeName xml:lang="it">Kaphyai</placeName>
+                    <idno type="pleiades">570329</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>    
+                
+                <place xml:id="kasos">
+                    <placeName xml:lang="en">Kasos</placeName>
+                    <placeName xml:lang="it">Kasos</placeName>
+                    <idno type="pleiades">589845</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place> 
+                
+                <place xml:id="keos">
+                    <placeName xml:lang="en">Keos</placeName>
+                    <placeName xml:lang="it">Keos</placeName>
+                    <idno type="pleiades">570348</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="kimolos">
+                    <placeName xml:lang="en">Kimolos</placeName>
+                    <placeName xml:lang="it">Kimolos</placeName>
+                    <idno type="pleiades">589868</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>         
+                
+                <place xml:id="kyme">
+                    <placeName xml:lang="en">Kyme</placeName>
+                    <placeName xml:lang="it">Kyme</placeName>
+                    <idno type="pleiades">550506</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="kythera">
+                    <placeName xml:lang="en">Kythera</placeName>
+                    <placeName xml:lang="it">Kythera</placeName>
+                    <idno type="pleiades">570400</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="labraunda">
+                    <placeName xml:lang="en">Labraunda</placeName>
+                    <placeName xml:lang="it">Labraunda</placeName>
+                    <idno type="pleiades">599745</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>                  
+                
+                <place xml:id="laconia">
+                    <placeName xml:lang="en">Laconia</placeName>
+                    <placeName xml:lang="it">Laconia</placeName>
+                    <idno type="pleiades">570406</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="lampsacus">
+                    <placeName xml:lang="en">Lampsacus</placeName>
+                    <placeName xml:lang="it">Lampsaco</placeName>
+                    <idno type="pleiades">501570</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>       
+                
+                <place xml:id="lindos">
+                    <placeName xml:lang="en">Lindos</placeName>
+                    <placeName xml:lang="it">Lindos</placeName>
+                    <idno type="pleiades">589913</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="macedonia">
+                    <placeName xml:lang="en">Macedonia</placeName>
+                    <placeName xml:lang="it">Macedonia</placeName>
+                    <idno type="pleiades">491656</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place> 
+                
+                <place xml:id="magnesia">
+                    <placeName xml:lang="en">Magnesia</placeName>
+                    <placeName xml:lang="it">Magnesia</placeName>
+                    <idno type="pleiades">599778</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="megalopolis">
+                    <placeName xml:lang="en">Megalopolis</placeName>
+                    <placeName xml:lang="it">Megalopoli</placeName>
+                    <idno type="pleiades">629075</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="megara">
+                    <placeName xml:lang="en">Megara</placeName>
+                    <placeName xml:lang="it">Megara</placeName>
+                    <idno type="pleiades">570468</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>        
+                
+                <place xml:id="melos">
+                    <placeName xml:lang="en">Melos</placeName>
+                    <placeName xml:lang="it">Melos</placeName>
+                    <idno type="pleiades">570475</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>    
+                
+                <place xml:id="messene">
+                    <placeName xml:lang="en">Messene</placeName>
+                    <placeName xml:lang="it">Messene</placeName>
+                    <idno type="pleiades">570479</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="methana">
+                    <placeName xml:lang="en">Methana</placeName>
+                    <placeName xml:lang="it">Methana</placeName>
+                    <idno type="pleiades">570482</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>                        
+                
+                <place xml:id="miletus">
+                    <placeName xml:lang="en">Miletus</placeName>
+                    <placeName xml:lang="it">Mileto</placeName>
+                    <idno type="pleiades">599799</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="mytilene">
+                    <placeName xml:lang="en">Mytilene</placeName>
+                    <placeName xml:lang="it">Mitilene</placeName>
+                    <idno type="pleiades">550763</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>        
+                
+                <place xml:id="mylasa">
+                    <placeName xml:lang="en">Mylasa</placeName>
+                    <placeName xml:lang="it">Mylasa</placeName>
+                    <idno type="pleiades">599809</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="myous">
+                    <placeName xml:lang="en">Myous</placeName>
+                    <placeName xml:lang="it">Miunte</placeName>
+                    <idno type="pleiades">599813</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>    
+                
+                <place xml:id="nicomedia">
+                    <placeName xml:lang="en">Nicomedia</placeName>
+                    <placeName xml:lang="it">Nicomedia</placeName>
+                    <idno type="pleiades">511337</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="olympia">
+                    <placeName xml:lang="en">Olympia</placeName>
+                    <placeName xml:lang="it">Olimpia</placeName>
+                    <idno type="pleiades">570531</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>    
+                
+                <place xml:id="oropos">
+                    <placeName xml:lang="en">Oropos</placeName>
+                    <placeName xml:lang="it">Oropos</placeName>
+                    <idno type="pleiades">580044</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="pamphylia">
+                    <placeName xml:lang="en">Pamphylia</placeName>
+                    <placeName xml:lang="it">Panfilia</placeName>
+                    <idno type="pleiades">639034</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="paros">
+                    <placeName xml:lang="en">Paros</placeName>
+                    <placeName xml:lang="it">Paros</placeName>
+                    <idno type="pleiades">599867</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="patra">
+                    <placeName xml:lang="en">Patra</placeName>
+                    <placeName xml:lang="it">Patra</placeName>
+                    <idno type="pleiades">570567</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="pergai">
+                    <placeName xml:lang="en">Pergai</placeName>
+                    <placeName xml:lang="it">Perge</placeName>
+                    <idno type="pleiades">639048</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="pergamon">
+                    <placeName xml:lang="en">Pergamon</placeName>
+                    <placeName xml:lang="it">Pergamo</placeName>
+                    <idno type="pleiades">550812</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="pheneos">
+                    <placeName xml:lang="en">Pheneos</placeName>
+                    <placeName xml:lang="it">Pheneos</placeName>
+                    <idno type="pleiades">570595</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="phleious">
+                    <placeName xml:lang="en">Phleious</placeName>
+                    <placeName xml:lang="it">Phleious</placeName>
+                    <idno type="pleiades">570602</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>     
+                
+                <place xml:id="prusias_ad_mare">
+                    <placeName xml:lang="en">Prusias ad mare</placeName>
+                    <placeName xml:lang="it">Prusia al mare</placeName>
+                    <idno type="pleiades">511385</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="rhodos">
+                    <placeName xml:lang="en">Rhodos</placeName>
+                    <placeName xml:lang="it">Rodi</placeName>
+                    <idno type="pleiades">590030</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="rome">
+                    <placeName xml:lang="en">Rome</placeName>
+                    <placeName xml:lang="it">Roma</placeName>
+                    <idno type="pleiades">423025</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="salamis_cyprus">
+                    <placeName xml:lang="en">Salamis in Cyprus</placeName>
+                    <placeName xml:lang="it">Salamina di Cipro</placeName>
+                    <idno type="pleiades">707617</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place> 
+                
+                <place xml:id="samos">
+                    <placeName xml:lang="en">Samos</placeName>
+                    <placeName xml:lang="it">Samo</placeName>
+                    <idno type="pleiades">599925</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="seleukeia">
+                    <placeName xml:lang="en">Seleukeia</placeName>
+                    <placeName xml:lang="it">Seleucia</placeName>
+                    <idno type="pleiades">894178</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="selge">
+                    <placeName xml:lang="en">Selge</placeName>
+                    <placeName xml:lang="it">Selge</placeName>
+                    <idno type="pleiades">639100</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="sidon">
+                    <placeName xml:lang="en">Sidon</placeName>
+                    <placeName xml:lang="it">Sidone</placeName>
+                    <idno type="pleiades">678393</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>         
+                
+                <place xml:id="smintheion">
+                    <placeName xml:lang="en">Smintheion</placeName>
+                    <placeName xml:lang="it">Smintheion</placeName>
+                    <idno type="pleiades">550892</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="sparta">
+                    <placeName xml:lang="en">Sparta</placeName>
+                    <placeName xml:lang="it">Sparta</placeName>
+                    <idno type="pleiades">570685</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="stratonikeia">
+                    <placeName xml:lang="en">Stratonikeia</placeName>
+                    <placeName xml:lang="it">Stratonicea</placeName>
+                    <idno type="pleiades">599947</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>      
+                
+                <place xml:id="tarsus">
+                    <placeName xml:lang="en">Tarsus</placeName>
+                    <placeName xml:lang="it">Tarso</placeName>
+                    <idno type="pleiades">648789</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="thebes">
+                    <placeName xml:lang="en">Thebes</placeName>
+                    <placeName xml:lang="it">Tebe</placeName>
+                    <idno type="pleiades">541138</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="tegea">
+                    <placeName xml:lang="en">Tegea</placeName>
+                    <placeName xml:lang="it">Tegea</placeName>
+                    <idno type="pleiades">570707</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="tenos">
+                    <placeName xml:lang="en">Tenos</placeName>
+                    <placeName xml:lang="it">Tenos</placeName>
+                    <idno type="pleiades">590073</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="teos">
+                    <placeName xml:lang="en">Teos</placeName>
+                    <placeName xml:lang="it">Teos</placeName>
+                    <idno type="pleiades">550913</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="thespiai">
+                    <placeName xml:lang="en">Thespiai</placeName>
+                    <placeName xml:lang="it">Tespie</placeName>
+                    <idno type="pleiades">541141</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="thessaly">
+                    <placeName xml:lang="en">Thessaly</placeName>
+                    <placeName xml:lang="it">Tessaglia</placeName>
+                    <idno type="pleiades">1332</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="thera">
+                    <placeName xml:lang="en">Thera</placeName>
+                    <placeName xml:lang="it">Thera</placeName>
+                    <idno type="pleiades">599971</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="ptolemais">
+                    <placeName xml:lang="en">Ptolemais</placeName>
+                    <placeName xml:lang="it">Tolemaide</placeName>
+                    <idno type="pleiades">373879</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="thracia">
+                    <placeName xml:lang="en">Thracia</placeName>
+                    <placeName xml:lang="it">Tracia</placeName>
+                    <idno type="pleiades">501638</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>   
+                
+                <place xml:id="troizen">
+                    <placeName xml:lang="en">Troizen</placeName>
+                    <placeName xml:lang="it">Trezene</placeName>
+                    <idno type="pleiades">570756</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>
+                
+                <place xml:id="tyras">
+                    <placeName xml:lang="en">Tyras</placeName>
+                    <placeName xml:lang="it">Tyras</placeName>
+                    <idno type="pleiades">226800</idno>
+                    <place><region>Fuori da Creta</region></place>
+                </place>     
+                
+                <place xml:id="unknown">
+                    <placeName xml:lang="en">?</placeName>
+                    <placeName xml:lang="it">?</placeName>
+                    <place><region>?</region></place>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

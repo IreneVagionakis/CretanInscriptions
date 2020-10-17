@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 35</idno>
+                        <idno type="projectNo">141</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion">Herakleion, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ασις ταν ε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>των<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" quantity="4" unit="character"/>ατίων τὰνς ἐν <placeName ref="#axos"><unclear>Ϝ</unclear><supplied reason="lost" cert="low">άξῳ</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>των δ’ οἱ <rs type="institution" subtype="board" role="funds" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσμοι</w></rs> χοἱ <rs type="institution" subtype="board" role="funds" key="proedros" ref="#axos"><w lemma="πρόεδρος">πρ<unclear>ό</unclear>ε<supplied reason="lost">δροι</supplied></w></rs> <supplied reason="lost" cert="low">ἀποδόν</supplied><lb 
+                        break="no" n="5"/>των τὰν γιννομέναν <w lemma="δαπάνα">δ<supplied reason="lost">απάναν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="illegible" quantity="2" unit="character"/>αιλιοι τ<gap reason="lost" quantity="1" unit="character"/>ι <unclear>κακ</unclear>οτροπ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>για<gap reason="illegible" quantity="1" unit="character"/> <supplied reason="lost">τ</supplied>ᾶς τῶν <placeName ref="#axos" type="ethnic">Ϝαξίων</placeName> <rs type="institution" subtype="social_group" role="unknown" key="polis" ref="#axos"><w lemma="πόλις">π<supplied reason="lost">όλεως</supplied></w></rs><supplied reason="lost">. αἴ τις</supplied>
+                          <lb n="8"/>μὴ ϝήροι καθὼς <w lemma="γράφω">γέγρατ<supplied reason="lost">ται</supplied></w> <supplied reason="lost">αὐτῷ καὶ</supplied>
+                          <lb n="9"/>τοῖς τούτω <w lemma="ἔκγονος">ἐκγόνοις</w> <unclear>ἢ</unclear> <supplied reason="lost">αἴ τις τῶν</supplied> <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#axos"><w lemma="ψαφίζω"><supplied reason="lost">ἐψη</supplied><lb 
+                        break="no" n="10"/>φισμένων</w></rs> τι ἀκυρωίῃ π<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸν</supplied>
+                          <lb n="11"/><persName type="divine" key="Zeus Widatas">Δῆνα τὸν <placeName ref="#idaeum_antrum" type="ethnic">Ϝιδάταν</placeName></persName> <unclear>κ</unclear>α<supplied reason="lost" cert="low">ὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">. τῶι δὲ</supplied>
+                          <lb n="12"/>πὰρ ταῦτά τι ϝήροντι <supplied reason="lost">καὶ αὐτῷ</supplied>
+                          <lb n="13"/>καὶ τοῖς τούτω <w lemma="ἔκγονος">ἐκγόν<supplied reason="lost">οις</supplied></w> <supplied reason="lost">ὑπὸ τῶν</supplied> <rs type="institution" subtype="social_group" role="imposing_fines" key="polites" ref="#axos" cert="low"><w lemma="πολίτας"><supplied reason="lost">πο</supplied><lb 
+                        break="no" n="14"/>λειτᾶν</w></rs> <w lemma="ἀργύριον">ἀργυρίω</w> Κρητ<supplied reason="lost">ικῶ τὰ</supplied> <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#axos"><w lemma="ψαφίζω"><supplied reason="lost">ἐψηφισ</supplied><lb 
+                        break="no" n="15"/>μένα</w></rs> πὰρ τᾶς <rs type="institution" subtype="assembly" role="voter" key="polis" ref="#axos"><w lemma="πόλις">πόλεω<supplied reason="lost">ς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">· δό</supplied><lb 
+                        break="no" n="16"/>μεν δὲ κατ’ ἐνιαυτὸν <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τᾶς</supplied>
+                          <lb n="17"/><w lemma="εὐάμερος">εὐαμέρω</w> τᾶς κατὰ ϝ<supplied reason="lost">έτος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18"/>τω· τὸ δ’ ἔλαιον παρ<unclear>ε</unclear><supplied reason="lost">χέτω</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19"/><persName type="honoured" key="Theuginios" ref="#unknown"><name nymRef="Θευγίνιος">Θευγίνιος</name></persName> καὶ οἱ <w lemma="ἔσγονος">ἔσγο<supplied reason="lost">νοι</supplied></w><supplied reason="lost">· τοῖς δὲ</supplied> <w lemma="ἔσγονος"><supplied reason="lost">ἐσ</supplied><lb 
+                        break="no" n="20"/>γόνοις</w> διὰ <w lemma="γένος">γένιος</w> ὁ<unclear>π</unclear><supplied reason="lost">όσα ἂν πάρε</supplied><lb 
+                        break="no" n="21"/>στιν <w lemma="τίμια">τίμια</w> πὰρ τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#axos"><w lemma="πόλις">π<supplied reason="lost">όλεως</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="κοινωνέω"><supplied reason="lost" cert="low">κοινω</supplied><lb 
+                        break="no" n="22"/>νείτω</w> κοἱ ἄλλοι <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#axos"><w lemma="πρόξενος">πρόξ<supplied reason="lost">ενοι</supplied></w></rs><supplied reason="lost">. <w lemma="γράφω">γραψάντω</w></supplied>
+                          <lb n="23"/>δ’ ἐς <w lemma="στάλα">στάλαν</w> λιθίναν <rs type="institution" subtype="board" role="inscriber" key="kosmos" ref="#axos"><supplied reason="lost">οἱ <w lemma="κόσμος">κόσμοι</w> οἱ</supplied>
+                          <lb n="24"/>σὺν <persName type="attested" key="Telemnastos f. Kydas"><name nymRef="Τηλέμναστος">Τηλεμνάστῳ</name> τῶ <name nymRef="Κύδας" type="patronymic"><supplied reason="lost">Κύδαντος</supplied></name></persName></rs><supplied reason="lost">·</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#axos"><persName type="attested" key="Telemnastos f. Kydas"><name nymRef="Τηλέμναστος"><supplied reason="lost">Τη</supplied><lb 
+                        break="no" n="25"/>λέμναστος</name> <name nymRef="Κύδας" type="patronymic">Κύδαντ<supplied reason="lost">ος</supplied></name></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#axos"><persName type="attested" key="- f. Kallinomos"><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="26"/><name nymRef="Καλλίνομος" type="patronymic">Καλλινόμω</name></persName></rs> καὶ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#axos" cert="low"><persName type="attested" key="An-" cert="low"><name nymRef="Ἀν-">Ἀν<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs>
+                          <lb n="27"/>α κύρια ὑπὲρ ὧν θ<unclear>υ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="28"/>πάντα.
+                          <lb n="28a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, di cui è andata perduta la sezione iniziale, prevede che i cosmi e i <foreign>proedroi</foreign> di Axos presentino una rendicontazione (?) di uscite che sembrano essere relative a spese della <foreign>polis</foreign> di Axos (ll. 4-7). La clausola, peraltro, fornisce quella che è l’unica attestazione dei <foreign>proedroi</foreign> in tutta Creta.</p>
+                    <p>La sezione successiva, alle linee 7-15, tratta della pena in cui incorreranno sia il trasgressore di quanto scritto e di quanto votato dalla città sia i suoi discendenti: oltre al fatto di aver suscitato l’ira di Zeus <foreign>Idatas</foreign> (?), costoro sono tenuti a versare un ammontare di denaro espresso in argento cretese (sul quale cf. <bibl><ref target="#b362">Cigaina 2013</ref></bibl>, secondo cui l’espressione potrebbe riferirsi alla produzione monetaria del <foreign>koinon</foreign> cretese). Il passo, dalla costruzione insolita, sembra affermare che la multa è imposta ai trasgressori da parte della cittadinanza, forse secondo quanto votato dalla città (?).</p>
+                    <p>La sezione alle linee 15-22, invece, è relativa ad una fornitura che è tenuta a garantire verosimilmente la città di Axos ogni anno in occasione di una festività (εὐαμέρω), a cui si aggiunge l’offerta annuale di olio, forse destinata alle attività ginniche, che è richiesta ad un tale Theuginios e alla sua discendenza (ll. 15-19). Agli eredi di Theuginios, inoltre, la <foreign>polis</foreign> di Axos accorda tutti gli onori concessi agli altri prosseni della città, ai quali sembra equipararli (ll. 19-22).</p>
+                    <p>La formula di esposizione, infine, prevede che siano i cosmi ad occuparsi della redazione della stele, fra i quali sembra detenere l’eponimia Telemnastos figlio di Kydas; oltre a costui nel decreto vengono ricordati anche un secondo e possibilmente un terzo cosmo, un tale figlio di Kallinomos e forse un individuo il cui nome inizia in An- (ll. 22-26).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proedros"><foreign>proedros</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 35 <ptr type="phi" target="199796"/></bibl>;
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, pp. 122-123</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b332">Chaniotis 2006</ref></bibl>;
+                            <bibl><ref target="#b946">Jones 2006-2007</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

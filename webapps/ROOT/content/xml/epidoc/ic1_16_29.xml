@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato relativa ad una <foreign>stoa</foreign> di Zeus <foreign>Melichios</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 29</idno>
+                        <idno type="projectNo">461</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">196</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0120" notAfter="-0100">120/119 o 109-100 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>. ἀγαθᾶι <w lemma="τύχα">τύχαι</w>. <rs type="institution" subtype="tribe" role="eponym" key="Aischeis" ref="#lato">ἐπὶ τῶν
+                          <lb n="2"/><w lemma="Αἰσχεῖς">Αἰσχέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><w lemma="κοσμέω">κοσμιόντων</w> τῶν σὺν
+                          <lb n="3"/><persName type="attested" key="Panthos f. Deitilos"><name nymRef="Πάνθος">Πάνθωι</name> <supplied reason="lost">τῶ</supplied> <name nymRef="Δειτίλος" type="patronymic">Δ<surplus>ι</surplus>ειτίλ<supplied reason="lost">ω</supplied></name></persName></rs> ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> <persName type="divine" key="Zeus Melichios">Ζηνὶ
+                          <lb n="4"/>Μηλιχίωι</persName> <w lemma="ἐπισκευάζω">ἐπεσκεύ<supplied reason="lost">α</supplied>σε</w> τὰν <rs type="institution" subtype="public_space" role="construction" key="stoa" ref="#lato"><w lemma="στῳά">στωιὰν</w></rs>
+                          <lb n="5"/>καὶ τὸ <w lemma="θύρωμα">θύρωμα</w>. <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><w lemma="κοσμέω">ἐ<supplied reason="lost">κ</supplied>όσ<supplied reason="lost">μι</supplied>ον</w> δὲ οἵδε· <persName type="attested" key="Panthos f. Deitilos"><name nymRef="Πάνθος">Πάνθο<supplied reason="lost">ς</supplied></name>
+                          <lb n="6"/><name nymRef="Δειτίλος" type="patronymic">Δειτίλω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Melanos f. Thyios"><name nymRef="Μέλανος">Μέλανος</name> <name nymRef="Θύιος" type="patronymic">Θ<supplied reason="lost">υ</supplied>ΐω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Androlas f. Echedamos"><name nymRef="Ἀνδρόλας">Ἀ<supplied reason="lost">ν</supplied>δρόλας</name> <name nymRef="Ἐχέδαμος" type="patronymic">Ἐχεδάμ<supplied reason="lost">ω</supplied></name></persName></rs>,
+                          <lb n="7"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Nikagoras f. Lysiomeles"><name nymRef="Νικαγόρας">Νικαγόρας</name> <name nymRef="Λυσιομέλης" type="patronymic">Λυ<supplied reason="lost">σ</supplied>ιομέ<supplied reason="lost">λι</supplied>ος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Dam- f. Oikostylos"><name nymRef="Δαμ-"><unclear>Δ</unclear>αμ<gap reason="lost" extent="unknown" unit="character"/></name>
+                          <lb n="8"/><name nymRef="Οἰκόστυλος" type="patronymic">Οἰκοστύλω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Hippo- f. -"><name nymRef="Ἱππο-">Ἱππο<gap reason="lost" extent="unknown" unit="character"/></name> <gap reason="lost" extent="unknown" unit="character"/></persName></rs> <rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#lato"><persName type="attested" key="Damokartes f. -"><w lemma="γραμματεύς"><supplied reason="lost">γραμ</supplied><lb 
+                        break="no" n="9"/>ματεὺς</w> <name nymRef="Δαμοκάρτης">Δαμοκάρτης</name> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, che si apre con una doppia invocazione benaugurale, conserva una formula di datazione contenente il ricordo della tribù dei cosmi in carica, quella degli <foreign>Aischeis</foreign> (nota solo a Lato e documentata anche da <ref type="ins" target="#ic1_16_30"><title>IC</title> I 16 30</ref> e <ref type="ins" target="#chaniotis_54-56d">Chaniotis, <title>Verträge</title> 54/56d</ref>), seguito dal nome al dativo del cosmo eponimo, Panthos figlio di Deitilos (secondo una formulazione adottata anche in <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref> e <ref type="ins" target="#ic1_16_30">30</ref>; sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>).</p>
+                    <p>Il ricordo del cosmo eponimo nella formula di datazione è seguito a due linee di distanza da una lista di tutti i nomi al nominativo dei cosmi in carica al momento dell’intervento edilizio, almeno sei, fra i quali è incluso nuovamente l’eponimo (come in <ref type="ins" target="#ic1_16_30"><title>IC</title> I 16 30</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>) e ai quali segue la menzione di un segretario, figura che compare anche nelle iscrizioni edificatorie di Lato <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref>, <ref type="ins" target="#ic1_16_25">25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_31">31</ref>-<ref type="ins" target="#ic1_16_32">32</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>.</p>
+                    <p>L’iniziativa dell’intervento commemorato, il restauro di una <foreign>stoa</foreign> e di un ingresso consacrati a Zeus <foreign>Melichios</foreign>, risulta essere della <foreign>polis</foreign> di Lato, come avviene anche nei documenti analoghi <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_30">30</ref>-<ref type="ins" target="#ic1_16_31">31</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e forse <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#stoa"><foreign>stoa</foreign></ref>, tribù (<ref type="inst" target="#aischeis"><foreign>Aischeis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1206">Mariani 1896</ref>, pp. 277-278</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5080</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 29 <ptr type="phi" target="199237"/></bibl>; 
+                            <bibl><ref target="#b1309">Meier 2012</ref>, n. 43d</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b745">Grotta 2010</ref>, p. 288 n. 60</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

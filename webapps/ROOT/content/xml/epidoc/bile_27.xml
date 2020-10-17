@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Axos relativa a dei lavoratori</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Bile 27</idno>
+                        <idno type="projectNo">120</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">279 a+b</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos, acropoli</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0500">525-500 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λετ</unclear></orig><gap reason="lost" quantity="6" unit="character" precision="low"/>
+                          <lb n="2"/><gap reason="lost" quantity="4" unit="character" precision="low"/><orig>σταυ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>εν τὸν <w lemma="ϝεργαστάς"><unclear>ϝ</unclear><supplied reason="lost">εργ</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">α</supplied><unclear>σ</unclear>τὰν</w> καὶ <unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ϝεργαστάς">ϝεργαστὰ<unclear>ν</unclear></w>
+                          <lb n="6"/>συνγνοῖε<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ϝεργαστάς"><supplied reason="lost">ϝε</supplied>ργαστᾶ</w> ἢ ἰ<lb 
+                        break="no" n="8"/>νέκυρα <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>όμεθα ἢ ἀ<lb 
+                        break="no" n="10"/>ποδιδό<unclear>μ</unclear><supplied reason="lost">εθα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">τρι</supplied>άκοντα <w lemma="στατήρ">σ<lb 
+                        break="no" n="12"/>τατήρας</w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#axos">το͂ι τόκα <w lemma="κοσμέω">κ<lb 
+                        break="no" n="14"/>οσμίον<supplied reason="lost">τι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/>ς αἰ μὴ
+                          <lb n="16"/><rs type="institution" subtype="month" role="calendar" key="Boazromios" ref="#axos"><w lemma="Βοαζρόμιος">Βοαζρο<supplied reason="lost">μίο</supplied></w></rs> <supplied reason="lost" cert="low"><w lemma="μείς">μηνὸς</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">ὁ δ</supplied>ὲ <rs type="institution" subtype="official" role="collecting_fines" key="kosmos" ref="#axos" cert="low"><w lemma="κόσμος">κόσμ<lb 
+                        break="no" n="18"/>ος</w></rs> πέ<unclear>ν</unclear><supplied reason="lost">τε</supplied> <gap reason="lost" extent="unknown" unit="character"/>.
+                          <lb n="18a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge riguarda dei lavoratori, menzionati più volte alle linee 3-4, 5 e 7, che verosimilmente dovevano prestare la propria opera per la <foreign>polis</foreign> di Axos, come è testimoniato in un’altra iscrizione arcaica della città che regolamenta il lavoro pubblico (<ref type="ins" target="#ic2_5_1"><title>IC</title> II 5 1</ref>). Le linee 11-18 sembrano prevedere la possibilità di una multa, quantificata in stateri, che forse doveva essere riscossa da un cosmo – menzionato due volte –, come avviene nella legge <ref type="ins" target="#ic2_5_9"><title>IC</title> II 5 9</ref>. Il mese <foreign>Boazromios</foreign>, noto unicamente da questa iscrizione, viene probabilmente menzionato come scadenza per il pagamento della multa o come termine per l’esecuzione dell’attività lavorativa concordata.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#boazromios"><foreign>Boazromios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b935">Jeffery 1949</ref>, pp. 34-36 n. 8 <ptr type="phi" target="201383"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib13">Bile</ref> 27</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 29</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Axos1</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 105*</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

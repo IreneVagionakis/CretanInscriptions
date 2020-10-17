@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 160</idno>
+                        <idno type="projectNo">291</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mavropapas">Basilica di Mavropapas, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0325" notAfter="-0275">fine IV - inizi III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>κ<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="νικάω">νικα<unclear>σα</unclear>ι</w>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>αι τὰ ἄλλ<lb 
+                        break="no" n="4"/><supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>αντα κα
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>δ</unclear>ονος πα<lb 
+                        break="no" n="6"/><gap reason="lost" extent="unknown" unit="character"/>ς τῶ <rs type="institution" subtype="official" role="unknown" key="mnamon" ref="#gortyn"><w lemma="μνάμων">μνά<lb 
+                        break="no" n="7"/><supplied reason="lost">μονος</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>ς ἐπὶ τὸν
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ι γενέθα<lb 
+                        break="no" n="9"/><supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>τα τὸν ν<lb 
+                        break="no" n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἇι</supplied> <w lemma="ἐγράφω"><supplied reason="lost">ἤγ</supplied>ρ<unclear>ατα</unclear><supplied reason="lost">ι</supplied></w>
+                          <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="4" unit="character"/><orig><unclear>θ</unclear>ωνα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="2" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ον <w lemma="ἐγράφω">ἤγρατται</w> καὶ προφε<lb 
+                        break="no" n="3"/>ρόντων ἐ<corr>π</corr>ὶ τὸνς δίφρονς κα<lb 
+                        break="no" n="4"/>ὶ <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρινόντων</w></rs> <w lemma="ἐπιδικάδδω">κἠπιδικαδόν<lb 
+                        break="no" n="5"/>των</w> καὶ <w lemma="πράδδω">πραδόντων</w> καὶ <w lemma="συναπογράφω">συ<lb 
+                        break="no" n="6"/>ναπογραφόντων</w> ἐπὶ τὸ<lb 
+                        break="no" n="7"/>νς <rs type="institution" subtype="board" role="judicial_procedure" key="esprattas" ref="#gortyn" cert="low"><w lemma="ἐσπράττας">ἐσπράττανς</w></rs> καὶ <w lemma="καταδικάδδω">κατα<lb 
+                        break="no" n="8"/>δικαδόντων</w> καὶ <w lemma="κατομνύω">κατομ<lb 
+                        break="no" n="9"/>ν<corr>ύν</corr>των</w> καὶ τὰ ἄλλα πάντα
+                          <lb n="10"/><supplied reason="lost">ϝ</supplied>ηρόντων κατάπερ τω
+                          <lb n="11"/><gap reason="lost" quantity="2" unit="character"/><orig>ν</orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" quantity="1" unit="character"/><unclear>ω</unclear>ν ον<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ιοντω
+                          <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La prima colonna della legge, relativa a qualche procedura giuridica, conserva alle linee 6-7 la menzione di uno <foreign>mnamon</foreign>, funzionario noto solamente a Gortyna ed investito probabilmente del ruolo di testimone pubblico (cf. <ref type="ins" target="#ic4_42"><title>IC</title> IV 42</ref>, <ref type="ins" target="#ic4_72">72</ref>, <ref type="ins" target="#ic4_231">231</ref>, <ref type="ins" target="#ic4_251">251</ref>, <ref type="ins" target="#ic4_253">253</ref>; cf. <bibl><ref target="#b256">Carawan 2008</ref></bibl>). La colonna B, invece, sembra occuparsi nello specifico dei compiti di qualche figura istituzionale di cui non si è conservato il nome, fra le cui mansioni rientra anche quella di compiere qualche attività in associazione con gli <foreign>esprattai</foreign> (?) (ll. 5-7), funzionari noti solo a Gortyna e verosimilmente responsabili dell’esazione di multe (cf. <ref type="ins" target="#ic4_75"><title>IC</title> IV 75</ref>, <ref type="ins" target="#ic4_87">87</ref>, <ref type="ins" target="#ic4_91">91</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#esprattas"><foreign>esprattai</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, <ref type="inst" target="#mnamon"><foreign>mnamon</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 202-204 n. 22</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5013</bibl>; 
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> p. 325 n. 31 (B)</bibl>; 
+                            <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, p. 40 n. 11 (B)</bibl>;
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 160 <ptr type="phi" target="200599"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

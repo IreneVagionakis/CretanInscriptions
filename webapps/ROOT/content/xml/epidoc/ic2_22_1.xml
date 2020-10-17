@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica ad Halios da Keraia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 22 1</idno>
+                        <idno type="projectNo">055</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plaque">lastra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#keraia">Keraia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><space quantity="3" unit="character"/> <persName type="divine" key="Helios">Ἁλίω<supplied reason="lost">ι</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><space quantity="3" unit="character"/> <orig>οστρα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><space quantity="3" unit="character"/> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#keraia">ἐπὶ <w lemma="κόσμος">κόσ<supplied reason="lost">μων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#keraia"><persName type="attested" key="Tharsydamas f. -"><name nymRef="Θαρσυδάμας">Θαρσυδάμα</name> τ<supplied reason="lost">ῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>
+                        <lb n="5"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#keraia"><persName type="attested" key="Sosos f. Abdias (2)" cert="low"><name nymRef="Σῶσος">Σώσω</name> τῶ <name nymRef="Ἀβδίας" type="patronymic">Ἀ<unclear>β</unclear><supplied reason="lost" cert="low">δία</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="6"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#keraia"><persName type="attested" key="Kydimos f. -"><name nymRef="Κύδιμος">Κυδίμω</name> τῶ <gap reason="lost" extent="unknown" unit="character"/></persName></rs>
+                        <lb n="7"/><gap reason="lost" quantity="2" unit="character"/><orig><unclear>σ</unclear></orig><gap reason="lost" quantity="3" unit="character"/><orig>ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="7a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="1-2"><note><gap reason="lost" extent="unknown" unit="character"/><orig>οστρα</orig><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; Λόστρα<supplied reason="lost" cert="low">τος</supplied> Robert in <bibl><ref target="#bib106"><title>BE</title></ref></bibl>; <gap reason="lost" extent="unknown" unit="character"/>ος Τρα<gap reason="lost" extent="unknown" 
+                        unit="character"/> o <gap reason="lost" extent="unknown" unit="character"/> ὁ Στρα<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato.</note></app> 
+                    <app loc="3"><note>κόσ<supplied reason="lost">μων</supplied> <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; κοσ<supplied reason="lost" cert="low">μιόντων</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>La lastra, rinvenuta a Meskla nei pressi della chiesa della Dormizione di Maria, apparteneva verosimilmente ad un edificio sacro che si trovava in corrispondenza del luogo di culto cristiano, parzialmente costruito con materiale antico (cf. <bibl><ref target="#b1734">Sporn 2002</ref>, p. 280</bibl>). La dedica pubblica al Sole, il cui responsabile era menzionato probabilmente alla linea 2, testimonia l’esistenza anche a Keraia di un collegio di cosmi, composto da almeno quattro magistrati e detentore dell’eponimato. Non è tuttavia da escludere che si possa trattare non tanto di una dedica votiva quanto di un’iscrizione edificatoria relativa ad una struttura consacrata ad Halios, verosimilmente quella in cui la lastra era affissa.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 22 1 <ptr type="phi" target="200029"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1940.123</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Gortyna e Rhittenia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 80</idno>
+                        <idno type="projectNo">288</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>. ἐπὶ τοῖδε <placeName ref="#rhittenia" type="ethnic"><supplied reason="lost">Ῥ</supplied>ι<supplied reason="lost">ττέν</supplied>ι<supplied reason="lost">οι</supplied></placeName> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γ</supplied>ορ<supplied reason="lost">τυνίοις</supplied></placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="autonomos" ref="#rhittenia"><w lemma="αὐτόνομος"><supplied reason="lost">αὐτ</supplied>όν<unclear>ο</unclear>μ<supplied reason="lost">ο</supplied>ι</w></rs> κ’ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="autodikos" ref="#rhittenia"><w lemma="αὐτόδικος">αὐτόδικοι</w></rs> <space extent="unknown" unit="character"/> τὰ <w lemma="θῦμα">θ<supplied reason="lost">ύ</supplied><lb 
+                        break="no" n="2"/>ματα</w> παρέκοντες ἐς <placeName ref="#idaeum_antrum"><unclear>Β</unclear>ίδαν</placeName> τ<unclear>ρ</unclear>ί<supplied reason="lost">τ</supplied>οι <supplied reason="lost">ϝέ</supplied>τει τριακατίο<unclear>ν</unclear>ς <w lemma="στατήρ"><corr>σ</corr><supplied reason="lost">τ</supplied>ατε͂ρανς</w> καὶ πεν<lb 
+                        break="no" n="3"/>τέκοντα. στέγαν δ’ ἄν κα <w lemma="ϝοικοδομέω">ϝοικοδομέσ<supplied reason="lost">ει</supplied></w> <gap reason="lost" quantity="5" unit="character"/>ς ἒ δένδρεα πυτεύσει, τὸν
+                          <lb n="4"/><w lemma="ϝοικοδομέω">ϝοικοδομέσαντα</w> καὶ πυτεύσαντ<supplied reason="lost">α</supplied> καὶ <w lemma="πρίαμαι">πρίαθαι</w> κ’ ἀποδόθαι. <space extent="unknown" unit="character"/> τὸν δὲ <rs type="institution" subtype="official" role="regulation" key="startagetas" ref="#gortyn"><w lemma="σταρταγέτας">σταρτ<lb 
+                        break="no" n="5"/>αγέταν</w></rs> καὶ τὸν <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">κοσμίοντα</w></rs> ὄς κ’ ἄγε<supplied reason="lost">ι</supplied> <placeName ref="#rhittenia">Ῥ<supplied reason="lost">ι</supplied><unclear>ττ</unclear>ενάδε</placeName> <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κοσμέω">κοσμε͂ν</w></rs> πεδὰ το͂ <placeName ref="#rhittenia" type="ethnic">Ῥιττενίο</placeName>
+                          <lb n="6"/><rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#rhittenia"><w lemma="κόσμος">κόσμο</w></rs> τὸν μὲ πειθόμενον το͂ <rs type="institution" subtype="official" role="law" key="ephoros" ref="#gortyn" cert="low"><w lemma="ἐπορίμος">’πο<unclear>ρί</unclear>μ<supplied reason="lost">ο</supplied></w></rs><supplied reason="lost">, δ</supplied>αμιόμεν δὲ <w lemma="δαρκνά">δαρκνὰν</w> καὶ κατακρέθαι πεδ<lb 
+                        break="no" n="7"/>ά τε το͂ <rs type="institution" subtype="social_group" role="funds" key="startos" ref="#gortyn" cert="low"><w lemma="σταρτός">σταρτο͂</w></rs> καὶ πεδὰ το͂ν <placeName ref="#rhittenia" type="ethnic">Ῥιττενίον</placeName>· πλ<supplied reason="lost">ίο</supplied>ν δὲ μὲ δαμιόμεν· αἰ δὲ πλίον δαμιόσ<lb 
+                        break="no" n="8"/>αι ἒ μὲ κατακρέσαιτο, <rs type="institution" subtype="practice" role="judicial_procedure" key="xenia_dika" ref="#gortyn"><w lemma="κσένεια δίκα">κσενείαι δίκα<supplied reason="lost">ι</supplied></w></rs> <w lemma="δικάδδω"><supplied reason="lost">δι</supplied>κάδδεθαι</w>. ἐνεκυραστὰν δὲ μὲ παρέρπε<lb 
+                        break="no" n="9"/>ν <placeName ref="#gortyn" type="ethnic">Γορτύνιον</placeName> ἐς το͂ <placeName ref="#rhittenia" type="ethnic">Ῥιττενίο</placeName>. αἰ δέ κα <w lemma="νικάω">ν<supplied reason="lost">ικ</supplied>α<unclear>θ</unclear>ε͂ι</w> το͂ν ἐνεκύρον, διπλεῖ καταστᾶσ<lb 
+                        break="no" n="10"/>αι τὰν ἀπλόον <w lemma="τιμά">τιμὰν</w> ἆι ἐν τᾶι <rs type="institution" subtype="public_space" role="archiving" key="ephoros" ref="#gortyn"><w lemma="ἐπόρα">’πόραι</w></rs> <w lemma="ἐγράφω">ἔ<supplied reason="lost">γρα</supplied>τται</w>, <w lemma="πράδδω">πράδδεν</w> δὲ τὸν <placeName ref="#rhittenia" type="ethnic">Ῥιττένιον</placeName> <rs type="institution" subtype="official" role="collecting_fines" key="kosmos" ref="#rhittenia"><w lemma="κόσμος">κόσμ<lb 
+                        break="no" n="11"/>ον</w></rs>. αἰ δέ κα μὲ <w lemma="πράδδω">πράδδοντι</w>, τὸνς <rs type="institution" subtype="board" role="collecting_fines" key="preigistos" ref="#gortyn"><w lemma="πρείγιστος">πρειγ<supplied reason="lost">ίσ</supplied>τονς</w></rs> τούτονς <w lemma="πράδδω">πράδδοντας</w> ἂπατον
+                          <lb n="12"/>ἔμεν <space extent="unknown" unit="character"/> τὰ <w lemma="ἐγράφω">ἐγραμμέν’</w>, ἄλλα δὲ μέ. <space extent="unknown" unit="character"/> ὄτι δέ <supplied reason="lost">κα αὖ</supplied>τ<supplied reason="lost">ι</supplied>ς ἀνπιπαίσοντι τὸ κοινὸν οἰ <placeName ref="#rhittenia" type="ethnic">Ῥι<lb 
+                        break="no" n="13"/>ττένιοι</placeName> πορτὶ τὸνς <placeName ref="#gortyn" type="ethnic">Γορτυνίον<supplied reason="lost">ς</supplied></placeName> <gap reason="lost" quantity="6" unit="character" precision="low"/><unclear>ν</unclear> <unclear>τ</unclear>ὸν <rs type="institution" subtype="official" role="proclamation" key="karyx" ref="#rhittenia"><w lemma="κᾶρυξ">κάρυκα</w></rs> <placeName ref="#rhittenia">Ῥιττενάδε</placeName> ἐν ταῖδ <corr>δ</corr>έ<lb 
+                        break="no" n="14"/>κα παρέμεν ἒ αὐτὸνς ἒ ἄλλονς π<supplied reason="lost">ρ</supplied><unclear>ὸ</unclear> <supplied reason="lost">τούτον</supplied> <w lemma="ἀποκρίνω"><supplied reason="lost">ἀπ</supplied>οκρίνεθθαι</w> κατ’ <rs type="institution" subtype="public_space" role="gathering" key="agora" ref="#rhittenia"><w lemma="ἀγορά">ἀγορὰν</w> ϝευμέν<lb 
+                        break="no" n="15"/>αν</rs> τᾶς <w lemma="αἰτία">α<supplied reason="lost">ἰ</supplied>τίας</w> ἆς κ’ αἰτι<supplied reason="lost">ά</supplied>σ<supplied reason="lost">ονται, τὰν δ</supplied>ὲ <w lemma="στάλα">στάλαν</w> τὸ <rs type="institution" subtype="object" role="decreeing" key="krima" ref="#gortyn"><w lemma="κρίσις">κρίσιν</w></rs> ἔ<supplied reason="lost">με</supplied>ν <unclear>ἆ</unclear>ιπερ ταῖς ἀ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato, che esordisce con l’invocazione divina θιοί, stabilisce <foreign>in primis</foreign> che i cittadini di Rhittenia possano essere dotati di proprie leggi e di una propria giurisdizione, una concessione che viene accordata mediante l’impiego dei termini αὐτόνομοι e αὐτόδικοι, che a Creta hanno come unico parallelo di utilizzo il trattato fra Gortyna e Kaudos, nel quale risultano associati ad <foreign>eleutheroi</foreign> (<ref type="ins" target="#ic4_184"><title>IC</title> IV 184 + <title>SEG</title> 23.589</ref>, ll. A 5-6, ἐλευθέρονς καὶ αὐτονόμονς καὶ αὐτοδίκονς).</p>
+                    <p>Rhittenia, per parte sua, è tenuta a fornire ogni tre anni 350 stateri per i sacrifici da compiersi sul monte Ida (ll. 1-2), forse equivalenti a quello documentatovi dalla legge sacra <ref type="ins" target="#ic4_146"><title>IC</title> IV 146</ref>, che pare essere compiuto dalla <foreign>polis</foreign> di Gortyna in occasione di una festività ricorrente ogni tre anni.</p>
+                    <p>Dopo una breve clausola relativa ad una casa (ll. 3-4), l’attenzione si sposta sulle figure istituzionali delle due città che si trovano ad agire a Rhittenia. Lo <foreign>startagetas</foreign> – figura non nota altrove – e il cosmo gortynio in carica che va a Rhittenia devono svolgervi le funzioni di cosmo assieme al cosmo di quest’ultima (ll. 4-6), che appare quindi dotata di propri magistrati pur essendo in un certo qual modo subordinata all’azione di Gortyna. La clausola alle linee 6-7, dal contenuto piuttosto ambiguo, sembra prevedere l’imposizione di una multa di una dracma da parte del cosmo di Rhittenia, che deve usare il denaro assieme allo <foreign>startos</foreign> (a Gortyna attestato anche in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> e forse <ref type="ins" target="#ic4_142">142</ref>; cf. <bibl><ref target="#b1017">Kristensen 2002</ref></bibl>) e ai cittadini di Rhittenia; costui, inoltre, non può imporre multe maggiori: qualora ciò accada deve essere giudicato con un processo proprio degli stranieri (κσενείαι δίκα[ι], cf. la <foreign>dika xenika</foreign> di <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref>).</p>
+                    <p>Gli importi di multe che devono essere riscosse dal cosmo di Rhittenia sembrano essere definiti in norme scritte in qualche luogo (?) che pare pertinente ad un eforo (l. 10, ἐν τᾶι ’πόραι), figura che a Creta conta forse un’altra occorrenza in <ref type="ins" target="#seg_59_1026"><title>SEG</title> 59.1026</ref> da Eleutherna e a cui potrebbe riferirsi anche l’espressione το͂ ’πορίμ[ο] alla linea 6. Qualora i cosmi di Rhittenia non riscuotano la multa, tale compito passa ai <foreign>preigistoi</foreign>, ovvero gli anziani membri di un collegio, che sembrano essere noti sia per Gortyna che per Rhittenia (cf. <ref type="ins" target="#ic4_184"><title>IC</title> IV 184 + <title>SEG</title> 23.589</ref> e <ref type="ins" target="#ic1_28_7"><title>IC</title> I 28 7</ref>).</p>
+                    <p>Qualora Rhittenia come comunità (ll. 12-13, τὸ κοινὸν οἰ Ῥιττένιοι) abbia motivi di scontro con i Gortynii, un suo araldo deve convocare questi ultimi affinché si presentino per rispondere all’accusa entro dieci giorni a Rhittenia nell’<foreign>agora</foreign> con la cittadinanza riunita in assemblea (ll. 14-15, κατ’ ἀγορὰν ϝευμέναν, espressione affine al κατ’ ἀγορὰν καταϝελμένον το͂μ πολιατᾶν di <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>; cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 150-155</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref>, <ref type="inst" target="#autodikos"><foreign>autodikos</foreign></ref>, <ref type="inst" target="#autonomos"><foreign>autonomos</foreign></ref>, <ref type="inst" target="#ephoros"><foreign>ephoros</foreign></ref> (?), <ref type="inst" target="#karyx"><foreign>karyks</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#krima"><foreign>krisis</foreign></ref>, <ref type="inst" target="#preigistos"><foreign>preigistos</foreign></ref>, <ref type="inst" target="#startagetas"><foreign>startagetas</foreign></ref>, <ref type="inst" target="#startos"><foreign>startos</foreign></ref>, <ref type="inst" target="#dika"><foreign>xenia dika</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 204-211 n. 23</bibl>; 
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> 31</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4985</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 177</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 80 <ptr type="phi" target="200517"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> II 216</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 7;</bibl> 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, pp. 283-284</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G80</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 27</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b193">Bravo 1980</ref></bibl>; 
+                            <bibl><ref target="#b1913">Van Effenterre 1993</ref></bibl>; 
+                            <bibl><ref target="#b886">Hennig 1994</ref></bibl>; 
+                            <bibl><ref target="#b1505">Perlman 1996</ref></bibl>; 
+                            <bibl><ref target="#b1650">Ruzé 1997</ref></bibl>; 
+                            <bibl><ref target="#b1017">Kristensen 2002</ref>, pp. 72-75</bibl>; 
+                            <bibl><ref target="#b814">Guizzi 2005</ref></bibl>; 
+                            <bibl><ref target="#b1471">Papakonstantinou 2008</ref>, p. 99</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dei cosmi e degli <foreign>oikonomoi</foreign> di Arkades</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 26.1044</idno>
+                        <idno type="projectNo">209</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">346</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#arkades">Arkades</origPlace>
+                                    <origDate period="#imperial" notBefore="0014" notAfter="0037" precision="low">14-37 d.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="builder" key="kosmos" ref="#arkades">οἱ σὺμ <persName type="attested" key="Pratomenios f. Exakestas"><name nymRef="Πρατομήνιος">Πρατομηνίῳ</name></persName> <w lemma="κόσμος">κόσμοι</w></rs> καὶ <rs type="institution" subtype="board" role="builder" key="oikonomos" ref="#arkades">οἱ <w lemma="οἰκονόμος">οἰκονόμοι</w></rs>
+                          <lb n="2"/><w lemma="ἐπιμελέομαι">ἐπε<unclear>μ</unclear><supplied reason="lost">ελήθ</supplied>ην</w> τῶ <w lemma="βαλανεῖον">βαλανε<supplied reason="lost">ίω</supplied></w> <supplied reason="lost">ἐκ</supplied> τῶν <supplied reason="lost">τᾶς</supplied> <rs type="institution" subtype="assembly" role="funds" key="polis" ref="#arkades"><w lemma="πόλις">πόλεος</w></rs> <rs type="institution" subtype="assembly" role="funds" key="polis" ref="#arkades"><w lemma="δαπάναμα">δαπανα<unclear>μ</unclear><supplied reason="lost">ά</supplied>των</w></rs> καὶ
+                          <lb n="3"/>τ<gap reason="lost" extent="unknown" unit="character"/><orig>το</orig><gap reason="lost" extent="unknown" unit="character"/>μενον. <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><w lemma="κοσμέω"><supplied reason="lost">ἐ</supplied><unclear>κό</unclear><supplied reason="lost">σμε</supplied><unclear>ον</unclear></w> οἵδε·
+                          <lb n="4"/><persName type="attested" key="Karanos f. Somenos"><name nymRef="Κάρανος">Κάραν<supplied reason="lost">ο</supplied>ς</name> <name nymRef="Σώμενος" type="patronymic">Σωμένω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><persName type="attested" key="Dinokles f. Agesippos"><name nymRef="Δινοκλῆς">Δ<unclear>ιν</unclear><supplied reason="lost">οκλῆ</supplied>ς</name> <name nymRef="Ἀγέσιππος" type="patronymic">Ἀγεσίππω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#arkades"><persName type="attested" key="Hieronymos f. Apollonios"><name nymRef="Ἱερώνυμος">Ἱερώνυμος</name> <name nymRef="Ἀπολλόνιος" type="patronymic">Ἀπολλονίω</name></persName></rs>,
+                          <lb n="5"/><rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#arkades"><persName type="attested" key="Pratomenios f. Exakestas"><w lemma="γραμματεύς">γραμματεὺς</w> <name nymRef="Πρατομήνιος">Πρατομήνιος</name> <name nymRef="Ἐξακέστας" type="patronymic">Ἐξακέστα</name></persName></rs>· <rs type="institution" subtype="board" role="incumbent" key="oikonomos" ref="#arkades"><persName type="attested" key="Sokles f. Pratomedes"><w lemma="οἰκονόμος">οἰκονόμοι</w> <name nymRef="Σωκλῆς">Σωκλῆς</name> <name nymRef="Πρατομήδης" type="patronymic">Πρατο<lb 
+                        break="no" n="6"/>μήδους</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="oikonomos" ref="#arkades"><persName type="attested" key="Philinos f. Dinokles"><name nymRef="Φίλινος">Φίλινος</name> <name nymRef="Δινοκλής" type="patronymic">Δινοκλέος</name></persName></rs> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>. λούειν δὲ τὰς <w lemma="γυνή">γυναῖκας</w>
+                          <lb n="7"/><del rend="erasure"><gap reason="illegible" extent="unknown" unit="character"/></del> ἀπὸ ὥρας <gap reason="lost" extent="unknown" unit="character"/> μέχρι ὥρας <gap reason="lost" extent="unknown" unit="character"/> τοὺς δὲ <w lemma="ἀνήρ">ἄνδρα<supplied reason="lost">ς</supplied></w>
+                          <lb n="8"/><del rend="erasure"><orig>ρδαντα</orig></del> ἀπὸ ὥρας <gap reason="lost" extent="unknown" unit="character"/>. <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, relativa all’edificazione o ristrutturazione delle terme di Arkades, ne regola inoltre l’utilizzo, stabilendone gli orari di apertura differenziati per uomini e donne. L’intervento, realizzato grazie al ricorso a fondi della <foreign>polis</foreign> (come quello registrato da <ref type="ins" target="#ic1_5_5"><title>IC</title> I 5 5</ref>), risale all’anno in cui è cosmo eponimo Pratomenios figlio di Exakestas. I responsabili dell’iniziativa, diversamente che in <ref type="ins" target="#ic1_5_5"><title>IC</title> I 5 5</ref>, vengono identificati nei cosmi e negli <foreign>oikonomoi</foreign> di Arkades, i nomi dei quali sono elencati rispettivamente alle linee 4-5 (tre più il loro segretario, che è lo stesso individuo che detiene l’eponimia; cf. <ref type="ins" target="#ic1_5_5"><title>IC</title> I 5 5</ref>) e 5-6 (due). I due <foreign>oikonomoi</foreign> commemorati sono gli unici noti in tutta Creta: l’<foreign>oikonomos</foreign> promotore della dedica onoraria <ref type="ins" target="#ig_xii_3_466"><title>IG</title> XII, 3 466/1390</ref>, infatti, è un funzionario tolemaico connesso all’amministrazione lagide del <foreign>phrourion</foreign> di Itanos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <foreign>balaneion</foreign>, <ref type="inst" target="#funds"><foreign>dapanama</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#oikonomos"><foreign>oikonomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b532">Ducrey – Van Effenterre 1973</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 26.1044 <ptr type="phi" target="201810"/> <ptr type="seg" target="a26_1044"/></bibl>); 
+                            <bibl><ref target="#b1890">Van Effenterre 1976</ref>, pp. 205-210</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 102</bibl>; 
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, p. 132</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b221">Busch 1999</ref>, p. 409</bibl>; 
+                            <bibl><ref target="#b1729">Sonnabend 2004</ref>, p. 28</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 54.834</bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

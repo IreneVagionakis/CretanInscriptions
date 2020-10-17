@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di un ex <foreign>hiarorgos</foreign> da Phaistos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 23 4</idno>
+                        <idno type="projectNo">218</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agia_triada">Agia Triada</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#phaistos">Phaistos, santuario di Velchanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="builder" key="hiarorgos" ref="#phaistos"><persName type="attested" key="Arkesilas f. Hyperballon"><name nymRef="Ἀρκεσίλας">Ἀρκεσίλας</name> <name nymRef="Ὑπερβάλλων" type="patronymic">Ὑπερβάλλον<lb 
+                        break="no" n="2"/>τος</name></persName> <w lemma="ἱαρωργέω">ἱαρωργήσαν</w></rs> <w lemma="ἐπιμελέομαι">ἐπεμελήθη</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, relativa all’edificazione o al restauro di un edificio sacro pertinente al santuario di Velchanos di Agia Triada, ne indica come l’artefice un ex <foreign>hiarorgos</foreign> di Phaistos, Arkesilas figlio di Hyperballon. Tale figura, la cui sfera d’azione è quella religiosa, a Creta è attestata solamente a Phaistos, Gortyna e Lebena.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b847">Halbherr 1905</ref>, p. 381</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1035 n. 7</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 23 4 <ptr type="phi" target="199605"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1044">La Rosa 1988-1989</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

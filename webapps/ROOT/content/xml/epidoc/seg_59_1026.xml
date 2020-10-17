@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Eleutherna e un’altra città</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 59.1026</idno>
+                        <idno type="projectNo">104</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 111</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0250" precision="low">300-250 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="βοαθέω" part="I">βοα<supplied reason="lost">θ</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>εἰ</unclear> δέ κα π<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> πεμψαμ<supplied reason="lost">εν</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>. κα χρεία <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="δραχμά">δραχμὰν</w> α</supplied><unclear>ἰ</unclear>γιναῖαν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ν <rs type="institution" subtype="board" role="unknown" key="ephoros" ref="#eleutherna" cert="low"><w lemma="ἔφορος"><unclear>ἔ</unclear>φοροι</w></rs> Α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>νασι</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> τὸμ <unclear>π</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ν</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                <app loc="7"><note><unclear>ἔ</unclear>φοροι <bibl><ref target="#b1419">Oikonomaki – Stampolidis</ref></bibl>; <supplied reason="lost">συ</supplied>ν<unclear>έ</unclear>φοροι (?) <bibl><ref target="#b1419">Oikonomaki – Stampolidis</ref></bibl>.</note></app>
+            </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il trattato, altamente frammentario, conserva alla linea 7 il termine <foreign>ephoroi</foreign> (a meno che la sequenza di lettere non sia da intendere come <foreign>ep’ horoi</foreign>). Il problematico stato di conservazione, tuttavia, impedisce di comprendere se costoro siano pertinenti a Eleutherna o all’altro contraente del trattato, la cui identità è ignota. Qualora il termine sia riferibile ad una città cretese – Eleutherna o possibilmente l’alleata –, si tratterebbe dunque della seconda attestazione esistente dell’eforato in tutta Creta, altrimenti testimoniato solamente dal trattato fra Gortyna e Rhittenia <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#ephoros"><foreign>ephoros</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1419">Oikonomaki – Stampolidis 2009</ref>, pp. 311-317 n. E 111</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 59.1026 <ptr type="seg" target="a59_1026"/></bibl>);
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 111 <ptr type="thetima" target="e111"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

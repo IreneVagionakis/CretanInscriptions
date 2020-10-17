@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 9</idno>
+                        <idno type="projectNo">121</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge sacra</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque" cert="low">lastra?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>ον ἀ<unclear>π</unclear>οδό<unclear>μ</unclear>εν η<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><unclear>σ</unclear>υνγνοίη αὐτός, τοῖς δ’ <rs type="institution" subtype="board" role="fineable" key="hiereus" ref="#axos"><w lemma="ἰαρεύς">ἰαροῦσ<lb 
+                        break="no" n="3"/>ι</w></rs>, ὄτι κα πέ<unclear>ρ</unclear>ονται πὰρ τὰ <w lemma="ἐγράφω">ἠγ<lb 
+                        break="no" n="4"/>ραμένα</w>, αἰ μή τις αὐτὸς δοίη μ<lb 
+                        break="no" n="5"/>ὴ ὐπ’ ἀνάνκας, <w lemma="τιτεύω">τιτουϝέσθο</w> <w lemma="στατήρ">σ<lb 
+                        break="no" n="6"/>τατῆρα</w> κατὰν <w lemma="θυσία">θυσίαν</w> ϝεκάστ<lb 
+                        break="no" n="7"/>αν καὶ το͂ κρίος τὰν δι<unclear>πλ</unclear>εία<lb 
+                        break="no" n="8"/>ν· πορτιπονε͂ν δ’ ἆιπερ το͂ν ἄλ<lb 
+                        break="no" n="9"/>ον. αἰ δ’ ὀ <rs type="institution" subtype="official" role="collecting_fines" key="kosmos" ref="#axos"><w lemma="κοσμέω">κοσμίον</w></rs> μὴ ἀποδοίη τ<lb 
+                        break="no" n="10"/>ὰ ἐπιβάλοντα ϝίσ<unclear>α</unclear>νς <w lemma="τιτεύω">τι<unclear>τ</unclear>ου<lb 
+                        break="no" n="11"/><unclear>ϝ</unclear>έσθο</w>. κατὰ τὰ αὐτὰ τοῖς
+                          <lb n="12"/><rs type="institution" subtype="festivity" role="calendar" key="Kydanteia" ref="#axos"><w lemma="Κυδαντεῖα">Κυδαντείοις</w></rs> διδόμεν τ<unclear>ρ</unclear>ίτο<lb 
+                        break="no" n="13"/>ι ϝέτει τὰν <rs type="institution" subtype="assembly" role="payments" key="boule" ref="#axos"><w lemma="βωλά">βολὰν</w></rs> ἰς τὰ <w lemma="θῦμα">θύ<lb 
+                        break="no" n="14"/>ματα</w> δυόδεκα <w lemma="στατήρ">στατῆρανς</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, riguardante dei sacrifici, prevede multe da comminare ai sacerdoti qualora sottraggano una parte non dovuta delle offerte sacrificali, la cui entità è pari al doppio del valore della carne sottratta più uno statere (ll. 2-8). La clausola successiva (ll. 8-11) informa dell’autorità accordata al cosmo di Axos nel riscuotere la multa, responsabilità che può condurre anch’essa ad una pena pecuniaria di pari entità nel caso di inadempienza da parte del magistrato. La sezione finale del testo, alle linee 11-14, testimonia l’esistenza di un contributo fornito dalla <foreign>boule</foreign> di Axos per i sacrifici da compiersi nel contesto delle festività chiamate <foreign>Kydanteia</foreign>, consistente in dodici stateri da versare ogni tre anni.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, festività <ref type="inst" target="#kydanteia"><foreign>Kydanteia</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref> II tav. II.5</bibl>;
+                            <bibl><ref target="#bib518"><title>IGA</title></ref> 480</bibl>; 
+                            <bibl><ref target="#b1805">Teza 1883</ref>, pp. 340-346</bibl>; 
+                            <bibl><ref target="#b375">Comparetti 1884</ref></bibl>; 
+                            <bibl><ref target="#b377">Comparetti 1888</ref>, pp. 151-159 n. 10</bibl>; 
+                            <bibl><ref target="#b384">Comparetti 1893a</ref>, pp. 407-416 n. 191</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5128</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 9 <ptr type="phi" target="199770"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl><ref target="#bib230"><title>LSCG Suppl.</title></ref> 113</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, nn. 106-107</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, pp. 267-268</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> A9</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 11</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1000">Koerner 1987</ref></bibl>; 
+                            <bibl><ref target="#bib26"><title>LSAG</title></ref>, pp. 314-316 n. 24</bibl>; 
+                            <bibl><ref target="#b1650">Ruzé 1997</ref></bibl>; 
+                            <bibl><ref target="#b1965">Von Reden 1997</ref></bibl>;
+                            <bibl><ref target="#b666">Gagarin 2011</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

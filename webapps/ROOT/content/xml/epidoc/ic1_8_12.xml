@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Knossos per il letterato Dioskourides di Tarso</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 12*</idno>
+                        <idno type="projectNo">168</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delos_museum">Museo archeologico di Delos</repository> 
+                                <idno type="invNo">Δ 447</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delos">Delos, santuario di Apollo</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0100">fine II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλι</w></rs>. ἐπειδὴ
+                          <lb n="2"/><persName type="honoured" key="Dioskourides f. Dioskourides" ref="#tarsus"><name nymRef="Διοσκουρίδης">Διοσκουρίδης</name> <name nymRef="Διοσκουρίδης" type="patronymic">Διοσκουρίδου</name></persName>, καθ’ ὑοθεσίαν δὲ Ἀσκλη<lb 
+                        break="no" n="3"/>πιοδώρου, <placeName ref="#tarsus" type="ethnic">Ταρσεύς</placeName>, <w lemma="γραμματικός">γραμματικός</w>, διὰ τὴν <w lemma="εὔνοια">εὔνοιαν</w> ἃν
+                          <lb n="4"/>ἔχει πορτὶ τὰν ἁμὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#knossos"><w lemma="πόλις">πόλιν</w></rs> συνταξάμενος ἐγκώ<lb 
+                        break="no" n="5"/>μιον κατὰ τὸν <w lemma="ποιητάς">ποιητὰν</w> ὑπὲρ τῶ ἁμῶ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="ethnos" ref="#crete"><w lemma="ἔθνος">ἔθνιος</w></rs> <w lemma="ἀποστέλλω">ἀπήστελ<lb 
+                        break="no" n="6"/>κε</w> Μυρῖνον Διονυσίου <placeName ref="#amisos" type="ethnic">Ἀμισηνόν</placeName>, <w lemma="ποιητάς">ποιητὰν</w> ἐπῶν καὶ με<lb 
+                        break="no" n="7"/>λῶν, τὸν αὐτοσαυτῶ μαθετάν, διαθησιόμενον τὰ
+                          <lb n="8"/>πεπραγματευμένα ὑπ’ αὐτῶ· ὑπὲρ ὦμ Μυρῖνος πα<lb 
+                        break="no" n="9"/>ραγενόμενος παρ’ ἁμὲ καὶ ἐπελθὼν ἐπί τε τὸς <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμος</w></rs>
+                          <lb n="10"/>καὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#knossos"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs>, ἐμφανία κατέστασε διὰ τᾶν ἀκρο<lb 
+                        break="no" n="11"/>α<supplied reason="lost">σίω</supplied>ν τὰν τῶ <w lemma="ἀνήρ">ἀνδρὸς</w> <w lemma="φιλοπονία">φιλοπονίαν</w> τάν τε περὶ τὸ
+                          <lb n="12"/>ἐπιτάδουμα <w lemma="εὐεξία">εὐεξίαν</w>· ὁμοίως δὲ καὶ τὰν <w lemma="εὔνοια">εὔνοιαν</w> ἃν
+                          <lb n="13"/>ἔχει πορτὶ τὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#knossos"><w lemma="πόλις">πόλιν</w></rs>, ἀνανεώμενος αὐτ<corr>ὸ</corr>ς τὰν <w lemma="προγονικός">προγο<lb 
+                        break="no" n="14"/>νικὰν</w> <w lemma="ἀρετά">ἀρετάν</w>, δι’ <w lemma="ἔγγραφον">ἐγγράφω</w> ἐπ<supplied reason="lost">έδει</supplied>ξε καὶ τοῦτο πε<lb 
+                        break="no" n="15"/>δὰ πλίονος <w lemma="σπουδά">σπουδᾶς</w> καὶ <w lemma="φιλοτιμία">φιλοτ<supplied reason="lost">ιμί</supplied>ας</w> τὸν ἀπολογισ<lb 
+                        break="no" n="16"/>μὸν πο<surplus>ι</surplus>ιόμενος, καθὼς ἐπέβαλλ<supplied reason="lost">ε</supplied> ὑπὲρ ἰδίω παιδε<supplied reason="lost">υ</supplied><lb 
+                        break="no" n="17"/>τᾶ· ἐφ’ ὧν καὶ τὸ <rs type="institution" subtype="assembly" role="onlooker" key="plethos" ref="#knossos" cert="low"><w lemma="πλῆθος">πλῆθος</w></rs> τῶν <rs type="institution" subtype="social_status" role="belonging" key="polites" ref="#knossos"><w lemma="πολίτας">πολιτᾶν</w></rs> ἀκούσαντεν
+                          <lb n="18"/>τὰ πεπραγματευμένα καὶ τὰν <supplied reason="lost">ὅ</supplied>λαν <w lemma="αἵρεσις">αἵρεσιν</w> τῶ <w lemma="ἀνήρ">ἀν<lb 
+                        break="no" n="19"/>δρὸς</w> ἃν ἔχων τυγχάνει εἰς τὰν ἁμὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#knossos"><w lemma="πόλις">πόλιν</w></rs> ἀπεδέ<lb 
+                        break="no" n="20"/>ξατο μεγάλως· <space extent="unknown" unit="character"/> ὁπᾶι ὦν καὶ ἁ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλις</w></rs> τῶν <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName>
+                          <lb n="21"/><w lemma="φαίνω">φαίνηται</w> εὐχάριστος ἴονσα καὶ τὸς καλὸς κἀγα<lb 
+                        break="no" n="22"/>θὸς τῶν <w lemma="ἀνήρ">ἀνδρῶν</w> <space extent="unknown" unit="character"/> ἀποδεχομένα καὶ <w lemma="τιμάω">τιμίονσα</w>,
+                          <lb n="23"/>τάς τε καταξίανς χάριτανς ἀποδιδόνσα τοῖς
+                          <lb n="24"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#knossos"><w lemma="εὐεργετέω">εὐεργετῆν</w></rs> αὐτὰν <w lemma="προαιρέω">προαιριομένοις</w> καὶ φανερὰν
+                          <lb n="25"/>καθιστάνσα ἐς πάντας <w lemma="ἄνθρωπος">ἀνθρώπος</w> <surplus>ος</surplus> ἃν ἔχει διά<lb 
+                        break="no" n="26"/>λαμψιν ὑπὲρ τῶν <w lemma="εὐνόως">εὐνόως</w> διακειμένων πορ<lb 
+                        break="no" n="27"/>τ’ αὐτάν· <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">δεδόχθαι</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλει</w></rs> <w lemma="ἐπαινέω">ἐπαινέσαι</w> Διοσκουρί<lb 
+                        break="no" n="28"/>δην Διοσκουρίδου, καθ’ ὑοθεσίαν δὲ Ἀσκληπι<lb 
+                        break="no" n="29"/>οδώρου ἐπὶ τοῖς πεπραγματευμένοις ὑπ’ αὐτῶ
+                          <lb n="30"/>καὶ τᾶι <w lemma="προαίρεσις">προαιρέσει</w> ἃν ἔχων τυγχάνει ἐς τὰν
+                          <lb n="31"/>ἁμὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#knossos"><w lemma="πόλις">πόλιν</w></rs>· ἦμεν δὲ αὐτὸν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#knossos"><w lemma="πρόξενος">πρόξενον</w></rs>
+                          <lb n="32"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#knossos"><w lemma="πολίτας">πολίταν</w></rs> τᾶς ἁμᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις">πόλεος</w></rs> αὐτὸν καὶ <w lemma="ἔσγονος">ἐσγό<lb 
+                        break="no" n="33"/>νος</w> καὶ <w lemma="πεδέχω">πεδέχεν</w> <w lemma="θῖνος">θίνων</w> <space extent="unknown" unit="character"/> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w>
+                          <lb n="34"/>πάντων ὧν καὶ αὐτοὶ <placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName> <w lemma="πεδέχω">πεδέχοντι</w>·
+                          <lb n="35"/>ἦμεν δὲ αὐτοῖς καὶ <w lemma="ἔγκτησις">ἔγκτησιν</w> γᾶς καὶ ο<corr>ἰ</corr>κίας καὶ
+                          <lb n="36"/><w lemma="ἀσφάλεια">ἀσφάλειαν</w> πολέμω καὶ εἰρήνας καὶ <w lemma="καταπλέω">καταπλέον<lb 
+                        break="no" n="37"/>σι</w> ἐς τὸς <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> <w lemma="λιμήν">λιμένας</w> καὶ <w lemma="ἐκπλέω">ἐκπλέονσι</w> αὐ<lb 
+                        break="no" n="38"/>τοῖς καὶ <w lemma="χρήματα">χρήμασι</w> τοῖς τούτων <w lemma="ἀσυλεί">ἀσυλεὶ</w> καὶ ἀσπον<lb 
+                        break="no" n="39"/>δεί· ὁπᾶι δὲ καὶ τοῖς ἐπιγινομένοις ἀείμνασ<lb 
+                        break="no" n="40"/>τος ὑπάρχηι ἁ τᾶς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#knossos"><w lemma="πόλις">πόλεος</w></rs> ἐκτενὴς <w lemma="προαίρεσις">προαίρεσις</w>
+                          <lb n="41"/>καὶ φανερὰ ἦι ἁ <w lemma="εὔνοια">εὔνοια</w> τοῖς γνησίως καὶ ἐνδόξως
+                          <lb n="42"/>τῶν καλλίστων ἐπιταδουμάτων προεστακόσι
+                          <lb n="43"/>καὶ τ<corr>ὰν</corr> πορτ’ αὐτὰν <w lemma="εὔνοια">εὔνοιαν</w> αὔξεν <w lemma="προαιρέω">προαιριο<lb 
+                        break="no" n="44"/>μένοις</w> <space extent="unknown" unit="character"/> <w lemma="ἀναγράφω">ἀναγράψαι</w> τόδε τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#knossos"><w lemma="ψάφισμα">ψάφισμα</w></rs> ἐς <w lemma="στάλα">στάλαν</w>
+                          <lb n="45"/>λιθίναν καὶ <w lemma="ἀνατίθημι">ἀνθέμεν</w> ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#knossos"><w lemma="ἱερόν">ἱερὸν</w> τῶ <persName type="divine" key="Apollo Delphidios">Ἀπέλ<lb 
+                        break="no" n="46"/>λωνος τῶ Δελφιδίω</persName></rs>· <space extent="unknown" unit="character"/> <w lemma="αἰτέω">αἰτήσαθθαι</w> δὲ καὶ τόπον
+                          <lb n="47"/><placeName ref="#athens" type="ethnic">Ἀθηναίων</placeName> τὸνς ἐν <placeName ref="#delos">Δάλωι</placeName> κατοικιόντας καὶ <w lemma="τίθημι">θέ<lb 
+                        break="no" n="48"/>μεν</w> ἐν τῶι ἱερῶ<corr>ι</corr> τῶ <persName type="divine" key="Apollo">Ἀπέλλωνος</persName> λαβόντας τὸν
+                          <lb n="49"/><w lemma="ἐπιφανέστατος">ἐπιφανέστατον</w> τόπον· <w lemma="γράφω">γράψαι</w> δὲ περὶ τούτων
+                          <lb n="50"/>τὰμ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#knossos"><w lemma="πόλις">πόλιν</w></rs> πορτὶ <placeName ref="#athens" type="ethnic">Ἀθηναίος</placeName> τὸς ἐν Δάλοι κατοι<lb 
+                        break="no" n="51"/>κιόντας καὶ πορτὶ τὸν <placeName ref="#tarsus" type="ethnic">Ταρσέ<corr>ω</corr>ν</placeName> δᾶμον ὑποτά<lb 
+                        break="no" n="52"/>ξάντας τὸ <w lemma="ἀντίγραφον">ἀντίγραφον</w> τῶδε τῶ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#knossos"><w lemma="ψάφισμα">ψαφίσματος</w></rs>.
+                          <lb n="53"/><w lemma="αἱρέω">αἱρέθη</w> ἐπὶ τᾶς <w lemma="ἀνάθεσις">ἀναθέσιος</w> τᾶς <w lemma="στάλα">στάλας</w>
+                          <lb n="54"/><rs type="institution" subtype="board" role="inscriber" key="anatitheis" ref="#knossos"><persName type="attested" key="Makkiados f. Tharymachos"><name nymRef="Μακκιάδων">Μακκιάδων</name> <name nymRef="Θαρύμαχος" type="patronymic">Θαρυμάχω</name></persName></rs> καὶ <rs type="institution" subtype="board" role="inscriber" key="anatitheis" ref="#knossos"><persName type="attested" key="Leontios f. Klymenidas"><name nymRef="Λεόντιος">Λεόντιος</name> <name nymRef="Κλυμενίδας" type="patronymic">Κλυμενίδα</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario per il γραμματικός Dioskourides di Tarso si apre con la formula di sanzione, nella quale compaiono sia i cosmi che la <foreign>polis</foreign> di Knossos in qualità di istituzioni preposte alla deliberazione, come negli altri documenti analoghi della città (<ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>, <ref type="ins" target="#ic1_8_9">9-11</ref>, <ref type="ins" target="#ic1_8_14">14</ref>). La successiva formula di mozione (l. 27), invece, si limita ad indicare in tale ruolo la <foreign>polis</foreign> senza fare menzione dei cosmi, come avviene anche in <ref type="ins" target="#ic1_8_9"><title>IC</title> I 8 9</ref>. La responsabilità della decisione viene inoltre connessa alla sola <foreign>polis</foreign> anche alle linee 20-22 e 40; la stessa, inoltre, è più volte menzionata in relazione alla buona disposizione mostrata dall’onorato verso questa (ll. 4, 13, 19, 31).</p>
+                    <p>Come viene narrato nella lunga sezione contenente le motivazioni (ll. 1-27), Dioskourides ha composto un encomio dell’<foreign>ethnos</foreign> cretese (o di Knossos?) ed ha inviato il proprio allievo Myrinos, poeta, affinché lo recitasse al cospetto dei cosmi e dell’<foreign>ekklesia</foreign> (ll. 9-10). In tale contesto è notevole la menzione esplicita dei cosmi (presente anche in <ref type="ins" target="#ic1_6_2"><title>IC</title> I 6 2</ref>), in quanto nella maggioranza delle città cretesi viene indicata la sola <foreign>ekklesia</foreign> come istituzione addetta all’accoglienza dei forestieri (<foreign>e.g.</foreign> <ref type="ins" target="#ic1_27_1"><title>IC</title> I 27 1</ref>). Il termine πλῆθος, menzionato alla linea 17 e a Creta attestato solamente da altri due documenti (in <ref type="ins" target="#ic1_24_2"><title>IC</title> I 24 2</ref> in relazione al <foreign>koinon</foreign> cretese e in <ref type="ins" target="#ic1_30_1"><title>IC</title> I 30 1</ref> forse con il significato di «maggioranza»), sembra indicare l’assemblea dei cittadini, coincidendo probabilmente con l’<foreign>ekklesia</foreign>.</p>
+                    <p>L’oggetto del decreto, alle linee 27-39, garantisce più concessioni a Dioskourides e alla sua discendenza, fra cui la prossenia e lo <foreign>status</foreign> di cittadino della <foreign>polis</foreign> di Knossos. Nonostante l’impiego del verbo εὐεργετῆν alla linea 24, invece, l’<foreign>euergesia</foreign> non rientra fra le concessioni a lui effettuate.</p>
+                    <p>La formula di esposizione (ll. 39-52), particolarmente elaborata rispetto a quanto avviene di norma nei decreti cretesi, prevede la pubblicazione del documento nel santuario di Apollo <foreign>Delphidios</foreign> a Knossos, oltre che nel santuario di Apollo a Delos. La responsabilità dell’invio di una copia del presente decreto a Tarso e agli Ateniesi stabilitisi a Delos è assegnata anch’essa alla sola <foreign>polis</foreign> di Knossos, senza la cooperazione dei cosmi (come invece nell’epistola <ref type="ins" target="#ic1_8_7"><title>IC</title> I 8 7</ref>). Le ultime due linee del decreto, infine, forniscono l’unica indicazione proveniente da documenti cretesi dei cittadini che sono stati scelti – tramite elezione – per la collocazione della stele.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#anatitheis">addetti all’iscrizione</ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#ethnos"><foreign>ethnos</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref> (<foreign>euergeteo</foreign>), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#plethos"><foreign>plethos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b906">Homolle 1880</ref>, pp. 352-363 n. 3</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 447</bibl>; 
+                            <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 722</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5150</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 721</bibl>; 
+                            <bibl><ref target="#bib517">Dürrbach, <title>Choix</title></ref> 112</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 191</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 12* <ptr type="phi" target="199130"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib24"><title>ID</title></ref> 1512</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b289">Chaniotis 1988</ref>, E59</bibl>; 
+                            <bibl><ref target="#b711">Giovannini 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

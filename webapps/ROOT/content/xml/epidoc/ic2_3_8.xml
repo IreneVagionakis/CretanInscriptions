@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Aptera per cittadini di Ambracia e Cretesi</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 8</idno>
+                        <idno type="projectNo">046</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo">16</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="-athes f. -sikartes"><name nymRef="-άθης"><gap reason="lost" quantity="5" unit="character" precision="low"/><unclear>ά</unclear>θης</name>  
+                        <lb n="2"/><name nymRef="-σικάρτης" type="patronymic"><gap reason="lost" quantity="3" unit="character"/>σικάρτιος    </name>
+                        <lb n="3"/><placeName ref="#priansos" type="ethnic"><supplied reason="lost">Π</supplied>ριανσιεὺς</placeName></persName>
+                        <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος"><supplied reason="lost">π</supplied>ρόξενος</w></rs>
+                        <lb n="5"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔκ<lb 
+                        break="no" n="6"/>γονα</w>.   
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="A- f. -"><name nymRef="Α-"><orig>Α</orig><gap reason="lost" quantity="2" unit="character"/><orig>σ</orig><gap reason="lost" extent="unknown" unit="character"/></name> <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#hierapytna" type="ethnic"><supplied reason="lost">Ἱεραπύ</supplied><lb 
+                        break="no" n="2"/>τνιος</placeName></persName> <supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενος</w></rs> αὐτὸς καὶ</supplied> <w lemma="ἔκγονος"><supplied reason="lost">ἔκγ</supplied><lb 
+                        break="no" n="3"/>ονα</w>. 
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="C">
+                <ab>
+                        <lb n="1"/><supplied reason="lost"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs></supplied> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· <persName type="honoured" key="Mnasen f. Onasadas" ref="#ambracia"><name nymRef="Μνασήν">Μνασῆν</name> <name nymRef="Ὀνασάδας" type="patronymic">Ὀνασάδα</name></persName>, <persName type="honoured" key="G-n f. Patron" ref="#ambracia"><name nymRef="Γ-ν">Γ<gap reason="lost" quantity="1" unit="character"/><lb 
+                        break="no" n="2"/><gap reason="lost" extent="unknown" unit="character"/>να</name> <name nymRef="Πάτρων" type="patronymic">Πάτρωνος</name></persName>, <persName type="honoured" key="Timon f. Damion" ref="#ambracia"><name nymRef="Τίμων">Τίμωνα</name> <name nymRef="Δαμίων" type="patronymic">Δαμίωνος</name></persName>, <persName type="honoured" key="Leon f. Lamios" ref="#ambracia"><name nymRef="Λέων">Λέοντα</name> <name nymRef="Λάμιος" type="patronymic">Λαμί<unclear>ω</unclear></name></persName>,
+                        <lb n="3"/><persName type="honoured" key="-odoros f. Timon" ref="#ambracia"><name nymRef="-όδωρος"><gap reason="lost" extent="unknown" unit="character"/>όδωρον</name> <name nymRef="Τίμων" type="patronymic">Τίμωνος</name></persName>, <persName type="honoured" key="Onymastos f. -stratos" ref="#ambracia"><name nymRef="Ὀνύμαστος">Ὀ<supplied reason="lost">ν</supplied>ύ<supplied reason="lost">μ</supplied>αστον</name> <name nymRef="-τρατος" type="patronymic"><gap reason="lost" quantity="3" unit="character"/>τράτω</name></persName>, <persName type="honoured" key="Stratippos -" ref="#ambracia"><name nymRef="Στράτιππος"><supplied reason="lost">Σ</supplied>τράτιππ<supplied reason="lost">ον</supplied></name>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/></persName> <placeName ref="#ambracia" type="ethnic">Ἀμβρακιώτας</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος"><supplied reason="lost">προξένο</supplied>ς</w></rs> <supplied reason="lost">ἦμεν αὐτ</supplied>ὸς καὶ <w lemma="ἔγγονος">ἐγγόν<supplied reason="lost">ος</supplied></w>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>I documenti A-B si presentano in una forma altamente ellittica che omette il formulario tipico dei decreti, formulazione che ad Aptera è riscontrabile anche in <ref type="ins" target="#ic2_3_6"><title>IC</title> II 3 6</ref> A-B e D-G, <ref type="ins" target="#ic2_3_7">7</ref>, <ref type="ins" target="#ic2_3_11">11</ref> e <ref type="ins" target="#ic2_3_13">13-15</ref>. I due brevi testi riportano dunque solamente i nomi al nominativo dei Cretesi onorati seguiti dal tipo di onore conferito, la prossenia, in linea con la maggior parte dei decreti onorati della città.</p>
+                    <p>Il decreto C invece, riguardante sette Ambracioti insigniti anch’essi della prossenia assieme ai propri discendenti (cf. <bibl><ref target="#b1330">Fantasia 2017</ref>, p. 212</bibl>), esordisce con la formula di sanzione tipica dei decreti di Aptera, nella quale compaiono congiuntamente la <foreign>bola</foreign> ed il <foreign>damos</foreign> in qualità di organi deliberanti (con l’eccezione di <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>, in cui la decisione è presa soltanto dal <foreign>damos</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref> (?), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, p. 430 n. 4</bibl>; 
+                    <bibl><ref target="#bib116"><title>CIG</title></ref> 2561 (C)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4944 (A, C)</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 8 <ptr type="phi" target="199715"/></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

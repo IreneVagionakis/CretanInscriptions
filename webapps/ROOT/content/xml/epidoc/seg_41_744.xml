@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Calendario sacrificale di Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 41.744</idno>
+                        <idno type="projectNo">114</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E115, E118, E120, E121</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">calendario sacrificale</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0150" notAfter="-0100">150-100 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="fragment" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>μ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ανουμ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ιππωι δι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐνόρχ</supplied><unclear>ι</unclear>α κριὸν οὐ<unclear>κ</unclear> <supplied reason="lost">ἀποφορά</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ηι ἥρωτι <orig>τε</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="μείς">μηνὸς</w></supplied> <rs type="institution" subtype="month" role="calendar" key="Damatrios" ref="#eleutherna"><w lemma="Δαμάτριος"><supplied reason="lost">Δ</supplied>αματρίω</w></rs> ἰμ <rs type="institution" subtype="public_space" role="sacrifices" key="polis" ref="#eleutherna"><w lemma="πόλις"><supplied reason="lost">πόλι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear> βῶν, ὧι ἐς τρὶς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶι</supplied> <persName type="divine" key="Zeus Poliaochos">Ζηνὶ Πολιαό<supplied reason="lost">χωι</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> ἧ κα τᾶι <persName type="divine" key="Nymphai">λύμφα<corr>ι</corr></persName> <orig>π</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ο</unclear>ὐκ ἀποφορὰ α<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>ον ἧ κα τᾶι <orig>αριη</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καθι</supplied>στάντανς ἰμ <rs type="institution" subtype="public_space" role="sacrifices" key="polis" ref="#eleutherna">πό<w lemma="πόλις"><supplied reason="lost">λι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ο</unclear>σ</orig> <persName type="divine" key="Artemis"><rs type="institution" subtype="public_space" role="sacrifices" key="hieron" ref="#eleutherna"><w lemma="Ἀρτεμίσιον">Ἀρτεμίσιον</w></rs></persName> χί<supplied reason="lost">μαρον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κριὸ</supplied><unclear>ν</unclear> τέλεον λευκὸν τῶ<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μ</supplied>έλανα, ὃς κα μετ<unclear>ρ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="θύω"><supplied reason="lost">θύ</supplied>εν</w> τῶι <persName type="divine" key="Zeus">Ζηνὶ</persName> τέλεον <unclear>τ</unclear><supplied reason="lost">αῦρον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>το <persName type="divine" key="Materes">Ματέρσι</persName> τὸν ἱα<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ται ἰν τᾶι ἀπὸ π<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/>ι ϝέκαστα ϝάννα <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἲ δὲ κα</supplied> μὴ <w lemma="θύω">θύηι</w>, ἀνδρακ<supplied reason="lost">ὰς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐς τ</supplied>ὰ ἄδυττα <corr>τὰ</corr> <persName type="divine" key="Artemis">Ἀρτέ<supplied reason="lost">μιδος</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="23"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear> οἶν ἧ <w lemma="καταγράφω">κατα<unclear>γ</unclear><supplied reason="lost">έγρατται</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="24"/><gap reason="lost" extent="unknown" unit="character"/>ει δαῖτα ν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="25"/><gap reason="lost" extent="unknown" unit="character"/>δε ὁπόκ<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="26"/><gap reason="lost" extent="unknown" unit="character"/><orig>μμωι</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="27"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>νωμ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="fragment" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>αλλ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> τέλεον <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="divine" key="Demeter Megalartos"><supplied reason="lost">Δάματρι Μεγαλά</supplied>ρτωι</persName> δολπ<supplied reason="lost">ὰς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">θῆλυ</supplied>ς χοῖρος τρ<supplied reason="lost">ίται</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear>σκοι</orig>, ἧ κα <unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ατωι πάνσ<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> τρίτω ϝέ<supplied reason="lost">τους</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οὐκ ἀ</supplied>ποφο<supplied reason="lost">ρά</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="fragment" n="C">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>πο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear>αιμ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>η<unclear>κ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ματ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ἱ</unclear>στα<supplied reason="lost">μένου</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="fragment" n="D">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="divine" key="Zeus">Ζη<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></persName>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>. ἧ κα <unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>αι <w lemma="θῦμα">θύμ<unclear>α</unclear><supplied reason="lost">τα</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="divine" key="Zeus Machanes"><supplied reason="lost">Ζ</supplied>ηνὶ Μα<supplied reason="lost">χανῆι</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> ἀγρ<unclear>ο</unclear><supplied reason="lost">τέραι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La notevole quantità di sacrifici e culti attestati rende altamente probabile l’ipotesi che il documento sia il calendario sacrificale della <foreign>polis</foreign> di Eleutherna (cf. <bibl><ref target="#bib505"><title>CGRN</title></ref> 210</bibl>). La <foreign>polis</foreign>, inoltre, viene menzionata almeno una volta (alla linea A 13, oltre che forse alla linea A 7) in senso spaziale, verosimilmente nel contesto della defininizione dei luoghi in cui i vari sacrifici dovevano essere compiuti. Ulteriori sacrifici dovevano avere luogo in un <foreign>Artemision</foreign>, attestato alla linea A 14. Il frammento A conserva inoltre la menzione del mese <foreign>Damatrios</foreign>, che va ad aggiungersi al mese <foreign>Dionnysios</foreign> noto dalla legge <ref type="ins" target="#ic2_12_9"><title>IC</title> II 12 9</ref> e a quello iniziante in <foreign>Sph</foreign>- testimoniato dal trattato <ref type="ins" target="#seg_41_742"><title>SEG</title> 41.742</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, mese <ref type="inst" target="#damatrios"><foreign>Damatrios</foreign></ref>, <ref type="inst" target="#polis1"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b956">Kalpaxis – Petropoulou 1988-1989</ref>, pp. 127-129 (D)</bibl>; 
+                            <bibl><ref target="#b1766">Stavrianopoulou 1991</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 41.744 <ptr type="phi" target="202108"/> <ptr type="seg" target="a41_744"/></bibl>);
+                            <bibl><ref target="#b1855">Tzifopoulos 2004</ref>, pp. 157-158 n. 14</bibl>;
+                            <bibl><ref target="#bib236"><title>NGSL</title></ref> 23</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 115-120-121-118 <ptr type="thetima" target="e115120121118"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 40</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib505"><title>CGRN</title></ref> 210 <ptr type="cgrn" target="210"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1767">Stavrianopoulou 1993</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

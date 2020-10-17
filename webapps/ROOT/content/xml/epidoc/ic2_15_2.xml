@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Hyrtakina (rinnovo)</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 15 2*</idno>
+                        <idno type="projectNo">064</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#teos">Teos, nei pressi dell’acropoli</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#teos">Teos</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρὸς</supplied> τὸς θεὸς ε<supplied reason="lost">ὐ</supplied><lb 
+                            break="no" n="2"/><supplied reason="lost">σεβ</supplied> <gap reason="lost" extent="unknown" unit="character"/>ων εἰς τὸν
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ποιῆσαι</supplied> <placeName ref="#teos" type="ethnic"><supplied reason="lost">Τηΐος</supplied></placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopolites" ref="#hyrtakina"><w lemma="ἰσοπολίτης">ἰσοπολίτας</w></rs>
+                        <lb n="4"/><supplied reason="lost"><w lemma="ἀτελής">ἀτελεῖς</w> καὶ πολέμω καὶ εἰρ</supplied>άνας, καὶ αἴ τίς
+                        <lb n="5"/><supplied reason="lost">κα <w lemma="ἀδικέω">ἀδικήσῃ</w> αὐτὸς</supplied> <w lemma="συγγενής">συγγενέας</w> καὶ ἱερὸς
+                        <lb n="6"/><supplied reason="lost">ἐόντας ἢ πολε</supplied><unclear>μ</unclear>ῇ ἢ κατὰ γᾶν ἢ κατὰ θάλα<lb 
+                            break="no" n="7"/><supplied reason="lost">σσαν καὶ παραιρῆ</supplied>ται τὰν χώραν τὰν καθιερωμέ<lb 
+                            break="no" n="8"/><supplied reason="lost">ν</supplied>αν, <w lemma="βοαθέω">βο<unclear>α</unclear><supplied reason="lost">θη</supplied>σεῖ</w> ὁ <rs type="institution" subtype="assembly" role="war" key="demos" ref="#hyrtakina"><w lemma="δᾶμος">δᾶμος</w></rs> ὁ <placeName ref="#hyrtakina" type="ethnic">Ὑρτακινίων</placeName>, καθὼς ἂν
+                        <lb n="9"/>δύναται μάλιστα· <w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ τὰν ἀνανέ<lb 
+                            break="no" n="10"/>ωσιν εἰς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#hyrtakina"><w lemma="ἱερόν">ἱερὸν</w> τὸ τᾶς <persName type="divine" key="Hera">Ἥρας</persName></rs>· ὑπάρχειν δὲ
+                        <lb n="11"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#hyrtakina"><w lemma="πρόξενος">προξένος</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#hyrtakina"><placeName ref="#hyrtakina" type="ethnic">Ὑρτακινίοις</placeName></rs> <persName type="honoured" key="Herodotos f. Menodotos" ref="#teos"><name nymRef="Ἡρόδοτος">Ἡρόδοτον</name> <name nymRef="Μηνόδοτος" type="patronymic">Μη<lb 
+                            break="no" n="12"/>νοδότω</name></persName>, <persName type="honoured" key="Menekles f. Dionysios" ref="#teos"><name nymRef="Μενεκλῆς">Μενεκλῆν</name> <name nymRef="Διονύσιος" type="patronymic">Διονυσίω</name></persName> τὸς τῶν
+                        <lb n="13"/><placeName ref="#teos" type="ethnic">Τηΐων</placeName> πρεγγευτάς· <w lemma="ἐπαινέω">ἐπαινέσαι</w> δὲ <unclear>αὐτὸς</unclear>
+                        <lb n="14"/>ἐπὶ τᾶι ἐνδαμίαι καὶ τᾶι λοιπᾶι ἀναστροφᾶι
+                        <lb n="15"/>ἇι πεποίηνται ἀξίως τᾶς πόλιός τε τῶν <placeName ref="#teos" type="ethnic">Τηΐων</placeName>
+                        <lb n="16"/>καὶ <placeName ref="#hyrtakina" type="ethnic">Ὑρτακινίων</placeName> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#hyrtakina"><w lemma="πόλις">πόλιος</w></rs> καὶ αὐσαυτῶν· <w lemma="καλέω">κα<lb 
+                            break="no" n="17"/>λέσαι</w> δὲ καὶ ἐπὶ <w lemma="ξένια">ξένια</w> τὸς πρεγγευτὰς
+                        <lb n="18"/>ἐπὶ τὰν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#hyrtakina"><w lemma="ἑστία">κοινὰν ἑστίαν</w></rs> ἐς τὸ <persName type="divine" key="Delphinios"><rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hieron" ref="#hyrtakina"><w lemma="Δελφίνιον">Δ<supplied reason="lost">ελφ</supplied>ίνιον</w></rs></persName>.
+                        <lb n="19"/><space extent="unknown" unit="character"/> <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’epistola, che appartiene alla serie dei documenti attraverso cui numerose città garantiscono l’<foreign>asylia</foreign> a Teos (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>, <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>, <bibl><ref target="#b1040">Kvist 2003</ref></bibl>, <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>), costituisce il rinnovo di una concessione precedentemente effettuata dalla città di Hyrtakina che non ha lasciato tracce epigrafiche. 
+                    Sebbene la parte iniziale del documento sia andata perduta, il saluto finale ἔρρωσθε conferma una sua impostazione come lettera-decreto, una tipologia documentaria ben attestata a Creta (cf. <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>). Il decreto che Hyrtakina vuole recapitare a Teos, infatti, non è semplicemente contenuto nella missiva ma diventa un tutt’uno con essa, con conseguente omissione delle formule di sanzione e mozione.</p>
+                    <p>La parte conservata restituisce la sezione finale delle motivazioni del decreto (ll. 1-2) e l’oggetto della deliberazione nella sua interezza. Al rinnovo dell’<foreign>asylia</foreign> si aggiunge la concessione di <foreign>isopoliteia</foreign> ai Teii ed il conferimento di prossenia ai loro due ambasciatori, l’unico estratto di decreto onorario della città di Hyrtakina ad essersi conservato.</p>
+                    <p>La comunità civica di Hyrtakina viene chiamata in causa in tre diverse circostanze, ogni volta attraverso una terminologia differente: viene infatti definita ὁ δᾶμος ὁ Ὑρτακινίων nel contesto dell’aiuto da prestare a Teos in caso di necessità e Ὑρτακινίων πόλιος a proposito del comportamento meritevole tenuto nei suoi confronti dagli ambasciatori teii, per essere infine indicata dal semplice etnico collettivo Ὑρτακινίοις nell’ambito del conferimento di prossenia ai due legati.</p>
+                    <p>Il documento è inoltre significativo per la menzione di due edifici pubblici della città, il tempio di Hera (l. 10), dove viene prescritta la collocazione del documento, ed un santuario di Apollo <foreign>Delphinios</foreign> (l. 18), sede della <foreign>koina hestia</foreign> presso cui vengono invitati come ospiti gli ambasciatori teii. Nella presenza del focolare sacro in un tempio anziché nel pritaneo potrebbe essere individuabile un’eredità dell’affine prassi micenea di ospitare l’<foreign>hestia</foreign> nel <foreign>megaron</foreign> (cf. <bibl><ref target="#bib216"><title>Inventory of Poleis</title></ref>, pp. 1166-1167</bibl>). L’attestazione di un <foreign>Delphinion</foreign> conferma inoltre l’attaccamento delle città dell’<foreign>Oreia</foreign>, a cui anche Hyrtakina appartiene, al culto di Apollo, divinità a cui sono legate anche Elyros e Tarrha.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#isopolites"><foreign>isopolites</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b116">Béquignon – Laumonier 1925</ref>, pp. 298-303, n. 1, tav. X</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 4.599</bibl>); 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 15 2* <ptr type="phi" target="199957"/></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 54</bibl>; 
+                    <bibl><ref target="#b435">Curty 1995</ref>, n. 43o (ll. 3-9)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 160</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5182-5187</bibl>; 
+                    <bibl><ref target="#b1612">Robert 1927</ref>, pp. 97-99</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 4.599</bibl>); 
+                    <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>; 
+                    <bibl><ref target="#b1040">Kvist 2003</ref></bibl>; 
+                    <bibl><ref target="#b277">Ceccarelli 2005</ref>, pp. 361-369</bibl>; 
+                    <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

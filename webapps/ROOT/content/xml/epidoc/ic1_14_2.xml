@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dell’<foreign>eunomia</foreign> di Lato relativa ad un tempio di Ares e Afrodite</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 14 2</idno>
+                        <idno type="projectNo">475</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">136</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#istron">Istron</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0120" notAfter="-0119">120/119 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Damatrios f. Kilix"><name nymRef="Δαμάτριος"><supplied reason="lost">Δ</supplied>αμάτριος</name> <name nymRef="Κίλιξ" type="patronymic">Κίλικος</name></persName> καὶ ἁ σὺν
+                          <lb n="2"/>αὐτῷ <w lemma="εὐνομία">εὐνομία</w></rs> ἐπὶ τῶι <w lemma="ἀφίδρυμα">ἀφιδρύματι</w> τὸν <rs type="institution" subtype="public_space" role="construction" key="naos" ref="#dera"><w lemma="ναός">ναὸ<lb 
+                        break="no" n="3"/>ν</w> τῶ <persName type="divine" key="Ares">Ἄρεος</persName> καὶ τᾶς <persName type="divine" key="Aphrodite">Ἀφροδίτας</persName></rs> <w lemma="ποιέω">ἐποίησαν</w>, <w lemma="ἐπισκευόω">ἐπε<lb 
+                        break="no" n="4"/>σκεύωσαν</w> δὲ καὶ τὸν <w lemma="λάκκος">λάκκον</w> καὶ τὸν <w lemma="περίπατος">περίπατ<lb 
+                        break="no" n="5"/>ον</w> καὶ τῶι <w lemma="δίκαιος">δικαίωι</w> τὰς <w lemma="χειά">χειάς</w>. καὶ ἀπὸ μέριος
+                          <lb n="6"/>τὸν <rs type="institution" subtype="public_space" role="construction" key="choros" ref="#dera"><w lemma="χορός">χορὸν</w></rs> <w lemma="ἔχω">ἔχουσαν</w> <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Damatrios f. Kilix"><name nymRef="Δαμάτριος">Δαμάτριος</name> <name nymRef="Κίλιξ" type="patronymic">Κίλικος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Polytimos f. Tharsiphanes"><name nymRef="Πολύτιμος">Πο<lb 
+                        break="no" n="7"/>λύτιμος</name> <name nymRef="Θαρσυφάνης" type="patronymic">Θαρσυφάνιος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Thion f. Damochares"><name nymRef="Θίων">Θίων</name> <name nymRef="Δαμοχάρης" type="patronymic">Δαμοχάριος</name></persName></rs>,
+                          <lb n="8"/><rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Antipatas f. Pyron"><name nymRef="Ἀντιπάτας">Ἀντιπάτας</name> <name nymRef="Πύρων" type="patronymic">Πύρωνος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Thiokles f. Phylax"><name nymRef="Θιοκλῆς">Θιοκλῆς</name> <name nymRef="Φύλαξ" type="patronymic">Φύλα<lb 
+                        break="no" n="9"/>κος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Enipas f. Mnastion"><name nymRef="Ἐνίπας">Ἐνίπας</name> <name nymRef="Μναστίων" type="patronymic">Μναστίωνος</name></persName></rs>,
+                          <lb n="10"/><rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Tymon f. Koryptas"><name nymRef="Τύμων">Τύμων</name> <name nymRef="Κορύπτας" type="patronymic">Κορύπτα</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Pagon f. Pagon n. Thiopheides"><name nymRef="Πάγων">Πάγων</name> <name nymRef="Πάγων" type="patronymic">Πάγωνος</name> τῶ <name nymRef="Θιοφείδης" type="patronymic">Θιο<lb 
+                        break="no" n="11"/>φείδιος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato"><persName type="attested" key="Pagon f. Euthyphron"><name nymRef="Πάγων">Πάγων</name> <name nymRef="Εὐθύφρων" type="patronymic">Εὐθύφρονος</name></persName></rs>.
+                          <lb n="11a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, rinvenuta a Pyrgos nei pressi di Istron, ricorda un intervento edilizio promosso dalle autorità di Lato, verosimilmente pertinente al tempio di Ares e Afrodite di Dera. Il responsabile dell’iniziativa, che comporta la costruzione di un tempio di Ares e Afrodite, il restauro di una cisterna, di un <foreign>peripatos</foreign> e di una fossa per un serpente sacro (cf. <bibl><ref target="#bib1"><title>IC</title> I</ref>, p. 103</bibl>) e un finanziamento privato di uno spazio adibito alle danze (attestato anche a Lebena ed Eltynia), è il collegio dell’<foreign>eunomia</foreign> di Lato, come avviene anche nelle iscrizioni edificatorie di Lato <ref type="ins" target="#ic1_16_24"><title>IC</title> I 16 24</ref> e <ref type="ins" target="#ic1_16_21"><title>IC</title> I 16 21</ref>. Il collegio, guidato da Damatrios figlio di Kilix, è formato da nove magistrati, i cui nomi sono elencati al nominativo alle linee 6-11.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#choros2"><foreign>choros</foreign></ref>, <ref type="inst" target="#eunomia"><foreign>eunomia</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 641-644 n. 55</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5056</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 194</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 14 2 <ptr type="phi" target="199199"/></bibl>; 
+                            <bibl><ref target="#b1879">Van Effenterre 1943</ref></bibl>;
+                            <bibl><ref target="#b154">Bile 2008</ref>, p. 266</bibl>;
+                            <bibl><ref target="#b1309">Meier 2012</ref>, n. 42</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

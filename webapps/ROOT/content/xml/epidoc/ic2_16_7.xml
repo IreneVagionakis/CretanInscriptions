@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Lappa per cittadini di Hierapolis e Perge</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 7</idno>
+                        <idno type="projectNo">086</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#argyroupoli">Argyroupoli, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lappa"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#lappa" type="ethnic">Λαππαίων</placeName> τῆι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lappa"><w lemma="πόλις">πό<supplied reason="lost">λ</supplied>ει</w></rs>· ἐπειδὴ <persName type="honoured" key="Lysikles f. -" ref="#unknown"><name nymRef="Λυσικλῆς">Λυσικλῆ<supplied reason="lost">ς</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lappa"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#lappa" type="ethnic">Λαππαίων</placeName> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lappa"><w lemma="πόλις">πόλει</w></rs> <persName type="honoured" key="Apollonios f. Hermolaos n. Chares"><name nymRef="Ἀπολλώνιος">Ἀπολλώ<unclear>ν</unclear><supplied reason="lost">ι</supplied><lb 
+                        break="no" n="2"/>ον</name> <name nymRef="Ἑρμόλαος" type="patronymic">Ἑρμολάου</name> τοῦ <name nymRef="Χάρης" type="patronymic">Χάρητος</name> <placeName ref="#hierapolis" type="ethnic">Ἱεροπολί<lb 
+                        break="no" n="3"/>την</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#lappa"><w lemma="πρόξενος">πρόξενον</w></rs> ἦμεν αὐτὸν καὶ <w lemma="ἔκγονος">ἐκγό<lb 
+                        break="no" n="4"/>νους</w>.
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lappa"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#lappa" type="ethnic">Λαππαίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#lappa"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τῆι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lappa"><w lemma="πόλις">πόλει</w></rs> <persName type="honoured" key="As-la- f. Apollonios"><name nymRef="Ἀσ-λα-">Ἀσ<gap reason="illegible" quantity="1" unit="character"/>λα<gap reason="lost" extent="unknown" unit="character"/></name>
+                          <lb n="2"/><name nymRef="Ἀπολλώνιος" type="patronymic">Ἀπολλωνίου</name> <placeName ref="#pergai" type="ethnic">Περγαῖον</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#lappa"><w lemma="πρόξενος">πρόξενον</w></rs> εἶνα<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>αὐτὸν καὶ <w lemma="γένος">γένος</w>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I tre decreti onorari si aprono tutti con la formula di sanzione, che nel testo C si differenzia da quella abitualmente in uso a Lappa: mentre in A e B vi è la consueta menzione della sola <foreign>polis</foreign> in qualità di responsabile dell’emanazione del decreto (cf. <ref type="ins" target="#ic2_16_4"><title>IC</title> II 16 4-6</ref>, <ref type="ins" target="#ic2_16_8">8</ref>), il decreto C testimonia il coinvolgimento dei cosmi nell’attività deliberativa assieme alla <foreign>polis</foreign>, come avviene anche in <ref type="ins" target="#ic2_16_3"><title>IC</title> II 16 3</ref>. Il documento A, inoltre, si differenzia dagli altri decreti onorari di Lappa per la presenza delle motivazioni della decisione, introdotte da ἐπειδή (l. 1). È da notare che nei decreti A e C l’articolo relativo al dativo πόλει compare nella forma τῆι anziché in quella dorica τᾶι, diversamente da quanto avviene negli altri prescritti conservati di Lappa.</p>
+                    <p>I beneficiari dei decreti – uno di origini sconosciute (A), uno di Hierapolis (B) e uno di Perge (C) – ottengono da Lappa la prossenia, analogamente agli altri individui per cui la città emana decreti onorari (cf. <ref type="ins" target="#ic2_16_4"><title>IC</title> II 16 4-6</ref>, <ref type="ins" target="/ic2_16_8">8</ref>, <ref type="ins" target="#seg_57_846"><title>SEG</title> 57.846</ref>). Sulla base di quanto avviene nei decreti <ref type="ins" target="#ic2_16_4"><title>IC</title> II 16 4</ref>, <ref type="ins" target="#ic2_16_5">5</ref> e <ref type="ins" target="#ic2_16_6">6</ref>, è possibile ipotizzare l’esistenza di una rasura nella lacuna alla fine della linea C 2, dove molto verosimilmente dovevano trovarsi ulteriori concessioni onorarie del tipo καὶ εὐεργέταν o καὶ πολίταν (cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 197</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1813">Thenon 1867a</ref>, pp. 269-270</bibl>;
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 7 <ptr type="phi" target="199974"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

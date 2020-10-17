@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Polyrrhenia (?)</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 50.911</idno>
+                        <idno type="projectNo">068</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kissamos_museum">Museo archeologico di Kissamos</repository>
+                        <idno type="invNo">E 30</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">due decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#column">colonna</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#kissamos">Kissamos</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0170">inizi III secolo a.C. (A), inizi II secolo a.C. (B)</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">              
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#polyrrhenia">ἐπὶ <w lemma="κόσμος">κόσμω</w>
+                        <lb n="2"/><persName type="attested" key="Ph-"><name nymRef="Φ-">Φ<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#polyrrhenia"><w lemma="δοκέω"><supplied reason="lost">ἔδο</supplied><lb 
+                        break="no" n="3"/>ξ<unclear>ε</unclear></w></rs> <supplied reason="lost">τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κόσμοις</w></rs></supplied>
+                        <lb n="4"/>κ<unclear>α</unclear>ὶ <supplied reason="lost">τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλει</w></rs></supplied>
+                        <lb n="5"/><orig>τ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="6"/><orig>κ</orig><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#polyrrhenia"><w lemma="πρόξενος"><supplied reason="lost">πρό</supplied><lb 
+                        break="no" n="7"/>ξ<unclear>ε</unclear><supplied reason="lost">νον</supplied></w></rs> <supplied reason="lost">ἦμεν αὐτὸν καὶ</supplied> <w lemma="ἔγγονος"><supplied reason="lost">ἔγ</supplied><lb 
+                        break="no" n="8"/>γ<supplied reason="lost">ονα</supplied></w>. 
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="0"/><supplied reason="lost"><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#polyrrhenia">ἐπὶ <w lemma="κόσμος">κόσμω</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="0a"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/>μω <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#polyrrhenia"><w lemma="δοκέω">ἔδο<supplied reason="lost">ξε</supplied></w></rs> <supplied reason="lost">τοῖς</supplied> <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος"><supplied reason="lost">κόσ</supplied><lb 
+                        break="no" n="2"/>μο<unclear>ι</unclear>ς</w></rs> καὶ <supplied reason="lost">τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλει</w></rs></supplied>
+                        <lb n="3"/><persName type="honoured" key="Titos Phlaouios f. Kointos"><name nymRef="Τίτος">Τίτον</name> <name nymRef="Φλάουιος">Φλά<supplied reason="lost">ουιον</supplied></name>
+                        <lb n="4"/><name nymRef="Κόιντος" type="patronymic">Κοΐντου</name> <placeName ref="#rome" type="ethnic">Ῥ<unclear>ω</unclear><supplied reason="lost">μαῖον</supplied></placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#polyrrhenia"><w lemma="πρόξενος"><supplied reason="lost">πρό</supplied><lb 
+                        break="no" n="5"/>ξενον</w></rs> ἦμε<unclear>ν</unclear> αὐ<unclear>τ</unclear><supplied reason="lost">ὸν</supplied>
+                        <lb n="6"/>καὶ <w lemma="ἔγγονος">ἔγγονα</w>, <w lemma="μετέχω">μετέ<supplied reason="lost">χε</supplied>ν</w>
+                        <lb n="7"/>δὲ αὐτο<supplied reason="lost">ὺ</supplied><unclear>ς</unclear> <w lemma="θῖνος">θίνων</w> <supplied reason="lost">τ</supplied><unclear>ε</unclear>
+                        <lb n="8"/>καὶ <w lemma="ἀνθρώπινος">ἀν<unclear>θ</unclear><supplied reason="lost">ρ</supplied>ωπίνων</w> ὧν
+                        <lb n="9"/>καὶ οἱ λοιποὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#polyrrhenia"><w lemma="πολίτας">πολῖτα<unclear>ι</unclear></w></rs> <w lemma="μετέχω">με<lb 
+                        break="no" n="10"/>τέχοντι</w> αὐτοί.
+                </ab>
+                </div>
+            </div>            
+            <div type="apparatus">
+                <p>
+                    <app loc="B10"><note><surplus>αὐτοί</surplus> <bibl><ref target="#b1220">Markoulaki – Martínez Fernández</ref></bibl>, secondo cui sarebbe di una mano differente.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>La colonna, recante un decreto di prossenia degli inizi del III secolo a.C. (A), è stata reimpiegata circa un secolo dopo per un’iscrizione analoga (B). Nonostante il rinvenimento della colonna a Kissamos, in assenza di prove dell’autonomia di tale località e di toponimi nell’iscrizione i due decreti sono da considerare quasi certamente un prodotto dell’attività deliberativa dei cosmi e della città di Polyrrhenia.</p>
+                    <p>Il formulario, anche se in parte ricostruito, è affine a quello di altri decreti di prossenia di Polyrrhenia, sia per quanto riguarda la datazione ἐπὶ κόσμω che per la formula di sanzione, implicante verosimilmente sia i cosmi che la <foreign>poleis</foreign> (cf. <ref type="ins" target="#seg_64_798"><title>SEG</title> 64.798</ref>, <ref type="ins" target="#ic2_23_5"><title>IC</title> II 23 5</ref>; nella formula di sanzione di <ref type="ins" target="#ic2_23_6"><title>IC</title> II 23 6</ref> B, invece, figura solamente la <foreign>polis</foreign>).</p>
+                    <p>Mentre il beneficiario del decreto più antico – insignito della prossenia – non è noto, quello del secondo è un Romano, Tito Flavio figlio di Quinto, a cui è accordato assieme alla propria discendenza lo <foreign>status</foreign> di prosseno e la partecipazione a tutte le «cose divine ed umane» a cui prendono parte i cittadini di Polyrrhenia: si tratta dunque di una concessione molto prossima a quella della cittadinanza, costituendo un <foreign>unicum</foreign> in tutta Creta occidentale.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?), <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1220">Markoulaki – Martínez Fernández 2000</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 50.911 <ptr type="seg" target="a50_911" /></bibl>); 
+                    <bibl><ref target="#b1221">Markoulaki – Martínez Fernández 2000-2001</ref>, pp. 147-158</bibl>.
+                <foreign>Ect</foreign>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

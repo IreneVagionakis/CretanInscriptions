@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Cos da parte di Istron, Phaistos, Hierapytna e un’altra città</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 51.1056</idno>
+                        <idno type="projectNo">552</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#cos_asklepieion">Magazzino dell’<foreign>Asklepieion</foreign> di Cos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">due lettere contenenti decreti, due decreti</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#cos">Cos, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" when="-0242">242 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="0"/><supplied reason="lost"><placeName ref="#istron" type="ethnic">Ἰστρωνίων</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#istron"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#istron"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#cos" type="ethnic">Κωΐων</placeName> τᾶι βωλᾶι καὶ τῶι</supplied>
+                          <lb n="1"/>δάμωι <w lemma="χαίρω">χαίρειν</w>· <w lemma="ἀποστέλλω">ἀπεστή<supplied reason="lost">λατε</supplied></w> <supplied reason="lost">παρ’ ἁμὲ θεωροὺς Χά</supplied><lb 
+                        break="no" n="2"/>ριππον, Δίωνα, Πλάτων<unclear>α</unclear>, <supplied reason="lost">οἳ ἐπήγγειλαν τάν τε θυ</supplied><lb 
+                        break="no" n="3"/>σίαν καὶ τὰν πανάγυρ<supplied reason="lost">ιν τὰν γινομέναν τῶι</supplied> <persName type="divine" key="Asklepios"><supplied reason="lost">Ἀσ</supplied><lb 
+                        break="no" n="4"/>κλαπιῶι</persName> καὶ <w lemma="παρακαλέω">παρεκάλο<supplied reason="lost">υν</supplied></w> <supplied reason="lost">ἁμὲ τὸ ἱερὸν τοῦ</supplied> <persName type="divine" key="Asklepios"><supplied reason="lost">Ἀσ</supplied><lb 
+                        break="no" n="5"/>κλαπιοῦ</persName> τὸ ἐγ <placeName ref="#cos">Κῶι</placeName> <w lemma="ἄσυλος">ἄσυ<supplied reason="lost">λον</supplied></w> <supplied reason="lost">δέχεσθαι· ἀγαθᾶι <w lemma="τύχα">τύχαι</w>·</supplied>
+                          <lb n="6"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#istron"><w lemma="δοκέω">δεδόχθαι</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#istron"><w lemma="πόλις">πόλει</w></rs> τᾶ<supplied reason="lost">ι <placeName ref="#istron" type="ethnic">Ἰστρωνίων</placeName> δέχεσθαι καθὰ</supplied>
+                          <lb n="7"/><w lemma="παρακαλέω">παρακαλοῦντι</w> τάν <unclear>τ</unclear><supplied reason="lost">ε <w lemma="θυσία">θυσίαν</w> καὶ τὰν πανάγυ</supplied><lb 
+                        break="no" n="8"/>ριν καὶ τὰν ἐκεχειρί<unclear>α</unclear><supplied reason="lost">ν, καὶ <w lemma="ἄσυλος">ἄσυλον</w> ἦμεν τὸ ἱερὸν</supplied>
+                          <lb n="9"/>τοῦ <persName type="divine" key="Asklepios">Ἀσκλαπιοῦ</persName> ὑπό τ<unclear>ε</unclear> <supplied reason="lost"><rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polisE" ref="#istron"><placeName ref="#istron" type="ethnic">Ἰστρωνίων</placeName></rs> καὶ τῶν</supplied> <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="katoikos" ref="#istron"><w lemma="κατοικέω"><supplied reason="lost">κατοικόν</supplied><lb 
+                        break="no" n="10"/>των</w></rs> ἐν <placeName ref="#istron">Ἰστ<unclear>ρ</unclear>ῶνι</placeName>· τὸ δὲ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#istron"><w lemma="ψάφισμα">ψ<supplied reason="lost">άφισμα</supplied></w></rs> <supplied reason="lost">τόδε <w lemma="ἀναγράφω">ἀναγράψαι</w> ἐν τῶι</supplied>
+                          <lb n="11"/><rs type="institution" subtype="public_space" role="inscription_setup" key="prytaneion" ref="#istron"><w lemma="πρυτανεῖον">πρυτανείωι</w></rs> <space quantity="3" unit="character"/> ἐν τῶ<supplied reason="lost">ι <w lemma="ἐπιφανέστατος">ἐπιφανεστάτωι</w> τόπωι· τοῖς δὲ</supplied>
+                          <lb n="12"/>θεωροῖς ἐς <w lemma="ἀπαρχά">ἀπαρχὰ<unclear>ν</unclear></w> <supplied reason="lost" cert="low">δόμεν <w lemma="στατήρ">στατῆρας</w> δέκα <space extent="unknown" unit="character"/></supplied>.
+                        </ab>
+                        <ab>
+                          <lb n="13"/><placeName ref="#phaistos" type="ethnic">Φαιστίων</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#phaistos"><w lemma="κόσμος">κόσμοι</w></rs> καὶ <supplied reason="lost">ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#phaistos"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#cos" type="ethnic">Κωΐων</placeName> τοῖς ἄρχουσι</supplied>
+                          <lb n="14"/>καὶ τᾶι πόλει <w lemma="χαίρω">χαίρειν</w>· ἐ<unclear>π</unclear><supplied reason="lost">εὶ <placeName ref="#cos" type="ethnic">Κῶιοι</placeName> <w lemma="ἀποστέλλω">ἀποστείλαντες</w> θεω</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">ροὺ</supplied>ς τάν τε <w lemma="ἀσυλία">ἀσυλ<supplied reason="lost">ίαν</supplied></w> <supplied reason="lost">τῶ ἱερῶ τῶ <persName type="divine" key="Asklepios">Ἀσκλαπιῶ</persName> καὶ τὰν</supplied> <w lemma="θυσία"><supplied reason="lost">θυ</supplied><lb 
+                        break="no" n="16"/><supplied reason="lost">σίαν</supplied></w> <supplied reason="lost">κα</supplied>ὶ τὰ λοιπά, ὧγ <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">, ἀξιοῦντι δέχεσθαι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/><gap reason="lost" quantity="7" unit="character"/> τ<supplied reason="lost">α</supplied>ῦτα δε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">ὅπως</supplied> <supplied reason="lost">τὸ</supplied>
+                          <lb n="1"/><supplied reason="lost">ἱερὸν τῶ <persName type="divine" key="Asklepios">Ἀσκλαπιῶ</persName> ἄσυλον</supplied> ὑπάρχη ὑπό τε <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">Φαι<unclear>σ</unclear><supplied reason="lost">τίων</supplied></placeName></rs>
+                          <lb n="2"/><supplied reason="lost">καὶ τῶν <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="katoikos" ref="#phaistos"><w lemma="κατοικέω">κατοικόντων</w></rs> ἐμ</supplied> <placeName ref="#phaistos"><supplied reason="lost">Φα</supplied>ιστῶι</placeName>· ἀγαθᾶι <w lemma="τύχα">τύχαι</w>· <unclear>ἦ</unclear><supplied reason="lost">μεν</supplied>
+                          <lb n="3"/><supplied reason="lost"><w lemma="ἄσυλος">ἄσυλον</w> τὸ ἱερὸν τῶ</supplied> <persName type="divine" key="Asklepios"><supplied reason="lost">Ἀσκλαπ</supplied>ιῶ</persName> τῶ ἐγ <placeName ref="#cos">Κόοι</placeName> ὑπὸ τε <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">Φαισ<unclear>τ</unclear><supplied reason="lost">ί</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">ων</supplied></placeName></rs> <supplied reason="lost">καὶ τῶν <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="katoikos" ref="#phaistos"><w lemma="κατοικέω">κατοικόντων</w></rs> ἐ</supplied>μ <placeName ref="#phaistos">Φαιστῶι</placeName>· τὸ δὲ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#phaistos"><w lemma="ψάφισμα">ψάφισμα</w></rs>
+                          <lb n="5"/><supplied reason="lost">τόδε <w lemma="ἀναγράφω">ἀναγράψαι</w> ἐν τῶι</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#phaistos"><supplied reason="lost"><w lemma="ἱερόν">ἱερώι</w> τῶ</supplied> <persName type="divine" key="Apollo Pythios"><supplied reason="lost">Ἀπόλ</supplied>λωνος τῶ Πυθίω</persName></rs>·
+                          <lb n="6"/><supplied reason="lost">δόμεν δὲ καὶ τοῖς θεωροῖς εἰς</supplied> <w lemma="ξένια">ξένια</w> <w lemma="στατήρ">στατῆρας</w> δέκα.
+                        </ab>
+                        <ab>
+                          <lb n="7"/><supplied reason="lost"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω">ἔδοξεν</w></rs> <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName> τοῖς</supplied> <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#hierapytna"><w lemma="κόσμος"><supplied reason="lost">κόσμ</supplied><unclear>ο</unclear>ις</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#hierapytna"><w lemma="δᾶμος"><unclear>δά</unclear>μωι</w></rs>· ἐπ<unclear>ε</unclear><supplied reason="lost">ι</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">δὴ <placeName ref="#cos" type="ethnic">Κῶιοι</placeName> <w lemma="φίλος">φίλοι</w> ὄντες τῶ</supplied> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="demos" ref="#hierapytna"><w lemma="δᾶμος"><supplied reason="lost">δάμ</supplied>ω</w></rs> τῶ <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίω<corr>ν</corr></placeName> θε<lb 
+                        break="no" n="9"/><supplied reason="lost">ωροὺς <w lemma="ἀποστέλλω">ἀπεστάλκαντι</w> παρ’ ἁμὲ Χ</supplied>άριππον, Δίωνα, Πλά<lb 
+                        break="no" n="10"/><supplied reason="lost">τωνα, οἵτινες <w lemma="ἐπαγγέλλω">ἐπαγγέλλοντι</w></supplied> τὰν <w lemma="θυσία">θυσίαν</w> καὶ τὰν
+                          <lb n="11"/><supplied reason="lost">ἐκεχειρίαν καὶ τὰν πανάγυρι</supplied><unclear>ν</unclear> τῶι <persName type="divine" key="Asklepios">Ἀσκλαπιῶι</persName> <unclear>κ</unclear>α<supplied reason="lost">ὶ</supplied>
+                          <lb n="12"/><supplied reason="lost">ἀξιοῦντι τὸ ἱερὸν τῶ</supplied> <persName type="divine" key="Asklepios"><supplied reason="lost">Ἀσκλα</supplied>πιῶ</persName> ν τὸ παρ’ αὐτοῖς <w lemma="ἄσυλος">ἄ<unclear>σ</unclear><supplied reason="lost">υ</supplied><lb 
+                        break="no" n="13"/><supplied reason="lost">λον</supplied></w> <supplied reason="lost">ἦμεν· ἀγαθᾶι <w lemma="τύχα">τύχαι</w>·</supplied> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω"><supplied reason="lost">δε</supplied>δόχθαι</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνί<supplied reason="lost">οις</supplied></placeName></rs>
+                          <lb n="14"/><supplied reason="lost">ἀποδέχεσθαι τὰν</supplied> <w lemma="θυσία"><supplied reason="lost">θυσία</supplied><unclear>ν</unclear></w>, καὶ τὸ ἱερὸν τῶ <persName type="divine" key="Asklepios">Ἀσκ<supplied reason="lost">λαπιῶ</supplied></persName>
+                          <lb n="15"/><supplied reason="lost"><w lemma="ἄσυλος">ἄσυλον</w> ἦμεν καθὼς ἀξι</supplied>οῦντι· <w lemma="ἀγγράφω">ἀγγράψα<supplied reason="lost">ι</supplied></w> <supplied reason="lost">δὲ τὸ</supplied> <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#hierapytna"><w lemma="ψάφισμα"><supplied reason="lost">ψά</supplied><lb 
+                        break="no" n="16"/><supplied reason="lost">φισμα</supplied></w></rs> <supplied reason="lost">ἐν τῶι</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#hierapytna"><supplied reason="lost"><w lemma="ἱερόν">ἱερῶι</w> τῶ</supplied> <persName type="divine" key="Asklepios"><supplied reason="lost">Ἀσκ</supplied>λαπιῶ</persName></rs>· δόμε<supplied reason="lost">ν δὲ ἐς <w lemma="ἀπαρχά">ἀπαρχὰν</w></supplied>
+                          <lb n="17"/><supplied reason="lost" cert="low"><w lemma="στατήρ">στατῆρας</w> δέκα</supplied> <supplied reason="lost">τοῖς θεω</supplied>ροῖς· <space extent="unknown" unit="character"/>
+                        </ab>
+                        <ab>
+                          <lb n="18"/><supplied reason="lost"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#unknown"><w lemma="δοκέω">ἔδοξεν</w></rs></supplied> <gap reason="lost" atLeast="3" atMost="4" unit="character" precision="low"/> <supplied reason="lost">τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#unknown"><w lemma="κόσμος">κόσμοις</w></rs> κα</supplied>ὶ τᾶ<supplied reason="lost">ι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#unknown"><w lemma="πόλις">πόλει</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La stele conserva – in modo più o meno parziale – quattro decreti emanati da città cretesi relativamente alla propria concessione di <foreign>asylia</foreign> a Cos, i primi due dei quali sono incorporati all’interno di un’epistola.</p>
+                    <p>Il primo decreto, emanato da Istron, si apre con la formula di saluto indirizzata a Cos verosimilmente dai cosmi e dalla <foreign>polis</foreign> (ll. A 1-2). Il ricordo dell’invio di ambasciatori sacri da parte di Cos, alle linee A 2-5, è seguito da una formula di mozione in cui figura come decretante la sola <foreign>polis</foreign> di Hierapytna (diversamente da <ref type="ins" target="#ic1_14_1"><title>IC</title> I 14 1</ref>, in cui compaiono in tale ruolo sia i cosmi che la <foreign>polis</foreign>). L’oggetto del decreto accorda la concessione di quanto richiesto, che viene presentata come effettuata da parte dei cittadini di Istron e dei suoi residenti non detenenti lo <foreign>status</foreign> di <foreign>politai</foreign> (ll. A 6-10). La formula di esposizione, alle linee A 10-11, prevede la collocazione del decreto nel luogo più in vista del pritaneo (luogo destinato alla pubblicazione di iscrizioni anche in <ref type="ins" target="#ic1_23_1"><title>IC</title> I 23 1</ref> e <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>). Il decreto, infine, si chiude con una concessione di denaro agli ambasciatori di Cos per il compimento di un sacrificio (ll. A 11-12).</p>
+                    <p>Il secondo decreto, emanato da Phaistos, si apre con la formula di saluto indirizzata a Cos dai cosmi e verosimilmente dalla <foreign>polis</foreign> (ll. A 13-14). Il ricordo dell’invio di ambasciatori sacri da parte di Cos, alle linee A 14-17 e B 1-2 , è seguito dall’oggetto del decreto, che prevede la concessione di quanto richiesto, presentata come effettuata da parte dei cittadini di Phaistos e dei suoi residenti non detenenti lo <foreign>status</foreign> di <foreign>politai</foreign> (ll. B 2-4). La formula di esposizione, alle linee B 4-5, prevede la collocazione del decreto in un santuario di Apollo <foreign>Pythios</foreign>, possibilmente quello di Gortyna, attestato in relazione a Phaistos anche in <ref type="ins" target="#ic1_17_1"><title>IC</title> I 17 1</ref>. Il documento, infine, si chiude con una concessione di dieci stateri agli ambasciatori di Cos come dono ospitale (l. B 6).</p>
+                    <p>Il terzo decreto, emanato da Hierapytna, si apre direttamente con la formula di sanzione, nella quale figurano i cosmi e il <foreign>damos</foreign> (per Hierapytna attestato anche in <ref type="ins" target="#ic3_4_10"><title>IC</title> III 4 10</ref>) come istituzioni responsabili della deliberazione (l. B 7). La sezione delle motivazioni, alle linee B 7-13, ricorda l’invio di ambasciatori sacri da parte di Cos motivato dall’amicizia esistente fra quest’ultima e il <foreign>damos</foreign> di Hierapytna. L’oggetto del decreto, introdotto da una formula di mozione in cui compare l’etnico cittadino collettivo Ἱεραπυτνί[οις] (l. B 13), accorda a Cos quanto richiesto, senza aggiungere ulteriori specificazioni (ll. B 14-15). La formula di esposizione, alle linee B 15-16, prevede la collocazione del decreto in un non altrimenti attestato santuario di Asclepio di Hierapytna. Il decreto, infine, si chiude con una concessione di denaro agli ambasciatori di Cos verosimimente per il compimento di un sacrificio (B 16-17).</p>
+                    <p>Del quarto decreto, invece, si è conservata solamente parte della formula di sanzione iniziale, che non restituisce il nome della città decretante ma che sembra indicare come organi responsabili della deliberazione il suo collegio dei cosmi e la <foreign>polis</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#katoikion"><foreign>katoikos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b850">Hallof – Rigsby 2001</ref>, pp. 335-338 n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 51.1056 <ptr type="seg" target="a51_1055_1059"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII 4.214</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib1"><title>IC</title> I</ref> pp. 100, 269, III p. 20</bibl>; 
+                            <bibl><ref target="#b794">Guarducci 1943</ref>, pp. 66-70</bibl>; 
+                            <bibl><ref target="#b891">Herzog – Klaffenbach 1952</ref>, p. 29</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 42-44</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

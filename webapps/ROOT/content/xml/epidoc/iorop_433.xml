@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria del <foreign>koinon</foreign> cretese e di Knossos per un Ateniese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">I.Orop. 433 III</idno>
+                        <idno type="projectNo">589</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#oropos_amphiaraion">Amphiaraion, Oropos</repository> 
+                                <idno type="invNo">A 373</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#oropos">Oropos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0154" notAfter="-0152">154-152 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="III">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="assembly" role="dedicant" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic"><supplied reason="lost">Κ</supplied>ν<supplied reason="lost">ώσιοι</supplied></placeName></rs>
+                          <lb n="2"/>καὶ τ<supplied reason="lost">ὸ</supplied> <rs type="institution" subtype="assembly" role="dedicant" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν"><supplied reason="lost">κοινὸν</supplied></w>
+                          <lb n="3"/><placeName ref="#crete" type="ethnic">Κρη<supplied reason="lost">ταέων</supplied></placeName></rs>
+                          <lb n="4"/><w lemma="εἰκών"><supplied reason="lost">ε</supplied>ἰκό<supplied reason="lost">νι</supplied></w> <w lemma="χάλκεος"><supplied reason="lost">χαλκεῖ</supplied></w>.
+                          </ab>
+                    </div>
+                </div>
+                    <div type="commentary">
+                        <p>L’iscrizione – il cui testo è noto anche dalla copia <ref type="ins" target="#fd_2_135"><title>FD</title> III 2 135</ref> – conserva il ricordo di venticinque concessioni onorarie di cui ha beneficiato l’ateniese Hegesandros figlio di Hegesandros, fra le quali figura la dedica di una sua statua bronzea da parte di Knossos e del <foreign>koinon</foreign> cretese.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1092">Leonardos 1925-1926</ref>, pp. 11-16 n. 129</bibl>;
+                            <bibl type="main_edition"><ref target="#bib62"><title>I.Orop.</title></ref> 433 III <ptr type="phi" target="180618"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

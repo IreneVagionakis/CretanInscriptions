@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra di Gortyna; trattato di alleanza fra Gortyna e Lappa</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 186</idno>
+                        <idno type="projectNo">306</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka">Agioi Deka, in una casa; </repository> 
+                                <idno type="invNo"/>
+                                <altIdentifier><repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka [fr. B, ll. 6-11]</repository> <idno type="invNo">87 GO 3999</idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty #law">legge sacra (A), trattato (B)</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#pillar">pilastro</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0216" notAfter="-0189" precision="low">216-189 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ῥά</supplied>χος καὶ φρύγανα, ἐσπρεμμίττεν δὲ τὰσχίνους·
+                          <lb n="2"/>μή, μηδ’ ἐς ἀκάτιον, ἐξῆμεν ξύλα παῖεν ἀλλ’ ἢ ῥάχος κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="3"/>φρύγανα· αἰ δὲ μή, κύριος ἔστω ὁ παρτυχὼν ἀφελόμε<lb 
+                        break="no" n="4"/>νος κατὸ <w lemma="ἀρχαῖος">ἀρχαῖον</w>. <space extent="unknown" unit="character"/>
+                          <lb n="4a"/><space extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">θύχαι</w>. <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντων</w></rs> <placeName ref="#gortyn">Γόρτυνι</placeName> μὲν <rs type="institution" subtype="tribe" role="eponym" key="Archeia" ref="#gortyn">ἐπὶ τᾶς <w lemma="Ἀρχήια">Ἀρχήιας</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn">τῶ<supplied reason="lost">ν</supplied>
+                          <lb n="2"/>σὺν <persName type="attested" key="Eurytton f. Menontidas"><name nymRef="Εὐρύττων">Εὐρύττονι</name> τῶ <name nymRef="Μενοντίδας" type="patronymic">Μενοντίδα</name></persName></rs>, <placeName ref="#lappa">Λάππαι</placeName>δ’ <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lappa">ἐπὶ τῶν σὺν <persName type="attested" key="Archon f. Antiochos"><name nymRef="Ἄρχων">Ἄρχω<supplied reason="lost">νι</supplied></name>
+                          <lb n="3"/>τῶ <name nymRef="Ἀντίοχος" type="patronymic">Ἀντιόχω</name></persName></rs>, τά<supplied reason="lost">δε</supplied> <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lappa"><placeName ref="#lappa" type="ethnic">Λαππαῖοι</placeName></rs>, <w lemma="συνμαχέω">συν<lb 
+                        break="no" n="4"/>μαχησῆν</w> ἀλλάλοις τὸν ἅπαντα χρόνον ἁπλόως καὶ ἀδόλως,
+                          <lb n="5"/>κἠψῆθθαι τὸν <placeName ref="#lappa" type="ethnic">Λαππαῖον</placeName> <supplied reason="lost">τ</supplied>οῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> καὶ πολέμω χ<supplied reason="lost">ἰ</supplied><lb 
+                        break="no" n="6"/>ρήνας ὁπυῖ κα <w lemma="παρακαλέω">παρκαλίωντι</w> οἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName>, καὶ τὸν αὐτὸν <w lemma="φίλος">φίλον</w> κἠ<lb 
+                        break="no" n="7"/>χθρὸν ἑξῆν τοῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName>· κ’ αἴ τίς κα <w lemma="πολεμέω">πολεμῇ</w> τοῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName>,
+                          <lb n="8"/>ἢ <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#gortyn"><w lemma="φρώριον">φρώριον</w></rs> ἢ <w lemma="λιμήν">λιμένας</w> καταλαμβάνῃ ἢ χώρας ἀποτάμνηται, <w lemma="βοαθέω">βοαθιόν<lb 
+                        break="no" n="9"/>των</w> οἱ <placeName ref="#lappa" type="ethnic">Λαππαῖοι</placeName> τοῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> καὶ κατὰ γᾶν καὶ κατὰ θάλαθθαν
+                          <lb n="10"/>παντὶ σθένει ἐς τὸ δυνατόν· κατὰ τὰ αὐτὰ δὲ κ’ αἴ τίς κα τοῖς <placeName ref="#lappa" type="ethnic">Λαπ<lb 
+                        break="no" n="11"/>παίοις</placeName> <w lemma="πολεμέω">πολεμῇ</w> ἢ ἀποτάμνηται χώρας ἇς ἔχοντες πορτῆυθον
+                          <lb n="12"/>ἐς τὰν πορτὶ <placeName ref="#gortyn" type="ethnic">Γορτυνίονς</placeName> <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="συμμαχία">συ<supplied reason="lost">μ</supplied>μαχίαν</w>, ἢ <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#lappa"><w lemma="φρώριον">φρώρια</w></rs> ἢ <w lemma="λιμήν">λιμέ<lb 
+                        break="no" n="13"/>νας</w> καταλαμβάνηται, <w lemma="βοαθέω">βοαθιόντων</w> οἱ <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> τοῖς <placeName ref="#lappa" type="ethnic">Λαππαίοις</placeName>
+                          <lb n="14"/>καὶ κατὰ γᾶν καὶ κατὰ θάλαθθαν ἀπροφασίστως παντὶ σθέ<lb 
+                        break="no" n="15"/>νει ἐς τὸ δυνατόν. <w lemma="ἐξαγωγά">ἐξ<unclear>α</unclear>γωγὰν</w> δ’ ἦμεν τῶι τε <placeName ref="#gortyn" type="ethnic">Γορτυνίωι</placeName> <placeName ref="#lappa">Λάπ<lb 
+                        break="no" n="16"/>π<unclear>α</unclear>θεν</placeName> καὶ τῶι <placeName ref="#lappa" type="ethnic">Λαππαίωι</placeName> <placeName ref="#gortyn">Γορτύναθεν</placeName> πάντων, κατὰ γᾶν μὲν
+                          <lb n="17"/><w lemma="ἀτελεί">ἀτελεί</w>, κατὰ θάλαθθαν δὲ καταβάλλοντανς <w lemma="τέλη">τέλη</w> κατὰ τὸνς
+                          <lb n="18"/><rs type="institution" subtype="object" role="law" key="nomos" ref="#lappa"><rs type="institution" subtype="object" role="law" key="nomos" ref="#gortyn"><w lemma="νόμος">νόμονς</w></rs></rs> τὸνς ϝεκατέρη κειμένονς ὑπὲρ τῶν <w lemma="ἐνλιμένιον">ἐνλιμενίων</w>.
+                          <lb n="19"/><w lemma="ὀμνύω">ὀμοσάντων</w> οἱ μὲν <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> τοῖς <placeName ref="#lappa" type="ethnic">Λαππαίοις</placeName> οἱ <w lemma="ἀνήρ">ἄνδρες</w> ἐπιθυ<lb 
+                        break="no" n="20"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato (B), che sulla pietra è preceduto dalla parte conclusiva di una legge relativa alla tutela di un bosco sacro (A), prevede la stipulazione di un’alleanza fra le città di Gortyna e Lappa.</p>
+                    <p>Il documento, che Angelos Chaniotis propone di unire al frammento <ref type="ins"><title>IC</title> IV 187</ref> (<bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 31 B</bibl>), si apre con la formula benaugurale ἀγαθᾶι θύχαι. A questa fanno seguito le formule di datazione di entrambe le città, che commemorano i cosmi eponimi Eurytton figlio di Menontidas della tribù <foreign>Archeia</foreign> per Gortyna (<foreign>phyle</foreign> attestatavi anche in <ref type="ins" target="#ic1_17_8"><title>IC</title> I 17 8</ref>, <ref type="ins" target="#ic1_17_38"><title>IC</title> I 17 38</ref> e <ref type="ins" target="#ic4_233"><title>IC</title> IV 233</ref>) e Archon figlio di Antiochos per Lappa.</p>
+                    <p>La sezione relativa all’impegno reciproco di aiuto militare, che occupa buona parte del trattato (ll. 3-15), testimonia per entrambe le <foreign>poleis</foreign> l’esistenza di <foreign>phrouria</foreign> disseminati nella <foreign>chora</foreign> e di porti, da individuare verosimilmente negli approdi di Lebena e Matala nel caso di Gortyna, in Hydramia nel caso di Lappa. L’ultima clausola del trattato, alle linee 15-18, prevede inoltre sia per Gortyna che per Lappa il diritto di esportazione, via terra esente da tasse, mentre via mare soggetto ad una tassazione conforme alle leggi portuali di entrambe le città (νόμονς τὸνς ϝεκατέρη κειμένονς ὑπὲρ τῶν ἐνλιμενίων).</p>
+                    <p>L’ultima linea del documento, invece, conserva l’inizio delle disposizioni relative al giuramento, che a Gortyna deve essere prestato dagli uomini adulti (οἱ ἄνδρες) verosimilmente in particolari circostanze che dovevano essere specificate nella sezione perduta del testo.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#phrourion"><foreign>phrourion</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, tribù (<ref type="inst" target="#archeia"><foreign>Archeia</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b877">Haussoullier 1885</ref>, pp. 6-10 nn. 8-8 bis</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 17 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5018a (B), 5027 (A)</bibl>; 
+                            <bibl><ref target="#bib510"><title>Leg.Sacr.</title></ref> II 153 (A)</bibl>; 
+                            <bibl><ref target="#b164">Bleckmann 1913</ref>, n. 2 (B)</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 186a (B)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 186 <ptr type="phi" target="200625"/></bibl>; 
+                            <bibl><ref target="#bib511"><title>LSCG</title></ref> 3.148 (A)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 31 A (B)</bibl>; 
+                            <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 13 (B, ll. 6-11)</bibl>; 
+                            <bibl><ref target="#b1169">Magnelli 2008</ref>, pp. 279-280 n. 13 (B, ll. 6-11)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b248">Capdeville 1994a</ref>, p. 267</bibl>; 
+                            <bibl><ref target="#b305">Chaniotis 1995</ref></bibl>;
+                            <bibl><ref target="#b1585">Ragone 1998</ref></bibl>; 
+                            <bibl><ref target="#b1335">Migeotte 2004</ref>, pp. 643-644 n. 6</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

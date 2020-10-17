@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato relativa al tempio di Atena <foreign>Deramis</foreign> ed Eleuthyia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 26</idno>
+                        <idno type="projectNo">460</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">137</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0116" notAfter="-0115">116/115 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>. ἀγαθᾶ<supplied reason="lost">ι</supplied> <w lemma="τύχα"><supplied reason="lost">τύ</supplied>χαι</w>.
+                          <lb n="2"/><rs type="institution" subtype="tribe" role="eponym" key="Hylleis" ref="#lato">ἐπὶ τῶν <w lemma="Ὑλλεῖς">Ὑλλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><w lemma="κοσμέω">κοσμιόντων</w> τῶν σὺν
+                          <lb n="3"/><persName type="attested" key="Kydannos f. Enipas"><name nymRef="Κύδαννος">Κυδάννωι</name> τῶ <name nymRef="Ἐνίπας" type="patronymic">Ἐνίπαντος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Bergis f. Euagoros"><name nymRef="Βέργις">Βέργιος</name> τῶ <name nymRef="Εὐάγορος" type="patronymic">Εὐαγόρω</name></persName></rs>,
+                          <lb n="4"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Lattygos f. Damochares"><name nymRef="Λάττυγος">Λαττύγω</name> τῶ <name nymRef="Δαμοχάρης" type="patronymic">Δαμοχάριος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Porthesilas f. Antipatas"><name nymRef="Πορθεσίλας">Πορθεσίλα</name> τῶ <name nymRef="Ἀντιπάτας" type="patronymic">Ἀντιπάτα</name></persName></rs>,
+                          <lb n="5"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Pheidon f. Dallos"><name nymRef="Φείδων">Φείδωνος</name> τῶ <name nymRef="Δάλλος" type="patronymic">Δάλλω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Porthesilas f. Klesippos"><name nymRef="Πορθεσίλας">Πορθεσίλα</name> τῶ <name nymRef="Κλήσιππος" type="patronymic">Κλησίππω</name></persName></rs>,
+                          <lb n="6"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Kletonymos f. Mnastokles"><name nymRef="Κλητώνυμος">Κλητωνύμω</name> τῶ <name nymRef="Μναστοκλῆς" type="patronymic">Μναστοκλεῖος</name></persName></rs>, <rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#lato"><w lemma="γραμματεύς">γραμματέος</w>
+                          <lb n="7"/><persName type="attested" key="Mnaston f. Mnastokles"><name nymRef="Μνάστων">Μνάστωνος</name> τῶ <name nymRef="Μναστοκλῆς" type="patronymic">Μναστοκλεῖος</name></persName></rs> <space extent="unknown" unit="character"/> ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs>
+                          <lb n="8"/>τᾶι <persName type="divine" key="Athena Deramis">Ἀθαναίαι τᾶι <placeName ref="#dera" type="ethnic">Δεραμιτι</placeName></persName> καὶ τᾶι <persName type="divine" key="Eleuthyia">Ἐλευθυίαι</persName>
+                          <lb n="9"/>τὸς <rs type="institution" subtype="public_space" role="dedication" key="naos" ref="#lato"><w lemma="ναός">ναὸς</w></rs> καὶ τὸν <w lemma="περίβολος">περίβολον</w> <w lemma="οἰκοδομέω">ὠικοδόμησε</w>.
+                          <lb n="9a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, che si apre con una doppia invocazione benaugurale, conserva una formula di datazione contenente il ricordo della tribù dei cosmi in carica, quella degli <foreign>Hylleis</foreign> (a Lato attestata anche in <ref type="ins" target="#ic1_16_32"><title>IC</title> I 16 32</ref>, <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref> e <ref type="ins" target="#seg_32_895"><title>SEG</title> 32.895</ref>), seguito dal nome al dativo del cosmo eponimo, Kydannos figlio di Enipas (noto anche dai documenti coevi <ref type="ins" target="#ic1_16_32"><title>IC</title> I 16 32</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>, ll. 57-58 e <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, ll. 38-39; sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>). Il ricordo dell’eponimo è seguito da quello dei sei colleghi, i cui nomi sono menzionati invece al genitivo (secondo una formulazione che è adottata anche dalla coeva iscrizione edificatoria <ref type="ins" target="#ic1_16_32"><title>IC</title> I 16 32</ref>), e da quello del segretario, figura che compare anche nelle iscrizioni affini <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref>, <ref type="ins" target="#ic1_16_25">25</ref>, <ref type="ins" target="#ic1_16_29">29</ref>, <ref type="ins" target="#ic1_16_31">31</ref>-<ref type="ins" target="#ic1_16_32">32</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>.</p>
+                    <p>L’iniziativa dell’intervento commemorato, la costruzione di più templi e di un <foreign>peribolos</foreign> sacri ad Atena <foreign>Deramis</foreign> e ad Eleuthyia, risulta essere della <foreign>polis</foreign> di Lato, come avviene anche nei documenti analoghi <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>, <ref type="ins" target="#ic1_16_29">29-31</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e forse <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref>. L’epiclesi <foreign>Deramis</foreign> sembra rimandare al santuario di Dera, dove è presente l’<foreign>Aphrodision</foreign> che pare menzionato nell’iscrizione edificatoria <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>, commemorante la consacrazione di un tetto e forse di una <foreign>stoa</foreign> ad Elouthyia (cf. inoltre le altre iscrizioni edificatorie di Lato relative ad Afrodite o al santuario di Dera <ref type="ins" target="#ic1_16_24"><title>IC</title> I 16 24</ref>-<ref type="ins" target="#ic1_16_25">25</ref>, <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, tribù (<ref type="inst" target="#hylleis"><foreign>Hylleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2065">Xanthoudidis 1908</ref>, pp. 225-229 n. 11</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1041-1042 n. 30</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 26 <ptr type="phi" target="199234"/></bibl>; 
+                            <bibl><ref target="#b1879">Van Effenterre 1943</ref></bibl>;
+                            <bibl><ref target="#b1309">Meier 2012</ref>, 43a</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 58-59</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica del <foreign>phrourarchos</foreign> di Itanos a Zeus <foreign>Soter</foreign> e alla Tyche <foreign>Protogenes Aienaos</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 14</idno>
+                        <idno type="projectNo">531</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">80</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0180" notAfter="-0145" precision="low">180-145 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="dedicant" key="phrourarchos" ref="#itanos"><persName type="attested" key="Philotas f. Genthios"><name nymRef="Φιλώτας">Φιλώτας</name>
+                          <lb n="2"/><name nymRef="Γένθιος" type="patronymic">Γενθίου</name>
+                          <lb n="3"/><placeName ref="#epidamnos" type="ethnic">Ἐπιδάμνιος</placeName></persName></rs>
+                          <lb n="4"/>τῶν πρώτων
+                          <lb n="5"/><w lemma="φίλος">φίλων</w> καὶ <w lemma="χιλίαρχος">χιλί<lb 
+                        break="no" n="6"/>αρχος</w> καὶ <rs type="institution" subtype="official" role="dedicant" key="phrourarchos" ref="#itanos"><w lemma="φρούραρχος">φρούραρ<lb 
+                        break="no" n="7"/>χος</w></rs> <persName type="divine" key="Zeus Soter">Διὶ Σωτῆρι</persName>
+                          <lb n="8"/>καὶ <persName type="divine" key="Tyche Protogenes Aienaos">Τύχηι Πρ<supplied reason="lost">ω</supplied>το<lb 
+                        break="no" n="9"/>γενῆι Αἰ<unclear>ε</unclear>νά<lb 
+                        break="no" n="10"/><unclear>ω</unclear><supplied reason="lost">ι</supplied></persName>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica a Zeus <foreign>Soter</foreign> e alla Tyche <foreign>Protogenes Aienaos</foreign> è promossa da Philotas figlio di Genthios di Epidamnos, <foreign>chiliarchos</foreign> e <foreign>phrourarchos</foreign> della base militare tolemaica di Itanos (sulla quale cf. <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2-5</ref>, <ref type="ins" target="#ic3_4_9">9</ref>, <ref type="ins" target="#ic3_4_18">18</ref> e <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl>) e appartenente al gruppo dei <foreign>protoi philoi</foreign> del re lagide in questione, verosimilmente Tolemeo VI (menzionato anche in <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref> e forse in <ref type="ins" target="#ig_xii_3_466"><title>IG</title> XII, 3 466/1390</ref>; cf. <bibl><ref target="#b319">Chaniotis 2002</ref>, p. 109</bibl>). Un altro comandante del <foreign>phrourion</foreign> tolemaico è attestato nel corso del III secolo a.C. come dedicante in <ref type="ins" target="#ic3_4_18"><title>IC</title> III 4 18</ref>, sebbene con il titolo lievemente differente di φρουράρχων.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#phrourarchon"><foreign>phrourarchos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b492">Demargne 1900</ref>, pp. 238-239 n. 1</bibl>; 
+                            <bibl><ref target="#bib68"><title>IGR</title></ref> I 1020</bibl>; 
+                            <bibl><ref target="#bib115"><title>OGIS</title></ref> 119</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 14 <ptr type="phi" target="200317"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib447"><title>I.Epidamnos</title></ref> 518</bibl>; 
+                            <bibl><ref target="#bib364"><title>RICIS</title></ref> 203-0901</bibl>; 
+                            <bibl><ref target="#b1675">Scheuble 2009</ref>, pp. 41-43</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b770">Guarducci 1933b</ref>, p. 234</bibl>;
+                            <bibl><ref target="#bib371"><title>SIRIS</title></ref> 172, nota</bibl>; 
+                            <bibl><ref target="#b319">Chaniotis 2002</ref>, p. 109</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

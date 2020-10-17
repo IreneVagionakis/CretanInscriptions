@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epitaffio di un ambasciatore di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 55.1786</idno>
+                        <idno type="projectNo">180</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#hydria">idria funeraria di tipo Hadra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#alexandria">Alessandria, necropoli Hadra</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="dedicatee_deceased" key="presbeutes" ref="#knossos"><persName type="attested" key="Antimachos f. Ape-"><name nymRef="Ἀντίμαχος">Ἀντιμά<supplied reason="lost">χου</supplied></name>
+                          <lb n="2"/><name nymRef="Ἀπε-" type="patronymic">Ἀπε<gap reason="lost" extent="unknown" unit="character"/></name>
+                          <lb n="3"/><placeName ref="#knossos" type="ethnic">Κνω<supplied reason="lost">σσίου</supplied></placeName></persName>
+                          <lb n="4"/><w lemma="πρεσβευτής">πρεσβ<supplied reason="lost">ευτοῦ</supplied></w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’urna funeraria appartiene alla serie di idrie rinvenute nella necropoli Hadra di Alessandria, pertinenti a personaggi di una certa importanza di origine non alessandrina (sulla serie cf. <bibl><ref target="#b397">Cook 1966</ref></bibl>, <bibl><ref target="#b559">Enklaar 1992</ref></bibl>, <bibl><ref target="#b560">Enklaar 1998</ref></bibl>). Dell’individuo commemorato, di nome Antimachos, si è conservato il titolo, che lo identifica come ambasciatore di Knossos. Oltre a quella di Antimachos, la necropoli Hadra ha restituito le urne di un altro <foreign>presbeutes</foreign> e di un <foreign>theoros</foreign> cretesi, provenienti rispettivamente da Polyrrhenia e da Apollonia (<ref type="ins" target="#seg_24_1185"><title>SEG</title> 24.1185</ref>, <ref type="ins" target="#seg_24_1175"><title>SEG</title> 24.1175</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1431">Pagenstecher 1912</ref>, p. 238</bibl>;
+                            <bibl><ref target="#b559">Enklaar 1992</ref>, n. 35</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 55.1786 <ptr type="seg" target="a55_1781_1805"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

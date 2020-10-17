@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di una città cretese (rinnovo)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 4.600</idno>
+                        <idno type="projectNo">564</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">acropoli di Teos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#epistyle">architrave</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, acropoli</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="παρακαλέω">παρακαλέοων</w> ἁμὲ</supplied> καὶ <w lemma="ἀναγράφω">ἀν<supplied reason="lost">α</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">γράψαι</supplied></w> <supplied reason="lost">τὸ πρότερον δοθὲν <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#unknown"><w lemma="δόγμα">δόγμα</w></rs></supplied> παρ’ αὐτοῖς, 
+                          <lb n="3"/><supplied reason="lost">ἵνα τούτων συντελεσθέν</supplied>των ὑπόμνη<supplied reason="lost">μα</supplied> 
+                          <lb n="4"/><supplied reason="lost">ὑπάρχῃ τοῦ τοὺς</supplied> <gap reason="lost" extent="unknown" unit="character"/>ας ἄξια τῶν <w lemma="πρόγονος">προγό<supplied reason="lost">νων</supplied></w>
+                          <lb n="5"/><supplied reason="lost"><w lemma="φιλάνθρωπος">φιλάνθρωπα</w> τοῖς</supplied> <placeName ref="#teos" type="ethnic"><supplied reason="lost">Τη</supplied><unclear>ί</unclear>οις</placeName> <w lemma="χαρίζω">χαρί<unclear>ζ</unclear>εσθαι</w>· ὅπαι ὦν
+                          <lb n="6"/><supplied reason="lost">κατακολουθίοντες</supplied> τοῖς ὑπ’ αὐτῶν <w lemma="παρακαλέω">παρκαλιομέ<lb 
+                        break="no" n="7"/><supplied reason="lost">νοις</supplied></w> <supplied reason="lost">τάν τε ποτὶ</supplied> τὸς <w lemma="θιός">θιὸς</w> <w lemma="εὐσέβεια">εὐσέβειαν</w> καὶ τὰν ποτὶ
+                          <lb n="8"/><supplied reason="lost"><placeName ref="#teos" type="ethnic">Τηΐος</placeName></supplied> <w lemma="συγγένεια"><supplied reason="lost">συγγένει</supplied>αν</w> φαινώμεθα συντηρίοντες· <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#unknown"><w lemma="δοκέω">δε<lb 
+                        break="no" n="9"/><supplied reason="lost">δόχθαι</supplied></w></rs><supplied reason="lost">·</supplied> <w lemma="ἀποκρίνω"><supplied reason="lost">ἀπ</supplied>οκρίνασθαι</w> αὐτοῖς, διότι καὶ πρᾶτα περὶ
+                          <lb n="10"/><supplied reason="lost">ὧν</supplied> <w lemma="ἐπιστέλλω"><supplied reason="lost">ἐ</supplied>πέστελλον</w> <placeName ref="#teos" type="ethnic">Τήϊοι</placeName> πᾶσαν <w lemma="τίθημι">ἐτιθέμεθα</w> <w lemma="πρόνοια">πρόνοιαν</w>, 
+                          <lb n="11"/><supplied reason="lost">ἐ</supplied>ς πάντα συνεπιδιδόντες αὑτὸς γνησίως, 
+                          <lb n="12"/>καὶ νῦν ἐπὶ τᾶς αὐτᾶς <w lemma="αἵρεσις">αἱρέσιος</w> ὄντες τῶν τε
+                          <lb n="13"/>πρεγγευτᾶν διακούσαμεν μετ’ <w lemma="εὔνοια">εὐνοίας</w> καὶ βω<lb 
+                        break="no" n="14"/>λόμενοι τοῖς προϋπαργμένοις ἐξ ἁμίων <w lemma="φιλάνθρωπος">φιλαν<lb 
+                        break="no" n="15"/>θρώποις</w> πὸτ τὰν τῶν <placeName ref="#teos" type="ethnic">Τηΐων</placeName> πόλιν ἀκόλουθα 
+                          <lb n="16"/><w lemma="πράσσω">πράσσεν</w>, ἀννεώμεθα μὲν τὰν ὑπάρχωσαν ἁμῖν
+                          <lb n="17"/><supplied reason="lost">ποτ’</supplied> αὐτὸς <w lemma="συγγένεια">συγγένειαν</w> καὶ <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="εὔνοια">εὔνοιαν</w>, <w lemma="ἀναγράφω">ἀν<supplied reason="lost">αγρά</supplied><lb 
+                        break="no" n="18"/><supplied reason="lost">ψαν</supplied>τες</w> δὲ καὶ τὰ <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#unknown"><w lemma="προψαφίζω">προεψαφισμένα</w></rs> <w lemma="τίμια">τίμια</w> περὶ τᾶ<supplied reason="lost">ς</supplied>
+                          <lb n="19"/><supplied reason="lost">καθι</supplied>ερώσιος τᾶς πόλιος καὶ τᾶς χώρας αὐτών <supplied reason="lost">τῶι</supplied>
+                          <lb n="20"/><supplied reason="lost">ἀρχα</supplied>γέται <persName type="divine" key="Dionysos">Διονύσωι</persName> καὶ τὰν <w lemma="ἀσυλία">ἀσυλίαν</w> εἰς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#unknown"><w lemma="ἱερόν">ἱε<supplied reason="lost">ρὸν</supplied></w> <supplied reason="lost">τὸ</supplied>
+                          <lb n="21"/><supplied reason="lost">τᾶς</supplied> <persName type="divine" key="Athena"><supplied reason="lost">Ἀ</supplied>θαναίας</persName></rs> συντηρησίομεν καὶ εἰς τὸ λοιπ<supplied reason="lost">όν</supplied>,
+                          <lb n="22"/><supplied reason="lost">καθὼ</supplied>ς <del rend="erasure">ἂν</del> ἁμὲ <w lemma="παρακαλέω">παρακαλίοντι</w>· ὅπαι δὲ συμβαί<supplied reason="lost">νηι τὰν</supplied>
+                          <lb n="23"/><supplied reason="lost">ποτ’ ἀ</supplied>λλήλους <w lemma="οἰκειότης">οἰκειότητα</w> καὶ <w lemma="φιλία">φιλίαν</w> ἐπὶ πλ<supplied reason="lost">εῖον</supplied>
+                          <lb n="24"/><supplied reason="lost">αὔξ</supplied>εσθαι κατὰ πάντα τρόπον, ἁμίων ε<unclear>ὐ</unclear>  <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="24a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), è stato redatto da una <foreign>polis</foreign> cretese di cui non è pervenuto il nome. La sezione conservata del decreto, di cui sono andati perduti sia l’inizio che la fine, si apre con le sue motivazioni (ll. 1-8), nelle quali è ricordata l’ambasceria inviata da Teos con la richiesta di iscrivere il decreto con cui la città cretese le aveva precedentemente concesso l’<foreign>asylia</foreign>. L’oggetto del decreto, introdotto alle linee 8-9 dalla formula di mozione δε[δόχθαι], prevede il rinnovo di quanto precedentemente votato (l. 18, τὰ προεψαφισμένα τίμια) e la sua iscrizione e pubblicazione in un santuario di Atena (ll. 9-22).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref> (?), <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b116">Béquignon – Laumonier 1925</ref>, pp. 303-305 n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 4.600 <ptr type="seg" target="a4_600"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 55</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 161</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1611">Robert 1926</ref>, p. 491</bibl>; 
+                            <bibl><ref target="#b435">Curty 1995</ref>, n. 43p</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

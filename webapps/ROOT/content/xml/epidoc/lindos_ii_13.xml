@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Lyttos e Lindos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Lindos II 13</idno>
+                        <idno type="projectNo">190</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>stoichedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lindos">Lindos</origPlace>
+                                    <origDate period="#classical"  notBefore="-0411" notAfter="-0400">fine V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="I">
+                            <div type="textpart" subtype="fragment" n="a">
+                            <ab>
+                          <lb n="1"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lyttos"><placeName ref="#lyttos" type="ethnic"><supplied reason="lost">Λυττίω</supplied>ν</placeName></rs> κα<supplied reason="lost">ὶ</supplied> <placeName ref="#lindos" type="ethnic">Λινδίων</placeName>
+                          <lb n="2"/><w lemma="σπονδά"><supplied reason="lost">σπονδαὶ</supplied></w> καὶ <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lyttos"><w lemma="συνθήκα">συνθήκα</w></rs>
+                           <lb n="3"/><gap reason="lost" quantity="8" unit="character"/>τοι <placeName ref="#lyttos" type="ethnic">Λυττιο</placeName><lb 
+                            break="no" n="4"/><gap reason="lost" quantity="9" unit="character"/> <placeName ref="#lyttos" type="ethnic"><supplied reason="lost">Λ</supplied>υττιο</placeName><gap reason="illegible" quantity="2" unit="character"/>
+                           <lb n="4a"/><gap reason="lost" quantity="1" unit="line"/>
+                            </ab>
+                            </div>
+                        </div>
+                        <div type="textpart" subtype="part" n="II">
+                            <div type="textpart" subtype="fragment" n="a">
+                            <ab>
+                          <lb n="1"/>οἵδε <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lyttos"><placeName ref="#lyttos" type="ethnic">Λυττίω<lb 
+                           break="no" n="2"/>ν</placeName></rs> ἐν <placeName ref="#lindos">Λίνδωι</placeName> τ<lb 
+                           break="no" n="3"/>ὰς <w lemma="σπονδά">σπονδὰς</w> <w lemma="σπένδω">ἐ<lb 
+                           break="no" n="4"/><supplied reason="lost">σ</supplied>πέσαντο</w> α<lb 
+                           break="no" n="5"/><gap reason="illegible" quantity="1" unit="character"/> <w lemma="ἰαρός" cert="low"><supplied reason="lost">ἰα</supplied>ρῶν</w> ἐμπύ<lb 
+                           break="no" n="6"/> <supplied reason="lost">ρων·</supplied> <gap reason="illegible" quantity="4" unit="character"/><orig><unclear>α</unclear>το</orig><lb
+                           break="no" n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                            </ab>
+                            </div>
+                          <div type="textpart" subtype="fragment" n="b">
+                          <ab>
+                              <lb n="0"/><gap reason="illegible" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="5" unit="character"/><orig>επε</orig><gap reason="illegible" quantity="2" unit="character"/>
+                           <lb n="2"/> <gap reason="illegible" quantity="5" unit="character"/><orig>αρχο</orig><gap reason="illegible" quantity="1" unit="character"/>
+                           <lb n="3"/> <gap reason="illegible" quantity="6" unit="character"/> <unclear>Ἑ</unclear>λλα<lb 
+                             break="no" n="3a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                          </div>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato, di cui si conserva solamente una piccola parte, restituisce gli etnici collettivi delle due <foreign>poleis</foreign> contraenti. L’intestazione del testo, inoltre, definisce il documento come <foreign>spondai</foreign> e <foreign>syntheka</foreign>, fornendo il più antico esempio cretese di utilizzo del secondo termine.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib42"><title>Lindos</title></ref> II 13 <ptr type="phi" target="201489"/></bibl>;
+                            <bibl><ref target="#b1225">Martín Vázquez 1988</ref>, IR 70 (<foreign>non vidi</foreign>)</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

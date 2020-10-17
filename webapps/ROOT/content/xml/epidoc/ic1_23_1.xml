@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Convenzione fra Phaistos, Matala, Polyrrhenia e Mileto</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC I 23 1*</idno>
+                        <idno type="projectNo">216</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino</repository>
+                        <idno type="invNo">671</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#miletus">Mileto, <foreign>Delphinion</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0260" notAfter="-0250" precision="low">260-250 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                    <lb n="1"/><space extent="unknown" unit="character"/> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">Φαιστίων</placeName></rs>.
+                    <lb n="2"/>τάδε <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phaistos"><placeName ref="#phaistos" type="ethnic">Φαίστιοι</placeName></rs> καὶ <placeName ref="#miletus" type="ethnic">Μιλήσιοι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#phaistos"><w lemma="κοσμέω">κοσμιόν<corr>των</corr></w> <corr>τῶν</corr> σὺν <persName type="attested" key="Metiochos"><name nymRef="Μητίοχος">Μητιόχ<unclear>ω</unclear><supplied reason="lost">ι</supplied></name></persName></rs>
+                    <lb n="3"/>ἐμ <placeName ref="#phaistos">Φαιστῶι</placeName>, ἐμ <placeName ref="#miletus">Μιλήτωι</placeName> δὲ στεφανηφόρου Δημητρίου· <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#phaistos"><w lemma="σῶμα ἐλεύθερον">σῶμ<supplied reason="lost">α</supplied>
+                    <lb n="4"/>ἐλεύθερον</w></rs> μὴ <w lemma="ὠνέομαι">ὠνείσθω</w> ὁ <placeName ref="#miletus" type="ethnic">Μιλήσιος</placeName> <placeName ref="#phaistos" type="ethnic">Φαίστιον</placeName> μηδ’ ὁ <placeName ref="#phaistos" type="ethnic">Φαίστιος</placeName> <placeName ref="#miletus" type="ethnic">Μιλ<supplied reason="lost">ή</supplied><lb 
+                        break="no" n="5"/>σιον</placeName>, ἂμ μὴ κελομένου <w lemma="πρίαμαι">πρίαται</w>· ἂν δὲ κε<corr>λ</corr>ομένου <w lemma="πρίαμαι">πρίαται</w>, τᾶς ἰσων<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="6"/>ας ἀπολυσάτω· ἂν δὲ μὴ κελομένου <w lemma="πρίαμαι">πρίαται</w>, ἀπαγέσθω ὅ τε <placeName ref="#phaistos" type="ethnic">Φαίσ<lb 
+                        break="no" n="7"/>τιος</placeName> ἐγ <placeName ref="#miletus">Μιλήτου</placeName> καὶ ὁ <placeName ref="#miletus" type="ethnic">Μιλήσιος</placeName> ἐκ <placeName ref="#phaistos">Φαιστοῦ</placeName>· ἂν δέ τις <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#phaistos"><w lemma="δοῦλος">δοῦλον</w></rs> <w lemma="πρίαμαι">πρία<lb 
+                        break="no" n="8"/>ται</w> <w lemma="ὠνά">ὠνᾶι</w> καὶ <w lemma="πρᾶσις">πράσει</w> καὶ μὴ ἀνδραποδίξηται, ἀποδοὺς τὰν <w lemma="τιμά">τιμὰν</w>
+                    <lb n="9"/>ὁ ἐφαψάμενος, ὅσου <w lemma="πρίαμαι">ἐπρίατο</w>, τῶι ἔχοντι, τὸ <w lemma="σῶμα">σῶμα</w> ἀγαγέσθω. ἂν
+                    <lb n="10"/>δέ τι <w lemma="ἀντιλέγω">ἀντιλέγωσιν</w> περὶ ὁτινοσοῦν, <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#phaistos"><w lemma="κρίνω">κρίνειν</w></rs> ἐμ <placeName ref="#miletus">Μιλήτωι</placeName> μὲν τοὺς
+                    <lb n="11"/>τοῦ ἐμπορίου ἐπιμελητὰς πένθ’ ἁμερᾶν, ἐμ <placeName ref="#phaistos">Φαιστῶι</placeName> δὲ τὸ <rs type="institution" subtype="public_space" role="judicial_procedure" key="dikasterion" ref="#phaistos"><w lemma="δικαστήριον">δικασ<lb 
+                        break="no" n="12"/>τήριον</w> τὸ πολιτικὸν</rs> πένθ’ ἁμερᾶν. τὰς δὲ <w lemma="πρᾶξις">πράξεις</w> εἶναι ἐμ <placeName ref="#miletus">Μιλή<lb 
+                        break="no" n="13"/>τωι</placeName> μὲν κατὰ τὸν νόμον τῶν τοῦ ἐμπορίου ἐπιμελετῶν. ἐμ <placeName ref="#phaistos">Φαισ<lb 
+                        break="no" n="14"/>τῶι</placeName> δὲ τοὺς <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#phaistos"><w lemma="κόσμος">κόσμους</w></rs> <w lemma="πράσσω">πράξαντας</w> ἀποδοῦναι τρόπωι ὧι ἂμ βού<lb 
+                        break="no" n="15"/>λωνται ἐν ἁμέραις δέκα ἀφ’ ἇς κα <w lemma="καταδικάζω">καταδικασθῆι</w>. <w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ τὰς
+                    <lb n="16"/><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#phaistos"><w lemma="συνθήκα">συνθήκας</w></rs> ἐμ <placeName ref="#phaistos">Φαιστῶι</placeName> μὲν εἰς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="prytaneion" ref="#phaistos"><w lemma="πρυτανεῖον">πρυτανεῖον</w></rs>, ἐμ <placeName ref="#miletus">Μιλήτωι</placeName> <corr>δὲ</corr> εἰς τὸ ἰερὸν τοῦ
+                    <lb n="17"/><persName type="divine" key="Apollo">Ἀπόλλωνος</persName>. κατὰ ταὐτὰ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#matala"><placeName ref="#matala" type="ethnic">Ματάλιοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#polyrrhenia"><placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName></rs>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La convenzione fra Mileto e Phaistos, iscritta sulla stessa stele degli accordi analoghi presi dalla prima con Knossos e Gortyna (<ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref> e <ref type="ins" target="#ic4_161"><title>IC</title> IV 161</ref>), è introdotta dalla titolatura Φαιστίων.
+                    Il documento si presenta come un trattato a tutti gli effetti, diversamente da <ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>, di fatto un decreto, e <ref type="ins" target="#ic4_161"><title>IC</title> IV 161</ref>, consistente nel solo oggetto della decisione: alla linea 2 si trova infatti l’espressione τάδε συνέθεντο, seguita dagli etnici collettivi delle due città contraenti. La doppia formula di datazione, alle linee 2-3, colloca la redazione del documento nell’anno in cui a Phaistos è cosmo eponimo Metiochos.</p>
+                    <p>L’oggetto del trattato, analogo a quello delle convenzioni con Knossos e Gortyna, prevede il divieto per i cittadini delle due parti di acquistare come schiavi cittadini liberi (σῶμ[α] ἐλεύθερον) dell’altra città. Nel caso di dispute, il potere decisionale a Phaistos spetta al tribunale cittadino (δικαστήριον τὸ πολιτικόν), che deve pronunciarsi entro cinque giorni dall’emergere del problema (ll. 9-12). L’attuazione dei provvedimenti, invece, a Phaistos può avvenire nel modo che i cosmi preferiscono, purché entro dieci giorni dalla sentenza (ll. 12-15). La formula di esposizione, alle linee 15-16, prevede inoltre che gli accordi vengano iscritti a Phaistos nel pritaneo, mentre a Mileto nel santuario di Apollo.</p>
+                    <p>L’ultima linea del documento, infine, prevede l’applicazione delle clausole del trattato anche a Matala e Polyrrhenia, che dovevano essere alleate di Phaistos. Tale ristretta alleanza, non documentata da alcuna altra fonte, non sembra tuttavia essere paragonabile ai sistemi di alleanze creati rispettivamente da Gortyna e Knossos (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78-79</bibl>), ma pare piuttosto essere stata creata <foreign>ad hoc</foreign> per la determinazione delle tre città nell’opporsi a queste. Nonostante nell’iscrizione sia Phaistos a detenere il ruolo di guida dell’alleanza, le altre informazioni note sulla situazione politica dell’isola lasciano intendere che delle tre città quella <foreign>leader</foreign> sia Polyrrhenia, che a causa delle proprie mire espansionistiche nell’area occidentale di Creta è in freddi rapporti con le confinanti Kydonia e Phalasarna, entrambe appartenenti al gruppo di Knossos in <ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>. Phaistos, ex sede del celebre palazzo minoico, nel III secolo a.C. sembra conservare ben poco del passato splendore, situazione che prelude all’irreversibile assorbimento della città da parte di Gortyna nel secolo seguente (cf. <ref type="ins" target="#ic4_165"><title>IC</title> IV 165</ref>). Matala, il porto di Phaistos, all’epoca è invece un abitato pressoché irrilevante, che oltre al documento in questione ottiene una certa visibilità solamente nella lista dei <foreign>theorodokoi</foreign> delfici del secolo successivo (<ref type="ins" target="#seg_26_624"><title>SEG</title> 26.624</ref>, col. IV, l. 14).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dikasterion"><foreign>dikasterion</foreign></ref>, <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#bib108"><title>Milet</title></ref> I.III 140C</bibl>;
+                    <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 23 1* <ptr type="phi" target="199602"/></bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 482 III</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib29"><title>Miletos</title></ref> 59</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 20</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> pp. 49-50 n. 2.4</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1340">Mikrogiannakis 1968</ref></bibl>;
+                    <bibl><ref target="#b208">Brulé 1978</ref>, pp. 6-12</bibl>;
+                    <bibl><ref target="#b680">Garlan 1984</ref>, n. 12</bibl>; 
+                    <bibl><ref target="#bib112"><title>HGIU</title></ref> 332</bibl>; 
+                    <bibl><ref target="#b712">Giovannini 2007</ref>, C11</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

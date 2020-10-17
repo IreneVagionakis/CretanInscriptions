@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Praisos e Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Chaniotis, Verträge 21</idno>
+                        <idno type="projectNo">511</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#praisos">Praisos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> καὶ <orig>κω</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#praisos"><placeName ref="#praisos" type="ethnic"><supplied reason="lost">Π</supplied>ραισίοις</placeName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#praisos"><placeName ref="#praisos" type="ethnic"><supplied reason="lost">Πρ</supplied>αισίων</placeName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>η</orig> <placeName ref="#hierapytna" type="ethnic">Ἱαραπ<supplied reason="lost">υτν</supplied><gap reason="lost" extent="unknown" unit="character"/></placeName>
+                            <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>υτωντ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>απο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Del piccolo frammento, appartenente ad un trattato fra Praisos e Hierapytna, si sono conservati solamente gli etnici collettivi delle due <foreign>poleis</foreign> contraenti.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b598">Faure 1969</ref>, pp. 314-315 n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 44</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 21 <ptr type="phi" target="201286"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trattato di alleanza fra Polyrrhenia e Phalasarna</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 11 1</idno>
+                        <idno type="projectNo">073</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#chania_museum">Museo archeologico di Chania</repository>
+                        <idno type="invNo">E 1</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> con un frontone sormontato da animali e antemi a bassorilievo raffigurante la stretta di mano fra due divinità femminili, probabilmente la patrona di Polyrrhenia Diktynna (sulla destra, con chitone corto, mantello e faretra ed affiancata da una capra e da un albero) e la ninfa Phalasarna (sulla sinistra, con chitone e mantello ed affiancata da una prora di nave) <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#diktynnaion_rodopou"><foreign>Diktynnaion</foreign> di Rodopou</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0272">300-272 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><w lemma="θεός">θεοί</w>.
+                        <lb n="2"/><supplied reason="lost">τάδε</supplied> <w lemma="συντίθημι"><supplied reason="lost">συ</supplied><unclear>ν</unclear>έθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#polyrrhenia"><placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phalasarna"><placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName></rs> ἐνα<unclear>ντίον</unclear> Κλεωνύμου <supplied reason="lost">καὶ</supplied>
+                        <lb n="3"/><supplied reason="lost">τῶν ἄλλ</supplied><unclear>ω</unclear>ν <placeName ref="#sparta" type="ethnic">Λακεδαιμονίων</placeName> οὓς ἀπέστειλ<unclear>ε</unclear> <unclear>ἁ</unclear> <supplied reason="lost">π</supplied>ό<supplied reason="lost">λι</supplied><unclear>ς</unclear>, Ἰσοδάμο<unclear>υ</unclear> <unclear>Κε</unclear><supplied reason="lost">ρβίδα, Ἀ</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">ναδέο</supplied>ς· <w lemma="φίλος">φίλον</w> καὶ ἐχθρὸν τὸν αὐτὸν ἦμεν ἀπὸ <supplied reason="lost">τᾶς πρώτας ἁμέρας νῦν τε καὶ εἰς</supplied>
+                        <lb n="5"/><supplied reason="lost">τὸν ἀεὶ χρόνον τὰ κατὰ <placeName ref="#crete">Κρήταν</placeName>,</supplied> <rs type="institution" subtype="public_space" role="possession" key="polis" ref="#polyrrhenia"><rs type="institution" subtype="public_space" role="possession" key="polis" ref="#phalasarna"><w lemma="πόλις"><supplied reason="lost">πόλι</supplied>ν</w></rs></rs> καὶ <supplied reason="lost">γᾶν ἔχοντες</supplied> τὰν αὐτῶν ἑκατ<supplied reason="lost">έ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">ρους</supplied> κατὰ <supplied reason="lost">τὰ <w lemma="ἀρχαῖος">ἀρχαῖα</w>, <rs type="institution" subtype="object" role="law" key="nomos" ref="#phalasarna"><rs type="institution" subtype="object" role="law" key="nomos" ref="#polyrrhenia"><w lemma="νόμος">νόμοις</w></rs></rs> χρωμένους τοῖς ἑαυτῶ</supplied>ν ἑκατέρο<supplied reason="lost">υς· ὅφφ</supplied><unclear>α</unclear> ἂν ἐκ τῶν
+                        <lb n="7"/><supplied reason="lost">πολεμίων λανβάνωμεν <w lemma="καλέω">καλούντων</w></supplied> τῶ<unclear>ν</unclear> <placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίων</placeName> καὶ παργένωνται μέ<supplied reason="lost">στε</supplied>
+                        <lb n="8"/><supplied reason="lost">εἴκοσι <w lemma="ἀνήρ">ἄνδρες</w> λανχανόντων τὸ τέταρτον μ</supplied>έ<unclear>ρ</unclear><supplied reason="lost">ος οἱ</supplied> <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName> τ<unclear>ῶ</unclear>ν <w lemma="λάφυρον"><supplied reason="lost">λα</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">φύρων</supplied></w> <supplied reason="lost">καὶ τῶν <w lemma="χρήματα">χρημάτων</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="3"><note>ἀπέστειλ<unclear>ε</unclear> <unclear>ἁ</unclear> <supplied reason="lost">π</supplied>ό<supplied reason="lost">λι</supplied><unclear>ς</unclear>, Ἰσοδάμο<unclear>υ</unclear> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; ἀπέστειλ<unclear>ε</unclear>ν <gap reason="lost" quantity="1" unit="character"/>ο<gap reason="lost" quantity="2" unit="character"/>αις ὁ δᾶμος <bibl><ref target="#bib2"><title>IC</title></ref></bibl>. <unclear>Κε</unclear><supplied reason="lost">ρβίδα</supplied> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; ιτ<gap reason="lost" quantity="5" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; Ἰτ<supplied reason="lost">αλιωτ</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> nel commento.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>Mentre l’appartenenza a Phalasarna della copia del trattato rinvenuta a Tylifos (<ref type="ins" target="#seg_50_936"><title>SEG</title> 50.936</ref>) è evidente per le sue iconografie marine, l’attribuzione della stele del <foreign>Diktynnaion</foreign> all’altra contraente, Polyrrhenia, è meno certa. Nonostante il controllo esercitato da Polyrrhenia sul santuario (cf. <ref type="ins" target="#ic2_11_2"><title>IC</title> II 11 2</ref>-<ref type="ins" target="#ic2_11_3">3</ref>, <ref type="lit">Strabo X 4.13</ref>), infatti, la dimensione regionale del <foreign>Diktynnaion</foreign> e la scelta iconografica della stele, bilanciata e simmetrica per le due città, portano piuttosto a ritenere che l’iscrizione non sia la copia di Polyrrhenia, bensì una terza redazione conservata ed esposta in un luogo sacro comune e dall’ampia visibilità.</p>
+                    <p>Il ritrovamento della copia di Tylifos smentisce definitivamente la proposta di integrazione di Margherita Guarducci Ἰτ[αλιωτ] alla linea 3 della copia del <foreign>Diktynnaion</foreign>, nata dalla suggestione che Cleonimo si fosse fermato a Creta nel 303 durante il tragitto da Sparta in Italia per andare in soccorso dei Tarantini.</p>
+                    <p>Per alcune considerazioni sugli aspetti istituzionali del trattato si veda il commento a <ref type="ins" target="#seg_50_936"><title>SEG</title> 50.936</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib2"><title>IC</title> II</ref> 11 1 <ptr type="phi" target="199878"/></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 471</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 78</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 1</bibl>; 
+                    <bibl><ref target="#b4">Ager 1996</ref>, n. 29</bibl>; 
+                    <bibl><ref target="#b1217">Markoulaki 2000</ref>, pp. 250-251</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib119">Magnetto, <title>Arbitrati</title></ref> 24</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 50.887</bibl> (che integra sulla base di <bibl><ref target="#bib5"><title>SEG</title></ref> 50.936</bibl>); 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> pp. 45-46 n. 2.1</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1387">Myres 1896</ref>, n. 3</bibl>;
+                    <bibl><ref target="#b844">Halbherr 1899</ref>, p. 528</bibl>; 
+                    <bibl><ref target="#b1671">Savignoni 1901</ref>, pp. 298-304, fig. 9</bibl>; 
+                    <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 494-496, tav. XXVI 3</bibl>; 
+                    <bibl><ref target="#b1331">Meyer 1989</ref>, N19</bibl>;
+                    <bibl><ref target="#b722">Gondicas 1990</ref></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

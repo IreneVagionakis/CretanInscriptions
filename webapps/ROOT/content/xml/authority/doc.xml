@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Document types</title>
+            </titleStmt>
+            <publicationStmt><p/></publicationStmt>
+            <sourceDesc><p/></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="acclamation">
+                    <term xml:lang="en">Acclamation</term>
+                    <term xml:lang="it">Acclamazione</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/74</ref>
+                </item>
+                <item xml:id="calendar">
+                    <term xml:lang="en">Calendar</term>
+                    <term xml:lang="it">Calendario</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/3</ref>
+                </item>
+                <item xml:id="terminus">
+                    <term xml:lang="en">Terminus</term>
+                    <term xml:lang="it">Confine</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/96</ref>
+                </item>
+                <item xml:id="decree">
+                    <term xml:lang="en">Decree</term>
+                    <term xml:lang="it">Decreto</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/384</ref>
+                </item>
+                <item xml:id="honorific_decree">
+                    <term xml:lang="en">Honorific decree</term>
+                    <term xml:lang="it">Decreto onorario</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/384</ref>
+                </item>
+                <item xml:id="honorific_dedication">
+                    <term xml:lang="en">Honorific dedication</term>
+                    <term xml:lang="it">Dedica onoraria</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/69</ref>
+                </item>
+                <item xml:id="votive_dedication">
+                    <term xml:lang="en">Votive dedication</term>
+                    <term xml:lang="it">Dedica votiva</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/79</ref>
+                </item>
+                <item xml:id="defixio">
+                    <term xml:lang="en">Defixio</term>
+                    <term xml:lang="it">Defixio</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/76</ref>
+                </item>
+                <item xml:id="epitaph">
+                    <term xml:lang="en">Epitaph</term>
+                    <term xml:lang="it">Epitaffio</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/92</ref>
+                </item>
+                <item xml:id="signature">
+                    <term xml:lang="en">Signature</term>
+                    <term xml:lang="it">Firma</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/115</ref>
+                </item>
+                <item xml:id="sling_bullet">
+                    <term xml:lang="en">Sling bullet</term>
+                    <term xml:lang="it">Ghianda missile</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/137</ref>
+                </item>
+                <item xml:id="oath">
+                    <term xml:lang="en">Oath</term>
+                    <term xml:lang="it">Giuramento</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/409</ref>
+                </item>
+                <item xml:id="graffiti">
+                    <term xml:lang="en">Graffiti</term>
+                    <term xml:lang="it">Graffito</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/127</ref>
+                </item>
+                <item xml:id="hymn">
+                    <term xml:lang="en">Hymn</term>
+                    <term xml:lang="it">Inno</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/65</ref>
+                </item>
+                <item xml:id="instrumentum">
+                    <term xml:lang="en">Instrumentum</term>
+                    <term xml:lang="it">Instrumentum</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/136</ref>
+                </item>
+                <item xml:id="christian_inscription">
+                    <term xml:lang="en">Christian inscription</term>
+                    <term xml:lang="it">Iscrizione cristiana</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/383</ref>
+                </item>
+                <item xml:id="building_inscription">
+                    <term xml:lang="en">Building inscription</term>
+                    <term xml:lang="it">Iscrizione edificatoria</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/86</ref>
+                </item>
+                <item xml:id="coin_legend">
+                    <term xml:lang="en">Coin legend</term>
+                    <term xml:lang="it">Legenda monetaria</term>
+                </item>
+                <item xml:id="law">
+                    <term xml:lang="en">Law</term>
+                    <term xml:lang="it">Legge</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/4</ref>
+                </item>
+                <item xml:id="letter">
+                    <term xml:lang="en">Letter</term>
+                    <term xml:lang="it">Lettera</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/402</ref>
+                </item>
+                <item xml:id="list">
+                    <term xml:lang="en">List</term>
+                    <term xml:lang="it">Lista</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/108</ref>
+                </item>
+                <item xml:id="manumission">
+                    <term xml:lang="en">Manumission</term>
+                    <term xml:lang="it">Manomissione</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/51</ref>
+                </item>
+                <item xml:id="milestone">
+                    <term xml:lang="en">Milestone</term>
+                    <term xml:lang="it">Miliario</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/102</ref>
+                </item>
+                <item xml:id="oracle">
+                    <term xml:lang="en">Oracle</term>
+                    <term xml:lang="it">Oracolo</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/429</ref>
+                </item>
+                <item xml:id="phylakterion">
+                    <term xml:lang="en">Phylakterion</term>
+                    <term xml:lang="it">Phylakterion</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/366</ref>
+                </item>
+                <item xml:id="account">
+                    <term xml:lang="en">Account</term>
+                    <term xml:lang="it">Rendiconto</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/5</ref>
+                </item>
+                <item xml:id="sanatio">
+                    <term xml:lang="en">Sanatio</term>
+                    <term xml:lang="it">Sanatio</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/430</ref>
+                </item>
+                <item xml:id="treaty">
+                    <term xml:lang="en">Treaty</term>
+                    <term xml:lang="it">Trattato</term>
+                    <ref>https://www.eagle-network.eu/voc/typeins/lod/420</ref>
+                </item>                
+                <item xml:id="unknown">
+                    <term xml:lang="en">Unknown</term>
+                    <term xml:lang="it">Sconosciuto</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Bolli d’anfora di Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 42.805</idno>
+                        <idno type="projectNo">500</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#alexandria_museum">Museo greco-romano di Alessandria</repository> 
+                                <idno type="invNo">P11379, 994.24, P11100</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#instrumentum">sei bolli d’anfora (due del tipo 1, in cui è raffigurata un’aquila; tre del tipo 2; uno del tipo 3, in cui è raffigurata un’ape)</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#amphora">anfore</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                                <provenance type="found"><placeName ref="#egypt">Egitto</placeName></provenance>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="1">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίων</placeName></rs>
+                            <lb n="2"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#hierapytna" cert="low"><persName type="attested" key="Sosos (1)"><name nymRef="Σῶσος">Σώσου</name></persName></rs>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="2">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#hierapytna" cert="low"><persName type="attested" key="Sosos (1)"><name nymRef="Σῶσος">Σῶσος</name></persName></rs>
+                            <lb n="2"/><rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic"><expan><abbr>Ἱεραπυτνί</abbr><ex>ων</ex></expan></placeName></rs>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="3">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="social_group" role="owner" key="polisE" ref="#hierapytna"><placeName ref="#hierapytna" type="ethnic"><expan><abbr>Ἱε</abbr><ex>ραπυτνίων</ex></expan></placeName></rs>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I bolli d’anfora vinaria, rinvenuti in Egitto, conservano tutti l’etnico civico collettivo di Hierapytna e, ad esclusione di quelli del tipo 3, anche il nome al genitivo o al nominativo di un magistrato, Sosos, verosimilmente il cosmo eponimo della città, lo stesso che compare sui bolli <ref type="ins" target="#seg_47_1410"><title>SEG</title> 47.1410</ref> e <ref type="ins" target="#seg_61_666"><title>SEG</title> 61.666</ref>. Hierapytna è la sola <foreign>polis</foreign> cretese di cui è attestato l’etnico collettivo su bolli d’anfora anteriormente all’età imperiale, epoca per la quale sono state invece trovate più anfore in Campania e nella Gallia Narbonense recanti iscrizioni che identificano il vino in esse contenuto come originario di Creta o più nello specifico di Lyttos, Gortyna, Kantanos, Aptera o Kydonia (cf. <ref type="ins">Marangou-Lerat P 7</ref>, <ref type="ins">8/21/30</ref>, <ref type="ins">9-15</ref>, <ref type="ins">46</ref>, <ref type="ins">54</ref>, <ref type="ins">77</ref>, <ref type="ins">84</ref>, <ref type="ins">89</ref>-<ref type="ins">90</ref>, <ref type="ins">100</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib31"><title>SB</title></ref> 2220 (2)</bibl>;
+                            <bibl><ref target="#b556">Empereur <foreign>et al.</foreign> 1992</ref>, pp. 639-642</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 42.805 <ptr type="seg" target="a42_805"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib12">Marangou-Lerat</ref> E 1, E 3, E 2</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1189">Marangou 2000</ref></bibl>;
+                            <bibl><ref target="#b1768">Stefanaki 2001</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

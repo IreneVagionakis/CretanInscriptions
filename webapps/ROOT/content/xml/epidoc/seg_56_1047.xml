@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dei cosmi di Allaria</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 56.1047</idno>
+                        <idno type="projectNo">094</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 261</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#allaria">Allaria</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#allaria"><supplied reason="lost">ἐπὶ</supplied> <w lemma="κόσμος"><supplied reason="lost">κ</supplied>όσμω<supplied reason="lost">ν</supplied></w></rs> <gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+                          <lb n="2"/>φ<gap reason="lost" quantity="2" unit="character"/>ν <w lemma="ἀνακαινίζω">ἀνεκαιν<unclear>ί</unclear><supplied reason="lost">σ</supplied><lb 
+                        break="no" n="3"/>θη</w> τὸ <rs type="institution" subtype="public_space" role="construction" key="hieron" ref="#allaria"><w lemma="ἱαρόν">ἱαρόν</w></rs>·
+                          <lb n="4"/><rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Aikolidas f. Basilokles"><name nymRef="Αἰκολίδας">Αἰκολίδας</name> <name nymRef="Βασιλοκλῆς" type="patronymic">Βασι<lb 
+                        break="no" n="5"/>λοκλεῖος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Ormesandros f. Martas"><name nymRef="Ὁρμήσανδρος">Ὁρμή<lb 
+                        break="no" n="6"/>σανδρος</name> <name nymRef="Μαρτας" type="patronymic">Μαρτα</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Pollakes f. Phrasikartes"><name nymRef="Πολλάκης">Π<lb 
+                        break="no" n="7"/>ολλάκης</name> <name nymRef="Φρασικάρτης" type="patronymic">Φρασικάρ<lb 
+                        break="no" n="8"/>τιος</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Enosaios f. Sokartes"><name nymRef="Ἐνοσαῖος">Ἐνοσαῖος</name> <name nymRef="Σωκάρτης" type="patronymic">Σωκ<lb 
+                        break="no" n="9"/>άρτως</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Akeusilas f. Aristarchos"><name nymRef="Ἀκευσίλας">Ἀκευσίλας</name>
+                          <lb n="10"/><name nymRef="Ἀρίσταρχος" type="patronymic">Ἀριστάρχω</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Basilokles f. Sanarios"><name nymRef="Βασιλοκλῆς">Βασιλοκ<lb 
+                        break="no" n="11"/>λῆς</name> <name nymRef="Σανάριος" type="patronymic">Σαναρίω</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Zaulos f. Wanaxagoras"><name nymRef="Ζαῦλος">Ζαῦλο<lb 
+                        break="no" n="12"/>ς</name> <name nymRef="Ϝαναξαγόρας" type="patronymic">ϝαναξαγόρα</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Aristarchos f. Tithonidas"><name nymRef="Ἀρίσταρχος">Ἀρίσ<lb 
+                        break="no" n="13"/>ταρχος</name> <name nymRef="Τιθωνίδας" type="patronymic">Τιθωνίδα</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Thaumon f. Kwasinomos"><name nymRef="Θαύμων">Θα<supplied reason="lost">ύ</supplied><lb 
+                        break="no" n="14"/>μων</name> <name nymRef="Κϝασίνομος" type="patronymic">Κϝασινόμω</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Aristarchos f. Wergaios"><name nymRef="Ἀρίσταρχος">Ἀρί<supplied reason="lost">σ</supplied><lb 
+                        break="no" n="15"/>ταρχος</name> <name nymRef="Ϝεργαῖος" type="patronymic">Ϝεργαίω</name></persName></rs>, <rs type="institution" subtype="board" role="builder" key="kosmos" ref="#allaria"><persName type="attested" key="Lakartes f. Lakartidos n. Menarchos"><name nymRef="Λακάρτης">Λακάρ<lb 
+                        break="no" n="16"/><unclear>τ</unclear>ης</name> <name nymRef="Λακαρτίδος" type="patronymic">Λακαρτίδου</name> <name nymRef="Μήναρχος" type="patronymic">Μην<lb 
+                        break="no" n="17"/>άρχω</name></persName></rs>· <rs type="institution" subtype="official" role="voter" key="psephizo" ref="#allaria"><w lemma="ψαφίζω">ἐψάφιξε</w> δὲ
+                          <lb n="18"/><persName type="attested" key="Onasandros Tralios f. Krithon"><name nymRef="Ὀνάσανδρος">Ὀνάσανδρος</name> <name nymRef="Κρίθων" type="patronymic">Κρίθ<lb 
+                        break="no" n="19"/>ο<corr>ν</corr>ος</name> <name nymRef="Τράλιος">Τράλιος</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’attribuzione ad Allaria dell’iscrizione, rinvenuta a Chamalevri, non è priva di dubbi: al fatto che l’identificazione della località di rinvenimento con Allaria sia piuttosto ipotetica, infatti, si aggiunge la complicazione causata dall’assenza di agganci geografici interni al testo. La mancata menzione della <foreign>polis</foreign> di pertinenza, tuttavia, lascia presupporre che all’epoca della redazione del testo non vi fossero dubbi sull’appartenenza del tempio in questione alla città che ne cura il restauro. Sembrerebbe poco probabile, quindi, che i cosmi menzionati afferiscano ad una potente <foreign>polis</foreign> più distante – come Eleutherna – che avrebbe potuto estendere il proprio controllo su un luogo sacro situato nel territorio di una città confinante: l’ipotesi più verosimile, dunque, rimane quella della pertinenza del testo ad Allaria.</p>
+                    <p>L’iscrizione commemora il restauro di un tempio da parte dei cosmi della <foreign>polis</foreign> in questione, di cui probabilmente veniva specificata la tribù di pertinenza tra la fine della prima linea e l’inizio di quella successiva. Degli undici cosmi elencati, l’ultimo doveva verosimilmente esserne il segretario, figura che compare accompagnata dall’indicazione γραμματεύς in altre liste di cosmi in iscrizioni edificatorie cretesi (<foreign>e.g.</foreign> <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref> da Lato). Degna di nota è la menzione finale del promotore della votazione che ha condotto alla decisione di restaurare il tempio: nelle iscrizioni edificatorie cretesi tale elemento compare solamente nel testo in questione e in un documento analogo da Lebena, <ref type="ins" target="#ic1_17_6"><title>IC</title> I 17 6</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#voter">votante</ref> (<ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1281">Martínez Fernández <foreign>et al.</foreign> 2006</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 56.1047 <ptr type="seg" target="a56_1047"/></bibl>);
+                            <bibl><ref target="#b1282">Martínez Fernández <foreign>et al.</foreign> 2007-2008</ref>, pp. 87-94</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1351">Minon 2007a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

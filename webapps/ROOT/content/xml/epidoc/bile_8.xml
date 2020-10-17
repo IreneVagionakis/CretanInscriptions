@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra (?) di Dreros</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Bile 8</idno>
+                        <idno type="projectNo">418</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge sacra?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros, tempio di Apollo <foreign>Delphinios</foreign> </origPlace>
+                                    <origDate period="#archaic" notBefore="-0650" notAfter="-0600">650-600 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ἔν τε <persName type="divine" key="Pytios"><rs type="institution" subtype="public_space" role="sacrifices" key="hieron" ref="#dreros"><w lemma="Πύτιον">Πυτίοι</w></rs></persName> <unclear>πεν</unclear><supplied reason="lost">τε</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ἐν <persName type="divine" key="Agoraios"><rs type="institution" subtype="public_space" role="sacrifices" key="agora" ref="#dreros"><rs type="institution" subtype="public_space" role="sacrifices" key="hieron" ref="#dreros"><w lemma="Ἀγοραῖον">Ἀγ<supplied reason="lost">ο</supplied>ραίοι</w></rs></rs></persName> μηρός <orig><unclear>ρ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>νοι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento sembra appartenere ad una legge sacra di Dreros volta a regolare i sacrifici, possibilmente un calendario sacrificale: le linee 1-2, infatti, sembrano prescrivere differenti offerte che devono essere compiute nei due luoghi di culto menzionati, l’<foreign>Agoraion</foreign> e il <foreign>Pythion</foreign> (sull’identificazione del quale cf. <bibl><ref target="#b446">D’Acunto 2002-2003</ref></bibl>; sul culto di Zeus <foreign>Agoraios</foreign>, invece, cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraion</foreign>), <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1881">Van Effenterre 1946</ref>, pp. 603-604 n. 6 <ptr type="phi" target="201245"/> <ptr type="poinikastas" target="#"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 8</bibl>;
+                            <bibl><ref target="#b446">D’Acunto 2002-2003</ref>, p. 23</bibl>;
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 287</bibl>;
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> Dr6</bibl>.</p>
+                <p><emph>Cf. </emph> <bibl><ref target="#b535">Duhoux 1982</ref>, p. 35</bibl>;
+                            <bibl><ref target="#b666">Gagarin 2011</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

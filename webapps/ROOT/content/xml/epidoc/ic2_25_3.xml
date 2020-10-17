@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica a Zeus <foreign>Olympios</foreign> ed Hera <foreign>Olympia</foreign> da Soulia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 25 3</idno>
+                        <idno type="projectNo">151</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#mellabes">Mellabes, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#soulia">Soulia</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="0100">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Πανάρη<lb 
+                        break="no" n="2"/>ς Ἱπποκ<lb 
+                        break="no" n="3"/>λείδα
+                          <lb n="4"/><supplied reason="lost">κ</supplied>αὶ Πορ<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="5"/>μα Θρο<lb 
+                        break="no" n="6"/>τίμω θ<lb 
+                        break="no" n="7"/><supplied reason="lost">υ</supplied>γάτη<lb 
+                        break="no" n="8"/>ρ, <rs type="institution" subtype="official" role="eponym" key="hiereus" ref="#soulia" cert="low">ἐφ’ <w lemma="ἱαρεύς">ἱαρ<lb 
+                        break="no" n="9"/>έος</w> <persName type="attested" key="Panares f. Hippokleidas"><name nymRef="Πανάρης">Πα<lb 
+                        break="no" n="10"/>νάριος</name> <name nymRef="Ἱπποκλείδας" type="patronymic">Ἱ<lb 
+                        break="no" n="11"/>πποκλε<lb 
+                        break="no" n="12"/><supplied reason="lost">ί</supplied>δα</name></persName></rs> <persName type="divine" key="Zeus Olympios">Την<lb 
+                        break="no" n="13"/>ὶ Ὀλυνπί<lb 
+                        break="no" n="14"/>ῳ</persName> καὶ <persName type="divine" key="Hera Olympia">Ἥρᾳ
+                          <lb n="15"/>Ὀλυμπίαι</persName>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, datata al tempo in cui rivestiva un non specificato sacerdozio Panares figlio di Hippokleidas, è posta dal sacerdote stesso assieme alla moglie. Il culto di Zeus Olimpio ed Hera Olimpia è attestato a Soulia unicamente da questa dedica; dalla piccola località proviene invece un gran numero di dediche ad Artemide (<ref type="ins"><title>IC</title> II 25 4-25</ref>), il cui santuario doveva costituire il luogo di culto principale della piccola località.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 740-742 n. 195</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5145</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 25 3 <ptr type="phi" target="200132"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> in situ 4 <ptr type="thetima" target="situ-4"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

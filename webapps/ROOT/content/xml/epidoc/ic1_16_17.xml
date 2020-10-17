@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza e <foreign>isopoliteia</foreign> fra Lato ed Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 17</idno>
+                        <idno type="projectNo">449</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 134</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0189" precision="low">200-189 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost"><w lemma="θεός">θεοί</w>. ἀγαθᾶι <w lemma="τύχα">τύχαι</w></supplied>.
+                          <lb n="2"/><supplied reason="lost">τάδε <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic">Λάτιοι</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθερναῖοι</placeName></rs></supplied> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><supplied reason="lost">ἐπὶ</supplied>
+                          <lb n="3"/><supplied reason="lost"><w lemma="κόσμος">κόσμων</w> τῶν σὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>ς</rs> <placeName ref="#lato">Λα<supplied reason="lost">τοῖ</supplied></placeName> <supplied reason="lost">καὶ</supplied>
+                          <lb n="4"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#eleutherna"><supplied reason="lost">ἐπὶ τῶν σὺν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>νος</rs> <placeName ref="#eleutherna">Ἐλευθ<supplied reason="lost">έρναι</supplied></placeName>·
+                          <lb n="5"/><supplied reason="lost"><w lemma="φίλος">φίλος</w> καὶ <w lemma="σύμμαχος">συμμάχος</w> ἀλλάλ</supplied>οις ὑπάρχεν ἁπ<supplied reason="lost">λόως</supplied>
+                          <lb n="6"/><supplied reason="lost">καὶ ἀδόλως εἰς τὸν πάν</supplied>τα χρόνον καὶ τ<supplied reason="lost">ὸν</supplied>
+                          <lb n="7"/><supplied reason="lost">αὐτὸν <w lemma="φίλος">φίλον</w> καὶ ἐχθρὸν ἔχ</supplied>εν. ἦμεν δὲ καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#lato"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#eleutherna"><w lemma="πολιτεύω">πολι<lb 
+                        break="no" n="8"/><supplied reason="lost">τεύεσθαι</supplied></w></rs></rs> <placeName ref="#eleutherna" type="ethnic"><supplied reason="lost">Ἐλευθερναῖον</supplied></placeName> <placeName ref="#lato"><supplied reason="lost">Λ</supplied>ατοῖ</placeName> καὶ τὸν <placeName ref="#lato" type="ethnic">Λάτιον</placeName> <placeName ref="#eleutherna">Ἐλ<supplied reason="lost">ευ</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">θέρναι</supplied></placeName><supplied reason="lost">, <w lemma="μετέχω">μετέχοντα</w></supplied> <w lemma="θῖνος"><supplied reason="lost">θίνω</supplied>ν</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w> πάν<lb 
+                        break="no" n="10"/><supplied reason="lost">των</supplied> <gap reason="lost" extent="unknown" unit="character"/>ι <w lemma="δικαιοπραγέω">δικαιοπραγήσαντα</w> τοῖς ἰδίο<lb 
+                        break="no" n="11"/><supplied reason="lost">ις· ἦμέν τε αὐτῶι ὥσπερ καὶ ἐς</supplied> τὰν ἰδίαν <rs type="institution" subtype="public_space" role="location" key="polis" ref="#lato"><rs type="institution" subtype="public_space" role="location" key="polis" ref="#eleutherna"><w lemma="πόλις">πόλιν</w></rs></rs> <w lemma="ἔγκτησις">ἔγκτησιν</w> <w lemma="δημόσιος">δημο<lb 
+                        break="no" n="12"/><supplied reason="lost">σίαι</supplied></w> <supplied reason="lost">πάντων κα</supplied>ὶ θνατῶν καὶ ἀθανάτων κατὰ τ<unclear>ὰ</unclear>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>α δὲ καὶ τῶι <placeName ref="#lato" type="ethnic">Λατίωι</placeName> <placeName ref="#eleutherna">Ἐλευθέρνα<supplied reason="lost">ι</supplied></placeName>
+                          <lb n="14"/><supplied reason="lost">κατὰ τὸς κειμένος ἑκατερ</supplied>ῆ <rs type="institution" subtype="object" role="law" key="nomos" ref="#lato"><rs type="institution" subtype="object" role="law" key="nomos" ref="#eleutherna"><w lemma="νόμος">νόμος</w></rs></rs>. εἰ δέ τίς κ’ ἐνβάλληι ἐς τὰ<supplied reason="lost">ν</supplied>
+                          <lb n="15"/><supplied reason="lost">τῶν <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίων</placeName> χώρ</supplied>αν ἢ ἀποτάμνηται ἢ <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#eleutherna"><w lemma="φρώριον">φρώρια</w></rs> ἢ <w lemma="λιμήν">λιμένα<supplied reason="lost">ς</supplied></w>
+                          <lb n="16"/><supplied reason="lost">καταλαμβάνηι ἢ <rs type="institution" subtype="social_status" role="defense" key="klaros" ref="#eleutherna"><w lemma="κλᾶρος">κλάρος</w></rs> φ</supplied>θείρηι ἢ <rs type="institution" subtype="social_status" role="defense" key="oikeus" ref="#eleutherna"><w lemma="οἰκετηία">οἰκετήιαν</w></rs> ἢ <w lemma="πολεμέω">πολεμῆι</w>, <w lemma="βοαθέω">β<supplied reason="lost">οα</supplied>θέτ<supplied reason="lost">ω</supplied></w>
+                          <lb n="17"/><supplied reason="lost">ὁ <placeName ref="#lato" type="ethnic">Λάτιος</placeName> ἀπροφασίστως</supplied> κατὰ γᾶν καὶ κατὰ θάλ<supplied reason="lost">ασσαν παντὶ</supplied>
+                          <lb n="18"/><supplied reason="lost">σθένει, ὡσαύτως δὲ εἴ τίς κα ἐ</supplied>ς τὰν τῶν <placeName ref="#lato" type="ethnic">Λατίων</placeName> χ<supplied reason="lost">ώραν ἐνβάλληι</supplied>
+                          <lb n="19"/><supplied reason="lost">ἢ ἀποτάμνηται ἢ</supplied> <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#lato"><w lemma="φρώριον"><supplied reason="lost">φρ</supplied>ώρια</w></rs> ἢ <w lemma="νᾶσος">νάσος</w> ἢ <w lemma="λιμήν">λι<supplied reason="lost">μένας</supplied></w> <supplied reason="lost">καταλαμβάνηι</supplied>
+                          <lb n="20"/><supplied reason="lost">ἢ <rs type="institution" subtype="social_status" role="defense" key="klaros" ref="#lato"><w lemma="κλᾶρος">κλάρος</w></rs> φθείρηι ἢ <rs type="institution" subtype="social_status" role="defense" key="oikeus" ref="#lato"><w lemma="οἰκετηία">οἰκετήιαν</w></rs>, τ</supplied>ὰν ὀφει<supplied reason="lost">λομέναν <w lemma="βοάθεια">βοάθειαν</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="21a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato fra Lato ed Eleutherna presenta molti punti di contatto quanto al formulario impiegato con l’alleanza stipulata fra quest’ultima ed Aptera (<ref type="ins" target="#seg_41_742"><title>SEG</title> 41.742</ref>), documento che consente di integrare con un discreto grado di certezza buona parte del testo perduto della presente iscrizione.</p>
+                    <p>Il documento, che si doveva forse aprire con una o più espressioni benaugurali, conserva alle linee 2-4 parte di una formula di datazione che ricorda verosimilmente i cosmi eponimi delle due città contraenti, i cui nomi sono andati perduti.</p>
+                    <p>Le clausole degli accordi, che occupano il restante testo, prevedono la stipulazione di un’alleanza paritaria (ll. 5-7) e la reciproca concessione di <foreign>isopoliteia</foreign> ed <foreign>enktesis</foreign> in accordo con le leggi proprie di ciascuna <foreign>polis</foreign> (ll. 7-14). La reciproca promessa di aiuto militare, alle linee 14-20, prevede nello specifico l’impegno a difendere da attacchi il territorio dell’alleata, i suoi φρώρια, i suoi porti e – nel caso di Lato – le sue isole (verosimilmente quelle di Agioi Pantes e Mikronisi antistanti Lato <foreign>pros</foreign> Kamara; cf. <bibl><ref target="#bib1"><title>IC</title> I</ref>, p. 134</bibl>); la difesa interessa inoltre anche le classi servili residenti nel territorio delle città, ovvero l’<foreign>oiketeia</foreign>, termine attestato con certezza solamente nel presente documento, e possibilmente il κλάρος (cf. <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> e forse <ref type="ins" target="#seg_41_742"><title>SEG</title> 41.742</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#klaros"><foreign>klaros</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#oikeus"><foreign>oikeus</foreign></ref>, <ref type="inst" target="#phrourion"><foreign>phrourion</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<foreign>politeuo</foreign>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2065">Xanthoudidis 1908</ref>, pp. 220-224 n. 9</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1040-1041 n. 28</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 17 <ptr type="phi" target="199225"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 37</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2024">Wilhelm 1951</ref>, pp. 20-24 n. 6</bibl>; 
+                            <bibl><ref target="#b1027">Kritzas 1994</ref>, pp. 213-214</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 496</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

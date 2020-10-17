@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Priansos (rinnovo)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 24 1*</idno>
+                        <idno type="projectNo">212</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#priansos" type="ethnic">Πριανσίων</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#priansos"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#priansos" type="ethnic">Πριανσίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#priansos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#priansos"><w lemma="πόλις">πόλει</w></rs>.
+                          <lb n="3"/>ἐπειδὴ <persName type="honoured" key="Herodotos f. Menodotos" ref="#teos"><name nymRef="Ἡρόδοτος">Ἡρόδοτος</name> <name nymRef="Μηνόδοτος" type="patronymic">Μ<corr>η</corr>νοδότου</name></persName> καὶ <persName type="honoured" key="Menekles f. Dionysios" ref="#teos"><name nymRef="Μενεκλῆς">Μενεκλῆς</name> <name nymRef="Διονύσιος" type="patronymic">Διονυ<lb 
+                        break="no" n="4"/>σίω</name></persName> <w lemma="ἐξαποστέλλω">ἐξαποσταλέντες</w> πρεγγευταὶ πορτὶ ἁμὲ πα<lb 
+                        break="no" n="5"/>ρὰ <placeName ref="#teos" type="ethnic">Τηίων</placeName> οὐ μόνον ἀνεστρά<supplied reason="lost">φεν</supplied> <corr>πρ</corr>επ<corr>ό</corr>ντω<corr>ς</corr> ἐν τᾶι
+                          <lb n="6"/><rs type="institution" subtype="public_space" role="hospitality" key="polis" ref="#priansos"><w lemma="πόλις">πόλει</w></rs> καὶ <supplied reason="lost">διελέγ</supplied>εν περὶ τᾶ<supplied reason="lost">ς</supplied> <gap reason="illegible" quantity="7" unit="character"/>το<gap reason="illegible" quantity="2" unit="character"/>ας, ἀλλὰ
+                          <lb n="7"/>καὶ ἐπεδείξατο Μενεκλῆς μετὰ <w lemma="κιθάρα">κιθάρας</w> τά τε Τι<lb 
+                        break="no" n="8"/>μοθέου καὶ Πολυίδου καὶ τῶν ἁμῶν <w lemma="παλαιός">παλαιῶν</w> <w lemma="ποιητάς">ποιη<lb 
+                        break="no" n="9"/>τᾶν</w> καλῶς καὶ πρεπόντως, εἰσ<corr>ή</corr>νεγκε δὲ κύκλον
+                          <lb n="10"/>ἱστορημέναν ὑπὲρ <placeName ref="#crete">Κρήτας</placeName> κα<supplied reason="lost">ὶ τ</supplied>ῶν ἐν <placeName ref="#crete"><supplied reason="lost">Κρή</supplied>ται</placeName> γε<lb 
+                        break="no" n="11"/>γονότων <w lemma="θεός">θεῶν</w> τε καὶ <w lemma="ἥρως">ἡρώων</w>, <supplied reason="lost">ποι</supplied>ησάμενο<supplied reason="lost">ς τ</supplied>ὰν
+                          <lb n="12"/>συναγωγὰν ἐκ πολλῶν <w lemma="ποιητάς">ποιητᾶ<supplied reason="lost">ν</supplied></w> καὶ <w lemma="ἱστοριαγράφος">ἱστοριαγρά<lb 
+                        break="no" n="13"/>φων</w>· διὸ <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#priansos"><w lemma="δοκέω">δεδόχθαι</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#priansos"><w lemma="πόλις">πόλει</w></rs> <w lemma="ἐπαινέω">ἐπαινέσαι</w> <placeName ref="#teos" type="ethnic">Τηίος</placeName> ὅτι
+                          <lb n="14"/>πλεῖστον λόγον ποιῶνται περὶ <w lemma="παιδεία">παιδείας</w>, <w lemma="ἐπαινέω">ἐπαι<lb 
+                        break="no" n="15"/>νέσαι</w> δὲ καὶ Ἡρόδοτον καὶ Μενεκλῆν ὅτι καλὰν
+                          <lb n="16"/>καὶ πρέπονσαν πεποίηνται τὰν <w lemma="παρεπιδημία">παρεπιδημίαν</w>
+                          <lb n="17"/>ἐν τᾶι <rs type="institution" subtype="public_space" role="hospitality" key="polis" ref="#priansos"><w lemma="πόλις">πόλει</w></rs> ἁμῶν· διασαφῆσαί τε ταῦτα καὶ <placeName ref="#teos" type="ethnic">Τηί<lb 
+                        break="no" n="18"/>οις</placeName> ὅ<corr>π</corr>ως <w lemma="ἐπιγινώσκω">ἐπιγινώσκωντι</w>.
+                          <lb n="19"/><w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                          </ab>
+                    </div> 
+                    <div type="commentary">
+                        <p>Il decreto, che appartiene alla serie di documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), era originariamente inserito all’interno di un’epistola, come rivela il saluto ἔρρωσθε posto in chiusura. Il documento, in realtà, non accorda a Teos l’<foreign>asylia</foreign> richiesta (forse concessa in un altro decreto perduto) ma si occupa piuttosto di onorare gli ambasciatori teii, uno dei quali in particolare per essersi distinto nell’esecuzione con la lira di componimenti musicali di Timotheos, Polyidos e di antichi poeti locali, di Priansos o più probabilmente cretesi (similmente a quanto avviene nel decreto di Knossos per Teos <ref type="ins" target="#ic1_8_11"><title>IC</title> I 8 11</ref>). Rispetto al testo di Knossos, quello di Priansos testimonia inoltre che l’ambasciatore Menekles ha eseguito un ciclo di narrazioni sui Cretesi e sulle divinità e figure eroiche nate a Creta, di fatto un’antologia di brani di altri poeti e storiografi (ll. 9-13), mostrando quindi di tenere in alta considerazione la <foreign>paideia</foreign> (l. 14).</p>
+                    <p>Mentre la formula di sanzione, alla linea 2, mostra sia i cosmi che la <foreign>polis</foreign> di Priansos come responsabili della deliberazione, la successiva formula di mozione (l. 13) omette invece i cosmi, riconducendo la responsabilità alla sola <foreign>polis</foreign>. Quest’ultima, inoltre, viene menzionata altre due volte nel decreto in senso spaziale, a proposito del soggiorno degli ambasciatori in città (ll. 5-6 e 17).</p>
+                    <p>Il decreto, che non presenta una formula di esposizione, si chiude invece con un’indicazione relativa al mettere al corrente Teos di quanto stabilito (ll. 17-18).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> 82</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 66</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5187</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 24 1* <ptr type="phi" target="199633"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 23</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b289">Chaniotis 1988</ref>, E71</bibl>; 
+                            <bibl><ref target="#b436">Curty 1999</ref>, pp. 174-177</bibl>; 
+                            <bibl><ref target="#b437">Curty 2005</ref></bibl>; 
+                            <bibl><ref target="#b711">Giovannini 2005</ref></bibl>; 
+                            <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>; 
+                            <bibl><ref target="#b1255">Martínez Fernández 2006a</ref></bibl>; 
+                            <bibl><ref target="#b1821">Thompson 2007</ref>, pp. 121-123</bibl>;
+                            <bibl><ref target="#b338">Chaniotis 2009</ref>, pp. 84-85</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

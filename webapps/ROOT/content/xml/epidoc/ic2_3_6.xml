@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Aptera per Peloponnesiaci</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 6</idno>
+                        <idno type="projectNo">044</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta; prima al Museo archeologico di Chania</repository>
+                        <idno type="invNo">15</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">sette decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> πρ<lb 
+                        break="no" n="2"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος" part="I"><supplied reason="lost">οξενο</supplied><gap reason="lost" quantity="1" unit="character"/></w></rs> αὐτο<lb 
+                        break="no" n="3"/><gap reason="lost" quantity="1" unit="character"/> <supplied reason="lost">καὶ</supplied> <w lemma="ἔγγονος"><supplied reason="lost">ἔ</supplied><unclear>γ</unclear>γονα</w>.
+                </ab>
+                    </div>
+                <div type="textpart" subtype="part" n="B">
+                    <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="honoured" key="Sosigenes f. -tis" ref="#unknown"><name nymRef="Σωσιγένης">Σωσιγένε<lb 
+                        break="no" n="2"/><supplied reason="lost">ος</supplied></name> <name nymRef="-τις" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/>τιος</name></persName> <orig>δο</orig>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                    </div>
+                <div type="textpart" subtype="part" n="C">
+                    <ab>
+                        <lb n="1"/><supplied reason="lost"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs></supplied> καὶ τῶι
+                        <lb n="2"/><rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος"><supplied reason="lost">δάμωι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ι</unclear>πρα</orig>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος"><supplied reason="lost">πρ</supplied>όξε<lb 
+                        break="no" n="4"/><supplied reason="lost">νον</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/><orig>δαν</orig>
+                        <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                    </div>
+                <div type="textpart" subtype="part" n="D">
+                    <ab>
+                        <lb n="1"/><persName type="honoured" key="Peisidamos f. Thaliarchos"><name nymRef="Πεισίδαμος">Πεισίδαμος</name>
+                        <lb n="2"/><name nymRef="Θαλίαρχος" type="patronymic">Θαλιάρχου</name>
+                        <lb n="3"/><placeName ref="#sparta" type="ethnic">Λακεδαιμό<lb 
+                        break="no" n="4"/>νιος</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξεν<lb 
+                        break="no" n="5"/>ος</w></rs> αὐτὸς κα<lb 
+                        break="no" n="6"/>ὶ <w lemma="ἔκγονος">ἔκγονα</w>.
+                </ab>
+                    </div>
+                <div type="textpart" subtype="part" n="E">
+                    <ab>
+                        <lb n="1"/><persName type="honoured" key="Teison"><name nymRef="Τείσων">Τείσων</name> <placeName ref="#patra" type="ethnic">Πατρ<lb 
+                        break="no" n="2"/>εὺς</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξεν<lb 
+                        break="no" n="3"/>ος</w></rs> αὐτὸς καὶ
+                        <lb n="4"/><w lemma="ἔκγονος">ἔκγονα</w>.
+                </ab>
+                    </div>
+                <div type="textpart" subtype="part" n="F">
+                    <ab>
+                        <lb n="1"/><persName type="honoured" key="Iason f. Samos"><name nymRef="Ἰάσων">Ἰάσων</name> <name nymRef="Σάμος" type="patronymic">Σάμω</name>
+                        <lb n="2"/><placeName ref="#achaia" type="ethnic">Ἀχαιός</placeName></persName>,
+                        <lb n="3"/><persName type="honoured" key="Aristainos f. Damokades"><name nymRef="Ἀρίσταινος">Ἀρίσταινος</name>
+                        <lb n="4"/><name nymRef="Δαμοκάδης" type="patronymic">Δαμοκάδηος</name>
+                        <lb n="5"/><placeName ref="#achaia" type="ethnic">Ἀχαιὸς</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρό<lb 
+                        break="no" n="6"/>ξενοι</w></rs> αὐτοὶ
+                        <lb n="7"/>καὶ <w lemma="ἔκγονος">ἔκγονα</w>.
+                </ab>
+                    </div>
+                <div type="textpart" subtype="part" n="G">
+                    <ab>
+                        <lb n="1"/><orig>ξε</orig><gap reason="lost" extent="unknown" unit="character"/>    
+                        <lb n="2"/><orig>μ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="3"/><orig>κρα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="4"/><orig>ξε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="5"/><orig>ηο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="6"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">π<unclear>ρ</unclear><supplied reason="lost">όξενοι</supplied></w></rs>
+                        <lb n="7"/>αὐ<supplied reason="lost">τοὶ καὶ</supplied> <w lemma="ἔκγονος"><supplied reason="lost">ἔκ</supplied><lb 
+                        break="no" n="8"/>γ<unclear>ο</unclear><supplied reason="lost">να</supplied></w>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>Il blocco dedicato ai decreti onorari per individui originari da differenti località del Peloponneso restituisce i nomi di alcuni prosseni d’eccezione di Aptera: fra essi vi sono infatti Aristainos figlio di Damokades, stratego della Lega Achea nel 198, 195 e 185 a.C. (cf. <ref type="lit">Polyb. XI 11.7</ref>, <ref type="lit">Plut. <title>Phil.</title> XVII</ref>, <ref type="lit">Liv. XXXII 19-24</ref>, <ref type="ins"><title>FD</title> III 122</ref>), e Teison di Patra, a capo della flotta achea nel 192 a.C. (<ref type="lit">Liv. XXXV 26</ref>); non è da escludere che fra i prosseni di cui si è perduto il nome vi fosse anche Filopemene, militante come mercenario a Creta fino al 193 a.C. (cf. <ref type="lit">Plut. <title>Phil.</title> XIV-XV</ref>; <bibl><ref target="#b1607">Rizakis 1995</ref>, p. 370</bibl>). L’avvicinamento di Aptera alla filoromana Lega Achea sembrerebbe ragionevolmente connesso e contemporaneo all’instaurazione dei suoi primi contatti con Roma, testimoniato dal decreto onorario della città <ref type="ins" target="#ic2_3_5"><title>IC</title> II 3 5</ref> A del 189 a.C.</p>
+                    <p>La formula di sanzione è presente solamente nel decreto C; sebbene entrambe le figure deliberanti siano in lacuna, il superstite καὶ τῶι permette tuttavia di integrare con un buon livello di sicurezza <foreign>boula</foreign>/<foreign>bola</foreign> e <foreign>damos</foreign>, assemblee che svolgono tale ruolo nella maggior parte dei decreti della città (tutti tranne <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>). Tutti gli altri decreti, invece, presentano una formulazione estremamente ellittica, in cui l’estratto del documento originale si riduce all’onomastica dell’onorato, espressa al nominativo, seguita dall’onore concesso e dalla sua eventuale estensione alla progenie dell’individuo (assente solo in B e C). Sebbene la città sia solita conferire l’<foreign>euergesia</foreign> ai personaggi più importanti fra quelli che insignisce di onori (cf. <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref>, <ref type="ins" target="#ic2_3_4ab"><title>IC</title> II 3 4 A</ref> e <ref type="ins" target="#ic2_3_4c">C</ref>, <ref type="ins" target="#ic2_3_5"><title>IC</title> II 3 5</ref> A), in questo caso invece tutti gli individui commemorati sono proclamati solamente prosseni, come è comune ad Aptera per gli onorati di rango più ordinario.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref> (?), <ref type="inst" target="#demos"><foreign>demos</foreign></ref> (?), <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref> (?), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, pp. 429-430, n. 3</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4943 (D, F)</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 6 <ptr type="phi" target="199713"/></bibl>; 
+                    <bibl><ref target="#b1607">Rizakis 1995</ref>, I, nn. 683-684 (E-F)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 527-528</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

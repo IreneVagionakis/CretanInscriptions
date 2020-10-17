@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Cos menzionante il <foreign>koinon</foreign> cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">I.Cos ED 229</idno>
+                        <idno type="projectNo">598</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#cos_neratzia">Castello di Neratzia, Cos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#cos">Cos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="I">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἔκγονος ὢν</supplied> Διογένους, ὃς τὰν πρὸς <persName type="ruler" key="Ptolemaioi">τοὺς ἐν <placeName ref="#egypt">Αἰγύπτῳ</placeName> βασιλεῖς</persName>
+                          <lb n="2"/><supplied reason="lost">τότε ὄντας</supplied> φιλίαν γεννηθεῖσαν κατεχρήσατο ἐς τὰν τᾶς
+                          <lb n="3"/><supplied reason="lost">πατρί</supplied>δος ἐλευθερίαν ἐν τοῖς συστᾶσι τᾷ πόλει πρὸς <rs type="institution" subtype="social_group" role="war" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρη<lb 
+                        break="no" n="4"/><supplied reason="lost">ταιέ</supplied>ας</placeName></rs> ἐπὶ <w lemma="πολεμέω">πολεμωτάτοις</w> καιροῖς, ἄλλων τ<corr>ε</corr> ἀνδρῶν ὑπὲρ
+                          <lb n="5"/><gap reason="lost" quantity="2" unit="character"/>ατι τετειμαμένων ἐπ’ ἀρετᾶι· ὃς καὶ μειμησάμε<lb 
+                        break="no" n="6"/><supplied reason="lost">ν</supplied>ος Χαιρύλος, ὁ πατὴρ αὐτοῦ, πρεσβεύων περὶ τῶν νόμων καὶ
+                          <lb n="7"/>τᾶς πατρίου πολιτήας ἐν <placeName ref="#rome">Ῥώμᾳ</placeName>, μετάλλαξεν ἄξιον ἐπαίνου
+                          <lb n="8"/>καὶ βίον καὶ θάνατον, καὶ παρὰ τᾶι συνκλήτωι γράμμασιν ἐσχή<lb 
+                        break="no" n="9"/><supplied reason="lost" cert="low">θη</supplied> <supplied reason="lost">χρη</supplied>ματισθείς· αὐτός τε <supplied reason="lost">τὰ</supplied>ν παρὰ τοσούτων ἀνδρῶν
+                          <lb n="10"/><supplied reason="lost">περιαίνετ</supplied>ον διαδεξάμεν<supplied reason="lost">ος γενε</supplied>άν, ἀπὸ τᾶς πράτας ἁλι<lb 
+                        break="no" n="11"/><supplied reason="lost">κίας</supplied> <gap reason="lost" extent="unknown" unit="character"/>ωτα δὲ τοῖς ἄλλοις ἐποί<lb 
+                        break="no" n="12"/><supplied reason="lost">ησε</supplied> <gap reason="lost" extent="unknown" unit="character"/> εἰς τὰν πο<corr>λ</corr>ιτήαν κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">συμφ</supplied>έροντα τῶι πλήθε<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἑκ</supplied>άστων βίοι <orig>συ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>σ</unclear>ωτὴρ <supplied reason="lost">ὢ</supplied>ν <unclear>π</unclear><supplied reason="lost">άντων</supplied>
+                          <lb n="15a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="column" n="II">
+                        <ab>
+                          <lb n="1"/><orig>κρ</orig><gap reason="lost" quantity="1" unit="character"/><orig>ιο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><orig>ουδα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><orig>εστα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><orig>ταστ<unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>ἀγαθ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><orig>τα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario, che interessa un cittadino di Cos, ricorda alle linee I 1-5 i meriti del suo progenitore Diogenes ai tempi in cui il <foreign>koinon</foreign> cretese (ll. 3-4, Κρη[ταιέ]ας) era in guerra con Cos, molto probabilmente nel contesto della Seconda guerra rodio-cretese (cf. <bibl><ref target="#b217">Buraselis 2000</ref>, pp. 7-13</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib55"><title>I.Cos</title></ref> ED 229 <ptr type="phi" target="185796"/></bibl>; 
+                            <bibl><ref target="#bib502">Canali De Rossi, <title>Selezione</title></ref> 153</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII 4.1036</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b241">Canali De Rossi 1997</ref>, n. 333</bibl>; 
+                            <bibl><ref target="#b426">Cucuzza 1997</ref>, pp. 27-30</bibl>; 
+                            <bibl><ref target="#b217">Buraselis 2000</ref>, pp. 5-24</bibl>; 
+                            <bibl><ref target="#b68">Baker 2001</ref></bibl>; 
+                            <bibl><ref target="#b2011">Wiemer 2002</ref>, pp. 150-155</bibl>; 
+                            <bibl><ref target="#b824">Habicht 2007</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

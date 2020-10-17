@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Gortyna e Sybrita</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 183</idno>
+                        <idno type="projectNo">305</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka">Agioi Deka, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#pillar">pilastro</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0216" notAfter="-0189" precision="low">216-189 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀναγινώσκω"><supplied reason="lost">ἀναγι</supplied><lb 
+                                break="no" n="1"/><supplied reason="lost">νωσκόντων</supplied></w> <supplied reason="lost">δ</supplied>ὲ τὰν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#sybrita"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#gortyn"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> <supplied reason="lost">κατ’ ἐνιαυτὸν <placeName ref="#gortyn">Γόρτυνι</placeName> μὲν ἐν τοῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><supplied reason="lost"><placeName ref="#sybrita" type="ethnic">Συβριτίων</placeName> π</supplied>αριόντων, <placeName ref="#sybrita">Συβρί<unclear>τ</unclear><supplied reason="lost">αι</supplied></placeName> <supplied reason="lost">δὲ ἐν τοῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">οις</supplied>
+                            <lb n="3"/><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυνίων</supplied></placeName> παριόντων· <w lemma="προπαραγγέλλω">π<unclear>ρ</unclear><supplied reason="lost">οπαραγγελλόντων</supplied></w> <supplied reason="lost">δὲ ἀλλάλοις οἱ <rs type="institution" subtype="board" role="proclamation" key="kosmos" ref="#sybrita"><rs type="institution" subtype="board" role="proclamation" key="kosmos" ref="#gortyn"><w lemma="κόρμος">κόρμοι</w></rs></rs></supplied>
+                            <lb n="4"/><supplied reason="lost">οἱ τόκ’</supplied> ἀεὶ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#sybrita"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμίοντες</w></rs></rs> <supplied reason="lost" cert="low">προδέκατον</supplied> <supplied reason="lost">ἤ κα μέλλωντι <w lemma="ἀναγινώσκω">ἀναγινώσκειν</w>· αἰ</supplied>
+                            <lb n="5"/><supplied reason="lost">δὲ μὴ</supplied> <w lemma="προπαραγγέλλω"><supplied reason="lost">προ</supplied>παρανγείλαιεν</w> ἢ τ<supplied reason="lost">ὰν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#sybrita"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#gortyn"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> μὴ <w lemma="ἀναγιγνώσκω">ἀναγνοῖεν</w> ἢ</supplied>
+                            <lb n="6"/><supplied reason="lost">τὰν</supplied> <w lemma="στάλα"><supplied reason="lost">στάλ</supplied>αν</w> μὴ <w lemma="ἵστημι">στήσα<unclear>ιεν</unclear></w> <supplied reason="lost">ἢ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>εσ</orig> τι τούτων ϝέ<supplied reason="lost">ρδοιεν, <w lemma="ἀποτίνω">ἀποτεισάντων</w> <w lemma="στατήρ">στατήρανς</w> πεντακα</supplied><lb 
+                                break="no" n="8"/><supplied reason="lost">τίος οἱ μὲ</supplied><unclear>ν</unclear> <placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> τοῖς <placeName ref="#sybrita" type="ethnic">Σ<supplied reason="lost">υβριτίοις</supplied></placeName> <supplied reason="lost">τᾶι <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#sybrita"><w lemma="πόλις">πόλι</w></rs> οἱ δὲ <placeName ref="#sybrita" type="ethnic">Συβρίτιοι</placeName></supplied>
+                            <lb n="9"/><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτυνίοι</supplied>ς</placeName> τᾷ <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs>. αἰ δέ τί <supplied reason="lost">κα <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#sybrita"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#gortyn"><w lemma="δοκέω">δόξηι</w></rs></rs> ταῖς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#sybrita"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις">πόλισι</w></rs></rs> ἀμφο</supplied><lb 
+                                break="no" n="10"/><supplied reason="lost">τέραις κοι</supplied>νᾶι <w lemma="βουλεύω"><unclear>β</unclear>ωλευσα<unclear>μ</unclear><supplied reason="lost">έναις</supplied></w> <supplied reason="lost">ἐπὶ τῶι κοινᾶι συμφέροντι ἐς τὰν</supplied>
+                            <lb n="11"/><supplied reason="lost"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#sybrita"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#gortyn"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> δι</supplied><unclear>ορ</unclear>θῶσαι, ὅ τι μ<supplied reason="lost">έν κα ἐξέλοιμεν τοῦτο μήτε ἔνθι</supplied><lb 
+                                break="no" n="12"/><supplied reason="lost">νον μήτε</supplied> <w lemma="ἔνορκος"><supplied reason="lost">ἔν</supplied>ορ<supplied reason="lost">κον</supplied></w> <supplied reason="lost">ἔ</supplied><unclear>σ</unclear>θω, ὅ τι δ<unclear>έ</unclear> <supplied reason="lost">κα <w lemma="ἐγγράφω">ἐγγράψαιμεν</w> ἔνθινον καὶ</supplied>
+                            <lb n="13"/><supplied reason="lost"><w lemma="ἔνορκος">ἔνορκον</w> ἔσθ</supplied>ω. δ<supplied reason="lost">ό</supplied>μεν δὲ κ<supplied reason="lost">αὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="δαπάναμα"><supplied reason="lost">δα</supplied>πά<unclear>ν</unclear>α<unclear>μ</unclear>α</w> ἐς τὰ<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><orig>μεν</orig> ἀτ<unclear>τ</unclear>αμιο<gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/><orig>σ</orig> τῶν <rs type="institution" subtype="social_status" role="unknown" key="polites" ref="#sybrita"><rs type="institution" subtype="social_status" role="unknown" key="polites" ref="#gortyn"><w lemma="πολίτας">πολιτᾶ<unclear>ν</unclear></w></rs></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἵστημι"><supplied reason="lost">στασάντ</supplied>ων</w> τὰς <w lemma="στάλα">στάλ<unclear>α</unclear><supplied reason="lost">ς</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρὸ τᾶς</supplied>
+                            <lb n="18"/><rs type="institution" subtype="month" role="calendar" key="nios" ref="#unknown"><w lemma="-νιος" part="F"><gap reason="lost" extent="unknown" unit="character"/>νίας</w></rs> <w lemma="νεμονηία">νεμονήι<supplied reason="lost">ας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">. <w lemma="ὅρκος">ὅρκος</w>· <w lemma="ὀμνύω">ὀμνύω</w> <persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#sybrita"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#gortyn"><w lemma="Ἱστία">Ἱστίαν</w></rs></rs></persName></supplied>
+                            <lb n="19"/><supplied reason="lost">καὶ</supplied> <persName type="divine" key="Zeus Kretagenias"><supplied reason="lost">Ζῆν</supplied>α Κρηταγενία</persName> καὶ <supplied reason="lost" cert="low"><persName type="divine" key="Zeus Agoraios">Ζῆνα <rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#sybrita"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#gortyn"><w lemma="Ἀγοραῖος">Ἀγοραῖον</w></rs></rs></persName> καὶ <persName type="divine" key="Zeus Oratrios">Ζῆνα Ὀράτριον</persName></supplied> <supplied reason="lost">καὶ</supplied> <persName type="divine" key="Zeus Bidatas"><supplied reason="lost">Ζῆνα</supplied>
+                            <lb n="20"/><placeName ref="#idaeum_antrum" type="ethnic"><supplied reason="lost">Βιδάτ</supplied><unclear>α</unclear>ν</placeName></persName> <persName type="divine" key="Apollo Pytios">κἀπέλλωνα Πύ<supplied reason="lost">τιον</supplied></persName> <supplied reason="lost">καὶ <persName type="divine" key="Lato">Λατὼ</persName> <persName type="divine" key="Artemis">κἀρτέμιδα</persName> καὶ</supplied>
+                            <lb n="21"/><supplied reason="lost"><persName type="divine" key="Hera">Ἥραν</persName></supplied> <persName type="divine" key="Athena Poliochos"><supplied reason="lost">κἀ</supplied>θαναίαν Πολιόχο<unclear>ν</unclear></persName> <supplied reason="lost"><persName type="divine" key="Ares">κἄρην</persName> <persName type="divine" key="Aphrodite">κἀφροδίταν</persName> καὶ <persName type="divine" key="Hermes">Ἑρμᾶν</persName> καὶ</supplied>
+                            <lb n="22"/><supplied reason="lost"><persName type="divine" key="Kouretes">Κωρήτανς</persName></supplied> καὶ <persName type="divine" key="Nymphai">Νύμφανς</persName> καὶ τ<supplied reason="lost">ὸς ἄλλος <w lemma="θεός">θεὸς</w> πάντας καὶ πάνσας</supplied>.
+                            <lb n="23"/><supplied reason="lost">ἦ μὰν οὐθὲ</supplied><unclear>ν</unclear> καταλ<supplied reason="lost">υσί</supplied><unclear>ω</unclear> <unclear>τ</unclear><supplied reason="lost" cert="low">ῶν συνκειμένων</supplied>
+                            <lb n="23a"/><gap reason="lost" quantity="1" unit="line"/>
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La parte conservata del trattato fra Gortyna e Sybrita, di cui sono andati perduti sia l’inizio che la sezione finale, restituisce alle linee 1-9 le clausole relative alla pubblica lettura degli accordi. Tale operazione deve avvenire ogni anno in entrambe le città in presenza di delegati dell’alleata; la lettura deve essere annunciata con un certo anticipo dai cosmi in carica, che nel caso di inadempienza sono passibili di multe, il cui importo è da versare alla <foreign>polis</foreign> alleata. Oltre al dare notizia della lettura del trattato e alla lettura stessa, fra i compiti dei cosmi risulta esservi anche la pubblicazione su pietra degli accordi (l. 9), la cui mancata esecuzione può comportare anch’essa l’imposizione di un’ammenda.</p>
+                    <p>La clausola alle linee 9-13, inoltre, prevede la possibilità di successive modifiche al trattato qualora ciò venga decretato da entrambe le città. Alle linee 13-18, invece, è conservata parte della formula di esposizione: viene prevista la consegna di un certo importo di denaro per la collocazione della stele, che pare dovesse avvenire entro una particolare scadenza fissata per la luna nuova di un certo mese (-νίας νεμονήι[ας]). Non è chiaro quale sia il motivo della menzione dei cittadini in tale contesto (l. 16); è possibile che il documento designasse alcuni di loro come addetti alla collocazione della stele.</p>
+                    <p>Il giuramento, alle linee 18-23, tra le molte divinità invocate menziona Zeus <foreign>Kretagenias</foreign>, Zeus <foreign>Bidatas</foreign> (<foreign>i.e.</foreign> del monte Ida) e forse Hestia e Zeus <foreign>Agoraios</foreign> (sul cui culto cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>), <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref> (?), <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#nios"><foreign>-nios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 230-232 n. 36</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5021</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib4"><title>IC</title> IV</ref> 183 <ptr type="phi" target="200622"/></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 32 <ptr type="phi" target="201297"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

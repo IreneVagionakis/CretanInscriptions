@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lista di cosmi (?) di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 384</idno>
+                        <idno type="projectNo">383</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#list">lista</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0225" notAfter="-0175">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>σ</unclear>υσι</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn" cert="low"><persName type="attested" key="- f. -oiton"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="-οίτων" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/>οίτωνος</name></persName></rs>
+                          <lb n="3"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn" cert="low"><persName type="attested" key="-s f. Kallidamos"><name nymRef="-ς"><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear></name> <name nymRef="Καλλίδαμος" type="patronymic">Καλλιδάμω</name></persName></rs>
+                          <lb n="4"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn" cert="low"><persName type="attested" key="- f. Empedokles"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Ἐμπεδοκλῆς" type="patronymic"><supplied reason="lost">Ἐ</supplied><unclear>μ</unclear>πεδοκλῆος</name></persName></rs>
+                          <lb n="5"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn" cert="low"><persName type="attested" key="- f. Ertaios (1)"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Ἐρταῖος" type="patronymic"><unclear>Ἐ</unclear>ρταίω</name></persName></rs>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ιγ</unclear>ν<unclear>υ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><orig>βαδ<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><orig>φ<unclear>λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><orig>τω</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><orig>σι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, che conserva una lista di nomi, sembrerebbe essere un elenco di magistrati in carica, verosimilmente cosmi (come forse <ref type="ins" target="#ic4_388"><title>IC</title> IV 388</ref> e <ref type="ins" target="#ic4_399">399</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b839">Halbherr 1889</ref>, p. 61 n. 8</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 384 <ptr type="phi" target="200831"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

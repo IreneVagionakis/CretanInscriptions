@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epitaffio di una donna di Tylisos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Thess. Mnemeia, pp. 155-164 n. 20</idno>
+                        <idno type="projectNo">158</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#volos_museum">Museo archeologico di Volos</repository> 
+                                <idno type="invNo">Λ 20</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#demetrias">Demetriade</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0225" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>εἰ κέκρικας χρηστήν, <persName type="divine" key="Rhadamanthus">Ῥαδάμανθυ</persName>, γυναῖκα καὶ ἄλλην,
+                          <lb n="2"/>ἢ <persName type="divine" key="Minos">Μίνως</persName>, καὶ τήνδε, οὖσαν Ἀριστομάχου
+                          <lb n="3"/>κούρην· εἰς μακάρων νήσους ἄγετ’· <w lemma="εὐσέβεια">εὐσεβίαν</w> γὰρ
+                          <lb n="4"/>ἤσκει καὶ σύνεδρον τῆσδε <w lemma="δικαιοσύνη">δικαιοσύνην</w>.
+                          <lb n="5"/>ἣν <placeName ref="#tylisos">Τύλισος</placeName> μὲν ἔθρεψε, <rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#tylisos"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#crete">Κρῆσσα</placeName>, ἥδε δὲ γαῖα
+                          <lb n="6"/>ἀμφέπει ἀθάνατον· μοῖρα σοί, Ἀρχιδίκη.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Nell’epitaffio di Archidike, figlia di Aristomachos, viene impiegato il termine <foreign>polis</foreign> nell’ambito dell’indicazione della provenienza della donna, morta in Tessaglia. Anziché l’etnico all’interno della formula onomastica, nel testo compare invece al nominativo il nome della città di Tylisos, indicata come nutrice della donna, a cui segue come glossa esplicativa l’apposizione «città cretese».</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib34"><title>Thess. Mnemeia</title></ref>, pp. 155-164 n. 20 <ptr type="phi" target="207832"/></bibl>; 
+                            <bibl><ref target="#b52">Arvanitopulos 1928</ref>, pp. 149-152</bibl>; 
+                            <bibl><ref target="#b1490">Peek 1955</ref>, n. 1693</bibl>; 
+                            <bibl><ref target="#b1491">Peek 1960</ref>, n. 209</bibl>; 
+                            <bibl><ref target="#b1544">Pircher 1979</ref>, n. 17</bibl>; 
+                            <bibl><ref target="#b1332">Mickey 1981</ref>, n. C36</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib120">Vertoudakis</ref>, pp. 139-140</bibl>; 
+                            <bibl><ref target="#b226">Cairon 2009</ref>, n. 86</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1306">McDevitt 1970</ref>, n. 752</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

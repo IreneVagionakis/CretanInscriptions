@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> (?) a Mylasa da parte del <foreign>koinon</foreign> cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 42.1005</idno>
+                        <idno type="projectNo">579</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#milas_museum">Museo di Milas</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#mylasa">Mylasa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/> <lb 
+                        break="no" n="1"/>πολε<supplied reason="lost">μ</supplied>ω<supplied reason="lost">μ</supplied>ε<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><orig>ασητα</orig> τῷ <placeName ref="#mylasa" type="ethnic">Μ<supplied reason="lost" cert="low">υλασέων</supplied></placeName> <supplied reason="lost" cert="low">δάμῳ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὡς αὐτᾶς</supplied>
+                          <lb n="3"/>τᾶς <placeName ref="#crete">Κρήτας</placeName> <w lemma="πολεμέω"><supplied reason="lost">πολεμωμένας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>ρα καὶ <w lemma="δαμοσίως">δαμο<supplied reason="lost">σίως</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πρει</supplied><lb 
+                        break="no" n="5"/>γεύεν δὲ κα<supplied reason="lost">ὶ ποτὶ τὸς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>καὶ τὸς <w lemma="δυνάστας">δυν<supplied reason="lost">άστας</supplied></w> <supplied reason="lost">καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ τὰς πόλιας, ὅπως</supplied>
+                          <lb n="7"/>ἐν εἰρήναι τ<supplied reason="lost">ηρίωντι καὶ ἀφορολόγητοι ἔωντι τάν τε πόλιν</supplied>
+                          <lb n="8"/>καὶ τὰγ χώρ<unclear>α</unclear><supplied reason="lost">ν αὐτῶν ἱαρὰν ἐξ ἀρχᾶς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><w lemma="οἰκέω">οἰκιόντων</w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸν</supplied>
+                          <lb n="10"/><placeName ref="#mylasa" type="ethnic">Μυλασέων</placeName> <unclear>δ</unclear><supplied reason="lost" cert="low">ᾶμον</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="εὐεργεσία">εὐεργεσίαι</w></supplied> <w lemma="θεῖος"><supplied reason="lost">θεί</supplied><lb 
+                        break="no" n="11"/>ωγ</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρ<supplied reason="lost">ωπίνων</supplied></w> <supplied reason="lost">πάντων <w lemma="μέτοχος">μέτοχον</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/>ποτὶ πᾶν τὸ <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="ἐπαινέω">ἐπαινέσαι</w> δὲ καὶ</supplied>
+                          <lb n="13"/>τὸς πρειγε<supplied reason="lost">υτὰς</supplied> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="καλοκαγαθία"><supplied reason="lost">καλο</supplied><lb 
+                        break="no" n="14"/>κἀγαθίας</w> ἕ<unclear>ν</unclear><supplied reason="lost">εκα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιέ<supplied reason="lost">α</supplied><unclear>ς</unclear></placeName></rs> <unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐού</supplied><lb 
+                        break="no" n="16"/>σας πίστεος <gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="17"/>σθαι αὐτὸς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18"/><orig>υ</orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ω</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, appartenente ad un gruppo di iscrizioni di Mylasa riguardanti città cretesi e il <foreign>koinon</foreign> cretese (cf. <ref type="ins" target="#mylasa_92"><title>Mylasa</title> 92-110*5</ref> e <ref type="ins" target="#mylasa_443">443</ref>, <ref type="ins" target="#seg_42_1004"><title>SEG</title> 42.1004-1006</ref>), sembra essere emanato da quest’ultimo verosimilmente per accordare alla <foreign>polis</foreign> caria l’<foreign>asylia</foreign> richiesta dai suoi ambasciatori (cf. <ref type="ins" target="#mylasa_94"><title>Mylasa</title> 94</ref>-<ref type="ins" target="#mylasa_95">95</ref>, <ref type="ins" target="#mylasa_97">97</ref>, <ref type="ins" target="#mylasa_101">101</ref> e <ref type="ins" target="#mylasa_103">103</ref> e <ref type="ins" target="#seg_42_1003"><title>SEG</title> 42.1003</ref>-<ref type="ins" target="#seg_42_1004">1004</ref>). Il decreto, inoltre, include un conferimento onorario destinato agli inviati di Mylasa che è possibile che consistesse nella prossenia, congiunta forse all’<foreign>euergesia</foreign> (cf. <ref type="ins" target="#mylasa_103"><title>Mylasa</title> 103</ref> e <ref type="ins" target="#mylasa_94">94</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib460"><title>I.Mylasa</title></ref> 662</bibl> (= <bibl><ref target="#b169">Blümel 1992</ref>, pp. 13-14</bibl> = <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 42.1005 <ptr type="seg" target="a42_999_1009"/></bibl>);
+                            <bibl><ref target="#b260">Carless Unwin 2017</ref>, pp. 229-230</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b259">Carless Unwin 2016</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

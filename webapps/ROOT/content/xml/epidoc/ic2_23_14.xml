@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica onoraria di Polyrrhenia per Metello Cretico</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 14</idno>
+                        <idno type="projectNo">009</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta, prima nella Chiesa dei 99 Padri, Polyrrhenia</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base di statua</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, acropoli</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0069" notAfter="-0067">69-67 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><persName type="honoured" key="Kointos Kaikilios Metellos  " ref="#rome"><name nymRef="Κόιντος"><supplied reason="lost">Κόιντο</supplied>ν</name> <name nymRef="Καικίλιος">Και<supplied reason="lost">κίλιον</supplied></name>
+                        <lb n="2"/><name nymRef="Μέτελλος"><supplied reason="lost">Μέτ</supplied>ελλον</name></persName> <w lemma="αὐτοκράτωρ">αὐτοκράτορα</w>,
+                        <lb n="3"/><supplied reason="lost">τὸ</supplied>ν ἑαυτῆς <rs type="institution" subtype="social_status" role="granted_as_privilege" key="soter" ref="#polyrrhenia"><w lemma="σωτήρ">σ<corr>ω</corr>τῆρα</w></rs>
+                        <lb n="4"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#polyrrhenia"><w lemma="εὐεργέτης">εὐεργέτην</w></rs>. ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πόλις</w></rs>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La base della statua, esposta in un edificio pubblico della terrazza dell’acropoli, testimonia la disposizione favorevole di Polyrrhenia nei confronti dei Romani negli anni della loro conquista di Creta, con il probabile intento di tenersi caro il favore di Metello in vista del delicato momento dell’organizzazione del dominio romano sull’isola. Il conquistatore di Creta, definito αὐτοκράτορα, è elogiato non soltanto come evergete – come invece un secolo prima Cornelio Scipione Ispallo in <ref type="ins" target="#ic2_23_13"><title>IC</title> II 23 13</ref> – ma persino come salvatore della città, che sicuramente vede di buon occhio l’attacco che Metello sferra alla vicina ed ostile Kydonia e all’altra confinante Phalasarna (<ref type="lit">App. <title>Sic.</title> VI 5</ref>; <ref type="lit">Liv. <title>Epit.</title> XCIX</ref>; <ref type="lit">Flor. <title>Epit.</title> I 42</ref>). 
+                    Come le altre dediche onorarie di Polyrrhenia per individui di rilievo della contemporanea scena politica, <ref type="ins" target="#ic2_23_12a"><title>IC</title> II 23 12 A</ref> e <ref type="ins" target="#ic2_23_13">13</ref> e la più tarda <ref type="ins"><title>IC</title> II 23 12 B</ref>, anche la dedica a Metello è promossa dalla <foreign>polis</foreign>. La formulazione adottata è analoga a quella già adoperata per Cornelio Scipione Ispallo in <ref type="ins" target="#ic2_23_13"><title>IC</title> II 23 13</ref>, più asciutta di quella riservata due secoli prima ad Areo in <ref type="ins" target="#ic2_23_12a"><title>IC</title> II 23 12 A</ref>: l’atto di dedica implica la menzione del dedicatario all’accusativo in posizione iniziale, seguito dal semplice nominativo ἁ πόλις.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#soter"><foreign>soter</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref> II, p. 428 n. 14, tav. II</bibl>; 
+                    <bibl><ref target="#b1812">Thenon 1867</ref>, pp. 418-419</bibl>; 
+                    <bibl><ref target="#bib68"><title>IGR</title></ref> I 955</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 14 <ptr type="phi" target="200052"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 27</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 16</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

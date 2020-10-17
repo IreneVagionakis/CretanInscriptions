@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Dreros relativa all’<foreign>agela</foreign> e alle eterie</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.530</idno>
+                        <idno type="projectNo">413</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli</repository> 
+                                <idno type="invNo">906</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros, tempio di Apollo <foreign>Delphinios</foreign> </origPlace>
+                                    <origDate period="#archaic" notBefore="-0650" notAfter="-0600">650-600 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#dreros"><w lemma="πόλις"><supplied reason="lost">πόλι</supplied></w></rs> <rs type="institution" subtype="social_group" role="unknown" key="hetaireia" ref="#dreros"><w lemma="ἐταιρήια">ἐ<unclear>τ</unclear>αρηιᾶν</w></rs> <g type="|"/> <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#dreros"><w lemma="ϝανδάνω">ἔϝαδε</w></rs>· ὅζ’ <rs type="institution" subtype="age_class" role="regulation" key="agela" ref="#dreros"><w lemma="ἀγέλα">ἀγέλασι</w></rs> το͂  <rs type="institution" subtype="month" role="calendar" key="Hyperboios" ref="#dreros"><w lemma="Ὑπερβοῖος">Ὑπε<lb 
+                              break="no" n="2"/>ρβοίο</w></rs> <g type="|"/> <w lemma="μείς">μηνὸς</w> <g type="|"/> ἐν ἰκάδι <g type="|"/> <w lemma="ὄρος">ὄρον</w> ἧμεν. <space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="1"><note><supplied reason="lost">πόλι</supplied> ἐ<unclear>τ</unclear>αρηιᾶν <g type="|"/> ἔϝαδε· ὅζ’ ἀγέλασι <bibl><ref target="#b1690">Seelentag</ref></bibl>;  <g type="|"/> ἀρήιαν <g type="|"/> ἔϝαδε ὅζα <g type="|"/> ἐλάσι <bibl><ref target="#b1881">Van Effenterre</ref></bibl>, <bibl><ref target="#b1001">Koerner</ref></bibl>, <bibl><ref target="#bib122"><title>Laws</title></ref></bibl> Dr3A;  <g type="|"/> ἀρήιαν <g type="|"/> ἔϝαδε· ὅζ’ ἀ<unclear>γ</unclear>έλασι <bibl><ref target="#bib122"><title>Laws</title></ref></bibl> Dr3B.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, formalmente redatta nella forma di decreto, è introdotta da una formula di sanzione che documenta una decisione presa a proposito delle eterie verosimilmente dalla <foreign>polis</foreign> di Dreros (come avviene in <ref type="ins" target="#seg_27_620"><title>SEG</title> 27.620</ref> e <ref type="ins" target="#bile_4">Bile 4</ref>). L’oggetto della deliberazione stabilisce per quanto riguarda le <foreign>agelai</foreign> (o come per le <foreign>agelai</foreign>) che il termine – per qualcosa di imprecisato – sia fissato per il venti del mese di <foreign>Hyperboios</foreign>, noto solamente a Dreros (cf. le festività degli <foreign>Hyperboia</foreign>, attestate a Creta orientale a Malla, Praisos e Hierapytna: <ref type="ins" target="#ic1_19_1"><title>IC</title> I 19 1</ref>, <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>, <ref type="ins" target="#ic1_8_13"><title>IC</title> I 8 13</ref> e forse <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref>).</p>
+                    <p>Le eterie e l’<foreign>agela</foreign>, a Dreros menzionate anche nel giuramento ellenistico <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>, trovano entrambe la loro più antica attestazione cretese nel presente documento. Il termine <foreign>agela</foreign>, in particolare, in questa come in altre iscrizioni più tarde è impiegato al plurale in relazione ad una stessa città, confermando dunque la notizia dell’esistenza di più <foreign>agelai</foreign> per <foreign>polis</foreign> documentata dalle fonti letterarie (<ref type="lit" target="#Ephor149">Ephor. <title>FGrHist</title> 70 F 149</ref>, <ref type="lit" target="#Heraclid15">Heraclid.Lemb. 15</ref>). Il documento di Dreros, inoltre, condivide con queste ultime l’associazione fra <foreign>agelai</foreign> ed eterie: le testimonianze letterarie, infatti, indicano gli <foreign>andreia</foreign>, legati alle eterie, come base organizzativa delle <foreign>agelai</foreign> (cf. <ref type="lit" target="#Dosiad">Dosiad. <title>FGrHist</title> 458 F 1</ref>, <ref type="lit" target="#Ephor149">Ephor. <title>FGrHist</title> 70 F 149</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela"><foreign>agela</foreign></ref>, <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#hetaireia"><foreign>hetaireia</foreign></ref>, mese <ref type="inst" target="#hyperboios"><foreign>Hyperboios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1881">Van Effenterre 1946</ref>, pp. 597-600 n. 3</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 23.530 <ptr type="seg" target="a23_530"/> <ptr type="poinikastas" target="#"/></bibl>); 
+                            <bibl><ref target="#b1885">Van Effenterre 1961</ref>, pp. 547-552 n. 2</bibl>; 
+                            <bibl><ref target="#b535">Duhoux 1982</ref>, pp. 28-37 n. 4</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 5</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 92</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 68, II 89</bibl>; 
+                            <bibl><ref target="#b1690">Seelentag 2009</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 59.1024 <ptr type="seg" target="a59_1024"/></bibl>);
+                            <bibl><ref target="#b2068">Youni 2010a</ref></bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 286</bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, pp. 248, 496-497</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Dr3</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib26"><title>LSAG</title></ref>, p. 315 n. 1e</bibl>; 
+                            <bibl><ref target="#b1678">Schnapp 1990</ref>, pp. 56-57</bibl>; 
+                            <bibl><ref target="#b705">Ghinatti 2004</ref>, pp. 137</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

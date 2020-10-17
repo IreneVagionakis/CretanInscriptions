@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaffi di una famiglia di Kydonia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 40.776</idno>
+                        <idno type="projectNo">034</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kydonia_graves">Kydonia, tombe ipogee</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#rock">parete</objectType> di roccia intonacata <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#kydonia">Kydonia, tombe ipogee</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0250">300-250 a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">                
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/>Δρομεὺς
+                        <lb n="2"/>Σωσικλέος.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/>Παγκλῆς
+                        <lb n="2"/>Παγκλέος,
+                        <lb n="3"/>Ἀρειοφάτας.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="C">
+                <ab>
+                        <lb n="1"/>Λεχὼ
+                        <lb n="2"/>Σωσίμα Παγκλέος.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="D">
+                <ab>
+                        <lb n="1"/>Ἀχαιάδας <surplus><orig>σ</orig></surplus>
+                        <lb n="2"/><supplied reason="lost">Ε</supplied>ὐρυτίμω.
+                        <lb n="3"/>Ἀχαιάδας Τιμασιθέω.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="E">
+                <ab>
+                        <lb n="1"/>Τιμασίθ<supplied reason="lost">εο</supplied>ς Ἀχαιάδα.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="F">
+                <ab>
+                        <lb n="1"/>Ξηνὼ Μ<gap reason="lost" quantity="1" unit="character"/>νη<unclear>π</unclear><gap reason="lost" quantity="3" unit="character"/>.
+                        <lb n="2"/>Νικιὼ Ἀχαιάδα.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="G">
+                <ab>
+                        <lb n="1"/>Σωσικ<supplied reason="lost">λῆς</supplied>
+                        <lb n="2"/>Δρομέο<supplied reason="lost">ς</supplied>,
+                        <lb n="3"/>Ὀρειφάτας.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="H">
+                <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ὼ <surplus><orig>σ</orig></surplus> Εὐρυτίμω.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="I">
+                <ab>
+                        <lb n="1"/>Πίτ<unclear>θ</unclear>ις Σωμβρότω.
+                        <lb n="2"/>Ξηνὼ Σω<corr>μ</corr>βρότω.
+                        <lb n="3"/>Δρομεὺς Σωμβρότω.
+                        <lb n="4"/>Σωσίων Σωμβρότω.
+                        <lb n="5"/><surplus><orig>σ</orig></surplus> Εὐπάτρα Πίτθιος.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>Gli epitaffi sono stati tracciati con il carbone sulle pareti di un complesso sotterraneo formato da nove tombe scavate nella roccia. Ciascuno di essi, menzionante il nome ed il patronimico del defunto, sovrasta l’architrave della porta d’ingresso del relativo loculo. Sulla base dell’onomastica degli individui è possibile identificare quattro nuclei familiari (A+G, B+C, D+E+F+H, I), molto probabilmente imparentati fra loro, che per la ricchezza dei corredi sembrano essere di una certa importanza a Kydonia (cf. <bibl><ref target="#b1218">Markoulaki – Niniou Kindeli 1982</ref></bibl>). La famiglia di cui fanno parte i fratelli Pankles e Sosima figli di Pankles (B-C), in particolare, potrebbe verosimilmente essere la stessa di Eumaridas figlio di Pankles di Kydonia, prosseno di Atene onoratovi assieme al figlio e al nipote negli anni 228/7, 211/10 e 193/2 a.C. (<ref type="ins" target="#ig_ii3_1137"><title>IG</title> II<hi rend="superscript">3</hi> 1 1137</ref>; cf. <bibl><ref target="#b1475">Papazarkadas – Thonemann 2008</ref>, p. 81</bibl>). I termini Ἀρειοφάτας, Ὀρειφάτας e Λεχώ non sembrano essere nomi ma epiteti attribuiti ai defunti, il cui significato sarebbe quello di «colpito da Ares» nel senso di «morto in guerra» per Ἀρειοφάτας (cf. Masson in <bibl><ref target="#bib106"><title>BE</title></ref> 1991.209</bibl>) e di «morta di parto» per Λεχώ (cf. <ref type="ins"><title>IC</title> II 10 12 A</ref>). Di più difficile interpretazione è invece Ὀρειφάτας, che non è da escludere che sia una scrittura errata di Ἀρειοφάτας, come ipotizza Olivier Masson.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: nessuno nello specifico.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Ed.</emph> <bibl><ref target="#b1218">Markoulaki – Niniou Kindeli 1982</ref>, pp. 27-40, tavv. 2-10</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 40.776 <ptr type="phi" target="202075"/> 
+                <ptr type="phi" target="202076"/> <ptr type="phi" target="202077"/> <ptr type="phi" target="202078"/>
+                <ptr type="phi" target="202079"/> <ptr type="phi" target="202080"/> <ptr type="phi" target="202081"/>
+                <ptr type="phi" target="202082"/> <ptr type="phi" target="202083"/></bibl>). 
+                    <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1219">Markoulaki – Niniou Kindeli 1985</ref></bibl>; 
+                    <bibl><ref target="#b1475">Papazarkadas – Thonemann 2008</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 58.1008</bibl>);
+                    <bibl><ref target="#b1347">Milidakis 2013</ref>, figg. 43-44</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

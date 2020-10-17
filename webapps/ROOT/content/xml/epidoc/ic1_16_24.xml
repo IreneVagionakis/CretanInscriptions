@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dell’<foreign>eunomia</foreign> di Lato relativa ad un tempio di Afrodite</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 24</idno>
+                        <idno type="projectNo">463</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">277</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0100">fine II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>σοὶ <persName type="divine" key="Zeus">Διὸς</persName> ὑψίστοιο καὶ εὐπλοκάμοιο <persName type="divine" key="Dione">Διώνα<supplied reason="lost">ς</supplied></persName>,
+                          <lb n="2"/><persName type="divine" key="Kypris">Κύπρ<supplied reason="lost">ι</supplied></persName>, <rs type="institution" subtype="public_space" role="dedication" key="naos" ref="#lato"><w lemma="ναός">ναὸν</w></rs> <supplied reason="lost">π</supplied>ροπάροιθε <rs type="institution" subtype="public_space" role="landmark" key="eunomia" ref="#lato"><w lemma="εὐνομία">εὐνομίας</w></rs> <w lemma="τίθημι">ἔθεσαν</w>
+                          <lb n="3"/><rs type="institution" subtype="board" role="builder" key="eunomia" ref="#lato">οἵδε σὺν <persName type="attested" key="Aution"><name nymRef="Αὐτίων">Αὐτίωνι</name></persName></rs>· τίνες δ’ ὅδε <w lemma="πέτρος">πέτρος</w> <w lemma="ἐλέγχω">ἐλέγχ<supplied reason="lost">ει</supplied></w>,
+                          <lb n="4"/>πότνια, τοῖς σὺ δίδου πανδάματορ <w lemma="χάρις">χάριτας</w>,
+                          <lb n="5"/>καὶ λιπαρὸν πρὸς τέρμα βίου γηραιὸς ἱκέσθαι
+                          <lb n="6"/>πάντας ἀπημάντους, <persName type="divine" key="Kyprogeneia">Κυπρογένεια</persName> θεά.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, in versi, commemora la costruzione di un tempio di Afrodite di fronte alla struttura pubblica in cui ha sede il collegio dell’<foreign>eunomia</foreign>, responsabile dell’intervento edilizio sotto la guida del suo <foreign>leader</foreign> Aution. I nomi degli altri membri del collegio, non pervenuti, dovevano originariamente essere indicati sulla pietra, così come implica l’espressione τίνες δ’ ὅδε πέτρος ἐλέγχ[ει] alla linea 3 e analogamente a quanto avviene nelle altre iscrizioni edificatorie promosse dall’<foreign>eunomia</foreign> di Lato (nove magistrati sono commemorati in <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref>, mentre almeno sette in <ref type="ins" target="#ic1_16_21"><title>IC</title> I 16 21</ref>).</p>
+                    <p>Afrodite compare come dedicataria di più iscrizioni edificatorie di Lato, <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>, <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e verosimilmente <ref type="ins" target="#bile_47">Bile 47</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>, provenienti dall’<foreign>Aphrodision</foreign> di Dera; un <foreign>Aphrodision</foreign> è inoltre menzionato in <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#eunomia"><foreign>eunomia</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1206">Mariani 1896</ref>, pp. 275-276</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5083</bibl>; 
+                            <bibl><ref target="#b1096">Levi 1922</ref>, pp. 375-376 n. 19</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 24 <ptr type="phi" target="199232"/></bibl>; 
+                            <bibl><ref target="#b1879">Van Effenterre 1943</ref></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 11</bibl>; 
+                            <bibl><ref target="#b154">Bile 2008</ref>, p. 265</bibl>; 
+                            <bibl><ref target="#b1546">Pironti 2009</ref>, pp. 46-50</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>; 
+                            <bibl><ref target="#b619">Flemberg 1994</ref></bibl>; 
+                            <bibl><ref target="#b310">Chaniotis 1998</ref>, pp. 307-308 n. 127</bibl>; 
+                            <bibl><ref target="#b1258">Martínez Fernández 2007</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

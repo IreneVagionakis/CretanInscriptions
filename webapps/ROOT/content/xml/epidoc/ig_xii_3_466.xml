@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica da parte di un ufficiale tolemaico di Itanos (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG XII, 3 466/1390</idno>
+                        <idno type="projectNo">528</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica votiva/onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#altar">altare</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#thera">Thera</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0163" notAfter="-0155">160 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><add place="overstrike">ὑπὲρ Ἀρισ<supplied reason="lost">τίππ</supplied>ου τοῦ Θεο<lb 
+                        break="no" n="2"/>ξένου <placeName ref="#alexandria" type="ethnic">Ἀλ<supplied reason="lost">εξαν</supplied>δρέως</placeName> τῶν δια<lb 
+                        break="no" n="3"/>δόχων το<supplied reason="lost">ῦ τετ</supplied>αγμένου ἐπὶ <placeName ref="#thera">Θήρας</placeName></add>
+                          <lb n="4"/><persName type="ruler" key="Ptolemaios VI" ref="#egypt"><add place="overstrike"><w lemma="βασιλεύς">βασιλεῖ</w></add> <name nymRef="Πτολεμαῖος">Πτολεμα<supplied reason="lost">ίωι</supplied></name></persName> <supplied reason="lost">κα</supplied>ὶ τοῖς ἄλλοις
+                          <lb n="5"/><w lemma="θεός">θεοῖς</w> τὸ<supplied reason="lost">ν</supplied> <w lemma="βωμός"><supplied reason="lost">βω</supplied>μὸν</w> <add place="overstrike">ἕνεκεν τῆς
+                          <lb n="6"/>εἶχεν <w lemma="καλοκαγαθία">καλο<supplied reason="lost">κἀγα</supplied>θίας</w> εἴς τε τοὺς <w lemma="στρατιώτης">στρα<lb 
+                        break="no" n="7"/>τιώτας</w> κα<supplied reason="lost">ὶ τ</supplied>ὴν πόλιν καὶ τὰ τοῦ
+                          <lb n="8"/><persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς">βασιλέως</w></persName> <supplied reason="lost">πρ</supplied>άγματα καὶ εἰς τοὺς
+                          <lb n="9"/><w lemma="θεός">θεοὺς</w> <w lemma="εὐσέβεια">εὐ<supplied reason="lost">σε</supplied>βείας</w></add> <rs type="institution" subtype="official" role="dedicant" key="oikonomos" ref="#itanos" cert="low"><persName type="attested" key="Eirenaios f. Nikios"><name nymRef="Εἰρηναῖος">Εἰρηναῖος</name>
+                          <lb n="10"/><name nymRef="Νίκιος" type="patronymic">Νικίου</name> <placeName ref="#alexandria" type="ethnic"><supplied reason="lost">Ἀλε</supplied>ξ<surplus>σ</surplus>ανδρεύς</placeName></persName></rs>,
+                          <lb n="11"/>ὁ <w lemma="γραμματεύς">γραμμα<supplied reason="lost">τεὺ</supplied>ς</w> τῶν κατὰ <placeName ref="#crete">Κρήτην</placeName>
+                          <lb n="12"/>καὶ <placeName ref="#thera">Θήρα<supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">κ</supplied>αὶ <placeName ref="#methana">Ἀρσινόην
+                          <lb n="13"/>τὴν ἐν <supplied reason="lost">Πε</supplied>λοποννήσωι</placeName>
+                          <lb n="14"/><w lemma="στρατιώτης">στρατιω<supplied reason="lost">τ</supplied>ῶν</w> καὶ <w lemma="μάχιμος">μαχίμων</w>
+                          <lb n="15"/>καὶ <rs type="institution" subtype="official" role="dedicant" key="oikonomos" ref="#itanos" cert="low"><w lemma="οἰκονόμος">οἰκον<supplied reason="lost">όμ</supplied>ος</w> τῶν αὐτῶν τόπων</rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, proveniente da Thera e diretta a Tolemeo VI e agli altri dèi, è stata iscritta una seconda volta sopra una sua stesura precedente. Il dedicante, menzionato alle linee 9-15, è l’ufficiale tolemaico Eirenaios figlio di Nikios, originario di Alessandria, che detiene le cariche di segretario dei soldati e dei combattenti presso Creta, Thera e Arsinoe nel Peloponneso nonché di <foreign>oikonomos</foreign> di tali aree. Per quanto riguarda Creta, è pressoché certo che l’ambito territoriale definito dall’espressione κατὰ Κρήτην si riferisca ai possedimenti tolemaici situati ad Itanos (sul cui <foreign>phrourion</foreign> cf. <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2-5</ref>, <ref type="ins" target="#ic3_4_9">9</ref>, <ref type="ins" target="#ic3_4_14">14</ref>, <ref type="ins" target="#ic3_4_18">18</ref>; cf. <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#oikonomos"><foreign>oikonomos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> XII, 3 466/1390 <ptr type="phi" target="75990"/></bibl>;
+                            <bibl><ref target="#bib115"><title>OGIS</title></ref> 102</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1466">Papadakis 2000</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

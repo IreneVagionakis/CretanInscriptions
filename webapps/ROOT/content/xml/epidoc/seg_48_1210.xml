@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Gortyna per Cirenei e Romani</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 48.1210</idno>
+                        <idno type="projectNo">332</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mitropolis">Basilica di Mitropolis, Gortyna</repository> 
+                                <idno type="invNo">94 GO 6620</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0100" notAfter="0030">100-50 a.C. (A), fine I secolo a.C. - inizi I secolo d.C. (B-C)</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Euippos f. Ptolemaios" ref="#cyrene"><name nymRef="Εὔιππος">Εὔιππος</name></persName> καὶ
+                          <lb n="2"/><persName type="honoured" key="Ptolemaios f. Ptolemaios (2)" ref="#cyrene"><name nymRef="Πτολεμαῖος">Πτολεμαῖος</name>
+                          <lb n="3"/><supplied reason="lost">ο</supplied>ἱ <name nymRef="Πτολεμαῖος" type="patronymic">Πτολεμαί<lb 
+                        break="no" n="4"/><supplied reason="lost">ο</supplied>υ</name></persName> <placeName ref="#cyrene" type="ethnic">Κυραναῖοι</placeName>
+                          <lb n="5"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γ</supplied>ορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρό<lb 
+                        break="no" n="6"/>ξενοι</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πολί<lb 
+                        break="no" n="7"/>ται</w></rs>, αὐτοὶ καὶ
+                          <lb n="8"/><w lemma="ἔκγονος">ἔκγονοι</w>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="9"/><persName type="honoured" key="Gaios Mamilios Antas" ref="#rome"><name nymRef="Γάιος">Γάϊος</name> <name nymRef="Μαμίλιος">Μαμίλιος</name> <name nymRef="Ἀντᾶς">Ἀντᾶς</name></persName>
+                          <lb n="10"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="11"/>καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πολίτας</w></rs>, αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                          <lb n="12"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="13"/><persName type="honoured" key="Leukios Kaikilios Balbos f. Leukios" ref="#rome"><name nymRef="Λεύκιος">Λεύκιος</name> <name nymRef="Καικίλιος">Καικίλιος</name> <name nymRef="Λεύκιος" type="patronymic">Λευ<lb 
+                        break="no" n="14"/>κίου</name> υἱὸς <name nymRef="Βάλβος">Βάλβος</name></persName> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυ<lb 
+                        break="no" n="15"/>νίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πο<lb 
+                        break="no" n="16"/><supplied reason="lost">λίτα</supplied>ς</w></rs> αὐτὸς καὶ <w lemma="ἔκγονος">ἔκγονοι</w>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I tre decreti onorari si presentano tutti nella formulazione ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, comprensiva solamente di nomi degli individui onorati e della natura degli onori conferiti loro. In tutti e tre i casi la concessione effettuata consiste nella combinazione della prossenia e della <foreign>politeia</foreign>, conferite congiuntamente in un buon numero di decreti gortynii. Tutti e tre i decreti, inoltre, conservano il ricordo della <foreign>polis</foreign> attraverso l’uso dell’etnico collettivo cittadino, impiegato come specificazione dell’onore conferito per compensare forse la mancata menzione delle entità istituzionali responsabili della decisione, come nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b1164">Magnelli 1998</ref>, pp. 1291-1305</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 48.1210 <ptr type="seg" target="a48_1210"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b81">Baldwin Bowsky 2002</ref>, pp. 49-55 nn. 11, 32</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

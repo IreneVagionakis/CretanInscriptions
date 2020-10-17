@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Malla e Attalo I</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 46.1232</idno>
+                        <idno type="projectNo">478</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">311</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#malla">Malla</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0210" notAfter="-0197">200 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="26" unit="character" precision="low"/><orig>ωσατ</orig><gap reason="illegible" quantity="1" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="23" unit="character" precision="low"/><orig>σ</orig> εἶναι <orig>αγω</orig>
+                          <lb n="3"/><gap reason="lost" quantity="20" unit="character" precision="low"/><orig>ιεαεσειντακ</orig>
+                          <lb n="4"/><gap reason="lost" quantity="17" unit="character" precision="low"/> <supplied reason="lost">τὸ</supplied>ν <w lemma="ὑπογράφω">ὑπογεγρανμένον</w>
+                          <lb n="5"/><supplied reason="lost"><w lemma="ὅρκος">ὅρκον</w></supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied>ὰν δέ τι τῶν <w lemma="γράφω">γεγρανμέν<lb 
+                        break="no" n="6"/><supplied reason="lost">ων</supplied></w> <supplied reason="lost">κοινῆι ἐν</supplied> τῆι <rs type="institution" subtype="object" role="treaty-making" key="homologia" ref="#malla"><w lemma="ὁμολογία">ὁμολογίαι</w></rs> <placeName ref="#malla" type="ethnic">Μαλλαῖοι</placeName> μὴ <orig>ν</orig><gap reason="illegible" quantity="1" unit="character"/><lb 
+                        break="no" n="7"/><gap reason="illegible" quantity="4" unit="character"/><orig>νιι</orig>, ἔνοχοι ἔστωσαν τῶι παρησπ<lb 
+                        break="no" n="8"/><supplied reason="lost">ο</supplied>νδηκέναι καὶ λελύκεν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#malla"><w lemma="συνθήκα">τασυνθήκας</w></rs>. <surplus>κα</surplus>
+                          <lb n="9"/>κατὰ ταὐτά δὲ καὶ ἐὰν <placeName ref="#malla" type="ethnic">Μαλλαῖοι</placeName> χρείαν ἔ<supplied reason="lost">χ</supplied><lb 
+                        break="no" n="10"/>οντες <w lemma="συνμαχία">συνμαχίας</w> πένπωσι πρὸς <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλ<lb 
+                        break="no" n="11"/>έα</w> <name nymRef="Ἄτταλος">Ἄτταλον</name></persName>, <w lemma="ἀποστέλλω">ἀποστελλέτω</w> <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Ἄτταλος">Ἄτ<supplied reason="lost">τ</supplied><lb 
+                        break="no" n="12"/>αλος</name></persName> <w lemma="ἀνήρ">ἄνδρας</w> τριακοσίους καὶ <w lemma="ἡγεμών">ἡγεμόνα<supplied reason="lost">ς</supplied></w>
+                          <lb n="13"/><supplied reason="lost">ἐ</supplied>π’ αὐ<supplied reason="lost">τῶ</supplied>ν, ἐὰν δὲ μὴ ἐκποιῆι τὸ πλῆθος τοῦτ<lb 
+                        break="no" n="14"/><supplied reason="lost">ο</supplied> διά τινας καιρούς, ὅσους ἂν ἐνδέχηται, ἐ<lb 
+                        break="no" n="15"/><supplied reason="lost">ὰ</supplied>ν μὴ ἐπ’ <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίους</placeName> ἢ <placeName ref="#priansos" type="ethnic">Πριανσίους</placeName> ἢ <placeName ref="#arkades" type="ethnic">Ἀρκά<lb 
+                        break="no" n="16"/>δας</placeName> <w lemma="παρακαλέω">παρκαλῶσιν</w>· οὗτοι δὲ ὑπεξαιρήσθων ὑ<lb 
+                        break="no" n="17"/>πὸ <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλέος</w> <name nymRef="Ἄτταλος">Ἀττάλου</name></persName>. τοῖς δὲ πενπομένοις
+                          <lb n="18"/>πορεῖα μὲν παρεχέτω <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Ἄτταλος">Ἄτταλος</name></persName> κ<lb 
+                        break="no" n="19"/>αὶ τὰ <w lemma="ὀψώνιον">ὀψώνια</w> καὶ τὰ δέοντα ἐν τῶ<corr>ι</corr> πλοῶι. <surplus>οτα</surplus>
+                          <lb n="20"/>ὅταν δὲ παραγένωνται πρὸς <placeName ref="#malla" type="ethnic">Μαλλαίους</placeName>, τ<supplied reason="lost">ρ</supplied><lb 
+                        break="no" n="21"/>ε<supplied reason="lost">φ</supplied>έτωσαν τὴν <w lemma="συνμαχία">συνμαχίαν</w> αὐτοί, παρέχ<supplied reason="lost">ο</supplied><lb 
+                        break="no" n="22"/>ντες τῆς ἡμερᾶς ἑκάστωι <w lemma="ἀνήρ">ἀνδρὶ</w> <w lemma="δραχμά">δραχμὰν</w>
+                          <lb n="23"/>αἰγιναῖαν, τῶν δ’ <w lemma="ἡγεμών">ἡγεμόνων</w> ἑκάστωι <w lemma="δραχμά">δραχμ<lb 
+                        break="no" n="24"/>ὰς</w> δύο καὶ κατὰ <w lemma="σῶμα">σῶμα</w> χοίνικα ἀττ<supplied reason="lost">ικ</supplied>ήν, ἐαν μ<lb 
+                        break="no" n="25"/>ὴ ἐν πολεμίαι ὦσιν, οὗ ἔσται σῖτον λανβά<lb 
+                        break="no" n="26"/>νειν. παραμενέτωσαν δὲ οἱ <w lemma="ἀποστέλλω">ἀποσταλέν<lb 
+                        break="no" n="27"/>τες</w> ἕως ἂν <placeName ref="#malla" type="ethnic">Μαλλαῖοι</placeName> χρείαν ἔχωσι. ὅταν δὲ
+                          <lb n="28"/>ἀπολύωσιν <w lemma="σύνμαχος">τουσυνμάχος</w> πρὸς <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλέα</w> <name nymRef="Ἄτταλος">Ἄ<lb 
+                        break="no" n="29"/><supplied reason="lost">τ</supplied>ταλον</name></persName> τὰ <w lemma="πορεῖον">πορεῖα</w> δότωσαν αὐτοὶ <orig>συνα</orig>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁμολογέω"><supplied reason="lost">ὁ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">μο</supplied>λόγημ<supplied reason="lost">εν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">εἰ μὴ παραβ</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">α</supplied>ίνοντας <rs type="institution" subtype="object" role="treaty-making" key="homologia" ref="#malla"><w lemma="ὁμολογία">ὁμολογί<supplied reason="lost">αν</supplied></w></rs><supplied reason="lost">, ἤτω ἐξώλης τε καὶ</supplied>
+                          <lb n="4"/>πανώλης καὶ αὐ<supplied reason="lost">τὸ</supplied>ς <supplied reason="lost">καὶ <w lemma="γυνή">γυνὴ</w> καὶ τέκν</supplied><lb 
+                        break="no" n="5"/>α καὶ <w lemma="πατρίς">πατρὶς</w> καὶ οἱ <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασι<supplied reason="lost">λέως</supplied></w></persName> <supplied reason="lost"><w lemma="φίλος">φίλοι</w>. ἐὰ</supplied><lb 
+                        break="no" n="6"/>ν δὲ καὶ ἐνμένοντι ἐν τ<supplied reason="lost">ο</supplied>ῖς <w lemma="ὁμολογέω"><supplied reason="lost">ὁμολογημένοι</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">ς</supplied></w>, εἶναι καὶ βίον εὐδαίμονα <supplied reason="lost">αὐτῶι καὶ</supplied>
+                          <lb n="8"/><w lemma="γυνή">γυναικὶ</w> καὶ τέκνοις καὶ <w lemma="πατρίς">πατρίδι</w> καὶ τοῖς <w lemma="φίλος"><supplied reason="lost">φ</supplied><lb 
+                        break="no" n="9"/>ίλο<corr>ι</corr>ς</w>. <w lemma="ὅρκος">ὅ<supplied reason="lost">ρκ</supplied>ος</w> <persName type="ruler" key="Attalos I" ref="#pergamon"><w lemma="βασιλεύς">βασιλέως</w> <name nymRef="Ἄτταλος">Ἀττάλου</name></persName>· <w lemma="ὀμνύω">ὀμνύω</w> <persName type="divine" key="Zeus">Δί<supplied reason="lost">α</supplied></persName>,
+                          <lb n="10"/><persName type="divine" key="Ge">Γῆν</persName>, <persName type="divine" key="Helios">Ἥλιον</persName>, <persName type="divine" key="Poseidon">Ποσειδῶ</persName>, <persName type="divine" key="Demeter">Δήμητρα</persName>, <persName type="divine" key="Ares">Ἄρη</persName>, <persName type="divine" key="Athena Areia">Ἀθην<lb 
+                        break="no" n="11"/>ᾶν Ἀρείαν</persName> καὶ τὴν <persName type="divine" key="Tauropolos">Ταυροπόλον</persName> καὶ τοὺ<corr>ς</corr> ἄ<lb 
+                        break="no" n="12"/>λλους <w lemma="θεός">θεοὺς</w> πάντας καὶ πάσας· ἐνμέν<lb 
+                        break="no" n="13"/>ειν ἐν τῆι <w lemma="φιλία">φιλίαι</w> καὶ τῆι <w lemma="συνμαχία">συνμαχίαι</w> καὶ τ<lb 
+                        break="no" n="14"/><supplied reason="lost">οῖ</supplied>ς <w lemma="ὁμολογέω"><corr>ὁ</corr>μολογημένοις</w> πρὸς <placeName ref="#malla" type="ethnic">Μαλλαίους</placeName> ε<lb 
+                        break="no" n="15"/>ἰς τὸν πάντα χρόνον καὶ πρὸς αὐτοὺς καὶ τ<lb 
+                        break="no" n="16"/>οὺς <w lemma="ἔγγονος">ἐγγόνους</w> καὶ οὐθὲν παραβήσεσθαι
+                          <lb n="17"/>τῶν <w lemma="ὁμολογέω">ὁμολογημένων</w>. <w lemma="εὐορκέω">εὐορκοῦντι</w> μὲν
+                          <lb n="18"/>μοι εὖ ἔξη<supplied reason="lost">ν,</supplied><w lemma="ἐφιορκέω"><supplied reason="lost">ἐ</supplied>φιουρκοῦντι</w> δὲ τἀναντία.
+                          <lb n="18a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento conserva parte del trattato fra Malla e Attalo I, sovrano che a Creta compare anche come beneficiario di un decreto onorario (<ref type="ins" target="#ic2_3_4c"><title>IC</title> II 3 4 C</ref> da Aptera). Gli accordi, definiti all’interno del testo stesso sia <foreign>homologia</foreign> (ll. A 6, B 3) che <foreign>synthekai</foreign> (l. A 8), prevedono l’instaurazione di un rapporto di amicizia e <foreign>symmachia</foreign> fra i due contraenti (ll. B 13) e sembrano essere incentrati sulla fornitura reciproca di aiuto militare (così come il trattato stipulato successivamente da Eumene II e trentun città cretesi <ref type="ins" target="#ic4_179"><title>IC</title> IV 179</ref>; sui mercenari cretesi negli eserciti dei sovrani attalidi cf. <bibl><ref target="#b470">De Callataÿ 2013</ref>, p. 213</bibl>).</p>
+                    <p>Il testo conservatosi sul lato A del frammento restituisce parte della sezione volta a regolamentare la fornitura di aiuto militare a Malla da parte del re (ll. 9-29), di cui vengono definite l’entità e i dettagli relativi alla paga e alla copertura delle spese di viaggio. Come indica l’espressione κατὰ ταὐτά δὲ καί alla linea 9, tali clausole dovevano essere precedute da disposizioni analoghe relative all’invio di aiuti militari da parte di Malla. Particolarmente interessante è la specificazione alle linee 14-17 che l’aiuto di Attalo verrà fornito a patto che non sia richiesto per combattere contro Hierapytna, Priansos o Arkades, <foreign>poleis</foreign> che si trovano in buoni rapporti con il sovrano.</p>
+                    <p>Il testo conservato sul lato B della stele, invece, restituisce la sezione finale del trattato contenente il giuramento del re, preceduto e seguito dall’augurio di ogni bene nel caso di rispetto degli accordi, di ogni male nel caso di loro violazione; il giuramento di Malla, non pervenuto, doveva verosimilmente trovarsi nella parte superiore di questo lato della stele.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#homologia"><foreign>homologia</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b531">Ducrey – Van Effenterre 1969</ref>, n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 46.1232 <ptr type="seg" target="a46_1232"/> <ptr type="phi" target="201447"/></bibl>); 
+                            <bibl><ref target="#b527">Ducrey 1970</ref>, pp. 638-642 n. 2</bibl>;
+                            <bibl><ref target="#b357">Charalambakis 1977</ref>, n. 4</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b454">Daux 1971</ref></bibl>;
+                            <bibl><ref target="#b455">Daux 1975</ref></bibl>; 
+                            <bibl><ref target="#b121">Bertrand 1992</ref>, pp. 208-209 n. 115</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

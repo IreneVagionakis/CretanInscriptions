@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Euromos  relativo a istituzioni di origine cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 43.707</idno>
+                        <idno type="projectNo">600</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#euromos">Euromos, tempio di Zeus <foreign>Lepsynos</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0197" notAfter="-0190" precision="low">197-190 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ταῖς ἀρχαιρ<unclear>εσίαις</unclear> <rs type="institution" subtype="board" role="appointee" key="protokosmos" ref="#euromos"><w lemma="πρῶτος κόσμος">πρώ<unclear>τ</unclear>ους κόσμους</w></rs> τρεῖς, μετὰ δὲ
+                            <lb n="2"/><supplied reason="lost">τούτους</supplied> <unclear>προ</unclear>στάτας τοῦ <unclear>δήμου</unclear> <num value="3"><unclear>γ</unclear></num>, τὴν δὲ αἵρεσιν εἶναι τῶν ἀρχείων
+                            <lb n="3"/>τούτωμ π<unclear>ρὸς</unclear> μέρος ἀπὸ τῶ<unclear>μ</unclear> φ<unclear>υ</unclear>λῶν, ἐπιτετάχθαι δὲ τοῖς μὲγ <rs type="institution" subtype="board" role="defense" key="kosmos" ref="#euromos"><w lemma="κόσμος">κόσ<lb 
+                                break="no" n="4"/>μοις</w></rs> ὅσα πρὸς τὴν τῆς πόλεω<unclear>ς</unclear> καὶ τῆς χώρας <w lemma="φυλακή">φυλακὴν</w> ἀνήκει καὶ
+                            <lb n="5"/>τὰς κλεῖδας παραδίδοσθαι <unclear>τού</unclear>τοις, εἶναι δὲ πρὸς τούτους καὶ τὴν
+                            <lb n="6"/>τῶμ φρουρίων <w lemma="ἐπιμέλεια">ἐπιμέλειαγ</w> κ<unclear>αὶ</unclear> τὰ κατὰ τὰς <w lemma="στρατεία">στρατείας</w> καὶ ὅσα κατὰ
+                            <lb n="7"/>τὴν συνθήκην τὴμ περὶ τῆ<unclear>ς</unclear> <unclear>σ</unclear>υμμαχίας τῆς συντεθειμένης
+                            <lb n="8"/>πρὸς <w lemma="βασιλεύς">βασιλέα</w> μέγαν Ἀντίοχον διὰ Ζεύξιδος, μὴ εἶναι δὲ ἄλλο ἀρχεῖ<lb 
+                                break="no" n="9"/>ομ μηθὲν κυριώτερον τούτου πλὴν τῆς βουλῆς μηδὲ τετάχθαι
+                            <lb n="10"/>τούτους ὑπ’ ἄλλομ μηθένα, τ<unclear>οῖ</unclear>ς δὲ προστάταις τὰ κατὰ τοὺς χρημα<lb 
+                                break="no" n="11"/>τισμοὺς ἐπιτετάχθαι καὶ <unclear>ε</unclear>ἴ <unclear>τι</unclear> ἄλλο ἐν τοῖς νόμοις διατέτακται,
+                            <lb n="12"/>γράμματα δὲ ἄμ που δέηι πέμπεσθαι ὑπὲρ τῆς πόλεως ἢ ὑπὲρ ἄλλου
+                            <lb n="13"/>τινὸς διὰ τῶν ἀρχείων τού<unclear>τ</unclear>ων ἐξαποστελλέσθω γραφόμενα ἐ<lb 
+                                break="no" n="14"/><supplied reason="lost">πί τε</supplied> <unclear>τῶ</unclear>γ <rs type="institution" subtype="board" role="onlooker" key="kosmos" ref="#euromos"><w lemma="κόσμος">κόσμων</w></rs> καὶ τῶμ προστατῶμ, μὴ ἐξουσία δὲ ἔστω μηδὲ ὁ<lb 
+                                break="no" n="15"/><supplied reason="lost">ποτέρωι</supplied> <unclear>τ</unclear>ῶν ἀρχείων τούτωγ καθ’ ἰδίαγ γράμματα πέμπειν, μη<lb 
+                                break="no" n="16"/><supplied reason="lost">δὲ δὶς τὰ αὐ</supplied><unclear>τ</unclear>ὰ ἀρχεῖα <w lemma="αἱρέω">αἱρεῖσθαι</w> πρὸς μέρος ἀπὸ τῶμ φυλῶν·
+                            <lb n="17"/><supplied reason="lost">αἱρεῖσθαι δὲ καθ’ ἕ</supplied><unclear>κ</unclear>αστον ἐν<unclear>ιαυ</unclear>τὸν ἐν ἀρχαιρεσίαις πρὸς μέρος
+                            <lb n="18"/><supplied reason="lost">ἀπὸ τῶν φυλῶν τὸν στ</supplied>εφανη<supplied reason="lost">φόρον καὶ</supplied> <rs type="institution" subtype="official" role="appointee" key="hiereus_tou_Dios_tou_Kretageneta_kai_Diktynnes" ref="#euromos"><w lemma="ἱερεύς"><supplied reason="lost">ἱερέ</supplied>α</w></rs> τοῦ <persName type="divine" key="Zeus Kretagenetas">Διὸς τοῦ Κρηταγε<lb 
+                                break="no" n="19"/><supplied reason="lost">νέτα</supplied></persName> <supplied reason="lost">καὶ <persName type="divine" key="Diktynna">Δικτύννης</persName></supplied> <gap reason="lost" extent="unknown" unit="character"/> <unclear>ὑπο</unclear><gap reason="lost" extent="unknown" unit="character"/><unclear>ου</unclear> <unclear>και</unclear>
+                            <lb n="19a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="18-19"><note>Κρηταγε<supplied reason="lost">νέτα</supplied> <bibl><ref target="#b1139">Ma</ref></bibl>; Κρηταγε<supplied reason="lost">νοῦς</supplied> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, mutilo sia superiormente che inferiormente, documenta la decisione di Euromos di eleggere fra i suoi magistrati tre protocosmi (l. 1, πρώτους κόσμους τρεῖς), responsabili unici della difesa della città, del suo territorio e dei suoi <foreign>phrouria</foreign>, possessori delle chiavi della città e responsabili di tutte le operazioni militari e di tutto quanto previsto dall’alleanza fra Euromos e Antioco III (cf. <ref type="ins"><title>SEG</title> 36.973</ref>; ll. 1-8). A tali magistrati, inoltre, è accordata un’autorità inferiore solamente a quella della <foreign>boule</foreign> (ll. 8-10) ed è affidato, assieme ai <foreign>prostatai</foreign> del <foreign>demos</foreign>, il compito di sovrintendere alla redazione della corrispondenza della città (ll. 12-15). La loro scelta, che deve avvenire a turno fra le tribù della città, apparentemente è limitata ad una sola elezione per tribù (ll. 2-3 e 15-16).</p>
+                    <p>L’istituzione del cosmato a Euromos, il solo caso esterno a Creta, è accompagnata dall’istituzione di un’altra carica dal chiaro sapore cretese, il sacerdozio di Zeus <foreign>Kretagenetas</foreign> e Diktynna (ll. 17-19). Diversamente da quella dei cosmi, nota per la maggioranza delle città cretesi (sebbene la nomenclatura di protocosmo vi sia documentata anteriormente all’età imperiale soltanto nei decreti di Praisos <ref type="ins" target="#ic3_6_7"><title>IC</title> III 6 7</ref>-<ref type="ins" target="#ic3_6_8">8</ref>), la carica sacerdotale in questione non è mai attestata a Creta. I culti di Diktynna e Zeus <foreign>Kretagenes</foreign>, a Creta documentati assieme solamente nel giuramento del trattato fra gli <foreign>Oreioi</foreign> e Maga di Cirene (<ref type="ins" target="#ic2_17_1"><title>IC</title> II 17 1</ref>), sono peraltro scarsamente attestati nella documentazione epigrafica dell’isola anteriore all’età imperiale. Il culto di Diktynna, infatti, è limitato alla sola Creta occidentale (cf. <ref type="ins" target="#ic2_17_1"><title>IC</title> II 17 1</ref>, <ref type="ins"><title>IC</title> II 11 4</ref>), dove sono noti almeno due <foreign>Diktynnaia</foreign> (cf. <ref type="ins" target="#ic2_11_3"><title>IC</title> II 11 3</ref> e <ref type="ins" target="#ic2_17_1"><title>IC</title> II 17 1</ref>); lo Zeus «nato a Creta», invece, compare nella forma <foreign>Kretagenes</foreign> in <ref type="ins" target="#ic2_17_1"><title>IC</title> II 17 1</ref> e forse <ref type="ins" target="#ic1_16_16"><title>IC</title> I 16 16</ref>, mentre come <foreign>Kretagenias</foreign> in <ref type="ins" target="#ic4_183"><title>IC</title> IV 183</ref>, <ref type="ins" target="#seg_61_722"><title>SEG</title> 61.722</ref>, <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref>, <ref type="ins" target="#seg_33_638"><title>SEG</title> 33.638</ref>, <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref> e verosimilmente <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#ic1_18_9"><title>IC</title> I 18 9</ref>.
+                            In Caria, invece, due iscrizioni di Amyzon documentano un <foreign>archiereus</foreign> di Zeus <foreign>Kretagenetas</foreign> e Diktynna (<ref type="ins"><title>Amyzon</title> 2</ref> e <ref type="ins">8</ref>), mentre da Olymos e Mylasa provengono tre attestazioni di un sacerdote di Zeus <foreign>Kretagenes</foreign> e dei Cureti (<ref type="ins"><title>Olymos</title> 33</ref>, <ref type="ins"><title>Mylasa</title> 14</ref> e <ref type="ins">25</ref>; cf. <bibl><ref target="#b1669">Savalli-Lestrade 2010</ref>, pp. 136-148</bibl>); a Mylasa, inoltre, è documentata da <ref type="ins"><title>Mylasa</title> 121</ref> un’associazione di <foreign>Diktynnaistai</foreign> (il culto di Diktynna fuori da Creta è noto anche da <ref type="ins"><title>Magnesia</title> 162</ref>, <ref type="ins"><title>IG</title> II<hi rend="superscript">2</hi> 4688</ref>, <ref type="ins"><title>SEG</title> 26.1623</ref>, <ref type="ins"><title>FD</title> III 4 228</ref> e <ref type="ins"><title>SEG</title> 44.343</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus tou Dios tou Kretageneta kai Diktynnes</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#protokosmos"><foreign>protokosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b573">Errington 1993</ref>, pp. 24-27 n. 5</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 43.707 <ptr type="seg" target="a43_703_709"/></bibl>); 
+                            <bibl><ref target="#b1139">Ma 1999</ref>, n. 30</bibl>; 
+                            <bibl><ref target="#b1669">Savalli-Lestrade 2010</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib112"><title>HGIU</title></ref> 453</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

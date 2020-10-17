@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Gortyna per un medico di Cos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 168*</idno>
+                        <idno type="projectNo">323</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#cos_neratzia">Castello di Neratzia, Cos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">lettera contenente un decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#cos">Cos, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0218" notAfter="-0217" precision="low">218-217 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#gortyn"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#gortyn"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#cos" type="ethnic">Κώιων</placeName> τᾶι βωλᾶι κα<supplied reason="lost">ὶ τ</supplied><lb 
+                        break="no" n="2"/>ῶι δάμωι <w lemma="χαίρω">χαίρειν</w>· ἐπειδὴ <persName type="honoured" key="Hermias f. Emmenidas" ref="#cos"><name nymRef="Ἑρμίας">Ἑρμίας</name> <name nymRef="Ἐμμενίδας" type="patronymic">Ἐμμενίδα</name></persName>, <w lemma="χειροτονέω">χ<unclear>ε</unclear><supplied reason="lost">ιρο</supplied><lb 
+                        break="no" n="3"/>τονηθὲνς</w> ὑφ’ ὑμίων καὶ ἀποστευθὲνς παρ’ ἁμὲ ἰα<lb 
+                        break="no" n="4"/>τρός, ἀξίως πεπόηται τὰν παρ’ ἁμῖν <w lemma="ἐπιδαμία">ἐπιδαμίαν</w>
+                          <lb n="5"/>ὑμίων τε τῶν <w lemma="ἀποστέλλω">ἀποστειλάντων</w> καὶ αὐτοσαυτῶ, ἔ<lb 
+                        break="no" n="6"/>τι δὲ καὶ ἁμίων τῶν δόντων ὑμῖν τὰν <w lemma="ἐπιτροπά">ἐπιτροπὰν</w>
+                          <lb n="7"/>τᾶς <w lemma="αἵρεσις">αἱρέσιος</w> τῶ ἰατρῶ, ἀνέγκλητος ἰὼν ἐμ πᾶσι τ<lb 
+                        break="no" n="8"/>ὰν <w lemma="ἐπιδαμία">ἐπιδαμίαν</w> πεποίηται ἔτια πέντε ἐπιμελόμ<lb 
+                        break="no" n="9"/>ενός τε τῶν <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="polites" ref="#gortyn"><w lemma="πολίτας">πολιτᾶν</w></rs> καὶ τῶν ἄλλων τῶν <rs type="institution" subtype="social_status" role="good_relations_or_behaviour" key="katoikos" ref="#gortyn"><w lemma="κατοικέω">κατοικιό<lb 
+                        break="no" n="10"/>ντων</w></rs> <placeName ref="#gortyn">Γόρτυνι</placeName> <w lemma="φιλοτιμίως">φιλοτιμίως</w> τε καὶ ἐντενίως κατὰ τὰ<lb 
+                        break="no" n="11"/>ν τέχναν καὶ τὰν ἄλλαν <w lemma="ἐπιμέλεια">ἐπιμέλειαν</w> πολλὸνς ἔ<lb 
+                        break="no" n="12"/>σωσε ἐς μεγάλων κινδύνων οὐδὲν ἐλλείπω<lb 
+                        break="no" n="13"/>ν <w lemma="προθυμία">προθυμίας</w>, <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="symmachoi" ref="#gortyn_symmachia"><w lemma="σύμμαχος">συμμάχων</w> τε ἁμῖν</rs> πολλῶν παραγε<lb 
+                        break="no" n="14"/>γονότων καθ’ ὃν καιρὸν ἐπολεμίομεν καὶ τούτων
+                          <lb n="15"/>τὰν αὐτὰν <w lemma="ἐπιμέλεια">ἐπιμέλειαν</w> ἐποιήσατο καὶ ἔσωσε ἐς
+                          <lb n="16"/>μεγάλων κινδύνων βωλόμενος <w lemma="εὐχαριστέω">εὐχαριστῆν</w> τᾶ<lb 
+                        break="no" n="17"/>ι ἁμᾶι <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#gortyn"><w lemma="πόλις">πόλει</w></rs>, ἐπεὶ δὲ ἐπευθὼν ἐπὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#gortyn"><w lemma="ἐσκλησία">ἐσκλησίαν</w></rs>
+                          <lb n="18"/>ἀξίωσε ἁμὲ ἀφέμεν αὐτὸν ἐς τὰν ἰδίαν, <w lemma="ἐπιχωρέω">ἐπεχω<lb 
+                        break="no" n="19"/><supplied reason="lost">ρ</supplied>ήσαμεν</w> <w lemma="συναποστέλλω">συναπεστήλαμέν</w> τε τῶν <rs type="institution" subtype="social_status" role="belonging" key="polites" ref="#gortyn"><w lemma="πολίτας">πολιτᾶν</w></rs>
+                          <lb n="20"/><supplied reason="lost">α</supplied>ὐτῷ <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#gortyn"><persName type="attested" key="Soarchos (2)"><name nymRef="Σόαρχος">Σόαρχον</name></persName></rs> καὶ <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#gortyn"><persName type="attested" key="Kydas (1)"><name nymRef="Κύδας">Κύδαντα</name></persName></rs>, βωλόμενοι αὐτῷ <w lemma="εὐχαριστέω">εὐ<lb 
+                        break="no" n="21"/><supplied reason="lost">χαρι</supplied>στῆν</w>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#gortyn"><w lemma="δοκέω">ἔδοξέ</w></rs> τε ἁμῖν <w lemma="ἐπαινέω">ἐπαινέσαι</w> Ἑρμίαν <w lemma="ἀρετά">ἀρε<lb 
+                        break="no" n="22"/><supplied reason="lost">τᾶς</supplied></w> <supplied reason="lost">ἕ</supplied><unclear>ν</unclear>εκα καὶ <w lemma="εὔνοια">εὐνοίας</w> τᾶς ἐς τὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#gortyn"><w lemma="πόλις">πόλιν</w></rs>, <w lemma="ἐπαινέω">ἐπαινέ<lb 
+                        break="no" n="23"/><supplied reason="lost">σαι</supplied></w> <supplied reason="lost">δὲ καὶ</supplied> <placeName ref="#cos" type="ethnic"><unclear>Κ</unclear><supplied reason="lost">ώ</supplied><unclear>ι</unclear>ονς</placeName> ὅτι καὶ ἰατρὸν ἀγαθὸν καὶ <surplus>ι</surplus> <w lemma="ἀνήρ">ἄνδρα</w> ἀξ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="24"/><supplied reason="lost">όλογον ἁμῖν</supplied> <w lemma="ἀποστέλλω"><supplied reason="lost">ἀπέ</supplied>στηλαν</w>· ἇι δὲ καὶ πάντες <w lemma="γινώσκω">γινώσ<unclear>κ</unclear><lb 
+                        break="no" n="25"/><supplied reason="lost">ωντι</supplied></w> <supplied reason="lost">ὅτι ἐπιστάμ</supplied><unclear>ε</unclear><supplied reason="lost">θ</supplied>α <w lemma="χάρις">χάριτας</w> ἀποδιδόμεν, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#gortyn"><w lemma="δοκέω">ἔδοξ<supplied reason="lost">ε</supplied></w></rs>
+                          <lb n="26"/><supplied reason="lost">ἁμῖν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολιτεία">πολιτείαν</w></rs> δ</supplied><unclear>ό</unclear>μεν α<supplied reason="lost">ὐ</supplied>τῶι καὶ <w lemma="ἔκγονος">ἐκγόνοις</w>
+                          <lb n="26a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario per il medico Hermias di Cos, il più esteso fra i documenti analoghi di Gortyna, è incluso all’interno di una lettera inviata alla sua città di origine dai cosmi e dalla <foreign>polis</foreign> di Gortyna, che si presentano come i rappresentanti della collettività civica (ll. 1-2).</p>
+                    <p>Come informa la sezione delle motivazioni (ll. 2-21), l’individuo onorato, noto anche da un decreto di Knossos (<ref type="ins" target="#ic1_8_7"><title>IC</title> I 8 7</ref>), si è distinto per il lavoro svolto per cinque anni a Gortyna a favore dei cittadini e degli altri abitanti di Gortyna, oltre che per l’aiuto prestato alla città ed ai suoi alleati (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78</bibl>) che soggiornavano presso Gortyna durante una guerra e per essersi mostrato riconoscente nei confronti della <foreign>polis</foreign> cretese.</p>
+                    <p>L’<foreign>ekklesia</foreign>, a Gortyna attestata solamente in questa iscrizione e in <ref type="ins" target="#ic4_176"><title>IC</title> IV 176</ref>, è l’assemblea a cui il medico si rivolge per chiedere la possibilità di ritorno a casa (ll. 17-18), ottenendo di poter partire accompagnato dai due cittadini di Gortyna Soarchos e Kydas (ll. 18-20).</p>
+                    <p>L’oggetto vero e proprio del decreto, alle linee 21-26, è introdotto da una formula di sanzione in cui i responsabili della deliberazione – verosimilmente i cosmi e la <foreign>polis</foreign> di Gortyna – sono indicati con il pronome personale ἁμῖν e prevede di onorare Cos ed il medico Hermias per i propri meriti nei confronti della <foreign>polis</foreign> (l. 22). Nello specifico il medico sembra essere insignito assieme alla propria discendenza della <foreign>politeia</foreign> di Gortyna (l. 26), concessione che viene effettuata dalla città senza essere associata alla prossenia solamente in pochi casi (cf. <ref type="ins" target="#ic4_214"><title>IC</title> IV 214</ref>, <ref type="ins" target="#ic4_220">220</ref>, <ref type="ins" target="#ic4_221">221</ref>, <ref type="ins" target="#ic4_224">224</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#symmachia">alleanza di Gortyna</ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#katoikion"><foreign>katoikos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1064">Laurenzi 1941</ref>, pp. 34-36 n. 3</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 168* <ptr type="phi" target="200607"/></bibl>; 
+                            <bibl><ref target="#bib514">Pouilloux, <title>Choix</title></ref> 15</bibl>; 
+                            <bibl><ref target="#b502">Detorakis 1990</ref></bibl>; 
+                            <bibl><ref target="#b1663">Samama 2003</ref>, n. 126</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XII 4.248</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b503">Detorakis 1995</ref></bibl>; 
+                            <bibl><ref target="#b426">Cucuzza 1997</ref>, pp. 20-22</bibl>; 
+                            <bibl><ref target="#b924">Interdonato 2004</ref>, pp. 271-272</bibl>; 
+                            <bibl><ref target="#b1378">Muir 2009</ref>, pp. 104-105</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

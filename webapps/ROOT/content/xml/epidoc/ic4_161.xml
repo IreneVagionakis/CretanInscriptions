@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Convenzione fra Gortyna ed i suoi alleati e Mileto</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 161*</idno>
+                        <idno type="projectNo">296</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#miletus">Mileto, <foreign>Delphinion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0260" notAfter="-0250" precision="low">260-250 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs>.
+                          <lb n="2"/>ἐάν τις <placeName ref="#miletus" type="ethnic">Μιλησίων</placeName> ἐγ <placeName ref="#gortyn">Γόρτυνι</placeName> ἢ <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> ἐμ <placeName ref="#miletus">Μιλήτωι</placeName>
+                          <lb n="3"/>ἐφάπτηται <w lemma="σῶμα">σώματος</w> ἢ <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δοῦλος">δούλου</w></rs> ἢ <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλευθέρου</w></rs>, ἂμ μὲν ἀνά<lb 
+                        break="no" n="4"/>γηι ὁ ἔχων <w lemma="πράτωρ">πράτορι</w> ἀξιόχρεωι ἢ εἰς <w lemma="πόλις">πόλιν</w> <w lemma="ἔνδικος">ἔνδικον</w>, ἀποδοὺ<unclear>ς</unclear>
+                          <lb n="5"/>τὴν <w lemma="τιμή">τιμὴν</w> τὴν <w lemma="ἀρχαῖος">ἀρχα<supplied reason="lost">ί</supplied>αν</w>, ἀποδότω τὸ <w lemma="σῶμα">σῶμα</w> ὁ ἐφαψάμε<lb 
+                        break="no" n="6"/>νος· ἂν δὲ μὴ ἀνάγηι, ἀποδότω τὸ <w lemma="σῶμα">σῶμα</w> ὁ ἔχων τῶι ἐφαψα<lb 
+                        break="no" n="7"/>μένωι αὐθημερόν. ἂν δέ τι <w lemma="ἀντιλέγω">ἀντιλέγηται</w> περὶ τοῦ <w lemma="σῶμα">σώμα<lb 
+                        break="no" n="8"/>τος</w> περὶ οὗτινος, <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρίνειν</w></rs> ἐμ <placeName ref="#miletus">Μιλήτωι</placeName> μὲν τοὺς τοῦ ἐμπορίου
+                          <lb n="9"/>ἐπιμελητὰς πένθ’ ἡμερῶν, ἐγ <placeName ref="#gortyn">Γόρτυνι</placeName> δὲ τοὺς <rs type="institution" subtype="board" role="judicial_procedure" key="kosmos" ref="#gortyn"><w lemma="κόσμος">κόσμους</w></rs> ἡ<lb 
+                        break="no" n="10"/>μερῶν πέντε. τῶν δὲ <w lemma="δικάζω">δικασθέντων</w> τὰς <w lemma="πρᾶξις">πράξεις</w> εἶναι ἐ<unclear>μ</unclear>
+                          <lb n="11"/><placeName ref="#miletus">Μιλήτωι</placeName> μὲν κατὰ τὸν νόμον τὸν ἐμπορικόν, ἐγ <placeName ref="#gortyn">Γόρτυνι</placeName> δ<supplied reason="lost">ὲ</supplied>
+                          <lb n="12"/>κατὰ τὸν <rs type="institution" subtype="object" role="law" key="nomos_proxenikos" ref="#gortyn"><w lemma="νόμος προξενικός">νόμον τὸν προξενικόν</w></rs>. κατὰ τὰ αὐτὰ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lyttos"><placeName ref="#lyttos" type="ethnic">Λύκτιοι</placeName></rs>,
+                          <lb n="13"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#arkades"><placeName ref="#arkades" type="ethnic">Ἀρκάδες</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aria"><placeName ref="#aria" type="ethnic">Ἀριαῖοι</placeName></rs>, <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#hyrtaia"><placeName ref="#hyrtaia" type="ethnic">Ὑρταῖοι</placeName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La convenzione fra Mileto e Gortyna, iscritta sulla stessa stele degli accordi analoghi presi dalla prima con Knossos e Phaistos (<ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref> e <ref type="ins" target="#ic1_23_1"><title>IC</title> I 23 1</ref>), è introdotta alla linea 1 dalla titolatura Γορτυνίων. Mentre gli accordi fra Mileto e Knossos e la prima e Phaistos si presentano rispettivamente come un decreto e come un trattato, la convenzione con Gortyna di fatto consiste nel solo oggetto della decisione, che si estende dalla linea 2 alla linea 12.</p>
+                <p>L’oggetto degli accordi, analogo a quanto concordato da Mileto con Knossos e Gortyna, mira a tutelare i cittadini liberi e gli schiavi di entrambe le città nel caso di sequestro indebito da parte di cittadini dell’altra <foreign>polis</foreign>. Nel caso di dispute, a Gortyna il potere decisionale spetta ai cosmi (l. 9), che devono emettere un giudizio entro cinque giorni dal momento in cui è sorto il problema. Come nel caso di Knossos, l’applicazione della sentenza deve essere conforme alla legge relativa ai prosseni (l. 12, κατὰ τὸν νόμον τὸν προξενικόν), affine verosimilmente al <foreign>nomos emporikos</foreign> di Mileto.</p>
+                    <p>Le linee conclusive dell’accordo, infine, prevedono l’applicazione delle clausole del trattato anche a Lyttos, Arkades, agli Ἀριαῖοι (sui quali cf. <bibl><ref target="#b1614">Robert 1938</ref></bibl>) e agli Ὑρταῖοι, città che sembrano far parte dell’alleanza di cui Gortyna è <foreign>leader</foreign> (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos proxenikos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib108"><title>Milet</title></ref> I.III 140B</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 161* <ptr type="phi" target="200600"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 482.II</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib29"><title>Miletos</title></ref> 58</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1614">Robert 1938</ref>, p. 253</bibl>; 
+                            <bibl><ref target="#b1340">Mikrogiannakis 1968</ref></bibl>;
+                            <bibl><ref target="#b888">Herrmann 1975</ref></bibl>; 
+                            <bibl><ref target="#b680">Garlan 1984</ref>, n. 12</bibl>; 
+                            <bibl><ref target="#b128">Bielman 1994</ref>, pp. 311-313</bibl>; 
+                            <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78b</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 332</bibl>; 
+                            <bibl><ref target="#b712">Giovannini 2007</ref>, n. C11</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

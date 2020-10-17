@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Lebena relativo alle suppellettili dell’<foreign>Asklepieion</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 2</idno>
+                        <idno type="projectNo">222</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">48-49</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="block" n="A">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><supplied reason="lost">ἐπὶ τῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="κορμέω">κορμιόντων</w> τῶν σὺν</supplied> <persName type="attested" key="Paraon f. Menedamos"><name nymRef="Παράων"><supplied reason="lost">Παρ</supplied>άωνι</name> τῶ <name nymRef="Μενέδαμος" type="patronymic">Μενεδάμω</name></persName></rs>. τὸν <rs type="institution" subtype="official" role="supply" key="naokoros" ref="#lebena"><w lemma="νακόρος">νακόρον</w></rs> τὸν τόκ’ <w lemma="ἀφίστημι">ἀφ<supplied reason="lost">ιστάμενον</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ανς ἄλανς τὰς τῶ <w lemma="θιός">θιῶ</w> παρδιδόμεν τὸν τόκ’ ἀφι<supplied reason="lost">στάμενον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied>αθὼς ἐπιβάλλει καὶ ἀνκλημένας καὶ πλέανς τὰς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰ λ</supplied>οιπὰ παρδιδῶι τὰ τῶ <w lemma="θιός">θιῶ</w> σκεῦα· αἰ δὲ μὴ παρδοίη <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πράττω"><supplied reason="lost">πραττ</supplied>έτω</w> δὲ τοῦτο τὸ ἐπίτιμον ὁ <rs type="institution" subtype="official" role="judicial_procedure" key="hiarorgos" ref="#lebena"><w lemma="ἱαροργός">ἱαροργὸς</w></rs> κατὰ τὸ <rs type="institution" subtype="object" role="law" key="diagramma" ref="#lebena"><w lemma="διάγραμμα">δι<supplied reason="lost">άγραμμα</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>έτω τῶι <w lemma="θιός">θιῶι</w>· αἰ δὲ μ<corr>ή</corr>, αὐτῶι ἐντιτὸν ἔστω ἐπὶ τᾶι δ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πάρδ</supplied>οσιν <w lemma="τίθημι">τιθέθθω</w> ὁ <rs type="institution" subtype="official" role="supply" key="naokoros" ref="#lebena"><w lemma="νακόρος">νακόρος</w></rs> τὰν ἄλαν κατὰ τῶν <rs type="institution" subtype="board" role="order" key="kosmos" ref="#gortyn"><w lemma="κόρμος">κόρμω<supplied reason="lost">ν</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>τα τῶν αὐτῶν καὶ σκεῦα κεράμινα ἀκώνατα ν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>ς <num value="15">ιε</num>, κάναστρα <num value="15">ιε</num>, ἀρυταίνια <num value="15">ιε</num>, χύτρας <num value="30">λ</num>, κακ<unclear>ά</unclear><supplied reason="lost">βος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ακας μεγάλος <num value="10">ι</num>, χύτρος <num value="15">ιε</num>. ὡσαύτως δὲ παρδ<supplied reason="lost">ιδόμεν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                        <div type="textpart" subtype="block" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>α <num value="15">ιε</num>, χωρὶς ὧν κ’ αὐτὸς παρλελόνβηι σκεύων· ὀδελίσκος <num value="10">ι</num>, σκάφας <num value="5">ε</num>, κάδο<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">λα</supplied>γάνος σιδαρίος <num value="3">γ</num>, ξύσθρας <num value="15">ιε</num>, κυνιατοα <num value="5">ε</num>, κόπανα <num value="2">β</num>· τούτων πάντων τῶ<supplied reason="lost">ν σκεύων</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἴ κ</supplied>α λῆι παρδιδόμεν ἐξέστω ϝοι, μείονα δὲ μή· αἰ δὲ μή, ἔνοχον ἦμεν τῶι αὐτ<supplied reason="lost">ῶι ἐπιτίμωι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear>ς αἴ κα μὴ παρδῶι ἐπάνω <w lemma="ἐγράφω">ἤγρατται</w>· καὶ ἁ <w lemma="πρᾶξις">πρᾶξις</w> ἔστω τῶι <rs type="institution" subtype="official" role="judicial_procedure" key="hiarorgos" ref="#lebena" cert="low"><w lemma="ἱαροργός">ἱαροργῶι</w></rs> καὶ τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>εναν <w lemma="δαπάνα">δαπάναν</w> ἐς τὰ <w lemma="προγράφω">προηγραμμένα</w> <w lemma="τίθημι">τιθέτω</w> ὁ <rs type="institution" subtype="official" role="payments" key="naokoros" ref="#lebena"><w lemma="νακόρος">νακόρος</w></rs> ἐς τῶν <rs type="institution" subtype="object" role="funds" key="to_thio_prosodia" ref="#lebena"><w lemma="θιῶ προσόδια">τῶ θιῶ π<supplied reason="lost">ροσοδίων</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> λοιπῶν τῶν τῶ θιῶ <w lemma="τίθημι">τίθεται</w>, <w lemma="ἀπολογίζομαι">κἀπολογιττέτθω</w> καὶ περὶ τούτων τὰν <w lemma="δαπάνα">δαπάνα<supplied reason="lost">ν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ὸν ἀπόλογον <w lemma="παρατίθημι">παρθέτω</w> ἅ κα κατὰ τοῦτο τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#gortyn"><w lemma="ψάφιμμα">ψάφιμμα</w></rs> παρδεδώκηι, αὐτὰ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶι κερα</supplied>μεῖ μιτθὸν ἐξοδιάττεν ἐς τῶν <rs type="institution" subtype="object" role="funds" key="to_thio_prosodia" ref="#lebena"><w lemma="θιῶ προσόδια">τῶ <w lemma="θιός">θιῶ</w> προσοδίων</w></rs>, ἀλλ’ ἐξ αὐτῶν ὧν κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀπολογιτ</supplied>τέτθω τῶι κεραμεῖ κἠς τω<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, che regolamenta il passaggio delle suppellettili cultuali di <foreign>naokoros</foreign> in <foreign>naokoros</foreign> al termine del relativo periodo di attività, è datato all’anno in cui è cosmo eponimo Paraon figlio di Menedamos, probabilmente un magistrato di Gortyna (a Lebena cosmi eponimi sono attestati anche in <ref type="ins" target="#ic1_17_2"><title>IC</title> I 17 2</ref>, <ref type="ins" target="#ic1_17_4">4-6</ref> e <ref type="ins" target="#ic1_17_8">8</ref>; cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 101-103</bibl>).</p>
+                    <p>Il documento è di grande interesse per la conoscenza della gestione dell’<foreign>Asklepieion</foreign> di Lebena, in quanto getta luce sui rapporti gerarchici intercorrenti fra i cosmi, gli <foreign>hiarorgoi</foreign> ed i <foreign>naokoroi</foreign> (cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 101-109</bibl>, <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 98-99</bibl>). Formalmente il <foreign>naokoros</foreign> uscente è tenuto a riconsegnare le suppellettili elencate alla divinità (<foreign>i.e.</foreign> al tempio), secondo quanto stabilito dai cosmi; nel caso di inadempienza l’autorità di intervento è invece dello <foreign>hiarorgos</foreign>, che si colloca a metà fra le altre due figure nella scala gerarchica dell’amministrazione del santuario e che deve procedere in conformità ad un preesistente regolamento (l. A 5, κατὰ τὸ δι[άγραμμα]).</p>
+                    <p>Nel caso di mancata consegna di alcuni particolari oggetti, elencati alle linee B 1-2, il <foreign>naokoros</foreign> è tenuto a versare un ammontare di denaro pari al loro valore, che può attingere dal fondo della divinità (l. B 5, ἐς τῶν τῶ θιῶ π[ροσοδίων]); lo stesso fondo è menzionato anche alla linea B 8, a proposito della possibilità di farvi ricorso per pagare un vasaio, verosimilmente per la realizzazione di nuovi manufatti in sostituzione di quanti non riconsegnati fra quelli in ceramica.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#diagramma"><foreign>diagramma</foreign></ref>, <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naokoros"><foreign>naokoros</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, <ref type="inst" target="#funds"><foreign>to thio prosodia</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 729-734 nn. 180-181</bibl>; 
+                            <bibl><ref target="#b103">Baunack 1890</ref>, pp. 586-604</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5087</bibl>; 
+                            <bibl><ref target="#bib510"><title>Leg.Sacr.</title></ref> II 152</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 2 <ptr type="phi" target="199265"/></bibl>; 
+                            <bibl><ref target="#bib511"><title>LSCG</title></ref> 3.144</bibl>; 
+                            <bibl><ref target="#b1670">Savelkoul 1985-1986</ref>, pp. 53-54 (A)</bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 96-98</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 7</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b136">Bile 1991</ref></bibl>; 
+                            <bibl><ref target="#b263">Carusi 2008</ref>, pp. 93-94</bibl>;
+                            <bibl><ref target="#b698">Genevrois 2015</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

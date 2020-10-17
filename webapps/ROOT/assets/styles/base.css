@@ -1,0 +1,249 @@
+ul.index-instances { }
+
+.index-instance-file {
+    font-weight: bolder;
+}
+
+.index-instance-text-parts { }
+
+.index-instance-line { }
+
+p, li {
+    text-align: justify;
+}
+
+p, h1, h2, h3, h4, h5, h6, li, ul, label, th, tr, td, form {
+    font-family: "New Athena Unicode", Cardo, Calibri, serif;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1D3053;
+    }
+    
+p {
+    font-size: 16px;
+    }
+
+h4 {
+    font-size: 18px;
+    margin-top: 2em;   
+    margin-bottom: 1em;
+}
+
+h5 {
+    font-size: 16px;
+    margin-top: 2em;     
+    margin-bottom: 0.5em;
+}
+
+h6 {
+    font-size: 16px;
+    margin-top: 2em;     
+    margin-bottom: 0.5em;
+    font-variant: small-caps;
+}
+
+a:link, a:visited, a:active { color: #637893; }
+a:hover { color: #45658B; }
+
+nav.top-bar, nav.top-bar ul.right li, nav.top-bar ul.left * {
+    background-color: #1D3053;
+}
+
+.top-bar-section {
+    letter-spacing: 0.06em;
+}
+
+body {
+    background-color: #F8F8F8;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+html {
+  height: 100%;
+  min-width: 100%;
+}
+
+footer {
+    background: none repeat scroll 0 0 #1D3053;
+    color: #D8D8D8;
+    padding: 22px;
+    height: 130px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer span {
+    font-size: 13px;
+}
+
+#site-name {
+    font-weight: lighter;
+    font-family: "Amatic SC", serif;
+    color: #F8F8F8;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    background-color: #1D3053;
+    height: 100px;
+    margin-top: -1px;
+    margin-bottom: -15px;
+    padding-top: 38px;
+}
+
+#creta-inscription-body, #creta-chapters {
+    background-color: #FBFBFB;
+    border: 2px solid #e6e6e6;
+    padding:4em;
+    margin-bottom: 3em;
+}
+
+#creta-chapters p {
+    margin-bottom: 0.2em;
+}
+
+#creta-inscription-body p {
+    margin-bottom: 0.2em;
+}
+
+#creta-inscription-body div {
+    margin-bottom: 1em;
+}
+
+div.homepage_text {
+    padding: 3em;
+}
+
+div.homepage_text p {
+    text-align: center;
+}
+
+p.bibl {
+    padding-bottom: 1em;
+}
+
+div#cities div, div#Crete div {
+    padding-bottom: 2em;
+}
+
+#home_box {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+div#sections {
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+ul#search_results {
+    padding-left: 1.5em;
+}
+
+/* Homepage images linking to main sections */
+.boxcontainer {
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.box {
+    position: relative;
+    text-align: center;
+}
+
+.imagebox {
+    border-radius: 25px; 
+    width: 210px; 
+    height: 210px; 
+    margin: 15px; 
+    box-shadow: 0px 0px 35px #999;
+}
+
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1D3053;
+    font-family: "Amatic SC", serif;
+    letter-spacing: 0.05em;
+    font-size: 42px;
+    opacity: 0;
+}
+
+.box:hover .imagebox{
+    opacity: 0.4;
+}
+
+
+.box:hover .textbox{
+    opacity: 1;
+}
+
+/*Keyboard*/
+#keyboard_box {
+    display:none;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-bottom: 4em;
+    float: none;
+    width: 300px;
+    height: 300px;
+}
+#keyboard li {
+    font-size: 18px;
+    list-style: none;
+    float: left;
+    margin: 0 5px 5px 0;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    background: white;
+    border-radius: 5px;
+}
+#keyboard li:hover {
+    border: none;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}
+
+/* Embedded fonts */
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nau.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nauBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nauItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "New Athena Unicode";
+    src: url('fonts/nauBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Amatic SC";
+    src: url('fonts/amatic-sc.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Elyros</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 13 1</idno>
+                        <idno type="projectNo">062</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#rodovani">Rodovani, in una casa</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">due o tre decreti onorari</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#elyros">Elyros</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">            
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#elyros"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#elyros"><w lemma="πόλις">πόλει</w></rs> τῶν <placeName ref="#elyros" type="ethnic">Ἐλυρίων</placeName>.    
+                        <lb n="2"/><w lemma="θεός">θεοί</w>. <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#elyros"><w lemma="πρόξενος">προξένωι</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#elyros"><w lemma="θεαροδόκος">θεαροδόκωι</w></rs> χρ<unclear>ῆσθ</unclear>αι   
+                        <lb n="3"/><supplied reason="lost">ἐ</supplied>ν <placeName ref="#delphi">Δελφοῖς</placeName> <persName type="honoured" key="Kleophanes f. Tarantinos" ref="#delphi"><name nymRef="Κλεοφάνης">Κλεοφάνει</name> <name nymRef="Ταραντῖνος" type="patronymic">Ταραντ<unclear>ί</unclear><supplied reason="lost">νω</supplied></name></persName>    
+                        <lb n="4"/><supplied reason="lost">κα</supplied>ὶ αὐτῶι καὶ <w lemma="ἔγγονος">ἐγγόνοις</w>.     
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#elyros"><w lemma="δοκέω">ἔδοξ<supplied reason="lost">ε</supplied></w></rs> <placeName ref="#elyros" type="ethnic"><supplied reason="lost">Ἐλ</supplied>υρίων</placeName> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#elyros"><w lemma="πόλις">πόλει</w></rs>· <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ιο</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>αρατ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><persName type="honoured" key="Neo-phron f. Neokreon" ref="#unknown"><name nymRef="Νεο-φρων">Νεο<gap reason="lost" quantity="3" unit="character"/><supplied reason="lost">φ</supplied>ρονα</name> <name nymRef="Νεοκρέων" type="patronymic">Νεοκρέοντος</name> Π<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#elyros"><w lemma="πρόξενος">π<supplied reason="lost">ρόξενον</supplied></w></rs>
+                        <lb n="3"/><supplied reason="lost">κα</supplied>ὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#elyros"><w lemma="εὐεργέτας">ε<supplied reason="lost">ὐεργ</supplied>έταν</w></rs> καὶ αὐτὸν καὶ <w lemma="ἔγγονος" part="I">ἐγγ<supplied reason="lost">ον</supplied></w><gap reason="lost" quantity="3" unit="character"/><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="C">
+                <ab>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>πρ</unclear>ολ</orig><gap reason="lost" extent="unknown" unit="character"/> 
+                        <lb n="1a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="B2"><note>Π<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="4" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; Π<unclear>ά</unclear><supplied reason="lost" cert="low">ριον</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato.</note></app>
+                    <app loc="B3"><note>ἐγγ<supplied reason="lost">ον</supplied><gap reason="lost" quantity="3" unit="character"/>α<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; ἔγγ<supplied reason="lost">ονα ὑπ</supplied>ά<supplied reason="lost" cert="low">ρχε<corr>ι</corr>ν</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl> in apparato.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>Il blocco, che doveva originariamente appartenere ad un tempio di Elyros, conserva due decreti onorari e l’<foreign>incipit</foreign> di un terzo documento, verosimilmente anch’esso di valenza pubblica.</p>
+                    <p>Entrambi i documenti esordiscono con una simile formula di sanzione, analoga nella sostanza ma differente nella forma: sebbene sia in A che in B la sola assemblea ad avere autorità nell’ambito della deliberazione sia la <foreign>polis</foreign> di Elyros, in A l’indicazione dell’etnico collettivo segue la menzione della <foreign>polis</foreign>, mentre in B la precede. La presenza della sola <foreign>polis</foreign> in tale contesto contrasta con quanto avviene nell’unico altro decreto della città pervenuto, <ref type="ins" target="#ic2_13_1"><title>IC</title> II 13 1</ref>, dove invece vi compaiono anche i cosmi. Nel decreto A, inoltre, è presente l’invocazione benaugurante θεοί in una posizione insolita: anziché essere anteposta al decreto vero e proprio viene invece collocata fra la formula di sanzione e l’oggetto della delibera.</p>
+                    <p>Un ulteriore elemento d’interesse fornito dal decreto A è costituito dalle concessioni garantite a Kleophanes: oltre che prosseno di Elyros, costui viene nominato anche suo <foreign>theorodokos</foreign> presso Delfi, risultando dunque l’unico <foreign>theorodokos</foreign> noto che sia designato ad accogliere <foreign>theoroi</foreign> di una città cretese. Nonostante la mancata menzione della festività di Elyros connessa alle ambascerie sacre, è possibile ipotizzare il coinvolgimento del culto di Apollo, comune alla città e a Delfi e già attestato come motivo di relazioni fra queste nell’episodio dell’invio da parte della prima di una capra bronzea a Delfi narato da Pausania (<ref type="lit">Paus. X 16.5</ref>).</p>
+                    <p>L’individuo onorato nel decreto B, forse originario di Paros, viene insignito sia della prossenia – come in A e in <ref type="ins" target="#ic2_13_2"><title>IC</title> II 13 2</ref> – che dell’<foreign>euergesia</foreign>, unico caso nella città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#theorodokos"><foreign>theorodokos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref>, II p. 426 n. 11, tav. II (A-B)</bibl>; 
+                    <bibl><ref target="#b1811">Thenon 1866</ref>, 398-400</bibl>; 
+                    <bibl><ref target="#b1387">Myres 1896</ref>, n. 24</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 13 1 <ptr type="phi" target="199933"/></bibl>; 
+                    <bibl><ref target="#b705">Ghinatti 2004</ref>, p. 106 (A)</bibl>;
+                    <bibl><ref target="#b1654">Rutherford 2014</ref>, E1 (A)</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

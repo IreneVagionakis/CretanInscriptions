@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Lappa per un cittadino di Kasos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 4</idno>
+                        <idno type="projectNo">083</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lappa"><w lemma="δοκέω"><supplied reason="lost">ἔ</supplied>δοξε</w></rs> <placeName ref="#lappa" type="ethnic">Λαπ<supplied reason="lost">π</supplied>αίω<unclear>ν</unclear></placeName>
+                          <lb n="2"/>τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lappa"><w lemma="πόλις">πόλει</w></rs> <persName type="honoured" key="Agathoboulos f. -"><name nymRef="Ἀγαθόβουλος">Ἀγαθόβο<supplied reason="lost">υλον</supplied></name>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#kasos" type="ethnic"><unclear>Κ</unclear>άσιο<supplied reason="lost">ν</supplied></placeName></persName>
+                          <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#lappa"><w lemma="πρόξενος"><unclear>π</unclear><supplied reason="lost">ρό</supplied>ξεν<supplied reason="lost">ο</supplied>ν</w></rs> ἦμεν
+                          <lb n="5"/><del rend="erasure"><gap reason="illegible" extent="unknown" unit="character"/></del> αὐτὸ<supplied reason="lost">ν</supplied>
+                          <lb n="6"/><supplied reason="lost">κ</supplied>αὶ <w lemma="ἔκγονος">ἐκγόνους</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto onorario si apre con la formula di sanzione, dalla quale risulta la sua emanazione da parte della <foreign>polis</foreign> di Lappa, come nella maggior parte dei decreti onorari della città (cf. <ref type="ins" target="#ic2_16_5"><title>IC</title> II 16 5</ref>-<ref type="ins" target="#ic2_16_6">6</ref>, <ref type="ins" target="#ic2_16_7">7</ref> A-B, <ref type="ins" target="#ic2_16_8">8</ref>; in <ref type="ins" target="#ic2_16_3"><title>IC</title> II 16 3</ref> e <ref type="ins" target="#ic2_16_7">7</ref> C, invece, sono coinvolti anche i cosmi).</p>
+                    <p>L’individuo onorato, un cittadino di Kasos, viene insignito assieme alla propria discendenza della prossenia, l’unica concessione attestata nei decreti onorari di Lappa (cf. <ref type="ins" target="#ic2_16_5"><title>IC</title> II 16 5-8</ref>, <ref type="ins" target="#seg_57_846"><title>SEG</title> 57.846</ref>). La rasura precedente l’espressione αὐτὸν καὶ γένος, presente nella stessa identica posizione anche nei decreti <ref type="ins" target="#ic2_16_5"><title>IC</title> II 16 5</ref> A-B, <ref type="ins" target="#ic2_16_6">6</ref> B e <ref type="ins" target="#ic2_16_7">7</ref> C, porterebbe a pensare ad un’iniziale concessione multipla che prevedeva oltre alla prossenia la <foreign>politeia</foreign> o l’<foreign>euergesia</foreign>, revocata in un secondo momento dalla città (cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 197</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 529-530 n. 74</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5074a</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 4 <ptr type="phi" target="199971"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

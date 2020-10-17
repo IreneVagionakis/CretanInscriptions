@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Eltynia contro le aggressioni</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 10 2</idno>
+                        <idno type="projectNo">201</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">210</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eltynia">Eltynia</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0475">500 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig> <g type="|"/> αἰ δέ κα <g type="|"/> κηρὶ <g type="|"/> τροόσει <g type="|"/> <w lemma="ἀποτίνω">ἀποτ<supplied reason="lost">ει</supplied>σεῖ</w> <g type="|"/> πέντε <g type="|"/> <w lemma="δαρκνά">δαρκν<supplied reason="lost">άς</supplied></w>· <g type="|"/> αἰ δὲ κὴ ῤινὸς <g type="|"/> αἶμα ῤυῆι <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>τοις <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#eltynia"><placeName ref="#eltynia" type="ethnic">Ἐλτυνιοῦσι</placeName></rs>· <g type="|"/> αἴ κ’ ἄρκσει μάκας <g type="|"/> <w lemma="ἀποτίνω">ἀποτεισεῖ</w> <g type="|"/> δέκα <w lemma="δαρκνά">δαρκνὰς</w> <g type="|"/> ὀπε͂ κ’ ἄρκσε<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ἀμερᾶν <g type="|"/> ἆι κ’ ἀνϝείπηι <g type="|"/> ὔστερον δὲ μή· <g type="|"/> <rs type="institution" subtype="official" role="collecting_fines" key="kosmos" ref="#eltynia"><w lemma="κόσμος">κόσμον</w></rs> δὲ <w lemma="πράδδω">πράδεν</w> <g type="|"/> τὰν ἐς <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#eltynia"><w lemma="πόλις">πόλιν</w></rs> <g type="|"/> <w lemma="τιμά">τιμὰν</w> <g type="|"/> ὄτερος <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>τ</unclear>ὸν ϝερημένον <g type="|"/> ϝὸν ϝειπόν· <g type="|"/> αἰ δέ κ’ ἀλεκσόμενος π<supplied reason="lost">α</supplied>ίηι <g type="|"/> ἄνατον ἦμεν <g type="|"/> το͂ι ἀλεκσο<supplied reason="lost">μένοι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τιμ</supplied>ὰν <g type="|"/> κατιστάμεν <g type="|"/> το͂ν τροοσ<supplied reason="lost">άν</supplied>τον. <g type="|"/> <supplied reason="lost">αἰ</supplied> δέ κ’ <rs type="institution" subtype="age_class" role="regulation" key="aner" ref="#eltynia"><w lemma="ἀνήρ">ἀ<unclear>ν</unclear>ὴρ</w></rs> <g type="|"/> τὸν <rs type="institution" subtype="age_class" role="regulation" key="peiskos" ref="#eltynia"><w lemma="πηίσκος">πηΐσκον</w></rs> παίηι <g type="|"/> μὴ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ον <g type="|"/> ἢν <rs type="institution" subtype="public_space" role="regulation" key="andreion" ref="#eltynia"><w lemma="ἀνδρήιον">ἀνδρηίοι</w></rs> <g type="|"/> ἢν <rs type="institution" subtype="public_space" role="regulation" key="agela" ref="#eltynia"><w lemma="ἀγέλα">ἀγ<supplied reason="lost">έ</supplied>λα<supplied reason="lost">ι</supplied></w></rs> <g type="|"/> ἢ <rs type="institution" subtype="public_space" role="regulation" key="synboletra" ref="#eltynia"><w lemma="συνβολήτρα">συν<supplied reason="lost">β</supplied>ολήτραι</w></rs> <g type="|"/> ἢ ’πὶ <rs type="institution" subtype="public_space" role="regulation" key="choros" ref="#eltynia"><w lemma="κορός">κορο͂ι</w></rs> <g type="|"/> ἢ ’πὶ <unclear>νη</unclear>ο<gap reason="illegible" quantity="5" unit="character"/> <g type="|"/> η<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> αἰ δέ κ’ <rs type="institution" subtype="age_class" role="regulation" key="agelaos" ref="#eltynia"><w lemma="ἀγέλαος">ἀγέ<supplied reason="lost">λ</supplied>α<supplied reason="lost">ος</supplied></w></rs> <g type="|"/> τὸν <rs type="institution" subtype="age_class" role="regulation" key="peiskos" ref="#eltynia"><w lemma="πηίσκος">πηΐσκον</w></rs> <g type="|"/> ὀνη<supplied reason="lost">δῆι</supplied> ἂ <w lemma="ἐγράφω">ἤγραται</w> <g type="|"/> αἰ ἐς καιρὸν ἦ<unclear>μ</unclear><supplied reason="lost">εν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> <rs type="institution" subtype="board" role="judicial_procedure" key="kosmos" ref="#eltynia"><w lemma="κόσμος">κόσμος</w></rs> <g type="|"/> <w lemma="γιγνώσκω">γ<supplied reason="lost">ι</supplied>γνόσκεν</w> <g type="|"/> <w lemma="ὀμνύω">ὀμνύντας</w> <g type="|"/> τὸν ἐπὶ <rs type="institution" subtype="social_group" role="mentioned_in_oath" key="polis" ref="#eltynia" cert="low"><w lemma="πόλις">πόλεος</w></rs> <g type="|"/> τὸν τ’ ἀ<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τρο</supplied>ό<supplied reason="lost">σ</supplied>ηι <g type="|"/> <w lemma="ἀποτίνω">ἀποτεισεῖ</w> <g type="|"/> πέντε <w lemma="δαρκνά">δαρκνὰς</w> <g type="|"/> ὀ<supplied reason="lost">πε͂ ν</supplied>ίν κα παίσει· <g type="|"/> α<supplied reason="lost">ἴ</supplied> κα ι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ι ἢ <g type="|"/> παίσει <w lemma="ἀποτίνω">ἀποτει<supplied reason="lost">σ</supplied>εῖ</w> <g type="|"/> <supplied reason="lost">πέ</supplied>ντε <w lemma="δαρκνά">δαρκνὰς</w> <g type="|"/> ὀθά<supplied reason="lost">κι</supplied>ς <supplied reason="lost">κα π</supplied>αίσε<supplied reason="lost">ι</supplied> <g type="|"/> η<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>ς <g type="|"/> πέντε <w lemma="δαρκνά">δαρκνὰς</w> <g type="|"/> <supplied reason="lost">δο</supplied>σε<supplied reason="lost">ῖ</supplied>· <g type="|"/> αἰ δὲ <g type="|"/> ὀ παθὸν <g type="|"/> πανσα<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge di Eltynia, volta a regolare le aggressioni fisiche attraverso l’imposizione di multe, documenta l’esistenza nella città delle classi di età degli uomini adulti (ἀνήρ, l. 5), dei giovani usciti dall’<foreign>agela</foreign> (ἀγέ[λ]α[ος], l. 7) e di ragazzi di età inferiore, forse poco più che bambini (πηΐσκον, ll. 5 e 7). Mentre dei <foreign>peiskoi</foreign> non esistono altre occorrenze al di fuori del presente documento, il termine <foreign>agelaos</foreign> è noto anche dal giuramento di Dreros <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>.</p>
+                    <p>La figura istituzionale incaricata dell’esazione delle multe è il cosmo (l. 3), che è tenuto a versarle alla <foreign>polis</foreign>. Almeno due cosmi occorrono invece alla linea 8, dove si prescrive che costoro prendano una decisione dopo aver giurato uno per la <foreign>polis</foreign> e uno per una seconda entità o persona di cui non è pervenuto il nome. L’etnico collettivo Ἐλτυνιοῦσι alla linea 2, indicante probabilmente l’assemblea cittadina, è possibile che appartenesse ad una formula di sanzione (<foreign>e.g.</foreign> [ἔϝαδε] τοῖς Ἐλτυνιοῦσι).</p>
+                    <p>Il testo è particolarmente significativo per la testimonianza che offre alla linea 6 di più spazi pubblici in cui è possibile che avvenissero le aggressioni, alcuni dei quali attestati da questa sola iscrizione in tutta Creta (sulla loro natura di spazi chiusi o aperti cf. <bibl><ref target="#bib122"><title>Laws</title></ref>, p. 259</bibl>). Oltre all’<foreign>andreion</foreign>, noto per via epigrafica anche ad Axos, Gortyna, Datala, Priansos e Hierapytna, vengono menzionati un <foreign>koros</foreign> – forse da intendere come luogo destinato alla danza –, l’<foreign>agela</foreign> – termine impiegato in senso spaziale solamente in questa iscrizione – ed una altrimenti ignota <foreign>synboletra</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela1"><foreign>agela</foreign></ref>, <ref type="inst" target="#agelaos"><foreign>agelaos</foreign></ref>, <ref type="inst" target="#andreion"><foreign>andreion</foreign></ref>, <ref type="inst" target="#aner1"><foreign>aner</foreign></ref>, <ref type="inst" target="#choros2"><foreign>koros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#peiskos"><foreign>peiskos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#synboletra"><foreign>synboletra</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2067">Xanthoudidis 1920</ref>, pp. 75-80</bibl>; 
+                            <bibl><ref target="#b391">Comparetti 1926</ref>, pp. 245-254</bibl>; 
+                            <bibl><ref target="#b760">Guarducci 1931</ref>, pp. 218-226 n. 1</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 10 2 <ptr type="phi" target="199181"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 94</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 80</bibl>; 
+                            <bibl><ref target="#b145">Bile 1997</ref></bibl>; 
+                            <bibl><ref target="#b1182">Mandalaki 2010</ref></bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 292</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Elt2</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 19</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib13">Bile</ref>, p. 179</bibl>;
+                            <bibl><ref target="#b659">Gagarin 1991</ref></bibl>; 
+                            <bibl><ref target="#b694">Gehrke 1995</ref></bibl>; 
+                            <bibl><ref target="#b49">Arnaoutoglou 1998</ref>, n. 32</bibl>; 
+                            <bibl><ref target="#b899">Hölkeskamp 1999</ref>, pp. 107-109</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

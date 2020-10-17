@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna relativa allo sfruttamento di terreni</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 91</idno>
+                        <idno type="projectNo">276</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="0a"/><orig>να</orig><gap reason="illegible" quantity="1" unit="character"/><orig>σ</orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ϝεργασία"><supplied reason="lost">ϝ</supplied>εργασίας</w>, αἶπσα <supplied reason="lost">δ</supplied>ὲ <w lemma="ϝεργάζω">ϝερ<lb 
+                        break="no" n="2"/>γακσάμενος</w> ὀ καταθὲν<supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied>πὶ τούτοι ἔμεν τὸν <w lemma="καρπός">κα<supplied reason="lost">ρ</supplied><unclear>π</unclear>ὸ<lb 
+                        break="no" n="4"/>ν</w>. <space extent="unknown" unit="character"/> ὄτι δὲ κ<supplied reason="lost">αὶ</supplied> <rs type="institution" subtype="board" role="unknown" key="esprattas" ref="#gortyn"><w lemma="ἐσπράττας">ἐσπρα<unclear>τ</unclear>τ<unclear>α</unclear><supplied reason="lost">ι</supplied><unclear>ς</unclear></w></rs> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>κ</unclear>ε ὀ γρ<gap reason="lost" quantity="6" unit="character"/><orig>οσ</orig><gap reason="lost" quantity="4" unit="character"/> ἐνεκυρα
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, pertinente ad una legge relativa allo sfruttamento di terreni, offre alla linea 4 una menzione degli <foreign>esprattai</foreign>, funzionari abitualmente connessi all’esazione di multe attestati solamente a Gortyna (cf. <ref type="ins" target="#ic4_75"><title>IC</title> IV 75</ref>, <ref type="ins" target="#ic4_87">87</ref>, <ref type="ins" target="#ic4_160">160</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#esprattas"><foreign>esprattai</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, p. 322</bibl>; 
+                            <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, pp. 36-37 n. 6b</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 91 <ptr type="phi" target="200529"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 71</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G91</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 162*</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

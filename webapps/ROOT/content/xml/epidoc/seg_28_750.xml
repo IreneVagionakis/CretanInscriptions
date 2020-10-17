@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica ad Asclepio e legge sacra dall’<foreign>Asklepieion</foreign> di Lissos</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 28.750</idno>
+                        <idno type="projectNo">060</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#chania_museum">Museo archeologico di Chania</repository>
+                        <idno type="invNo">E 72, Λ 135</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#votive_dedication">dedica votiva e legge sacra</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#lissos">Lissos, <foreign>Asklepieion</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="official" role="builder" key="hiereus" ref="#lissos" cert="low"><persName type="attested" key="Thymilos"><name nymRef="Θυμίλος">Θυμίλος</name></persName></rs> <w lemma="ἵζω">ἵσσατο</w> τόνδ᾽ <persName type="divine" key="Asklepios">Ἀσκληπιὸν</persName> ἐνθάδε πρῶτος·
+                        <lb n="2"/><rs type="institution" subtype="official" role="dedicant" key="hiereus" ref="#lissos" cert="low"><persName type="attested" key="Tharsytas f. Thymilos"><name nymRef="Θαρσύτας">Θαρσύτας</name></persName></rs> δ᾽υἱὸς τόνδ᾽ <w lemma="ἀνατίθημι">ἀνέθηκε</w> <w lemma="θεός">θεῶι</w>.
+                        <lb n="3"/><w lemma="θύω">θύην</w> τὸν βωλόμενον.
+                        <lb n="4"/>κρεῶν οὐκ ἀποφορά.
+                        <lb n="5"/>τὸ δέρμα τῶι <w lemma="θεός">θεῶι</w>.
+                </ab>
+            </div>
+            
+            <div type="commentary">
+                <p>L’iscrizione testimonia un’insolita combinazione costituita dalla dedica epigrammatica (ll. 1-2) di una statua ad Asclepio – scultura tuttora conservata e custodita assieme alla relativa base nel Museo archeologico di Chania – e da una legge sacra (ll. 3-5). La compresenza sulla medesima base di tali differenti tipologie documentarie rende molto plausibile l’ipotesi che la dedica sia ad opera dei soli individui che potevano promuovere una regolamentazione cultuale, e cioè gli <foreign>hiereis</foreign> dell’<foreign>Asklepieion</foreign> di Lissos. La dedica di Thymilos e del figlio Tharsytas, inoltre, si articola secondo una scansione temporale che prevede dapprima l’erezione della statua da parte del primo, seguita in un secondo momento dalla dedica della stessa alla divinità da parte del secondo. È molto probabile, dunque, che i due personaggi siano stati vicendevolmente i ministri del culto del santuario, detenendo pertanto con molta probabilità una carica sacerdotale trasmissibile per via ereditaria.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1495">Peek 1977</ref>, pp. 80-81 n. 10, tav. XIX 1</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 28.750 <ptr type="phi" target="201864"/></bibl>); 
+                    <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 56</bibl>; 
+                    <bibl><ref target="#bib69"><title>CEG</title></ref> II 847</bibl>; 
+                    <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 104-106</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 45.1322</bibl>); 
+                    <bibl><ref target="#b503">Detorakis 1995</ref>, n. 7</bibl>; 
+                    <bibl><ref target="#bib236"><title>NGSL</title></ref> 24, fig. 30</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 33</bibl>;
+                    <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 41</bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib505"><title>CGRN</title></ref> 128 <ptr type="cgrn" target="128"/></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

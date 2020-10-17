@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epitaffio di un liberto di Kydonia</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 10 17</idno>
+                        <idno type="projectNo">031</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#chania_museum">Museo archeologico di Chania</repository>
+                                <idno type="invNo">23</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType> frontonata
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#kydonia">Kydonia</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Φιλόκαλος
+                          <lb n="2"/>Σύλου <space extent="unknown" unit="character"/> <rs type="institution" subtype="social_status" role="dedicatee_deceased" key="apeleutheros" ref="#kydonia"><w lemma="ἀπελεύθερος">ἀπ<lb 
+                        break="no" n="3"/>ελεύθερος</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’epitaffio fornisce una delle rare attestazioni cretesi della componente sociale dei liberti. Costoro, noti nell’isola anche presso il <foreign>Diktynnaion</foreign> di Rodopou in età imperiale (<ref type="ins" target="#ic2_11_3"><title>IC</title> II 11 3</ref>) e a Gortyna nel V e I secolo a.C. (<ref type="ins" target="#ic4_78"><title>IC</title> IV 78</ref>, <ref type="ins" target="#ic4_263"><title>IC</title> IV 263</ref>), costituiscono assieme ai <foreign>douloi</foreign> le sole categorie sociali di cui lo <foreign>status</foreign> viene dichiarato epigraficamente non soltanto ai fini della regolamentazione (cf. le sanzioni differenti previste per uomini liberi e schiavi in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref> o il diverso trattamento degli <foreign>apeleutheroi</foreign> in <ref type="ins" target="#ic4_78"><title>IC</title> IV 78</ref>), ma anche come elemento identificativo distintivo: come in questo caso, ciò avviene tendenzialmente in dediche ed epitaffi della tarda epoca ellenistica o della prima fase imperiale (cf. <ref type="ins" target="#ic2_11_3"><title>IC</title> II 11 3</ref> e <ref type="ins" target="#ic4_263"><title>IC</title> IV 263</ref>; per i <foreign>douloi</foreign> cf. <ref type="ins" target="#ic1_7_6"><title>IC</title> I 7 6</ref>, <ref type="ins" target="#ic1_17_39"><title>IC</title> I 17 39</ref> e forse <ref type="ins" target="#seg_23_577"><title>SEG</title> 23.577</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#apeleutheros"><foreign>apeleutheros</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 10 17 <ptr type="phi" target="199868"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

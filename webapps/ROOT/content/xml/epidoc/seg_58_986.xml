@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Gortyna e un’altra città</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 58.986</idno>
+                        <idno type="projectNo">297</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mitropolis">Basilica di Mitropolis, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0250" notAfter="-0200" precision="low">250-200 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="fragment" n="A+B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="παραγγέλλω"><supplied reason="lost">παρ</supplied>αγγελλόντων</w> τ<unclear>οῖ</unclear>ς <rs type="institution" subtype="board" role="guest" key="hiereus" ref="#gortyn" cert="low"><w lemma="ἱαρεύς">ἱα<unclear>ρ</unclear><supplied reason="lost">εῦσι</supplied></w></rs> <supplied reason="lost">κ</supplied>α<corr>ὶ</corr> <rs type="institution" subtype="board" role="guest" key="hiarorgos" ref="#gortyn" cert="low"><w lemma="ἱαροργός">ἱαρο<unclear>ρ</unclear><supplied reason="lost">γοῖς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig>. ὁ <rs type="institution" subtype="official" role="unknown" key="hiarorgos" ref="#gortyn"><w lemma="ἱαροργός">ἱαροργὸς</w></rs> τᾶς ἁμέρας <orig>πε</orig><gap reason="lost" quantity="2" unit="character"/><orig>ετασ</orig> <w lemma="ἀργύριον" part="I" cert="low">ἀργ<unclear>υ</unclear><supplied reason="lost">ρ</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ε</unclear>ς δ’ ἐ<corr>ν</corr> τα<unclear>ῖ</unclear>δ’ δέκ’ ἁμέραις ἧι αλλ<supplied reason="lost">ά</supplied>λας <w lemma="ἐπαρά">ἐπ<unclear>α</unclear>ρ<unclear>ὰ</unclear>ς</w> ἢ περὶ τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὁ</supplied> <rs type="institution" subtype="official" role="unknown" key="hiarorgos" ref="#gortyn"><w lemma="ἱαροργός"><unclear>ἱ</unclear>αροργὸς</w></rs> ἐφ’ ὧ χ’ <rs type="institution" subtype="official" role="unknown" key="hiarorgos" ref="#gortyn"><w lemma="ἱαροργέω">ἱαροργίοντος</w></rs> ἐλλίπηι <gap reason="lost" quantity="4" unit="character" precision="low"/><orig><unclear>ο</unclear>ιωικ</orig><gap reason="lost" quantity="3" unit="character" precision="low"/><orig><unclear>ε</unclear>ν</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πράσσω">πραξάντων</w> ἁ <rs type="institution" subtype="board" role="collecting_fines" key="neotas" ref="#gortyn" cert="low"><w lemma="νεότας">νεότας</w></rs> <w lemma="ἀργύριον">ἀργ<supplied reason="lost">υρίω</supplied></w> <w lemma="δαρχνά"><supplied reason="lost">δαρχνάς</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="fragment" n="C">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>τέταρτον· αἰ δὲ πρ<unclear>ά</unclear>ξει πα<unclear>ρ</unclear><supplied reason="lost">ὰ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">μωλῆν δὲ τὸν βωλό</supplied><unclear>μ</unclear>ε<unclear>νον</unclear> κἠχέτω, τὸ δὲ <rs type="institution" subtype="public_space" role="receiving_fines" key="hieron" ref="#gortyn"><w lemma="ἱαρόν">ἱ<unclear>α</unclear>ρὸν</w></rs> τὸ <unclear>τ</unclear>έ<unclear>τ</unclear><supplied reason="lost">αρτον, τὸ δὲ τέταρτον τὸν μωλίοντα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καταστασάντων</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἑκάτεροι τὸ</supplied><unclear>ν</unclear>ς ἐγγύος, ἀργυρ<unclear>ί</unclear>ω <expan><abbr>δαρ</abbr><ex>χνὰς</ex></expan> <num value="2000">ΨΨ</num> <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>α<unclear>ι</unclear>σα<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, di cui si sono conservati tre frammenti, è stato identificato come un trattato sulla base della presenza di un invito alla linea A+B 1 ([παρ]αγγελλόντων), elemento piuttosto ricorrente negli accordi fra città cretesi.</p>
+                    <p>I frammenti A e B, contigui, conservano una porzione di testo incentrata sulla gestione di questioni sacre: vi sono menzionati infatti più sacerdoti e <foreign>hiarorgoi</foreign>, forse coinvolti nella riscossione di denaro (l. 2, ἀργυ[ρ-]) e nel pronunciare maledizioni (l. 3, ἐπαράς). Nella riscossione di denaro, inoltre, è implicato anche il collegio della <foreign>neotas</foreign> (l. 5), attestato solamente a Gortyna (cf. <ref type="ins" target="#ic4_162"><title>IC</title> IV 162-164</ref>, <ref type="ins" target="#seg_48_1209"><title>SEG</title> 48.1209</ref>; cf. <bibl><ref target="#b2028">Willetts 1954</ref></bibl>, <bibl><ref target="#b2053">Willetts 1981</ref></bibl>).</p>
+                    <p>Anche il frammento C si occupa di riscossione di multe (l. 1), la quarta parte delle quali sembra essere destinata ad un santuario (l. 2); alla linea 3, inoltre, vengono coinvolti dei garanti, apparentemente a proposito di qualcosa che ha un valore di duemila (?) dracme d’argento.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#neotas"><foreign>neotas</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 9</bibl>; 
+                            <bibl><ref target="#b1169">Magnelli 2008</ref>, pp. 262-272 n. 9</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 58.986 <ptr type="seg" target="a58_986"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

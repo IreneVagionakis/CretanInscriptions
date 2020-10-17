@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto ateniese relativo a Kydonia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IG II³ 1 1190</idno>
+                        <idno type="projectNo">028</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#athens_agora_museum">Museo dell’Agora, Atene</repository>
+                        <idno type="invNo">Ag. I 7602</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#athens">Atene, <foreign>agora</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0229" notAfter="-0203">229-203 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><supplied reason="lost">ἐπὶ</supplied> <gap reason="lost" quantity="11" unit="character" precision="low"/> <supplied reason="lost">ἄ</supplied>ρχοντος, ἐπ<unclear>ὶ</unclear> <supplied reason="lost">τ</supplied><unclear>ῆ</unclear>ς Δ<unclear>η</unclear><supplied reason="lost">μητ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">ριάδος</supplied> <gap reason="lost" quantity="8" unit="character" precision="low"/> πρυταν<supplied reason="lost">ε</supplied>ίας, εἷ Νικάνω<supplied reason="lost">ρ</supplied> 
+                        <lb n="3"/><supplied reason="lost"><orig>μ</orig></supplied><gap reason="lost" quantity="3" unit="character"/><supplied reason="lost">ν</supplied><gap reason="lost" quantity="10" unit="character" precision="low"/>ς ἐγρα<unclear>μ</unclear>μά<unclear>τ</unclear>ευεν· δήμ<supplied reason="lost">ου</supplied> 
+                        <lb n="4"/><supplied reason="lost">ψηφίσματα· Βοηδρ</supplied>ομιῶνος <supplied reason="lost">ἕ</supplied>νει κ<supplied reason="lost">αὶ</supplied> νέα<supplied reason="lost">ι· <space quantity="2" unit="character"/></supplied> 
+                        <lb n="5"/><gap reason="lost" quantity="7" unit="character" precision="low"/> <supplied reason="lost">τῆς πρυτ</supplied>ανείας· <unclear>ἐ</unclear>κκ<supplied reason="lost">λη</supplied>σ<supplied reason="lost">ί</supplied>α ἐν <supplied reason="lost">τῶι</supplied> 
+                        <lb n="6"/><supplied reason="lost">θεάτρωι· τῶν προέδ</supplied>ρων ἐπε<unclear>ψ</unclear><supplied reason="lost">ήφιζ</supplied>εν Κλε<gap reason="lost" quantity="2" unit="character"/><lb 
+                        break="no" n="7"/><gap reason="lost" quantity="11" unit="character" precision="low"/> <supplied reason="lost">Φα</supplied><unclear>λ</unclear>ηρεὺ<unclear>ς</unclear> κα<supplied reason="lost">ὶ σ</supplied>υ<unclear>μ</unclear>πρόεδρο<supplied reason="lost">ι</supplied>· 
+                        <lb n="8"/><supplied reason="lost"><space extent="unknown" unit="character"/> ἔδοξεν</supplied> <unclear>τ</unclear>ῶι δήμωι· <space extent="unknown" unit="character"/>
+                        <lb n="9"/><gap reason="lost" quantity="15" unit="character" precision="low"/><orig>ν</orig> ε<supplied reason="lost">ἶ</supplied>πεν· ἐ<supplied reason="lost">π</supplied>ειδὴ <placeName ref="#kydonia" type="ethnic">Κυδωνι<lb 
+                        break="no" n="10"/><supplied reason="lost">ᾶται</supplied></placeName> <supplied reason="lost">ὄντες <w lemma="φίλος">φίλοι</w> καὶ</supplied> <w lemma="συγγενής"><supplied reason="lost">σ</supplied>υγγενε<supplied reason="lost">ῖς</supplied></w> τοῦ δήμου <space quantity="1" unit="character"/>
+                        <lb n="11"/><supplied reason="lost">τοῦ <placeName ref="#athens" type="ethnic">Ἀθηναίων</placeName> ἀπηγγέ</supplied>λκασιν τῆι βουλῆι κα<supplied reason="lost">ὶ</supplied> 
+                        <lb n="12"/><supplied reason="lost">τῶι δήμωι περὶ τῶν πε</supplied>πραγμέν<supplied reason="lost">ω</supplied>ν πρὸς <placeName ref="#illyria" type="ethnic"><supplied reason="lost">Ἰ</supplied>λλ<unclear>υ</unclear><lb 
+                        break="no" n="13"/><supplied reason="lost">ριοὺς</supplied></placeName> <gap reason="lost" quantity="10" unit="character" precision="low"/> <supplied reason="lost">κ</supplied>αὶ περὶ <unclear>τ</unclear><supplied reason="lost">ῶν</supplied> π<unclear>ρ</unclear>ὸς <unclear>τ</unclear>οὺς <unclear>Θ</unclear><lb 
+                        break="no" n="14"/><gap reason="lost" quantity="14" unit="character" precision="low"/>μενα καὶ παρακαλοῦσ<unclear>ι</unclear> 
+                        <lb n="15"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <w lemma="φιλία"><supplied reason="lost">φιλ</supplied><unclear>ί</unclear>αν</w> καὶ <w lemma="οἰκειότης"><unclear>ο</unclear>ἰκειότητα</w> <orig>οπ</orig><gap reason="lost" quantity="2" unit="character"/> 
+                        <lb n="16"/><gap reason="lost" quantity="25" unit="character" precision="low"/><unclear>τα</unclear>ῖς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#kydonia"><w lemma="πόλις">πόλ<unclear>ε</unclear><supplied reason="lost">σι</supplied></w></rs>
+                        <lb n="17"/><gap reason="lost" quantity="25" unit="character" precision="low"/><orig>ν</orig> καὶ <orig>οιπ<unclear>αι</unclear></orig>
+                        <lb n="18"/><gap reason="lost" quantity="16" unit="character" precision="low"/><orig>ιελε</orig><gap reason="lost" quantity="2" unit="character"/>ησαν περὶ <space quantity="1" unit="character"/>
+                        <lb n="19"/><gap reason="lost" quantity="11" unit="character" precision="low"/><supplied reason="lost">, ἀγαθῆι</supplied> τύχηι, <unclear>δ</unclear>εδόχθαι τῶ<supplied reason="lost">ι</supplied> 
+                        <lb n="20"/><supplied reason="lost">δήμωι·</supplied> <gap reason="lost" quantity="10" unit="character" precision="low"/> <supplied reason="lost">τῆι</supplied> <rs type="institution" subtype="social_group" role="unknown" key="polis" ref="#kydonia"><w lemma="πόλις">πόλ<unclear>ε</unclear>ι</w></rs> τῆι <placeName ref="#kydonia" type="ethnic"><unclear>Κ</unclear>υ<unclear>δ</unclear>ωνι<lb 
+                        break="no" n="21"/><supplied reason="lost">ατῶν</supplied></placeName> <gap reason="lost" quantity="13" unit="character" precision="low"/> ὁ δῆμος ὁ <placeName ref="#athens" type="ethnic">Ἀ<supplied reason="lost">θην</supplied><unclear>αί</unclear><supplied reason="lost">ων</supplied></placeName>
+                        <lb n="22"/><gap reason="lost" quantity="17" unit="character" precision="low"/>Σ ὑπ<supplied reason="lost">αρ</supplied>χ<gap reason="lost" quantity="8" unit="character" precision="low"/>
+                        <lb n="22a"/><gap reason="lost" quantity="1" unit="line"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La datazione del decreto ateniese, circoscritto agli anni 229/8-203 a.C. in quanto iscritto dal ‘<foreign>Cutter of IG II<hi rend="superscript">2</hi> 1706</foreign>’, operativo in tale periodo, sulla base dell’integrazione Ἰλλυριούς alle linee 12-13 sembrerebbe da essere ricondotta agli anni della Prima o della Seconda guerra illirica (229-228 o 219 a.C.; cf. <bibl><ref target="#bib501"><title>AIO</title></ref></bibl> 633, <bibl><ref target="#b1835">Edmunds – Tracy 1978</ref>, pp. 247-255</bibl>). 
+                    Il documento conserva l’unica dichiarazione di <foreign>syngeneia</foreign> fra Atene e una città non ionica, parentela spiegabile a livello mitico con la fratellanza di Kydon e Ione, entrambi figli di Apollo (cf. <bibl><ref target="#b1475">Papazarkadas – Thonemann 2008</ref></bibl>, <bibl><ref target="#b1135">Lücke 2000</ref></bibl>).
+                    Le relazioni fra Kydonia ed Atene, testimoniate anche da <ref type="ins" target="#ig_ii3_1137"><title>IG</title> II<hi rend="superscript">3</hi> 1 1137</ref>, <ref type="ins" target="#ig_ii3_358"><title>IG</title> II<hi rend="superscript">3</hi> 1 358</ref> e <ref type="ins"><title>IG</title> II<hi rend="superscript">2</hi> 745</ref>, sembrano qui riguardare alcune richieste avanzate dalla <foreign>polis</foreign> cretese alla città attica, che probabilmente Atene soddisfa mediante il presente decreto. Sebbene l’oggetto della domanda sia per buona parte in lacuna (ll. 15-18), il tratto conservato fa menzione del mantenimento della <foreign>oikeiotes</foreign> (sulla quale cf. <bibl><ref target="#b1660">Sammartano 2007</ref></bibl>) e verosimilmente dell’amicizia fra le due <foreign>poleis</foreign>. Tale condizione potrebbe forse preludere ad una proposta di stipulazione di un trattato di alleanza, accordo che non sembrerebbe essere fuori luogo negli anni in cui il suolo cretese è agitato dalla Guerra di Lyttos e dal suo proseguimento nella Guerra sociale (221-217 a.C.), momento in cui Kydonia potrebbe ragionevolmente cercare aiuto esterno contro l’aggressività di Polyrrhenia. Rimane irrisolta, invece, la questione del ruolo svolto da Kydonia nelle vicende illiriche, di cui questo decreto fornisce l’unica testimonianza.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b240">Camp 2003</ref>, pp. 275-277, fig. 41</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 53.140</bibl>);
+                    <bibl><ref target="#b1475">Papazarkadas – Thonemann 2008</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 58.137 <ptr type="seg" target="a58_137"/></bibl>);
+                    <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> II<hi rend="superscript">3</hi> 1 1190 <ptr type="phi" target="347485"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b239">Camp 2000</ref>, p. 68</bibl>;
+                    <bibl><ref target="#b162">Blackman 2000-2001</ref>, p. 5, fig. 6</bibl>; 
+                    <bibl><ref target="#b1832">Touchais <foreign>et al.</foreign> 2001</ref>, p. 793, n. 3, fig. 14</bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib501"><title>AIO</title></ref> 633 <ptr type="aio" target="IGII31/1190"/></bibl>;
+                    <bibl><ref target="#b1051">Lambert 2014</ref>, pp. 13-14</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

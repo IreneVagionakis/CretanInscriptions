@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 22 8</idno>
+                        <idno type="projectNo">438</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">186</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός"><supplied reason="lost">θιοί</supplied></w>· ἀ<supplied reason="lost">γαθᾶι τύχαι</supplied>.
+                          <lb n="2"/><rs type="institution" subtype="tribe" role="eponym" key="Pamphyloi" ref="#olous">ἐπὶ τῶν <w lemma="Πάμφυλοι">Π<supplied reason="lost">αμφύλων</supplied></w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#olous"><w lemma="κοσμέω"><supplied reason="lost">κοσμιόντων</supplied></w>
+                          <lb n="3"/><persName type="attested" key="Moirimimos f. -"><name nymRef="Μοιρίμιμος">Μοιριμίμω</name> τῶ <gap reason="illegible" quantity="1" unit="character"/>ο<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#olous"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></rs>,
+                          <lb n="4"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#olous"><persName type="attested" key="Prognos f. Etearchos"><name nymRef="Πρόγνος">Πρόγνω</name> τῶ <name nymRef="Ἐτέαρχος" type="patronymic">Ἐτεάρχω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#olous"><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></rs>,
+                          <lb n="5"/><rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#olous"><w lemma="γραμματεύς">γραμματέος</w> <space extent="unknown" unit="character"/> <persName type="attested" key="Mnastokles f. -"><name nymRef="Μναστοκλῆς">Μναστοκ<supplied reason="lost">λεῖος</supplied></name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs><supplied reason="lost">, ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#olous"><w lemma="πόλις">πόλις</w></rs></supplied>
+                          <lb n="6"/>τὸν <rs type="institution" subtype="public_space" role="construction" key="naos" ref="#olous"><w lemma="ναός">ναὸν</w></rs> καὶ <w lemma="ὀροφά">ὀροφὰν</w> <supplied reason="lost" cert="low"><w lemma="ἐπισκευάζω">ἐπεσκεύασε</w></supplied>
+                          <lb n="7"/><rs type="institution" subtype="official" role="incumbent" key="choregos" ref="#olous"><w lemma="χοραγέω">χοραγήσαντος</w> <persName type="attested" key="Taxilaos f. -"><name nymRef="Ταξύλαος">Ταξυλά<supplied reason="lost">ω</supplied></name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs>
+                          <lb n="7a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, relativa alla costruzione o al restauro di un tempio e del suo tetto (?), è il solo documento di Olous di tale natura ad essere di iniziativa pubblica, possibilmente della <foreign>polis</foreign> (la dedica di un tempio commemorata da <ref type="ins" target="#ic1_22_9"><title>IC</title> I 22 9</ref>, infatti, è promossa apparentemente da un privato). Il documento, che si apre con una doppia formula benaugurale, conserva una datazione eponimica che sembra ricordare la tribù dei <foreign>Pamphyloi</foreign>, a Creta nota anche a Hierapytna e Knossos (cf. <ref type="ins" target="#ic3_5_1"><title>IC</title> III 5 1</ref>, <ref type="ins" target="#ic1_8_14"><title>IC</title> I 8 14</ref>, <ref type="ins" target="#ic4_181"><title>IC</title> IV 181</ref>). Il magistrato eponimo Moirimimos, il cui titolo è andato perduto, è verosimile che fosse un cosmo, come nelle altre datazioni di Olous che includono un riferimento alla tribù (<ref type="ins" target="#seg_41_770"><title>SEG</title> 41.770</ref> e <ref type="ins" target="#ic1_18_9"><title>IC</title> I 18 9</ref>). La menzione dell’eponimo è seguita dal ricordo dei colleghi, almeno tre, ai quali si aggiunge quello del segretario Mnastokles, funzionario che a Olous è attestato anche nel decreto <ref type="ins" target="#seg_25_1020"><title>SEG</title> 25.1020</ref>. L’ultima linea del documento, inoltre, commemora un ex <foreign>choregos</foreign>, figura che a Creta compare solamente nella presente iscrizione e in un’iscrizione edificatoria di Lato (<ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#choregos"><foreign>choregos</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?), tribù (<ref type="inst" target="#pamphyloi"><foreign>Pamphyloi</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 22 8 <ptr type="phi" target="199543"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

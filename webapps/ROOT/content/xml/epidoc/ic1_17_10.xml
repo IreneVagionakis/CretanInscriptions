@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title><foreign>Sanatio</foreign> da Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 10</idno>
+                        <idno type="projectNo">231</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">50</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#sanatio"><foreign>sanatio</foreign></summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> δράκων ἂν τὸ πρυ<lb 
+                        break="no" n="2"/><supplied reason="lost">μνήσιον</supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>ετ</unclear>ο πὰρ τὸν κυβερνάταν
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ν<corr>α</corr>ι δὲ κατέπλευσαν ἐς
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ως ὁ δράκων κατὰ τὸ πρυμν<lb 
+                        break="no" n="5"/><supplied reason="lost">ήσιον</supplied> <gap reason="lost" extent="unknown" unit="character"/><unclear>ϝ</unclear>ηυθον ἐς <placeName ref="#lebena">Λεβήνας</placeName> πρὸ δα
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> πεδ’ εὐφαμίας καὶ ϝάδυος
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>αι τὸ ἀποβασιόμενον, ὁ δὲ
+                          <lb n="8"/><supplied reason="lost">δράκων</supplied> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ε ἀπὸ θαλάθας καὶ εἰσηῦθε
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> ἔτι προϋπαρχόντων ἐν τῷ
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ω καταλυμάτων ἔττα καὶ
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶ</supplied>ν <persName type="divine" key="Hermes">Ἑρμάω</persName> <rs type="institution" subtype="public_space" role="cult" key="bomos" ref="#lebena"><w lemma="βωμός">βωμῶν</w></rs> οἱ <w lemma="καλέω">ἐκαλίοντ<lb 
+                        break="no" n="12"/><supplied reason="lost">ο</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                            </div>
+                        <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>βασιθθα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>ταν ναιρα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>Γνησὼι ϝα<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐθε</supplied><lb 
+                        break="no" n="4"/>ραπεύετο <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>νατο αλ<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>θιος ἑρπ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><w lemma="θιός">θιὸν</w> κητε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><placeName ref="#rhaukos" type="ethnic">Ῥαυκία</placeName> ϝ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>ονχια θ<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">γε</supplied><lb 
+                        break="no" n="10"/>νόμενος <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καθ’</supplied>
+                          <lb n="11"/>ὕπνον <space extent="unknown" unit="character"/>
+                          <lb n="12"/>ἔχων ει<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                            </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento A, secondo Milena Melfi parte di un mito di fondazione dell’<foreign>Asklepieion</foreign> assieme ai testi <ref type="ins" target="#ic1_17_7"><title>IC</title> I 17 7</ref> e <ref type="ins" target="#ic1_17_8">8</ref>, menziona più altari di Hermes, forse esistenti a Lebena accanto alle strutture sacre connesse al culto di Asclepio.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#bomos"><foreign>bomos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b773">Guarducci 1934</ref>, pp. 418-420 n. 3</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 10 <ptr type="phi" target="199274"/></bibl>; 
+                            <bibl><ref target="#b713">Girone 1998</ref>, 3.3a α (A), 3.5 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 10B (A), 12 (B)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b289">Chaniotis 1988</ref>, T12</bibl>; 
+                            <bibl><ref target="#b136">Bile 1991</ref></bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 95-96</bibl>; 
+                            <bibl><ref target="#b503">Detorakis 1995</ref></bibl>; 
+                            <bibl><ref target="#b714">Girone 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

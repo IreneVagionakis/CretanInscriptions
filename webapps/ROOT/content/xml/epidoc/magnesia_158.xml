@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Magnesia relativo alla propria fondazione mitica</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Magnesia 158</idno>
+                        <idno type="projectNo">554</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#magnesia">Magnesia, <foreign>agora</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0221" notAfter="-0220" precision="low">221/220 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" quantity="15" unit="character" precision="low"/> χεῖρας <supplied reason="lost">ἐ</supplied>ξήγαγο<supplied reason="lost">ν</supplied> <gap reason="lost" quantity="14" unit="character" precision="low"/>
+                          <lb n="2"/><gap reason="lost" quantity="11" unit="character" precision="low"/> <supplied reason="lost">ση</supplied><unclear>μ</unclear>εῖον τῆς γενομέν<unclear>η</unclear><supplied reason="lost">ς</supplied> <gap reason="lost" quantity="14" unit="character" precision="low"/>
+                          <lb n="3"/><gap reason="lost" quantity="11" unit="character" precision="low"/> <supplied reason="lost">πα</supplied>ρὰ πάντων κατὰ κοινὸ<supplied reason="lost">ν</supplied> <gap reason="lost" quantity="13" unit="character" precision="low"/>
+                          <lb n="4"/><gap reason="lost" quantity="10" unit="character" precision="low"/> <supplied reason="lost">ψ</supplied>ηφισμάτων· μέχρι μὲν <supplied reason="lost">τούτων κατὰ νοῦν</supplied>
+                          <lb n="5"/><unclear>σ</unclear>υν<supplied reason="lost">τ</supplied>ελεσθ<supplied reason="lost">έ</supplied>ντων ταχέως ὧν ἕνεκεν ἦλ<supplied reason="lost">θον, περιέμενον</supplied>
+                          <lb n="6"/><unclear>τ</unclear>ὸ ῥηθὲν ὑπ<unclear>ὸ</unclear> τοῦ θεοῦ σημεῖον πρὸς τὴν ἀ<supplied reason="lost">ναχώρησιν· ἐπεὶ</supplied>
+                          <lb n="7"/>δὲ ἐλά<unclear>μ</unclear>βανε χρόνον, πόλιν ἀνὰ μέσον <rs type="institution" subtype="public_space" role="landmark" key="polis" ref="#phaistos"><rs type="institution" subtype="public_space" role="landmark" key="polis" ref="#gortyn"><w lemma="πόλις">π<supplied reason="lost">όλεων</supplied></w></rs></rs> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γόρτυ</supplied><lb 
+                        break="no" n="8"/>νος</placeName> καὶ <placeName ref="#phaistos" type="ethnic">Φαιστοῦ</placeName> <unclear>κα</unclear>τώικουσαν εὐδαιμόν<supplied reason="lost">ως μεταπεμψά</supplied><lb 
+                        break="no" n="9"/>μενοι τέκ<unclear>ν</unclear>α καὶ γυναῖκα<supplied reason="lost">ς, ἐ</supplied>νεφυσίωσάν τε κ<unclear>α</unclear><supplied reason="lost">ὶ τοῖς γινομέ</supplied><lb 
+                        break="no" n="10"/>νοις ἐξ ἑαυτῶν τὴμ βούλησιν τοῦ θεοῦ τὴν κατὰ <supplied reason="lost">τὸν χρησμόν·</supplied>
+                          <lb n="11"/>ὡς δὲ περὶ ὀγδοιήκονθ’ ἕτη μετὰ τὴν ἄφιξιν ἐφά<supplied reason="lost">νησαν οἱ λευκοὶ</supplied>
+                          <lb n="12"/>κόρακες, <space extent="unknown" unit="character"/> εὐθέως ἅμα θυσίαις χαριστηρίοις <space extent="unknown" unit="character"/> πέμ<supplied reason="lost">πονται εἰς</supplied> <placeName ref="#delphi"><supplied reason="lost">Δελ</supplied><lb 
+                        break="no" n="13"/>φοὺς</placeName> ἐρωτήσοντες περὶ τῆς εἰς τὴν ἰδ<unclear>ί</unclear><supplied reason="lost">αν</supplied> ἐπανόδο<supplied reason="lost">υ, ἱερωμένης</supplied>
+                          <lb n="14"/>ἐν <placeName ref="#argos">Ἄργει</placeName> <space extent="unknown" unit="character"/> Θεμιστοῦς, <space extent="unknown" unit="character"/> προάρχοντας ἐν <placeName ref="#delphi"><supplied reason="lost">Δελ</supplied>φοῖς</placeName> τὴν ἐ<unclear>ν</unclear><supplied reason="lost">ναετηρίδα</supplied>
+                          <lb n="15"/>Ξενύλλου.  πάλιν δὲ παρὰ τὴμ βούλησιν αὐτῶν χ<unclear>ρ</unclear>ηστηριάζε<supplied reason="lost">ται·</supplied>
+                          <lb n="16"/>ἤλθετε <placeName ref="#magnesia" type="ethnic">Μάγνητες</placeName> <placeName ref="#crete">Κρήτης</placeName> <unclear>ἀ</unclear>πόνοσφι τραπέν<supplied reason="lost">τες</supplied>
+                          <lb n="17"/>οἰωνὸμ πτερύγεσσι σὺν ἀργεννῇσιν ἰδόντες
+                          <lb n="18"/><supplied reason="lost">ἐ</supplied>γ μέλανος, καὶ θαῦμα καταθνητοῖσιν ἐφάνθη,
+                          <lb n="19"/><supplied reason="lost">κ</supplied>αὶ δίζησθε, πάτρην εἰ λώϊόν ἐστιν ἱκέσθαι.
+                          <lb n="20"/>ἀλλὰ χρεὼγ γαίης ἀπ<supplied reason="lost">ὸ π</supplied>ατρίδος ἄλλοθι <unclear>ν</unclear>εῖσθα<supplied reason="lost">ι·</supplied>
+                          <lb n="21"/>πατρὶ δ’ ἐμῶι καὶ ἐμοὶ <supplied reason="lost">καὶ</supplied> συγγόνωι ὧδε μ<supplied reason="lost">ελ</supplied>ήσει
+                          <lb n="22"/>μή τι χερειοτέραμ β<unclear>ῶλ</unclear><supplied reason="lost">ο</supplied>μ <placeName ref="#magnesia" type="ethnic">Μ<supplied reason="lost">ά</supplied>γνητα</placeName> δάσασθαι
+                          <lb n="23"/><unclear>χ</unclear>ώρας ἧς Πηνειὸς ἔχει κα<supplied reason="lost">ὶ</supplied> Πήλιον α<unclear>ἰ</unclear>πύ.
+                          <lb n="24"/>ἀπογνόντες οὖν διὰ τὸγ χρησμὸν <supplied reason="lost">τ</supplied>ὴν εἰς οἶκον ἐπάνοδον καὶ
+                          <lb n="25"/>σπεύδο<corr>ν</corr>τες ἑαυτοῖς ἐπιτελεσθῆναι τὴν ἐπαγγελίαν τοῦ
+                          <lb n="26"/>θεοῦ πάλιν ἐπη<unclear>ρ</unclear>ώτ<corr>η</corr>σαμ πέμψαντες ὅπ<supplied reason="lost">ο</supplied>υ στέλλοιεν
+                          <lb n="27"/>καὶ πῶς· ὁ δὲ θεὸς ἔχρησεν·
+                          <lb n="28"/>εἴρεσθ’ ὦ <placeName ref="#magnesia" type="ethnic">Μάγνητες</placeName> ἀμύμονες, ἔνθα νέησθε·
+                          <lb n="29"/>ὔμμι δὲ ἀνὴρ ἕστηκε πάρος νηοῖο θυράων,
+                          <lb n="30"/><supplied reason="lost">ὃ</supplied>ς γ’ ὑμῖν ἄρξαιτο καὶ ἡγήσαιτο κελεύθου
+                          <lb n="31"/><placeName ref="#pamphylia" type="ethnic"><unclear>Π</unclear>αμ<unclear>φ</unclear>ύλων</placeName> ἐπ’ ἄρουραν ὑπὲρ Μυκάλης ὄρος αἰπ<unclear>ύ</unclear>·
+                          <lb n="32"/>ἔνθα δὲ Μανδρολύτου δόμος ὄλβιος ἐμ περιωπῆ<supplied reason="lost">ι</supplied>
+                          <lb n="33"/>πολλοῖσιν κτεάνοισι πολυστρεφέος ποταμοῖο·
+                          <lb n="34"/>ἔνθα δὲ ἀμυνομένοισι καὶ οὐκ ἄρχουσι δόλοιο
+                          <lb n="35"/>νίκηγ καὶ μέγα κῦδος <persName type="divine" key="Olympios">Ὀλύμπιος</persName> ἐγγυαλίξει.
+                          <lb n="36"/>ἐπερωτησάντων δὲ τίς ὁ ἀνὴρ οὗτός ἐστιν ὁ καθηγησό<lb 
+                        break="no" n="37"/>μενος ἡμῖν καὶ πόθεν, ὁ θεὸς ἔχρησεν·
+                          <lb n="38"/>ἔστι τις ἐν τεμένει <persName type="divine" key="Glaukos">Γλαύκου</persName> γένος ἄ<corr>λ</corr>κιμος ἀνήρ,
+                          <lb n="39"/>ὅς γ’ ὑμῖν πρώτιστ’ <surplus>ε</surplus> ἐπιέξεται ἀ<unclear>ν</unclear>τιβολήσας
+                          <lb n="40"/>νηὸν ἐμὸμ προλιποῦσι· τὸ γὰ<supplied reason="lost">ρ</supplied> πεπρωμένον ἐστίν.
+                          <lb n="41"/>οὗτος καὶ δείξει χέρσου πολύπυρον ἄρουραν.
+                          <lb n="42"/>συναντησάντων δὲ κατὰ τὸ ῥηθὲν καὶ τὴ<unclear>ν</unclear> συγγένεια<supplied reason="lost">ν</supplied>
+                          <lb n="43"/>πρὸς τὸν Λεύκιππον ἀνανεωσαμένων, ἐπιδειξάντων
+                          <lb n="44"/>τοὺς χρησμοὺς ἄσμενος ὑπήκουσεν ὁ <corr>Λ</corr>εύκιππος, ὅμως μ<supplied reason="lost">έν</supplied><lb 
+                        break="no" n="45"/>τοινε καὶ αὐτὸς ἐπ<supplied reason="lost">η</supplied>ρ<supplied reason="lost">ώτ</supplied>η<supplied reason="lost">σ</supplied>ε κατ’ ἰδίαν τὸν θεόν, τῶι δ’ ἔχρησεν·
+                          <lb n="46"/>στέλλ’ ἐπὶ <placeName ref="#pamphylia" type="ethnic">Παμφύ<supplied reason="lost">λ</supplied>ωγ</placeName> κό<supplied reason="lost">λ</supplied>πον, Λεύκιππε, φέροπλον
+                          <lb n="47"/>λαὸν ἄγωμ <placeName ref="#magnesia" type="ethnic">Μάγνητα</placeName> ὁμοσύγγονον, ὡς ἂν ἵκειαι
+                          <lb n="48"/>Θ<supplied reason="lost">ώρη</supplied>κος σκόπελον κ<supplied reason="lost">α</supplied>ὶ Ἀμανθίου αἰπὺ ῥέεθρον
+                          <lb n="49"/>καὶ <supplied reason="lost">Μ</supplied>υκάλης ὄρος αἰπὺ ἀπεναντίον Ἐνδυμίων<supplied reason="lost">ος</supplied>.
+                          <lb n="50"/>ἔνθα δὲ Μ<supplied reason="lost">α</supplied>νδρολύτου δόμον ὄλβιοι <w lemma="οἰκέω">οἰκήσο<supplied reason="lost">υσιν</supplied></w>
+                          <lb n="51"/><placeName ref="#magnesia" type="ethnic"><supplied reason="lost">Μ</supplied>άγνητ<corr>ε</corr>ς</placeName> πολ<unclear>ίε</unclear><supplied reason="lost">σσι</supplied> <unclear>π</unclear>ερικτιόνεσσιν ἀγητ<supplied reason="lost">οί</supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto di Magnesia relativo alla propria fondazione mitica, contenente al suo interno il testo dell’oracolo delfico ricevuto a tale riguardo, menziona una <foreign>polis</foreign> cretese – ritenuta dai più fittizia – localizzata tra quelle di Gortyna e Phaistos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis1"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b981">Kern 1894</ref>, n. I</bibl>; 
+                            <bibl><ref target="#b1661">Sakolowski 1896</ref>, pp. xxi-xxiii</bibl>; 
+                            <bibl><ref target="#bib109"><title>I.Magnesia</title></ref> 17</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 855</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib56"><title>Magnesia</title></ref> 158 <ptr type="phi" target="260599"/></bibl>;
+                            <bibl><ref target="#bib263">Merkelbach – Stauber, <title>SGO</title></ref> IV 02/01/01</bibl>;
+                            <bibl><ref target="#b258">Carless Unwin 2013</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b982">Kern 1913</ref>, n. 36</bibl>; 
+                            <bibl><ref target="#b1482">Parke – Wormell 1956</ref>, nn. 378-382</bibl>; 
+                            <bibl><ref target="#b543">Dušanić 1983</ref>, pp. 11-48</bibl>; 
+                            <bibl><ref target="#b545">Ebert 1985</ref>, pp. 56-61</bibl>; 
+                            <bibl><ref target="#b289">Chaniotis 1988</ref>, T6</bibl>; 
+                            <bibl><ref target="#b364">Clay 1993</ref></bibl>; 
+                            <bibl><ref target="#b1792">Sumi 2004</ref></bibl>; 
+                            <bibl><ref target="#b327">Chaniotis 2005</ref>, p. 221</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

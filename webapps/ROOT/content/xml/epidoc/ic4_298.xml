@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 298</idno>
+                        <idno type="projectNo">359</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#mitropolis">Mitropolis, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#epistyle">architrave</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῆς</supplied> <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#gortyn" cert="low"><supplied reason="lost">κρατίστ</supplied>ης <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> <w lemma="βουλή">βουλῆς</w></rs> καὶ τ<supplied reason="lost">οῦ <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#gortyn" cert="low">λαμπροτάτου <w lemma="δῆμος">δήμου</w></rs></supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, risalente verosimilmente alla prima fase di dominio romano di Creta, conserva un riferimento alla decisione che ne è all’origine, presa dalla <foreign>boule</foreign> e molto probabilmente dal <foreign>demos</foreign> di Gortyna. Dei due organi, il secondo compare in un contesto di dedica onoraria anche in <ref type="ins" target="#ig_xi_4_1132b"><title>IG</title> XI, 4 1132 B</ref> II, mentre il primo al di fuori della presente iscrizione sembra essere impiegato solamente nella legge <ref type="ins" target="#seg_49_1221"><title>SEG</title> 49.1221</ref>. L’associazione di <foreign>boule</foreign> e <foreign>demos</foreign>, invece, è ben attestata in età imperiale (cf. <foreign>e.g.</foreign> <ref type="ins"><title>IC</title> IV 297</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 341-342 n. 49</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 298 <ptr type="phi" target="200741"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

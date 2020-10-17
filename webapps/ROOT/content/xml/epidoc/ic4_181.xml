@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di pace fra Gortyna e Knossos con mediazione tolemaica</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 181</idno>
+                        <idno type="projectNo">314</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#pillar">pilastro</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0168" notAfter="-0167">168/167 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#knossos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#gortyn"><w lemma="συνθήκα">συν<unclear>θ</unclear><supplied reason="lost">ή</supplied><unclear>κα</unclear></w></rs></rs> <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> καὶ <placeName ref="#knossos" type="ethnic">Κνωσί<supplied reason="lost">ων</supplied></placeName>.
+                          <lb n="1a"/><space quantity="1" unit="line"/>
+                          <lb n="2"/>ἀγαθᾶι <w lemma="θύχα">θύχαι</w>. <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόν<supplied reason="lost">των</supplied></w> <placeName ref="#gortyn"><supplied reason="lost">Γόρτυνι</supplied></placeName> μὲν ἐπὶ τῶν <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶν</supplied>
+                          <lb n="3"/>σὺν <persName type="attested" key="Archemachos f. Men-"><name nymRef="Ἀρχέμαχος">Ἀρχεμάχωι</name> τῶ <name nymRef="Μεν-" type="patronymic">Μεν<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs> <w lemma="μείς"><supplied reason="lost">μην</supplied>ὸς</w> <rs type="institution" subtype="month" role="calendar" key="Ionios" ref="#gortyn"><w lemma="Ἰόνιος">Ἰονίω</w></rs> ἠν<supplied reason="lost">άτα καὶ δεκάται,</supplied> <placeName ref="#knossos"><supplied reason="lost">Κνω</supplied><lb 
+                        break="no" n="4"/>σοῖ</placeName> δὲ <rs type="institution" subtype="tribe" role="eponym" key="Pamphyloi" ref="#knossos">ἐπὶ τῶν <w lemma="Πάμφυλοι">Παμφύλω<supplied reason="lost">ν</supplied></w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos"><supplied reason="lost">τῶν σὺν</supplied> <persName type="attested" key="Euryththenias f. -"><name nymRef="Εὐρυθθενίας">Εὐρυθθεν<supplied reason="lost">ίαι</supplied></name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs> <w lemma="μείς"><supplied reason="lost">μη</supplied><lb 
+                        break="no" n="5"/>νὸς</w> <rs type="institution" subtype="month" role="calendar" key="Karneios" ref="#knossos"><w lemma="Καρνήιος">Καρνήιω</w></rs> ἠνάτα καὶ δ<supplied reason="lost">εκάται, πρε</supplied>ιγεύσαν<unclear>τ</unclear><supplied reason="lost">ος</supplied> <persName type="ruler" key="Ptolemaios VI" ref="#egypt"><supplied reason="lost"><name nymRef="Πτολεμαῖος">Πτολεμαίω</name></supplied> <w lemma="βασιλεύς"><supplied reason="lost">βασι</supplied><lb 
+                        break="no" n="6"/>λέος</w></persName> ἐπὶ τὰν <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#gortyn"><w lemma="πόλις">πόλιν</w></rs> τῶν <placeName ref="#gortyn" type="ethnic">Γορ<supplied reason="lost">τυνίων</supplied></placeName> <supplied reason="lost">π</supplied>ερὶ ἱρήνα<unclear>ς</unclear>, <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#gortyn"><w lemma="ψαφίζω">ψαφίξανσι</w></rs> <rs type="institution" subtype="assembly" role="voter" key="triakatioi" ref="#gortyn"><w lemma="τριακάτιοι">τρι<supplied reason="lost">ακ</supplied>ατίων</w> παρ<supplied reason="lost">ιόντων</supplied></rs>· πε<supplied reason="lost">ρὶ</supplied> ὧν <supplied reason="lost">τὸνς <placeName ref="#gortyn" type="ethnic">Γορτυνίονς</placeName></supplied> <w lemma="παρκαλέω"><supplied reason="lost">παρ</supplied><lb 
+                        break="no" n="8"/>καλίοντι</w> <placeName ref="#knossos" type="ethnic">Κνώσ<supplied reason="lost">ιοι</supplied></placeName> ἤραντας τὰν <supplied reason="lost">ἐνεσ</supplied>τακ<supplied reason="lost">υῖαν διαφορὰν ἀποχω</supplied><lb 
+                        break="no" n="9"/>ρῆσαι καὶ ἄγεν ἱρήναν πορτὶ <placeName ref="#knossos" type="ethnic">Κν<supplied reason="lost">ωσίον</supplied>ς</placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πε</supplied><lb 
+                        break="no" n="10"/>δὰ <persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς">βασιλέος</w> <name nymRef="Πτολεμαῖος">Πτολεμαίω</name></persName> ἄγεν <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied><lb 
+                        break="no" n="11"/>ποκαταστᾶσαι τᾶι <persName type="divine" key="Athena">Ἀθαναίαι</persName> ταισι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/>ρον τοῖς <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> ἃ ἔλαβον ιον<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/>χοντα ἢ <w lemma="χρύσιον">χρύσια</w> ἢ <w lemma="ἀργύριον">ἀργύρια</w> ἢ ἄλλο <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="illegible" quantity="1" unit="character"/>ίω ἐν ἁμέραις ϝεξήκοντα τω<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">εὑ</supplied><lb 
+                        break="no" n="15"/>ρίσκηται ἰόντα τᾶι ἀλαθείαι ἢ <w lemma="χρύσιον">χρύσι<unclear>α</unclear></w> <supplied reason="lost">ἢ <w lemma="ἀργύριον">ἀργύρια</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/>ναν <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn">ἐπὶ τῶν <w lemma="ἐφιστάμενος">ἐφισταμένων</w> πεδ’ <persName type="attested" key="Archemachos f. Men-"><name nymRef="Ἀρχέμαχος">Ἀρχ<supplied reason="lost">εμάχω</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/>μων πρὸ τᾶς <rs type="institution" subtype="month" role="calendar" key="Leschanoreios" ref="#gortyn"><w lemma="Λεσχανορεῖος">Λεσχανορίας</w></rs> <w lemma="νεμονηία">νεμο<supplied reason="lost">νήιας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐ</supplied><lb 
+                        break="no" n="18"/>πὶ τῶν ἐχομένων ὡσαύτως. ἀποδό<supplied reason="lost">μεν δὲ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰν</supplied> <placeName ref="#apollonia"><supplied reason="lost">Ἀπελλω</supplied><lb 
+                        break="no" n="19"/>νίαν</placeName> καὶ τὰν χώραν τὰν πορτίαθθαν κ<unclear>α</unclear><supplied reason="lost">ὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῶν</supplied> <placeName ref="#apollonia" type="ethnic"><supplied reason="lost">Ἀπελλω</supplied><lb 
+                        break="no" n="20"/>νιατᾶν</placeName> <placeName ref="#knossos" type="ethnic">Κνωσίονς</placeName> <placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> ἐν ἁμέ<supplied reason="lost">ραις</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="21"/><w lemma="δάνειον">δάνεια</w> ἢ <w lemma="ἐνγύα">ἐνγύανς</w> ὀφήλει ἁ <rs type="institution" subtype="assembly" role="payments" key="polis" ref="#knossos"><w lemma="πόλις">πόλις</w></rs> ἁ τῶν <placeName ref="#knossos" type="ethnic">Κν<supplied reason="lost">ωσίων</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#knossos" type="ethnic"><supplied reason="lost">Κνώσι</supplied><lb 
+                        break="no" n="22"/>ος</placeName> <placeName ref="#gortyn" type="ethnic">Γορτυνίωι</placeName>, ἀποδιδόντων ἐν ϝέτεθθι τ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἢ αὐ</supplied><lb 
+                        break="no" n="23"/>τοῖς τοῖς ὀφήλοντι ἢ τοῖς ἀντάταις ἢ αὐτοὶ ο<supplied reason="lost">ἱ ὀφήλοντες ἢ οἱ ἀντᾶ</supplied><lb 
+                        break="no" n="24"/>ται. <w lemma="ἄρχω">ἄρχεν</w> δὲ τᾶς πράτας καταβολᾶς τούτω<supplied reason="lost">ν τῶν <w lemma="χρήματα">χρημάτων</w> τὸν χρό</supplied><lb 
+                        break="no" n="25"/><unclear>ν</unclear>ον ἀφ’ ὧ κ’ ἀποστᾶντι <placeName ref="#gortyn">Γόρτυνι</placeName> μὲν <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn">οἱ πεδ’ <persName type="attested" key="Archemachos f. Men-"><name nymRef="Ἀρχέμαχος">Ἀρχε<supplied reason="lost">μάχω</supplied></name></persName> <supplied reason="lost"><w lemma="κόσμος">κόρμοι</w></supplied></rs> <supplied reason="lost">ἐν τῶι ἑ</supplied><lb 
+                        break="no" n="26"/><supplied reason="lost">πο</supplied>μένωι ἐνιαυτῶι πρὸ τᾶς <rs type="institution" subtype="month" role="calendar" key="Leschanoreios" ref="#gortyn"><w lemma="Λεσχανορεῖος">Λεσχανορίας</w></rs> <w lemma="νεμονηία">νεμον<supplied reason="lost">ήιας</supplied></w><supplied reason="lost">, <placeName ref="#knossos">Κνωσοῖ</placeName> δὲ ἀφ’ ὧ κ’ ἀ</supplied><lb 
+                        break="no" n="27"/><supplied reason="lost">πο</supplied>στᾶντι <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos">οἱ πέδ’ <persName type="attested" key="Euryththenias f. -"><name nymRef="Εὐρυθθενίας">Εὐρυθθενία</name></persName> <w lemma="κόρμος">κόρμοι</w></rs> ἐν τῶι ἑπ<unclear>ομ</unclear><supplied reason="lost">ένωι ἐνιαυτῶι πρὸ τᾶς</supplied>
+                          <lb n="28"/><rs type="institution" subtype="month" role="calendar" key="Koronios" ref="#knossos"><w lemma="Κορόνιος"><supplied reason="lost">Κ</supplied>ορωνίας</w></rs> <w lemma="νεμονηία">νεμονήιας</w>, ὡσαύτως δὲ καὶ τὰνς ἄλλαν<supplied reason="lost">ς καταβολὰνς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="29"/><supplied reason="lost">τ</supplied>ούτων τῶ<supplied reason="lost">ν</supplied> <w lemma="χρήματα"><unclear>χ</unclear>ρ<unclear>η</unclear><supplied reason="lost">μά</supplied>των</w> ἐπὶ τῶν τόκ’ ἀεὶ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#knossos"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόντ<supplied reason="lost">ων</supplied></w></rs></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="30"/><gap reason="lost" extent="unknown" unit="character"/><orig>νθι<unclear>χ</unclear>ι</orig><gap reason="illegible" quantity="1" unit="character"/>ων <rs type="institution" subtype="social_status" role="unknown" key="polites" ref="#knossos"><rs type="institution" subtype="social_status" role="unknown" key="polites" ref="#gortyn"><w lemma="πολίτας">πολιταν</w></rs></rs><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="30a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato, preceduto dall’intestazione alla linea 1, dopo l’invocazione benaugurale ἀγαθᾶι θύχαι conserva le datazioni di entrambe le città, menzionanti sia i magistrati eponimi che le date esatte espresse in mesi e giorni (ll. 2-5): per Gortyna vengono ricordati il cosmo Archemachos figlio di Men- e il mese <foreign>Ionios</foreign> – non attestato altrove –, mentre per Knossos il cosmo Euryththenias della tribù dei <foreign>Pamphyloi</foreign> (attestatovi anche in <ref type="ins" target="#ic1_8_14"><title>IC</title> I 8 14</ref>) e il mese <foreign>Karneios</foreign> (noto anche a Gortyna; cf. <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>).</p>
+                    <p>Alle linee 5-6 viene ricordata un’ambasceria inviata alla <foreign>polis</foreign> di Gortyna da Tolemeo VI allo scopo di ristabilire la pace fra Knossos e Gortyna (successiva a quella documentata da <ref type="ins" target="#ic4_176"><title>IC</title> IV 176</ref>), in risposta alla quale quest’ultima ha preso le proprie decisioni in merito a Knossos mediante una votazione a cui hanno preso parte (almeno) trecento individui, forse menzionati in quanto costituenti un <foreign>quorum</foreign> (l. 7, ψαφίξανσι τρι[ακ]ατίων παρ[ιόντων]; l’espressione a Creta è attestata solo a Gortyna: cf. <ref type="ins" target="#ic4_162"><title>IC</title> IV 162</ref> e <ref type="ins" target="#seg_38_900"><title>SEG</title> 38.900</ref>).</p>
+                    <p>L’oggetto degli accordi, esposto alle linee 7-18, prevede come condizioni necessarie alla rappacificazione fra le due città una compensazione per più oggetti preziosi apparentemente sottratti da Knossos ad un santuario di Atena, da consegnare in parte entro la luna nuova del mese <foreign>Leschanoreios</foreign> (attestato altrimenti solo in <ref type="ins" target="#ic2_30_1"><title>IC</title> II 30 1</ref>) dell’anno in cui è in carica (<foreign>i.e.</foreign> come cosmo) Archemachos, in parte entro l’anno successivo.</p>
+                    <p>Un’altra significativa condizione imposta da Gortyna è la restituzione da parte di Knossos di Apollonia e del suo territorio, che dovevano trovarsi in precedenza sotto il controllo di Gortyna e la cui conquista potrebbe verosimilmente essere la causa del conflitto fra le due città (ll. 18-20; cf. <ref type="lit" target="#PolybXXVIII">Polyb. XXVIII 15</ref> e <ref type="ins" target="#ic4_182"><title>IC</title> IV 182</ref>).</p>
+                    <p>La <foreign>polis</foreign> di Knossos e i suoi singoli cittadini sono inoltre tenuti a saldare i prestiti e le obbligazioni che devono a Gortyna o ai Gortynii entro un certo numero di anni (ll. 21-30), iniziando a versare tale denaro durante l’anno in cui escono di carica i cosmi eponimi  Archemachos a Gortyna ed Euryththenias a Knossos, entro la luna nuova rispettivamente dei mesi <foreign>Leschanoreios</foreign> e <foreign>Koronios</foreign> (verosimilmente equivalente di <foreign>Karonios</foreign>, noto solo a Knossos; cf. <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref> e <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>).</p>
+                    <p>L’ultima linea conservatasi del documento, forse relativa ad un’ulteriore clausola del trattato, menziona dei cittadini, sebbene non sia chiaro a quale proposito (l. 30).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mesi (<ref type="inst" target="#ionios"><foreign>Ionios</foreign></ref>, <ref type="inst" target="#karneios"><foreign>Karneios</foreign></ref>, <ref type="inst" target="#koronios"><foreign>Koronios</foreign></ref>, <ref type="inst" target="#leschanoreios"><foreign>Leschanoreios</foreign></ref>), <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>triakatioi</foreign></ref>, tribù (<ref type="inst" target="#pamphyloi"><foreign>Pamphyloi</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b839">Halbherr 1889</ref>, pp. 41-45 n. 2 B</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5015</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 181 <ptr type="phi" target="200620"/></bibl>; 
+                           <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 43</bibl>; 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 128 I</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b774">Guarducci 1934a</ref></bibl>;
+                            <bibl><ref target="#b595">Faure 1963</ref>, pp. 16-17</bibl>;
+                            <bibl><ref target="#b1185">Manganaro 1966</ref>, p. 15</bibl>; 
+                            <bibl><ref target="#b689">Gauthier 1990</ref>, p. 94</bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 76-79</bibl>; 
+                            <bibl><ref target="#b1165">Magnelli 1998a</ref>, pp. 99-100</bibl>; 
+                            <bibl><ref target="#b1466">Papadakis 2000</ref></bibl>; 
+                            <bibl><ref target="#b705">Ghinatti 2004</ref>, pp. 150-151, 160-161</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

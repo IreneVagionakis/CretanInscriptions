@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epigramma funerario per un cittadino di Itanos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 37</idno>
+                        <idno type="projectNo">534</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">46</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic_imperial" notBefore="-0200" notAfter="-0001">II-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">πό</supplied>ντου κυμαίνοντος ἐνοικ<unclear>ήτ</unclear>ιραι ἀθαμ<supplied reason="lost">βεῖς</supplied>
+                          <lb n="2"/><persName type="divine" key="Nereides"><supplied reason="lost">Ν</supplied>ηρῇδες</persName> ξανθοὺς λυσάμεναι πλοκάμους
+                          <lb n="3"/>δεῦτε πρὸς ἠιθέου νέον ἠρίον ὄφρα τάχιστα
+                          <lb n="4"/>με<supplied reason="lost">ίζο</supplied><unclear>ν</unclear>’ <persName type="divine" key="Achilles">Ἀχιλλείης</persName> θρῆνον ἀεισόμεναι,
+                          <lb n="5"/>ὃν <persName type="divine" key="Kypris">Κ<unclear>ύ</unclear>πρις</persName> <unclear>οὐ</unclear> λεχέεσσι γαμοκλόπος ἐμνήστευσεν
+                          <lb n="6"/>οὐδὲ καλῶι θαλάμωι συνκατέλεξε κόρηι
+                          <lb n="7"/>ἀλλ’ αὔτως ὑπὸ γαῖαν ἔβην <persName type="divine" key="Pluto">Πλούτωνι</persName> πάροικος
+                          <lb n="8"/>καὶ <w lemma="πατήρ">πατρὶ</w> τὸν πρόσθεν γαῖ’ ἐκάλυψε τάφωι.
+                          <lb n="9"/><persName type="divine" key="Hermes">Ἑρμῆ</persName> <persName type="divine" key="Maia">Μαιάδος</persName> υἱέ, ἄγ’ <w lemma="εὐσεβής">εὐσεβέων</w> ἐπὶ χῶρον
+                          <lb n="10"/><w lemma="ἀνήρ">ἄνδρα</w> τὸν ἐν θήραις γ’ ὄντ’ ἀκ<gap reason="lost" quantity="3" unit="character"/>τότατον,
+                          <lb n="11"/>ὃν <w lemma="πατρίς">πατρὶς</w> θρέψασα <rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#itanos"><w lemma="πόλις">πόλις</w> γ’ <supplied reason="lost">εὔδοξος</supplied> <placeName ref="#itanos">Ἴτανος</placeName></rs>
+                          <lb n="12"/>κλαῦσεν ἐπ’ οὐχ ὁσίωι <w lemma="σῶμα">σώ<supplied reason="lost">ματ’</supplied></w> <supplied reason="lost">ὀδυρα</supplied><unclear>μ</unclear>ένη.
+                          <lb n="13"/>ἀλλὰ σύ, δῖα μάκαιρα <persName type="divine" key="Zeus">Διὸς</persName> θ<supplied reason="lost">ρέπτειρ’, ἀπόλ</supplied>ηγε
+                          <lb n="14"/><placeName ref="#crete">Κρήτη</placeName>, σ’ ἀγκόπασον, μῆτ<supplied reason="lost">ερ</supplied><seg met="⏑–⏑⏑"><gap reason="lost" extent="unknown" unit="character"/></seg>ων·
+                          <lb n="15"/>οὐ γὰρ μόρσιμόν ἐστι φυγ<supplied reason="lost">εῖν</supplied> <seg met="⏕–⏑⏑–"><gap reason="lost" extent="unknown" unit="character"/></seg>νη
+                          <lb n="16"/>εἴ γε <w lemma="θεός">θεοὶ</w> τ<supplied reason="lost">α</supplied>ύτην ἀτραπὸν ηρ<seg met="–⏑⏑–"><gap reason="lost" extent="unknown" unit="character"/></seg>
+                          <lb n="17"/>καὶ πολὺ βε<supplied reason="lost">λ</supplied><unclear>τ</unclear>είους καὶ κ<unclear>α</unclear><supplied reason="lost">λ</supplied>λίονα<supplied reason="lost">ς</supplied> <seg met="⏑⏑–x"><gap reason="lost" extent="unknown" unit="character"/></seg>
+                          <lb n="18"/>ὧν γένος ἐκ μακάρων <unclear>γ</unclear>’ <supplied reason="lost">ἐ</supplied>στὶ κ<unclear>α</unclear><supplied reason="lost">ὶ ἀθανάτων</supplied>.
+                          <lb n="19"/>θνήσκει μὲν γὰρ <w lemma="ἄναξ">ἄναξ</w> <persName type="divine" key="Minos">Μίνως</persName> <seg met="⏑⏑–⏑–"><gap reason="lost" extent="unknown" unit="character"/></seg>ε <placeName ref="#crete">Κρήτης</placeName>,
+                          <lb n="20"/>θνήσκει δ’ <persName type="divine" key="Herakles">Ἡρακλέης</persName> υἱὸς ἐών γ<supplied reason="lost">ε</supplied> <persName type="divine" key="Zeus"><supplied reason="lost">Δ</supplied>ιός</persName>
+                          <lb n="21"/>οἵ τε <persName type="divine" key="Dioskouroi">Διόσκοροι</persName> <w lemma="ἀνήρ">ἄνδρες</w> ἔφυν θνητοὶ τό γε πρῶτον
+                          <lb n="22"/>εἰς δὲ <w lemma="θεός">θεοὺς</w> ᾤ<unclear>χ</unclear><supplied reason="lost">ο</supplied><unclear>ν</unclear>τ’ <w lemma="εὐσεβία">εὐσεβίας</w> γε χάριν.
+                          <lb n="23"/>τοιγάρτοι καὐτός <supplied reason="lost">γ’</supplied> <w lemma="ἀρετά"><supplied reason="lost">ἀρ</supplied>ετᾶς</w> ἕνεκεν κατὰ <w lemma="πάτρα">πάτραν</w>
+                          <lb n="24"/>εἰς τόπον <w lemma="εὐσεβής">εὐσεβέων</w> χῶρον <unclear>ἀ</unclear>πῳκισάμην
+                          <lb n="25"/><w lemma="πατήρ">πατρὸς</w> μὲν <w lemma="γένος">γένος</w> ὤν γε Πολίτα, <w lemma="οὔνομα">οὔνομα</w> δ’ αὖ μοι
+                          <lb n="26"/>κάτθετ’ ἐμὴ μήτηρ τεξαμένη γε Φιλισκὼ
+                          <lb n="27"/>ὅππως κεκλοίμην Ἐξάκων, ἐν <w lemma="πατρίς">πατρίδ’</w> <placeName ref="#itanos">Ἰτάνωι</placeName>
+                          <lb n="28"/>ζῶν θνήσκω δ’ <corr>οὐδὲν</corr> οὔνομ’ ἔχων σὺν ἐμοί,
+                          <lb n="29"/>οὐ τελέσας <rs type="institution" subtype="official" role="exclusion" key="arche" ref="#itanos"><w lemma="ἀρχή">ἀρχὴν</w></rs> <rs type="institution" subtype="social_group" role="belonging" key="polis" ref="#itanos"><w lemma="πόλις">πόλεως</w></rs> ἧς ἔκγονός εἰμι,
+                          <lb n="30"/>θνήσκω δ’ ἐκπληρῶν εἴκοσι καὶ δύ’ ἔτη.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’epitaffio metrico, ricco di riferimenti mitologici, commemora il giovane Exakon figlio di Politas e Filisco di Itanos, morto a ventidue anni senza essersi sposato (ll. 5-6). L’epigramma insiste ripetutamente sulla provenienza del defunto, che viene compianto dalla <foreign>polis</foreign> di Itanos, sua πατρίς (l. 11), e che si è meritato l’ingresso nel regno dei beati per il valore dimostrato nei confronti della <foreign>patra</foreign> (ll. 23-24), nella quale ha trascorso tutta la propria vita (l. 27). Particolarmente significative risultano essere le linee 28-29 dell’iscrizione, in cui Exakon afferma che di sé non resterà nulla poiché non ha ricoperto nessuna carica pubblica nella propria città (l. 29, οὐ τελέσας ἀρχὴν πόλεως), mancanza che viene presentata come il maggior rimpianto del defunto.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#arche"><foreign>arche</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 591-593 n. 11</bibl>; 
+                            <bibl><ref target="#b1096">Levi 1922</ref>, pp. 383-385 n. 28</bibl>; 
+                            <bibl><ref target="#b1488">Peek 1933</ref>, pp. 139-144</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 37 <ptr type="phi" target="200341"/></bibl>; 
+                            <bibl><ref target="#bib121">Wilhelm</ref> n. 3</bibl>; 
+                            <bibl><ref target="#b1490">Peek 1955</ref>, n. 1249</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 43</bibl>; 
+                            <bibl><ref target="#b683">Garulli 2008</ref>, pp. 649-651</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib120">Vertoudakis</ref>, pp. 82-83, 158-160</bibl>; 
+                            <bibl><ref target="#b1258">Martínez Fernández 2007</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

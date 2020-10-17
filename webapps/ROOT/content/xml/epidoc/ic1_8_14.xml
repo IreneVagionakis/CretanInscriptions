@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 8 14</idno>
+                        <idno type="projectNo">172</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_saia">sede SAIA, Herakleion</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#knossos">Knossos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Pamphyloi" ref="#knossos">ἐπὶ τῶν <w lemma="Πάμφυλοι">Παμφύλων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#knossos"><w lemma="κοσμέω">κο<supplied reason="lost">σ</supplied><lb 
+                        break="no" n="2"/>μιόντων</w> τῶν σὺν <persName type="attested" key="Timokrates"><name nymRef="Τιμοκράτης">Τι<supplied reason="lost">μο</supplied><lb 
+                        break="no" n="3"/>κράτει</name></persName></rs> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#knossos"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#knossos" type="ethnic">Κνω<supplied reason="lost">σίων</supplied></placeName>
+                          <lb n="4"/>τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#knossos"><w lemma="κόσμος">κόσμοις</w></rs> κ<supplied reason="lost">αὶ τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#knossos"><w lemma="πόλις"><supplied reason="lost">πό</supplied><lb 
+                        break="no" n="5"/>λει</w></rs> Δαμ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><orig>νοσ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, di cui si è conservato solamente l’angolo superiore sinistro, presenta in posizione iniziale la formula di datazione indicante il cosmo eponimo in carica, Timokrates, e la tribù a cui questo appartiene, ovvero quella dei <foreign>Pamphyloi</foreign>, nota a Knossos anche dal trattato <ref type="ins" target="#ic4_181"><title>IC</title> IV 181</ref>. La formula di sanzione, immediatamente successiva, presenta i cosmi e la <foreign>polis</foreign> di Knossos come i responsabili della deliberazione, come avviene anche in tutti gli altri decreti della città (<ref type="ins" target="#ic1_8_6"><title>IC</title> I 8 6</ref>, <ref type="ins" target="#ic1_8_9">9-12</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, tribù (<ref type="inst" target="#pamphyloi"><foreign>Pamphyloi</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 8 14 <ptr type="phi" target="199132"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

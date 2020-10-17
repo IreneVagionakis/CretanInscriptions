@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> (?) a Mylasa da parte di una città cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Mylasa 103</idno>
+                        <idno type="projectNo">565</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#milas">Milas, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#mylasa">Mylasa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                            <lb n="1"/>ἀξιολόγωμ <w lemma="ποιητάς">πο<supplied reason="lost">ιητ</supplied>ᾶν</w> τε <supplied reason="lost">καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>καὶ Θαλήτα τῶ <placeName ref="#crete" type="ethnic">Κρητὸς</placeName> καὶ Ζ<supplied reason="lost">ήνωνος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#unknown"><w lemma="πρόξενος">προξένος</w></rs> καὶ <w lemma="γένος">γένος</w> αὐτῶν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>νομιζόμενα <w lemma="ξένια">ξένια</w>· περὶ δὲ <gap reason="lost" extent="unknown" unit="character"/> <w lemma="παρακαλέω"><supplied reason="lost">παρα</supplied><lb 
+                        break="no" n="5"/>καλέοντι</w> <placeName ref="#mylasa" type="ethnic">Μυλασέες</placeName>, οἱ <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#unknown"><w lemma="πρειγευτάς">πρε<supplied reason="lost">ιγευταὶ</supplied></w></rs> <supplied reason="lost">ἐμφα</supplied><lb 
+                        break="no" n="6"/>νιξάτωσαν αὐτοῖς ἃ παρα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>γὰρ <w lemma="χαρίζω">χαρίξασθαι</w> <placeName ref="#mylasa" type="ethnic">Μυλασεῦσ<supplied reason="lost">ι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/>ας <rs type="institution" subtype="object" role="decreeing" key="hypomnama" ref="#unknown"><w lemma="ὑπόμναμα">ὑπόμναμα</w><surplus>μα</surplus></rs> ὑπάρχηι ποτὶ <placeName ref="#mylasa" type="ethnic">Μ<supplied reason="lost">υλασέας</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#unknown"><w lemma="ψάφισμα">ψάφισμα</w></rs> τόδε παρὰ μὲν <unclear>ἁ</unclear><supplied reason="lost">μὶν ἐς τῶι</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#unknown"><supplied reason="lost"><w lemma="ἱαρόν">ἱαρῶι</w> τῶ</supplied>
+                          <lb n="10"/><persName type="divine" key="Apollo Pytios">Ἀπέλλωνος Πυτίο</persName></rs>, παρὰ δὲ <placeName ref="#mylasa" type="ethnic"><supplied reason="lost">Μυλασεῦσι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/>αὐτῶν ἔς τε τῶ <persName type="divine" key="Zeus Poseidon">Ζανοποτε<supplied reason="lost">ιδᾶνος</supplied></persName> <supplied reason="lost">καὶ τῶ</supplied> <persName type="divine" key="Zeus Labraundos"><supplied reason="lost">Διὸς</supplied>
+                          <lb n="12"/>τῶ Λαβραύνδω</persName>· καὶ ἐς τὰ <orig>ε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, appartenente ad un gruppo di iscrizioni di Mylasa riguardanti città cretesi e il <foreign>koinon</foreign> cretese (cf. <ref type="ins" target="#mylasa_92"><title>Mylasa</title> 92-110*5</ref> e <ref type="ins" target="#mylasa_443">443</ref>, <ref type="ins" target="#seg_42_1004"><title>SEG</title> 42.1004-1006</ref>), è emanato da una città cretese di cui non si è conservato il nome in risposta all’invio di un’ambasceria di Mylasa presso di questa, possibilmente per richiederle la concessione dell’<foreign>asylia</foreign> (cf. <ref type="ins" target="#mylasa_94"><title>Mylasa</title> 94</ref>-<ref type="ins" target="#mylasa_95">95</ref>, <ref type="ins" target="#mylasa_97">97</ref> e <ref type="ins" target="#mylasa_101">101</ref> e <ref type="ins" target="#seg_42_1003"><title>SEG</title> 42.1003-1005</ref>).</p>
+                    <p>Gli ambasciatori di Mylasa, che durante la loro visita hanno recitato o eseguito composizioni dei cretesi Thales e Zenon (cf. <ref type="ins" target="#mylasa_104"><title>Mylasa</title> 104</ref>), vengono insigniti dalla città della prossenia assieme alla propria discendenza e ricevono da questa dei doni ospitali (ll. 1-4).</p>
+                    <p>La sezione alle linee 4-8, inoltre, informa della consegna (?) da parte dei propri ambasciatori di un <foreign>hypomnama</foreign> a Mylasa così come questa aveva richiesto, relativo verosimilmente alle concessioni effettuate.</p>
+                    <p>La formula di esposizione alle linee 9-12, infine, prevede la pubblicazione del presente decreto nel santuario di Apollo <foreign>Pytios</foreign> della città cretese, oltre che in quello di Zeus-Poseidone e Zeus <foreign>Labraundos</foreign> di Mylasa.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#hypomnama"><foreign>hypomnama</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b522">Doublet – Deschamps 1890</ref>, pp. 618-620 n. 17</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5163b</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib460"><title>I.Mylasa</title></ref> 652</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib32"><title>Mylasa</title></ref> 103 <ptr type="phi" target="261031"/></bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 198</bibl>;
+                            <bibl><ref target="#b260">Carless Unwin 2017</ref>, p. 224</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b292">Chaniotis 1988c</ref></bibl>;
+                            <bibl><ref target="#b259">Carless Unwin 2016</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

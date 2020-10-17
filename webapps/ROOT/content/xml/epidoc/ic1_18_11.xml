@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Lyttos sui sissizi (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 18 11</idno>
+                        <idno type="projectNo">198</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lyttos_stavromenos">Chiesa di Stavromenos, Lyttos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lyttos">Lyttos</origPlace>
+                                    <origDate period="#imperial" notBefore="0161" notAfter="0212" precision="low">161-212 d.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><unclear>τ</unclear>ῆς <w lemma="δόσις">δόσεως</w> τοῖς <rs type="institution" subtype="social_group" role="payments" key="startos" ref="#lyttos"><w lemma="σταρτός">στάρτοις</w></rs> κατὰ
+                          <lb n="2"/>τὰ <w lemma="πάτριος">πάτρια</w> καὶ <rs type="institution" subtype="festivity" role="calendar" key="Thiodaisia" ref="#lyttos"><w lemma="Θεοδαίσια">Θεοδαισίοις</w></rs> καὶ
+                          <lb n="3"/><rs type="institution" subtype="festivity" role="calendar" key="Belchania" ref="#lyttos"><w lemma="Βελχάνια">Βελχανίοις</w></rs>· τὸν δὲ <rs type="institution" subtype="official" role="distributor" key="protokosmos" ref="#lyttos"><w lemma="πρωτοκοσμέω">πρωτοκοσ<lb 
+                        break="no" n="4"/>μοῦντα</w></rs> κατ’ ἔτος ἢ <rs type="institution" subtype="official" role="distributor" key="epimeletes" ref="#lyttos"><w lemma="ἐπιμελέομαι">ἐπιμελούμε<lb 
+                        break="no" n="5"/>νον</w></rs> διδόναι διανομὴν <rs type="institution" subtype="festivity" role="calendar" key="Thiodaisia" ref="#lyttos"><w lemma="Θεοδαίσια">Θεο<corr>δα</corr>ι<lb 
+                        break="no" n="6"/>σίοις</w></rs> ἐκ τῶν <w lemma="δόσις">δόσεων</w> ὧν οἱ <rs type="institution" subtype="social_group" role="payments" key="startos" ref="#lyttos"><w lemma="σταρτός">στάρ<lb 
+                        break="no" n="7"/>τοι</w></rs> λαμβάνουσιν <g type="denarius"/> <num value="1500">αφ</num> καὶ Μα<lb 
+                        break="no" n="8"/>ΐαις <expan><abbr>Καλ</abbr><ex>άνδαις</ex></expan> ἐκ τῶν ταῖς <rs type="institution" subtype="social_group" role="payments" key="phyle" ref="#lyttos"><w lemma="φυλά">φυλαῖς</w></rs> δι<lb 
+                        break="no" n="9"/>δομένων <w lemma="χρήματα">χρημάτων</w>, τὸ ἐνδέον
+                          <lb n="10"/>οἴκοθεν προσεισφέροντα ἀμφοτέ<lb 
+                        break="no" n="11"/>ραις ταῖς διανομαῖς καθ’ ἃ καὶ <rs type="institution" subtype="official" role="distributor" key="epimeletes" ref="#lyttos" cert="low"><persName type="attested" key="Symmachos f. Agathopous"><name nymRef="Σύμμαχος">Σύμ<lb 
+                        break="no" n="12"/>μαχος</name> <name nymRef="Ἀγαθόπους" type="patronymic">Ἀγαθόποδος</name></persName> <w lemma="ἐπιμελέομαι">ἐπιμελούμε<lb 
+                        break="no" n="13"/>νος</w></rs> <w lemma="ποιέω">ἐποίησε</w>· τὸν δὲ παρὰ ταῦτα πρά<lb 
+                        break="no" n="14"/>ξαντα ὑπεύθυνον εἶναι <w lemma="ἀσέβεια">ἀσεβείᾳ</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Sebbene di età imperiale inoltrata, l’iscrizione è particolarmente significativa in quanto attesta quello che pare un <foreign>revival</foreign> tardivo di istituzioni che dovevano essere ormai da tempo in disuso.</p>
+                    <p>Il documento nella propria sezione iniziale tratta di una parte di pagamenti (<foreign>dosis</foreign>) che deve essere assegnata agli <foreign>startoi</foreign> in occasione delle festività dei <foreign>Theodaisia</foreign> e dei <foreign>Belchania</foreign> secondo la tradizione (ll. 1-3). Le festività menzionate, che pur risalendo ad un’epoca anteriore convivono con il nuovo calendario romano testimoniato dal riferimento alle Calende alle linee 7-8, non sono attestate a Lyttos nelle epoche precedenti; sono invece noti per l’età ellenistica i <foreign>Theodaisia</foreign> a Lato, Hierapytna e Olous, oltre che il mese <foreign>Thiodaisios</foreign> a Lato e il mese <foreign>Welchanios</foreign> a Gortyna e Knossos (sui <foreign>Belchania</foreign> cf. <bibl><ref target="#b1441">Pałuchowski 2005c</ref></bibl>).</p>
+                    <p>La sezione centrale del testo specifica che una prima distribuzione, di 1500 denari, è ogni anno a carico del protocosmo o del sovrintendente e deve avvenire in occasione dei <foreign>Theodaisia</foreign>, attingendo dai pagamenti ricevuti dagli <foreign>startoi</foreign> (ll. 3-7). Una seconda distribuzione deve inoltre avvenire in occasione delle Calende di maggio (coincidenti forse con i <foreign>Belchania</foreign>?), attingendo in questo caso dai fondi dati alle tribù (ll. 7-9). Nell’eventualità di insufficienza delle risorse indicate, per entrambe le distribuzioni il magistrato addetto è tenuto a raggiungere l’ammontare necessario contribuendo personalmente; a tale proposito viene citato il precedente del sovrintendente Symmachos figlio di Agathopous (ll. 9-13).</p>
+                    <p>Le distribuzioni previste sono da molti studiosi accostate ai sissizi, soprattutto per la vicinanza fra il testo dell’iscrizione e la descrizione dei sissizi di Lyttos fornita dallo storico cretese Dosiadas (<ref type="lit" target="#Dosiad"><title>FGrHist</title> 458 F 1</ref>; cf. in particolare <bibl><ref target="#b811">Guizzi 1999a</ref></bibl>). Sebbene le modalità distributive dei sissizi e quelle descritte nel presente documento siano simili, è probabile tuttavia che, come suggerisce Adam Pałuchowski, la natura di tali ripartizioni si sia evoluta da occasione di convivialità civica in una forma di assistenzialismo volto ad aiutare i meno abbienti, per giunta limitato a due sole circostanze all’anno (<bibl><ref target="#b1439">Pałuchowski 2005a</ref></bibl>).</p>
+                    <p>Quanto alle suddivisioni civiche coinvolte, gli <foreign>startoi</foreign> e le tribù, disponenti di fondi che vengono poi redistribuiti in occasione delle festività indicate, non è chiaro quale sia in tale periodo la loro natura. Lo <foreign>startos</foreign>, attestato anteriormente soltanto nella Gortyna del V secolo a.C. (<ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, <ref type="ins" target="#ic4_80">80</ref>, <ref type="ins" target="#ic4_142">142</ref>), viene ipoteticamente inteso da Adam Pałuchowski come derivazione dall’insieme di giovani atti alle armi (cf. <bibl><ref target="#b1439">Pałuchowski 2005a</ref>, pp. 430-435</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#epimeletes"><foreign>epimeletes</foreign></ref> (<foreign>epimeloumenos</foreign>), festività (<ref type="inst" target="#belchania"><foreign>Belchania</foreign></ref>, <ref type="inst" target="#thiodaisia"><foreign>Thiodaisia</foreign></ref>), <ref type="inst" target="#phyla"><foreign>phyle</foreign></ref>, <ref type="inst" target="#protokosmos"><foreign>protokosmos</foreign></ref>, <ref type="inst" target="#startos"><foreign>startos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, pp. 61-63 n. 6</bibl>; 
+                            <bibl><ref target="#b771">Guarducci 1933c</ref></bibl>;
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 18 11 <ptr type="phi" target="199339"/></bibl>; 
+                            <bibl><ref target="#b811">Guizzi 1999a</ref></bibl>; 
+                            <bibl><ref target="#b1181">Mandalaki 2004</ref>, pp. 209-210</bibl>;
+                            <bibl><ref target="#b1438">Pałuchowski 2005</ref>, pp. 106-107</bibl>; 
+                            <bibl><ref target="#b1441">Pałuchowski 2005c</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib68"><title>IGR</title></ref> I 1010 (ll. 3-9)</bibl>; 
+                            <bibl><ref target="#b1439">Pałuchowski 2005a</ref>, pp. 430-435</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

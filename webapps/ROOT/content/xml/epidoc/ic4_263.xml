@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di una <foreign>apeleuthera</foreign> di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 263</idno>
+                        <idno type="projectNo">360</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_agia_paraskevi">Chiesa di Agia Paraskevi, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#epistyle" cert="low">architrave?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Soteira f. Menekrates" ref="#gortyn" cert="low"><name nymRef="Σώτειρα">Σώτειρα</name></persName> καὶ <persName type="honoured" key="Aristonika f. Menekrates" ref="#gortyn" cert="low"><name nymRef="Ἀριστονίκα">Ἀριστονίκα</name> αἱ <name nymRef="Μενεκράτης" type="patronymic">Μενεκρ<unclear>ά</unclear>τιος</name> <expan><abbr>θυ</abbr><ex>γατέρες</ex></expan></persName>.
+                          <lb n="2"/>Τρύφαινα Μενεκράτιος <rs type="institution" subtype="social_status" role="dedicant" key="apeleutheros" ref="#gortyn"><w lemma="ἀπελευθέρα">ἀπελευθέρα</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica è promossa da una ἀπελευθέρα per le due figlie del proprio padrone, Menekrates, e costituisce una delle due attestazioni gortynie dei liberti, che paiono essere menzionati anche nella legge di V secolo a.C. <ref type="ins" target="#ic4_78"><title>IC</title> IV 78</ref> (το͂ν ἀπελευ[θέρον]; a Creta altri <foreign>apeleutheroi</foreign> compaiono anche nell’epitaffio da Kydonia <ref type="ins" target="#ic2_10_17"><title>IC</title> II 10 17</ref> e nei rendiconti del <foreign>Diktynnaion</foreign> <ref type="ins" target="#ic2_11_3"><title>IC</title> II 11 3</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#apeleutheros"><foreign>apeleutheros</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 699-700 n. 141</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5033</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 263 <ptr type="phi" target="200705"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

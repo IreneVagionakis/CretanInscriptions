@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica di un ex cosmo di Polyrrhenia a Hermes <foreign>Dromios</foreign></title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 10</idno>
+                        <idno type="projectNo">005</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lost">iscrizione perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo">E 2</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#base">base</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><persName type="divine" key="Hermes Dromios">Ἑρμᾶι <rs type="institution" subtype="practice" role="dedicatee" key="dromos" ref="#polyrrhenia"><w lemma="Δρόμιος">Δρομίωι</w></rs></persName>
+                        <lb n="2"/><rs type="institution" subtype="official" role="dedicant" key="kosmos" ref="#polyrrhenia"><persName type="attested" key="Perballon f. Biettos"><name nymRef="Περβάλλων">Περβάλλων</name> <name nymRef="Βίεττος" type="patronymic">Βιέττω</name></persName>
+                        <lb n="3"/><w lemma="κοσμέω">κοσμήσας</w></rs>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La dedica ad Hermes <foreign>Dromios</foreign> è un forte indizio dell’esistenza a Polyrrhenia di gare di corsa, a Creta chiamate δρόμοι, di cui la divinità è patrona (<ref type="lit" target="#SuidDromois">Suid. <foreign>s.v.</foreign> δρόμοις</ref>: τοῖς γυμνασίοις κατὰ Κρῆτας; cf. il mese <foreign>Dromios</foreign>, attestato a Priansos nel II secolo a.C.: <ref type="ins" target="#ic3_3_4"><title>IC</title> III 3 4</ref>, l. 5, μηνὸς Δρομηίω). L’assenza di informazioni sul contesto del ritrovamento impedisce di determinare se il culto di Hermes fosse praticato in un tempio della terrazza principale dell’acropoli o piuttosto nei pressi del ginnasio stesso, che verosimilmente si doveva trovare più in basso, in un luogo sufficientemente spazioso per poter consentire le attività ginniche e militari dei giovani.</p>
+                    <p>Il fatto che il dedicante si presenti in qualità di ex cosmo lascerebbe supporre che vi siano delle connessioni fra il ruolo ricoperto e le attività di cui Hermes <foreign>Dromios</foreign> è protettore: non è da escludere pertanto che il cosmo svolgesse funzioni affini a quelle del <foreign>kosmetes</foreign> dei ginnasi ateniesi e di altre aree del mondo greco.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dromos"><foreign>dromos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, pp. 69-70</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5115</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 10 <ptr type="phi" target="200047"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 40</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 12</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

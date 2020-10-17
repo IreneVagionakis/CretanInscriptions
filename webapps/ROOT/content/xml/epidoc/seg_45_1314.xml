@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto di Lissos</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 45.1314</idno>
+                        <idno type="projectNo">059</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#lissos_asklepieion">Lissos, <foreign>Asklepieion</foreign></repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents><summary corresp="#decree">decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#lissos">Lissos, <foreign>Asklepieion</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lissos"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#lissos" type="ethnic">Λισίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#lissos"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τ<supplied reason="lost" cert="low">ᾷ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lissos"><w lemma="πόλις">πόλει</w></rs></supplied>
+                        <lb n="1a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>Il decreto – di cui è conservata solamente parte della prima linea, contenente la formula di sanzione – testimonia come a Lissos il potere deliberativo sia in mano ai cosmi e molto probabilmente alla <foreign>polis</foreign>. Mentre i documenti pubblici pertinenti al <foreign>koinon</foreign> degli <foreign>Oreioi</foreign> sono esposti nel vicino <foreign>Diktynnaion</foreign> (<ref type="ins" target="#ic2_17_1"><title>IC</title> II 17 1</ref>), l’iscrizione di questo e di altri decreti della città sui blocchi del tempio di Asclepio sembra indicare quest’ultimo come il luogo deputato ai testi epigrafici relativi alla <foreign>polis</foreign> di Lissos (cf. gli inediti decreti onorari ellenistici <ref type="ins"><title>SEG</title> 45.1315</ref> e <ref type="ins"><title>SEG</title> 45.1320</ref> e la coeva <foreign>manumissio</foreign> menzionata in <bibl><ref target="#b2089">Platon 1960</ref>, p. 273</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1554">Platon 1959</ref>, p. 377</bibl>; 
+                    <bibl><ref target="#b213">Bultrighini 1993</ref>, p. 107</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 45.1314 <ptr type="phi" target="202222"/></bibl>).</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 205</idno>
+                        <idno type="projectNo">320</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_mavropapas">Basilica di Mavropapas, Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0001">fine III - inizi II secolo a.C. (A-B), I secolo a.C. (C)</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>α</unclear>ρ<unclear>μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>τας <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γ<supplied reason="lost">ορτυνίων</supplied></placeName></rs>
+                          <lb n="3"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος"><supplied reason="lost">πρόξ</supplied>ενος</w></rs> <supplied reason="lost">καὶ</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας"><supplied reason="lost">πολί</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">τας</supplied></w></rs> <unclear>α</unclear>ὐτὸς <unclear>κ</unclear><supplied reason="lost">αὶ</supplied>
+                          <lb n="5"/><w lemma="γένος"><supplied reason="lost">γέ</supplied><unclear>ν</unclear>ος</w>.
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>δολ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ατα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>ατ<unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3a"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><persName type="honoured" key="-enes f. -" ref="#unknown"><name nymRef="-ένης"><gap reason="lost" extent="unknown" unit="character"/>ένης</name> <gap reason="lost" extent="unknown" unit="character"/></persName>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> ἱερᾶς σ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γο</supplied>ρτυν<unclear>ί</unclear><supplied reason="lost">ων</supplied></placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος"><supplied reason="lost">πρόξενος</supplied></w></rs>
+                          <lb n="4"/><supplied reason="lost">καὶ</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολείτας"><supplied reason="lost">πο</supplied><unclear>λ</unclear>είτ<supplied reason="lost">ας</supplied></w></rs> <supplied reason="lost">αὐτὸς καὶ</supplied>
+                          <lb n="5"/><w lemma="ἔκγονος"><supplied reason="lost">ἔκγο</supplied>νοι</w>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Sebbene lo stato di preservazione del testo B non consenta di identificarne con certezza la natura, è probabile che i tre documenti conservati sul blocco siano tutti dei decreti onorari. I testi A e C, entrambi formulati secondo la struttura ellittica adottata dalla maggioranza dei documenti analoghi di Gortyna, presentano i nomi degli individui onorati seguiti dalla concessione effettuata, che in entrambi i casi pare consistere nella combinazione della prossenia e della <foreign>politeia</foreign>, il secondo tipo più diffuso di conferimento onorario di Gortyna. La mancata menzione delle entità istituzionali responsabili della decisione sembra essere sostituita dal ricordo della <foreign>polis</foreign> attraverso l’etnico collettivo cittadino – Γορτυνίων – come specificazione dell’onore conferito, come avviene nella maggior parte dei decreti onorari di Gortyna (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic4_206"><title>IC</title> IV 206</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 183-184 n. 14</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 205 <ptr type="phi" target="200644"/> <ptr type="phi" target="200645"/> <ptr type="phi" target="200646"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 13</idno>
+                        <idno type="projectNo">242</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (A, C, E, G, I, L, M); </repository> <idno type="invNo"/>
+                                <altIdentifier><repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna (B); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#agioi_deka">Agioi Deka, in una casa (D, F); </repository><idno></idno></altIdentifier>
+                                <altIdentifier><repository ref="#lost"> iscrizione perduta (H, K)</repository><idno></idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>dodici <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0525">600-525 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="fragment" n="A">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀντίμολος"><supplied reason="lost">ἀντί</supplied>μολος</w> <g type="|"/> αἰρ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μ</supplied>ὴ λύηι. <space extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀντιμολία"><supplied reason="lost">ἀντ</supplied>ιμολίαι</w> <g type="|"/> ἀ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">α</supplied>ἰρεθῆι το͂ι <w lemma="κσενοδόϙος">κσενοδό<supplied reason="lost">ϙοι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="C">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ιμεν <g type="|"/> ἠ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ειον καὶ παρ<unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="D">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">μ</supplied>ολῆι <g type="|"/> νικα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ι τᾶς τιτύϝος <gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="E">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> το͂ι δὲ ζοο͂<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear> <g type="|"/> <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn" cert="low"><w lemma="πόλις">πόλι</w></rs> πάνσαι πρα<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="F">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="νικάω"><supplied reason="lost">ἐ</supplied>νίκασε</w> γα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>οεσι <g type="|"/> ὄ τι τίς κ’ ἀγάγη<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="G-I">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ζαι <g type="|"/> ἂ μο<supplied reason="lost">λίοντι</supplied> <w lemma="δικάζω">ἐδίκαζε</w> <g type="|"/> ἢ μὴ ἐλε͂ν <g type="|"/> ἢ μ<supplied reason="lost">ὴ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>οι ἀϝτὸς διπλῆι <supplied reason="lost">λ</supplied>άϙοι <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn">ϝαστίαν <w lemma="δίκα">δίκαν</w></rs> <supplied reason="lost">ἐν τᾶι</supplied> <rs type="institution" subtype="public_space" role="judicial_procedure" key="agora" ref="#gortyn"><w lemma="ἀγορά"><supplied reason="lost">ἀγ</supplied>ορᾶι</w></rs> καὶ <w lemma="ἄδικος" cert="low">ἀδί<unclear>κα</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="K">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>αν <g type="|"/> πα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>κίαι ἢ σ<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="L">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> ἢ <w lemma="νικάω">ἐνικάθη</w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>σοι <g type="|"/> ϙ’ ὄζοι ἐπὶ τ<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="M">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>λεν <g type="|"/> καὶ ἐς ἄλος <g type="|"/> ἀλᾶι δ<supplied reason="lost" cert="low">ὲ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> θοαίοι καὶ κσανθᾶ<unclear>ς</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I frammenti sono tutti pertinenti ad una legge riguardante una procedura giudiziaria: nel testo sono infatti più volte impiegati termini relativi a contendenti ([ἀντί]μολος, [ἀντ]ιμολίαι), alla difesa ([μ]ολῆι, μο[λίοντι]), al giudizio (ἐδίκαζε), alla vittoria giuridica ([ἐ]νίκασε, ἐνικάθη) e a multe comminate (τιτύϝος). Il frammento E, in particolare, sembra occuparsi di multe (?) che devono essere versate all’intera <foreign>polis</foreign>.</p>
+                    <p>I frammenti G-I, inoltre, menzionano un processo proprio dei cittadini (ϝαστίαν δίκαν) che si deve svolgere nell’<foreign>agora</foreign>. Il processo definito come <foreign>astios</foreign>, attestato nella città anche da un altro documento ([ϝα]στίαν δίκαν, <ref type="ins" target="#ic4_64"><title>IC</title> IV 64</ref>), sembrerebbe essere opposto alla <foreign>dika xeneia</foreign> o <foreign>xenika</foreign>, nota sia a Gortyna (κσενείαι δίκα[ι], <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref>) che ad Itanos (δίκαν ... ξενικάν, <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref>, <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4976-4977</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 13 <ptr type="phi" target="200449"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 120</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 1</bibl>; 
+                            <bibl><ref target="#b1198">Marginesu 2005</ref>, n. 1</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 268</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G13</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1650">Ruzé 1997</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna relativa a lavoratori pubblici</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 79</idno>
+                        <idno type="projectNo">269</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" quantity="6" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ο κριθ<supplied reason="lost">ᾶν</supplied> <gap reason="lost" quantity="5" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="5" unit="character"/>κια κα<gap reason="lost" quantity="5" unit="character"/><orig><unclear>ν</unclear></orig><gap reason="lost" quantity="2" unit="character"/>
+                          <lb n="3"/><supplied reason="lost">. σύ</supplied>κον ἐκατὸν <w lemma="μέδιμνος">μ<supplied reason="lost">εδίμν</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">ονς</supplied></w> <supplied reason="lost">κα</supplied>ὶ γλεύκιος προκ<unclear>ό</unclear><supplied reason="lost">ο</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">νς ἐ</supplied>κατὸν καὶ τὰν π<gap reason="lost" quantity="4" unit="character"/>
+                          <lb n="6"/><gap reason="lost" quantity="3" unit="character"/><orig><unclear>ν</unclear></orig><gap reason="lost" quantity="1" unit="character"/>αλκίαν ἒ ἄλλαν <unclear>ϝ</unclear><supplied reason="lost">ισ</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">ϝό</supplied>μετρον το͂ <w lemma="πρόκοος">προκ<supplied reason="lost">όο</supplied></w><supplied reason="lost">.</supplied> <w lemma="ϝεργάδδω"><supplied reason="lost">ϝερ</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">γάδδ</supplied>εθαι</w> δὲ ἐπὶ το͂ι <w lemma="μιστός">μ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">σ</supplied>το͂ι</w> αὐτο͂ι πάν<supplied reason="lost">τ</supplied><unclear>α</unclear> <supplied reason="lost">τοῖς</supplied>
+                          <lb n="10"/><supplied reason="lost">ἐμ <rs type="institution" subtype="public_space" role="location" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs></supplied> <w lemma="ϝοικέω"><supplied reason="lost">ϝ</supplied>οικίονσι</w> το<corr>ῖ</corr>ς <supplied reason="lost">τ’</supplied>
+                          <lb n="11"/><rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος"><supplied reason="lost">ἐλ</supplied>ευθέροις</w></rs> καὶ το<supplied reason="lost">ῖς</supplied> <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλος"><supplied reason="lost">δόλ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">οις</supplied></w></rs><supplied reason="lost">. αἰ δ</supplied>ὲ μὲ λείοιεν <w lemma="ϝεργάδδω">ϝερ<supplied reason="lost">γά</supplied><lb 
+                        break="no" n="13"/><supplied reason="lost">δδε</supplied>θαι</w>, δέκα <w lemma="στατήρ">στατε͂<supplied reason="lost">ρ</supplied>α<supplied reason="lost">νς</supplied></w>
+                          <lb n="14"/><supplied reason="lost">το͂ πα</supplied>θέματος ϝεκάστ<supplied reason="lost">ο</supplied>
+                          <lb n="15"/><supplied reason="lost">τ</supplied><unclear>ὸ</unclear>ν <rs type="institution" subtype="official" role="collecting_fines" key="xenios" ref="#gortyn"><w lemma="κσένιος">κσένιο<supplied reason="lost">ν</supplied></w></rs> <supplied reason="lost">ἐ</supplied>στει<supplied reason="lost">σάμ</supplied><lb 
+                        break="no" n="16"/><supplied reason="lost">ενον</supplied> <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs> <w lemma="τίθημι">θέμεν</w>. αἰ δ<supplied reason="lost">ὲ μ</supplied><lb 
+                        break="no" n="17"/><supplied reason="lost">ὲ</supplied> ’<unclear>σ</unclear>τείσαιεν <supplied reason="lost">τ</supplied>ὰν <supplied reason="lost">ἀπλόον ἄ</supplied><lb 
+                        break="no" n="18"/><supplied reason="lost">ταν,</supplied> <w lemma="πράδδω"><supplied reason="lost">πράδ</supplied>δεθαι</w> τ<unclear>ὰ</unclear>ν διπ<supplied reason="lost">λεί</supplied><lb 
+                        break="no" n="19"/><supplied reason="lost">αν</supplied> αὐτο͂ν ϝέκασ<unclear>το</unclear><supplied reason="lost">ν</supplied> <gap reason="lost" quantity="3" unit="character"/>
+                          <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/><orig>μ</orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ὸνς <rs type="institution" subtype="board" role="collecting_fines" key="titas" ref="#gortyn"><w lemma="τίτας">τίτανς</w></rs> ἐ<unclear>σ</unclear><supplied reason="lost">τ</supplied><lb 
+                        break="no" n="21"/><supplied reason="lost">εί</supplied>σανταν<supplied reason="lost">ς</supplied> τ<supplied reason="lost">ᾶι <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs> <w lemma="τίθημι">θέμεν</w></supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, dal contenuto analogo all’iscrizione <ref type="ins" target="#ic4_144"><title>IC</title> IV 144</ref> e relativa a dei lavoratori pubblici, elenca alle linee 1-7 i beni alimentari che a questi spettano come paga. In cambio della remunerazione indicata, sia gli uomini liberi che gli schiavi (<foreign>douloi</foreign>) che risiedono nella <foreign>polis</foreign> sono tenuti a compiere un’attività lavorativa che doveva essere specificata in una parte perduta della legge. Nel caso che costoro non vogliano lavorare, lo <foreign>xenios</foreign> deve riscuotere da loro dieci stateri per ciascun rifiuto e versarli alla <foreign>polis</foreign>; qualora la multa non venga pagata, in un secondo momento il suo importo viene raddoppiato (?). Nell’eventualità in cui tale imposizione non venga rispettata, l’obbligo di far pagare la multa viene spostato sui <foreign>titai</foreign>, funzionari noti solamente a Gortyna e strettamente connessi all’esazione fiscale (cf. <ref type="ins" target="#ic4_14"><title>IC</title> IV 14</ref>-<ref type="ins" target="#ic4_15">15</ref>, <ref type="ins" target="#ic4_78">78</ref>, <ref type="ins" target="#ic4_102">102</ref>, <ref type="ins" target="#ic4_107">107</ref>, <ref type="ins" target="#ic4_165">165</ref> e <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>), i quali sono a loro volta tenuti a versarla alla <foreign>polis</foreign>. Il ricorso alla figura dello <foreign>xenios</foreign>, nota solamente a Gortyna (cf. <ref type="ins" target="#ic4_14"><title>IC</title> IV 14</ref> e forse <ref type="ins" target="#ic4_144">144</ref>, oltre che possibilmente <ref type="ins" target="#ic2_12_4"><title>IC</title> II 12 4</ref> da Eleutherna), rende molto verosimile l’ipotesi che i lavoratori in questione siano stranieri.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#doulos"><foreign>doulos</foreign></ref> (?), <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#titas"><foreign>titas</foreign></ref>, <ref type="inst" target="#xenios"><foreign>xenios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 84-86 n. 150</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4984</bibl>; 
+                            <bibl><ref target="#b761">Guarducci 1931a</ref>, pp. 21-25 n. 4</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 79 <ptr type="phi" target="200516"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 154</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 30</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 283</bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, p. 297</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G79</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2029">Willetts 1954a</ref></bibl>; 
+                            <bibl><ref target="#b2031">Willetts 1957</ref></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib12">Marangou-Lerat</ref> T5</bibl>; 
+                            <bibl><ref target="#b860">Hansen <foreign>et al.</foreign> 2000</ref>, p. 166</bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>; 
+                            <bibl><ref target="#b814">Guizzi 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

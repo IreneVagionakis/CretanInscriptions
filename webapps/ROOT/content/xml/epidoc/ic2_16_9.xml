@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario del <foreign>koinon</foreign> cretese (?) per un cittadino di Megalopolis</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 9</idno>
+                        <idno type="projectNo">584</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#argyroupoli">Argyroupoli, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="practice" role="decreeing" key="syllogos" ref="#koinon_kretaieon"><w lemma="σύλλογος"><supplied reason="lost">σ</supplied>υλλόγωι</w></rs> <placeName ref="#knossos">Κν<unclear>ω</unclear><supplied reason="lost">σο</supplied>ῖ</placeName> μὲν <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#koinon_kretaieon" cert="low"><persName type="attested" key="- f. Telemnastos"><gap reason="lost" extent="unknown" unit="character"/> τῶ <name nymRef="Τηλέμναστος" type="patronymic">Τηλεμνάστω</name></persName></rs> <orig><unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><persName type="honoured" key="? (4)"><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#megalopolis" type="ethnic"><supplied reason="lost">Μεγ</supplied>αλοπολίτ<supplied reason="lost">α</supplied>ν</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#koinon_kretaieon"><w part="I" lemma="πρόξενος">προξε<supplied reason="lost">νο</supplied><gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied><unclear>α</unclear>ὶ <w lemma="ἐσπλέω"><supplied reason="lost">ἔσ</supplied><unclear>π</unclear><supplied reason="lost">λ</supplied>ον</w> <supplied reason="lost">κ</supplied>αὶ <w lemma="ἐκπλέω"><unclear>ἔκ</unclear>πλον</w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>χθέντ<supplied reason="lost">α</supplied> τ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, apparentemente un decreto del <foreign>koinon</foreign> cretese, conserva alla linea 1 un riferimento alla circostanza e alla sede contestuale di riunione del <foreign>koinon</foreign>, il <foreign>syllogos</foreign> di Knossos, attestato anche nel decreto <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>. L’individuo menzionato alla linea 2, figlio di un Telemnastos, sembrerebbe essere il cosmo eponimo della città che si trova alla guida del <foreign>koinon</foreign> al momento della redazione del documento, verosimilmente Knossos o Gortyna (cf. la formula di datazione di <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>, in cui sono ricordati i cosmi eponimi di entrambe le città). L’oggetto del decreto, alle linee 3-5, prevede il conferimento della prossenia ad un cittadino di Megalopolis (accordata dal <foreign>koinon</foreign> anche in <ref type="ins" target="#imt_550"><title>IMT SuedlTroas</title> 550 VIII</ref> e <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref>), oltre che la concessione del diritto di navigare da e verso Creta (?). Il rinvenimento dell’iscrizione a Lappa porterebbe ad ipotizzare che il decreto onorario interessasse in qualche modo anche tale città, sebbene non sia chiaro a quale riguardo (cf. un altro decreto del <foreign>koinon</foreign>, <ref type="ins" target="#ic2_5_22"><title>IC</title> II 5 22</ref>, iscritto invece ad Axos).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#syllogos"><foreign>syllogos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 9 <ptr type="phi" target="199977"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

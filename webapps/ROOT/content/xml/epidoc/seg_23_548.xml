@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Olous relativo a Rodi</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.548</idno>
+                        <idno type="projectNo">435</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θεός">θ<supplied reason="lost">εός</supplied></w>.
+                          <lb n="2"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous">ἐπὶ <w lemma="δαμιοργός">δαμιοργ<unclear>ῶ</unclear>ν</w> <persName type="attested" key="A-"><name nymRef="Α-">Α<gap reason="lost" extent="unknown" unit="character"/></name></persName></rs><supplied reason="lost">,</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">,</supplied>
+                          <lb n="3"/><rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#olous"><persName type="attested" key="Polykles"><name nymRef="Πολυκλῆς"><supplied reason="lost">Π</supplied>ολυκλεῦς</name></persName></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">ἔδοξε</w></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀλον</supplied>τί<supplied reason="lost">οις</supplied></placeName></rs><supplied reason="lost">· ἐπειδὴ</supplied>
+                          <lb n="4"/>ὁ χρόνος ὁ ταχθεὶς <supplied reason="lost">ὑπὸ τοῦ δάμου</supplied>
+                          <lb n="5"/>τοῦ <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName> ἐξίκει Α<gap reason="lost" extent="unknown" unit="character"/> <lb 
+                        break="no" n="6"/>τῶι <rs type="institution" subtype="official" role="unknown" key="epistates" ref="#olous"><w lemma="ἐπιστάτης">ἐ<supplied reason="lost">π</supplied>ιστάται</w></rs> καὶ τοῖς μ<unclear>ε</unclear><supplied reason="lost" cert="low">τ᾽ αὐτοῦ <w lemma="ξένος">ξένοις</w></supplied>
+                          <lb n="7"/><supplied reason="lost">κ</supplied>αὶ παρ<supplied reason="lost">α</supplied>δεδώκαντι τὰν <w lemma="νᾶσος"><unclear>ν</unclear><supplied reason="lost">ᾶσον</supplied></w> <supplied reason="lost">καὶ</supplied>
+                          <lb n="8"/><supplied reason="lost">τ</supplied><unclear>ὸ</unclear> <rs type="institution" subtype="public_space" role="defense" key="phrourion" ref="#olous"><w lemma="φρούριον"><unclear>φρ</unclear>ούρ<unclear>ιον</unclear></w></rs> <orig>λλθ</orig><gap reason="lost" extent="unknown" unit="character"/> <lb 
+                        break="no" n="8a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, introdotto da un’invocazione benaugurale, presenta alle linee 2-3 una datazione eponimica nella quale vengono ricordati i nomi di almeno tre <foreign>damiorgoi</foreign>, similmente a quanto avviene in <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref> (in cui i magistrati sono cinque) e nella maggioranza dei documenti analoghi conservati sulla stele <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> (tre in VII-VIII, uno in III-VI, IX-XII), oltre che forse in <ref type="ins" target="#seg_23_551"><title>SEG</title> 23.551</ref> (uno).</p>
+                    <p>Alla linea 3, inoltre, è conservata una formula di sanzione nella quale sembra comparire come responsabile della deliberazione l’intera comunità di Olous, indicata attraverso l’etnico cittadino collettivo, come avviene anche nel decreto <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> VIII (cf. inoltre la formula ἔδοξε τοῖς πολίταις di <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> V; tale ruolo è invece svolto dalla <foreign>polis</foreign> in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> II, VII e <ref type="ins" target="#seg_23_549"><title>SEG</title> 23.549</ref>, dai cosmi assieme alla <foreign>polis</foreign> in <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> IX-XI).</p>
+                    <p>Il perduto oggetto del decreto, forse comportante la concessione di onori agli individui menzionati alla linea 6, è preceduto alle linee 3-8 dalle sue motivazioni. Tale sezione informa del raggiungimento di un termine temporale stabilito da Rodi, molto probabilmente relativo alla permanenza presso Olous dell’<foreign>epistates</foreign> rodio menzionato alle linee 5-6 assieme ad una guarnigione militare. Il riferimento presente alle linee 7-8 ad un forte e ad un’isola, verosimilmente quella di Spinalonga (cf. <bibl><ref target="#b1882">Van Effenterre 1948</ref>, p. 233</bibl>), rende legittimo ipotizzare che l’<foreign>epistates</foreign> sia stato inviato a sorvegliare uno o più avamposti militari rodii dislocati nel territorio di Olous (cf. <bibl><ref target="#b1882">Van Effenterre 1948</ref>, pp. 232-234</bibl>, <bibl><ref target="#b1748">Spyridakis 1980</ref></bibl> e <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 80-87</bibl>; cf. inoltre il trattato fra Olous e Rodi <ref type="ins" target="#seg_23_547"><title>SEG</title> 23.547</ref> e i decreti di Olous relativi a Rodi <ref type="ins" target="#ic1_22_5"><title>IC</title> I 22 5</ref> e <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> Ι, IV-V, IX-X).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damiorgos"><foreign>damiorgos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#epistates"><foreign>epistates</foreign></ref>, <ref type="inst" target="#phrourion"><foreign>phrourion</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1882">Van Effenterre 1948</ref>, pp. 230-234</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 23.548 <ptr type="phi" target="201746"/> <ptr type="seg" target="a23_548"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 46</bibl>; 
+                            <bibl><ref target="#b2011">Wiemer 2002</ref>, pp. 163-164</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

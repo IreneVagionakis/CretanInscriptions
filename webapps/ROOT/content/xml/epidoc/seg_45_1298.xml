@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di un <foreign>preigon</foreign> di Itanos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 45.1298</idno>
+                        <idno type="projectNo">530</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos, acropoli</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><lb 
+                        break="no" n="2"/><unclear>θ</unclear>εις <rs type="institution" subtype="official" role="dedicant" key="preigistos" ref="#itanos" cert="low"><persName type="attested" key="Bergis f. Eudikos"><name nymRef="Βέργις">Βέ<unclear>ργι</unclear><supplied reason="lost">ς</supplied></name> <supplied reason="lost">τῶ</supplied>
+                          <lb n="3"/><name nymRef="Εὔδικος" type="patronymic">Εὐδίκω</name></persName> ὁ <w lemma="πρείγω">πρείγων</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica è posta da Bergis figlio di Eukidos, individuo che si presenta in qualità di πρείγων: il termine, preceduto dall’articolo, potrebbe essere inteso sia come «ambasciatore» (più comunemente πρειγευτάς) che come «membro del collegio degli anziani» (di norma πρείγιστος, termine attestato a Biannos, Gortyna, Hierapytna, Lato, Olous e Soulia).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#preigistos"><foreign>preigistos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b957">Kalpaxis <foreign>et al.</foreign> 1995</ref>, pp. 733-734, n. 3</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 45.1298 <ptr type="phi" target="202215"/> <ptr type="seg" target="a45_1298"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Gortyna relativo a liberti</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 78</idno>
+                        <idno type="projectNo">290</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_pythion"><foreign>Pythion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, <foreign>Pythion</foreign></origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός">θιοί</w>. τάδ’ <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#gortyn"><w lemma="ϝανδάνω">ἔϝαδε</w></rs> τοῖς <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName></rs> <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#gortyn"><w lemma="πσαπίδω">πσαπίδον<unclear>σ</unclear><supplied reason="lost">ι</supplied></w></rs>· <space extent="unknown" unit="character"/> το͂ν <rs type="institution" subtype="social_status" role="regulation" key="apeleutheros" ref="#gortyn"><w lemma="ἀπελεύθερος">ἀπελευ<supplied reason="lost">θέρον</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κ</supplied><unclear>α</unclear> λε͂ι <w lemma="καταϝοικέω">καταϝοικίδεθαι</w> <del rend="erasure"><orig>λ</orig></del> <placeName ref="#latosion">Λατόσιον</placeName> ἐπὶ τᾶι <w lemma="ϝίσϝος">ϝίσϝαι</w> <supplied reason="lost">κ</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">αὶ τ</supplied>ᾶι <w lemma="ὅμοιος">ὀμοίαι</w>, καὶ μέτινα τοῦτον μέτε <w lemma="καταδωλόω">καταδολό<supplied reason="lost">θαι</supplied></w> <supplied reason="lost">μέτε <w lemma="συλάω">συλε͂ν</w></supplied>.
+                          <lb n="4"/><supplied reason="lost">αἰ</supplied> <w lemma="καταδωλόω"><supplied reason="lost">καταδολ</supplied>οῖτο</w>, τὸν <rs type="institution" subtype="official" role="defense" key="xenios_kosmos" ref="#gortyn" cert="low"><w lemma="κσένιος κόσμος">κσένιον κόσμον</w></rs> μὲ λαγαῖεν. αἰ δὲ <w lemma="συλάω"><supplied reason="lost">συλ</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">ί</supplied>οιεν</w>, ἐκατὸν <w lemma="στατήρ">στατε͂ρανς</w> ϝέκαστον τὸνς <rs type="institution" subtype="board" role="collecting_fines" key="titas" ref="#gortyn"><w lemma="τίτας">τίτανς</w></rs> <w lemma="ἐσπράδδω"><supplied reason="lost">ἐσπράδδεθ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">θαι</supplied></w><supplied reason="lost">, καὶ τὰν δ</supplied>ιπλείαν το͂ν <w lemma="κρήματα">κρεμάτον</w> ἐστείσαντανς ἀποδόμ<supplied reason="lost">ε</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">ν</supplied>. αἰ δ’ οἰ <rs type="institution" subtype="board" role="fineable" key="titas" ref="#gortyn"><w lemma="τίτας">τίται</w></rs> μὲ ϝέρκσιεν ἆι <w lemma="ἐγράφω">ἔγραται</w>, τὰν διπλείαν ἄ<supplied reason="lost">ταν ϝέκαστο</supplied><lb 
+                        break="no" n="8"/><supplied reason="lost">ν αὐτο͂ν το͂ι μ</supplied>εμπομένοι ἀποδόμεν καὶ τᾶι <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs> <w lemma="τίθημι">θέμεν</w>.
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="4"><note><supplied reason="lost">αἰ καταδολ</supplied>οῖτο <bibl><ref target="#bib4"><title>IC</title></ref></bibl>; <supplied reason="lost">αἰ δ’ ἀδικί</supplied>οιτο <bibl><ref target="#b1695">Seelentag</ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, che si apre con l’invocazione divina θιοί, conserva alla linea 1 la più antica formula di sanzione gortynia, seguita dal verbo πσαπίδονσ[ι] (costruzione che è usata più comunemente assieme al nesso τριακατίων παριόντων: così avviene in <ref type="ins" target="#seg_38_900"><title>SEG</title> 38.900</ref>, <ref type="ins" target="#ic4_181"><title>IC</title> IV 181</ref> e <ref type="ins" target="#ic4_162"><title>IC</title> IV 162</ref>, mentre compare senza riferimento ai τριακάτιοι in <ref type="ins" target="#ic4_378"><title>IC</title> IV 378</ref>; fuori da Gortyna la forma ψαφιξαμένοις accompagna una formula di sanzione in <ref type="ins" target="#ic2_5_17"><title>IC</title> II 5 17</ref> da Axos e in <ref type="ins" target="#ic1_19_3"><title>IC</title> I 19 3</ref> da Malla).</p>
+                    <p>Se l’integrazione alla linea 1 ἀπελευ[θέρον] è corretta, il decreto offre la più antica attestazione dei liberti, a Gortyna altrimenti noti solamente dal I secolo a.C. (cf. <ref type="ins" target="#ic4_263"><title>IC</title> IV 263</ref>). L’oggetto del decreto, finalizzato alla tutela dei liberti, prevede che quanti di loro vogliano stabilirsi a Latosion, una comunità dipendente di Gortyna nota anche da <ref type="ins" target="#ic4_58"><title>IC</title> IV 58</ref> (cf. <bibl><ref target="#b1505">Perlman 1996</ref>, p. 254</bibl>), possano farlo senza essere resi schiavi o catturati, acquisendo gli stessi diritti dei <foreign>Latosioi</foreign> (?) (ἐπὶ τᾶι ϝίσϝαι [καὶ τ]ᾶι ὀμοίαι, una concessione che costituisce forse un antecedente dell’<foreign>isopoliteia</foreign>; cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 160-162</bibl>). Qualora qualcuno tenti di catturare un liberto, lo <foreign>xenios kosmos</foreign> (l. 4, figura attestata anche in <ref type="ins" target="#ic4_30"><title>IC</title> IV 30</ref>, <ref type="ins" target="#ic4_53">53</ref> e forse <ref type="ins" target="#ic4_89">89</ref>) è tenuto a proteggerlo ponendolo sotto la propria custodia. Nel caso di qualche altra infrazione specificata alle linee 4-5, probabilmente relativa all’appropriazione di qualche bene dell’individuo in questione, i <foreign>titai</foreign>, funzionari gortynii che paiono responsabili dell’esazione delle multe (cf. <ref type="ins" target="#ic4_14"><title>IC</title> IV 14</ref>-<ref type="ins" target="#ic4_15">15</ref>, <ref type="ins" target="#ic4_79">79</ref>, <ref type="ins" target="#ic4_102">102</ref>, <ref type="ins" target="#ic4_107">107</ref>, <ref type="ins" target="#ic4_165">165</ref>; <ref type="ins" target="#ic1_16_1"><title>IC</title> I 16 1</ref>) devono riscuotere dai contravventori cento stateri più il doppio del valore di tali beni e consegnarli alla parte lesa. Qualora i <foreign>titai</foreign> non obbediscano a quanto prescritto, viene previsto che risarciscano essi stessi l’individuo e paghino una multa alla <foreign>polis</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#apeleutheros"><foreign>apeleutheros</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>, <ref type="inst" target="#titas"><foreign>titas</foreign></ref>, <ref type="inst" target="#xenios_kosmos"><foreign>xenios kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b377">Comparetti 1888</ref>, pp. 224-232 n. 82</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 73-82 n. 148</bibl>;
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> 19E</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4982</bibl>; 
+                            <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, p. 33 n. 1</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 175</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 78 <ptr type="phi" target="200515"/></bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 64</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 153</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 16</bibl>; 
+                            <bibl><ref target="#b662">Gagarin 2008</ref>, p. 259 n. 7</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 282</bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, pp. 298-299</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G78</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 26</bibl>;
+                            <bibl><ref target="#b1696">Seelentag 2017</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2029">Willetts 1954a</ref></bibl>; 
+                            <bibl><ref target="#b2031">Willetts 1957</ref></bibl>; 
+                            <bibl><ref target="#b1921">Van Effenterre – Van Effenterre 1985</ref>, pp. 187-188</bibl>; 
+                            <bibl><ref target="#b132">Bile 1986</ref></bibl>; 
+                            <bibl><ref target="#b1000">Koerner 1987</ref></bibl>; 
+                            <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> pp. 162-163</bibl>; 
+                            <bibl><ref target="#b1650">Ruzé 1997</ref></bibl>; 
+                            <bibl><ref target="#b49">Arnaoutoglou 1998</ref>, n. 23</bibl>; 
+                            <bibl><ref target="#b1509">Perlman 2002</ref></bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>; 
+                            <bibl><ref target="#b814">Guizzi 2005</ref></bibl>; 
+                            <bibl><ref target="#b332">Chaniotis 2006</ref>, p. 199</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

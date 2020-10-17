@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica di Axos (?) ad Apollo per un Etolo</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG IX, 1² 3 783</idno>
+                        <idno type="projectNo">142</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delphi_museum">Museo archeologico di Delfi</repository> 
+                                <idno type="invNo">3216</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva/onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delphi">Delfi, presso l’altare di Chio</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0225" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#axos"><w lemma="πόλις">πόλις</w></rs> τῶν</supplied> <placeName ref="#axos" type="ethnic"><supplied reason="lost" cert="low">Ὀα</supplied>ξίων</placeName> <persName type="honoured" key="Ladikos f. Dropinas"><name nymRef="Λάδικος">Λάδικον</name> <name nymRef="Δρωπίνας" type="patronymic">Δρωπίνα</name>
+                          <lb n="2"/><supplied reason="lost"><placeName ref="#aetolia" type="ethnic">Αἰτωλὸν</placeName> ἐκ</supplied> <placeName ref="#kallipolis" type="ethnic"><supplied reason="lost">Κ</supplied>αλλιπόλιος</placeName></persName> <persName type="divine" key="Apollo">Ἀπόλλωνι</persName>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’indicazione del dedicante, di cui si è perduta la parte sinistra, è stata integrata seppur con riserve in [ἁ πόλις τῶν Ὀα]ξίων da Robert Flacelière, sulla base delle relazioni attestate fra Axos e la Lega Etolica fra III e II secolo a.C. (cf. <ref type="ins" target="#ic2_5_18"><title>IC</title> II 5 18</ref>-<ref type="ins" target="#ic2_5_19">19</ref>, <ref type="ins" target="#seg_18_248"><title>SEG</title> 18.248</ref>). Se la statua consacrata ad Apollo a Delfi è stata davvero posta dall’Axos cretese, la relativa iscrizione costituisce dunque la sola dedica onoraria superstite fra quelle promosse dalla <foreign>polis</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b623">Flacelière 1929</ref>, pp. 31-33 n. 10</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib27"><title>FD</title> III</ref> 4 240</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> IX, 1<hi rend="superscript">2</hi> 3 783 <ptr type="phi" target="43682"/></bibl>; 
+                            <bibl><ref target="#b190">Bousquet 1991</ref>, pp. 175-177 n. 1</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1681">Schörner 2003</ref>, n. 1027</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

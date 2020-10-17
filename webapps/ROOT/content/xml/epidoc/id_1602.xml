@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">ID 1602</idno>
+                        <idno type="projectNo">167</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delos">Delos</repository> 
+                                <idno type="invNo">E 267</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica votiva/onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delos">Delos, <foreign>stoa</foreign> di Filippo</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0166" notAfter="-0100">166-100 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#knossos" type="ethnic">Κνωσίων</placeName> ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#knossos"><w lemma="πόλις">π<supplied reason="lost">όλις</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>καὶ τὰν <w lemma="γυνά">γυναῖ<supplied reason="lost">κ</supplied>α</w> αὐτ<supplied reason="lost">οῦ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>καὶ τὸνς υἱὸνς αὐτ<supplied reason="lost">οῦ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><w lemma="ἀρετά">ἀρετᾶς</w> ἕνεκεν καὶ <w lemma="εὔνοια"><unclear>εὐ</unclear>ν<supplied reason="lost">οίας</supplied></w> <supplied reason="lost">τᾶς εἰς τὰν πόλιν <persName type="divine" key="Apollo">Ἀπόλλωνι</persName></supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La lastra, originariamente apposta su una base di statua, conserva parte di una dedica posta dalla <foreign>polis</foreign> di Knossos a Delos in onore di un individuo, sua moglie e i loro figli. Tutti i nomi degli onorati sono andati perduti, così come il nome della divinità a cui il monumento doveva essere stato consacrato, verosimilmente Apollo.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1638">Hatzfeld – Roussel 1910</ref>, pp. 396-397 n. 42</bibl>; 
+                            <bibl><ref target="#b1872">Vallois 1923</ref>, p. 120</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib24"><title>ID</title></ref> 1602 <ptr type="phi" target="64039"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Gortyna e Amyklaion</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 172</idno>
+                        <idno type="projectNo">300</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#apessokari_panagia">Chiesa di Panagia, Apessokari</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele" cert="low">stele?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ται δῶι αὐτῆ κ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>άμ<unclear>ω</unclear> ἀπ<supplied reason="lost">ο</supplied>δόν<supplied reason="lost">τ</supplied>ων <unclear>λ</unclear>ι<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> αὐτῆ δῶι <rs type="institution" subtype="official" role="proclamation" key="karyx" ref="#gortyn"><w lemma="καρύσσω">καρύξαντ<unclear>ι</unclear></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ο</supplied>ἱ <placeName ref="#amyklaion" type="ethnic">Ἀμυκλαῖοι</placeName> ἀποδόμ<supplied reason="lost">εν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀποτίνω" cert="low"><supplied reason="lost" cert="low">ἀπο</supplied><unclear>τ</unclear>ι<unclear>σ</unclear>ά<unclear>τω</unclear></w> ϝέκ<unclear>α</unclear>στ<unclear>ος</unclear> ὁ <rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#gortyn"><w lemma="κόρμος"><unclear>κ</unclear><supplied reason="lost">όρμος</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>ωι κ’ ἀποδόντων <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig>ι</orig><gap reason="illegible" quantity="1" unit="character"/>ι κρέα τέχναι <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>ντων ἁπλ<supplied reason="lost">όον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>μ <w lemma="πράττω">πραττόντων</w> τα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ν<unclear>α</unclear>. αἰ δὲ μὴ ϝήροι <supplied reason="lost">κα</supplied><unclear>τ</unclear><supplied reason="lost">ὰ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/>ς ἇι <w lemma="ἐγράφω">ἤγρατται</w> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>ντων τῶι βωλομένωι <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/>άττεθθαι, <w lemma="δικάδδω">δικαδδέθθω</w> <unclear>δ</unclear><supplied reason="lost">ὲ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ε</unclear>ἴ τίς κ’ <w lemma="ἀδικέω">ἀδικῆται</w> ὑ<supplied reason="lost">πὸ</supplied> τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#gortyn"><w lemma="κόρμος"><supplied reason="lost">κό</supplied><unclear>ρ</unclear>μων</w></rs>, ἐπὶ τοῖς <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#gortyn"><w lemma="κόρμος">κόρμοι<supplied reason="lost">ς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπὶ τοῖς</supplied> <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#gortyn"><supplied reason="lost"><w lemma="κόρμος">κόρμοις</w> τ</supplied>οις ἐφισταμένοις</rs> εἰσε<unclear>ι</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="δικάδδω">δικαδδόντων</w> δὲ η<unclear>κ</unclear><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/>δωνται ἐπ’ <placeName ref="#amyklaion" type="ethnic">Ἀμυκλαίοι<supplied reason="lost">ς</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/> κα <w lemma="θύω"><unclear>θ</unclear>ύσηι</w> τὸν σῦ<supplied reason="lost">ν</supplied> κ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/>σηι τόκα καὶ λανχαν<unclear>ε</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/>λευς πρ<supplied reason="lost">ὸ</supplied> τᾶς <rs type="institution" subtype="month" role="calendar" key="Kanneios" ref="#gortyn"><w lemma="Καννεῖος">Καννεί<unclear>α</unclear><supplied reason="lost">ς</supplied></w></rs> <supplied reason="lost"><w lemma="νεμονηία">νεμονήιας</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> ἐν τῶι ἐνιαυτ<supplied reason="lost">ῶι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="22a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="5"><note><supplied reason="lost">ἀπο</supplied><unclear>τ</unclear>ι<unclear>σ</unclear>ά<unclear>τω</unclear> (?) <bibl><ref target="#bib15">Chaniotis</ref></bibl>; <gap reason="illegible" quantity="1" unit="character"/>ικα<gap reason="illegible" quantity="2" unit="character"/> <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app>
+                        <app loc="16"><note><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπὶ τοῖς κόρμοις τ</supplied>οῖς ἐφισταμένοις <bibl><ref target="#bib15">Chaniotis</ref></bibl>; <gap reason="lost" extent="unknown" unit="character"/>οις ἐφισταμένοις <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app> 
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il trattato fra Gortyna e la <foreign>polis</foreign> o comunità dipendente di Amyklaion (sullo <foreign>status</foreign> della quale cf. <bibl><ref target="#b1505">Perlman 1996</ref></bibl>, <bibl><ref target="#b1731">Sporn 1996</ref></bibl>, <bibl><ref target="#b427">Cucuzza 1997a</ref></bibl>), designata attraverso l’etnico collettivo Ἀμυκλαῖοι, sembra occuparsi di procedure giudiziarie riguardanti i due contraenti (l. 13, δικαδδέθθω; l. 14, ἀδικῆται; l. 17, δικαδδόντων); il documento sembra dunque particolarmente vicino al trattato <ref type="ins" target="#ic4_173"><title>IC</title> IV 173</ref>, stretto verosimilmente dalle medesime comunità, nel quale vengono affrontate questioni analoghe.</p>
+                    <p>Il testo conservatosi nomina alla linea 3 un araldo (figura che a Gortyna compare anche in <ref type="ins" target="#ic4_87"><title>IC</title> IV 87</ref>) ed offre più menzioni dei cosmi, che compaiono alla linea 5 – apparentemente in connessione ad una multa da pagare – e ripetutamente alle linee 15-16, dove vi è in particolare un riferimento ai [κόρμοις τ]οις ἐφισταμένοις.</p>
+                    <p>Le ultime linee del documento (ll. 19-22) sembrano prescrivere dei sacrifici annuali che devono avvenire prima della luna nuova di <foreign>Kanneios</foreign>, mese attestato solamente a Gortyna (cf. la manomissione <ref type="ins" target="#ic4_235"><title>IC</title> IV 235</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#karyx"><foreign>karyx</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#kanneios"><foreign>Kanneios</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 716-718 n. 167</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5025</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 172 <ptr type="phi" target="200611"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 586</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 66</bibl>;
+                            <bibl><ref target="#b1455">Pałuchowski 2017b</ref>, pp. 119-120</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 252, 260-261</bibl>; 
+                            <bibl><ref target="#b1731">Sporn 1996</ref></bibl>; 
+                            <bibl><ref target="#b427">Cucuzza 1997a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 4</idno>
+                        <idno type="projectNo">096</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 19</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0400">VI-V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> μηδὲ <rs type="institution" subtype="social_status" role="regulation" key="demosios" ref="#eleutherna"><w part="I" lemma="δαμόσιος">δα<supplied reason="lost">μ</supplied>ο<unclear>σ</unclear><supplied reason="lost">ι</supplied><gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ον <unclear>τ</unclear>ὸν ἀϝτὸν <unclear>μ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear> δ’ <w lemma="γράπω">ἐγράπεν</w> τριο̃<unclear>ν</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ον μήτε το͂ <rs type="institution" subtype="official" role="unknown" key="xenios" ref="#eleutherna"><w part="I" lemma="κσένιος">κσεν<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἐπιδαμέω"><supplied reason="lost">ἐπ</supplied><unclear>ι</unclear>δαμῆ</w>ι. αἰ δέ κ<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>νς π<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge, altamente lacunosa, è interessante poiché restituisce parte dei termini <foreign>damosios</foreign> – o alternativamente <foreign>damos</foreign> –  alla linea 1 e <foreign>xenios</foreign> o <foreign>xenos</foreign> alla linea 4. La frammentarietà del testo impedisce purtroppo di comprendere il senso del documento e la natura e funzione delle figure menzionate, che tuttavia sembrano essere coinvolte nel contesto di una regolamentazione di gruppi sociali di Eleutherna basata sulla loro differente origine o dislocazione (come sembra indicare il verbo parzialmente integrato ἐπιδαμῆι).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demosios"><foreign>demosios</foreign></ref>, <ref type="inst" target="#xenios"><foreign>xenios</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b377">Comparetti 1888</ref>, p. 163 n. 3</bibl>; 
+                            <bibl><ref target="#b385">Comparetti 1893b</ref>, pp. 421-422 n. 195</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4955</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 4 <ptr type="phi" target="199887"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 83</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> Ele4</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1521">Perpillou 1988</ref>, p. 219</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 110*</bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

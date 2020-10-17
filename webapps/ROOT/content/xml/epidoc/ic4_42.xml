@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 42</idno>
+                        <idno type="projectNo">254</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_odeion"><foreign>Odeion</foreign> di Gortyna</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna, ‘Muro settentrionale’ dell’<foreign>agora</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="column" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>οιδ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>το το<lb 
+                        break="no" n="3"/>υτο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>μος
+                          <lb n="5"/>προπ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκα<lb 
+                        break="no" n="7"/>ς</w></rs> μολ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><space quantity="1" unit="line"/>
+                          <lb n="8"/>αἴ κα δ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> ἀταθῆι
+                          <lb n="10"/>ὄτι κατ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/>κηριθε<supplied reason="lost">κν</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/>μενον
+                          <lb n="13"/>ἐπικατα<gap reason="lost" extent="unknown" unit="character"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="column" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>σ</unclear>ο<unclear>ντ</unclear>ι</orig><gap reason="lost" quantity="9" unit="character"/>ο ἐν ταῖς πεντεκαί<lb 
+                        break="no" n="2"/>δεκ’ ἀμέραις ἆι ἀκριᾶι ἀτέρα γᾶ πορ<lb 
+                        break="no" n="3"/>τὶ τὰ μολιόμενα. αἰ πονίοι πεντεκαίδεκ’
+                          <lb n="4"/>ἀμέρανς ἀμπεληλεύθεν ὀ <w lemma="ἄρκω">ἄρκον</w> τᾶς
+                          <lb n="5"/><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκας</w></rs>, ὀρκιότερον ἤμην τὸν <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικαστάς">δικαστ<lb 
+                        break="no" n="6"/>ὰν</w></rs> καὶ τὸμ <rs type="institution" subtype="official" role="judicial_procedure" key="mnamon" ref="#gortyn"><w lemma="μνάμων">μνάμονα</w></rs>. αἰ δέ κα μὲ <w lemma="ὀμνύω">ὀμόσ<lb 
+                        break="no" n="7"/>οντι</w> κελομένο, κατὰ τὰ αὐτὰ πράδε<lb 
+                        break="no" n="8"/>θαι το͂ μὲ <w lemma="ὀμνύω">ὀμόσαντος</w> ἆιπερ αἴ κα μὴ λ<lb 
+                        break="no" n="9"/>ῆι <w lemma="δικάζω">δικάκσαι</w>. <space extent="unknown" unit="character"/> αἰ <w lemma="δαμόσιος">δαμόσιόν</w> τι κολύσ<lb 
+                        break="no" n="10"/>αι ἢ θάνατος οἶος διακολυσεῖ, μηδατ<lb 
+                        break="no" n="11"/>έρ<corr>ο</corr>νς ταύταις καταβλάπεθαι. <space extent="unknown" unit="character"/> το͂ι δ<lb 
+                        break="no" n="12"/>ὲ τᾶν <rs type="institution" subtype="social_group" role="belonging" key="hetaireia" ref="#gortyn"><w lemma="ἐταιρήια">ἐταιρηιᾶν</w></rs> <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικασστάς">δικασστᾶι</w></rs> κ’ ὄς κα τ<lb 
+                        break="no" n="13"/>ο͂ν ἐνεκύρον <w lemma="δικάζω">δικάδηι</w>, αἰ αὐταμέριν <w lemma="δικάζω">δι<lb 
+                        break="no" n="14"/>κάκσαι</w> ἢ ἐς τὰν αὔριον ἄπατον ἤμην.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione conserva due colonne di testo, della prima delle quali ben poco risulta leggibile. La seconda colonna, meglio conservata, prescrive la procedura da seguire in caso di dispute di confine, documentando l’implicazione nel relativo processo di un giudice e di uno <foreign>mnamon</foreign>. Quest’ultimo, noto a Creta solamente a Gortyna (cf. <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, <ref type="ins" target="#ic4_160">160</ref>, <ref type="ins" target="#ic4_231">231</ref>, <ref type="ins" target="#ic4_251">251</ref>, <ref type="ins" target="#ic4_253">253</ref>, oltre alle attestazioni dello <foreign>mnamon</foreign> dei cosmi, dello <foreign>xenios</foreign> e degli <foreign>esprattai</foreign>), sembra essere un funzionario impiegato come testimone pubblico (cf. <bibl><ref target="#b256">Carawan 2008</ref></bibl>).</p>
+                    <p>La colonna B, inoltre, alle linee 11-12 fornisce la testimonianza dell’esistenza di giudici pertinenti alle eterie, non attestati altrove, che nel caso specifico della presente legge si occupano di questioni relative a beni impiegati come garanzie.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#dikastas"><foreign>dikastas</foreign></ref>, <ref type="inst" target="#hetaireia"><foreign>hetaireia</foreign></ref>, <ref type="inst" target="#mnamon"><foreign>mnamon</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b379">Comparetti 1888b</ref>, pp. 629-634</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 287-294 n. 153</bibl>; 
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> 19B (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4999</bibl>; 
+                            <bibl><ref target="#b1002">Kohler – Ziebarth 1912</ref>, p. 32 n. 2</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 42 <ptr type="phi" target="200478"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, nn. 129 (B), 130 (A)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 5</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 271 (B)</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G42</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 21</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1000">Koerner 1987</ref></bibl>; 
+                            <bibl><ref target="#b49">Arnaoutoglou 1998</ref>, n. 89 (B)</bibl>; 
+                            <bibl><ref target="#b1471">Papakonstantinou 2008</ref>, pp. 86-88, 100, 120, 184-185</bibl>; 
+                            <bibl><ref target="#b256">Carawan 2008</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

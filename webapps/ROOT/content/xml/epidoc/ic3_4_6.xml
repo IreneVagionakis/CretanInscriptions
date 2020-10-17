@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di <foreign>isopoliteia</foreign> fra Itanos e Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 6</idno>
+                        <idno type="projectNo">516</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 66</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0270" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">τάδε</supplied> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#itanos"><w lemma="δοκέω"><supplied reason="lost">ἔ</supplied><unclear>δ</unclear>ο<unclear>ξ</unclear><supplied reason="lost">εν</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/> <supplied reason="lost">τᾶι</supplied> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#itanos"><w lemma="πόλις">πόλι</w></rs>· <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#hierapytna"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#itanos"><w lemma="ἰσοπολιτεία">ἰσοπολιτεία<unclear>ν</unclear></w></rs></rs> <unclear>ε</unclear><supplied reason="lost">ἶναι ἐν <placeName ref="#hierapytna">Ἱαραπύτναι</placeName> τῶι <placeName ref="#itanos" type="ethnic">Ἰτανίωι</placeName></supplied> <w lemma="μετέχω"><supplied reason="lost">με</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">τέ</supplied>χοντι</w> <w lemma="θεῖος">θείων</w> τε καὶ <w lemma="ἀνθρώπινος">ἀνθ<supplied reason="lost">ρωπίνων</supplied></w><supplied reason="lost">, εἶν</supplied>αι αὐτὰ δὲ καὶ <unclear>τ</unclear><supplied reason="lost">ῶι</supplied> <placeName ref="#hierapytna" type="ethnic"><supplied reason="lost">Ἱαραπυτ</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">νί</supplied>ωι</placeName> ἐν <placeName ref="#itanos">Ἰτάνωι</placeName> <w lemma="μετέχω">μετέχοντι</w> <w lemma="θεῖος">θε<supplied reason="lost">ίων</supplied></w> <supplied reason="lost">τε</supplied> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w>· ὅ τι δ<unclear>έ</unclear> <unclear>κ</unclear>α <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#itanos"><w lemma="δοκέω">δό<supplied reason="lost">ξηι</supplied></w></rs></rs>
+                          <lb n="5"/><supplied reason="lost">ταῖς</supplied> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#hierapytna"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#itanos"><w lemma="πόλις">πόλεσι</w></rs></rs> κοινᾶι ἐς τὰν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#hierapytna"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#itanos"><w lemma="συνθήκα">συνθήκαν</w></rs></rs> τάνδε <w lemma="ἐγράφω">ἐνγράψαι</w> ἢ ἐξελε͂ν, <supplied reason="lost">ὅ τι</supplied>
+                          <lb n="6"/><supplied reason="lost">μ</supplied><unclear>έ</unclear>ν κα ἐξέλωμεν μὴ ἔναρον ἔστω μηδὲ <w lemma="ἔνορκος">ἔνορκον</w>, ὅ τι δέ <unclear>κα</unclear> <w lemma="ἐγράφω">ἐν<supplied reason="lost">γ</supplied><lb 
+                        break="no" n="7"/>ράψομεν</w> ἔναρόν τε καὶ <w lemma="ἔνορκος">ἔνορκον</w> ἔστω.
+                          <lb n="8"/><w lemma="ἄρχω">ἄρχει</w> τᾶς <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#hierapytna"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#itanos"><w lemma="συνθήκα">συνθήκας</w></rs></rs> ἐμ μὲν <placeName ref="#itanos">Ἰτάνωι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#itanos">ἐπὶ <w lemma="κοσμητήρ">κοσμητή<lb 
+                        break="no" n="9"/><supplied reason="lost">ρ</supplied>ων</w> <persName type="attested" key="Peisandros"><name nymRef="Πείσανδρος">Πεισάνδρου</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#itanos"><persName type="attested" key="Charidamos"><name nymRef="Χαρίδαμος">Χαριδάμου</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#itanos"><persName type="attested" key="Archemenidas"><name nymRef="Ἀρχεμηνίδας">Ἀρχεμηνίδα</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#itanos"><persName type="attested" key="Kanako-os"><name nymRef="Κανακο-ος">Κανακο<lb 
+                        break="no" n="10"/><gap reason="lost" quantity="1" unit="character"/>ου</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#itanos"><persName type="attested" key="Pheidon"><name nymRef="Φείδων">Φείδωνος</name></persName></rs>, ἐν δὲ <placeName ref="#hierapytna">Ἱαραπύτναι</placeName> <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#hierapytna">ἐπὶ <w lemma="κοσμητήρ">κοσμητήρων</w>
+                          <lb n="11"/><persName type="attested" key="-ausilos"><name nymRef="-αυσιλος"><gap reason="lost" quantity="1" unit="character"/>αυσίλω</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#hierapytna"><persName type="attested" key="Samagoras (2)"><name nymRef="Σαμαγόρας">Σαμαγόρα</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#hierapytna"><persName type="attested" key="Kydikles"><name nymRef="Κυδικλῆς">Κυδικλέος</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#hierapytna"><persName type="attested" key="Menesthenes"><name nymRef="Μενεσθένης">Μενεσθένεος</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmeter" ref="#hierapytna"><persName type="attested" key="Menias"><name nymRef="Μενίας"><unclear>Μ</unclear>ενί<unclear>α</unclear></name></persName></rs>.
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="1"><note><supplied reason="lost">τάδε ἔ</supplied><unclear>δ</unclear>ο<unclear>ξ</unclear><supplied reason="lost">εν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib15">Chaniotis</ref></bibl>; <gap reason="lost" extent="unknown" unit="character"/><unclear>δ</unclear>ο<unclear>ξ</unclear><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib3"><title>IC</title></ref></bibl>.</note></app>
+                            <app loc="2"><note><supplied reason="lost">τᾶι</supplied> πόλι <bibl><ref target="#bib15">Chaniotis</ref></bibl>; <gap reason="lost" extent="unknown" unit="character"/> πόλι <bibl><ref target="#bib3"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il trattato di <foreign>isopoliteia</foreign> fra Itanos e Hierapytna,  mutilo superiormente, si apre con una formula di sanzione nella quale dovevano essere menzionate come responsabili della decisione le due <foreign>poleis</foreign> (ll. 1-2). L’oggetto principale degli accordi, alle linee 2-4, è costuito dalla concessione reciproca di <foreign>isopoliteia</foreign>, alla quale segue una clausola relativa alla possibilità di apportare modifiche future al trattato a patto che lo decidano entrambe le <foreign>poleis</foreign> (ll. 4-7).</p>
+                    <p>Il documento si chiude con il ricordo dei magistrati in carica nelle due città al momento della stipulazione degli accordi, a Itanos i <foreign>kosmeteres</foreign> Peisandros, Charidamos, Archemenidas, Kanako(-)os e Pheidon, mentre a Hierapytna -ausilos, Samagoras, Kydikles, Menesthenes e Menias. Il termine <foreign>kosmeter</foreign>, attestato esclusivamente in documenti redatti ad Itanos e in questo caso riferito anche ai magistrati di Hierapytna, pare essere una variante locale equivalente al più diffuso <foreign>kosmos</foreign>, sostantivo che nella città è invece impiegato per designare l’intero collegio dei cosmi (cf. <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2-4</ref> e <ref type="ins" target="#ic3_4_7">7</ref>; nell’iscrizione <ref type="ins" target="#ic3_4_9"><title>IC</title> III 4 9</ref>, non redatta a Itanos, i suoi magistrati sono invece chiamati <foreign>kosmoi</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>, <ref type="inst" target="#kosmeter"><foreign>kosmeter</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1592">Reinach 1911</ref>, pp. 415-420 n. 4</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1206-1207 n. 39</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 6 <ptr type="phi" target="200309"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 579</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 20 <ptr type="phi" target="201285"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Institution types and areas of competence</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <head>Institutions</head>
+                <!-- values of @key attribute of <rs type="institution"> -->
+                <item xml:id="aios">
+                    <term xml:lang="en">-aios</term>
+                    <term xml:lang="it">-aios</term>
+                </item>
+                <item xml:id="eis">
+                    <term xml:lang="en">-eis</term>
+                    <term xml:lang="it">-eis</term>
+                </item>
+                <item xml:id="is">
+                    <term xml:lang="en">-is</term>
+                    <term xml:lang="it">-is</term>
+                </item>
+                <item xml:id="nios">
+                    <term xml:lang="en">-nios</term>
+                    <term xml:lang="it">-nios</term>
+                </item>
+                <item xml:id="s">
+                    <term xml:lang="en">-s</term>
+                    <term xml:lang="it">-s</term>
+                </item>
+                <item xml:id="sikartidai">
+                    <term xml:lang="en">-sikartidai</term>
+                    <term xml:lang="it">-sikartidai</term>
+                </item>
+                <item xml:id="tidai">
+                    <term xml:lang="en">-tidai</term>
+                    <term xml:lang="it">-tidai</term>
+                </item>
+                <item xml:id="abaton">
+                    <term xml:lang="en">Abaton</term>
+                    <term xml:lang="it">Abaton</term>
+                    <ref target="#adyton"/>
+                </item>
+                <item xml:id="adyton">
+                    <term xml:lang="en">Adyton</term>
+                    <term xml:lang="it">Adyton</term>
+                    <ref target="#abaton"/>
+                </item>
+                <item xml:id="agelaos">
+                    <term xml:lang="en">Agelaos</term>
+                    <term xml:lang="it">Agelaos</term>
+                    <ref target="#agelatas"/>
+                </item>
+                <item xml:id="agelatas">
+                    <term xml:lang="en">Agelatas</term>
+                    <term xml:lang="it">Agelatas</term>
+                    <ref target="#agelaos"/>
+                </item>
+                <item xml:id="agela">
+                    <term xml:lang="en">Agela</term>
+                    <term xml:lang="it">Agela</term>
+                </item>
+                <item xml:id="agones_mousikoi">
+                    <term xml:lang="en">Agones mousikoi</term>
+                    <term xml:lang="it">Agones mousikoi</term>
+                </item>
+                <item xml:id="agones_stephanitai">
+                    <term xml:lang="en">Agones stephanitai</term>
+                    <term xml:lang="it">Agones stephanitai</term>
+                </item>
+                <item xml:id="agoranomos">
+                    <term xml:lang="en">Agoranomos</term>
+                    <term xml:lang="it">Agoranomos</term>
+                </item>
+                <item xml:id="agora">
+                    <term xml:lang="en">Agora</term>
+                    <term xml:lang="it">Agora</term>
+                </item>
+                <item xml:id="agreion">
+                    <term xml:lang="en">Agreion</term>
+                    <term xml:lang="it">Agreion</term>
+                </item>
+                <item xml:id="agretas">
+                    <term xml:lang="en">Agretas</term>
+                    <term xml:lang="it">Agretas</term>
+                </item>
+                <item xml:id="Agrianios">
+                    <term xml:lang="en">Agrianios</term>
+                    <term xml:lang="it">Agrianios</term>
+                </item>
+                <item xml:id="Agyeios">
+                    <term xml:lang="en">Agyeios</term>
+                    <term xml:lang="it">Agyeios</term>
+                </item>
+                <item xml:id="Ai">
+                    <term xml:lang="en">Ai-</term>
+                    <term xml:lang="it">Ai-</term>
+                </item>
+                <item xml:id="Ainai">
+                    <term xml:lang="en">Ainai</term>
+                    <term xml:lang="it">Ainai</term>
+                </item>
+                <item xml:id="Ainaones">
+                    <term xml:lang="en">Ainaones</term>
+                    <term xml:lang="it">Ainaones</term>
+                </item>
+                <item xml:id="Aischeis">
+                    <term xml:lang="en">Aischeis</term>
+                    <term xml:lang="it">Aischeis</term>
+                </item>
+                <item xml:id="Aithaleis">
+                    <term xml:lang="en">Aithaleis</term>
+                    <term xml:lang="it">Aithaleis</term>
+                </item>
+                <item xml:id="allopoliatas">
+                    <term xml:lang="en">Allopoliatas</term>
+                    <term xml:lang="it">Allopoliatas</term>
+                </item>
+                <item xml:id="alsos">
+                    <term xml:lang="en">Alsos</term>
+                    <term xml:lang="it">Alsos</term>
+                </item>
+                <item xml:id="Amyklaios">
+                    <term xml:lang="en">Amyklaios</term>
+                    <term xml:lang="it">Amyklaios</term>
+                </item>
+                <item xml:id="andano">
+                    <term xml:lang="en">Andano</term>
+                    <term xml:lang="it">Andano</term>
+                    <ref target="#psephizo"/>
+                </item>
+                <item xml:id="andreion">
+                    <term xml:lang="en">Andreion</term>
+                    <term xml:lang="it">Andreion</term>
+                </item>
+                <item xml:id="anebos">
+                    <term xml:lang="en">Anebos</term>
+                    <term xml:lang="it">Anebos</term>
+                    <ref target="#anoros"/>
+                </item>
+                <item xml:id="aner">
+                    <term xml:lang="en">Aner</term>
+                    <term xml:lang="it">Aner</term>
+                </item>
+                <item xml:id="euameros">
+                    <term xml:lang="en">Anniversary</term>
+                    <term xml:lang="it">Anniversario</term>
+                </item>
+                <item xml:id="anoros">
+                    <term xml:lang="en">Anoros</term>
+                    <term xml:lang="it">Anoros</term>
+                    <ref target="#anebos"/>
+                </item>
+                <item xml:id="antithens">
+                    <term xml:lang="en">Antithens</term>
+                    <term xml:lang="it">Antithens</term>
+                </item>
+                <item xml:id="Ap">
+                    <term xml:lang="en">Ap-</term>
+                    <term xml:lang="it">Ap-</term>
+                </item>
+                <item xml:id="apeleutheros">
+                    <term xml:lang="en">Apeleutheros</term>
+                    <term xml:lang="it">Apeleutheros</term>
+                </item>
+                <item xml:id="Apellaios">
+                    <term xml:lang="en">Apellaios</term>
+                    <term xml:lang="it">Apellaios</term>
+                </item>
+                <item xml:id="apetairos">
+                    <term xml:lang="en">Apetairos</term>
+                    <term xml:lang="it">Apetairos</term>
+                </item>
+                <item xml:id="aphamia">
+                    <term xml:lang="en">Aphamia</term>
+                    <term xml:lang="it">Aphamia</term>
+                </item>
+                <item xml:id="apodamos">
+                    <term xml:lang="en">Apodamos</term>
+                    <term xml:lang="it">Apodamos</term>
+                </item>
+                <item xml:id="apodromos">
+                    <term xml:lang="en">Apodromos</term>
+                    <term xml:lang="it">Apodromos</term>
+                </item>
+                <item xml:id="apokosmos">
+                    <term xml:lang="en">Apokosmos</term>
+                    <term xml:lang="it">Apokosmos</term>
+                </item>
+                <item xml:id="apolagasas">
+                    <term xml:lang="en">Apolagasas</term>
+                    <term xml:lang="it">Apolagasas</term>
+                </item>
+                <item xml:id="apolagathes">
+                    <term xml:lang="en">Apolagathes</term>
+                    <term xml:lang="it">Apolagathes</term>
+                </item>
+                <item xml:id="Archeia">
+                    <term xml:lang="en">Archeia</term>
+                    <term xml:lang="it">Archeia</term>
+                </item>
+                <item xml:id="archeion">
+                    <term xml:lang="en">Archeion</term>
+                    <term xml:lang="it">Archeion</term>
+                </item>
+                <item xml:id="arche">
+                    <term xml:lang="en">Arche</term>
+                    <term xml:lang="it">Arche</term>
+                </item>
+                <item xml:id="archo">
+                    <term xml:lang="en">Archo</term>
+                    <term xml:lang="it">Archo</term>
+                </item>
+                <item xml:id="archon">
+                    <term xml:lang="en">Archon</term>
+                    <term xml:lang="it">Archon</term>
+                </item>
+                <item xml:id="archos">
+                    <term xml:lang="en">Archos</term>
+                    <term xml:lang="it">Archos</term>
+                </item>
+                <item xml:id="Asklapieia">
+                    <term xml:lang="en">Asklapieia</term>
+                    <term xml:lang="it">Asklapieia</term>
+                </item>
+                <item xml:id="astos">
+                    <term xml:lang="en">Astos</term>
+                    <term xml:lang="it">Astos</term>
+                </item>
+                <item xml:id="autodikos">
+                    <term xml:lang="en">Autodikos</term>
+                    <term xml:lang="it">Autodikos</term>
+                </item>
+                <item xml:id="Autoletai">
+                    <term xml:lang="en">Autoletai</term>
+                    <term xml:lang="it">Autoletai</term>
+                </item>
+                <item xml:id="autonomos">
+                    <term xml:lang="en">Autonomos</term>
+                    <term xml:lang="it">Autonomos</term>
+                </item>
+                <item xml:id="azostos">
+                    <term xml:lang="en">Azostos</term>
+                    <term xml:lang="it">Azostos</term>
+                </item>
+                <item xml:id="Bakinthios">
+                    <term xml:lang="en">Bakinthios</term>
+                    <term xml:lang="it">Bakinthios</term>
+                </item>
+                <item xml:id="basileuo">
+                    <term xml:lang="en">Basileuo</term>
+                    <term xml:lang="it">Basileuo</term>
+                </item>
+                <item xml:id="Belchania">
+                    <term xml:lang="en">Belchania</term>
+                    <term xml:lang="it">Belchania</term>
+                </item>
+                <item xml:id="Boazromios">
+                    <term xml:lang="en">Boazromios</term>
+                    <term xml:lang="it">Boazromios</term>
+                </item>
+                <item xml:id="bomos">
+                    <term xml:lang="en">Bomos</term>
+                    <term xml:lang="it">Bomos</term>
+                </item>
+                <item xml:id="boule">
+                    <term xml:lang="en">Boule</term>
+                    <term xml:lang="it">Boule</term>
+                    <ref target="#preigistos"/>
+                </item>
+                <item xml:id="Britomarpeia">
+                    <term xml:lang="en">Britomarpeia</term>
+                    <term xml:lang="it">Britomarpeia</term>
+                </item>
+                <item xml:id="byblion">
+                    <term xml:lang="en">Byblion</term>
+                    <term xml:lang="it">Byblion</term>
+                </item>
+                <item xml:id="cheirotonia_meniaia">
+                    <term xml:lang="en">Cheirotonia meniaia</term>
+                    <term xml:lang="it">Cheirotonia meniaia</term>
+                </item>
+                <item xml:id="chora_hiera">
+                    <term xml:lang="en">Chora hiera</term>
+                    <term xml:lang="it">Chora hiera</term>
+                </item>
+                <item xml:id="choregos">
+                    <term xml:lang="en">Choregos</term>
+                    <term xml:lang="it">Choregos</term>
+                </item>
+                <item xml:id="choros">
+                    <term xml:lang="en">Choros</term>
+                    <term xml:lang="it">Choros</term>
+                </item>
+                <item xml:id="chremata">
+                    <term xml:lang="en">Chremata</term>
+                    <term xml:lang="it">Chremata</term>
+                </item>
+                <item xml:id="chreophylakion">
+                    <term xml:lang="en">Chreophylakion</term>
+                    <term xml:lang="it">Chreophylakion</term>
+                </item>
+                <item xml:id="Damatrios">
+                    <term xml:lang="en">Damatrios</term>
+                    <term xml:lang="it">Damatrios</term>
+                </item>
+                <item xml:id="damiorgos">
+                    <term xml:lang="en">Damiorgos</term>
+                    <term xml:lang="it">Damiorgos</term>
+                </item>
+                <item xml:id="damios">
+                    <term xml:lang="en">Damios</term>
+                    <term xml:lang="it">Damios</term>
+                </item>
+                <item xml:id="damokratia">
+                    <term xml:lang="en">Damokratia</term>
+                    <term xml:lang="it">Damokratia</term>
+                </item>
+                <item xml:id="damosia_hodos">
+                    <term xml:lang="en">Damosia hodos</term>
+                    <term xml:lang="it">Damosia hodos</term>
+                </item>
+                <item xml:id="damosia_sphragis">
+                    <term xml:lang="en">Damosia sphragis</term>
+                    <term xml:lang="it">Damosia sphragis</term>
+                </item>
+                <item xml:id="dapanama">
+                    <term xml:lang="en">Dapanama</term>
+                    <term xml:lang="it">Dapanama</term>
+                </item>
+                <item xml:id="Dek">
+                    <term xml:lang="en">Dek-</term>
+                    <term xml:lang="it">Dek-</term>
+                </item>
+                <item xml:id="dekaplethros_entheos">
+                    <term xml:lang="en">Dekaplethros entheos</term>
+                    <term xml:lang="it">Dekaplethros entheos</term>
+                </item>
+                <item xml:id="Delphinios">
+                    <term xml:lang="en">Delphinios</term>
+                    <term xml:lang="it">Delphinios</term>
+                </item>
+                <item xml:id="demos">
+                    <term xml:lang="en">Demos</term>
+                    <term xml:lang="it">Demos</term>
+                </item>
+                <item xml:id="demosios">
+                    <term xml:lang="en">Demosios</term>
+                    <term xml:lang="it">Demosios</term>
+                </item>
+                <item xml:id="diagramma">
+                    <term xml:lang="en">Diagramma</term>
+                    <term xml:lang="it">Diagramma</term>
+                </item>
+                <item xml:id="dikastas">
+                    <term xml:lang="en">Dikastas</term>
+                    <term xml:lang="it">Dikastas</term>
+                </item>
+                <item xml:id="dikasterion">
+                    <term xml:lang="en">Dikasterion</term>
+                    <term xml:lang="it">Dikasterion</term>
+                </item>
+                <item xml:id="dika">
+                    <term xml:lang="en">Dika</term>
+                    <term xml:lang="it">Dika</term>
+                </item>
+                <item xml:id="dika_xenika">
+                    <term xml:lang="en">Dika xenika</term>
+                    <term xml:lang="it">Dika xenika</term>
+                </item>
+                <item xml:id="Diktynnaios">
+                    <term xml:lang="en">Diktynnaios</term>
+                    <term xml:lang="it">Diktynnaios</term>
+                </item>
+                <item xml:id="Dionnysia">
+                    <term xml:lang="en">Dionnysia</term>
+                    <term xml:lang="it">Dionnysia</term>
+                </item>
+                <item xml:id="Dionysios">
+                    <term xml:lang="en">Dionysios</term>
+                    <term xml:lang="it">Dionysios</term>
+                </item>
+                <item xml:id="Diphyloi">
+                    <term xml:lang="en">Diphyloi</term>
+                    <term xml:lang="it">Diphyloi</term>
+                </item>
+                <item xml:id="dogma">
+                    <term xml:lang="en">Dogma</term>
+                    <term xml:lang="it">Dogma</term>
+                    <ref target="#gnoma"/>
+                    <ref target="#psephisma"/>
+                    <ref target="#wada"/>
+                </item>
+                <item xml:id="dogma_demosion">
+                    <term xml:lang="en">Dogma demosion</term>
+                    <term xml:lang="it">Dogma demosion</term>
+                </item>
+                <item xml:id="dokeo">
+                    <term xml:lang="en">Dokeo</term>
+                    <term xml:lang="it">Dokeo</term>
+                </item>
+                <item xml:id="Donokeis">
+                    <term xml:lang="en">Donokeis</term>
+                    <term xml:lang="it">Donokeis</term>
+                </item>
+                <item xml:id="doulos">
+                    <term xml:lang="en">Doulos</term>
+                    <term xml:lang="it">Doulos</term>
+                </item>
+                <item xml:id="Dromeios">
+                    <term xml:lang="en">Dromeios</term>
+                    <term xml:lang="it">Dromeios</term>
+                </item>
+                <item xml:id="dromeus">
+                    <term xml:lang="en">Dromeus</term>
+                    <term xml:lang="it">Dromeus</term>
+                </item>
+                <item xml:id="dromos">
+                    <term xml:lang="en">Dromos</term>
+                    <term xml:lang="it">Dromos</term>
+                </item>
+                <item xml:id="Dymanes">
+                    <term xml:lang="en">Dymanes</term>
+                    <term xml:lang="it">Dymanes</term>
+                </item>
+                <item xml:id="E">
+                    <term xml:lang="en">E-</term>
+                    <term xml:lang="it">E-</term>
+                </item>
+                <item xml:id="ebion">
+                    <term xml:lang="en">Ebion</term>
+                    <term xml:lang="it">Ebion</term>
+                    <ref target="#orimos"/>
+                </item>
+                <item xml:id="Echanoreis">
+                    <term xml:lang="en">Echanoreis</term>
+                    <term xml:lang="it">Echanoreis</term>
+                </item>
+                <item xml:id="ekdyomenos">
+                    <term xml:lang="en">Ekdyomenos</term>
+                    <term xml:lang="it">Ekdyomenos</term>
+                </item>
+                <item xml:id="ekklesia">
+                    <term xml:lang="en">Ekklesia</term>
+                    <term xml:lang="it">Ekklesia</term>
+                </item>
+                <item xml:id="Eleusinios">
+                    <term xml:lang="en">Eleusinios</term>
+                    <term xml:lang="it">Eleusinios</term>
+                </item>
+                <item xml:id="eleutheros">
+                    <term xml:lang="en">Eleutheros</term>
+                    <term xml:lang="it">Eleutheros</term>
+                </item>
+                <item xml:id="enphylos">
+                    <term xml:lang="en">Enphylos</term>
+                    <term xml:lang="it">Enphylos</term>
+                </item>
+                <item xml:id="ephoros">
+                    <term xml:lang="en">Ephoros</term>
+                    <term xml:lang="it">Ephoros</term>
+                </item>
+                <item xml:id="epidamos">
+                    <term xml:lang="en">Epidamos</term>
+                    <term xml:lang="it">Epidamos</term>
+                </item>
+                <item xml:id="epikriterion">
+                    <term xml:lang="en">Epikriterion</term>
+                    <term xml:lang="it">Epikriterion</term>
+                </item>
+                <item xml:id="epilykos">
+                    <term xml:lang="en">Epilykos</term>
+                    <term xml:lang="it">Epilykos</term>
+                </item>
+                <item xml:id="epimeletes">
+                    <term xml:lang="en">Epimeletes</term>
+                    <term xml:lang="it">Epimeletes</term>
+                </item>
+                <item xml:id="epiouros">
+                    <term xml:lang="en">Epiouros</term>
+                    <term xml:lang="it">Epiouros</term>
+                </item>
+                <item xml:id="epistates">
+                    <term xml:lang="en">Epistates</term>
+                    <term xml:lang="it">Epistates</term>
+                </item>
+                <item xml:id="epistole">
+                    <term xml:lang="en">Epistole</term>
+                    <term xml:lang="it">Epistole</term>
+                    <ref target="#gramma"/>
+                </item>
+                <item xml:id="epoikos">
+                    <term xml:lang="en">Epoikos</term>
+                    <term xml:lang="it">Epoikos</term>
+                </item>
+                <item xml:id="eponymos">
+                    <term xml:lang="en">Eponymos</term>
+                    <term xml:lang="it">Eponymos</term>
+                </item>
+                <item xml:id="epottas">
+                    <term xml:lang="en">Epottas</term>
+                    <term xml:lang="it">Epottas</term>
+                </item>
+                <item xml:id="ereutas">
+                    <term xml:lang="en">Ereutas</term>
+                    <term xml:lang="it">Ereutas</term>
+                </item>
+                <item xml:id="ergepistates">
+                    <term xml:lang="en">Ergepistates</term>
+                    <term xml:lang="it">Ergepistates</term>
+                </item>
+                <item xml:id="esprattas">
+                    <term xml:lang="en">Esprattas</term>
+                    <term xml:lang="it">Esprattas</term>
+                </item>
+                <item xml:id="eszikaioter">
+                    <term xml:lang="en">Eszikaioter</term>
+                    <term xml:lang="it">Eszikaioter</term>
+                </item>
+                <item xml:id="ethnos">
+                    <term xml:lang="en">Ethnos</term>
+                    <term xml:lang="it">Ethnos</term>
+                </item>
+                <item xml:id="euergetes">
+                    <term xml:lang="en">Euergetes</term>
+                    <term xml:lang="it">Euergetes</term>
+                </item>
+                <item xml:id="eunomia">
+                    <term xml:lang="en">Eunomia</term>
+                    <term xml:lang="it">Eunomia</term>
+                </item>
+                <item xml:id="gnoma">
+                    <term xml:lang="en">Gnoma</term>
+                    <term xml:lang="it">Gnoma</term>
+                    <ref target="#dogma"/>
+                    <ref target="#psephisma"/>
+                    <ref target="#wada"/>
+                </item>
+                <item xml:id="gnomon">
+                    <term xml:lang="en">Gnomon</term>
+                    <term xml:lang="it">Gnomon</term>
+                </item>
+                <item xml:id="grammateus">
+                    <term xml:lang="en">Grammateus</term>
+                    <term xml:lang="it">Grammateus</term>
+                    <ref target="#poinikastas" cert="low"/>
+                </item>
+                <item xml:id="gramma">
+                    <term xml:lang="en">Gramma</term>
+                    <term xml:lang="it">Gramma</term>
+                    <ref target="#epistole"/>
+                </item>
+                <item xml:id="gymnasion">
+                    <term xml:lang="en">Gymnasion</term>
+                    <term xml:lang="it">Gymnasion</term>
+                </item>
+                <item xml:id="gynaikonomos">
+                    <term xml:lang="en">Gynaikonomos</term>
+                    <term xml:lang="it">Gynaikonomos</term>
+                </item>
+                <item xml:id="gyna">
+                    <term xml:lang="en">Gyna</term>
+                    <term xml:lang="it">Gyna</term>
+                </item>
+                <item xml:id="Haliaios">
+                    <term xml:lang="en">Haliaios</term>
+                    <term xml:lang="it">Haliaios</term>
+                </item>
+                <item xml:id="hegemon">
+                    <term xml:lang="en">Hegemon</term>
+                    <term xml:lang="it">Hegemon</term>
+                </item>
+                <item xml:id="Hekatonba_ha_megala">
+                    <term xml:lang="en">Hekatonba ha megala</term>
+                    <term xml:lang="it">Hekatonba ha megala</term>
+                </item>
+                <item xml:id="Heraia">
+                    <term xml:lang="en">Heraia</term>
+                    <term xml:lang="it">Heraia</term>
+                </item>
+                <item xml:id="Heraios">
+                    <term xml:lang="en">Heraios</term>
+                    <term xml:lang="it">Heraios</term>
+                </item>
+                <item xml:id="heros">
+                    <term xml:lang="en">Heros</term>
+                    <term xml:lang="it">Heros</term>
+                </item>
+                <item xml:id="hestia">
+                    <term xml:lang="en">Hestia</term>
+                    <term xml:lang="it">Hestia</term>
+                </item>
+                <item xml:id="hetaireia">
+                    <term xml:lang="en">Hetaireia</term>
+                    <term xml:lang="it">Hetaireia</term>
+                </item>
+                <item xml:id="hiarorgos">
+                    <term xml:lang="en">Hiarorgos</term>
+                    <term xml:lang="it">Hiarorgos</term>
+                </item>
+                <item xml:id="hiereus">
+                    <term xml:lang="en">Hiereus</term>
+                    <term xml:lang="it">Hiereus</term>
+                </item>
+                <item xml:id="hiereus_tou_Dios_tou_Kretageneta_kai_Diktynnes">
+                    <term xml:lang="en">Hiereus tou Dios tou Kretageneta kai Diktynnes</term>
+                    <term xml:lang="it">Hiereus tou Dios tou Kretageneta kai Diktynnes</term>
+                </item>
+                <item xml:id="hieromnamonika_chremata">
+                    <term xml:lang="en">Hieromnamonika chremata</term>
+                    <term xml:lang="it">Hieromnamonika chremata</term>
+                </item>
+                <item xml:id="hieromnamon">
+                    <term xml:lang="en">Hieromnamon</term>
+                    <term xml:lang="it">Hieromnamon</term>
+                </item>
+                <item xml:id="hieron">
+                    <term xml:lang="en">Hieron</term>
+                    <term xml:lang="it">Hieron</term>
+                </item>
+                <item xml:id="Himalios">
+                    <term xml:lang="en">Himalios</term>
+                    <term xml:lang="it">Himalios</term>
+                </item>
+                <item xml:id="hisolympion_pankration">
+                    <term xml:lang="en">Hisolympion pankration</term>
+                    <term xml:lang="it">Hisolympion pankration</term>
+                </item>
+                <item xml:id="histor">
+                    <term xml:lang="en">Histor</term>
+                    <term xml:lang="it">Histor</term>
+                </item>
+                <item xml:id="hoi_hepta">
+                    <term xml:lang="en">Hoi hepta</term>
+                    <term xml:lang="it">Hoi hepta</term>
+                </item>
+                <item xml:id="hoi_ikati_hoi_tas_polios">
+                    <term xml:lang="en">Hoi ikati hoi tas polios</term>
+                    <term xml:lang="it">Hoi ikati hoi tas polios</term>
+                </item>
+                <item xml:id="hoi_peri">
+                    <term xml:lang="en">Hoi peri -</term>
+                    <term xml:lang="it">Hoi peri -</term>
+                </item>
+                <item xml:id="homeros">
+                    <term xml:lang="en">Homeros</term>
+                    <term xml:lang="it">Homeros</term>
+                </item>
+                <item xml:id="homologia">
+                    <term xml:lang="en">Homologia</term>
+                    <term xml:lang="it">Homologia</term>
+                </item>
+                <item xml:id="horos">
+                    <term xml:lang="en">Horos</term>
+                    <term xml:lang="it">Horos</term>
+                </item>
+                <item xml:id="Hylleis">
+                    <term xml:lang="en">Hylleis</term>
+                    <term xml:lang="it">Hylleis</term>
+                </item>
+                <item xml:id="Hyperboia">
+                    <term xml:lang="en">Hyperboia</term>
+                    <term xml:lang="it">Hyperboia</term>
+                </item>
+                <item xml:id="Hyperboios">
+                    <term xml:lang="en">Hyperboios</term>
+                    <term xml:lang="it">Hyperboios</term>
+                </item>
+                <item xml:id="hypoboikos">
+                    <term xml:lang="en">Hypoboikos</term>
+                    <term xml:lang="it">Hypoboikos</term>
+                </item>
+                <item xml:id="hypomnama">
+                    <term xml:lang="en">Hypomnama</term>
+                    <term xml:lang="it">Hypomnama</term>
+                </item>
+                <item xml:id="idiotas">
+                    <term xml:lang="en">Idiotas</term>
+                    <term xml:lang="it">Idiotas</term>
+                </item>
+                <item xml:id="Ionios">
+                    <term xml:lang="en">Ionios</term>
+                    <term xml:lang="it">Ionios</term>
+                </item>
+                <item xml:id="anatitheis">
+                    <term xml:lang="en">Inscriber</term>
+                    <term xml:lang="it">Iscrivente</term>
+                </item>
+                <item xml:id="isopoliteia">
+                    <term xml:lang="en">Isopoliteia</term>
+                    <term xml:lang="it">Isopoliteia</term>
+                </item>
+                <item xml:id="isopolites">
+                    <term xml:lang="en">Isopolites</term>
+                    <term xml:lang="it">Isopolites</term>
+                </item>
+                <item xml:id="Kamiris">
+                    <term xml:lang="en">Kamiris</term>
+                    <term xml:lang="it">Kamiris</term>
+                </item>
+                <item xml:id="Kanneios">
+                    <term xml:lang="en">Kanneios</term>
+                    <term xml:lang="it">Kanneios</term>
+                    <ref target="#Karneios" cert="low"/>
+                </item>
+                <item xml:id="Karneios">
+                    <term xml:lang="en">Karneios</term>
+                    <term xml:lang="it">Karneios</term>
+                    <ref target="#Kanneios" cert="low"/>
+                </item>
+                <item xml:id="Karonios">
+                    <term xml:lang="en">Karonios</term>
+                    <term xml:lang="it">Karonios</term>
+                    <ref target="#Koronios" cert="low"/>
+                </item>
+                <item xml:id="karpodaistas">
+                    <term xml:lang="en">Karpodaistas</term>
+                    <term xml:lang="it">Karpodaistas</term>
+                </item>
+                <item xml:id="karyx">
+                    <term xml:lang="en">Karyx</term>
+                    <term xml:lang="it">Karyx</term>
+                </item>
+                <item xml:id="katalogos">
+                    <term xml:lang="en">Katalogos</term>
+                    <term xml:lang="it">Katalogos</term>
+                </item>
+                <item xml:id="kathagemon">
+                    <term xml:lang="en">Kathagemon</term>
+                    <term xml:lang="it">Kathagemon</term>
+                </item>
+                <item xml:id="katoikos">
+                    <term xml:lang="en">Katoikos</term>
+                    <term xml:lang="it">Katoikos</term>
+                </item>
+                <item xml:id="klaros">
+                    <term xml:lang="en">Klaros</term>
+                    <term xml:lang="it">Klaros</term>
+                </item>
+                <item xml:id="koinodikion">
+                    <term xml:lang="en">Koinodikion</term>
+                    <term xml:lang="it">Koinodikion</term>
+                </item>
+                <item xml:id="koinon">
+                    <term xml:lang="en">Koinon</term>
+                    <term xml:lang="it">Koinon</term>
+                </item>
+                <item xml:id="koinonE">
+                    <term xml:lang="en">Koinon'</term>
+                    <term xml:lang="it">Koinon'</term>
+                </item>
+                <item xml:id="koinon_ton_Kretaieon">
+                    <term xml:lang="en">Koinon ton Kretaieon</term>
+                    <term xml:lang="it">Koinon ton Kretaieon</term>
+                </item>
+                <item xml:id="koinon_ton_KretaieonE">
+                    <term xml:lang="en">Koinon ton Kretaieon'</term>
+                    <term xml:lang="it">Koinon ton Kretaieon'</term>
+                </item>
+                <item xml:id="Komnokarios">
+                    <term xml:lang="en">Komnokarios</term>
+                    <term xml:lang="it">Komnokarios</term>
+                </item>
+                <item xml:id="Koronios">
+                    <term xml:lang="en">Koronios</term>
+                    <term xml:lang="it">Koronios</term>
+                    <ref target="#Karonios" cert="low"/>
+                </item>
+                <item xml:id="kosmeter">
+                    <term xml:lang="en">Kosmeter</term>
+                    <term xml:lang="it">Kosmeter</term>
+                </item>
+                <item xml:id="kosmon_mnamon">
+                    <term xml:lang="en">Kosmon mnamon</term>
+                    <term xml:lang="it">Kosmon mnamon</term>
+                </item>
+                <item xml:id="kosmos">
+                    <term xml:lang="en">Kosmos</term>
+                    <term xml:lang="it">Kosmos</term>
+                </item>
+                <item xml:id="kouros">
+                    <term xml:lang="en">Kouros</term>
+                    <term xml:lang="it">Kouros</term>
+                </item>
+                <item xml:id="Kretaieis">
+                    <term xml:lang="en">Kretaieis</term>
+                    <term xml:lang="it">Kretaieis</term>
+                </item>
+                <item xml:id="Kretarchas">
+                    <term xml:lang="en">Kretarchas</term>
+                    <term xml:lang="it">Kretarchas</term>
+                </item>
+                <item xml:id="krima">
+                    <term xml:lang="en">Krima</term>
+                    <term xml:lang="it">Krima</term>
+                </item>
+                <item xml:id="krino">
+                    <term xml:lang="en">Krino</term>
+                    <term xml:lang="it">Krino</term>
+                </item>
+                <item xml:id="Kydanteia">
+                    <term xml:lang="en">Kydanteia</term>
+                    <term xml:lang="it">Kydanteia</term>
+                </item>
+                <item xml:id="laos">
+                    <term xml:lang="en">Laos</term>
+                    <term xml:lang="it">Laos</term>
+                </item>
+                <item xml:id="Lasynthioi">
+                    <term xml:lang="en">Lasynthioi</term>
+                    <term xml:lang="it">Lasynthioi</term>
+                </item>
+                <item xml:id="Latosioi">
+                    <term xml:lang="en">Latosioi</term>
+                    <term xml:lang="it">Latosioi</term>
+                </item>
+                <item xml:id="Leschanoreios">
+                    <term xml:lang="en">Leschanoreios</term>
+                    <term xml:lang="it">Leschanoreios</term>
+                </item>
+                <item xml:id="leukoma">
+                    <term xml:lang="en">Leukoma</term>
+                    <term xml:lang="it">Leukoma</term>
+                </item>
+                <item xml:id="logistes">
+                    <term xml:lang="en">Logistes</term>
+                    <term xml:lang="it">Logistes</term>
+                </item>
+                <item xml:id="meis">
+                    <term xml:lang="en">Month</term>
+                    <term xml:lang="it">Mese</term>
+                </item>
+                <item xml:id="mnamon_to_xenio">
+                    <term xml:lang="en">Mnamon to xenio</term>
+                    <term xml:lang="it">Mnamon to xenio</term>
+                </item>
+                <item xml:id="mnamon_ton_esprattan">
+                    <term xml:lang="en">Mnamon ton esprattan</term>
+                    <term xml:lang="it">Mnamon ton esprattan</term>
+                </item>
+                <item xml:id="mnamon">
+                    <term xml:lang="en">Mnamon</term>
+                    <term xml:lang="it">Mnamon</term>
+                </item>
+                <item xml:id="mnoia">
+                    <term xml:lang="en">Mnoia</term>
+                    <term xml:lang="it">Mnoia</term>
+                </item>
+                <item xml:id="monetarius">
+                    <term xml:lang="en">Monetary official</term>
+                    <term xml:lang="it">Magistrato monetario</term>
+                </item>
+                <item xml:id="naokoros">
+                    <term xml:lang="en">Naokoros</term>
+                    <term xml:lang="it">Naokoros</term>
+                </item>
+                <item xml:id="naos">
+                    <term xml:lang="en">Naos</term>
+                    <term xml:lang="it">Naos</term>
+                </item>
+                <item xml:id="naosantes">
+                    <term xml:lang="en">Naosantes</term>
+                    <term xml:lang="it">Naosantes</term>
+                </item>
+                <item xml:id="Nekysios">
+                    <term xml:lang="en">Nekysios</term>
+                    <term xml:lang="it">Nekysios</term>
+                </item>
+                <item xml:id="neotas">
+                    <term xml:lang="en">Neotas</term>
+                    <term xml:lang="it">Neotas</term>
+                </item>
+                <item xml:id="nomos">
+                    <term xml:lang="en">Nomos</term>
+                    <term xml:lang="it">Nomos</term>
+                </item>
+                <item xml:id="nomos_proxenikos">
+                    <term xml:lang="en">Nomos proxenikos</term>
+                    <term xml:lang="it">Nomos proxenikos</term>
+                </item>
+                <item xml:id="oiketas">
+                    <term xml:lang="en">Oiketas</term>
+                    <term xml:lang="it">Oiketas</term>
+                </item>
+                <item xml:id="oikeus">
+                    <term xml:lang="en">Oikeus</term>
+                    <term xml:lang="it">Oikeus</term>
+                </item>
+                <item xml:id="oikiontes">
+                    <term xml:lang="en">Oikiontes</term>
+                    <term xml:lang="it">Oikiontes</term>
+                </item>
+                <item xml:id="oikonomos">
+                    <term xml:lang="en">Oikonomos</term>
+                    <term xml:lang="it">Oikonomos</term>
+                </item>
+                <item xml:id="oreion">
+                    <term xml:lang="en">Oreion</term>
+                    <term xml:lang="it">Oreion</term>
+                </item>
+                <item xml:id="orimos">
+                    <term xml:lang="en">Orimos</term>
+                    <term xml:lang="it">Orimos</term>
+                    <ref target="#ebion"/>
+                </item>
+                <item xml:id="oros">
+                    <term xml:lang="en">Oros</term>
+                    <term xml:lang="it">Oros</term>
+                </item>
+                <item xml:id="orpanodikastas">
+                    <term xml:lang="en">Orpanodikastas</term>
+                    <term xml:lang="it">Orpanodikastas</term>
+                </item>
+                <item xml:id="oureion">
+                    <term xml:lang="en">Oureion</term>
+                    <term xml:lang="it">Oureion</term>
+                    <ref target="#phrourion"/>
+                </item>
+                <item xml:id="oureios">
+                    <term xml:lang="en">Oureios</term>
+                    <term xml:lang="it">Oureios</term>
+                </item>
+                <item xml:id="Pamphyloi">
+                    <term xml:lang="en">Pamphyloi</term>
+                    <term xml:lang="it">Pamphyloi</term>
+                </item>
+                <item xml:id="Panamos">
+                    <term xml:lang="en">Panamos</term>
+                    <term xml:lang="it">Panamos</term>
+                </item>
+                <item xml:id="paradeisos">
+                    <term xml:lang="en">Paradeisos</term>
+                    <term xml:lang="it">Paradeisos</term>
+                </item>
+                <item xml:id="pastas">
+                    <term xml:lang="en">Pastas</term>
+                    <term xml:lang="it">Pastas</term>
+                </item>
+                <item xml:id="patron">
+                    <term xml:lang="en">Patron</term>
+                    <term xml:lang="it">Patron</term>
+                </item>
+                <item xml:id="peiskos">
+                    <term xml:lang="en">Peiskos</term>
+                    <term xml:lang="it">Peiskos</term>
+                </item>
+                <item xml:id="pentekaidekadromos">
+                    <term xml:lang="en">Pentekaidekadromos</term>
+                    <term xml:lang="it">Pentekaidekadromos</term>
+                </item>
+                <item xml:id="pentekostys">
+                    <term xml:lang="en">Pentekostys</term>
+                    <term xml:lang="it">Pentekostys</term>
+                </item>
+                <item xml:id="Periblemaia">
+                    <term xml:lang="en">Periblemaia</term>
+                    <term xml:lang="it">Periblemaia</term>
+                </item>
+                <item xml:id="perioikos">
+                    <term xml:lang="en">Perioikos</term>
+                    <term xml:lang="it">Perioikos</term>
+                </item>
+                <item xml:id="Pharkaris">
+                    <term xml:lang="en">Pharkaris</term>
+                    <term xml:lang="it">Pharkaris</term>
+                </item>
+                <item xml:id="phrourarchon">
+                    <term xml:lang="en">Phrourarchon</term>
+                    <term xml:lang="it">Phrourarchon</term>
+                    <ref target="#phrourarchos"/>
+                </item>
+                <item xml:id="phrourarchos">
+                    <term xml:lang="en">Phrourarchos</term>
+                    <term xml:lang="it">Phrourarchos</term>
+                    <ref target="#phrourarchon"/>
+                </item>
+                <item xml:id="phrourion">
+                    <term xml:lang="en">Phrourion</term>
+                    <term xml:lang="it">Phrourion</term>
+                    <ref target="#oureion"/>
+                </item>
+                <item xml:id="Phthinoporios">
+                    <term xml:lang="en">Phthinoporios</term>
+                    <term xml:lang="it">Phthinoporios</term>
+                </item>
+                <item xml:id="phylax">
+                    <term xml:lang="en">Phylax</term>
+                    <term xml:lang="it">Phylax</term>
+                </item>
+                <item xml:id="phyle">
+                    <term xml:lang="en">Phyle</term>
+                    <term xml:lang="it">Phyle</term>
+                </item>
+                <item xml:id="plethos">
+                    <term xml:lang="en">Plethos</term>
+                    <term xml:lang="it">Plethos</term>
+                </item>
+                <item xml:id="poinikastas">
+                    <term xml:lang="en">Poinikastas</term>
+                    <term xml:lang="it">Poinikastas</term>
+                    <ref target="#grammateus" cert="low"/>
+                </item>
+                <item xml:id="poletes">
+                    <term xml:lang="en">Poletes</term>
+                    <term xml:lang="it">Poletes</term>
+                </item>
+                <item xml:id="polis">
+                    <term xml:lang="en">Polis</term>
+                    <term xml:lang="it">Polis</term>
+                </item>
+                <item xml:id="polisE">
+                    <term xml:lang="en">Polis'</term>
+                    <term xml:lang="it">Polis'</term>
+                </item>
+                <item xml:id="politeia">
+                    <term xml:lang="en">Politeia</term>
+                    <term xml:lang="it">Politeia</term>
+                </item>
+                <item xml:id="polites">
+                    <term xml:lang="en">Polites</term>
+                    <term xml:lang="it">Polites</term>
+                </item>
+                <item xml:id="Poseidanios">
+                    <term xml:lang="en">Poseidanios</term>
+                    <term xml:lang="it">Poseidanios</term>
+                </item>
+                <item xml:id="Potamios">
+                    <term xml:lang="en">Potamios</term>
+                    <term xml:lang="it">Potamios</term>
+                </item>
+                <item xml:id="pothodos">
+                    <term xml:lang="en">Pothodos</term>
+                    <term xml:lang="it">Pothodos</term>
+                </item>
+                <item xml:id="praktor">
+                    <term xml:lang="en">Praktor</term>
+                    <term xml:lang="it">Praktor</term>
+                </item>
+                <item xml:id="preigistos">
+                    <term xml:lang="en">Preigistos</term>
+                    <term xml:lang="it">Preigistos</term>
+                    <ref target="#boule"/>
+                </item>
+                <item xml:id="preisgeia">
+                    <term xml:lang="en">Preisgeia</term>
+                    <term xml:lang="it">Preisgeia</term>
+                </item>
+                <item xml:id="Prepsidai">
+                    <term xml:lang="en">Prepsidai</term>
+                    <term xml:lang="it">Prepsidai</term>
+                </item>
+                <item xml:id="presbeutes">
+                    <term xml:lang="en">Presbeutes</term>
+                    <term xml:lang="it">Presbeutes</term>
+                </item>
+                <item xml:id="prodikos">
+                    <term xml:lang="en">Prodikos</term>
+                    <term xml:lang="it">Prodikos</term>
+                </item>
+                <item xml:id="proedros">
+                    <term xml:lang="en">Proedros</term>
+                    <term xml:lang="it">Proedros</term>
+                </item>
+                <item xml:id="prokosmos">
+                    <term xml:lang="en">Prokosmos</term>
+                    <term xml:lang="it">Prokosmos</term>
+                </item>
+                <item xml:id="propolos">
+                    <term xml:lang="en">Propolos</term>
+                    <term xml:lang="it">Propolos</term>
+                </item>
+                <item xml:id="legon">
+                    <term xml:lang="en">Proponent</term>
+                    <term xml:lang="it">Proponente</term>
+                </item>
+                <item xml:id="protokosmos">
+                    <term xml:lang="en">Protokosmos</term>
+                    <term xml:lang="it">Protokosmos</term>
+                </item>
+                <item xml:id="proxenos">
+                    <term xml:lang="en">Proxenos</term>
+                    <term xml:lang="it">Proxenos</term>
+                </item>
+                <item xml:id="prytaneion">
+                    <term xml:lang="en">Prytaneion</term>
+                    <term xml:lang="it">Prytaneion</term>
+                </item>
+                <item xml:id="psaphos">
+                    <term xml:lang="en">Psaphos</term>
+                    <term xml:lang="it">Psaphos</term>
+                </item>
+                <item xml:id="psephisma">
+                    <term xml:lang="en">Psephisma</term>
+                    <term xml:lang="it">Psephisma</term>
+                    <ref target="#dogma"/>
+                    <ref target="#gnoma"/>
+                    <ref target="#wada"/>
+                </item>
+                <item xml:id="psephizo">
+                    <term xml:lang="en">Psephizo</term>
+                    <term xml:lang="it">Psephizo</term>
+                    <ref target="#andano"/>
+                </item>
+                <item xml:id="Pythia">
+                    <term xml:lang="en">Pythia</term>
+                    <term xml:lang="it">Pythia</term>
+                </item>
+                <item xml:id="sanis">
+                    <term xml:lang="en">Sanis</term>
+                    <term xml:lang="it">Sanis</term>
+                </item>
+                <item xml:id="Sartiobiarios">
+                    <term xml:lang="en">Sartiobiarios</term>
+                    <term xml:lang="it">Sartiobiarios</term>
+                </item>
+                <item xml:id="soma">
+                    <term xml:lang="en">Soma</term>
+                    <term xml:lang="it">Soma</term>
+                </item>
+                <item xml:id="soter">
+                    <term xml:lang="en">Soter</term>
+                    <term xml:lang="it">Soter</term>
+                </item>
+                <item xml:id="Spermios">
+                    <term xml:lang="en">Spermios</term>
+                    <term xml:lang="it">Spermios</term>
+                </item>
+                <item xml:id="speusdos">
+                    <term xml:lang="en">Speusdos</term>
+                    <term xml:lang="it">Speusdos</term>
+                </item>
+                <item xml:id="Sph">
+                    <term xml:lang="en">Sph-</term>
+                    <term xml:lang="it">Sph-</term>
+                </item>
+                <item xml:id="startagetas">
+                    <term xml:lang="en">Startagetas</term>
+                    <term xml:lang="it">Startagetas</term>
+                </item>
+                <item xml:id="startos">
+                    <term xml:lang="en">Startos</term>
+                    <term xml:lang="it">Startos</term>
+                </item>
+                <item xml:id="stoa">
+                    <term xml:lang="en">Stoa</term>
+                    <term xml:lang="it">Stoa</term>
+                </item>
+                <item xml:id="strategos">
+                    <term xml:lang="en">Strategos</term>
+                    <term xml:lang="it">Strategos</term>
+                </item>
+                <item xml:id="stratiotes">
+                    <term xml:lang="en">Stratiotes</term>
+                    <term xml:lang="it">Stratiotes</term>
+                </item>
+                <item xml:id="syllogos">
+                    <term xml:lang="en">Syllogos</term>
+                    <term xml:lang="it">Syllogos</term>
+                </item>
+                <item xml:id="symbolon">
+                    <term xml:lang="en">Symbolon</term>
+                    <term xml:lang="it">Symbolon</term>
+                </item>
+                <item xml:id="symmachoi">
+                    <term xml:lang="en">Symmachoi</term>
+                    <term xml:lang="it">Symmachoi</term>
+                </item>
+                <item xml:id="symposion">
+                    <term xml:lang="en">Symposion</term>
+                    <term xml:lang="it">Symposion</term>
+                </item>
+                <item xml:id="Synaneis">
+                    <term xml:lang="en">Synaneis</term>
+                    <term xml:lang="it">Synaneis</term>
+                </item>
+                <item xml:id="synboletra">
+                    <term xml:lang="en">Synboletra</term>
+                    <term xml:lang="it">Synboletra</term>
+                </item>
+                <item xml:id="syndokeo">
+                    <term xml:lang="en">Syndokeo</term>
+                    <term xml:lang="it">Syndokeo</term>
+                </item>
+                <item xml:id="synedros">
+                    <term xml:lang="en">Synedros</term>
+                    <term xml:lang="it">Synedros</term>
+                </item>
+                <item xml:id="synkritas">
+                    <term xml:lang="en">Synkritas</term>
+                    <term xml:lang="it">Synkritas</term>
+                </item>
+                <item xml:id="syntheka">
+                    <term xml:lang="en">Syntheka</term>
+                    <term xml:lang="it">Syntheka</term>
+                </item>
+                <item xml:id="tamias">
+                    <term xml:lang="en">Tamias</term>
+                    <term xml:lang="it">Tamias</term>
+                </item>
+                <item xml:id="temenos">
+                    <term xml:lang="en">Temenos</term>
+                    <term xml:lang="it">Temenos</term>
+                </item>
+                <item xml:id="theatron">
+                    <term xml:lang="en">Theatron</term>
+                    <term xml:lang="it">Theatron</term>
+                </item>
+                <item xml:id="theorodokos">
+                    <term xml:lang="en">Theorodokos</term>
+                    <term xml:lang="it">Theorodokos</term>
+                </item>
+                <item xml:id="theoros">
+                    <term xml:lang="en">Theoros</term>
+                    <term xml:lang="it">Theoros</term>
+                </item>
+                <item xml:id="Thermolaios">
+                    <term xml:lang="en">Thermolaios</term>
+                    <term xml:lang="it">Thermolaios</term>
+                </item>
+                <item xml:id="Thermoloia">
+                    <term xml:lang="en">Thermoloia</term>
+                    <term xml:lang="it">Thermoloia</term>
+                </item>
+                <item xml:id="thesauros">
+                    <term xml:lang="en">Thesauros</term>
+                    <term xml:lang="it">Thesauros</term>
+                </item>
+                <item xml:id="Thesmophorios">
+                    <term xml:lang="en">Thesmophorios</term>
+                    <term xml:lang="it">Thesmophorios</term>
+                </item>
+                <item xml:id="thiasos_ton_Priapistan">
+                    <term xml:lang="en">Thiasos ton Priapistan</term>
+                    <term xml:lang="it">Thiasos ton Priapistan</term>
+                </item>
+                <item xml:id="thiasos">
+                    <term xml:lang="en">Thiasos</term>
+                    <term xml:lang="it">Thiasos</term>
+                </item>
+                <item xml:id="Thiodaisia">
+                    <term xml:lang="en">Thiodaisia</term>
+                    <term xml:lang="it">Thiodaisia</term>
+                </item>
+                <item xml:id="Thiodaisios">
+                    <term xml:lang="en">Thiodaisios</term>
+                    <term xml:lang="it">Thiodaisios</term>
+                </item>
+                <item xml:id="thystas">
+                    <term xml:lang="en">Thystas</term>
+                    <term xml:lang="it">Thystas</term>
+                </item>
+                <item xml:id="titas">
+                    <term xml:lang="en">Titas</term>
+                    <term xml:lang="it">Titas</term>
+                </item>
+                <item xml:id="to_thio_prosodia">
+                    <term xml:lang="en">To thio prosodia</term>
+                    <term xml:lang="it">To thio prosodia</term>
+                </item>
+                <item xml:id="triakatioi">
+                    <term xml:lang="en">Triakatioi</term>
+                    <term xml:lang="it">Triakatioi</term>
+                </item>
+                <item xml:id="wada">
+                    <term xml:lang="en">Wada</term>
+                    <term xml:lang="it">Wada</term>
+                    <ref target="#dogma"/>
+                    <ref target="#gnoma"/>
+                    <ref target="#psephisma"/>
+                </item>
+                <item xml:id="Wakinthia">
+                    <term xml:lang="en">Wakinthia</term>
+                    <term xml:lang="it">Wakinthia</term>
+                </item>
+                <item xml:id="Welchanios">
+                    <term xml:lang="en">Welchanios</term>
+                    <term xml:lang="it">Welchanios</term>
+                </item>
+                <item xml:id="xenia_dika">
+                    <term xml:lang="en">Xenia dika</term>
+                    <term xml:lang="it">Xenia dika</term>
+                </item>
+                <item xml:id="xenios_kosmos">
+                    <term xml:lang="en">Xenios kosmos</term>
+                    <term xml:lang="it">Xenios kosmos</term>
+                </item>
+                <item xml:id="xenios">
+                    <term xml:lang="en">Xenios</term>
+                    <term xml:lang="it">Xenios</term>
+                </item>
+                <item xml:id="xenos">
+                    <term xml:lang="en">Xenos</term>
+                    <term xml:lang="it">Xenos</term>
+                </item>
+            </list>
+
+            <list>
+                <head>Institution types</head>
+                <!-- values of @subtype attribute of <rs type="institution"> -->
+                <item xml:id="age_class">
+                    <term xml:lang="en">Age class</term>
+                    <term xml:lang="it">Classe di età</term>
+                </item>
+                <item xml:id="assembly">
+                    <term xml:lang="en">Assembly</term>
+                    <term xml:lang="it">Assemblea</term>
+                </item>
+                <item xml:id="association">
+                    <term xml:lang="en">Association</term>
+                    <term xml:lang="it">Associazione</term>
+                </item>
+                <item xml:id="board">
+                    <term xml:lang="en">Board</term>
+                    <term xml:lang="it">Collegio</term>
+                </item>
+                <item xml:id="festivity">
+                    <term xml:lang="en">Festivity</term>
+                    <term xml:lang="it">Festività</term>
+                </item>
+                <item xml:id="month">
+                    <term xml:lang="en">Month</term>
+                    <term xml:lang="it">Mese</term>
+                </item>
+                <item xml:id="object">
+                    <term xml:lang="en">Object</term>
+                    <term xml:lang="it">Strumento</term>
+                </item>
+                <item xml:id="official">
+                    <term xml:lang="en">Official</term>
+                    <term xml:lang="it">Magistrato o funzionario</term>
+                </item>
+                <item xml:id="tribe">
+                    <term xml:lang="en">Tribe</term>
+                    <term xml:lang="it">Tribù</term>
+                </item>
+                <item xml:id="practice">
+                    <term xml:lang="en">Practice</term>
+                    <term xml:lang="it">Pratica</term>
+                </item>
+                <item xml:id="public_space">
+                    <term xml:lang="en">Public space</term>
+                    <term xml:lang="it">Spazio pubblico</term>
+                </item>
+                <item xml:id="social_group">
+                    <term xml:lang="en">Social group</term>
+                    <term xml:lang="it">Ripartizione civica</term>
+                </item>
+                <item xml:id="social_status">
+                    <term xml:lang="en">Social status</term>
+                    <term xml:lang="it">Status sociale</term>
+                </item>
+            </list>
+
+            <list>
+                <head>Institution areas of competence</head>
+                <!-- values of @role attribute of <rs type="institution"> -->
+                <item xml:id="application_of_the_law">
+                    <term xml:lang="en">Application of the law</term>
+                    <term xml:lang="it">Applicazione della legge</term>
+                </item>
+                <item xml:id="appointee">
+                    <term xml:lang="en">Appointee</term>
+                    <term xml:lang="it">Oggetto di nomina</term>
+                </item>
+                <item xml:id="appointer">
+                    <term xml:lang="en">Appointer</term>
+                    <term xml:lang="it">Responsabile di nomina</term>
+                </item>
+                <item xml:id="archiving">
+                    <term xml:lang="en">Archiving</term>
+                    <term xml:lang="it">Archivio</term>
+                </item>
+                <item xml:id="assembly_convocation">
+                    <term xml:lang="en">Assembly convocation</term>
+                    <term xml:lang="it">Convocazione dell’assemblea</term>
+                </item>
+                <item xml:id="belonging">
+                    <term xml:lang="en">Belonging</term>
+                    <term xml:lang="it">Appartenenza</term>
+                </item>
+                <item xml:id="builder">
+                    <term xml:lang="en">Builder</term>
+                    <term xml:lang="it">Responsabile di interventi edilizi</term>
+                </item>
+                <item xml:id="calendar">
+                    <term xml:lang="en">Calendar</term>
+                    <term xml:lang="it">Calendario</term>
+                </item>
+                <item xml:id="collecting_fines">
+                    <term xml:lang="en">Collecting fines</term>
+                    <term xml:lang="it">Riscossione di multe</term>
+                </item>
+                <item xml:id="commensality">
+                    <term xml:lang="en">Commensality</term>
+                    <term xml:lang="it">Commensalità</term>
+                </item>
+                <item xml:id="competition">
+                    <term xml:lang="en">Competition</term>
+                    <term xml:lang="it">Competizione</term>
+                </item>
+                <item xml:id="concession">
+                    <term xml:lang="en">Concession</term>
+                    <term xml:lang="it">Concessione</term>
+                </item>
+                <item xml:id="construction">
+                    <term xml:lang="en">Construction</term>
+                    <term xml:lang="it">Costruzione</term>
+                </item>
+                <item xml:id="cult">
+                    <term xml:lang="en">Cult</term>
+                    <term xml:lang="it">Culto</term>
+                </item>
+                <item xml:id="curse">
+                    <term xml:lang="en">Curse</term>
+                    <term xml:lang="it">Maledizione</term>
+                </item>
+                <item xml:id="decreeing">
+                    <term xml:lang="en">Decreeing</term>
+                    <term xml:lang="it">Decretazione</term>
+                </item>
+                <item xml:id="decreer">
+                    <term xml:lang="en">Decreer</term>
+                    <term xml:lang="it">Decretante</term>
+                </item>
+                <item xml:id="dedicant">
+                    <term xml:lang="en">Dedicant</term>
+                    <term xml:lang="it">Dedicante</term>
+                </item>
+                <item xml:id="dedicatee">
+                    <term xml:lang="en">Dedicatee</term>
+                    <term xml:lang="it">Dedicatario</term>
+                </item>
+                <item xml:id="dedicatee_deceased">
+                    <term xml:lang="en">Dedicatee (deceased)</term>
+                    <term xml:lang="it">Dedicatario (defunto)</term>
+                </item>
+                <item xml:id="dedication">
+                    <term xml:lang="en">Dedication</term>
+                    <term xml:lang="it">Dedica</term>
+                </item>
+                <item xml:id="defense">
+                    <term xml:lang="en">Defense</term>
+                    <term xml:lang="it">Difesa</term>
+                </item>
+                <item xml:id="distributor">
+                    <term xml:lang="en">Distributor</term>
+                    <term xml:lang="it">Distributore</term>
+                </item>
+                <item xml:id="eponym">
+                    <term xml:lang="en">Eponym</term>
+                    <term xml:lang="it">Eponimo</term>
+                </item>
+                <item xml:id="exclusion">
+                    <term xml:lang="en">Exclusion</term>
+                    <term xml:lang="it">Esclusione</term>
+                </item>
+                <item xml:id="fineable">
+                    <term xml:lang="en">Fineable</term>
+                    <term xml:lang="it">Oggetto di multe</term>
+                </item>
+                <item xml:id="foreign_relations">
+                    <term xml:lang="en">Foreign relations</term>
+                    <term xml:lang="it">Relazioni estere</term>
+                </item>
+                <item xml:id="foundation">
+                    <term xml:lang="en">Foundation</term>
+                    <term xml:lang="it">Fondazione</term>
+                </item>
+                <item xml:id="funds">
+                    <term xml:lang="en">Funds</term>
+                    <term xml:lang="it">Fondi</term>
+                </item>
+                <item xml:id="gathering">
+                    <term xml:lang="en">Gathering</term>
+                    <term xml:lang="it">Riunione</term>
+                </item>
+                <item xml:id="good_relations_or_behaviour">
+                    <term xml:lang="en">Good relations or behaviour</term>
+                    <term xml:lang="it">Buone relazioni o comportamento</term>
+                </item>
+                <item xml:id="government">
+                    <term xml:lang="en">Government</term>
+                    <term xml:lang="it">Assetto istituzionale</term>
+                </item>
+                <item xml:id="granted_as_privilege">
+                    <term xml:lang="en">Granted as privilege</term>
+                    <term xml:lang="it">Concesso come privilegio</term>
+                </item>
+                <item xml:id="guest">
+                    <term xml:lang="en">Guest</term>
+                    <term xml:lang="it">Ospite</term>
+                </item>
+                <item xml:id="honoured">
+                    <term xml:lang="en">Honoured</term>
+                    <term xml:lang="it">Oggetto di onori</term>
+                </item>
+                <item xml:id="hospitality">
+                    <term xml:lang="en">Hospitality</term>
+                    <term xml:lang="it">Ospitalità</term>
+                </item>
+                <item xml:id="hospitality_and_commensality">
+                    <term xml:lang="en">Hospitality and commensality</term>
+                    <term xml:lang="it">Ospitalità e commensalità</term>
+                </item>
+                <item xml:id="imposing_fines">
+                    <term xml:lang="en">Imposing fines</term>
+                    <term xml:lang="it">Impositore di multe</term>
+                </item>
+                <item xml:id="incumbent">
+                    <term xml:lang="en">Incumbent</term>
+                    <term xml:lang="it">In carica</term>
+                </item>
+                <item xml:id="inscriber">
+                    <term xml:lang="en">Inscriber</term>
+                    <term xml:lang="it">Iscrivente</term>
+                </item>
+                <item xml:id="inscription_setup">
+                    <term xml:lang="en">Inscription setup</term>
+                    <term xml:lang="it">Collocazione di iscrizioni</term>
+                </item>
+                <item xml:id="judicial_procedure">
+                    <term xml:lang="en">Judicial procedure</term>
+                    <term xml:lang="it">Procedura giudiziaria</term>
+                </item>
+                <item xml:id="landmark">
+                    <term xml:lang="en">Landmark</term>
+                    <term xml:lang="it">Punto di riferimento</term>
+                </item>
+                <item xml:id="law">
+                    <term xml:lang="en">Law</term>
+                    <term xml:lang="it">Legge</term>
+                </item>
+                <item xml:id="leading_oath">
+                    <term xml:lang="en">Leading oath</term>
+                    <term xml:lang="it">Guida nella prestazione di giuramenti</term>
+                </item>
+                <item xml:id="leading_reading_of_treaty">
+                    <term xml:lang="en">Leading reading of treaty</term>
+                    <term xml:lang="it">Guida nella lettura di trattati</term>
+                </item>
+                <item xml:id="location">
+                    <term xml:lang="en">Location</term>
+                    <term xml:lang="it">Localizzazione</term>
+                </item>
+                <item xml:id="manumission">
+                    <term xml:lang="en">Manumission</term>
+                    <term xml:lang="it">Manomissione</term>
+                </item>
+                <item xml:id="mentioned_in_oath">
+                    <term xml:lang="en">Mentioned in oath</term>
+                    <term xml:lang="it">Menzionato in giuramento</term>
+                </item>
+                <item xml:id="mintage">
+                    <term xml:lang="en">Mintage</term>
+                    <term xml:lang="it">Coniazione</term>
+                </item>
+                <item xml:id="oath-taking">
+                    <term xml:lang="en">Oath-taking</term>
+                    <term xml:lang="it">Prestazione di giuramenti</term>
+                </item>
+                <item xml:id="onlooker">
+                    <term xml:lang="en">Onlooker</term>
+                    <term xml:lang="it">Astante</term>
+                </item>
+                <item xml:id="order">
+                    <term xml:lang="en">Order</term>
+                    <term xml:lang="it">Ordine</term>
+                </item>
+                <item xml:id="organizing_competitions">
+                    <term xml:lang="en">Organizing competitions</term>
+                    <term xml:lang="it">Organizzazione di competizioni</term>
+                </item>
+                <item xml:id="owner">
+                    <term xml:lang="en">Owner</term>
+                    <term xml:lang="it">Possessore</term>
+                </item>
+                <item xml:id="payments">
+                    <term xml:lang="en">Payments</term>
+                    <term xml:lang="it">Pagamenti</term>
+                </item>
+                <item xml:id="performance">
+                    <term xml:lang="en">Performance</term>
+                    <term xml:lang="it">Performance</term>
+                </item>
+                <item xml:id="possession">
+                    <term xml:lang="en">Possession</term>
+                    <term xml:lang="it">Possesso</term>
+                </item>
+                <item xml:id="president">
+                    <term xml:lang="en">President</term>
+                    <term xml:lang="it">Presidenza</term>
+                </item>
+                <item xml:id="proclamation">
+                    <term xml:lang="en">Proclamation</term>
+                    <term xml:lang="it">Proclamazione</term>
+                </item>
+                <item xml:id="prohibition">
+                    <term xml:lang="en">Prohibition</term>
+                    <term xml:lang="it">Divieto</term>
+                </item>
+                <item xml:id="proponent">
+                    <term xml:lang="en">Proponent</term>
+                    <term xml:lang="it">Proponente</term>
+                </item>
+                <item xml:id="reading_of_treaty">
+                    <term xml:lang="en">Reading of treaty</term>
+                    <term xml:lang="it">Lettura di trattati</term>
+                </item>
+                <item xml:id="receiving_fines">
+                    <term xml:lang="en">Receiving fines</term>
+                    <term xml:lang="it">Destinatario di multe</term>
+                </item>
+                <item xml:id="regulation">
+                    <term xml:lang="en">Regulation</term>
+                    <term xml:lang="it">Regolamentazione</term>
+                </item>
+                <item xml:id="sacrifices">
+                    <term xml:lang="en">Sacrifices</term>
+                    <term xml:lang="it">Sacrifici</term>
+                </item>
+                <item xml:id="supply">
+                    <term xml:lang="en">Supply</term>
+                    <term xml:lang="it">Fornitura</term>
+                </item>
+                <item xml:id="transactions">
+                    <term xml:lang="en">Transactions</term>
+                    <term xml:lang="it">Transazioni</term>
+                </item>
+                <item xml:id="travel">
+                    <term xml:lang="en">Travel</term>
+                    <term xml:lang="it">Viaggio</term>
+                </item>
+                <item xml:id="treaty-making">
+                    <term xml:lang="en">Treaty-making</term>
+                    <term xml:lang="it">Stipulazione di trattati</term>
+                </item>
+                <item xml:id="unknown">
+                    <term xml:lang="en">Unknown</term>
+                    <term xml:lang="it">Sconosciuto</term>
+                </item>
+                <item xml:id="voter">
+                    <term xml:lang="en">Voter</term>
+                    <term xml:lang="it">Votante</term>
+                </item>
+                <item xml:id="voting">
+                    <term xml:lang="en">Voting</term>
+                    <term xml:lang="it">Votazione</term>
+                </item>
+                <item xml:id="war">
+                    <term xml:lang="en">War</term>
+                    <term xml:lang="it">Guerra</term>
+                </item>
+                <item xml:id="work">
+                    <term xml:lang="en">Work</term>
+                    <term xml:lang="it">Lavoro</term>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

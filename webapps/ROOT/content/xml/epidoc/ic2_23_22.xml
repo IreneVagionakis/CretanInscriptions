@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epigramma funerario per un caduto in guerra di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 22</idno>
+                        <idno type="projectNo">017</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#polyrrhenia_necropolis">Polyrrhenia, necropoli occidentale</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#plinth">plinto</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia, necropoli occidentale</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">            
+                <div type="textpart" subtype="part" n="A">
+                <ab>
+                        <lb n="1"/>Θεαγενίδας
+                        <lb n="2"/>Πασινόω.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="B">
+                <ab>
+                        <lb n="1"/>Αἰτίμεια
+                        <lb n="2"/>Πίθω.
+                </ab>
+                    </div>                
+                <div type="textpart" subtype="part" n="C">
+                <ab>
+                        <lb n="1"/>ἔτλαν καὶ πολέμου βαρυαλ<corr>γ</corr>έα ἶσα
+                        <lb n="2"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="heros" ref="#polyrrhenia"><w lemma="ἥρως">ἥρωι</w></rs> ἃν μίμνε<supplied reason="lost">ι</supplied><unclear>ν</unclear> ἐπέλα<supplied reason="lost">χ</supplied>ον, δουριβα<lb 
+                         break="no" n="3"/>ρῆ κάματον, <unclear>κ</unclear><supplied reason="lost">ἄ</supplied><corr>λ</corr>λως <unclear>αἰ</unclear><supplied reason="lost">χμη</supplied>τῶν
+                        <lb n="4"/><w lemma="πρόγονος">προγόνων</w> <w lemma="κλέος">κλέος</w> ἔ<corr>σ</corr>χον ἄμε<unclear>μφ</unclear><supplied reason="lost">ές</supplied>,
+                        <lb n="5"/><w lemma="δόξα">δόξαν</w> ἑλ<corr>ὼ</corr>ν πινυτὰν ἔξοχα σω<lb 
+                        break="no" n="6"/>φροσύναν· προσφιλὲς ἀνυσάμαν ἐμ
+                        <lb n="7"/><w lemma="πατρίς">πατρίδι</w> πὰρ <rs type="institution" subtype="social_group" role="dedicant" key="polites" ref="#polyrrhenia"><w lemma="πολιήτης">πολιητῶν</w></rs> <w lemma="κῦδος">κῦδος</w> ὁ Πα<lb 
+                        break="no" n="8"/>σινόου, <w lemma="ξεῖνος">ξεῖνε</w>, Θεαγενίδας. εἰ δέ
+                        <lb n="9"/>με δακρυχαρὴς Λάθας ὑπεδέξα<lb 
+                        break="no" n="10"/>το κευθμ<surplus>ν</surplus>ὼν ἀλλ’ <w lemma="ἀρετά">ἀρετᾷ</w> περάτων
+                        <lb n="11"/>ἀντία κῦρ’ ἀνι<unclear>ών</unclear>.
+                </ab>
+                </div>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="C1-2"><note>πολέμου βαρυαλ<corr>γ</corr>έα ἶσα ἥρωι ἃν μίμνε<supplied reason="lost">ι</supplied><unclear>ν</unclear> ἐπέλα<supplied reason="lost">χ</supplied>ον <bibl><ref type="#bib2"><title>IC</title></ref></bibl>; 
+                        βαρυαλ<corr>γ</corr>έ<corr>α</corr> αἶσαν <unclear>ἐ</unclear>γὼ <corr>τ</corr>ὰν μιμν<supplied reason="lost">έ</supplied>μεν <corr>ἐξ</corr>έλα<supplied 
+                            reason="lost">χ</supplied>ον <bibl><ref type="#b474">De Sanctis</ref></bibl>, <bibl><ref type="#bib65"><title>SGDI</title></ref></bibl>, <bibl><ref type="#b387">Comparetti</ref></bibl>, <bibl><ref type="#b1096">Levi</ref></bibl>; 
+                        βαρυαλκέα ἰς <supplied reason="lost">συν</supplied><corr>α</corr>γω<supplied reason="lost">γ</supplied>ὰν 
+                        μίμνεμεν ε<supplied reason="lost">ἰν</supplied>ά<supplied reason="lost">λι</supplied>ον <bibl><ref type="#bib121">Wilhelm</ref></bibl>; 
+                        βαρυαλκέα ἶσα ἥρωι, ἄνμιμν<unclear>ον</unclear> <unclear>ἱ</unclear>ππελα<unclear>τ</unclear><corr>ῶ</corr>ν <bibl><ref type="#b1489">Peek 1954-1955</ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>I nomi dei due defunti, verosimilmente marito e moglie, sono seguiti da un epigramma in distici elegiaci che, facendo parlare in prima persona Theagenidas, celebra le virtù dell’uomo. Nonostante la qualità inferiore del materiale della stele e dell’incisione rispetto all’epitaffio del conterraneo Adrastos (<ref type="ins" target="#ic2_23_20"><title>IC</title> II 23 20</ref>), il monumento funerario perpetua il ricordo di un individuo di posizione socialmente elevata, contraddistintosi per il valore in guerra. Pur nelle vesti del lessico stereotipato proprio di certi <foreign>topoi</foreign> epigrammatici, emerge l’importanza sociale dei meriti bellici all’interno della collettività, fatto che ben si accorda con le testimonianze letterarie sull’ampio spazio che l’educazione militare occupa nella vita delle città cretesi.</p>
+                    <p>Tra i molti termini pregnanti riferiti al defunto – fra cui <foreign>kleos</foreign>, <foreign>sophrosyne</foreign>, <foreign>arete</foreign> – spicca in particolare l’espressione ἶσα ἥρωι alle linee C 1-2: tale locuzione, infatti, potrebbe essere qualcosa di più che una semplice espressione retorica ed alludere ad un preciso riconoscimento pubblico come <foreign>heros</foreign> da parte della città, come avviene più tardi ad Aptera (cf. le iscrizioni protoimperiali dell’<foreign>heroon</foreign>, <ref type="ins"><title>SEG</title> 52.843-847</ref>; cf. inoltre l’epitaffio ellenistico <ref type="ins" target="#ic3_4_38"><title>IC</title> III 4 38</ref> da Itanos ed il monumento funerario pubblico per i caduti di Polyrrhenia <ref type="ins" target="#ipolyr_23"><title>I.Polyr.</title> 23</ref>; cf. <bibl><ref target="#b904">Hughes 1999</ref></bibl>). Una simile interpretazione sembra rafforzata dalla menzione di riconoscimento pubblico del proprio merito a cui il defunto fa riferimento alle linee C 6-7, ricordando il προσφιλὲς κῦδος da lui conseguito in patria da parte dell’insieme dei cittadini: l’ufficialità di tale conferimento sembrerebbe inoltre supportata dall’impiego di termini connessi alla sfera socio-istituzionale, quali πολιητῶν e – in una certa misura – πατρίδι.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#heros"><foreign>heros</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p> <emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 477-479, n. 3</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5119c (A-B)</bibl>; 
+                    <bibl><ref target="#b387">Comparetti 1903</ref>, n. 2 (C)</bibl>; 
+                    <bibl><ref target="#b1096">Levi 1922</ref>, pp. 392-393, n. 36 (C)</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 22 <ptr type="phi" target="200060"/></bibl>; 
+                    <bibl><ref target="#bib121">Wilhelm</ref> n. 6</bibl>; 
+                    <bibl><ref target="#b1490">Peek 1955</ref>, n. 1107 (C)</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 44</bibl>; 
+                    <bibl><ref target="#b1229">Martínez Fernández 1992</ref></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib120">Vertoudakis</ref>, pp. 57-60 (C)</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 37</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 26</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1489">Peek 1954-1955</ref>, pp. 224-225 (C)</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

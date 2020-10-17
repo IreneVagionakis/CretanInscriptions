@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Giuramento di Dreros</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 9 1</idno>
+                        <idno type="projectNo">423</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#istambul_museum">Museo archeologico di Istambul</repository> 
+                                <idno type="invNo">691</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#oath">giuramento</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="face" n="a">
+                        <ab>
+                          <lb n="1"/><w lemma="θεός">θεός</w>. <w lemma="τύχα">τύχα</w>.
+                          <lb n="2"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w>·
+                          <lb n="3"/><rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#dreros">ἐπὶ τῶν <w lemma="Αἰθαλεῖς">Αἰθαλέ<lb 
+                        break="no" n="4"/>ων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#dreros"><w lemma="κοσμέω">κοσμιόντων</w>
+                          <lb n="5"/>τῶν σὺγ <persName type="attested" key="Kyias"><name nymRef="Κυίας">Κυίαι</name></persName></rs> καὶ
+                          <lb n="6"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#dreros"><persName type="attested" key="Kephalos"><name nymRef="Κέφαλος">Κεφάλωι</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#dreros"><persName type="attested" key="Pyros"><name nymRef="Πύρος">Πύρωι</name></persName></rs>,
+                            <lb n="7"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#dreros"><persName type="attested" key="Pios"><name nymRef="Πῖος">Πίωι</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#dreros"><persName type="attested" key="Bision"><name nymRef="Βισίων">Βισίωνος</name></persName></rs>,
+                          <lb n="8"/><rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#dreros"><w lemma="γραμματεύς">γραμματέος</w>
+                          <lb n="9"/>δὲ <persName type="attested" key="Philippos"><name nymRef="Φίλιππος">Φιλίππου</name></persName></rs>,
+                          <lb n="10"/>τάδε <w lemma="ὀμνύω">ὤμοσαν</w>
+                          <lb n="11"/><rs type="institution" subtype="age_class" role="oath-taking" key="agelaos" ref="#dreros"><w lemma="ἀγέλαος">ἀγελάοι</w></rs> <rs type="institution" subtype="age_class" role="oath-taking" key="azostos" ref="#dreros"><w lemma="πανάζωστος">παν<lb 
+                        break="no" n="12"/>άζωστοι</w></rs> ἑκα<lb 
+                        break="no" n="13"/>τὸν ὀγδοή<lb 
+                        break="no" n="14"/>κοντα· <w lemma="ὀμνύω">ὀμνύω</w>
+                          <lb n="15"/>τὰν <persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#dreros"><w lemma="Ἑστία">Ἑστίαν</w></rs></persName> τὰν
+                          <lb n="16"/>ἐμ <rs type="institution" subtype="public_space" role="location" key="prytaneion" ref="#dreros"><w lemma="πρυτανεῖον">πρυτανείωι</w></rs>
+                          <lb n="17"/>καὶ τὸν <persName type="divine" key="Zeus Agoraios">Δῆνα τὸν
+                          <lb n="18"/><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="agora" ref="#dreros"><w lemma="Ἀγοραῖος">Ἀγοραῖον</w></rs></persName> καὶ τὸν <persName type="divine" key="Zeus Tallaios">Δῆ<lb 
+                        break="no" n="19"/>να τὸν Ταλλαῖον</persName>
+                          <lb n="20"/>καὶ τὸν <persName type="divine" key="Apollo Delphinios">Ἀπέλλων<corr>α</corr>
+                          <lb n="21"/>τὸν Δελφίνιον</persName> καὶ
+                          <lb n="22"/>τὰν <persName type="divine" key="Athena Poliouchos">Ἀθαναίαν τὰν
+                          <lb n="23"/>Πολιοῦχον</persName> καὶ τὸν
+                          <lb n="24"/><persName type="divine" key="Apollo Poitios">Ἀπέλλωνα τὸν Ποίτιον</persName>
+                          <lb n="25"/>καὶ τὰν <persName type="divine" key="Lato">Λατοῦν</persName> καὶ τὰν
+                          <lb n="26"/><persName type="divine" key="Artemis">Ἄρτεμιν</persName> καὶ τὸν <persName type="divine" key="Ares">Ἄρεα</persName>
+                          <lb n="27"/>καὶ τὰν <persName type="divine" key="Aphrodite">Ἀφρο<corr>δ</corr>ίταν</persName> καὶ
+                          <lb n="28"/>τὸν <persName type="divine" key="Hermes">Ἑρμᾶν</persName> καὶ τὸν <persName type="divine" key="Helios">Ἅλιον</persName>
+                          <lb n="29"/>καὶ τὰν <persName type="divine" key="Britomarpis">Βριτόμαρ<corr>πι</corr>ν</persName>
+                          <lb n="30"/>καὶ τὸμ <persName type="divine" key="Phoenix">Φοίνικα</persName> καὶ τὰν
+                          <lb n="31"/><persName type="divine" key="Amphion">Ἀμφι<supplied reason="lost">ώ</supplied>ναν</persName> καὶ τὰγ <persName type="divine" key="Ge">Γᾶν</persName>
+                          <lb n="32"/>καὶ τὸν <persName type="divine" key="Ouranos">Οὐρανὸν</persName> καὶ
+                          <lb n="33"/><w lemma="ἥρως">ἥρωας</w> καὶ <w lemma="ἡρώασσα">ἡρωάσσας</w>
+                          <lb n="34"/>καὶ <w lemma="κράνα">κράνας</w> καὶ ποτα<lb 
+                        break="no" n="35"/>μοὺς καὶ <w lemma="θεός">θεοὺς</w> πάντας
+                          <lb n="36"/>καὶ πάσας· μὴ μὰν ἐγώ
+                          <lb n="37"/>ποκα τοῖς <placeName ref="#lyttos" type="ethnic">Λυττίοις</placeName>
+                          <lb n="38"/>καλῶς <w lemma="φρονέω">φρονησεῖν</w>
+                          <lb n="39"/>μήτε τέχναι μήτε μα<lb 
+                        break="no" n="40"/>χανᾶι, μήτε ἐν νυκτὶ
+                          <lb n="41"/>μήτε πεδ’ ἁμέραν, καὶ
+                          <lb n="42"/>σπευσίω ὅ,τι κα δύναμαι
+                          <lb n="43"/>κακὸν τᾶι <rs type="institution" subtype="social_group" role="war" key="polis" ref="#lyttos"><w lemma="πόλις">πόλει</w></rs> τᾶι τῶν <placeName ref="#lyttos" type="ethnic">Λυττίων</placeName>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="face" n="b">
+                        <ab>
+                          <lb n="44"/><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#dreros"><w lemma="δίκα">δικᾶν</w></rs> δὲ καὶ <w lemma="πρᾶξις">πρ<supplied reason="lost">αξί</supplied><lb 
+                        break="no" n="45"/>ων</w> μηθὲν <w lemma="ἔνορκος">ἔνορκον</w>
+                          <lb n="46"/>ἤ<corr>μ</corr>ην. καὶ τέλομαι
+                          <lb n="47"/><placeName ref="#dreros" type="ethnic"><w lemma="φιλοδρήριος">φιλοδρήριος</w></placeName> καὶ
+                          <lb n="48"/><placeName ref="#knossos" type="ethnic"><w lemma="φιλοκνώσιος">φιλοκνώσιος</w></placeName>.
+                          <lb n="49"/>καὶ μήτε τὰμ <rs type="institution" subtype="public_space" role="defense" key="polis" ref="#dreros"><w lemma="πόλις">πό<lb 
+                        break="no" n="50"/>λιν</w></rs> προδωσεῖν
+                          <lb n="51"/>τὰν τῶν <placeName ref="#dreros" type="ethnic">Δρηρίων</placeName>,
+                          <lb n="52"/>μήτε <rs type="institution" subtype="public_space" role="defense" key="oureion" ref="#dreros"><w lemma="οὐρεῖον">οὐρεῖα</w></rs> τὰ
+                          <lb n="53"/>τῶν <placeName ref="#dreros" type="ethnic">Δρηρίων</placeName>
+                          <lb n="54"/>μηδὲ <rs type="institution" subtype="public_space" role="defense" key="oureion" ref="#knossos">τὰ τῶγ <placeName ref="#knossos" type="ethnic">Κν<supplied reason="lost">ω</supplied><lb 
+                        break="no" n="55"/>σίων</placeName></rs>, μηδὲ <w lemma="ἀνήρ">ἄν<lb 
+                        break="no" n="56"/>δρας</w> τοῖς πο<lb 
+                        break="no" n="57"/>λεμίοις προδω<lb 
+                        break="no" n="58"/>σεῖν μήτε <placeName ref="#dreros" type="ethnic">Δρη<lb 
+                        break="no" n="59"/>ρίους</placeName> μήτε <placeName ref="#knossos" type="ethnic">Κνω<lb 
+                        break="no" n="60"/>σίους</placeName>· μηδὲ <w lemma="στάσις">στά<lb 
+                        break="no" n="61"/>σιος</w> ἀρξεῖν, καὶ
+                          <lb n="62"/>τῶι <w lemma="στασίζω">στασίζοντι</w>
+                          <lb n="63"/>ἀντίος τέλομαι,
+                          <lb n="64"/>μηδὲ <w lemma="συνωμοσία">συνω<corr>μ</corr>οσί<lb 
+                        break="no" n="65"/>ας</w> συναξεῖν
+                          <lb n="66"/>μήτε ἐμ <rs type="institution" subtype="public_space" role="location" key="polis" ref="#dreros"><w lemma="πόλις">πόλει</w></rs>
+                          <lb n="67"/>μήτε ἐξοῖ τᾶς
+                          <lb n="68"/><rs type="institution" subtype="public_space" role="location" key="polis" ref="#dreros"><w lemma="πόλις">πόλεως</w></rs>, μήτε
+                          <lb n="69"/>ἄλλωι συντέλε<lb 
+                        break="no" n="70"/>σθαι· εἰ δέ τινάς
+                          <lb n="71"/>κα πύθωμαι <w lemma="συνομνύω">συ<lb 
+                        break="no" n="72"/>νομνύοντας</w>,
+                          <lb n="73"/><w lemma="ἐξαγγέλλω">ἐξαγγελίω</w> τοῦ
+                          <lb n="74"/><rs type="institution" subtype="official" role="judicial_procedure" key="kosmos" ref="#dreros"><w lemma="κόσμος">κόσμου</w></rs> τοῖς πλί<lb 
+                        break="no" n="75"/>ασιν· εἰ δὲ τάδε
+                          <lb n="76"/>μὴ κατέχοιμι,
+                          <lb n="77"/>τούς <corr>τ</corr>έ μοι <w lemma="θεός">θεοὺς</w>
+                          <lb n="78"/>τοὺς <w lemma="ὀμνύω">ὤμοσα</w> ἐμ<lb 
+                        break="no" n="79"/>μάνιας ἤμη<surplus>ι</surplus>ν
+                          <lb n="80"/>πάντας τε καὶ πά<lb 
+                        break="no" n="81"/>σας καὶ κακίστω<corr>ι</corr>
+                          <lb n="82"/>ὀλέθρωι ἐξόλλυ<lb 
+                        break="no" n="83"/>σθαι αὐτός τε
+                          <lb n="84"/>καὶ χρήια τἀμὰ,
+                          <lb n="85"/>καὶ μήτε μοι γᾶν
+                          <lb n="86"/>καρπὸν φέρειν
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="face" n="c">
+                        <ab>
+                          <lb n="87"/><supplied reason="lost">μήτε μοι</supplied> <w lemma="γυνά"><supplied reason="lost">γ</supplied>υναῖκας</w>
+                          <lb n="88"/><supplied reason="lost">τίκτει</supplied>ν κατὰ φύ<lb 
+                        break="no" n="89"/><supplied reason="lost">σιν μήτ</supplied>ε πάματα·
+                          <lb n="90"/><w lemma="εὐορκέω"><supplied reason="lost">εὐορκί</supplied>οντι</w> δέ μοι
+                          <lb n="91"/><supplied reason="lost">τοὺς</supplied> <w lemma="θεός">θεοὺς</w> τοὺς
+                          <lb n="92"/><supplied reason="lost"><w lemma="ὀμνύω">ὤμοσα</w></supplied> ἱλέους ἦμεν
+                          <lb n="93"/><supplied reason="lost">καὶ πολ</supplied>λὰ κἀγαθὰ
+                          <lb n="94"/>δι<supplied reason="lost">δό</supplied>μ<supplied reason="lost">ε</supplied>ν. <space extent="unknown" unit="character"/> <w lemma="ὀμνύω">ὀμνύω</w> δὲ
+                          <lb n="95"/>τὸς αὐτὸς <w lemma="θεός">θεούς</w>·
+                          <lb n="96"/>ἦ μὰν ἐγὼ τὸγ <rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#dreros"><w lemma="κόσμος">κό<lb 
+                        break="no" n="97"/>σμον</w></rs>, αἴ κα μὴ <w lemma="ἐξορκίζω">ἐξορ<lb 
+                        break="no" n="98"/>κίξοντι</w> τὰν <rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#dreros"><w lemma="ἀγέλα">ἀγέ<lb 
+                        break="no" n="99"/>λαν</w></rs> τοὺς τόκα <rs type="institution" subtype="age_class" role="oath-taking" key="ekdyomenos" ref="#dreros"><w lemma="ἐγδύω">ἐ<lb 
+                        break="no" n="100"/>γδυομένους</w></rs> τὸν
+                          <lb n="101"/>αὐτὸν <w lemma="ὅρκος">ὅρκον</w> τόν<lb 
+                        break="no" n="102"/>περ ἁμὲς <w lemma="ὀμνύω">ὀμωμό<lb 
+                        break="no" n="103"/>καμες</w>, ἐμβαλεῖν
+                          <lb n="104"/>ἐς τὰν <rs type="institution" subtype="assembly" role="judicial_procedure" key="boule" ref="#dreros"><w lemma="βωλά">βωλὰν</w></rs>, ἇι
+                          <lb n="105"/>κα <w lemma="ἀφίστημι">ἀποστᾶντι</w>
+                          <lb n="106"/>τοῦ <w lemma="μείς">μηνὸς</w> τοῦ <rs type="institution" subtype="month" role="calendar" key="Komnokarios" ref="#dreros"><w lemma="Κομνοκάριος">Κο<lb 
+                        break="no" n="107"/>μνοκαρίου</w></rs> ἢ τοῦ
+                          <lb n="108"/><rs type="institution" subtype="month" role="calendar" key="Haliaios" ref="#dreros"><w lemma="Ἁλιαῖος">Ἁλιαίου</w></rs>· ἁ δὲ <rs type="institution" subtype="assembly" role="collecting_fines" key="boule" ref="#dreros"><w lemma="βωλά">β<supplied reason="lost">ω</supplied>λὰ</w></rs>
+                          <lb n="109"/><w lemma="πράσσω">πραξάντων</w> ἕκα<lb 
+                        break="no" n="110"/>στον τὸν <rs type="institution" subtype="official" role="fineable" key="kosmos" ref="#dreros"><w lemma="κοσμέω">κοσμί<lb 
+                        break="no" n="111"/>οντα</w></rs> <w lemma="στατήρ">στατῆρας</w>
+                          <lb n="112"/>πεντακοσίους
+                          <lb n="113"/>ἀφ’ ἇς κα ἐμβάληι
+                          <lb n="114"/>ἁμέρας ἐν τριμήνωι·
+                          <lb n="115"/>αἰ δὲ λισσὸς εἴη<surplus>ι</surplus>,
+                          <lb n="116"/><w lemma="ἀγγράφω">ἀγγραψάντων</w>
+                          <lb n="117"/>ἐς <persName type="divine" key="Delphinios"><rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#dreros"><w lemma="Δελφίνιον">Δελφίνιον</w></rs></persName>
+                          <lb n="118"/>ὅσσα κα μὴ <w lemma="πράσσω">πρά<lb 
+                        break="no" n="119"/>ξωντι</w> <w lemma="χρήματα">χρήματα</w>,
+                          <lb n="120"/><w lemma="ὄνομα">τοὔνομα</w> ἐπὶ <w lemma="πατήρ">πατρὸς</w>
+                          <lb n="121"/>καὶ τὸ πλῆθος τοῦ <w lemma="ἀργύριον">ἀρ<lb 
+                        break="no" n="122"/>γυρίου</w> ἐξονομαίνον<lb 
+                        break="no" n="123"/>τες· ὅ,τι δέ κα <w lemma="πράσσω">πράξον<lb 
+                        break="no" n="124"/>τι</w>, ταῖς <rs type="institution" subtype="social_group" role="receiving_fines" key="hetaireia" ref="#dreros"><w lemma="ἑταιρεία">ἑταιρείαισιν</w></rs>
+                          <lb n="125"/>δασσάσθωσαν ταῖς
+                          <lb n="126"/>ἐμ <rs type="institution" subtype="public_space" role="location" key="polis" ref="#dreros"><w lemma="πόλις">πόλει</w></rs> καὶ αἴ πεί
+                          <lb n="127"/>τινεν <rs type="institution" subtype="board" role="defense" key="oureios" ref="#dreros"><w lemma="οὐρεύω">οὐρεύων<corr>τ</corr>ι</w></rs> <placeName ref="#dreros" type="ethnic">Δρήριοι</placeName>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="face" n="d">
+                        <ab>
+                          <lb n="128"/>αἰ δὲ μὴ <w lemma="πράσσω">πρά<supplied reason="lost">ξαι</supplied><lb 
+                        break="no" n="129"/>εν</w> ἁ <rs type="institution" subtype="assembly" role="collecting_fines" key="boule" ref="#dreros"><w lemma="βωλά">βωλά</w></rs>, αὐ<supplied reason="lost">τοὶ</supplied>
+                          <lb n="130"/>τὰ διπλόα <w lemma="ἀποτίνω">ἀ<supplied reason="lost">ποτει</supplied><lb 
+                        break="no" n="131"/>σάντων</w>, <w lemma="πράσσω">πρα<supplied reason="lost">ξάν</supplied><lb 
+                        break="no" n="132"/>των</w> δὲ οἱ <rs type="institution" subtype="board" role="collecting_fines" key="ereutas" ref="#dreros"><w lemma="ἐρευτάς">ἐρευταὶ</w></rs>
+                          <lb n="133"/>οἱ τῶν ἀνθρωπίνων
+                          <lb n="134"/>καὶ δασσάσθωσαν
+                          <lb n="135"/>ταῖς <rs type="institution" subtype="social_group" role="receiving_fines" key="hetaireia" ref="#dreros"><w lemma="ἑταιρεία">ἑταιρείαισιν</w></rs>
+                          <lb n="136"/>κατὰ ταὐτά. <space extent="unknown" unit="character"/>
+                          <lb n="137"/>τάδε <rs type="institution" subtype="object" role="decreeing" key="hypomnama" ref="#dreros"><w lemma="ὑπόμναμα">ὑπομνάμα<lb 
+                        break="no" n="138"/>τα</w></rs> τᾶς <placeName ref="#dreros" type="ethnic">Δρηρίας</placeName> χώρας
+                          <lb n="139"/>τᾶς <w lemma="ἀρχαῖος">ἀρχαίας</w> τοῖς
+                          <lb n="140"/>ἐπιγινομένοις <rs type="institution" subtype="age_class" role="oath-taking" key="azostos" ref="#dreros"><w lemma="ἄζωστος">ἀζώ<lb 
+                        break="no" n="141"/>στοις</w></rs>, τόν τε <w lemma="ὅρκος">ὅρ<lb 
+                        break="no" n="142"/>κον</w> <w lemma="ὀμνύω">ὀμνύμεν</w>
+                          <lb n="143"/>καὶ κατέχειν.
+                          <lb n="144"/>καὶ οἱ <placeName ref="#milatos" type="ethnic">Μιλάτιοι</placeName>
+                          <lb n="145"/>ἐπεβώλευσαν
+                          <lb n="146"/>ἐν τᾶι νέαι <w lemma="νεμονηία">νε<lb 
+                        break="no" n="147"/>μονήιαι</w> τᾶι <rs type="institution" subtype="social_group" role="war" key="polis" ref="#dreros"><w lemma="πόλις">πό<lb 
+                        break="no" n="148"/>λει</w></rs> τᾶι τῶν <placeName ref="#dreros" type="ethnic">Δρη<lb 
+                        break="no" n="149"/>ρίων</placeName> ἕνεκα τᾶς
+                          <lb n="150"/>χώρας τᾶς ἁ<lb 
+                        break="no" n="151"/>μᾶς, τᾶς <w lemma="ἀμφιμάχομαι">ἀμφι<lb 
+                        break="no" n="152"/>μαχόμεθα</w>.
+                          <lb n="153"/><w lemma="νικατήρ">νικατὴρ</w>
+                          <lb n="154"/>τᾶς <rs type="institution" subtype="age_class" role="belonging" key="agela" ref="#dreros"><w lemma="ἀγέλα">ἀγέλας</w></rs>
+                          <lb n="155"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="156"/>καὶ ἐλαίαν ἕ<lb 
+                        break="no" n="157"/>καστον φυτεύ<lb 
+                        break="no" n="158"/>ειν καὶ τεθραμ<lb 
+                        break="no" n="159"/>μέναν ἀποδεῖ<lb 
+                        break="no" n="160"/>ξαι· ὃς δέ κα μὴ
+                          <lb n="161"/><supplied reason="lost">φ</supplied>υτευσεῖ, <w lemma="ἀποτίνω">ἀπ<lb 
+                        break="no" n="162"/><supplied reason="lost">ο</supplied>τεισεῖ</w> <w lemma="στατήρ">στα<lb 
+                        break="no" n="163"/>τῆρας</w> πεν<lb 
+                        break="no" n="164"/>τήκοντα.
+                          <lb n="164a"/><space quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="5"><note>Κυίαι καί <bibl><ref target="#b498">Dethier</ref></bibl>; Κυ<corr>δίλ</corr>αι <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                          <app loc="6"><note>Κεφάλωι <bibl><ref target="#b498">Dethier</ref></bibl>; Κεφάλω<surplus>ι</surplus> <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                          <app loc="6-7"><note>Πύρωι, Πίωι <bibl><ref target="#b497">Demargne – Van Effenterre</ref></bibl>; Πύρω, Ἱ<corr>π</corr>πίω<surplus>ι</surplus> <bibl><ref target="#bib1"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                  <div type="commentary">
+                        <p>Il giuramento, che pare essere connesso ad un trattato di alleanza fra Dreros e Knossos (cf. ll. 47-60), si apre con una triplice espressione benaugurale (ll. 1-2), alla quale fa seguito una formula di datazione che commemora i cosmi in carica della tribù degli <foreign>Aithaleis</foreign>, a Dreros nota anche da <ref type="ins" target="#bile_48">Bile 48</ref> (ll. 3-9); i magistrati sono gli stessi ricordati nell’iscrizione edificatoria <ref type="ins" target="#bile_48">Bile 48</ref>, nella quale sembrano essere contemporaneamente eponimi i cosmi Kyias e Kephalos. I due individui, menzionati al dativo, sono distinti dai colleghi in quanto collegati fra loro dalla congiunzione καί, non presente fra gli altri nomi: è dunque verosimile che anche in questo caso si trovino a detenere congiuntamente l’eponimia. I nomi dei cosmi, cinque come in <ref type="ins" target="#bile_48">Bile 48</ref> e <ref type="ins" target="#bile_50_1">50.1</ref>-<ref type="ins" target="#bile_50_2">2</ref>, sono seguiti dal ricordo del segretario Philippos, forse appartenente al loro collegio.</p>
+                    <p>Come informano le linee 10-14, il giuramento riportato nel documento è stato prestato da centottanta ἀγελάοι πανάζωστοι, ovvero probabilmente i giovani uscenti dall’<foreign>agela</foreign> disarmati (cf. <ref type="lit" target="#HschAgelaous">Hsch. <foreign>s.v.</foreign> ἀγελάους</ref> e <ref type="ins" target="#ic1_10_2"><title>IC</title> I 10 2</ref>).</p>
+                    <p>Il giuramento si apre con una sezione iniziale in cui vengono invocate numerose figure sacre, fra le quali compaiono più divinità – fra cui la Hestia venerata nel pritaneo e Zeus <foreign>Agoraios</foreign> (sul cui culto cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>) –, eroi ed eroine ed elementi naturali o loro personificazioni come Halios, Ga, Ouranos, fiumi e sorgenti (ll. 14-36).</p>
+                    <p>L’invocazione è seguita alle linee 36-48 dalla promessa di ostilità alla <foreign>polis</foreign> di Lyttos – con la quale sembrano essere vietati processi ed esecuzioni di sentenze (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 198</bibl>) – e di amicizia nei confronti di Dreros e Knossos. Il giuramento prevede inoltre l’impegno a non tradire la <foreign>polis</foreign> di Dreros né le sue fortificazioni sul confine né quelle di Knossos né i loro uomini e a non suscitare sedizioni o cospirazioni, né all’interno della <foreign>polis</foreign> né fuori da essa (ll. 49-70); nell’eventualità che qualcuno venga a conoscenza di una cospirazione è tenuto ad informarne la maggioranza del collegio dei cosmi (ll. 70-75).</p>
+                    <p>Dopo una maledizione nei confronti degli spergiuri e un augurio di ogni bene per chi rispetta il giuramento (ll. 75-94), il documento presenta alle linee 94-136 una sezione relativa alla procedura da attuare nel caso in cui il collegio dei cosmi non faccia prestare in futuro il giuramento a quanti escono dall’<foreign>agela</foreign> (ll. 98-100, τὰν ἀγέλαν τοὺς τόκα ἐγδυομένους, espressione impiegata anche nel trattato fra Malla e Lyttos <ref type="ins" target="#ic1_19_1"><title>IC</title> I 19 1</ref>; cf. inoltre il verbo <foreign>ekdyo</foreign> in <ref type="ins" target="#ic2_5_24"><title>IC</title> II 5 24</ref> da Axos e gli <foreign>Ekdysia</foreign> di Phaistos descritti in <ref type="lit" target="#AntLib">Ant. Lib. <title>Met.</title> XVII</ref>). In tale eventualità il giuramento prescrive di denunciare i cosmi alla <foreign>bola</foreign> – a Dreros nota anche da <ref type="ins" target="#bile_50_1">Bile 50.1</ref>-<ref type="ins" target="#bile_50_2">2</ref> – appena questi escono di carica, nel mese <foreign>Komnokarios</foreign> o in quello di <foreign>Haliaios</foreign>, non attestati altrove (<foreign>Haliaios</foreign> è più facilmente legato al culto di Halios – cf. l. 28 – che all’ἁλία, non nota a Creta, come suggerisce invece <bibl><ref target="#b1843">Trümpy 1997</ref>, p. 190</bibl>). Entro tre mesi dal giorno della denuncia la <foreign>bola</foreign> è tenuta a riscuotere una multa di 500 stateri da ogni cosmo; è previsto inoltre che in caso di mancato pagamento i nomi degli insolventi vengano iscritti nel <foreign>Delphinion</foreign> di Dreros. Il denaro riscosso deve essere spartito fra le eterie (a Dreros note anche da <ref type="ins" target="#seg_23_530"><title>SEG</title> 23.530</ref>) aventi sede in città e quelle dislocate laddove si trovano alcuni dei cittadini in qualità di sentinelle (cf. gli <foreign>oroi</foreign> di Hierapytna ricordati in <ref type="ins" target="#seg_39_967"><title>SEG</title> 39.967</ref>). Nel caso di mancata esazione da parte della <foreign>bola</foreign>, una multa doppia deve essere imposta ai cosmi dagli <foreign>ereutai</foreign> che si occupano di questioni civili, funzionari addetti alla riscossione di ammende pecuniarie noti anche dal trattato fra Knossos e Hierapytna <ref type="ins" target="#ic1_8_13"><title>IC</title> I 8 13</ref>; in tale eventualità la spartizione del denaro deve avvenire fra le eterie secondo le modalità già stabilite.</p>
+                    <p>La sezione finale, alle linee 137-164, sembra riportare tre estratti di uno o più documenti preesistenti, non connessi fra loro ma apparentemente tutti pertinenti ad obblighi o episodi che interessano i membri dell’<foreign>agela</foreign>. Il primo, alle linee 137-143, conserva un riferimento a più ὑπομνάματα relativi alla descrizione degli antichi confini del territorio di Dreros, sui quali devono giurare gli ἐπιγινομένοις ἀζώστοις, espressione che indica verosimilmente gli ἀγελάοι πανάζωστοι menzionati alle linee 11-12 (il termine <foreign>azostoi</foreign> compare forse anche in <ref type="ins" target="#seg_23_547"><title>SEG</title> 23.547</ref>). Il secondo, invece, ricorda un attacco alla <foreign>polis</foreign> di Dreros sferrato da parte di Milatos e risalente alla precedente luna nuova, finalizzato alla conquista di un territorio contesto fra le due città; a tale proposito viene menzionato un vincitore dell’<foreign>agela</foreign>, verosimilmente un giovane distintosi nello scontro (ll. 144-155). Il terzo estratto, infine, prevede che ciascun membro dell’<foreign>agela</foreign> pianti un ulivo e ne faccia mostra una volta cresciuto, pena una multa di 50 stateri (ll. 156-164).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela"><foreign>agela</foreign></ref>, <ref type="inst" target="#agelaos"><foreign>agelaos</foreign></ref>, <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>), <ref type="inst" target="#azostos"><foreign>azostos</foreign></ref>, <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#ekdyomenos"><foreign>ekdyomenos</foreign></ref>, <ref type="inst" target="#ereutas"><foreign>ereutas</foreign></ref>, <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#hetaireia"><foreign>hetaireia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#hypomnama"><foreign>hypomnama</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mesi (<ref type="inst" target="#haliaios"><foreign>Haliaios</foreign></ref>, <ref type="inst" target="#komnokarios"><foreign>Komnokarios</foreign></ref>), <ref type="inst" target="#oureion"><foreign>oureion</foreign></ref>, <ref type="inst" target="#oros"><foreign>oureios</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref>, <ref type="inst" target="#prytaneion"><foreign>prytaneion</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1473">Papasliotis 1855</ref>, pp. 260-264</bibl>; 
+                          <bibl><ref target="#b1474">Papasliotis 1855a</ref></bibl>; 
+                          <bibl><ref target="#b498">Dethier 1859</ref></bibl>; 
+                          <bibl><ref target="#b273">Cauer 1883</ref>, n. 121</bibl>; 
+                          <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 657-668 n. 73</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 23</bibl>; 
+                          <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 463</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4952</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 527</bibl>; 
+                          <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 193</bibl>; 
+                          <bibl><ref target="#b1728">Solmsen – Fränkel 1930</ref>, n. 31</bibl>; 
+                          <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 9 1 <ptr type="phi" target="199178"/></bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 584 (ll. 36-60)</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 48 (ll. 137-164)</bibl>; 
+                          <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 7 (ll. 1-60)</bibl>;
+                          <bibl><ref target="#b2071">Youni 2011</ref>, pp. 287-291</bibl>;
+                          <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 35 (ll. 36-89, 137-164)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b497">Demargne – Van Effenterre 1937a</ref>, pp. 31-32</bibl>; 
+                          <bibl><ref target="#b2032">Willetts 1957a</ref></bibl>; 
+                          <bibl><ref target="#b724">Gordon 1970</ref></bibl>;
+                          <bibl><ref target="#b952">Kaffetzakis 1971</ref></bibl>;
+                          <bibl><ref target="#bib112"><title>HGIU</title></ref> 449</bibl>; 
+                          <bibl><ref target="#b705">Ghinatti 2004</ref>, p. 135</bibl>; 
+                          <bibl><ref target="#b327">Chaniotis 2005</ref>, pp. 46-47</bibl>; 
+                          <bibl><ref target="#b154">Bile 2008</ref>, pp. 263-264</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica a Zeus <foreign>Agoraios</foreign> da Kantanos</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 6 1</idno>
+                        <idno type="projectNo">066</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kadros_agios_ioannis">Chiesa di Agios Ioannis, Kadros</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#kantanos">Kantanos</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><persName type="divine" key="Zeus Agoraios">Διὶ <space quantity="1" unit="character"/> <rs type="institution" subtype="public_space" role="dedicatee" key="agora" ref="#kantanos"><w lemma="Ἀγοραῖος">Ἀγο<supplied reason="lost">ραίῳ</supplied></w></rs></persName>
+                        <lb n="2"/>Ἰθαιμέ<supplied reason="lost">νης</supplied>
+                        <lb n="3"/>Ἀλκιβι<supplied reason="lost">άδου</supplied>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’unica iscrizione non funeraria di Kantanos fra quelle anteriori all’età imperiale, proveniente dal sito di Kadros, per quanto mutila offre la significativa testimonianza del culto di Zeus <foreign>Agoraios</foreign>, attestato con certezza a Creta anche a Dreros, Axos, Gortyna, Arkades e Itanos (<ref type="ins" target="#bile_8">Bile 8</ref>, <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>; <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref>; <ref type="ins" target="#ic4_171"><title>IC</title> IV 171</ref>; <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref>; cf. <bibl><ref target="#b1734">Sporn 2002</ref>, pp. 298-299</bibl>). L’epiclesi può essere verosimilmente considerata come indice della presenza di un’<foreign>agora</foreign> a Kantanos, di cui il dio è protettore (sul culto di Zeus <foreign>Agoraios</foreign> cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 6 1 <ptr type="phi" target="199822"/></bibl>; 
+                    <bibl><ref target="#b53">Austin 1981</ref>, n. 91</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 1</bibl>; 
+                    <bibl><ref target="#b54">Austin 2006</ref>, n. 109</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

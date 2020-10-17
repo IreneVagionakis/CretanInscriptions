@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dal <foreign>Dictaeum Fanum</foreign></title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 2 1</idno>
+                        <idno type="projectNo">547</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">139</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dictaeum_fanum"><foreign>Dictaeum Fanum</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0150" notAfter="-0100">150-100 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Kamiris" ref="#hierapytna">ἐπὶ τᾶς <w lemma="Καμιρίς">Καμιρίδος</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#hierapytna"><w lemma="κοσμέω">κοσμόντων</w>
+                          <lb n="2"/>τῶν σὺμ <persName type="attested" key="Bouaos f. Ampheron"><name nymRef="Βούαος">Βουάῳ</name> τῶ <name nymRef="Ἀμφέρων" type="patronymic">Ἀμφέροντος</name></persName></rs>
+                          <lb n="3"/><w lemma="ἐπιμελέομαι">ἐπεμελῆθεν</w> ἐν τῶι <rs type="institution" subtype="public_space" role="construction" key="hieron" ref="#dictaeum_fanum"><w lemma="ἱερόν">ἱερῶι</w> τῶ
+                          <lb n="4"/><persName type="divine" key="Zeus Diktaios"><unclear>Τ</unclear>ηνὸς <placeName ref="#dictaeum_fanum" type="ethnic">Δικταίω</placeName></persName></rs> τὰ <w lemma="ἀρχαῖος">ἀρχαῖα</w>
+                          <lb n="5"/><w lemma="ἄγαλμα"><supplied reason="lost">ἀ</supplied>γάλματα</w> <w lemma="θαραπεύω">θαραπεύσαντες</w>
+                          <lb n="6"/><w lemma="προσεπισκευάζω"><supplied reason="lost">πρ</supplied><unclear>ο</unclear>σεπισκευῶσαι</w> καὶ <w lemma="χρυσόω">χρυσῶ<lb 
+                        break="no" n="7"/><supplied reason="lost">σαι</supplied></w> <persName type="divine" key="Athena">Ἀθαναίαν</persName> <persName type="divine" key="Artemis">Ἄρτεμιν</persName> <persName type="divine" key="Atlas">Ἄτλαν<lb 
+                        break="no" n="8"/><supplied reason="lost">τα</supplied></persName> <supplied reason="lost">τ</supplied>ὰς <persName type="divine" key="Sphinges">Σφίγγας</persName> <w lemma="ἀστραγαλίζω">ἀστραγαλίσ<lb 
+                        break="no" n="9"/><supplied reason="lost">αι</supplied></w> ἐπὶ τῶν <w lemma="ὑποπόδιον">ὑποποδίων</w> καὶ
+                          <lb n="10"/><gap reason="lost" quantity="3" unit="character"/>οιδα <persName type="divine" key="Zeus">Δία</persName> <persName type="divine" key="Hera">Ἥρας</persName> <w lemma="πρόσωπον">πρόσωπον</w>
+                          <lb n="11"/><gap reason="lost" quantity="4" unit="character"/>ν καὶ <persName type="divine" key="Nika">Νίκαν</persName> <w lemma="ἀναγράφω">ἀναγράψαι</w>.
+                          <lb n="12"/><supplied reason="lost">οἵδ’</supplied>  <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><w lemma="κοσμέω"><supplied reason="lost">ἐκ</supplied><corr>ό</corr>σ<corr>μ</corr>ιον</w>· <persName type="attested" key="Bouaos f. Ampheron"><name nymRef="Βούαος">Βούαος</name> <name nymRef="Ἀμφέρων" type="patronymic">Ἀμφέ<lb 
+                        break="no" n="13"/><supplied reason="lost">ροντος</supplied></name></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="Akasson f. Bramisal"><name nymRef="Ἀκάσσων"><supplied reason="lost">Ἀ</supplied><unclear>κ</unclear>άσσων</name> <name nymRef="Βραμισαλ" type="patronymic">Βραμισαλ</name></persName></rs>,
+                          <lb n="14"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="-os f. Eurykartes"><name nymRef="-ος"><gap reason="lost" extent="unknown" unit="character"/>ος</name> <name nymRef="Εὐρυκάρτης" type="patronymic">Εὐρυκάρτεος</name></persName></rs>,
+                          <lb n="15"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="- f. Eurykartes"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="Εὐρυκάρτης" type="patronymic">Εὐρυκάρτεος</name></persName></rs>,
+                          <lb n="16"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="- f. -ythes"><gap reason="lost" extent="unknown" unit="character"/> <name nymRef="-υθης" type="patronymic"><gap reason="lost" extent="unknown" unit="character"/>ύθεος</name></persName></rs>,
+                          <lb n="17"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#hierapytna"><persName type="attested" key="-s f. Moirilos"><name nymRef="-ς"><gap reason="lost" extent="unknown" unit="character"/>ς</name> <name nymRef="Μοιρίλος" type="patronymic">Μοιρίλ<supplied reason="lost">ω</supplied></name></persName></rs>,
+                          <lb n="17a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione documenta il restauro di antiche statue conservate all’interno del santuario di Zeus <foreign>Diktaios</foreign>, avvenuto durante il cosmato di Bouaos figlio di Ampheron della tribù <foreign>Kamiris</foreign> (non attestata altrove e possibilmente connessa alla città rodia di Kamiros), verosimilmente il magistrato eponimo di Hierapytna. L’intervento sembra essere frutto dell’iniziativa dell’intero collegio dei cosmi della città, i cui nomi – almeno sei – sono elencati al nominativo alle linee 12-17.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, tribù (<ref type="inst" target="#kamiris"><foreign>Kamiris</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2065">Xanthoudidis 1908</ref>, pp. 197-207, n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1038 n. 21</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 200</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 2 1 <ptr type="phi" target="200234"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Arkesine menzionante Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG XII, 7 32</idno>
+                        <idno type="projectNo">171</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#arkesine">Arkesine, Amorgos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ στε</supplied><lb 
+                        break="no" n="1"/><supplied reason="lost">φαν</supplied>οῦν α<supplied reason="lost">ὐτὸν καθ’ ἕκαστον ἐνιαυτὸν</supplied>
+                          <lb n="2"/><supplied reason="lost">τοὺ</supplied>ς πρυτ<supplied reason="lost">άνεις τοὺς ἀεὶ πρυτανεύοντας τὸν</supplied>
+                          <lb n="3"/><supplied reason="lost">μῆ</supplied>να τὸν Ταυρεῶν<supplied reason="lost">α τοῖς Διονυσίοις ὅταν οἱ</supplied>
+                          <lb n="4"/><supplied reason="lost">χορ</supplied>οὶ τῶν παίδων σ<supplied reason="lost">υντελῶνται, ἀναγο</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">ρεύ</supplied>οντας ὧ<supplied reason="lost">ν ἕνεκ</supplied>α σ<supplied reason="lost">τεφανοῦται, καὶ</supplied>
+                          <lb n="6"/><supplied reason="lost">Ἰτω</supplied>νίων τεῖ π<supplied reason="lost">ομπ</supplied>εῖ· <supplied reason="lost">ἐπιμελεῖσθαι δὲ καὶ</supplied>
+                          <lb n="7"/><supplied reason="lost">τῆς</supplied> ἀναγορεύσεως τοὺς <supplied reason="lost">πρυτ</supplied>ά<supplied reason="lost">νεις τοὺς ἀεὶ</supplied>
+                          <lb n="8"/><supplied reason="lost">πρυ</supplied>τανεύοντα<supplied reason="lost">ς</supplied> καθ’ ἕκαστον <supplied reason="lost">ἐνιαυτόν· ἀνα</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">γρά</supplied>ψαι δὲ τόδε τὸ ψήφισμα τὸν μὲν <supplied reason="lost">γραμμα</supplied><lb 
+                        break="no" n="10"/><supplied reason="lost">τέα</supplied> τῆς βουλῆς εἰς τὰ δημό<supplied reason="lost">σι</supplied>α γ<supplied reason="lost">ρά</supplied>μ<supplied reason="lost">ματα</supplied>,
+                          <lb n="11"/><supplied reason="lost">ἀν</supplied>αγράψαι δὲ καὶ ε<supplied reason="lost">ἰ</supplied>στήλην λ<supplied reason="lost">ι</supplied>θίνην <supplied reason="lost">καὶ στῆ</supplied><lb 
+                        break="no" n="12"/><supplied reason="lost">σα</supplied>ι εἰς τὴν ἀγοράν· ἐ<supplied reason="lost">π</supplied>ιμεληθῆναι <supplied reason="lost">δὲ τῆς</supplied>
+                          <lb n="13"/><supplied reason="lost">ἀνα</supplied>γ<supplied reason="lost">ρ</supplied>αφῆς Ἀγαθῖνο<supplied reason="lost">ν</supplied> Ἀγαθίνου, Ν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/>ν Κλευμένε<supplied reason="lost">ο</supplied>ς· τὰ <corr>δ’</corr> ἐψηφισμέ<supplied reason="lost">να ἀντιγραψά</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">τω κ</supplied>αὶ διαποστειλάσθω ὁ γραμμ<supplied reason="lost">ατεὺς τῆς</supplied>
+                          <lb n="16"/><supplied reason="lost">βου</supplied>λῆς εἰς <placeName ref="#knossos" type="ethnic">Κνωσὸν</placeName> πρὸς τ<supplied reason="lost">ὰ</supplied>ς <supplied reason="lost"><rs type="institution" subtype="board" role="foreign_relations" key="arche" ref="#knossos"><w lemma="ἀρχή">ἀρχὰς</w></rs> σφρα</supplied><lb 
+                        break="no" n="17"/><supplied reason="lost">γισ</supplied>άμενος τεῖ <supplied reason="lost">δημοσίαι σφραγῖδι</supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto di Arkesine, riguardante Knossos, stabilisce alle linee 14-17 che una sua copia venga inviata ai magistrati della città cretese (ἀρχάς?); è assai verosimile che costoro altri non siano che i cosmi di Knossos, i quali compaiono assieme alla <foreign>polis</foreign> come responsabili delle relazioni estere nell’epistola <ref type="ins" target="#ic1_8_7"><title>IC</title> I 8 7</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#arche"><foreign>archai</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b537">Duemmler 1886</ref>, pp. 108-109 n. 13</bibl>; 
+                            <bibl><ref target="#b432">Delamarre 1903</ref>, pp. 117-118</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> XII, 7 32 <ptr type="phi" target="78673"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5367</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

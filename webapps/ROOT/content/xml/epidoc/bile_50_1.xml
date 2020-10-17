@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Dreros per un cittadino di Aspendos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Bile 50.1</idno>
+                        <idno type="projectNo">420</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros, tempio di Apollo <foreign>Delphinios</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0230" notAfter="-0170">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><w lemma="θεός">θεός</w>· <w lemma="τύχα">τύχα</w>.
+                            <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#dreros"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#dreros" type="ethnic">Δρηρίων</placeName> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#dreros"><w lemma="βουλά">βου<lb 
+                        break="no" n="3"/>λᾶι</w></rs> καὶ τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#dreros"><w lemma="δᾶμος">δάμωι</w></rs>
+                            <lb n="4"/><persName type="honoured" key="Orestas f. Erymneus"><name nymRef="Ὀρέστας">Ὀρέσταν</name> <name nymRef="Ἐρυμνεύς" type="patronymic">Ἐρυμνέως</name>
+                            <lb n="5"/><placeName ref="#aspendos" type="ethnic">Ἀσπένδιον</placeName></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#dreros"><w lemma="πρόξενος">πρόξενον</w></rs>
+                            <lb n="6"/>εἶναι καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#dreros"><w lemma="εὐεργέτας">εὐεργέταν</w></rs> καὶ
+                            <lb n="7"/>αὐτὸν καὶ <w lemma="ἔγγονος">ἐγγόνους</w> εἶ<supplied reason="lost">ναι</supplied>
+                            <lb n="8"/>δὲ αὐτοὺς καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#dreros"><w lemma="πολίτας">πολίτας</w></rs> καὶ
+                            <lb n="9"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="katoikos" ref="#dreros"><w lemma="κατοικέω">κατοικεῖν</w></rs> καὶ <w lemma="ἐγδημέω">ἐγδημεῖν</w> <w lemma="ἀσυλί">ἀσυ<lb 
+                        break="no" n="10"/>λὶ</w> <supplied reason="lost">κ</supplied>αὶ ἀσπονδὶ καὶ πολέμου
+                            <lb n="11"/>καὶ εἰρήνης καὶ κατὰ γῆν
+                            <lb n="12"/>καὶ κατὰ θάλασσαν. <w lemma="ἀναγράφω">ἀνε<lb 
+                        break="no" n="13"/><corr>γ</corr>ρά<corr>φ</corr>η</w> <rs type="institution" subtype="tribe" role="eponym" key="Dymanes" ref="#dreros">ἐπὶ τῶν <w lemma="Δυμᾶνες">Δυμάνων</w></rs>
+                            <lb n="14"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#dreros"><w lemma="κοσμέω">κοσμούντων</w>. <persName type="attested" key="Argas f. Soteles"><name nymRef="Ἄργας">Ἄργας</name> <name nymRef="Σωτέλης" type="patronymic"><unclear>Σω</unclear><lb 
+                        break="no" n="15"/>τέλιος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#dreros"><persName type="attested" key="Phalakrion f. Kimon"><name nymRef="Φαλακρίων">Φαλακρίων</name> <name nymRef="Κίμων" type="patronymic">Κίμω<lb 
+                        break="no" n="16"/>νος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#dreros"><persName type="attested" key="Sogenes f. Praxios"><name nymRef="Σωγένης">Σωγένης</name> <name nymRef="Πράξιος" type="patronymic">Πραξίου</name></persName></rs>,
+                            <lb n="17"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#dreros"><persName type="attested" key="Pyron f. Androcharis"><name nymRef="Πύρων">Πύρ<unclear>ων</unclear></name> <name nymRef="Ἀνδρόχαρις" type="patronymic">Ἀνδροχ<unclear>άρι</unclear>ος</name></persName></rs>,
+                            <lb n="18"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#dreros"><persName type="attested" key="Eumedes f. Nikis"><name nymRef="Εὐμήδης">Εὐμήδης</name> <name nymRef="Νῖκις" type="patronymic">Νίκιος</name></persName></rs>.
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, di cui esiste anche una seconda copia pressoché identica (<ref type="ins" target="#bile_50_2">Bile 50.2</ref>), è il solo decreto ellenistico di Dreros ad essersi conservato. La formula di sanzione, che segue la doppia invocazione benaugurale θεός e τύχα, mostra come assemblee responsabili della deliberazione la <foreign>boula</foreign> e il <foreign>damos</foreign> di Dreros, la prima delle quali è attestata anche in <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>.</p>
+                    <p>L’oggetto del documento, alle linee 4-12, prevede una serie di più concessioni a favore di un individuo originario di Aspendos, che ottiene assieme alla propria discendenza la prossenia, l’<foreign>euergesia</foreign> e la cittadinanza, oltre alla possibilità di risiedere a Dreros o di allontanarsene (?) incolume.</p>
+                    <p>La sezione finale del decreto, alle linee 12-18, conserva una lista dei cosmi in carica – cinque come in <ref type="ins" target="#bile_48">Bile 48</ref> e forse <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref> – della tribù dei <foreign>Dymanes</foreign> (a Creta nota anche a Olous, Lyttos, Hierapytna e Gortyna), preceduta dal ricordo dell’avvenuta iscrizione del documento durante il loro cosmato.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#katoikion"><foreign>katoikos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, tribù (<ref type="inst" target="#dymanes"><foreign>Dymanes</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1211">Marinatos 1936</ref>, pp. 280-283 n. 1 <ptr type="phi" target="201230"/></bibl>;
+                        <bibl type="main_edition"><ref target="#bib13">Bile</ref> 50.1</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

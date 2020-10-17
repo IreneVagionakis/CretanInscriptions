@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario del <foreign>koinon</foreign> cretese da Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 5 22</idno>
+                        <idno type="projectNo">585</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#unknown">sconosciuto</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#koinon_kretaieon"><w lemma="δοκέω">ἔδοξε</w></rs> τῶι <rs type="institution" subtype="assembly" role="decreer" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινῶι</w> τῶι <placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></rs>· <supplied reason="lost">ἐπειδὴ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>οι <w lemma="συγγενής">συγγενε<corr>ῖς</corr></w> ὄντες <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon">τ<supplied reason="lost">ῶι τ</supplied>ῶ<unclear>ν</unclear> <placeName ref="#crete" type="ethnic">Κρη<supplied reason="lost">ται</supplied>έ<supplied reason="lost">ω</supplied>ν</placeName> <w lemma="κοινόν"><supplied reason="lost">κοινῶι</supplied></w></rs>
+                          <lb n="3"/><orig>τηι</orig><gap reason="illegible" quantity="7" unit="character"/><orig>α</orig><gap reason="illegible" quantity="3" unit="character"/><orig>και</orig><gap reason="illegible" quantity="3" unit="character"/><orig>τευτ</orig><gap reason="illegible" quantity="3" unit="character"/><orig>τοσ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="5"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="6"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="7"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="8"/><gap reason="lost" quantity="3" unit="character"/> <supplied reason="lost">ἀ</supplied>ποδεδεγμέναι και<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="10"/>τῶι <rs type="institution" subtype="assembly" role="unknown" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινῶι</w> τῶι <placeName ref="#crete" type="ethnic">Κρηται<supplied reason="lost">έων</supplied></placeName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="εὔνοια">εὔνοιαν</w> τω<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto è uno dei pochi documenti ascrivibili con certezza al <foreign>koinon</foreign> cretese di cui si sia conservata la formula di sanzione, nella quale è appunto il <foreign>koinon</foreign> cretese a figurare come entità istituzionale responsabile della deliberazione (l. 1; cf. <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>, in cui compaiono in tale ruolo i <foreign>synedroi</foreign> e il <foreign>koinon</foreign>, e il probabile falso <ref type="ins" target="#magnesia_40-41"><title>Magnesia</title> 40</ref>, in cui compare il solo <foreign>koinon</foreign>; cf. inoltre <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref> e <ref type="ins" target="#ic1_24_2"><title>IC</title> I 24 2</ref>);
+                            è verosimile, inoltre, che la menzione al dativo del <foreign>koinon</foreign> alla l. 10 facesse parte della formula di mozione del documento ([δεδόχθαι?] τῶι κοινῶι τῶι Κρηται[έων]).
+                            Il rinvenimento dell’iscrizione ad Axos porterebbe ad ipotizzare che il decreto onorario interessasse uno o più dei suoi cittadini o la città stessa; non è da escludere, tuttavia, che Axos costituisse la sede di riunione del <foreign>koinon</foreign> al momento della redazione del decreto (sulla sede itinerante del <foreign>koinon</foreign> cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 68</bibl>; cf. inoltre un altro probabile decreto del <foreign>koinon</foreign>, <ref type="ins" target="#ic2_16_9"><title>IC</title> II 16 9</ref>, iscritto a Lappa).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1484">Pashley 1837</ref>, I, pp. 155-156</bibl>; 
+                            <bibl><ref target="#bib116"><title>CIG</title></ref> 2561c</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 5 22 <ptr type="phi" target="199783"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

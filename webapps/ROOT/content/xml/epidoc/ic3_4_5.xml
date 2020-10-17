@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Itanos e Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 5</idno>
+                        <idno type="projectNo">515</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">E 156</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#itanos">Itanos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0219" notAfter="-0204" precision="low">219-204 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>              
+                            <lb n="1"/><gap reason="lost" quantity="4" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>οσ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="2"/><gap reason="lost" quantity="3" unit="character"/><orig><unclear>σ</unclear>ωτ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="3"/><gap reason="lost" quantity="3" unit="character"/><orig><unclear>σ</unclear>ιπαν</orig><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">καὶ κατὰ</supplied>
+                            <lb n="4"/><supplied reason="lost">γᾶν</supplied> καὶ κατὰ <supplied reason="lost">θάλασσαν· <w lemma="ὅρκος">ὅρκον</w> δὲ ἄλλον τούτου κυριώτερον</supplied>
+                            <lb n="5"/><supplied reason="lost">ο</supplied>ὐ <w lemma="τίθημι">θήσομ<supplied reason="lost" cert="low">αι</supplied></w> <supplied reason="lost" cert="low">οὐδὲ <w lemma="σπονδά">σπονδὰς</w> ἄξω οὐδὲ ἰρήναν <w lemma="τίθημι">θήσομαι</w></supplied><supplied reason="lost">, αἴ</supplied>
+                            <lb n="6"/><supplied reason="lost">κ</supplied><unclear>α</unclear> μὴ κοινᾶι <rs type="institution" subtype="practice" role="decreeing" key="syndokeo" ref="#itanos"><rs type="institution" subtype="practice" role="decreeing" key="syndokeo" ref="#hierapytna"><w lemma="συνδοκέω"><unclear>σ</unclear><supplied reason="lost">υνδόξηι</supplied></w></rs></rs> <supplied reason="lost">ταῖς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#itanos"><rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#hierapytna"><w lemma="πόλις">πόλεσι</w></rs></rs> ἀμφοτέραις τᾶι τε τῶν</supplied> <placeName ref="#itanos" type="ethnic"><supplied reason="lost">Ἰτα</supplied><lb 
+                                break="no" n="7"/><supplied reason="lost">νί</supplied>ων</placeName> καὶ τᾶι <unclear>τ</unclear><supplied reason="lost" cert="low">ῶν <placeName ref="#hierapytna" type="ethnic">Ἱαραπυτνίων</placeName> καὶ <w lemma="συνευδοκέω">συνευδοκήσηι</w></supplied> <persName type="ruler" key="Ptolemaios IV" ref="#egypt" cert="low"><supplied reason="lost"><w lemma="βασιλεύς">βασιλεὺς</w></supplied> <name nymRef="Πτολεμαῖος"><supplied reason="lost">Πτο</supplied><lb 
+                                break="no" n="8"/><supplied reason="lost">λ</supplied>εμαῖος</name></persName> <orig>αλ<unclear>λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἔσομαι δὲ</supplied>
+                            <lb n="9"/><w lemma="εὔνοος"><supplied reason="lost">ε</supplied>ὔνους</w> τὸν <supplied reason="lost">ἅπαντα χρόνον τοῖς <placeName ref="#hierapytna" type="ethnic">Ἱαραπυτνίοις</placeName> καὶ <w lemma="βοαθέω">βοαθήσω</w></supplied>
+                                                        <lb n="10"/><supplied reason="lost">τ</supplied><unclear>ο</unclear>ῖς <placeName ref="#hierapytna" type="ethnic">Ἱαραπυτ<supplied reason="lost">νίοις</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἁπλό</supplied><lb 
+                                break="no" n="11"/><corr>ω</corr>ς καὶ ἀδόλ<supplied reason="lost">ως ἐς τὸ δυνατὸν καὶ οὐ προλειψίω οὔτε ἐν πολέ</supplied><lb 
+                                break="no" n="12"/><unclear>μω</unclear>ι οὔτε ἐν ἰρή<supplied reason="lost">ναι, ἀλλὰ ἐμμενῶ ἐν τᾶι <w lemma="συμμαχία">συμμαχίαι</w> καὶ</supplied>
+                            <lb n="13"/><supplied reason="lost">τ</supplied>οῖς <w lemma="ὅρκος">ὅρκοις</w>· εἰ δ<supplied reason="lost">ὲ <w lemma="εὐορκέω">εὐορκίοιμι</w> καὶ τοὺς <w lemma="ὅρκος">ὅρκους</w> κατέχοιμι</supplied>
+                            <lb n="14"/><supplied reason="lost">τ</supplied><unclear>έκ</unclear>νων ὄνασ<supplied reason="lost">ιν γίνεσθαι καὶ γᾶν φέρειν καὶ πρόβατα εὐθη</supplied><lb 
+                                break="no" n="15"/><supplied reason="lost">νεῖν καὶ ἄλλα πολλὰ καὶ ἀγαθὰ γίνεσθαι</supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento restituisce la sezione conclusiva di un trattato di alleanza fra Itanos e Hierapytna, consistente nella parte finale del giuramento di Itanos. La città promette di fornire aiuto militare all’alleata, di non impegnarsi in altri giuramenti che possano invalidare quello presente e di non prendere altre iniziative sul fronte della politica estera (?) a patto che le due <foreign>poleis</foreign> non lo decretino congiuntamente. La menzione di un Tolemeo alle linee 7-8, inoltre, sembra vincolare la deliberazione delle due <foreign>poleis</foreign> in materia al consenso di un sovrano lagide, verosimilmente Tolemeo IV (sul <foreign>phrourion</foreign> tolemaico ad Itanos cf. <ref type="ins" target="#ic3_4_2"><title>IC</title> III 4 2-4</ref>, <ref type="ins" target="#ic3_4_9">9</ref>, <ref type="ins" target="#ic3_4_14">14</ref>, <ref type="ins" target="#ic3_4_18">18</ref>; cf. <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref> (?), <ref type="inst" target="#dokeo"><foreign>syndokeo</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1592">Reinach 1911</ref>, pp. 420-421 n. 5</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, pp. 1207-1208 n. 40</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 5 <ptr type="phi" target="200308"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 578</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 19 <ptr type="phi" target="201284"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1027">Kritzas 1994</ref></bibl>; 
+                            <bibl><ref target="#b1483">Parker 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

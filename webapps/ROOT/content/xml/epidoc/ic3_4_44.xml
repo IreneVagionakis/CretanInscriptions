@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica (?) degli <foreign>agoranomoi</foreign> di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 4 44</idno>
+                        <idno type="projectNo">375</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">155</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication" cert="low">dedica votiva?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0070">inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#gortyn" cert="low">ἐπὶ <persName type="attested" key="Pa- f. -"><name nymRef="Πα-">Πα<gap reason="lost" extent="unknown" unit="character"/></name> <supplied reason="lost">τῶ</supplied> <gap reason="lost" extent="unknown" unit="character"/></persName></rs> <supplied reason="lost">οἱ</supplied> <rs type="institution" subtype="board" role="dedicant" key="agoranomos" ref="#gortyn"><w lemma="ἀγορανόμος"><supplied reason="lost">ἀγορα</supplied><lb 
+                        break="no" n="2"/>νόμοι</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>τίδα Τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>Σατ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>Σατ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>Ξαν<gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, dapprima ritenuta di Itanos, è stata poi attribuita a Gortyna, città dalla quale provengono le uniche attestazioni cretesi degli <foreign>agoranomoi</foreign> (cf. <ref type="ins" target="#ic4_250"><title>IC</title> IV 250-254</ref>, <ref type="ins" target="#seg_51_1141"><title>SEG</title> 51.1141</ref>).
+                            La dedica, che si apre con una datazione eponimica menzionante verosimilmente un cosmo, è promossa dagli <foreign>agoranomoi</foreign> in carica – i nomi dei quali dovevano essere elencati alle linee 2-6 –, come il documento analogo <ref type="ins" target="#ic4_254"><title>IC</title> IV 254</ref> (mentre l’iniziativa delle dediche <ref type="ins" target="#seg_51_1141"><title>SEG</title> 51.1141</ref>, <ref type="ins" target="#ic4_250"><title>IC</title> IV 250</ref>, <ref type="ins" target="#ic4_252">252</ref> e forse <ref type="ins" target="#ic4_253">253</ref> è di un singolo ex <foreign>agoranomos</foreign>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agoranomos"><foreign>agoranomos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1592">Reinach 1911</ref>, pp. 422-424 n. 8</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 4 44 <ptr type="phi" target="200348"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib4"><title>IC</title> IV</ref> 255 <ptr type="phi" target="200697"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

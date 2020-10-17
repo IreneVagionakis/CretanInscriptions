@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di soldati cretesi (?) per il proprio <foreign>strategos</foreign> da Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 33</idno>
+                        <idno type="projectNo">235</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base" cert="low">base?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0160" notAfter="-0140">metà II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Seleukos f. Bithys"><supplied reason="lost"><name nymRef="Σέλευκος">Σέλευκον</name> <name nymRef="Βίθυς" type="patronymic">Βίθυος</name></supplied> <placeName ref="#alexandria" type="ethnic"><supplied reason="lost">Ἀλε</supplied>ξανδρέα</placeName></persName>, <supplied reason="lost">τὸν <w lemma="συγγενής">συγγενῆ</w></supplied> <persName type="ruler" key="Ptolemaios VI" ref="#egypt" cert="low"><w lemma="βασιλεύς"><supplied reason="lost">βασιλέως</supplied></w>
+                          <lb n="2"/><supplied reason="lost"><name nymRef="Πτολεμαῖος">Πτολεμαίου</name></supplied></persName> <supplied reason="lost">καὶ</supplied> <w lemma="στρατηγός"><supplied reason="lost">στρα</supplied>τηγὸν</w> <corr>τ</corr>ῶ<unclear>ν</unclear> <supplied reason="lost">κατὰ Κύπρον καὶ</supplied>
+                          <lb n="3"/><supplied reason="lost"><w lemma="ναύαρχος">ναύαρχον</w> καὶ ἀρχιερέα</supplied> οἱ ἐ<supplied reason="lost">ν</supplied> <placeName ref="#cyprus">Κύπ<supplied reason="lost">ρωι</supplied></placeName> <w lemma="στρατεύω"><supplied reason="lost">στρατευόμενοι</supplied></w>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀρετή"><supplied reason="lost">ἀρετῆς</supplied></w> ἕνεκεν <supplied reason="lost">καὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τῆς εἰς ἑαυτοὺς κ</supplied>αὶ εἰς <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="5"><note><supplied reason="lost">κ</supplied>αὶ εἰς <bibl><ref target="#bib106"><title>BE</title></ref></bibl>; <supplied reason="lost" cert="low">Κρητ</supplied>αιεῖς <bibl><ref target="#b1162">Magnelli</ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica onoraria, integrata da Louis Robert sulla base del personaggio attestato in <ref type="ins"><title>OGIS</title> 151</ref>, sembra essere stata promossa per il proprio superiore dai soldati cretesi di stanza a Cipro, similmente a quanto avviene in un documento analogo proveniente da Salamina di Cipro (<ref type="ins" target="#seg_30_1640"><title>SEG</title> 30.1640</ref>: τò κο[ινòν τῶν ἐν τῆι νήσωι] τασσομένων Κρητῶν). Non è da escludere che vi possa essere una connessione fra costoro ed il <foreign>koinon</foreign> cretese, come nel caso dei soldati inviati da questo ad Alessandria e a Cipro attestati in <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref> e <ref type="ins" target="#id_1518">1518</ref>: in tale circostanza non sarebbe fuori luogo l’integrazione [Κρητ]αιεῖς proposta da Adalberto Magnelli per la linea 5, che restituirebbe dunque la menzione del <foreign>koinon</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 33 <ptr type="phi" target="199301"/></bibl>;
+                            <bibl><ref target="#b1615">Robert 1939</ref>, pp. 153-154</bibl> (= <bibl type="main_edition"><ref target="#bib106"><title>BE</title></ref> 1939.310</bibl>);
+                            <bibl><ref target="#b1162">Magnelli 1994-1995</ref>, p. 47 nota 70</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 8</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

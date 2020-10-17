@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di <foreign>isopoliteia</foreign> fra Hierapytna e una comunità di suoi cittadini residenti ad Arkades</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 3 5</idno>
+                        <idno type="projectNo">486</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta, un tempo a Venezia</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#pillar">pilastro</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ων
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ὰν δ’ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#arkades"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#hierapytna"><w lemma="ἰσοπολιτεία">ἰσοπο<lb 
+                        break="no" n="3"/><supplied reason="lost">λιτείαν</supplied></w></rs></rs> <gap reason="lost" extent="unknown" unit="character"/>ον <w lemma="ἀγγράφω">ἀγγραψάντων</w>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐς</supplied> <w lemma="στάλα">στάλας</w> λιθίνας τρεῖς κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="5"/><supplied reason="lost"><w lemma="ἀνατίθημι">ἀνθέντων</w> τὰν μὲν ἐ</supplied>ν <placeName ref="#hierapytna">Ἱεραπύτναι</placeName> ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#hierapytna"><w lemma="ἱερόν">ἱερῶι</w> τᾶς <persName type="divine" key="Athena Polias">Ἀθανα<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">ας τᾶς Πολιάδος</supplied></persName></rs><supplied reason="lost">, τὰν</supplied> δὲ ἄλλαν οἱ <rs type="institution" subtype="social_status" role="inscriber" key="katoikos" ref="#hierapytna"><w lemma="κατοικέω">κατοικόντες</w></rs> <placeName ref="#hierapytna" type="ethnic">Ἱεραπύτνιοι</placeName>
+                          <lb n="7"/><supplied reason="lost">παρ’ <placeName ref="#arkades" type="ethnic">Ἀρκάσιν</placeName></supplied> ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#arkades"><w lemma="ἱερόν">ἱερῶι</w> τῶ <persName type="divine" key="Asklepios">Ἀσκλαπιῶ</persName></rs>, τὰν δὲ τρίταν κοινᾶι
+                          <lb n="8"/><supplied reason="lost"><placeName ref="#oleros">Ὠλεροῖ</placeName> </supplied> ἐν τῶι <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#oleros"><w lemma="ἱερόν">ἱερῶι</w> τᾶς <persName type="divine" key="Athena">Ἀθαναίας</persName></rs>· αἱ δέ τί κα <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#arkades"><w lemma="δοκέω">δόξηι</w></rs></rs> βωλευομέ<lb 
+                        break="no" n="9"/><supplied reason="lost">νο</supplied>ις ἐπὶ τῶι κοινᾶι συμφέροντι ἐπιδιορθῶσαι ἢ ἐξελε͂ν ἢ ἐν<lb 
+                        break="no" n="10"/>βαλε͂ν, <corr>ὅτι μὲν ἐξέλοιμεν</corr> μὴ <w lemma="ἔνορκος">ἔνορκον</w> ἔστω· ὅτι δὲ <w lemma="ἐγγράφω">ἐγ<corr>γ</corr>ράψαιμεν</w> <w lemma="ἔνορκος">ἔνορκόν</w> τε ἔστω καὶ
+                          <lb n="11"/>ἔνθινον. <space extent="unknown" unit="character"/> <w lemma="ὅρκος">ὅρκος</w>. <space extent="unknown" unit="character"/> <w lemma="ὀμνύω">ὀμνύω</w> τὰν <persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#arkades"><w lemma="Ἑστία">Ἑστίαν</w></rs></persName> καὶ <persName type="divine" key="Zeus Oratrios">Τῆνα Ὀράτριον</persName> καὶ <persName type="divine" key="Zeus Diktaios">Τῆνα
+                          <lb n="12"/><placeName ref="#dictaeum_fanum" type="ethnic">Δικταῖον</placeName></persName> καὶ <persName type="divine" key="Hera">Ἥραν</persName> καὶ <persName type="divine" key="Athena Oleria">Ἀθαναίαν <placeName ref="#oleros" type="ethnic">Ὠλερίαν</placeName></persName> καὶ <persName type="divine" key="Athena Polias">Ἀθαναίαν Πολιάδα</persName>
+                          <lb n="13"/>καὶ <persName type="divine" key="Athena Samonia">Ἀθαναίαν <placeName ref="#samonium_fanum" type="ethnic">Σαμωνίαν</placeName></persName> καὶ <persName type="divine" key="Apollo Pytios">Ἀπόλλωνα Πύτιον</persName> καὶ <persName type="divine" key="Lato">Λατὼ</persName> καὶ <persName type="divine" key="Artemis">Ἄρτε<lb 
+                        break="no" n="14"/>μιν</persName> καὶ <persName type="divine" key="Ares">Ἄρεα</persName> καὶ <persName type="divine" key="Aphrodite">Ἀφροδίταν</persName> καὶ <persName type="divine" key="Kouretes">Κωρῆτας</persName> καὶ <persName type="divine" key="Nymphai">Νύμφας</persName> καὶ τὸς <persName type="divine" key="Kyrbantes">Κύρβαν<lb 
+                        break="no" n="15"/>τας</persName> καὶ <w lemma="θεός">θεὸς</w> πάντας καὶ πάσας· ἦ μὰν ἐγὼ <w lemma="εὐνοέω">εὐνοησῶ</w> τοῖς ἐπί<lb 
+                        break="no" n="16"/>πασι <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτνίοις</placeName> τὸν ἅπαντα χρόνον ἁπλόως καὶ ἀδόλως καὶ
+                          <lb n="17"/>τὸν αὐτὸν <w lemma="φίλος">φίλον</w> καὶ ἐχθρὸν ἑξῶ καὶ <w lemma="πολεμέω">πολεμησῶ</w> ἀπὸ χώρας παντὶ
+                          <lb n="18"/>σθένει, υἷ καὶ οἱ ἐπίπαντες <placeName ref="#hierapytna" type="ethnic">Ἱεραπύτνιοι</placeName>, καὶ τὸ <w lemma="δίκαιος">δίκαιον</w> δωσῶ καὶ
+                          <lb n="19"/>ἐμμενῶ ἐν τοῖς συγκειμένοις καὶ οὐ κακοτεχνησῶ οὐθὲν τῶν
+                          <lb n="20"/>ἐν τᾶιδε τᾶι <rs type="institution" subtype="object" role="treaty-making" key="isopoliteia" ref="#arkades"><rs type="institution" subtype="object" role="treaty-making" key="isopoliteia" ref="#hierapytna"><w lemma="ἰσοπολιτεία">ἰσοπολιτείαι</w></rs></rs> <w lemma="γράφω">γεγραμμένων</w> οὔτε λόγωι οὔτε ἔργωι
+                          <lb n="21"/>οὐδὲ ἄλλωι ἐπιτραψῶ ἑκὼν καὶ <w lemma="γινώσκω">γινώσκων</w> παρευρέσει οὐδεμιᾶι
+                          <lb n="22"/>οὐδὲ τρόπωι οὐθενί. αἰ δέ τι <w lemma="ἐπιορκέω">ἐπιορκήσαιμι</w> τῶν <w lemma="ὀμνύω">ὤμοσα</w> ἢ τῶν <w lemma="συντίθημι">συνε<lb 
+                        break="no" n="23"/>θέμαν</w>, τός τε <w lemma="θεός">θεὸς</w> τὸς <w lemma="ὀμνύω">ὤμοσα</w> ἐμμάνιας ἦμεν καὶ ἐξόλλυσθαι
+                          <lb n="24"/>κακίστωι ὀλέθρωι καὶ μήτε γᾶν μήτε δένδρεα καρπὸς φέρεν μή<lb 
+                        break="no" n="25"/>τε <w lemma="γυνά">γυναῖκας</w> τίκτεν κατὰ φύσιν, τῶι τε πολέμωι <w lemma="νικάω">νικε͂σθαι</w>. <w lemma="εὐορκέω">εὐορ<lb 
+                        break="no" n="26"/>κῶσι</w> δὲ ἁμῖν τός τε <w lemma="θεός">θεὸς</w> ἱλέος ἦμεν καὶ γίνεσθαι πάντα ἀγαθά.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione conserva la sezione finale di un trattato di <foreign>isopoliteia</foreign> fra Hierapytna e una comunità di suoi cittadini residenti ad Arkades (ll. 6-7, οἱ κατοικόντες Ἱεραπύτνιοι [παρ’ Ἀρκάσιν]). La formula di esposizione, alle linee 3-8, prevede la collocazione di tre stele rispettivamente nel santuario di Atena <foreign>Polias</foreign> di Hierapytna (come per i trattati <ref type="ins" target="#ic3_3_3c"><title>IC</title> III 3 3</ref> C e <ref type="ins" target="#ic3_3_4">4</ref>), in quello di Asclepio di Arkades e in quello di Atena di Oleros. Il documento, inoltre, include una clausola che ammette la possibilità di sue successive modifiche, a patto che siano frutto della deliberazione congiunta da parte delle due comunità (ll. 8-11). Il resto del testo è occupato dal giuramento, che fra le numerose divinità invocate menziona Hestia, Zeus <foreign>Diktaios</foreign>, Atena <foreign>Oleria</foreign> e Atena <foreign>Samonia</foreign> (le ultime tre connesse con il <foreign>Dictaeum Fanum</foreign>, il santuario di Oleros e il <foreign>Samonium Fanum</foreign>) e che include l’impegno a rispettare quanto pattuito (ll. 11-26).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>, <ref type="inst" target="#katoikion"><foreign>katoikos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 2555</bibl>; 
+                            <bibl><ref target="#b273">Cauer 1883</ref>, n. 116</bibl>; 
+                            <bibl><ref target="#b488">Deiters 1904</ref>, pp. 18-23 n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5039</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 198</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 3 5 <ptr type="phi" target="200244"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 74</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib46"><title>EG</title></ref> IV, p. 226 (ll. 22-26)</bibl>; 
+                            <bibl><ref target="#b1602">Rigsby 1986</ref>, pp. 356-359</bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 61-63</bibl>; 
+                            <bibl><ref target="#b813">Guizzi 2001</ref></bibl>; 
+                            <bibl><ref target="#b615">Ferruti 2004</ref>, p. 285</bibl>;
+                            <bibl><ref target="#b575">Errington 2015</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

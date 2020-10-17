@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legenda monetaria di Hierapytna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Bile 116</idno>
+                        <idno type="projectNo">504</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#paris">Parigi</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#coin_legend">legenda monetaria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#coin">moneta</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0001">I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                                <lb n="1"/><rs type="institution" subtype="official" role="mintage" key="monetarius" ref="#hierapytna"><persName type="attested" key="Zenophilos"><name nymRef="Ζηνόφιλος">Ζηνόφιλος</name></persName></rs>.
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legenda restituisce il nome di uno dei magistrati monetari di Hierapytna, Zenophilos; altri individui aventi tale ruolo sono documentati a Hierapytna da <ref type="ins" target="#bile_117">Bile 117-119</ref> e <ref type="ins" target="#seg_29_827"><title>SEG</title> 29.827</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#monetarius">magistrato monetario</ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1072">Le Rider 1968</ref>, pp. 321-322 n. 7.1</bibl>; 
+                            <bibl><ref target="#b1289">Masson 1979</ref>, p. 75</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib13">Bile</ref> 116 <ptr type="phi" target="201465"/></bibl>; 
+                            <bibl><ref target="#b813">Guizzi 2001</ref>, p. 339</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

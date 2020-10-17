@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Arbitrato di Roma fra Lato e Olous</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Chaniotis, Verträge 54/56b</idno>
+                        <idno type="projectNo">541</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decisione arbitrale</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dera"><foreign>Aphrodision</foreign> di Dera</origPlace>
+                                    <origDate period="#hellenistic" when="-0113">113 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>ἀγαθᾶι <w lemma="τύχα">τύχαι</w>.
+                          <lb n="2"/><w lemma="ἀπόκριμα">ἀπόκριμα</w> τῶν ἐγ <placeName ref="#rome">Ῥώμης</placeName> πρειγευτᾶν, Κοΐντω Φαβίω Μαξίμω, Κοΐντω
+                          <lb n="3"/>υἱῶ, Γαΐω Φαννίω, Γαΐω υἱῶ, Ποπλίω Ῥοτιλίω, Ποπλίω υἱῶ, Κοΐντω Πλω<lb 
+                        break="no" n="4"/><supplied reason="lost">τ</supplied>ίω, <unclear>Α</unclear>ὔλω υἱῶ, Μαάρκω Δομετίω, Ποπλίω υἱῶ <w lemma="κρίμα">κρίματος</w>
+                          <lb n="5"/><rs type="institution" subtype="assembly" role="foreign_relations" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic"><unclear>Λ</unclear>ατίοις</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="foreign_relations" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName></rs> καὶ τῶι <rs type="institution" subtype="official" role="foreign_relations" key="hiereus" ref="#dera" cert="low"><w lemma="ἱαρεύς">ἱαρεῖ</w></rs>. <space extent="unknown" unit="character"/> ἡμεῖς ὃ <rs type="institution" subtype="assembly" role="judicial_procedure" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName></rs> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">ἔκριναν</w></rs>
+                          <lb n="6"/><placeName ref="#lato" type="ethnic"><unclear>Λα</unclear>τίοις</placeName> καὶ <placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName> διὰ ταύτην τὴν αἰτίαν εἰς ἀκέραιον ἀποκατεστήσ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="7"/><supplied reason="lost">μ</supplied>εν, ὅτι <w lemma="ὁμόλογος">ὁμόλογον</w> ἦν ἑκατέροις τοῦτο τὸ <w lemma="κρίμα">κρίμα</w> κατὰ τὸμ πόλεμον γεγ<unclear>ε</unclear>νη<lb 
+                        break="no" n="8"/>μένον, ὧι καιρῶι <placeName ref="#lato" type="ethnic">Λάτιοι</placeName> <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName>, <placeName ref="#olous" type="ethnic">Ὀλόντιοι</placeName> <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> <w lemma="σύμμαχος">σύμμαχοι</w> ἦσαν· ἵνα το<unclear>ῦ</unclear><lb 
+                        break="no" n="9"/>το τὸ πρᾶγμα ἐξ ἀκεραίων διακούσωμεν, ὃ <rs type="institution" subtype="object" role="decreeing" key="krima" ref="#knossos"><w lemma="κρίμα">κρίμα</w></rs> <rs type="institution" subtype="assembly" role="judicial_procedure" key="polisE" ref="#knossos"><placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName></rs>
+                          <lb n="10"/><placeName ref="#lato" type="ethnic"><supplied reason="lost">Λ</supplied>α<supplied reason="lost">τ</supplied>ίοις</placeName> καὶ <placeName ref="#olous" type="ethnic">Ὀλοντίοις</placeName> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">ἔκριναν</w></rs> περὶ τῆς χώρας· ἃ <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#olous"><w lemma="ὅριον">ὅρια</w></rs></rs> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#knossos"><w lemma="κρίνω">ἔκριναν</w></rs>, ταῦτα τὰ
+                          <lb n="11"/><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#olous"><w lemma="ὅριον">ὅρια</w></rs></rs> <w lemma="εὐδοκέω">εὐ<unclear>δο</unclear>κεῖ</w> ἑστηκότα εἶναι. ὁποτέροις δὲ ἐν <rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#lato"><rs type="institution" subtype="public_space" role="landmark" key="horos" ref="#olous"><w lemma="ὅριον">ὁρίοις</w></rs></rs> <rs type="institution" subtype="public_space" role="possession" key="hieron" ref="#dera"><w lemma="ἱερόν">ἱερὸν</w> <persName type="divine" key="Ares">Ἄρεος</persName> ἐν
+                          <lb n="12"/><supplied reason="lost">τ</supplied><unclear>ῆ</unclear>ι <placeName ref="#dera"><unclear>Δ</unclear><supplied reason="lost">ερ</supplied>αίαι</placeName></rs> ἐστὶν καὶ ἡ χώρα τούτου τοῦ <rs type="institution" subtype="public_space" role="possession" key="hieron" ref="#dera"><w lemma="ἱερόν">ἱεροῦ</w></rs>, ἐκείνου τοῦ <rs type="institution" subtype="social_group" role="owner" key="demos" ref="#lato"><w lemma="δῆμος">δήμου</w></rs>
+                          <lb n="13"/><w lemma="ἐπιμέλεια">ἐπιμέλειαν</w> <w lemma="δοκέω">δοκεῖ</w> εἶναι. <space extent="unknown" unit="character"/>
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’arbitrato romano fra Lato e Olous, apparenente ad una serie di documenti relativi ad uno scontro in corso fra le due seconde città nell’ultimo ventennio del II secolo a.C. (<ref type="ins" target="#ic1_16_3"><title>IC</title> I 16 3</ref>, <ref type="ins" target="#ic1_16_4"><title>IC</title> I 16 4</ref>; <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref>, <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>, <ref type="ins" target="#chaniotis_54-56b">54/56b</ref>, <ref type="ins" target="#chaniotis_54-56c">54/56c</ref>, <ref type="ins" target="#chaniotis_54-56d">54/56d</ref>; <ref type="ins" target="#ic1_16_18"><title>IC</title> I 16 18</ref>; cf. inoltre <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>), è iscritto sulla stessa stele dei testi <ref type="ins" target="#chaniotis_55b-56b">Chaniotis, <title>Verträge</title> 55B-56B</ref> e <ref type="ins" target="#chaniotis_54-56a">54/56a</ref>.</p>
+                    <p>Il documento, che si apre con un’espressione benaugurale, conserva l’<foreign>apokrima</foreign> di Quinto Fabio Massimo e degli altri quattro ambasciatori inviati da Roma, indirizzato alle collettività civiche di Lato e Olous e ad un sacerdote, verosimilmente quello responsabile del santuario di Dera (ll. 4-5).</p>
+                    <p>La commissione romana, intervenuta nella disputa in corso fra Lato e Olous, conferma quanto è già stato affermato nel giudizio emesso da Knossos in <ref type="ins" target="#chaniotis_54-56a">Chaniotis, <title>Verträge</title> 54/56a</ref> al tempo di una guerra fra Lato e Knossos da un lato e Olous e Gortyna dall’altro (nel 115 a.C. circa): nel documento, in particolare, viene riaffermata la validità dei confini stabiliti da Knossos, che comporta il controllo del santuario di Ares a Dera e del suo territorio da parte del <foreign>demos</foreign> – termine che pare impiegato come equivalente di <foreign>polis</foreign> – che li abbia all’interno dei propri confini.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <ref type="inst" target="#horos"><foreign>horos</foreign></ref>, <ref type="inst" target="#krima"><foreign>krima</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1878">Van Effenterre 1942</ref>, pp. 33-44 n. D</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 54/56b <ptr type="phi" target="201324"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 51/52</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

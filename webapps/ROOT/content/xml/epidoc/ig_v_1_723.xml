@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epigramma funerario per un soldato degli <foreign>Oreioi</foreign></title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IG V, 1 723</idno>
+                        <idno type="projectNo">077</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#sparta_museum">Museo archeologico di Sparta</repository>
+                        <idno type="invNo">417</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#sparta">Sparta</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0275" notAfter="-0250">275-250 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><seg met="–⏕–⏑⏑–⏕–⏑"><gap reason="lost" extent="unknown" unit="character"/></seg>ου εἷλε <placeName ref="#corinth">Κόρινθος</placeName>
+                        <lb n="2"/><seg met="–⏕–⏕–"><gap reason="lost" extent="unknown" unit="character"/></seg> <supplied reason="lost">ἐν συ</supplied>νόδοις ὀλόμαν
+                        <lb n="3"/><seg met="–⏕–⏕–"><gap reason="lost" extent="unknown" unit="character"/></seg> <rs type="institution" subtype="social_group" role="belonging" key="koinonE" ref="#oreioi"><w lemma="πατρίς"><supplied reason="lost">πατ</supplied>ρὶ<unclear>ς</unclear></w></rs> δέ μοί ἐστιν <placeName ref="#oreioi" type="ethnic">Ὀρειοί</placeName>
+                        <lb n="4"/><seg met="–⏕–⏕–"><gap reason="lost" extent="unknown" unit="character"/></seg> <supplied reason="lost">τοῖς ἐπ</supplied>ιγινομένοις <gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’epitaffio, probabilmente appartenente ad un mercenario morto a Corinto, mostra in modo inequivocabile come nel secondo quarto del III secolo a.C. la realtà istituzionale della confederazione degli <foreign>Oreioi</foreign> prevalga sul livello cittadino delle città che ne fanno parte quanto a percezione identitaria e senso di appartenenza. La provenienza del soldato, infatti, viene indicata mediante l’etnico collettivo federale Ὀρειοί anziché attraverso l’etnico civico della <foreign>polis</foreign> specifica di origine (come avviene invece nell’epitaffio del II secolo a.C. <ref type="ins"><title>BE</title> 1940.113</ref>, in cui il soldato si definisce cretese e cittadino di Hyrtakina: Διόδοτος Πάτρωνος Κρής Ὑρτακίνος).</p>
+                    <p>Emmanouil Mikrogiannakis, mettendo in relazione il luogo della morte del soldato con la battaglia di Corinto combattuta nel 265 a.C. nel corso della Guerra cremonidea, ipotizza una militanza del defunto nell’esercito di Areo I e, conseguentemente, una partecipazione degli <foreign>Oreioi</foreign> al conflitto nello stesso schieramento di Gortyna e forse Polyrrhenia ed Aptera (<bibl><ref target="#b1345">Mikrogiannakis 2000</ref></bibl>; cf. <ref type="ins"><title>IG</title> II<hi rend="superscript">3</hi> 1 912</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon1"><foreign>koinon ton Oreion</foreign></ref><hi rend="superscript">e</hi>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1631">Roehl 1876</ref>, pp. 233-234, n. 6</bibl>; 
+                    <bibl><ref target="#bib450">Kaibel, <title>EG</title></ref> 471a</bibl>; 
+                    <bibl><ref target="#b896">Hoffmann 1893</ref>, n. 177</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> V, 1 723 <ptr type="phi" target="31093"/></bibl>; 
+                    <bibl><ref target="#b2022">Wilhelm 1931</ref>, p. 94</bibl>; 
+                    <bibl><ref target="#b1490">Peek 1955</ref>, n. 2075</bibl>; 
+                    <bibl><ref target="#b226">Cairon 2009</ref>, n. 37</bibl>;
+                    <bibl><ref target="#b254">Capdeville 2011</ref>, p. 22</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1343">Mikrogiannakis 1982-1983</ref></bibl>; 
+                    <bibl><ref target="#b1344">Mikrogiannakis 1982-1984</ref></bibl>;
+                    <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 70d</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

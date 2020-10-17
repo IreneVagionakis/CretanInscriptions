@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza e <foreign>isopoliteia</foreign> fra Olous e Lyttos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 33.638</idno>
+                        <idno type="projectNo">427</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rhodes_museum">Museo archeologico di Rodi</repository> 
+                                <idno type="invNo">360</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#rhodos">Rodi</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0111" notAfter="-0110">111/110 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="ὅρκος">ὅ<supplied reason="lost">ρκος</supplied></w> <supplied reason="lost"><placeName ref="#lyttos" type="ethnic">Λυττίων</placeName></supplied>
+                          <lb n="2"/><w lemma="ὀμνύω">ὀμνύω</w> τὰν <persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#lyttos"><w lemma="Ἱστία">Ἱστίαν</w></rs></persName> κ<unclear>α</unclear><supplied reason="lost">ὶ</supplied> <persName type="divine" key="Zeus Kretagenias"><supplied reason="lost">Τῆν</supplied>α Κρητα<unclear>γ</unclear><supplied reason="lost">ενία</supplied></persName> <supplied reason="lost">καὶ <persName type="divine" key="Athena Polias">Ἀθαναίαν Πολιάδα</persName> καὶ</supplied> <persName type="divine" key="Zeus Bidatas"><supplied reason="lost">Τῆνα</supplied>
+                          <lb n="3"/><placeName ref="#idaeum_antrum" type="ethnic">Βιδάταν</placeName></persName> καὶ <persName type="divine" key="Zeus Tallaios">Τῆνα Ταλλαῖον</persName> καὶ <persName type="divine" key="Hera">Ἥραν</persName> κ<unclear>α</unclear><supplied reason="lost">ὶ <persName type="divine" key="Poseidon">Ποσειδᾶν</persName> καὶ <persName type="divine" key="Amphitrite">Ἀμφιτρίταν</persName></supplied>
+                          <lb n="4"/><persName type="divine" key="Apollo Pyttios">κἀπόλλωνα Πύττιον</persName> καὶ <persName type="divine" key="Lato">Λατὼν</persName> <persName type="divine" key="Artemis">κἄρταμιν</persName> κα<supplied reason="lost">ὶ <persName type="divine" key="Ares">Ἄρεα</persName> καὶ <persName type="divine" key="Aphrodite">Ἀφροδίταν</persName> καὶ</supplied> <persName type="divine" key="Hermes"><supplied reason="lost">Ἑρ</supplied><lb 
+                        break="no" n="5"/>μᾶν</persName> καὶ <persName type="divine" key="Kouretes">Κωρῆτας</persName> καὶ <persName type="divine" key="Nymphai">Νύμφας</persName> καὶ τὰν <persName type="divine" key="Britomarpis">Βριτόμα<supplied reason="lost">ρπιν</supplied></persName> <supplied reason="lost">καὶ τὸς ἄλλος <w lemma="θιός">θιὸς</w> πάν</supplied><lb 
+                        break="no" n="6"/>τας καὶ πάσας <space extent="unknown" unit="character"/> ἦ μὰν ἐγὼ ἐμμενίω ἐν τᾶι <supplied reason="lost"><w lemma="φιλία">φιλίαι</w> καὶ <w lemma="συμμαχία">συμμαχίαι</w> καὶ</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#lyttos"><w lemma="ἰσοπολιτεία"><supplied reason="lost">ἰσοπολι</supplied><lb 
+                        break="no" n="7"/>τείᾳ</w></rs> καὶ <w lemma="ἐπιγαμία">ἐπιγαμίαι</w> καὶ τοῖς ἄλλοις πᾶσι τοῖς ἐ<supplied reason="lost">ν τᾶι <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#lyttos"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#olous"><w lemma="συνθήκα">συνθήκαι</w></rs></rs> <w lemma="γράφω">γεγραμμένοις</w></supplied>
+                          <lb n="8"/>ἐς τὸν ἅπαντα χρόνον ἁπλόως καὶ ἀδόλως κ<supplied reason="lost">αὶ οὔ ποκα προλειψίω τὸς</supplied> <placeName ref="#olous" type="ethnic"><supplied reason="lost">Βολο</supplied><lb 
+                        break="no" n="9"/>εντίος</placeName> οὔτ’ ἐν πολέμωι οὔτ’ ἐν εἰρήναι καὶ βου<unclear>λ</unclear><supplied reason="lost">ευσίω τοῖς <placeName ref="#olous" type="ethnic">Βολοεντίοις</placeName> ὥσ</supplied><lb 
+                        break="no" n="10"/>περ ἐμὶν αὐτῶι ὑπέρ <unclear>τ</unclear>ε <w lemma="θῖνος">θ<unclear>ί</unclear>ν<unclear>ω</unclear>ν</w> <unclear>κ</unclear>’ <w lemma="ἀνθρώπινος">ἀνθρω<unclear>π</unclear><supplied reason="lost">ίνω</supplied>ν</w> καθεξ<unclear>ί</unclear><supplied reason="lost">ονσι τὸς <w lemma="ὅρκος">ὅρκος</w> καὶ οὐ κακοτεχνησίω</supplied>
+                          <lb n="11"/>καθώς κα <w lemma="συντίθημι">συνθιώμεθα</w> κα<supplied reason="lost">ὶ</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οὐκ ἐπιτραψίω πα</supplied><lb 
+                        break="no" n="12"/>ρευρέσει οὐδεμιᾶι καὶ ἐ<unclear>μμ</unclear><supplied reason="lost">ε</supplied>νίω ἐ<supplied reason="lost">ν το</supplied><unclear>ῖς</unclear> <unclear>σ</unclear>υνκε<supplied reason="lost">ι</supplied><unclear>μέ</unclear><supplied reason="lost">νοις <w lemma="ὅρκος">ὅρκοις</w> καθώς κα</supplied> <w lemma="συντίθημι"><supplied reason="lost">συνθι</supplied><lb 
+                        break="no" n="13"/>ώμεθα</w>· καὶ <w lemma="ὅρκος">ὅρκον</w> ἄλλον τούτ<supplied reason="lost">ῳ</supplied> κυριώ<unclear>τερ</unclear>ον οὐ <w lemma="τίθημι">θ<unclear>η</unclear>σίω</w>· <supplied reason="lost"><w lemma="εὐορκέω">εὐορκίοντι</w> μὲν ἦιμεν πολλὰ κἀγα</supplied><lb 
+                        break="no" n="14"/>θ<unclear>ά</unclear>, <w lemma="ἐφιορκέω">ἐφιορκίοντι</w> δὲ τὰ ἐναντία <space extent="unknown" unit="character"/> <w lemma="ὅρκος">ὅρκος</w> <placeName ref="#olous" type="ethnic">Βο<supplied reason="lost">λοεντίων</supplied></placeName> <supplied reason="lost">ὁ αὐτός</supplied>
+                          <lb n="15"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#lyttos"><w lemma="πρειγευτάς">πρε<corr>ι</corr>γευταὶ</w> <placeName ref="#lyttos" type="ethnic">Λυττίων</placeName> <persName type="attested" key="Chairylos f. Bisos"><name nymRef="Χαιρύλος">Χαιρύλος</name> <name nymRef="Βίσος" type="patronymic">Βίσω</name></persName></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#lyttos"><persName type="attested" key="Monas f. Aristias"><name nymRef="Μόνας">Μόνας</name> <name nymRef="Ἀριστίας" type="patronymic">Ἀρι<supplied reason="lost">στία</supplied></name></persName></rs><supplied reason="lost">,</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/>καὶ <placeName ref="#olous" type="ethnic">Βολοεντίων</placeName> <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#olous"><persName type="attested" key="Protarchos f. Protarchos"><name nymRef="Πρώταρχος">Πρώταρχος</name> <name nymRef="Πρώταρχος" type="patronymic">Πρωτάρχ<supplied reason="lost">ου</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La stele conserva parte della copia rodia del trattato fra Lyttos e Olous, noto anche da due altre iscrizioni rinvenute a Chersonesos ed Atene (<ref type="ins" target="#seg_61_722"><title>SEG</title> 61.722</ref> e <ref type="ins" target="#ic1_18_9"><title>IC</title> I 18 9</ref>). La sezione del documento restituita dalla copia rodia coincide sostanzialmente con il testo conservato sul lato B di quella di Chersonesos e alle linee C 4-16 di quella di Atene, comprendente il giuramento. All’invocazione divina (ll. 2-6), che menziona fra le numerose figure sacre Hestia, Zeus <foreign>Kretagenes</foreign> e Zeus <foreign>Bidatas</foreign>, fa seguito alle linee 6-13 la promessa di rispettare quanto previsto dal trattato, ovvero alleanza, amicizia, <foreign>isopoliteia</foreign> ed <foreign>epigamia</foreign> (cf. <ref type="ins" target="#seg_61_722"><title>SEG</title> 61.722</ref>, ll. B 14-37), e di non impegnarsi in altri giuramenti che possano invalidare quello presente.</p>
+                    <p>La copia rodia, diversamente dalle altre due versioni iscritte del trattato, conserva alle linee 15-16 il ricordo dei nomi degli ambasciatori inviati a Rodi dalle due città contraenti, almeno tre da Lyttos e due (?) da Olous.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1004">Kontorini 1983</ref>, pp. 29-42 n. 2</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 33.638 <ptr type="phi" target="192681"/> <ptr type="seg" target="a33_638"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 60B</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1970">Voutiras 1985</ref>, pp. 338-342</bibl> (<bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 37.698 <ptr type="phi" target="192682"/></bibl>); 
+                            <bibl><ref target="#b209">Brulé 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

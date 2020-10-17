@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example format for catalogue files. -->
+<catalogue xml:lang="it">
+  <message key="texts">Informazioni</message>
+  <message key="inscriptions">Iscrizioni</message>
+  <message key="catalogue">Catalogo</message>
+  <message key="search">Ricerca</message>
+  <message key="admin">Admin</message>
+  <message key="language">Lingua</message>
+  <message key="indices">Indici</message>
+  <message key="person_name">Onomastica</message>
+  <message key="prosopography">Prosopografia</message>
+  <message key="mentioned_places">Toponimi</message>
+  <message key="institutions">Istituzioni</message>
+  <message key="divinities">Divinità</message>
+  <message key="lemmata">Lemmi</message>
+  <message key="menu-language">Lingua</message>
+  <message key="places">Realtà politiche</message>
+  <message key="foreword">Il progetto</message>
+  <message key="the_inscriptions">Le iscrizioni</message>
+  <message key="political_entities">Le realtà politiche</message>
+  <message key="the_institutions">Le istituzioni</message>
+  <message key="a_complex_mosaic">Un complesso mosaico</message>
+  <message key="research_overview_and_prospects">Bilancio e prospettive della ricerca</message>
+  <message key="literary_sources">Le fonti letterarie</message>
+  <message key="bibliographic_references">Riferimenti bibliografici</message>
+  <message key="site_description">Una raccolta della documentazione epigrafica relativa alle istituzioni cretesi del periodo compreso tra il VII e il I secolo a.C., con approfondimenti sulle realtà politiche di Creta e sulle loro istituzioni</message>
+  <message key="facet-bibliographic_reference">Riferimento bibliografico</message>
+  <message key="facet-period">Periodo</message>
+  <message key="facet-area">Area</message>
+  <message key="facet-provenance">Provenienza</message>
+  <message key="facet-current_location">Collocazione attuale</message>
+  <message key="facet-inscription_type">Tipologia documentaria</message>
+  <message key="facet-support_type">Supporto</message>
+  <message key="facet-mentioned_places">Luoghi menzionati</message>
+  <message key="facet-mentioned_divinities">Divinità menzionate</message>
+  <message key="facet-mentioned_institutions">Istituzioni menzionate</message>
+  <message key="facet-type_of_mentioned_institutions">Tipologia delle istituzioni menzionate</message>
+  <message key="facet-sphere_or_role_of_mentioned_institutions">Ambito o ruolo delle istituzioni menzionate</message>
+</catalogue>

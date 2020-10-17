@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra di Dreros</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 15.564</idno>
+                        <idno type="projectNo">414</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (fr. sinistro); </repository> 
+                                <idno type="invNo"/>
+                                <altIdentifier> <repository ref="#lost">iscrizione perduta (fr. destro)</repository> <idno/></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge sacra</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros, tempio di Apollo <foreign>Delphinios</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0650" notAfter="-0600">650-600 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear> τ’ ὐπ<corr>ε</corr>ρμηρίδια, <w lemma="ὀμνύω">ὀμο̃<lb 
+                        break="no" n="2"/>νται</w> δ’ ἄπερ ἐν <w lemma="ὄρκιον">ὀρκίοισι</w>, α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="καθαρός">καθαρὸν</w> γένοιτο. <space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="1"><note>τ(ὰ) ὐπ<corr>ε</corr>ρμηρίδια <bibl><ref target="#b1905">Van Effenterre 1989a</ref></bibl>; τ<corr>ὰ</corr> πρ<corr>υτανή</corr>ια Jones in <bibl><ref target="#b1307">McDonald</ref></bibl>; <orig>τυπρμηριδια</orig> <foreign>lapis</foreign>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il frammento sembra appartenere ad una legge sacra di Dreros relativa a sacrifici e giuramenti; la lettura πρυτανήια alla linea 1, proposta da Tom Jones e piuttosto forzata, è definitivamente smentita dal parallelo cretese del termine ὐπερμηρίδια offerto dall’iscrizione di Eleutherna <ref type="ins" target="#seg_41_743"><title>SEG</title> 41.743</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: nessuno nello specifico.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1881">Van Effenterre 1946</ref>, pp. 602-603 n. 5</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 15.564 <ptr type="phi" target="201687"/> <ptr type="phi" target="201688"/> <ptr type="seg" target="a15_564"/> <ptr type="poinikastas" target="#"/></bibl>); 
+                            <bibl><ref target="#b1307">McDonald 1956</ref></bibl>; 
+                            <bibl><ref target="#b535">Duhoux 1982</ref>, pp. 114-118</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 7</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 10</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 287</bibl>;
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> Dr7</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1885">Van Effenterre 1961</ref>, pp. 544-546</bibl>; 
+                            <bibl><ref target="#b674">Gallavotti 1977</ref>, p. 135</bibl>; 
+                            <bibl><ref target="#b1905">Van Effenterre 1989a</ref>, pp. 448-449</bibl>; 
+                            <bibl><ref target="#bib26"><title>LSAG</title></ref>, p. 315 n. 1g</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Firma di uno scultore di Itanos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 3 31</idno>
+                        <idno type="projectNo">508</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta, un tempo a Venezia</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#signature">firma</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base di statua</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0145" notAfter="-0100">145-100 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>Δαμοκράτης Ἀριστομ<corr>ή</corr>δ<corr>εο</corr>ς
+                          <lb n="2"/><placeName ref="#itanos" type="ethnic">Ἰτάνιος</placeName> <rs type="institution" subtype="social_status" role="builder" key="epoikos" ref="#hierapytna"><w lemma="ἔποικος">ἔποικος</w></rs> <w lemma="ποιέω">ἐ<supplied reason="lost">ποίησεν</supplied></w>.
+                          </ab>
+                    </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="2"><note>ἔποικος ἐ<supplied reason="lost">ποίησεν</supplied> <bibl><ref target="#b1434">Overbeck</ref></bibl>; ἐποί<corr>η</corr>σε <bibl><ref target="#bib3"><title>IC</title></ref></bibl>; <orig>εποικοσε</orig> <foreign>lapis</foreign>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>L'iscrizione conserva la firma dell’artista che ha realizzato la statua per cui la base fungeva originariamente da sostegno. Lo scultore, Damokrates figlio di Aristomedes, è originario di Itanos e in quanto tale si presenta in qualità di ἔποικος, termine che sembra essere impiegato con il significato di «straniero (residente?)» e che a Creta è attestato anche nel trattato di alleanza fra Eleutherna e gli <foreign>Artemitai</foreign> <ref type="ins" target="#ic2_12_22"><title>IC</title> II 12 22</ref> (verosimilmente in riferimento agli individui appartenenti a quest’ultima comunità).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#epoikos"><foreign>epoikos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b720">Gruter 1707</ref>, p. MCXXXVI n. 5</bibl>; 
+                            <bibl><ref target="#bib116"><title>CIG</title></ref> 2602</bibl>; 
+                            <bibl><ref target="#b1434">Overbeck 1868</ref>, n. 2057</bibl>; 
+                            <bibl><ref target="#b911">Hirschfeld 1871</ref>, n. 82</bibl>; 
+                            <bibl><ref target="#b1126">Loewy 1885</ref>, n. 413</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5048</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 3 31 <ptr type="phi" target="200270"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b123">Beschi 1985</ref></bibl>; 
+                            <bibl><ref target="#b1380">Muller-Dufeu 2002</ref>, n. 2273</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

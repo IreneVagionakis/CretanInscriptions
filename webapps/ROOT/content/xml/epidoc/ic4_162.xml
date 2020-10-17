@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto di Gortyna sull’uso della monetazione bronzea</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 162</idno>
+                        <idno type="projectNo">354</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0250" notAfter="-0200">250-200 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός"><supplied reason="lost">θιοί</supplied></w>.
+                          <lb n="2"/><supplied reason="lost">τάδ’ <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#gortyn"><w lemma="ϝανδάνω">ἔϝαδε</w></rs> τ</supplied>ᾶ<unclear>ι</unclear> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις"><supplied reason="lost">πόλι</supplied></w></rs> <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#gortyn"><w lemma="ψαφίδδω"><unclear>ψα</unclear>φίδδονσι</w></rs> <rs type="institution" subtype="assembly" role="voter" key="triakatioi" ref="#gortyn"><w lemma="τριακάτιοι">τρια<lb 
+                        break="no" n="3"/><supplied reason="lost">κατίων</supplied></w> <supplied reason="lost">π</supplied><unclear>α</unclear>ριόντων</rs> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="νόμισμα">νομίσματι</w> χρῆτ<lb 
+                        break="no" n="4"/><supplied reason="lost">θα</supplied><unclear>ι</unclear> τῶι <w lemma="καυχός">καυχῶι</w> τῶι <w lemma="τίθημι">ἔθηκαν</w> ἁ <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις">πόλις</w></rs>· τὸδ
+                          <lb n="5"/>δ’ <w lemma="ὀδελός">ὀδελὸνς</w> μὴ δέκετθαι τὸνς <w lemma="ἀργύριος">ἀργυρίος</w>.
+                          <lb n="6"/>αἰ δέ τις δέκοιτο ἢ τὸ <w lemma="νόμισμα">νόμισμα</w> μὴ λείοι
+                          <lb n="7"/>δέκετθαι ἢ καρπῶ <w lemma="ὠνέομαι">ὠνίοι</w>, <w lemma="ἀποτίνω">ἀποτεισεῖ</w> <w lemma="ἄργυρος">ἀρ<lb 
+                        break="no" n="8"/>γύρω</w> πέντε <w lemma="στατήρ">στατῆρανς</w>. πεύθεν δὲ
+                          <lb n="9"/>πορτὶ τὰν <rs type="institution" subtype="board" role="judicial_procedure" key="neotas" ref="#gortyn"><w lemma="νεότας">νεότα</w></rs>, τᾶς δὲ <rs type="institution" subtype="board" role="judicial_procedure" key="neotas" ref="#gortyn"><w lemma="νεότας">νεότας</w></rs> <w lemma="ὀμνύω">ὀμν<lb 
+                        break="no" n="10"/>ύντες</w> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρινόντων</w></rs> <rs type="institution" subtype="board" role="judicial_procedure" key="hoi_hepta" ref="#gortyn">οἱ <w lemma="ἑπτά">ἑπτὰ</w></rs> κατ’ <rs type="institution" subtype="public_space" role="oath-taking" key="agora" ref="#gortyn"><w lemma="ἀγορά">ἀγοράν</w></rs>,
+                          <lb n="11"/>οἵ κα λάχωντι <w lemma="κλαρόω">κλαρώμενοι</w>. <w lemma="νικάω">νικῆν</w> δ’ ὅτε<lb 
+                        break="no" n="12"/>ρά κ’ οἱ πλίες <w lemma="ὀμνύω">ὀμόσοντι</w>, καὶ <w lemma="πράσσω">πράξαντες</w>
+                          <lb n="13"/>τὸν <w lemma="νικάω">νικαθέντα</w> τὰν μὲν ἡμίναν <supplied reason="lost">τῶι</supplied> <w lemma="νικάω"><supplied reason="lost">νι</supplied><lb 
+                        break="no" n="14"/><supplied reason="lost">κάσ</supplied><unclear>α</unclear>ντι</w> <unclear>δ</unclear>όντ<unclear>ω</unclear>ν, τ<unclear>ὰ</unclear>ν <unclear>δ</unclear>’ <unclear>ἡ</unclear>μίν<unclear>α</unclear>ν <supplied reason="lost">τᾶι <rs type="institution" subtype="assembly" role="receiving_fines" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs></supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, volto a regolare l’uso della monetazione gortynia, conserva una formula di sanzione dalla quale risulta come la deliberazione sia una responsabilità della sola <foreign>polis</foreign> (come in <ref type="ins" target="#ic4_165"><title>IC</title> IV 165</ref>, <ref type="ins" target="#ic4_231">231</ref>, <ref type="ins" target="#ic4_378">378</ref> e forse <ref type="ins" target="#ic4_195">195</ref>). La formula è immediatamente seguita dal riferimento ad una votazione a cui hanno preso parte trecento cittadini, numero che pare costituire un <foreign>quorum</foreign> e che a Gortyna ricorre in associazione ad un voto anche in <ref type="ins" target="#ic4_181"><title>IC</title> IV 181</ref> e <ref type="ins" target="#seg_38_900"><title>SEG</title> 38.900</ref> (una votazione è menzionata senza riferimento ai <foreign>triakatioi</foreign> anche in <ref type="ins" target="#ic4_78"><title>IC</title> IV 78</ref>, <ref type="ins" target="#ic4_181">181</ref>,  <ref type="ins" target="#ic4_378">378</ref> B e forse C e <ref type="ins" target="#seg_38_900"><title>SEG</title> 38.900</ref>).</p>
+                    <p>L’oggetto del decreto, che occupa le linee 3-14 del documento, informa dell’imposizione di moneta bronzea a Gortyna da parte della <foreign>polis</foreign> (ll. 3-4). Nel caso di contravvenzione di quanto previsto dal decreto ne deve essere informato il collegio della <foreign>neotas</foreign>, attestato solamente a Gortyna (anche in <ref type="ins" target="#ic4_163"><title>IC</title> IV 163</ref>-<ref type="ins" target="#ic4_164">164</ref>, <ref type="ins" target="#seg_58_986"><title>SEG</title> 58.986</ref> e <ref type="ins" target="#seg_48_1209"><title>SEG</title> 48.1209</ref>;  cf. <bibl><ref target="#b2028">Willetts 1954</ref></bibl>, <bibl><ref target="#b2053">Willetts 1981</ref></bibl>). Fra i suoi membri ne devono essere scelti per sorteggio sette, i quali sono tenuti ad emettere un giudizio sotto giuramento nell’<foreign>agora</foreign> e a riscuotere da coloro che perdono la causa la multa stabilita, da versare per metà ai vincitori, per metà verosimilmente alla <foreign>polis</foreign> (ll. 8-14).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref>, <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#hoi_hepta"><foreign>hoi hepta</foreign></ref>, <ref type="inst" target="#krino"><foreign>krino</foreign></ref>, <ref type="inst" target="#neotas"><foreign>neotas</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>triakatioi</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b842">Halbherr 1897</ref>, pp. 191-197 n. 19</bibl>; 
+                            <bibl><ref target="#bib516"><title>IJur.</title></ref> 32</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5011</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 525</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 162 <ptr type="phi" target="200601"/></bibl>; 
+                            <bibl><ref target="#b174">Bogaert 1976</ref>, n. 22</bibl>; 
+                            <bibl><ref target="#b550">Egea 1988</ref>, n. 72 (<foreign>non vidi</foreign>)</bibl>;
+                            <bibl><ref target="#b2071">Youni 2011</ref>, pp. 284-285</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 29</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1187">Manganaro 1978</ref>, pp. 228-229</bibl>; 
+                            <bibl><ref target="#b53">Austin 1981</ref>, n. 105</bibl>; 
+                            <bibl><ref target="#b2053">Willetts 1981</ref></bibl>; 
+                            <bibl><ref target="#b689">Gauthier 1990</ref>, p. 94</bibl>; 
+                            <bibl><ref target="#b1650">Ruzé 1997</ref>, pp. 113-114</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 443</bibl>; 
+                            <bibl><ref target="#b54">Austin 2006</ref>, n. 123</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

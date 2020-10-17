@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dediche onorarie di Knossos, Gortyna e Phaistos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG XI, 4 1132 B</idno>
+                        <idno type="projectNo">555</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#delos">Delos</repository> 
+                                <idno type="invNo">E 140</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">sei dediche onorarie</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#delos">Delos, presso il pritaneo</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="column" n="I">
+                        <ab>
+                          <lb n="1"/><unclear>ὁ</unclear> <unclear>δῆμος</unclear>
+                          <lb n="2"/>ὁ <gap reason="illegible" quantity="1" unit="character"/><orig>υ</orig><gap reason="illegible" quantity="4" unit="character"/>
+                          </ab>                            
+                            <ab>
+                                <lb n="3"/>ὁ <rs type="institution" subtype="assembly" role="dedicant" key="demos" ref="#gortyn"><w lemma="δῆμος">δῆ<supplied reason="lost">μος</supplied></w></rs>
+                                <lb n="4"/>ὁ <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName>
+                            </ab>
+                        </div>
+                        <div type="textpart" subtype="column" n="II">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ὁ δῆμος</supplied>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ω<unclear>τω</unclear>ι</orig><gap reason="illegible" quantity="1" unit="character"/>
+                          </ab>                            
+                            <ab>
+                                <lb n="3"/>ὁ <rs type="institution" subtype="assembly" role="dedicant" key="demos" ref="#knossos"><w lemma="δῆμος">δῆμος</w></rs>
+                                <lb n="4"/>ὁ <placeName ref="#knossos" type="ethnic">Κνωσίων</placeName>
+                            </ab>
+                        </div>
+                        <div type="textpart" subtype="column" n="III">
+                        <ab>
+                          <lb n="1"/><supplied reason="lost">ὁ δῆμος</supplied>
+                          <lb n="2"/>ὁ <placeName ref="#astypalaia" type="ethnic">Ἀσ<supplied reason="lost">τυπαλαιέων</supplied></placeName>
+                          </ab>                            
+                            <ab>
+                                <lb n="3"/>ὁ <supplied reason="lost"><rs type="institution" subtype="assembly" role="dedicant" key="demos" ref="#phaistos"><w lemma="δῆμος">δῆμος</w></rs></supplied>
+                                <lb n="4"/>ὁ <placeName ref="#phaistos" type="ethnic">Φαιστίων</placeName>
+                            </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>La lastra commemora più concessioni onorarie effettuate ad uno stesso individuo dal <foreign>demos</foreign> delle città menzionate, fra le quali figurano le cretesi Gortyna, Knossos e Phaistos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1638">Hatzfeld – Roussel 1910</ref>, p. 396</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> XI, 4 1132 B <ptr type="phi" target="63616"/></bibl>; 
+                            <bibl><ref target="#b577">Etienne 1981</ref>, p. 178 n. 5</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 31.721 <ptr type="seg" target="a31_721"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

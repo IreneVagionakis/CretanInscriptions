@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra (?) di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 416</idno>
+                        <idno type="projectNo">295</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law" cert="low">legge sacra?</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#imperial" notBefore="-0027" notAfter="-0001">27-1 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="fragment" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear>
+                          <lb n="1a"/><space quantity="1" unit="line"/>
+                          <lb n="2"/><foreign xml:lang="la"><gap reason="lost" extent="unknown" unit="character"/>os</foreign>
+                          <lb n="2a"/><space quantity="1" unit="line"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοῖ</supplied>ς <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#gortyn"><w lemma="κόσμος">κόρμοις</w></rs> τοῖ<unclear>ς</unclear>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ασστας γεν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ατα μην<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>αστο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><orig>α<unclear>σσ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>. ταυτᾶν τᾶν ἁμερᾶν ἄγεν αμ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τ</unclear>ας τῶν Σεβασστῶν ἀγομέν<unclear>α</unclear><supplied reason="lost">ς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ωμον τὸν <persName type="ruler" key="Augustus" ref="#rome"><name nymRef="Σεβασστός">Σεβασστὸν</name></persName> εν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied><unclear>οῦ</unclear> <persName type="ruler" key="Augustus" ref="#rome"><name nymRef="Σεβασστός"><unclear>Σεβ</unclear>ασστοῦ</name></persName> θ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>υ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6a"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="C">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>αντωσ<unclear>α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ου υἱοῦ κα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> ὑπὲρ τοῦ κ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <w part="I" lemma="στεφαν-"><supplied reason="lost">σ</supplied><unclear>τ</unclear>εφαν<gap reason="lost" extent="unknown" unit="character"/></w>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>σ<unclear>π</unclear>ω</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                         </ab>
+                        </div>
+                    <div type="textpart" subtype="fragment" n="D">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ω<unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ρω<unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="unknown" key="hiarorgos" ref="#gortyn"><w part="I" lemma="ἱαροργός"><supplied reason="lost">ἱ</supplied>αροργ<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ωναντι<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="ruler" key="Augustus" ref="#rome"><name nymRef="Σεβασστός"><supplied reason="lost">Σεβ</supplied>ασστοῦ</name></persName> κα<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="unknown" key="protokosmos" ref="#gortyn"><w lemma="πρωτόκοσμος"><supplied reason="lost">π</supplied>ρωτοκοσμ<gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="νικηφόρος"><supplied reason="lost">νι</supplied>κηφόρου</w> εὐ<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione, una bilingue greco-latina risalente al regno di Augusto, è possibile che conservi parte di una legge sacra o di un calendario sacrificale. Nel testo, infatti, sembra di poter individuare la menzione di un altare di Augusto (l. B 4) e riferimenti a sacrifici (?) che devono essere compiuti in precisi giorni (l. B 2, ταυτᾶν τᾶν ἁμερᾶν ἄγεν). In tali circostanze sono coinvolti  – forse come officianti –  più cosmi (l. A 3), uno o più <foreign>hiarorgoi</foreign> (l. D 3) e un protocosmo (l. D 6), termine che ha in questa iscrizione la sua più antica attestazione certa a Gortyna (il termine è integrato nel decreto onorario del tardo I secolo a.C. o primo I secolo d.C. <ref type="ins" target="#ic4_293"><title>IC</title> IV 293</ref>: [πρωτό]κοσμος).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#protokosmos"><foreign>protokosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 416 <ptr type="phi" target="200864"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

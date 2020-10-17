@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Praisos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 6 8</idno>
+                        <idno type="projectNo">536</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">214</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#siteia">Siteia</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0270">inizi III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#praisos"><w lemma="πολιτεία"><supplied reason="lost">π</supplied>ο<unclear>λ</unclear><supplied reason="lost">ιτε</supplied>ί<unclear>α</unclear><supplied reason="lost">ν</supplied></w></rs> <unclear>κ</unclear>αὶ <w lemma="ἔγκτησις">ἔ<supplied reason="lost">γκτη</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">σιν</supplied></w> <unclear>γ</unclear>ῆς καὶ οἰκίαν καὶ <w lemma="εἰσπλέω">εἴ<supplied reason="lost">σπλο</supplied><lb 
+                        break="no" n="3"/><supplied reason="lost">υ</supplied>ν</w> καὶ <w lemma="ἐκπλέω">ἔκπλουν</w> καὶ ἐμ πο<supplied reason="lost">λ</supplied><lb 
+                        break="no" n="4"/>έμωι καὶ ἐν εἰρήνηι <w lemma="ἀσυλεί">ἀσυλ<lb 
+                        break="no" n="5"/>εῖ</w> καὶ ἀσπονδεῖ· εἶναι δὲ τα<lb 
+                        break="no" n="6"/>ῦτα καὶ αὐτῶι καὶ <w lemma="ἔκγονος"><corr>ἐ</corr>κγόνοις</w>
+                          <lb n="7"/>εἰς τὸν ἅπαντα χρόνον.
+                          <lb n="8"/>ταῦτα δὲ <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#praisos"><w lemma="δοκέω">ἔδοξεν</w></rs> <rs type="institution" subtype="official" role="eponym" key="protokosmos" ref="#praisos">ἐπὶ <w lemma="προτόκοσμος">πρ<supplied reason="lost">ω</supplied><lb 
+                        break="no" n="9"/>τοκόσμου</w> <persName type="attested" key="Alkaios f. Kletonymos"><name nymRef="Ἀλκαῖος">Ἀλκαίου</name> τοῦ
+                          <lb n="10"/><name nymRef="Κλητώνυμος" type="patronymic"><unclear>Κ</unclear>λητωνύμου</name></persName></rs> καὶ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#praisos">τῶν ἄλ<lb 
+                        break="no" n="11"/>λων <w lemma="σύνκοσμος">συνκόσμων</w></rs>
+                          <lb n="12"/><rs type="institution" subtype="social_group" role="eponym" key="phyle" ref="#praisos"><w lemma="φυλά"><unclear>φ</unclear>υλᾶς</w></rs> <rs type="institution" subtype="tribe" role="eponym" key="Pharkaris" ref="#praisos"><w lemma="Φαρκαρίς">Φαρκαρίδος</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, mutilo superiormente, accorda ad un individuo e ai suoi discendenti più concessioni, fra cui la cittadinanza di Praisos (ll. 1-7). La datazione, associata al verbo proprio della formula di sazione ἔδοξεν, è insolitamente posta in calce al documento e commemora il protocosmo Alkaios figlio di Kletonymos ed i suoi colleghi della tribù <foreign>Pharkaris</foreign>, non attestata altrove. La definizione di protocosmo data al cosmo eponimo e quella di <foreign>synkosmoi</foreign> assegnata ai suoi colleghi è documentata anteriormente all’età imperiale solamente a Praisos, nel presente testo e nel decreto <ref type="ins" target="#ic3_6_7"><title>IC</title> III 6 7</ref> (cf. tuttavia i πρώτους κόσμους attestati in Caria nel II secolo a.C. da <ref type="ins" target="#seg_43_707"><title>SEG</title> 43.707</ref>; la menzione di un protocosmo forse di Priansos in <ref type="ins" target="#ad_1970_461">Lempesi 1970, p. 461</ref>, invece, è molto probabilmente di età imperiale).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#phyla"><foreign>phyle</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<ref type="inst" target="#politeia"><foreign>politeia</foreign></ref>), <ref type="inst" target="#protokosmos"><foreign>protokosmos</foreign></ref>, tribù (<ref type="inst" target="#pharkaris"><foreign>Pharkaris</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b760">Guarducci 1931</ref>, pp. 226-229 n. 2</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 6 8 <ptr type="phi" target="200364"/></bibl>; 
+                            <bibl><ref target="#b1755">Spyridakis 1989</ref>, pp. 105-106</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1017">Kristensen 2002</ref>, p. 68</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

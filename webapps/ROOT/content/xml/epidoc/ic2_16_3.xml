@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Lappa</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 16 3*</idno>
+                        <idno type="projectNo">081</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#lappa" type="ethnic">Λαππαίων</placeName>.
+                          <lb n="2"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lappa"><w lemma="δοκέω">ἔδοξε</w></rs> <placeName ref="#lappa" type="ethnic">Λαππαίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#lappa"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lappa"><w lemma="πόλις">πόλει</w></rs>· ἐπειδὴ
+                          <lb n="3"/>παραγενόμενοι πρεσβευταὶ παρὰ τοῦ δήμου τοῦ <placeName ref="#teos" type="ethnic">Τη<lb 
+                        break="no" n="4"/>ίων</placeName> Ἀπολλόδοτος Ἀστυάνακτος Κωλώτης Ἑκατω<lb 
+                        break="no" n="5"/>νύμου, ἐπελθόντες ἐπὶ τὴν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#lappa"><w lemma="ἐκκλησία">ἐκκλησίαν</w></rs> ἐνεφάνισαν
+                          <lb n="6"/>τήν τε <w lemma="οἰκειότης">οἰκειότητα</w> τὴν ὑπάρχουσαν <placeName ref="#lappa" type="ethnic">Λαππαίοις</placeName> πρὸς
+                          <lb n="7"/>αὐτούς, καὶ περὶ τῆς <w lemma="ἀσυλία">ἀσυλίας</w> τῆς τε πόλεως καὶ
+                          <lb n="8"/>τῆς χώρας <w lemma="παρακαλέω"><supplied reason="lost">παρεκάλ</supplied>εσα<supplied reason="lost">ν</supplied></w><supplied reason="lost">, ἔτι δὲ καὶ</supplied> τοῦ παρ’ <persName type="ruler" key="Antiochos III" ref="#seleukeia"><name nymRef="Ἀντίοχος">Ἀντιόχ<supplied reason="lost">ου</supplied></name>
+                          <lb n="9"/><supplied reason="lost">τοῦ <w lemma="βασιλεύς">βασιλέως</w></supplied></persName> <supplied reason="lost">πρεσβευτοῦ Ἀγησάν</supplied>δρου <w lemma="παρακαλέω">παρα<lb 
+                        break="no" n="10"/><supplied reason="lost">καλέσαντος</supplied></w> <supplied reason="lost">μετὰ πάσης <w lemma="σπουδή">σπουδῆς</w> καὶ</supplied> <w lemma="φιλοτιμία">φιλοτιμίας</w>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lappa"><w lemma="δοκέω">δε<lb 
+                        break="no" n="11"/><supplied reason="lost">δόχθαι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/><orig>ιαροι</orig>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><orig>θιε</orig><gap reason="lost" extent="unknown" unit="character"/><orig>υξου</orig><gap reason="illegible" quantity="1" unit="character"/><orig>οστι</orig><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀσυλία">ἀσυλία</w> <gap reason="illegible" quantity="1" unit="character"/><orig>λ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/><gap reason="lost" extent="unknown" unit="character"/><orig>χ</orig><gap reason="lost" extent="unknown" unit="character"/><orig>λλ</orig><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), risulta estremamente lacunoso nella sezione relativa al suo oggetto, della quale è chiaramente leggibile solamente il termine ἀσυλία. La sezione iniziale, invece, restituisce nella loro interezza le motivazioni del decreto, precedute dalla formula di sanzione (l. 2) e seguite da quella di mozione, di cui si è conservato solamente l’inizio del verbo δεδόχθαι (ll. 10-11). La formula di sanzione, completa, mostra i cosmi e la <foreign>polis</foreign> di Lappa quali responsabili della deliberazione, come avviene anche nel decreto onorario <ref type="ins" target="#ic2_16_7"><title>IC</title> II 16 7</ref> C; in tutti gli altri decreti della città, invece, è la <foreign>polis</foreign> a svolgere tale ruolo (cf. <ref type="ins" target="#ic2_16_4"><title>IC</title> II 16 4-6</ref>, <ref type="ins" target="#ic2_16_7">7</ref> A-B, <ref type="ins" target="#ic2_16_8">8</ref>). La sezione narrativa relativa alle motivazioni del decreto, inoltre, fornisce l’unica attestazione nota dell’esistenza di un’<foreign>ekklesia</foreign> a Lappa, che risulta essere responsabile dell’accoglienza degli ambasciatori teii.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 3056 (ll. 1-6)</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 68</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 16 3* <ptr type="phi" target="199970"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 13</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 143</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

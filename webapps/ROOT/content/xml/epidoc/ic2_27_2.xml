@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dedica onoraria di Lissos (?)</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 27 2</idno>
+                        <idno type="projectNo">070</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#sougia_byzantine">Sougia, rovine di una chiesa bizantina</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#unknown">sconosciuto</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#syia">Syia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><unclear>ἁ</unclear> <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#lissos"><w lemma="πόλις">πόλις</w></rs> <orig>απυχων</orig><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>La presenza del termine <foreign>polis</foreign> al nominativo porterebbe ad ipotizzare che l’iscrizione costituisca un frammento di una dedica, forse onoraria, che avrebbe potuto trovarsi sulla base di una statua. La città promotrice del documento è assai verosimilmente Lissos: una dedica onoraria rinvenuta nelle vicinanze dell’iscrizione in questione e risalente al I secolo d.C. reca infatti la scritta [Λι]σίων ἡ πόλις (<ref type="ins"><title>IC</title> II 27 1</ref>; cf. <bibl><ref target="#b73">Baldwin Bowsky 1995</ref>, p. 269</bibl>), dimostrando quindi la dipendenza del territorio di Syia alla <foreign>chora</foreign> della vicina Lissos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Ed.</emph> <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 27 2 <ptr type="phi" target="200188"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b73">Baldwin Bowsky 1995</ref>, p. 269</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

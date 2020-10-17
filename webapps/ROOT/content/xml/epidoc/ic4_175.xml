@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato fra Gortyna e Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 175</idno>
+                        <idno type="projectNo">303</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka">Agioi Deka, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0222" notAfter="-0189">222-189 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">σ</supplied>υναγάγαι ασ<lb 
+                           break="no" n="2"/><gap reason="lost" extent="unknown" unit="character"/>ε συναγάγαιεν
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ</supplied>ν <w lemma="ἐγράφω">ἠγραμμένον</w>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οἱ</supplied> <rs type="institution" subtype="board" role="fineable" key="kosmos" ref="#knossos"><rs type="institution" subtype="board" role="fineable" key="kosmos" ref="#gortyn"><w lemma="κόρμος"><supplied reason="lost">κό</supplied>ρμοι</w></rs></rs> ἢ οἱ <rs type="institution" subtype="board" role="fineable" key="synedros" ref="#koinon_kretaieon"><w lemma="σύνεδρος">σύνεδροι</w></rs>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">οἱ</supplied> <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#knossos"><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#gortyn"><w lemma="κορμέω"><supplied reason="lost">κορ</supplied>μίοντες</w></rs></rs> ἢ <rs type="institution" subtype="board" role="incumbent" key="synedros" ref="#koinon_kretaieon"><w lemma="συνεδρεύω">συνε<lb 
+                        break="no" n="6"/><supplied reason="lost">δρεύοντες</supplied></w></rs> <w lemma="ἀποτίνω"><supplied reason="lost">ἀποτεισ</supplied><unclear>άν</unclear>των</w> ϝέκαστος <w lemma="ἄργυρος">ἀρ<lb 
+                        break="no" n="7"/><supplied reason="lost">γύρω</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="δικάδδω"><supplied reason="lost">δικαδδέ</supplied>θθω</w> δὲ ὁ βωλόμε<lb 
+                        break="no" n="8"/><supplied reason="lost">νος</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#knossos"><rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκαν</w></rs></rs></supplied> <w lemma="ἀπρόδικος">ἀπρόδικον</w> κ’ ἀπάρ<lb 
+                        break="no" n="9"/><supplied reason="lost">βολον</supplied> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">μεν</supplied>ος προδέκατον ὅτε <placeName ref="#gortyn" type="ethnic">Γορ<lb 
+                        break="no" n="10"/><supplied reason="lost">τύνιος</supplied></placeName> <supplied reason="lost">τῶι</supplied> <placeName ref="#knossos" type="ethnic"><supplied reason="lost">Κνωσίωι</supplied></placeName> κὠ <placeName ref="#knossos" type="ethnic">Κνώσιος</placeName> τῶι <placeName ref="#gortyn" type="ethnic">Γορ<lb 
+                        break="no" n="11"/><supplied reason="lost">τυνίωι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>νς κὠ Γορτύνι<lb 
+                        break="no" n="12"/><supplied reason="lost">ος</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento sembra essere pertinente ad un trattato fra Gortyna e Knossos volto a regolare le procedure giudiziarie che interessano cittadini delle due <foreign>poleis</foreign>: di tale questione, infatti, trattano le linee 7-12, nelle quali viene prevista la possibilità di procedure abbreviate, senza processo preliminare né deposito (ἀπρόδικον κ’ ἀπάρ[βολον]; cf. <bibl><ref target="#b699">Genevrois 2017</ref>, p. 72</bibl>).</p>
+                    <p>Le linee 4-6 del documento, non necessariamente connesse alle clausole successive del testo, prevedono che in particolari circostanze i cosmi e i <foreign>synedroi</foreign> in carica paghino un’ammenda pecuniaria. Il passo è particolarmente significativo in quanto offre due delle tre occorrenze cretesi dei <foreign>synedroi</foreign>, altrimenti attestati solamente nel decreto del <foreign>koinon</foreign> cretese <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>, nel quale compaiono come promotori del documento (ll. 1-2: [ἔδοξ]ε τοῖς συνέδροις καὶ τῶ[ι κοινῶ]ι τῶν Κρηταιέων; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, pp. 443-444</bibl>). È verosimile, dunque, che anche nel presente documento il termine <foreign>synedroi</foreign> si riferisca ai membri di un’assemblea del <foreign>koinon</foreign> cretese, nella quale è probabile che esercitassero un certo peso le città di Gortyna e Knossos, che compaiono in una posizione dominante anche in <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>. Sebbene non sia da escludere che i termini siano da riferire alle procedure giuridiche trattate alle linee 7-12, è possibile che i verbi [σ]υναγάγαιεν e συναγάγαιεν (ll. 1-2) alludano a convocazioni del <foreign>synedrion</foreign> del <foreign>koinon</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dika"><foreign>dika</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#synedros"><foreign>synedros</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b877">Haussoullier 1885</ref>, pp. 17-18 n. 12</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5017</bibl>; 
+                            <bibl><ref target="#b2021">Wilhelm 1921</ref>, pp. 16-17</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 175 <ptr type="phi" target="200614"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 77</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

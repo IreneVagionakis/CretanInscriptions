@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lista di città cretesi che hanno stipulato accordi con Andros</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IG XII, 5 723 I-II</idno>
+                        <idno type="projectNo">557</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#andros_museum">Museo archeologico di Paleopolis, Andros</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#list">lista</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#andros">Andros</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="I">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></rs>.
+                          <lb n="2"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#chersonesos"><placeName ref="#chersonesos" type="ethnic">Λύττιοι οἱ πρὸς
+                          <lb n="3"/>θαλάσσηι</placeName></rs>.
+                          <lb n="4"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic">Λάτιοι</placeName></rs>.
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="II">
+                        <ab>
+                          <lb n="5"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lappa"><placeName ref="#lappa" type="ethnic">Λαππαῖ<surplus>ι</surplus>οι</placeName></rs>.
+                          <lb n="6"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#sybrita"><placeName ref="#sybrita" type="ethnic"><supplied reason="lost">Σ</supplied>υβρίτ<supplied reason="lost">ι</supplied>οι</placeName></rs>.
+                          <lb n="7"/><rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#lyttos"><placeName ref="#lyttos" type="ethnic">Λ<supplied reason="lost">ύ</supplied>ττιοι οἱ ἄν<supplied reason="lost">ω</supplied></placeName></rs>.
+                          <lb n="7a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il blocco conserva una lista di nomi di città che paiono aver stipulato accordi con Andros (verosimilmente relativi alla concessione dell’<foreign>asylia</foreign> a quest’ultima; cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, p. 589</bibl>), fra le quali figurano le <foreign>poleis</foreign> cretesi di Gortyna, Chersonesos (detta «Lyttos sul mare» in nome della <foreign>sympoliteia</foreign> vigente fra le due città; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 73</bibl>), Lato, Lappa, Sybrita e Lyttos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1964">Von Gärtringen 1903</ref>, pp. 462-464</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib6"><title>IG</title></ref> XII, 5 723 I-II <ptr type="phi" target="78067"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, p. 589</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 73d</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

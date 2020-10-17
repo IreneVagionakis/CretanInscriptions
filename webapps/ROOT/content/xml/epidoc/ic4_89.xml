@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Gortyna relativa a pagamenti</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 89</idno>
+                        <idno type="projectNo">275</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#classical" notBefore="-0450" notAfter="-0400">450-400 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δ</supplied>εκσάμενο<unclear>ν</unclear> δ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>δεν ἒ ὀ τᾶς θα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ς ἒ μὲ δέκσαι<supplied reason="lost">το</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">α</supplied>ἰ μὲ θάνατο<unclear>ς</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>οντι ϝεκαστο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ς κ’ αἴ κ’ ὀ το͂ <rs type="institution" subtype="official" role="unknown" key="xenios_kosmos" ref="#gortyn"><w lemma="κσένιος κόσμος">κσε<supplied reason="lost" cert="low">νίο κόσμο</supplied></w></rs>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear> καταστασ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="στατήρ">στατε͂ρανς</w> <unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐπ</supplied>ε<supplied reason="lost">λ</supplied>εύσαντ<unclear>α</unclear> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>κατοσ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12"/><gap reason="lost" extent="unknown" unit="character"/><orig>εκε</orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                        <p>
+                            <app loc="7"><note>κσε<supplied reason="lost" cert="low">νίο κόσμο</supplied> <bibl><ref target="#bib122"><title>Laws</title></ref></bibl> in apparato; κσε<supplied reason="lost" cert="low">νίο μνάμον</supplied> <bibl><ref target="#bib4"><title>IC</title></ref></bibl> in apparato; κσε<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, relativo a qualche tipo di pagamento, offre alla linea 7 la menzione di un funzionario definito come «dello <foreign>xenios</foreign>». Sulla base delle altre attestazioni gortynie di figure connesse a quella dello <foreign>xenios</foreign> è possibile ipotizzare che si tratti di uno <foreign>xenios kosmos</foreign>, attestato anche in <ref type="ins" target="#ic4_30"><title>IC</title> IV 30</ref>, <ref type="ins" target="#ic4_53">53</ref> e <ref type="ins" target="#ic4_78">78</ref>, sebbene in tali occorrenze il termine <foreign>xenios</foreign> sia impiegato in forma aggettivale, concordato con il sostantivo <foreign>kosmos</foreign>. Non è da escludere, pertanto, che possa trattarsi piuttosto di uno <foreign>mnamon</foreign> dello <foreign>xenios</foreign>, attestato in <ref type="ins" target="#ic4_72"><title>IC</title> IV 72</ref>, in cui il termine <foreign>xenios</foreign> è impiegato al genitivo con valore di sostantivo.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#xenios_kosmos"><foreign>xenios kosmos</foreign></ref> (?) o <ref type="inst" target="#mnamon"><foreign>xenios mnamon</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b379">Comparetti 1888b</ref>, p. 650 n. 5</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, p. 313 n. 158</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4996</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 89 <ptr type="phi" target="200527"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G89</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

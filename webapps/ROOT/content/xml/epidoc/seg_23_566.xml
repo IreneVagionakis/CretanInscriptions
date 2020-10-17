@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge sacra di Axos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.566</idno>
+                        <idno type="projectNo">123</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge sacra</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0330" notAfter="-0300">fine IV secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="onlooker" key="kosmos" ref="#axos"><w lemma="κοσμέω"><supplied reason="lost">κοσμιόντ</supplied>ων</w> παριόντω<supplied reason="lost">ν</supplied></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ταννατι<unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>ἐ</unclear>ν τῶι <rs type="institution" subtype="public_space" role="cult" key="naos" ref="#axos"><w lemma="ναός">να<supplied reason="lost">ῶι</supplied></w></rs>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/><orig>χ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>θαι μη<lb 
+                         break="no" n="6"/>δὲ θ<supplied reason="lost">έ</supplied>σθαι <supplied reason="lost">ἢ</supplied> <w lemma="θύω">θύσ<unclear>ησ</unclear><supplied reason="lost">θαι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πά</supplied><unclear>μ</unclear>ατα <w lemma="θῖνος">θῖνα</w> τὰ
+                          <lb n="7"/>ἐξ ἀπαρχᾶς δοθέν<unclear>τ</unclear><supplied reason="lost">α· μηδὲ ἕρπεν</supplied> <rs type="institution" subtype="social_status" role="exclusion" key="xenos" ref="#axos"><w lemma="χσένος"><supplied reason="lost">χσέ</supplied>νας</w></rs> ἢ <rs type="institution" subtype="social_status" role="sacrifices" key="astos" ref="#axos"><w lemma="ἀστός">ἀστὰς</w></rs> τῶι
+                          <lb n="8"/><persName type="divine" key="Pytios"><rs type="institution" subtype="public_space" role="prohibition" key="hieron" ref="#axos"><w lemma="Πύτιον">Πυτίω<unclear>ι</unclear></w></rs></persName>· υ<supplied reason="lost">ἷ</supplied> δεξαμένω, δέ<unclear>ο</unclear><supplied reason="lost">μεν τὸν</supplied> <rs type="institution" subtype="social_status" role="cult" key="astos" ref="#axos"><w lemma="ἀστός">ἀστὸν</w></rs> τιμαδὰ τὰν
+                          <lb n="9"/><rs type="institution" subtype="official" role="sacrifices" key="hiereus" ref="#axos"><w lemma="ἱάρηια">ἱάρηιαν</w></rs> ἐπαράσαμε<corr>ν</corr> <w lemma="θεός">θ<supplied reason="lost">ε</supplied>οῖ<unclear>ς</unclear></w> <supplied reason="lost">κ</supplied>αὶ <unclear>π</unclear>λίο<unclear>ν</unclear> δο<unclear>ῦμ</unclear>εν ϝοῖτα·
+                          <lb n="10"/><w lemma="θῖνος">θῖνα</w> <surplus>τα</surplus> <w lemma="ἀρχαῖος">τἀρχαῖα</w> <supplied reason="lost">ὅ</supplied>τ<corr>τ</corr>α <supplied reason="lost">ἦι</supplied> <unclear>θ</unclear>είη<unclear>ν</unclear> πάμα<unclear>τα</unclear> τὰ δοθέν<lb 
+                        break="no" n="11"/>τα ἐπαράσαμε<supplied reason="lost">ν</supplied>,<rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#axos"><persName type="attested" key="Sosokles"> <name nymRef="Σωσοκλῆς">Σωσοκλέος</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#axos"><persName type="attested" key="-nomos"><name nymRef="-νόμος"><gap reason="lost" extent="unknown" unit="character"/>νόμω</name></persName></rs>, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#axos"><persName type="attested" key="Ikeite-"><name nymRef="Ἰκειτε-">Ἰκειτε<lb 
+                        break="no" n="12"/><gap reason="lost" quantity="2" unit="character"/></name></persName></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#axos"><persName type="attested" key="Soarchos (1)"><name nymRef="Σόαρχος"><supplied reason="lost">Σο</supplied>άρχω</name></persName></rs> καὶ <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#axos"><persName type="attested" key="Tomokles"><name nymRef="Τομοκλῆς">Τομοκλέος</name></persName> <w lemma="κοσμέω"><supplied reason="lost">κ</supplied>οσμιόντωγ</w></rs> καὶ <rs type="institution" subtype="social_group" role="incumbent" key="phyle" ref="#axos"><w lemma="φυλά">φυλαῖς</w></rs> <placeName ref="#axos" type="ethnic">ϝα<lb 
+                        break="no" n="13"/><unclear>ξί</unclear>ων</placeName>, <rs type="institution" subtype="tribe" role="incumbent" key="Donokeis" ref="#axos"><w lemma="Δονοκεῖς">Δονοκεί<unclear>ω</unclear><supplied reason="lost">ν</supplied></w></rs>, <rs type="institution" subtype="tribe" role="incumbent" key="Latosioi" ref="#axos"><w lemma="Λατόσιοι">Λατοσ<supplied reason="lost">ί</supplied>ω<supplied reason="lost">ν</supplied></w></rs><supplied reason="lost">,</supplied> <rs type="institution" subtype="tribe" role="incumbent" key="s" ref="#axos"><w part="F" lemma="-ς" cert="low"><gap reason="lost" quantity="4" unit="character"/>ων</w></rs>· αἴ τις τᾶ<corr>ν</corr> νῦν <rs type="institution" subtype="board" role="cult" key="kosmos" ref="#axos"><w lemma="κοσμέω">κοσμιό<lb 
+                        break="no" n="14"/><supplied reason="lost">ντ</supplied>ων</w></rs> ἢ <rs type="institution" subtype="official" role="cult" key="apokosmos" ref="#axos"><w lemma="ἀπόκοσμος">ἀπόκοσμος</w></rs> τα<gap reason="illegible" quantity="4" unit="character"/><orig>ιλ</orig> ἢ ἀλλᾶι θείη τὰν ἱαρηί<lb 
+                        break="no" n="15"/>αν ἢ τὸ <rs type="institution" subtype="public_space" role="cult" key="temenos" ref="#axos"><w lemma="τέμενος">τέμενος</w></rs> <w lemma="ἀτελεί"><unclear>ἀ</unclear>τελεὶ</w> <surplus>το</surplus>, μὴ ἀκέσασθαι πρὶν τῶι
+                          <lb n="16"/><persName type="divine" key="Zeus Agoraios">Δηνὶ τῶι <rs type="institution" subtype="public_space" role="sacrifices" key="agora" ref="#axos"><w lemma="Ἀγοραῖος">Ἀγοραίωι</w></rs></persName> ἑκατὸ<unclear>μ</unclear> <unclear>β</unclear>οῦς <w lemma="καταθύω">καταθύσας</w>, πάρβιος
+                          <lb n="17"/>αὐτοῦ ἀβλοπίαι, <unclear>ὥς</unclear> τ’ ἐπὶ <rs type="institution" subtype="festivity" role="calendar" key="Pythia" ref="#axos"><w lemma="Πύτια">Πυτίο<surplus>οι</surplus>ις</w></rs> ταῖ<corr>ς</corr> <rs type="institution" subtype="social_group" role="sacrifices" key="hetaireia" ref="#axos"><w lemma="ἑταιρήια">ἑταιρηίαις</w></rs>
+                          <lb n="18"/>δαττάμενος, <w lemma="ἀρχήιος">τἀρχήιας</w> νιψάμενος· αἰ ἕρποι ἀλλᾶι δ<lb 
+                        break="no" n="19"/>έ, μὴ ἀκέσασθαι· ἔδωκαν δὲ ἄτεκνοι <corr>ὄ</corr>ντες κτούπων<corr>α</corr>
+                          <lb n="20"/>καινὰ τιμαδὰ σῴ<unclear>ζ</unclear>ουσι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#axos" cert="low"><w lemma="δᾶμος">δάμω</w></rs> <surplus>κτού<supplied reason="lost">πω</supplied>ν <supplied reason="lost">κ</supplied>αινὰ τιμαδά</surplus>·
+                          <lb n="21"/>ἐπιβα<surplus>α</surplus>λλούσας ταῦτα, μὴ ἀγαῖτε <unclear>π</unclear>ο<unclear>τὶ</unclear> <rs type="institution" subtype="association" role="cult" key="thiasos" ref="#axos"><w lemma="θίασος">θ<unclear>ί</unclear>α<unclear>σ</unclear>ον</w></rs> τῶι νυ<supplied reason="lost">χ</supplied><lb 
+                        break="no" n="22"/>τὸ παρ’ <w lemma="ἀρχαῖος">ἀρχαῖον</w> ἐπὶ τᾶι <w lemma="νεμονηία">ν<supplied reason="lost">εμο</supplied><unclear>ν</unclear>η<supplied reason="lost">ίαι</supplied></w> <supplied reason="lost">ἱαρ</supplied>ηίαν τῶ <persName type="divine" key="Pytios"><rs type="institution" subtype="public_space" role="prohibition" key="hieron" ref="#axos"><w lemma="Πύτιον">Πυ<lb 
+                        break="no" n="23"/>τίω</w></rs></persName>· <unclear>ὀ</unclear>ψῶι <w lemma="μείς">μηνὸ<unclear>ς</unclear></w> <rs type="institution" subtype="month" role="calendar" key="Ai" ref="#axos"><w lemma="Αι-" part="I"><orig>Α<unclear>ι</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig>σ</orig></w></rs><gap reason="illegible" quantity="4" unit="character"/>σθαι ἄλλῃ τὰν <surplus>ἄλλῃ τὰν</surplus>
+                          <lb n="24"/>ϝοικίαν τὸν σε<unclear>β</unclear><supplied reason="lost" cert="low">όμενον</supplied> τὰν ἱαρηίαν τοὺ<supplied reason="lost">ς</supplied> <rs type="institution" subtype="social_status" role="exclusion" key="xenos" ref="#axos"><w lemma="χσένος"><unclear>χ</unclear>σένας</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="12-13"><note>ϝα<unclear>ξί</unclear>ων <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; ϝαδόν <bibl><ref target="#b1904">Van Effenterre</ref></bibl>.</note></app>
+                    <app loc="13-14"><note>τᾶ<corr>ν</corr> νῦν κοσμιό<supplied reason="lost">ντ</supplied>ων <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; τὰ νῦν κοσμίων <bibl><ref target="#b1904">Van Effenterre</ref></bibl>.</note></app>
+                    <app loc="14"><note>τα<gap reason="illegible" quantity="4" unit="character"/><orig>ιλ</orig> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; τὰ <supplied reason="lost">πάμα</supplied><unclear>τα</unclear> <bibl><ref target="#bib511"><title>LSCG</title></ref></bibl>; <orig>τα<unclear>ν</unclear>νατιαν</orig> <bibl><ref target="#b1904">Van Effenterre</ref></bibl>.</note></app>    
+                    <app loc="15"><note><unclear>ἀ</unclear>τελεὶ <surplus>το</surplus> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; <unclear>ἐ</unclear>τέλ<unclear>ει</unclear>το <bibl><ref target="#bib511"><title>LSCG</title></ref></bibl>.</note></app>    
+                    <app loc="18"><note>τἀρχήιας <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; τὰς χεῖρας <bibl><ref target="#b1904">Van Effenterre</ref></bibl>.</note></app>
+                    <app loc="24"><note>ϝοικίαν <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>; ϝοικετείαν <bibl><ref target="#bib511"><title>LSCG</title></ref></bibl>.</note></app>                    
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il regolamento sacro di Axos è un documento tanto di grande interesse quanto di difficile comprensione. La sezione iniziale, piuttosto mal conservata, tratta di una qualche operazione che deve avvenire in presenza dei cosmi (l. 1) e che sembra avere a che fare con l’ingresso in un tempio (l. 3). Ad alcune indicazioni riguardanti dei sacrifici segue alle linee 7-8 il divieto – imposto sia alle donne cittadine che a quelle straniere – di entrare nel santuario del <foreign>Pythion</foreign>, verosimilmente solo in particolari circostanze. Le linee 8-9 si occupano nuovamente di sacrifici che i cittadini devono compiere verso più divinità, forse per mezzo di una sacerdotessa se il termine <foreign>hiareia</foreign> è da intendere in tal senso (così <bibl><ref target="#bib511"><title>LSCG</title></ref></bibl>, mentre Giacomo Manganaro lo interpreta come «offerte sacrificali»). Le linee 10-13 sembrano prescrivere l’esecuzione di riti antichi (θῖνα {τα} τἀρχαῖα) in un momento storico specifico, ovvero durante il cosmato di Sosokles, -nomos, Ikeites (?), Soarchos e Tomokles, ai quali devono prendere parte le tribù di Axos <foreign> Donokeis</foreign>, <foreign>Latosioi</foreign> e una terza terminante forse in <foreign>-s</foreign>. La clausola alle linee 13-16, particolarmente oscura, fornisce indicazioni su cosa debbano fare i cosmi in carica e gli ex cosmi (gli <foreign>apokosmoi</foreign>, sui quali cf. Papakonstantinou 1996) nel caso non abbiano compiuto correttamente quanto prescritto riguardo alle offerte sacrificali e ad un recinto sacro: in tale circostanza la legge vieta loro di purificarsi (?) prima di aver sacrificato cento buoi a Zeus <foreign>Agoraios</foreign> (sul cui culto cf. <bibl><ref target="#b28">Antonetti 2009</ref></bibl> e <bibl><ref target="#b734">Greco 2006</ref></bibl>), offerta che potrebbe essere identificabile con la <foreign>hekatonba ha megala</foreign> attestata ad Axos da <ref type="ins" target="#ic2_5_1"><title>IC</title> II 5 1</ref>. I cosmi o gli ex cosmi, inoltre, sono tenuti a distribuire le offerte sacrificate (?) fra le eterie in occasione delle feste <foreign>Pythia</foreign> (oppure come avviene abitualmente nei <foreign>Pythia</foreign>, ll. 17-18). La legge, a seguire, informa della consegna di nuovi κτούπωνα (?) da parte di coloro che sono senza figli – non è chiaro se fra i cosmi o ex cosmi o fra tutta la cittadinanza – ai salvatori del <foreign>damos</foreign>, che potrebbero ipoteticamente essere coloro che sono stati onorati dalla città come <foreign>euergetai</foreign> o <foreign>soteres</foreign> per mezzo di dediche o decreti (ll. 19-20). Sembra riferirsi ai cosmi o ex cosmi anche il divieto alle linee 21-23 di condurre ad un tiaso notturno le vittime sacrificali pertinenti al <foreign>Pythion</foreign> durante la luna nuova, andando contro le norme antiche. La prescrizione finale, alle linee 23-24, interessa esclusivamente gli stranieri, i quali sono tenuti ad effettuare delle consacrazioni sul finire di un mese iniziante per <foreign>Ai</foreign>-.</p>
+                    <p>Complessivamente, dal testo sembra emergere un ruolo piuttosto consistente svolto dai cosmi (o dagli ex cosmi) in ambito religioso: nella legge non compaiono infatti sacerdoti di alcun tipo, ad esclusione della possibile menzione di una <foreign>hiereia</foreign> alla linea 9, che comunque avrebbe la sola funzione di coadiuvare nell’ambito di un sacrificio effettuato dai cittadini.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agora"><foreign>agora</foreign></ref> (<foreign>Agoraios</foreign>), <ref type="inst" target="#apokosmos"><foreign>apokosmos</foreign></ref>, <ref type="inst" target="#astos"><foreign>astos</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, festività <ref type="inst" target="#pythia"><foreign>Pythia</foreign></ref>, <ref type="inst" target="#hetaireia"><foreign>hetaireia</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref> (<foreign>hiareia</foreign>), <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref> (<foreign>Pythion</foreign>), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#ai"><foreign>Ai-</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#temenos"><foreign>temenos</foreign></ref>, <ref type="inst" target="#thiasos"><foreign>thiasos</foreign></ref>, tribù (<ref type="inst" target="#donokeis"><foreign>Donokeis</foreign></ref>, <ref type="inst" target="#latosioi"><foreign>Latosioi</foreign></ref>, <ref type="inst" target="#s"><foreign>-s</foreign></ref>?), <ref type="inst" target="#xenos"><foreign>xenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1185">Manganaro 1966</ref>, pp. 11-18</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 23.566 <ptr type="phi" target="201764"/> <ptr type="phi" target="201765"/> <ptr type="phi" target="346458"/> <ptr type="seg" target="a23_566"/></bibl>); 
+                            <bibl><ref target="#bib511"><title>LSCG</title></ref> 3.145</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 34</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1904">Van Effenterre 1989</ref>, pp. 5-7</bibl>; 
+                            <bibl><ref target="#b1469">Papakonstantinou 1996</ref></bibl>; 
+                            <bibl><ref target="#b1650">Ruzé 1997</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

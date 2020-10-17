@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lista di caduti di Hierapytna ed epigramma funerario</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 39.967</idno>
+                        <idno type="projectNo">498</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos</repository> 
+                                <idno type="invNo">11682</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna, forte (?) di Vasiliki</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0125" notAfter="-0075">100 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><supplied reason="lost">Ὀ</supplied>νάσανδρος <unclear>α</unclear><gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="2"/>Ὑπεράνθης <unclear>Πάν</unclear><supplied reason="lost">σωνος,</supplied> <gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="3"/><unclear>Μ</unclear>ενίας <unclear>Λ</unclear>εύκω, Ἱ<unclear>με</unclear><supplied reason="lost">ραῖος</supplied> <gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="4"/>Φάλαρος Εὐθυτίμω, <unclear>Στ</unclear>α<gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="5"/>Εὐχ<supplied reason="lost">ρ</supplied><unclear>ή</unclear>στας Σταρτοπεί<supplied reason="lost">θιος,</supplied> <gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="6"/><unclear>Λ</unclear>ύ<supplied reason="lost">γ</supplied>ερος <unclear>Β</unclear>αναξάνδρω, Ἐλ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="7"/>Ἐ<supplied reason="lost">τ</supplied>εάνωρ <unclear>ν</unclear><gap reason="lost" quantity="4" unit="character"/><supplied reason="lost">, Ἀρ</supplied>ισ<supplied reason="lost">τώ</supplied>νυμος <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="8"/>Βείδυλο<supplied reason="lost">ς</supplied> Ἑ<supplied reason="lost">ρμ</supplied>αίω, <supplied reason="lost">Ἀρ</supplied>ισταγόρας <unclear>Μ</unclear><gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="9"/>Κα<unclear>λ</unclear><gap reason="illegible" quantity="1" unit="character"/>φ<unclear>ά</unclear>νης <gap reason="illegible" quantity="5" unit="character"/>ωνίω
+                          <lb n="10"/><supplied reason="lost">Ἡ</supplied>ρα<unclear>κλεί</unclear>δας Σ<supplied reason="lost">τ</supplied>ασία, Ἀγ<gap reason="lost" quantity="2" unit="character"/>ίων<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="11"/>Εὐθύδικος <gap reason="lost" quantity="5" unit="character"/><unclear>ατ</unclear>ιος, Ἄσ<unclear>β</unclear>α<supplied reason="lost">ντος</supplied> <gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="12"/>Λίβυς <supplied reason="lost">Β</supplied><unclear>έ</unclear>ργιος, Ε<unclear>ὐχρήστα</unclear>ς <supplied reason="lost">Κ</supplied>α<unclear>υ</unclear>σί<supplied reason="lost">λω</supplied>,
+                          <lb n="13"/>Λεῦκος <unclear>Μ</unclear>ενία, <gap reason="lost" quantity="10" unit="character"/>μος <unclear>Λε</unclear><supplied reason="lost">ύκω</supplied>,
+                          <lb n="14"/>Εὐβέτης Ν<supplied reason="lost">έων</supplied>ο<supplied reason="lost">ς,</supplied> <gap reason="lost" extent="unknown" unit="character"/>ς Ὀρ<gap reason="lost" extent="unknown" unit="character"/>,
+                          <lb n="15"/>Καλλιφάνης Ἀπολλωνίω <space extent="unknown" unit="character"/>
+                          <lb n="16"/>Σεμνὸν Α<gap reason="lost" quantity="4" unit="character"/>δρᾶμα. <unclear>ὑποστηλαι</unclear> παν<gap reason="illegible" quantity="1" unit="character"/>ε.
+                          <lb n="17"/><rs type="institution" subtype="board" role="defense" key="oros" ref="#hierapytna"><w lemma="ὦρος"><unclear>ὠροι</unclear></w></rs> <gap reason="illegible" quantity="2" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><orig>ιν</orig><gap reason="illegible" quantity="3" unit="character"/> <w lemma="ἵστημι">ἔστασαν</w> α<gap reason="illegible" quantity="2" unit="character"/><seg met="-⏑⏑–⏑⏑–"><gap reason="lost" extent="unknown" unit="character"/></seg> <supplied reason="lost"><space extent="unknown" unit="character"/></supplied>
+                          <lb n="18"/><rs type="institution" subtype="board" role="defense" key="preigistos" ref="#hierapytna">οἰ μετ’ <persName type="attested" key="Onasandros"><name nymRef="Ὀνάσανδρος">Ὀνασάνδρ<corr>ω</corr></name></persName></rs> αν<gap reason="illegible" quantity="1" unit="character"/><seg met="-–⏑⏑–⏑⏑"><gap reason="lost" extent="unknown" unit="character"/></seg> ἐσθλῷ
+                          <lb n="19"/><rs type="institution" subtype="board" role="defense" key="preigistos" ref="#hierapytna"><w lemma="πρείγιστος"><supplied reason="lost">π</supplied>ρείγιστοι</w></rs> συ<gap reason="lost" quantity="3" unit="character"/>αν σ<unclear>ὺν</unclear> <unclear>κ</unclear>υ<unclear>σ</unclear>ὶ θηροφόνοι<unclear>ς</unclear>
+                          <lb n="20"/><supplied reason="lost">ἰ</supplied>χνευτα<unclear>ὶ</unclear> γιν<seg met="-⏑–⏑⏑–⏑⏑–⏑⏑–⏑"><gap reason="lost" extent="unknown" unit="character"/></seg>
+                          <lb n="21"/><rs type="institution" subtype="board" role="defense" key="oros" ref="#hierapytna"><w lemma="ὦρος"><supplied reason="lost">ὤ</supplied>ρους</w></rs> κα<unclear>β</unclear><supplied reason="lost">βα</supplied><unclear>σ</unclear>ί<supplied reason="lost">ους</supplied> <w lemma="τίθημι"><supplied reason="lost">θῆκ</supplied>αν</w> ἐν <w lemma="εὐτυχία">εὐτυχίαι</w>. <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La stele, rinvenuta sul confine settentroniale del territorio di Hierapytna, conserva alle linee 1-15 una lista di caduti della città, indicati attraverso il nome e il patronimico (cf. il monumento funerario di Polyrrhenia per i propri caduti <ref type="ins" target="#ipolyr_23"><title>I.Polyr.</title> 23</ref>). L’elenco è seguito alle linee 16-21 da un epigramma che commemora la circostanza della morte degli individui, sopravvenuta mentre costoro si trovavano a presidiare la frontiera in qualità di sentinelle; al gruppo di giovani <foreign>oroi</foreign>, guidati da Onasandros, sembra essere sopraggiunto in soccorso un drappello di <foreign>preigistoi</foreign>, termine che in questo contesto è probabile che si riferisca a soldati più anziani e non agli omonimi magistrati (noti invece a Lato, Olous, Gortyna, Biannos e Soulia; cf. <bibl><ref target="#b813">Guizzi 2001</ref>, p. 333</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#oros"><foreign>oros</foreign></ref>, <ref type="inst" target="#preigistos"><foreign>preigistos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1922">Van Effenterre – Van Effenterre 1989</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 39.967 <ptr type="phi" target="202064"/> <ptr type="seg" target="a39_967"/></bibl>); 
+                            <bibl><ref target="#b813">Guizzi 2001</ref>, pp. 332-334</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 41</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

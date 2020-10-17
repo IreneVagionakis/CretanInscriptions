@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreto di una città di Creta occidentale relativo ad Atene</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 30 3*</idno>
+                        <idno type="projectNo">078</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#athens_epigraphic_museum">Museo Epigrafico, Atene</repository>
+                        <idno type="invNo">EM 7735</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#athens">Atene</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0170">inizi II secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>σ</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig><unclear>σ</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig>λ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">Λυσικλῆν</supplied> καὶ Θράσιππον Καλλ<supplied reason="lost">ί</supplied>α <placeName ref="#athens" type="ethnic">Ἀθηνα<supplied reason="lost">ίος</supplied></placeName>
+                        <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ον, <placeName ref="#athens" type="ethnic">Ἀθαναίος</placeName> δὲ ὁπεῖ αὐτ<supplied reason="lost">ο</supplied>ὶ νομίζο<supplied reason="lost">ντι</supplied>
+                        <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ιε τᾶς <w lemma="πόλις">πόλιος</w> πορτ<supplied reason="lost">ὶ</supplied> τὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#unknown"><w lemma="πόλις">πόλιν</w></rs> <w lemma="οἰκε-" part="I">οἰκε<lb 
+                            break="no" n="5"/><gap reason="lost" extent="unknown" unit="character"/></w> <supplied reason="lost">ἐ</supplied>ξεῖμεν μήδιμι τὰν <placeName ref="#athens">Ἀτ<unclear>τ</unclear>ι<unclear>κ</unclear>ὰν</placeName> ἄγεν
+                        <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> ἐπὶ δ<unclear>ω</unclear>δ<gap reason="lost" quantity="3" unit="character"/>τοις εἰς τὰς τῶν <placeName ref="#athens" type="ethnic">Ἀθαναίων</placeName> ἀπο<lb 
+                        break="no" n="7"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="application_of_the_law" key="kosmos" ref="#unknown"><w lemma="κοσμέω"><supplied reason="lost">κοσ</supplied>μί<corr>ο</corr>ντ<supplied reason="lost">ι</supplied></w></rs> ἐξ<supplied reason="lost">έσ</supplied>τω ἀ<supplied reason="lost">φαι</supplied>λῆσθαι τῶι βωλομένῳ
+                        <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> τὸνς ἀδικ<supplied reason="lost">ί</supplied>οντας ὑποδίκονς πορτὶ τὸ διπλόον
+                        <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὸ</supplied> <w lemma="ἀργύριον"><supplied reason="lost">ἀργύ</supplied>ριον</w> ἰν ἁμέρ<supplied reason="lost">α</supplied>ις τρισίν, ταῖς δὲ <rs type="institution" subtype="social_status" role="regulation" key="perioikos" ref="#unknown"><w lemma="περίοικος">περιοίκοις</w></rs> ἰν
+                        <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ον <w lemma="πράσσω">πράσσοντας</w> ταῖς <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#unknown"><w lemma="συνθήκα">συνθήκαις</w></rs> ταῖς τῶν <w lemma="σύμμαχος">συμ<lb 
+                        break="no" n="11"/><supplied reason="lost">μάχων</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">εἶμεν δὲ</supplied> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#unknown"><w lemma="πρόξενος"><supplied reason="lost">προξέ</supplied>νονς</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#unknown"><w lemma="οὐεργέτας">οὐεργέ<supplied reason="lost">τα</supplied>νς</w></rs> τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#unknown"><w lemma="πόλις">πόλιος</w></rs> <persName type="honoured" key="Lysikles f. Kallias" ref="#athens" cert="low"><name nymRef="Λυσικλῆς">Λυσικλῆν</name></persName> καὶ
+                        <lb n="12"/><persName type="honoured" key="Thrasippos f. Kallias" ref="#athens"><name nymRef="Θράσιππος"><supplied reason="lost">Θράσιππον</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">α</supplied>ὐτὸν<corr>ς</corr> καὶ <w lemma="γένος">γένος</w>. <space extent="unknown" unit="character"/>
+                        <lb n="13"/><gap reason="lost" extent="unknown" unit="character"/> πρεσγευτάνς συγκεκλειμένονς ἐν τᾶι <placeName ref="#oreioi">Ὀρεί<lb 
+                        break="no" n="14"/><supplied reason="lost" cert="low">αι</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ὑπερεδώκ</supplied>αμεν αὐτῶν ὅσον ἤιτουν οἱ κατέχοντες αὐ<supplied reason="lost">τ</supplied><lb 
+                        break="no" n="15"/><supplied reason="lost">όνς</supplied> <gap reason="lost" extent="unknown" unit="character"/>ων <w lemma="πρόγονος">προγόνων</w> <w lemma="ξένια">ξένια</w> κατ’ ἰδίαν ἐδίδομεν
+                        <lb n="16"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πρεσγεύω"><supplied reason="lost">πρ</supplied>εσγεύοντας</w> δημοσίαι παρωφελῆσθαι
+                        <lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>ροίτιμος γὰρ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polites" ref="#unknown"><w lemma="πολίτας">πολίτας</w></rs> ἁμὸς
+                        <lb n="18"/><gap reason="lost" extent="unknown" unit="character"/>των ἁμῖν καὶ ἀξιώσαντος.
+                        <lb n="18a"/><space quantity="1" unit="line"/>
+                        <lb n="19"/><gap reason="lost" extent="unknown" unit="character"/>λεος ποτὶ τὰν
+                        <lb n="20"/><gap reason="lost" extent="unknown" unit="character"/><orig>ν</orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>τ</unclear>οσ</orig>
+                        <lb n="21"/><gap reason="lost" extent="unknown" unit="character"/><orig>τω</orig>
+                        <lb n="22"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig>
+                        <lb n="22a"/><gap reason="lost" quantity="1" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="4-5"><note>οἰκε<gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; οἰκε<supplied reason="lost" cert="low">ιότατα</supplied> <bibl><ref target="#b1475">Papazarkadas – Thonemann</ref></bibl>.</note></app>
+                    <app loc="13-14"><note>ἐν τᾶι Ὀρεί<supplied reason="lost" cert="low">αι</supplied> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; ἐν τᾶι ὀρει<supplied reason="lost" cert="low">νᾶι</supplied> <bibl><ref target="#b1475">Papazarkadas – Thonemann</ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>La stele conserva parte di tre documenti di una città cretese, che dal dialetto impiegato parrebbe essere dell’area centro-occidentale (Axos o Eleutherna in <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 313</bibl>) o centrale dell’isola (cf. <bibl><ref target="#b1475">Papazarkadas – Thonemann 2008</ref>, p. 83</bibl>). Il primo documento, che occupa le linee 1-12 del frammento, consiste nella sezione finale di un decreto onorario per due fratelli ateniesi, Lysikles e Thrasippos, che vengono dichiarati prosseni ed evergeti della <foreign>polis</foreign> cretese in questione assieme alla propria discendenza. Oltre alle concessioni individuali effettuate agli individui onorati, il decreto prevede inoltre il divieto ai propri cittadini di depredare l’Attica, forse in nome di una <foreign>oikeiotas</foreign> fra la città ed Atene. Il testo che segue, riguardante le sanzioni da applicare a chi contravvenga a quanto stabilito, menziona un cosmo – che pare implicato nel far rispettare la legge – e dei trattati relativi a degli alleati; non è chiaro tuttavia chi siano i <foreign>symmachoi</foreign> né di quale delle due città siano alleati. Il passo fornisce inoltre l’unica attestazione epigrafica dei perieci cretesi (l. 9), noti altrimenti solamente da Aristotele (<ref type="lit" target="#AristPol">Arist. <title>Pol.</title> ΙΙ 1271b</ref>; cf. <bibl><ref target="#b783">Guarducci 1936</ref></bibl>; è possibile tuttavia che dei perieci siano menzionati anche in <ref type="ins" target="#ic4_65"><title>IC</title> IV 65</ref>).</p>
+                <p>Il testo alle linee 13-18 sembrerebbe essere l’estratto di una lettera, probabilmente la missiva che accompagnava il decreto inviato dalla città cretese ad Atene, nel quale viene narrato il riscatto da parte della prima di alcuni ambasciatori ateniesi, imprigionati e rinchiusi a Creta nell’<foreign>Oreia</foreign> (?). Sebbene non sia da escludere la più generica integrazione ἐν τᾶι ὀρει[νᾶι], «nelle montagne» (cf. <bibl><ref target="#b1475">Papazarkadas – Thonemann 2008</ref>, p. 83</bibl>), sembra tuttavia preferibile la lettura ἐν τᾶι Ὀρεί[αι], supportata dai paralleli costituiti dalle definizioni territoriali ἐπὶ τ[ὰ]ν Ὀρείαν in <ref type="ins" target="#ic2_17_1"><title>IC</title> II 17 1</ref> e ἐπὶ τῆς Ὀρείας in Teofrasto (<ref type="lit">Theophr. <title>hist.plant.</title> II 2.2</ref>). La regione degli <foreign>Oreioi</foreign>, dunque, ancora agli inizi del II secolo a.C. si mostra come un territorio coeso, in cui il legame confederale prevale sulla singolarità delle città che ne fanno parte (cf. <ref type="ins" target="#ic2_17_1"><title>IC</title> II 17 1</ref>, <ref type="ins" target="#ig_v_1_723"><title>IG</title> V, 1 723</ref>).</p>
+                    <p>Alla narrazione dell’episodio della liberazione segue il ricordo dell’ospitalità fornita agli ambasciatori ateniesi dalla città cretese, di cui vengono menzionati i <foreign>politai</foreign>. L’<foreign>incipit</foreign> del terzo documento, infine, separato graficamente dagli altri due, è caratterizzato da uno stato di frammentarietà tale da non poter determinare con certezza una sua connessione con i testi che lo precedono.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#perioikos"><foreign>perioikos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> II 547</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5148</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib6"><title>IG</title></ref> II<hi rend="superscript">2</hi> 1130</bibl>;
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 30 3* <ptr type="phi" target="200213"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b128">Bielman 1994</ref>, n. 55, tav. XXI 1</bibl>;
+                    <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 255-256</bibl>;
+                    <bibl><ref target="#b1475">Papazarkadas – Thonemann 2008</ref>, p. 83</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

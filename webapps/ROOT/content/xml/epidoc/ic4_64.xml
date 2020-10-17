@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario di Gortyna per Dionysios</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 64</idno>
+                        <idno type="projectNo">289</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support>due <objectType ref="#block">blocchi</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0525" notAfter="-0500">525-500 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><w lemma="θιός"><unclear>θ</unclear>ιοί</w>, <w lemma="θύκα">θυκἀγαθᾶι</w>. <w lemma="δωριά">δοριὰν</w> <w lemma="δίδωμι">ἔδο<unclear>κ</unclear>αν</w> <persName type="honoured" key="Dionysios f. Ko-" ref="#unknown" cert="low"><name nymRef="Διονύσιος">Διονυσ<supplied reason="lost">ίοι</supplied></name> <supplied reason="lost">το͂</supplied>ι <name nymRef="Κο-" type="patronymic" cert="low">Κο<gap reason="lost" extent="unknown" unit="character"/></name>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/></persName> <supplied reason="lost"><w lemma="ἀρετά">ἀρετᾶς</w> ἐμ π</supplied>ολέ<supplied reason="lost">μοι καὶ</supplied> <w lemma="ἐϝεργεσία"><supplied reason="lost">ἐ</supplied>ϝεργεσίας</w> ἔνεκα <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn">Γόρτυνς</placeName> ἐπίπανσα
+</rs>                          <lb n="3"/>ϙ’ <rs type="institution" subtype="social_group" role="decreer" key="oikiontes" ref="#aulon">οἰ ἐν <placeName ref="#aulon">Ἀϝλο͂νι</placeName> <w lemma="ϝοικέω">ϝοικίοντες</w></rs> <w lemma="ἀτέλεια">ἀτέλειαν</w> <supplied reason="lost">πάντον ἀ</supplied><unclear>ϝ</unclear>το͂<supplied reason="lost">ι καὶ <w lemma="ἔσγονος">ἐσγόνοις</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><supplied reason="lost">ϝα</supplied>στίαν <w lemma="δίκα">δίκαν</w></rs> καὶ ϝοικίαν ἐν <placeName ref="#aulon">Ἀϝλο͂νι</placeName> ἐ<lb 
+                        break="no" n="5"/>νδος Πύργο καὶ ϝοικόπεδον ἐκσοι γᾶν κ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>κον κ<unclear>α</unclear>ὶ <rs type="institution" subtype="public_space" role="unknown" key="gymnasion" ref="#gortyn"><w lemma="γυνάσιον">γ<supplied reason="lost">υν</supplied>ασίο</w></rs>. <space extent="unknown" unit="character"/>
+                          </ab>
+                    </div>
+                     <div type="apparatus">
+                        <p>
+                            <app loc="5"><note>Πύργο <bibl><ref target="#b1186">Manganaro</ref></bibl>; πύργο <bibl><ref target="#bib4"><title>IC</title></ref></bibl>.</note></app>
+                        </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, il più antico decreto onorario cretese conservatosi, presenta una struttura differente da quella delle iscrizioni analoghe più tarde. Dopo l’iniziale invocazione delle divinità θιοί e la formula benaugurale θυκἀγαθᾶι, al posto della formula di sanzione propria dei decreti si trova una costruzione differente, in cui i promotori della concessione, «Gortyna tutta e coloro che abitano ad Aulon» (ll. 2-3), vengono ricordati al caso nominativo ed associati al verbo ἔδοκαν, in riferimento dunque alla concessione stessa anziché all’atto deliberativo con cui questa viene decisa.</p>
+                    <p>Il nome del beneficiario della donazione, un certo Dionysios, doveva molto probabilmente essere seguito dal suo etnico (cominciante in <foreign>Ko</foreign>-) in quanto di origine straniera: così porterebbe a pensare, infatti, la presenza fra le concessioni accordategli del diritto di usufruire delle procedure giuridiche riservate ai cittadini (l. 4, [ϝα]στίαν δίκαν, a Gortyna attestata anche in <ref type="ins" target="#ic4_13"><title>IC</title> IV 13</ref> e probabilmente antitetica alla <foreign>xenia</foreign>/<foreign>xenika dika</foreign> di <ref type="ins" target="#ic4_80"><title>IC</title> IV 80</ref> e <ref type="ins" target="#ic3_4_8"><title>IC</title> III 4 8</ref>).</p>
+                    <p>Oltre alla <foreign>wastia dika</foreign>, Dionysios ottiene in cambio del suo valore (?) ed <foreign>euergesia</foreign> l’esenzione fiscale a Gortyna, un’abitazione ad Aulon – elemento che conferma la sua probabile origine straniera – nella località denominata Pyrgos e un terreno. La menzione di un ginnasio alla linea 6, unica in tutta Creta, non è di facile interpretazione: potrebbe infatti costituire un punto di riferimento topografico per la localizzazione del terreno citato nella linea precedente oppure appartenere ad una possibile concessione del diritto di accesso ad esso.</p>
+                    <p>Gli abitanti di Aulon, non indicati mediante un etnico collettivo ma attraverso il ricorso al termine ϝοικίοντες, è probabile che costituiscano una comunità dipendente di Gortyna, verosimilmente coinvolta nel decreto in quanto è nel suo specifico territorio che si trova l’abitazione donata a Dionysios (cf. <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 266-268</bibl>, in cui è classificata come <foreign>polis</foreign> soggetta).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dika"><foreign>dika</foreign></ref>, <ref type="inst" target="#gymnasion"><foreign>gymnasion</foreign></ref>, <ref type="inst" target="#oikiontes"><foreign>oikiontes</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b378">Comparetti 1888a</ref>, pp. 231-234 nn. 83-84</bibl>; 
+                            <bibl><ref target="#b382">Comparetti 1893</ref>, pp. 81-84 n. 149</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4983</bibl>; 
+                            <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 176</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 64 <ptr type="phi" target="200500"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 8</bibl>; 
+                            <bibl><ref target="#b1505">Perlman 1996</ref>, pp. 266-268</bibl>; 
+                            <bibl><ref target="#b615">Ferruti 2004</ref></bibl>; 
+                            <bibl><ref target="#b1198">Marginesu 2005</ref>, n. 5</bibl>; 
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 273</bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, pp. 319-326</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> G64</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 12</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1186">Manganaro 1974-1978</ref>, pp. 54-56</bibl>; 
+                            <bibl><ref target="#b746">Gschnitzer 1958</ref>, p. 157</bibl>; 
+                            <bibl><ref target="#b132">Bile 1986</ref></bibl>; 
+                            <bibl><ref target="#b247">Capdeville 1994</ref></bibl>; 
+                            <bibl><ref target="#b1937">Veligianni 1995</ref></bibl>; 
+                            <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> pp. 106, 434</bibl>; 
+                            <bibl><ref target="#b886">Hennig 1994</ref></bibl>; 
+                            <bibl><ref target="#b1650">Ruzé 1997</ref></bibl>; 
+                            <bibl><ref target="#b1509">Perlman 2002</ref></bibl>; 
+                            <bibl><ref target="#b814">Guizzi 2005</ref></bibl>; 
+                            <bibl><ref target="#b662">Gagarin 2008</ref>, p. 254 n. 3</bibl>;
+                            <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 157-158</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

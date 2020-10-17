@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Aptera (rinnovo)</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 2*</idno>
+                        <idno type="projectNo">039</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#bangor_clandeboye_house">Clandeboye House, Irlanda del Nord</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0170" notAfter="-0140" precision="low">170-140 a.C. ca.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><space extent="unknown" unit="character"/> <placeName ref="#aptera" type="ethnic">Ἀπτεραίων</placeName>. <space extent="unknown" unit="character"/>         
+                        <lb n="2"/><placeName ref="#aptera" type="ethnic">Ἀπτεραίων</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#aptera"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#aptera"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#teos" type="ethnic">Τη<lb 
+                            break="no" n="3"/>ίων</placeName> τᾶι βωλᾶι καὶ τῶι δάμωι <w lemma="χαίρω">χαίρειν</w>.
+                        <lb n="4"/>παραγενόμενοι οἱ παρ’ ὑμέων πρεγγευ<lb 
+                            break="no" n="5"/>ταὶ Ἡρόδοτος Μηνοδότω, Μενεκλῆς
+                        <lb n="6"/>Διονυσίω τό τε ψάφισμα ἀπέδω<lb 
+                            break="no" n="7"/>καν ἐν ὧι ἐγράψατε ψάφισμα ἀνανεώσασθαι
+                        <lb n="8"/>τάν τε <w lemma="συγγένεια">συγγένειαν</w> καὶ τὰν προϋ<lb 
+                            break="no" n="9"/>πάρχωσαν <w lemma="φιλία">φιλίαν</w> τά τε δεδομένα
+                        <lb n="10"/><w lemma="τίμια">τίμια</w> ὑπὸ τᾶς ἁμᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#aptera"><w lemma="πόλις">πόλεως</w></rs> ἐν τοῖς
+                        <lb n="11"/>πρότερον χρόνοις καὶ τὰν καθιέρωσιν
+                        <lb n="12"/>τᾶς πόλιος καὶ τᾶς χώρας τῶι <persName type="divine" key="Dionysos">Διονύ<lb 
+                            break="no" n="13"/>σωι</persName>, παρεκαλεῖτε δὲ καὶ ἀναγράψαι
+                        <lb n="14"/>τὸ πρότερον <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#aptera"><w lemma="δόγμα">δόγμα</w></rs> ἐν ὁποίῳ κα <w lemma="κρίνω">κρί<lb 
+                            break="no" n="15"/>νωμεν</w> ἱερῶι· διελέγη<corr>σ</corr>αν <corr>δὲ</corr> καὶ οἱ παρ’ ὑ<lb 
+                            break="no" n="16"/>μῶν πρεγγευταὶ ἀκολούθως τοῖς ἐν
+                        <lb n="17"/>τῶι ψαφίσματι, ἀποφαίνοντες τάν
+                        <lb n="18"/>τε πόλιν εὐσεβῶς διακειμέναν
+                        <lb n="19"/>πρὸς πάντας τὸς θεός, μάλιστα δὲ
+                        <lb n="20"/>πρὸς τὸν <persName type="divine" key="Dionysos">Διόνυσον</persName> ὄντ<corr>α</corr> ἀρχαγέταν
+                        <lb n="21"/>τᾶς πόλεως, ὧι καὶ καθιερῶσθαι συν<lb 
+                            break="no" n="22"/>βέβακε τάν τε πόλιν καὶ τὰν χώραν,
+                        <lb n="23"/>ὑπέρ τε τῶν λοιπῶν πᾶσαν <w lemma="σπουδά">σπου<lb 
+                            break="no" n="24"/>δὰν</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίαν</w> ποτάγοντες δι<lb 
+                            break="no" n="25"/>ελέγην· διὸ καὶ <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">δεδόχθαι</w></rs> <w lemma="ἀποκρίνω">ἀποκρίνασθαι</w>
+                        <lb n="26"/>τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs> τῶι <placeName ref="#aptera" type="ethnic">Ἀπτεραίων</placeName> <placeName ref="#teos" type="ethnic">Τηίοις</placeName>
+                        <lb n="27"/>οὖσιν <w lemma="συγγενής">συγγενέσι</w> καὶ <w lemma="φίλος">φίλοις</w> διό<lb 
+                            break="no" n="28"/>τι ἔν τε τοῖς πρότερον χρόνοις τυγ<lb 
+                            break="no" n="29"/>χάνομεν <w lemma="εὐσεβῶς">εὐσεβῶς</w> διακείμενοι πο<lb 
+                            break="no" n="30"/>τὶ πάντας τὸς θεός θ’ ἡμῶν <supplied reason="lost">μάλιστα δὲ</supplied>
+                        <lb n="31"/>καὶ τὸν <persName type="divine" key="Dionysos">Διόνυσον</persName> δι’ ὃν καὶ πρότερον τάν
+                        <lb n="32"/>τε <w lemma="ἀσυλία">ἀσυλίαν</w> ὑμῖν ἐδώκαμεν καὶ καθι<lb 
+                         break="no" n="33"/>ερώσαμεν τὰν χώραν καὶ τὰν πόλιν,
+                        <lb n="34"/>τετηρηκότες δὲ τὰ προδεδομένα ὑ<lb 
+                         break="no" n="35"/>μῖν <w lemma="φιλάνθρωπος">φιλάνθρωπα</w> μέχρι τοῦ νῦν πειρά<lb 
+                         break="no" n="36"/>ξομεν καὶ εἰς τὸν λοιπὸν χρόνον
+                        <lb n="37"/>διαφυλάσσειν ἀν<corr>α</corr>νεωσάμενοι ἃ
+                        <lb n="38"/>παρακαλεῖτε διὰ τοῦ ψαφίσματος καὶ
+                        <lb n="39"/>οὐκ ἀδικέομεν <placeName ref="#teos" type="ethnic">Τηίος</placeName> <w lemma="συγγενής">συγγενέας</w>
+                        <lb n="40"/>καὶ <w lemma="φίλος">φίλος</w> ὑπάρχοντας οὔτε πολέμου
+                        <lb n="41"/>οὔτ’ εἰράνας, καθότι οὔτε πρότερον,
+                        <lb n="42"/>πειράξομεν δὲ καὶ ἐάν τινες <w lemma="ἀδικέω">ἀδικῶν<lb 
+                            break="no" n="43"/>τι</w> <placeName ref="#teos" type="ethnic">Τηίος</placeName> ἢ κατὰ κοινὸν ἢ κατ’ ἰδίαν ἢ κα<lb 
+                            break="no" n="44"/>τὰ γᾶν ἢ κατὰ θάλασσαν ἐόντας ἱα<lb 
+                            break="no" n="45"/>ρὸς καὶ <w lemma="ἄσυλος">ἀσύ<corr>λ</corr>ος</w>, <w lemma="βοαθέω">βοαθεῖν</w> αὐτοῖς καθότι
+                        <lb n="46"/>ἂν ὦμεν δυνατοί. καὶ ἐάν τινες ὁρμι<lb 
+                            break="no" n="47"/>όμενοι ἐξ <placeName ref="#aptera">Ἀπτέρας</placeName> ἀδικήσωντι <placeName ref="#teos" type="ethnic">Τη<lb 
+                            break="no" n="48"/>ίος</placeName>, εἶναι αὐτὸς ἐνόχος τῶι τῆς <w lemma="ἱεροσυλία">ἱερο<lb 
+                            break="no" n="49"/>συλίας</w> <rs type="institution" subtype="object" role="law" key="nomos" ref="#aptera"><w lemma="νόμος">νόμωι</w></rs>. ἀγγραψάτωσαν δὲ καὶ
+                        <lb n="50"/><placeName ref="#teos" type="ethnic">Τήιοι</placeName> τὰν ἀνανέωσιν ἐς τὸ ἱερὸν
+                        <lb n="51"/>τῶ <persName type="divine" key="Dionysos">Διονύσω</persName>, ὅπως φανερὰ ἦ<corr>ι</corr> πᾶσι τοῖς
+                        <lb n="52"/><placeName ref="#greece" type="ethnic">Ἕλλησι</placeName> ἡ τῶν <placeName ref="#aptera" type="ethnic">Ἀπτεραίων</placeName> <w lemma="εὐσέβεια">εὐσέβεια</w>
+                        <lb n="53"/>πρὸς πάντας τὸς θεός. <w lemma="ἀναγράφω">ἀναγραψῶμεν</w>
+                        <lb n="54"/>δὲ καὶ ἁμὲν τό τε πρότερον <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#aptera"><w lemma="δόγμα">δόγμα</w></rs>
+                        <lb n="55"/>καὶ τὰν ἀνανέωσιν ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#aptera"><w lemma="ἱερόν">ἱερὸν</w> τὸ
+                        <lb n="56"/>τᾶς <persName type="divine" key="Artemis Aptera">Ἀρτέμιδος τᾶς <placeName ref="#aptera" type="ethnic">Ἀπτέρας</placeName></persName></rs>. <w lemma="καλέω">ἐκαλέσα<lb 
+                            break="no" n="57"/>μεν</w> δὲ καὶ ἐπὶ <w lemma="ξένια">ξένια</w> τοὺς πρεγγευτὰς
+                        <lb n="58"/><supplied reason="lost">ἐπὶ τ</supplied>ὰν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#aptera">κοινὰν <w lemma="ἑστία">ἑ<supplied reason="lost">στίαν</supplied></w></rs>. <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>Il documento, che appartiene alla serie di concessioni di <foreign>asylia</foreign> a Teos da parte di numerose città (cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>), costituisce il rinnovo di quanto Aptera aveva già dichiarato qualche decennio prima nel decreto <ref type="ins" target="#ic2_3_1"><title>IC</title> II 3 1</ref>, qui definito δόγμα. La lettera, a differenza del documento precedente, si è conservata nella sua interezza, aprendo un ampio spiraglio sul panorama istituzionale di Aptera.</p>
+                    <p>Mentre nell’intestazione i mittenti della lettera risultano essere i cosmi e la <foreign>polis</foreign> di Aptera (l. 2), la formula di mozione mostra invece che il responsabile del decreto è il <foreign>damos</foreign> (ll. 25-26, δεδόχθαι ἀποκρίνασθαι τῶι δάμωι τῶι Ἀπτεραίων), diversamente dalla totalità dei rimanenti decreti della città, emessi congiuntamente dalla <foreign>boula</foreign> e dal <foreign>damos</foreign> (cf. <foreign>e.g.</foreign> <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref>). Ad Aptera una preminenza del <foreign>damos</foreign> sulla <foreign>boula</foreign> nell’ambito decisionale emerge anche dal decreto <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref>, in cui il documento viene definito [τὸ ψάφισμα] τῶ δάμω. I cosmi e la <foreign>polis</foreign>, dunque, costuiscono l’interfaccia pubblica della città nei confronti del mondo esterno, senza mostrare di avere alcun potere reale nel contesto deliberativo della città. È possibile tuttavia che costoro conservino l’autorità di intervenire nelle cause di sequestri di Teii come in <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>, sebbene ciò non venga specificato nel rinnovo, che si preoccupa solamente di definire le modalità per cui qualcuno possa essere definito colpevole secondo la legge della <foreign>hierosylia</foreign> (ll. 48-49, τῶι τῆς ἱεροσυλίας νόμωι).</p>
+                    <p>La richiesta esplicita dei Teii di pubblicare il primo decreto <ref type="ins" target="#ic2_3_1"><title>IC</title> II 3 1</ref> (ll. 13-15) e la promessa di Aptera di farlo (ll. 53-56) farebbero pensare che la mancata iscrizione abbia comportato anche una mancata attuazione delle concessioni da parte della seconda, che a sua volta chiede che il testo sia iscritto anche a Teos, affinché la propria εὐσέβεια sia manifesta a tutti i Greci. Il luogo sacro prescelto da Aptera per l’iscrizione è lo ἱερόν di Artemide <foreign>Aptera</foreign>, a cui dovevano appartenere i blocchi del cosiddetto ‘Muro delle iscrizioni’ (cf. <bibl><ref target="#bib2"><title>IC</title> II</ref>, p. 18</bibl>) e che doveva rappresentare il tempio principale della città. Oltre al tempio, il documento testimonia anche l’esistenza nella città del focolare sacro ad Hestia, presso il quale vengono invitati come ospiti gli ambasciatori di Teos (sul culto di Hestia ad Aptera cf. <ref type="ins" target="#seg_60_984"><title>SEG</title> 60.984</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#bib231"><title>LBW</title></ref> n. 75</bibl>; 
+                    <bibl><ref target="#b273">Cauer 1883</ref>, n. 128</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5181</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 61</bibl>; 
+                    <bibl><ref target="#b1687">Schwyzer 1923</ref>, n. 204</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 2* <ptr type="phi" target="199708"/></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 16</bibl>; 
+                    <bibl><ref target="#b435">Curty 1995</ref>, n. 43j (ll. 1-11, 25-41)</bibl>;
+                    <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 154</bibl>;
+                    <bibl><ref target="#b1266">Martínez Fernández 2009a</ref></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>; 
+                    <bibl><ref target="#b249">Capdeville 1995</ref>, pp. 49-50</bibl>; 
+                    <bibl><ref target="#b1040">Kvist 2003</ref></bibl>; 
+                    <bibl><ref target="#b277">Ceccarelli 2005</ref>, pp. 361-369</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

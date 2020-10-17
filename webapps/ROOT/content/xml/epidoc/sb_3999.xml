@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaffio di un ambasciatore (?) di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SB 3999</idno>
+                        <idno type="projectNo">019</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#alexandria_museum">Museo greco-romano di Alessandria</repository>
+                        <idno type="invNo">5864</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#hydria">idria funeraria di tipo Hadra</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#alexandria">Alessandria, necropoli Hadra</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0230" notAfter="-0200">fine III secolo a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="official" role="dedicatee_deceased" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="Battos"><name nymRef="Βάττος">Βάττος</name> <placeName ref="#polyrrhenia" type="ethnic">Πολυρρήνιος</placeName></persName></rs>, διὰ Θεο<supplied reason="lost">δότου</supplied>
+                        <lb n="2"/><g type="year"/> <num value="4">δ</num> Δαισίου.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’urna funeraria di Battos, non datata, appartiene alla serie di idrie rinvenute nella necropoli Hadra di Alessandria, pertinenti ad individui altolocati di origine non alessandrina (sulla serie cf. <bibl><ref target="#b397">Cook 1966</ref></bibl>, <bibl><ref target="#b559">Enklaar 1992</ref></bibl>, <bibl><ref target="#b560">Enklaar 1998</ref></bibl>). Il personaggio, di cui non è nota la funzione, potrebbe molto probabilmente essere stato un ambasciatore – come il concittadino ricordato come <foreign>presbeutes</foreign> in <ref type="ins" target="#seg_24_1185"><title>SEG</title> 24.1185</ref> – o un <foreign>theoros</foreign>. Non è da escludersi, tuttavia, che la presenza di Battos nella capitale tolemaica sia dovuta non tanto a missioni diplomatiche legate alla patria quanto ad una propria attività come mercenario nelle file dell’esercito lagide: potrebbe pertanto trattarsi di un ufficiale dell’armata tolemaica, come il conterraneo che più tardi occupa la posizione di capo delle guardie del corpo di Tolemeo VIII (<ref type="ins"><title>SB</title> 2039</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref> (?).</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b183">Botti 1893</ref>, p. 179 n. 2477</bibl>; 
+                    <bibl><ref target="#bib25">Breccia</ref>, n. 197</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib31"><title>SB</title></ref> 3999 <ptr type="phi" target="227528"/></bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 52</bibl>; 
+                    <bibl type="main_edition"><ref target="#b559">Enklaar 1992</ref>, n. 24</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> p. 52 n. 2.8</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#bib106"><title>BE</title></ref> 1967.662</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

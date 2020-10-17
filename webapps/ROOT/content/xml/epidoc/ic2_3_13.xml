@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreti onorari di Aptera per Messeni</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 3 13</idno>
+                        <idno type="projectNo">051</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#lost">iscrizione perduta</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">tre decreti onorari</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0001">III-I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>οι
+                          <lb n="2"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος"><supplied reason="lost">πρόξεν</supplied>οι</w></rs>
+                          <lb n="3"/><supplied reason="lost">αὐτοὶ καὶ</supplied> <w lemma="ἔκγονος">ἔκ<lb 
+                              break="no" n="4"/><supplied reason="lost">γονα</supplied></w>.
+                        </ab>
+                    </div>                        
+                        <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="-ippidas f. Kleodamos"><name nymRef="-ιππίδας"><gap reason="lost" quantity="3" unit="character"/><unclear>ιπ</unclear>πίδας</name>
+                          <lb n="2"/><name nymRef="Κλεόδαμος" type="patronymic"><supplied reason="lost">Κλε</supplied>οδάμω</name>
+                          <lb n="3"/><placeName ref="#messene" type="ethnic">Μεσσάνιος</placeName></persName>
+                          <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενο<supplied reason="lost">ς</supplied></w></rs>
+                          <lb n="5"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔκ<lb 
+                              break="no" n="6"/><supplied reason="lost">γο</supplied>να</w>.
+                        </ab>
+                    </div>                        
+                        <div type="textpart" subtype="part" n="C">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Theopompos f. Platon"><name nymRef="Θεόπομπος"><supplied reason="lost">Θ</supplied>εόπομπος</name>
+                          <lb n="2"/><name nymRef="Πλάτων" type="patronymic"><supplied reason="lost">Πλ</supplied>άτωνος</name>
+                          <lb n="3"/><placeName ref="#messene" type="ethnic">Μεσσάνιος</placeName></persName>
+                          <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενος</w></rs>
+                          <lb n="5"/>αὐτὸς καὶ <w lemma="ἔκγονος">ἔγ<lb 
+                              break="no" n="6"/>γονα</w>.
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>I tre decreti si presentano tutti nella formulazione sintetica impiegata ad Aptera anche in <ref type="ins" target="#ic2_3_6"><title>IC</title> II 3 6</ref> A-B e D-G, <ref type="ins" target="#ic2_3_7">7</ref>, <ref type="ins" target="#ic2_3_8">8</ref> A-B, <ref type="ins" target="#ic2_3_11">11</ref> e <ref type="ins" target="#ic2_3_14">14</ref>-<ref type="ins" target="#ic2_3_15">15</ref>, nella quale non vi è alcuna menzione degli organi istituzionali responsabili della deliberazione: l’attenzione è interamente rivolta all’onorato, di cui vengono indicate l’onomastica al nominativo e la tipologia di riconoscimento ottenuto, ovvero la prossenia, come peraltro avviene nella maggior parte dei decreti onorari della città.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, p. 434 n. 8</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 13 <ptr type="phi" target="199720"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

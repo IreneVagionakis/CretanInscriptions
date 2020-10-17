@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Decreto onorario del <foreign>koinon</foreign> cretese relativo a Samo</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 24 2</idno>
+                        <idno type="projectNo">583</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#epano_kastelliana">Epano Kastelliana, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#samos" type="ethnic"><supplied reason="lost">Σάμ</supplied>ιοι</placeName> φ<gap reason="lost" quantity="1" unit="character"/><lb 
+                        break="no" n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>υνται
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀποστέλλω"><supplied reason="lost">ἀπέσ</supplied>τηλαν</w> Ἐπ<supplied reason="lost">ι</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">κλέα</supplied> <gap reason="lost" extent="unknown" unit="character"/>. τὰν π<supplied reason="lost">ρ</supplied>ο<supplied reason="lost">ϋ</supplied>πάρχον<lb 
+                        break="no" n="5"/><supplied reason="lost">σαν</supplied> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="φιλία"><supplied reason="lost">φι</supplied>λίαν</w>· ἐπευθὼν δὲ
+                          <lb n="6"/><supplied reason="lost">ἐπὶ τὸ</supplied> <rs type="institution" subtype="assembly" role="foreign_relations" key="plethos" ref="#koinon_kretaieon"><supplied reason="lost"><placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></supplied> <w lemma="πλῆθος">πλῆθος</w></rs> ἀνέμνασε
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">διὰ πλ</supplied>ειόνων σαφίως παραδει<lb 
+                        break="no" n="8"/><supplied reason="lost">κνύων ὅτι ἀπὸ</supplied> <w lemma="παλαιός"><supplied reason="lost">π</supplied>αλαιῶν</w> χρόνων κατὰ πολλὰ
+                          <lb n="9"/><supplied reason="lost">τῶν προγεγο</supplied>νότων συνέστακε ἅ τ’ <w lemma="οἰκειότας">οἰκειότας</w>
+                          <lb n="10"/><supplied reason="lost">καὶ <w lemma="φιλία">φιλία</w> πορ</supplied>τὶ <placeName ref="#samos" type="ethnic">Σαμίος</placeName> καὶ <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρ<supplied reason="lost">η</supplied>ταιέας</placeName></rs>, παρέδει<lb 
+                        break="no" n="11"/><supplied reason="lost">ξε δὲ κ</supplied>αὶ τὰν <w lemma="αἵρεσις">αἵρεσιν</w> καὶ τὰν <w lemma="εὔνοια">εὔνοιαν</w> ἃν ἔχον<lb 
+                        break="no" n="12"/><supplied reason="lost">τες δ</supplied>ιατετελέκαντι <placeName ref="#samos" type="ethnic">Σάμιοι</placeName> πορτὶ τὸ <rs type="institution" subtype="assembly" role="good_relations_or_behaviour" key="plethos" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιέ<lb 
+                        break="no" n="13"/><supplied reason="lost">ων</supplied></placeName> <w lemma="πλῆθος">πλῆθος</w></rs>, <w lemma="παρακαλέω">παρεκάλει</w> δὲ ἁμὲ ἐκτενίως κα<supplied reason="lost">ὶ</supplied>
+                          <lb n="14"/><w lemma="φιλοτίμως">φιλοτίμως</w> καὶ ἀξίως αὐτοσαυτῶ τε καὶ τᾶς
+                          <lb n="15"/><w lemma="ἐσαποστέλλω"><supplied reason="lost">ἐ</supplied>σαποστηλάνσας</w> αὐτὸν πόλεος παραιτί<lb 
+                        break="no" n="16"/>ους αἰεί τινανς ἀγαθῶν <placeName ref="#samos" type="ethnic">Σαμίοις</placeName> γίνεσθα<supplied reason="lost">ι</supplied>
+                          <lb n="17"/><supplied reason="lost">σ</supplied>υνεπαύξοντας καθότι ἁμῖν καθῆκόν ἐστι
+                          <lb n="18"/><supplied reason="lost">τ</supplied>ὰν ὑπάρχονσαν αὐτοῖς <w lemma="πάτριος">πάτριον</w> <w lemma="δαμοκρατία">δαμοκρατ<supplied reason="lost">ία</supplied></w>
+                          <lb n="19"/><w lemma="πολιτεία"><supplied reason="lost">πο</supplied>λιτείαν</w>, φροντίττοντας ἅπερ καὶ ὑπὲρ τᾶ<supplied reason="lost">ν</supplied>
+                          <lb n="20"/><supplied reason="lost">ἁμᾶ</supplied>ν ἑκάστονς <w lemma="πατρίς">πατρίδων</w>· ὁπᾶι ὦν καὶ ἁμὲν ἐ<lb 
+                        break="no" n="21"/><supplied reason="lost">πεγν</supplied>ωκότεν σαφίως τὰν <placeName ref="#samos" type="ethnic">Σαμίων</placeName> <w lemma="εὔνοια">εὔνοιαν</w> <w lemma="φαίνω">φαι<lb 
+                        break="no" n="22"/><supplied reason="lost">νώμεθα</supplied></w> <supplied reason="lost">καὶ καταξίω</supplied>ς τῶν ὑπὸ Ἐπικλεῖος ἐν πε<lb 
+                        break="no" n="23"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="κρίνω"><supplied reason="lost" cert="low">κρί</supplied><unclear>ν</unclear>αντεν</w>· <w lemma="τύχα">τύχαι</w> τᾶι ἀ<supplied reason="lost">γα</supplied><lb 
+                        break="no" n="24"/><supplied reason="lost">θᾶι <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#koinon_kretaieon"><w lemma="δοκέω">δεδόχθαι</w></rs></supplied> <gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="assembly" role="decreer" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon">τῶι <w lemma="κοινόν">κοινῶι</w> <supplied reason="lost">τῶν</supplied>
+                          <lb n="25"/><supplied reason="lost"><placeName ref="#crete" type="ethnic">Κρηταιέων</placeName></supplied></rs> <gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="25a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto, mutilo sia superiormente che inferiormente, si apre con la sezione relativa alle sue motivazioni (ll. 1-20), nella quale viene ricordato l’invio dell’ambasciatore Epikles da parte di Samo a Creta, giunto con una richiesta di aiuto presso il <foreign>plethos</foreign> dei <foreign>Kretaieis</foreign> (l. 6, menzionato anche alle ll. 12-13), termine che nell’isola è attestato con il valore di «assemblea» in <ref type="ins" target="#ic1_8_12"><title>IC</title> I 8 12</ref> in relazione a Knossos (oltre che in <ref type="ins" target="#ic1_30_1"><title>IC</title> I 30 1</ref> apparentemente con il significato di «maggioranza»).</p>
+                    <p>L’oggetto del decreto, interamente perduto, è introdotto alle linee 23-25 da un’espressione benaugurale e da una formula di mozione, nella quale viene ricordato il <foreign>koinon</foreign> cretese come responsabile della deliberazione (che compare in tale ruolo anche nelle formule di sanzione di <ref type="ins" target="#ic2_5_22"><title>IC</title> II 5 22</ref> e del probabile falso <ref type="ins" target="#magnesia_40-41"><title>Magnesia</title> 40</ref>, oltre che assieme ai <foreign>synedroi</foreign> in quella di <ref type="ins" target="#ic4_197"><title>IC</title> IV 197</ref>; cf. inoltre <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#plethos"><foreign>plethos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, pp. 72-74 n. 9</bibl>; 
+                            <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 568-571 n. 51</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5138</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 24 2 <ptr type="phi" target="199634"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib4"><title>IC</title> IV</ref> 198</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

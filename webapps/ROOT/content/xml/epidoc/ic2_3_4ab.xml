@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Decreti onorari di Aptera per Prusia II e tre Bitinii</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 3 4 A-B</idno>
+                        <idno type="projectNo">041</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#pola_museum">Museo archeologico di Pola</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#honorific_decree">decreto onorario</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#block">blocco</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#aptera">Aptera, ‘Muro delle iscrizioni’</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0182" notAfter="-0168">182-168 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <div type="textpart" subtype="part" n="A" >
+                    <ab>
+                        <lb n="0"/><supplied reason="lost"><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> καὶ</supplied>
+                        <lb n="0a"/> <supplied reason="lost">τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>·</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="1"/><rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="-otos f. Archetos"><name nymRef="-οτος"><gap reason="lost" quantity="3" unit="character"/><unclear>ο</unclear>τος</name> <name nymRef="Ἄρχετος" type="patronymic">Ἀρχ<unclear>έ</unclear><supplied reason="lost">τω</supplied></name></persName> <w lemma="λέγω"><supplied reason="lost">εἶ</supplied><lb 
+                        break="no" n="2"/><supplied reason="lost">πε</supplied>ν</w></rs>· <persName type="ruler" key="Prusias II" ref="#bithynia"><w lemma="βασιλεύς">βασιλέα</w>
+                        <lb n="3"/><name nymRef="Προυσίας">Προυσίαν</name> <w lemma="βασιλεύς">βασιλέω<supplied reason="lost">ς</supplied></w>
+                        <lb n="4"/><name nymRef="Προυσίας" type="patronymic">Προυσίου</name></persName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#aptera"><w lemma="πρόξενος">πρόξενον</w></rs>
+                        <lb n="5"/>ἦμεν καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="euergetes" ref="#aptera"><w lemma="εὐεργέτας">εὐεργέ<lb 
+                        break="no" n="6"/>ταν</w></rs> αὐτὸν καὶ <w lemma="ἔκγονος">ἐκγό<lb 
+                        break="no" n="7"/>νος</w>.
+                </ab>
+                </div>
+                <div type="textpart" subtype="part" n="B" >
+                <ab>
+                        <lb n="1"/><rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#aptera"><w lemma="δοκέω">ἔδοξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="boule" ref="#aptera"><w lemma="βωλά">βωλᾶι</w></rs> καὶ
+                        <lb n="2"/>τῶι <rs type="institution" subtype="assembly" role="decreer" key="demos" ref="#aptera"><w lemma="δᾶμος">δάμωι</w></rs>· <rs type="institution" subtype="official" role="proponent" key="legon" ref="#aptera"><persName type="attested" key="Nikias f. Karaios"><name nymRef="Νικίας">Νικίας</name>
+                        <lb n="3"/><name nymRef="Καραῖος" type="patronymic">Καραίω</name></persName> <w lemma="λέγω">εἶπε</w></rs>·
+                        <lb n="4"/><persName type="honoured" key="Dintiporis f. Askiprasis"><name nymRef="Διντίπορις">Διντίποριν</name> <name nymRef="Ἀσκίπρασις" type="patronymic" cert="low"><supplied reason="lost" cert="low">Ἀ</supplied>σκι<lb 
+                        break="no" n="5"/>πρά<unclear>σ</unclear>ιος</name> <placeName ref="#prusias_ad_mare" type="ethnic">Προυσιέα</placeName></persName>,
+                        <lb n="6"/><persName type="honoured" key="Dionysios f. Apatourios"><name nymRef="Διονύσιος">Διονύσιον</name> <name nymRef="Ἀπατούριος" type="patronymic">Ἀπατου<lb 
+                        break="no" n="7"/><supplied reason="lost">ρ</supplied>ίου</name> <placeName ref="#nicomedia" type="ethnic">Νικομηδῆ</placeName></persName>, <persName type="honoured" key="Dintiporis f. Diliporis" ref="#unknown"><name nymRef="Διντίπορις">Διν<lb 
+                        break="no" n="8"/><supplied reason="lost">τί</supplied>ποριν</name> <name nymRef="Διλίπορις" type="patronymic">Δι<unclear>λ</unclear>ιπόρ<supplied reason="lost">ι</supplied>ος</name></persName> 
+                        <lb n="8a"/><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+                </div>
+            </div>
+            <div type="commentary">
+                <p>L’iscrizione sul medesimo blocco dei decreti riguardanti i regni di Pergamo (<ref type="ins" target="#ic2_3_4c"><title>IC</title> II 3 4 C</ref>) e di Bitinia (<ref type="ins" target="#ic2_3_4ab">A-B</ref>) suggerisce che, perlomeno al momento della redazione di quelli più tardi e cioè A e B, i due stati si trovino in buone relazioni fra loro. È probabile dunque che i decreti A e B risalgano al periodo compreso tra la salita al trono del sovrano Prusia II nel 182 a.C. e il suo allontanamento da Eumene II nel 168 a.C., con il quale si era alleato nel 179 a.C. (cf. <ref type="lit">Polyb. XXV 2, XXX 18, XXXII 15</ref>; cf. inoltre <bibl><ref target="#b852">Hannestad 1996</ref></bibl>).</p>
+                    <p>Il documento A è uno dei pochi decreti onorari di Aptera a conferire oltre alla prossenia l’<foreign>euergesia</foreign>, riservata a pochi individui di grande importanza; oltre che per il re di Bitinia Prusia II, ciò avviene anche per il re Attalo I, per illustri Romani e per un medico di Cos (cf. <ref type="ins" target="#ic2_3_4c"><title>IC</title> II 3 4 C</ref>, <ref type="ins" target="#ic2_3_5"><title>IC</title> II 3 5</ref> A, <ref type="ins" target="#ic2_3_3"><title>IC</title> II 3 3</ref>). Il decreto B, strettamente legato al documento precedente e riguardante tre Bitinii, si interrompe prima della menzione degli onori conferiti, che verosimilmente dovevano consistere nella prossenia come nella maggior parte dei decreti onorari di Aptera.</p>
+                    <p>Il decreto B conserva nella sua interezza la formula di sanzione, che come nella quasi totalità dei documenti simili di Aptera (tutti tranne <ref type="ins" target="#ic2_3_2"><title>IC</title> II 3 2</ref>) mostra la <foreign>bola</foreign> e il <foreign>damos</foreign> in qualità di responsabili della deliberazione; la formula di sanzione di A, in lacuna, è pertanto molto probabilmente da integrare in modo analogo. In entrambi i documenti, inoltre, compare la menzione dei rispettivi proponenti, un elemento caratteristico dei decreti di Aptera che li distingue da quelli delle restanti città cretesi.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#demos"><foreign>demos</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#euergetes"><foreign>euergetes</foreign></ref>, proponenti (<ref type="inst" target="#legon"><foreign>lego</foreign></ref>), <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b874">Haussoullier 1879</ref>, pp. 424-428, n. 2 col. I</bibl>; 
+                    <bibl><ref target="#b1989">Weisshäupl 1898</ref>, pp. 102-106, n. A</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4942 A</bibl>;
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 3 4 A-B <ptr type="phi" target="199710"/></bibl>; 
+                    <bibl><ref target="#bib115"><title>OGIS</title></ref> 341 A-B</bibl>; 
+                    <bibl><ref target="#b1009">Kotsidou 2000</ref>, n. 194</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

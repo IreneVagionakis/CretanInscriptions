@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di Lato relativa al santuario di Dera</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Bile 47</idno>
+                        <idno type="projectNo">542</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#unknown">sconosciuta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dera"><foreign>Aphrodision</foreign> di Dera</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0112" notAfter="-0111" precision="low">112/111 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><w lemma="θιός">θιοί</w>.
+                            <lb n="2"/><unclear>ἀ</unclear>γαθᾶι <w lemma="τύχα">τύχαι</w>. <rs type="institution" subtype="tribe" role="eponym" key="Synaneis" ref="#lato">ἐπὶ τῶν <w lemma="Συνανεῖς">Συνανέων</w></rs>
+                            <lb n="3"/><rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lato"><w lemma="κοσμέω"><unclear>κ</unclear>οσμιόντων</w></rs>, ἁ <rs type="institution" subtype="assembly" role="builder" key="polis" ref="#lato"><w lemma="πόλις">πόλις</w></rs> τῶν <rs type="institution" subtype="public_space" role="construction" key="naos" ref="#dera"><w lemma="ναός">ναῶν</w></rs> <w lemma="ἐποικοδομέω">ἐπωικοδό<lb 
+                        break="no" n="4"/>μησε</w> τὸ ὕψος ἄχρι ἐπὶ τὰν <w lemma="ὀροφά">ὀροφὰν</w>, <w lemma="δόμος">δόμος</w>
+                            <lb n="5"/>δέκα δύο, καὶ τὰν <w lemma="παστάς">παστάδα</w>, καὶ τὰς <w lemma="ὀροφά">ὀροφὰς</w>
+                            <lb n="6"/><w lemma="ἐπιτίθημι">ἐπέθηκε</w>, καὶ τὰς <w lemma="θύρα">θύρας</w> καὶ τὸν <w lemma="κέραμος">κέραμον</w>, καὶ
+                            <lb n="7"/><w lemma="ἐκγανόω">ἐκγάνωσε</w> τὸς <rs type="institution" subtype="public_space" role="construction" key="naos" ref="#dera"><w lemma="ναός">ναός</w></rs>. <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><w lemma="κοσμέω">ἐκόσμιον</w> δέ·
+                            <lb n="8"/><persName type="attested" key="Charisthenes f. Kostylos"><name nymRef="Χαρισθένης">Χαρισθένης</name> <name nymRef="Κόστυλος" type="patronymic">Κοστύλω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Nemoneios f. Lydos"><name nymRef="Νεμονήιος">Νεμονήιος</name> <name nymRef="Λύδος" type="patronymic">Λύδω</name></persName></rs>,
+                            <lb n="9"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Pyrias f. Sarapion"><name nymRef="Πυρίας">Πυρίας</name> <name nymRef="Σαραπίων" type="patronymic">Σαραπίωνος</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Kypelos f. Ischolas"><name nymRef="Κύπελος">Κύπελος</name> <name nymRef="Ἰσχόλας" type="patronymic">Ἰσχόλα</name></persName></rs>,
+                            <lb n="10"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Mnastokles f. Lattygos"><name nymRef="Μναστοκλῆς">Μναστοκλῆς</name> <name nymRef="Λάττυγος" type="patronymic">Λαττύγω</name></persName></rs>, <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Agaklytos f. Stasagoras"><name nymRef="Ἀγάκλυτος">Ἀγάκλυτος</name> <name nymRef="Στασαγόρας" type="patronymic">Στασαγόρα</name></persName></rs>,
+                            <lb n="11"/><rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lato"><persName type="attested" key="Dorkos f. Boulias"><name nymRef="Δόρκος">Δόρκος</name> <name nymRef="Βουλίας" type="patronymic">Βουλία</name></persName></rs>· <rs type="institution" subtype="official" role="incumbent" key="grammateus" ref="#lato"><w lemma="γραμματεύς">γραμματεὺς</w> <persName type="attested" key="Lithos f. Kostylos"><name nymRef="Λίθος">Λίθος</name> <name nymRef="Κόστυλος" type="patronymic">Κοστύλω</name></persName></rs>.
+                        </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, introdotta da una doppia espressione benaugurale, conserva una formula di datazione contenente il ricordo della tribù dei cosmi in carica, quella dei <foreign>Synaneis</foreign>, non attestata altrove (sui cosmi di Lato cf. <bibl><ref target="#b1838">Tréheux 1984</ref></bibl> e in particolare sui loro legami familiari <bibl><ref target="#b70">Baldwin Bowsky 1989</ref></bibl>).</p>
+                    <p>L’iniziativa dell’intervento commemorato, comportante il restauro di più parti dei templi (di Afrodite e di Ares?) di Dera e l’aggiunta di un atrio, più porte e un tetto dotato di copertura in tegole (cf. le altre iscrizioni edificatorie di Lato relative ad Afrodite o al santuario di Dera <ref type="ins" target="#ic1_16_24"><title>IC</title> I 16 24-27</ref>, <ref type="ins" target="#ic1_14_2"><title>IC</title> I 14 2</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>), risulta essere della <foreign>polis</foreign> di Lato, come avviene nei documenti analoghi della città <ref type="ins" target="#ic1_16_25"><title>IC</title> I 16 25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29-31</ref> e forse <ref type="ins" target="#ic1_16_27"><title>IC</title> I 16 27</ref>-<ref type="ins" target="#ic1_16_28">28</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref>, <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> e <ref type="ins" target="#ic1_16_33"><title>IC</title> I 16 33</ref>.</p>
+                    <p>Alle linee 7-11, introdotto dall’espressione ἐκόσμιον δέ, si trova un elenco dei sette cosmi in carica al momento dell’intervento edilizio, i cui nomi sono indicati al nominativo secondo una formulazione adottata anche nei documenti analoghi di Lato <ref type="ins" target="#ic1_16_31"><title>IC</title> I 16 31</ref> (sette cosmi), <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref> (sette), <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> (otto?) e <ref type="ins" target="#ic1_16_34"><title>IC</title> I 16 34</ref> (almeno cinque). A quello dei cosmi segue il ricordo di un segretario, figura che compare anche nelle iscrizioni edificatorie di Lato <ref type="ins" target="#ic1_16_23"><title>IC</title> I 16 23</ref>, <ref type="ins" target="#ic1_16_25">25</ref>-<ref type="ins" target="#ic1_16_26">26</ref>, <ref type="ins" target="#ic1_16_29">29</ref>, <ref type="ins" target="#ic1_16_31">31</ref>-<ref type="ins" target="#ic1_16_32">32</ref>, <ref type="ins" target="#ic1_22_2"><title>IC</title> I 22 2</ref> e <ref type="ins" target="#chaniotis_54-56c">Chaniotis, <title>Verträge</title> 54/56c</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#grammateus"><foreign>grammateus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, tribù (<ref type="inst" target="#synaneis"><foreign>Synaneis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b185">Bousquet 1938</ref>, pp. 389-395 n. 1 <ptr type="phi" target="201239"/></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib13">Bile</ref> 47</bibl>; 
+                            <bibl><ref target="#b1309">Meier 2012</ref>, n. 43b</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

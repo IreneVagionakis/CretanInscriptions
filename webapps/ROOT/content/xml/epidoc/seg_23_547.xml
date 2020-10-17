@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Olous e Rodi</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.547</idno>
+                        <idno type="projectNo">424</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#olous">Olous</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0201" notAfter="-0200">201/200 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="1"/>ἔδοξε τᾶι βουλᾶι καὶ τῶι δάμωι· ἐπειδὴ <rs type="institution" subtype="assembly" role="foreign_relations" key="polisE" ref="#olous"><placeName ref="#olous" type="ethnic">Ὀλ<unclear>ο</unclear><supplied reason="lost">ύντιοι</supplied></placeName></rs> <supplied reason="lost"><w lemma="φίλος">φίλοι</w> καὶ</supplied>
+                          <lb n="2"/><w lemma="συγγενής">συγγενεῖς</w> ὑπάρχοντες τοῦ δάμου πέμψα<unclear>ν</unclear><supplied reason="lost">τ</supplied><unclear>ε</unclear>ς <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#olous"><w lemma="ψάφισμα"><unclear>ψ</unclear>αφ<unclear>ί</unclear><supplied reason="lost">σματα</supplied></w></rs>
+                          <lb n="3"/>καὶ <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#olous"><w lemma="πρεσβευτάς">πρεσβευτὰς</w></rs> <w lemma="παρακαλέω">παρακαλοῦντι</w> τὸν δᾶμον τὰν πᾶ<unclear>σ</unclear><supplied reason="lost">αν</supplied> <w lemma="πρόνοια"><unclear>π</unclear>ρόνοια<unclear>ν</unclear></w> <supplied reason="lost">ποιή</supplied><lb 
+                        break="no" n="4"/>σασ<supplied reason="lost">θ</supplied>αι ὅπως, γενομένας <w lemma="σύνθεσις">συνθέσιος</w> <w lemma="ἔγγραπτος">ἐγ<supplied reason="lost">γ</supplied>ράπ<supplied reason="lost">του</supplied></w><supplied reason="lost">, εἰς τὸν πάντα</supplied>
+                          <lb n="5"/>χρόνον ἀσφαλῶς καὶ ἑτοίμως ὑπάρχῃ ταῖς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλ<supplied reason="lost">εσιν</supplied></w></rs> <gap reason="lost" quantity="4" unit="character"/> <unclear>π</unclear>ᾶσ<unclear>α</unclear>
+                          <lb n="6"/><w lemma="βοάθεια">βοάθεια</w> καὶ <w lemma="κοινοπραγία">κοινοπραγία</w>, καὶ ἔν τε τῶι παρόντι <supplied reason="lost">χρό</supplied><unclear>ν</unclear>ωι <supplied reason="lost">καὶ</supplied> ἐν <unclear>τ</unclear>ῶι <unclear>ὕ</unclear>σ<lb 
+                        break="no" n="7"/>τερον πάντα τὰ συμφέροντα γίνηται ἀμφοτέραις ταῖς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#olous"><w lemma="πόλις">πόλεσι</w></rs>,
+                          <lb n="8"/>καὶ τοὶ παραγενόμενοι παρ’ αὐτῶν <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#olous"><w lemma="πρεσβευτάς">πρεσβευταὶ</w> <persName type="attested" key="Praisios f. Herodoros"><name nymRef="Πραίσιος">Πραίσιος</name> <name nymRef="Ἡρόδωρος" type="patronymic">Ἡροδώρου</name></persName></rs>,
+                          <lb n="9"/><rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#olous"><persName type="attested" key="Charianthes f. Lokrion"><name nymRef="Χαριάνθης">Χαριάνθης</name> <name nymRef="Λοκρίων" type="patronymic">Λοκρίωνος</name></persName></rs>, <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#olous"><persName type="attested" key="Sotimos f. Tychasios"><name nymRef="Σώτιμος">Σώτιμος</name> <name nymRef="Τυχάσιος" type="patronymic">Τυχασίου</name></persName></rs>, ἐπελθόντες ἐπὶ τὰν <unclear>βο</unclear>υλ<unclear>ὰν</unclear>
+                          <lb n="10"/>καὶ τὰν ἐκκλησίαν διέλεγεν <w lemma="σπουδά">σπουδᾶς</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίας</w> οὐθὲν ἐλλείπον<lb 
+                        break="no" n="11"/>τες, ἀξιοῦντες τὸν δᾶμον ἰδίαι ποιήσασθαι ποτὶ τὰν <rs type="institution" subtype="assembly" role="treaty-making" key="polis" ref="#olous"><w lemma="πόλις">πόλιν</w></rs> αὐτῶν
+                          <lb n="12"/><w lemma="συμμαχία">συμμαχίαν</w>· ὅπως οὖν ὁ δᾶμος φανερὸς ἦι <w lemma="πρόνοια">πρόνοιαν</w> πεποιημένος
+                          <lb n="13"/><placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀ</supplied><unclear>λ</unclear>ουντίων</placeName> <unclear>κ</unclear>αὶ π<unclear>άν</unclear>τα τὰ συμφέροντα συνκεχωρηκὼς αὐτοῖς καθ’ ἃ <supplied reason="lost">ἠ</supplied>ξίωσα<unclear>ν</unclear>,
+                          <lb n="14"/><w lemma="τύχα"><supplied reason="lost">τ</supplied><unclear>ύ</unclear>χαι</w> ἀγαθᾶι εὔξασθαι μὲν τοὺς ἱερεῖς καὶ τοὺς ἱεροθύτας τῶι <persName type="divine" key="Zeus">Διὶ</persName> καὶ τῶι <persName type="divine" key="Helios">Ἁλί<lb 
+                        break="no" n="15"/><supplied reason="lost">ωι</supplied></persName> καὶ τᾶι <persName type="divine" key="Rhodos">Ῥόδωι</persName> καὶ τοῖς ἄλλοις <w lemma="θεός">θεοῖς</w> πᾶσι καὶ πάσαις καθ’ ἱερῶν τῶν νομιζομέ<lb 
+                        break="no" n="16"/><supplied reason="lost">ν</supplied>ων συνενέγκαι τὰ <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω">δόξαντα</w></rs> τῶι δάμωι τῶι <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#olous"><w lemma="πόλις">πόλει</w></rs> τᾶι <placeName ref="#olous" type="ethnic">Ὀλουντί<lb 
+                        break="no" n="17"/><unclear>ω</unclear>ν</placeName>· ἐπιτελειᾶν δὲ τᾶν <w lemma="εὐχά">εὐχᾶν</w> γενομενᾶν <w lemma="θυσία">θυσίαν</w> καὶ πόθοδον ποιήσασθαι
+                          <lb n="18"/>τοῖς <w lemma="θεός">θεοῖς</w> κατὰ τὰ νομιζόμενα· <w lemma="κυρόω">κυρωθείσας</w> δὲ τᾶς <w lemma="συμμαχία">συμμαχ<lb 
+                        break="no" n="19"/><supplied reason="lost">ί</supplied>ας</w> καὶ τῶν <w lemma="ὅρκος">ὅρκων</w> συντελεσθέντων κατὰ τὰ <w lemma="γράφω">γεγραμμένα</w> ὑπάρ<unclear>χ</unclear><supplied reason="lost">ειν</supplied>
+                          <lb n="20"/><supplied reason="lost">τὰ</supplied>ν <w lemma="συμμαχία">συμμαχίαν</w> <placeName ref="#olous" type="ethnic">Ὀλουντίοις</placeName> ποτὶ τὸν δᾶμον τὸν <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName> καὶ τὸν αὐτὸν <w lemma="σύμμαχος">σ<unclear>ύ</unclear><supplied reason="lost">μ</supplied><lb 
+                        break="no" n="21"/><supplied reason="lost">μαχ</supplied>ον</w> καὶ <w lemma="φίλος">φίλον</w> αἱρ<unclear>ε</unclear>ῖσθαι <placeName ref="#olous" type="ethnic">Ὀλουντίους</placeName> <placeName ref="#rhodos" type="ethnic">Ῥοδίοις</placeName> καθ’ ὅτι κα τῶι δάμωι δοκῆι· μὴ ἐ<lb 
+                        break="no" n="22"/><supplied reason="lost">ξεῖμε</supplied>ιν <supplied reason="lost">δὲ</supplied> <placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀλου</supplied>ντίοις</placeName> π<supplied reason="lost">ο</supplied>τ’ ἄλλον μηδένα <w lemma="συμμαχία">συμμαχίαν</w> ποιήσασθαι παρευρέ<lb 
+                        break="no" n="23"/><supplied reason="lost">σει</supplied> μηδε<unclear>μιᾶ</unclear>ι, τὰς δὲ πρότερον αὐτοῖς ὑπαρχούσας <w lemma="συμμαχία">συμμαχίας</w> πάσας
+                          <lb n="24"/><supplied reason="lost">κα</supplied>ταλελύσθαι· μὴ ἐ<supplied reason="lost">ξ</supplied>εῖμειν δὲ <placeName ref="#olous" type="ethnic">Ὀλουντίοις</placeName> μηδὲ κατάρχειν πολέμου
+                          <lb n="25"/><supplied reason="lost">πο</supplied><unclear>τὶ</unclear> <unclear>μεθένα</unclear> <unclear>ε</unclear><supplied reason="lost">ἴ</supplied> <unclear>κα</unclear> <unclear>μὴ</unclear> συνδοκῆι τῶι δάμωι τῶι <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName>· συνεργεῖν δὲ <placeName ref="#olous" type="ethnic">Ὀλουν<lb 
+                        break="no" n="26"/>τίους</placeName> τῶι δάμωι τῶι <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName> καὶ <rs type="institution" subtype="public_space" role="concession" key="polis" ref="#olous"><w lemma="πόλις">πόλιν</w></rs> καὶ <w lemma="λιμήν">λιμένας</w> καὶ <w lemma="ὁρματήριον">ὁρματήρια</w> παρέ<lb 
+                        break="no" n="27"/>χεν <unclear>καὶ</unclear> <w lemma="εὔνοος"><unclear>εὔνου</unclear>ς</w> <unclear>καὶ</unclear> <w lemma="φίλος"><unclear>φίλους</unclear></w> καὶ <w lemma="σύμμαχος"><unclear>σ</unclear>υμμάχους</w> ὑπάρχειν εἰς τὸν ἅπαντα χρό<lb 
+                        break="no" n="28"/>νον, <supplied reason="lost">κ</supplied><unclear>αὶ</unclear> <unclear>εἴ</unclear> <unclear>τίς</unclear> κα ἐπὶ πόλιν <unclear>ἢ</unclear> <unclear>χώραν</unclear> <w lemma="στρατεύω">στρατεύηται</w> τὰν <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName> ἢ τ<unclear>ο</unclear><supplied reason="lost">ὺ</supplied>ς νόμ<unclear>ου</unclear>ς
+                          <lb n="29"/>ἢ τὰς <unclear>ποθόδο</unclear><supplied reason="lost">υ</supplied>ς <unclear>ἢ</unclear> <unclear>τὰ</unclear><supplied reason="lost">ν</supplied> καθε<unclear>στακυῖ</unclear>αν <w lemma="δαμοκρατία">δαμοκρατίαν</w> <unclear>κατα</unclear>λύηι, <w lemma="βοαθέω">βοαθεῖν</w> <placeName ref="#olous" type="ethnic">Ὀ<lb 
+                        break="no" n="30"/>λουντίους</placeName> <placeName ref="#rhodos" type="ethnic"><unclear>Ῥοδίοις</unclear></placeName> παντὶ σθένει κατὰ τὸ δυνατόν, καὶ εἶμειν τὸν <w lemma="πράσσω"><unclear>πρ</unclear>άσ<lb 
+                        break="no" n="31"/>σοντ<supplied reason="lost">α</supplied></w> <supplied reason="lost">κακὸ</supplied>ν κατὰ <placeName ref="#rhodos" type="ethnic"><supplied reason="lost">Ῥοδ</supplied>ίων</placeName> πολέμιον <placeName ref="#olous" type="ethnic">Ὀλουντίοις</placeName>· εἰ δέ κ<supplied reason="lost">α</supplied> ὁ δᾶμος μεταπέν<lb 
+                        break="no" n="32"/>πητα<unclear>ι</unclear> <w lemma="συμμαχία">συμ<unclear>μα</unclear><supplied reason="lost">χί</supplied><unclear>αν</unclear></w> <unclear>παρὰ</unclear> <placeName ref="#olous" type="ethnic">Ὀλουντίων</placeName>, ἀποστελλόντων <placeName ref="#olous" type="ethnic">Ὀλ<supplied reason="lost">ο</supplied>ύντιοι</placeName> τὰν <w lemma="συμμαχία">συμ<lb 
+                        break="no" n="33"/>μαχίαν</w> <unclear>ἐν</unclear> <unclear>ἁμέραις</unclear> τριάκοντα ἀφ’ ἇς <w lemma="ἐπαγγέλλω">ἐπαγγείλων<supplied reason="lost">τι</supplied></w> <placeName ref="#rhodos" type="ethnic">Ῥό<unclear>δι</unclear>οι</placeName> <w lemma="ἀνήρ">ἄνδρας</w>
+                          <lb n="34"/><unclear>μὴ</unclear> ἐλάσσους <unclear>ἑ</unclear>κα<unclear>τὸν</unclear> <rs type="institution" subtype="social_status" role="war" key="eleutheros" ref="#olous"><w lemma="ἐλεύθερος">ἐλευθέρους</w></rs> ὅπλα ἔχοντας, τούτων δὲ ὄντων
+                          <lb n="35"/><unclear>μὴ</unclear> ἐλάσσους τῶν ἡμίσων <placeName ref="#olous" type="ethnic">Ὀλούντιοι</placeName>· τοῖς δὲ πεμ<unclear>π</unclear>ομένοις παρὰ <placeName ref="#olous" type="ethnic">Ὀλουντί<lb 
+                        break="no" n="36"/>ων</placeName> παρεχόντων <placeName ref="#rhodos" type="ethnic">Ῥόδιοι</placeName> <w lemma="πορεῖον">πορεῖα</w> εἰς τὰν <w lemma="διακομιδά">διακομιδὰν</w> τὰν ἐκ <placeName ref="#crete">Κρήτας</placeName> εἰς <placeName ref="#rhodos">Ῥό<lb 
+                        break="no" n="37"/><unclear>δ</unclear>ον</placeName>· ἀφ’ οὗ δέ κα ἔλθωντι οἱ <w lemma="σύμμαχος">σύμ<unclear>μ</unclear><supplied reason="lost">α</supplied>χοι</w> εἰ<unclear>ς</unclear> <placeName ref="#rhodos"><unclear>Ῥόδ</unclear>ον</placeName> τᾶν μὲν πράταν ἁμερᾶν
+                          <lb n="38"/><supplied reason="lost">τριά</supplied>κοντ<unclear>α</unclear> λ<unclear>αμ</unclear>βανό<unclear>ν</unclear>των τὰ <w lemma="ὀψώνιον">ὀψώνια</w> μὲν <corr>παρ’</corr> <placeName ref="#olous" type="ethnic">Ὀλουντίων</placeName> τοῦ δὲ ὑπολοίπου χρό<lb 
+                        break="no" n="39"/><unclear>ν</unclear>ου παρὰ <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName> ἕκαστος τὰν ἁμέρα<supplied reason="lost">ν ἑκάσταν</supplied> ὀκτὼ <w lemma="ὀβολός">ὀβολοὺς</w> <placeName ref="#rhodos" type="ethnic">Ῥοδίους</placeName>,
+                          <lb n="40"/><unclear>τ</unclear>οὶ δὲ <rs type="institution" subtype="official" role="war" key="hegemon" ref="#olous"><w lemma="ἁγεμών">ἁγεμό<unclear>ν</unclear><supplied reason="lost">ες</supplied></w></rs> <supplied reason="lost">τῶν</supplied> <placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀ</supplied><unclear>λουντίων</unclear></placeName> <w lemma="δραχμή">δρ<supplied reason="lost">αχμὰς</supplied></w> <supplied reason="lost">δύο</supplied> ἕκαστος <corr>ἁγούμενοι</corr> <w lemma="ἀνήρ">ἀ<unclear>ν</unclear>δρῶ<unclear>ν</unclear></w> μὴ ἐ<lb 
+                        break="no" n="41"/><supplied reason="lost">λασσόνων εἴκοσι λαμβ</supplied><unclear>α</unclear>νόντων <w lemma="ἀνήρ"><supplied reason="lost">ἀνδρῶν</supplied></w> ἕκαστος τᾶς ἁμέρας ἑκάστ<supplied reason="lost">ας</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="42"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ολμ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>σκελ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="42a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="part" n="B-C">
+                        <ab>
+                          <lb n="43"/><gap reason="lost" extent="unknown" unit="character"/><orig>αι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="44"/>αν συμφερο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="45"/>καὶ τοῖς ἄλλοι<supplied reason="lost">ς <w lemma="σύμμαχος">συμμάχοις</w></supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low"><w lemma="ἀναγινώσκω">ἀναγινώσκειν</w></supplied> <supplied reason="lost">δὲ τοὺς</supplied>
+                          <lb n="46"/><rs type="institution" subtype="board" role="leading_reading_of_treaty" key="kosmos" ref="#olous"><w lemma="κόσμος">κόσμους</w></rs> τοῖς ἐ<unclear>π</unclear><supplied reason="lost" cert="low">ιγινομένοις <rs type="institution" subtype="age_class" role="oath-taking" key="azostos" ref="#olous"><w lemma="ἄζωστος">ἀζώστοις</w></rs></supplied> <supplied reason="lost">κατ’ ἔτος τὰ</supplied> <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#olous"><w lemma="δοκέω"><supplied reason="lost">δό</supplied><lb 
+                        break="no" n="47"/>ξαντα</w></rs> περὶ τῆς <w lemma="συμμαχία"><unclear>σ</unclear><supplied reason="lost">υμμαχίας</supplied></w> <supplied reason="lost">τῆς γεγενημένης</supplied> <placeName ref="#olous" type="ethnic"><supplied reason="lost">Ὀλουντί</supplied><lb 
+                        break="no" n="48"/>οις</placeName> καὶ <placeName ref="#rhodos" type="ethnic">Ῥοδίοις</placeName> καὶ <unclear>τ</unclear><supplied reason="lost">ὸν <w lemma="ὅρκος">ὅρκον</w> τὸν περὶ τῆς</supplied> <w lemma="συμμαχία"><supplied reason="lost">συμμαχί</supplied><lb 
+                        break="no" n="49"/>ας</w>· ὅπως δὲ καὶ <w lemma="ὀμνύω">ὀμό<supplied reason="lost">σωσι</supplied></w><supplied reason="lost">, τὴν <rs type="institution" subtype="age_class" role="oath-taking" key="agela" ref="#olous"><w lemma="ἀγέλη">ἀγέλην</w></rs> <w lemma="ἐξορκόω">ἐξορκωσάντων</w> οἱ</supplied> <rs type="institution" subtype="board" role="leading_oath" key="kosmos" ref="#olous"><w lemma="κόσμος"><supplied reason="lost">κόσ</supplied><lb 
+                        break="no" n="50"/>μοι</w></rs>· ὁ δὲ <w lemma="ὅρκος">ὅρκος</w> ἔστω <supplied reason="lost"><placeName ref="#olous" type="ethnic">Ὀλουντίοις</placeName>· <w lemma="ὀμνύω">ὀμνύω</w> τὴν <persName type="divine" key="Hestia"><rs type="institution" subtype="public_space" role="mentioned_in_oath" key="hestia" ref="#olous"><w lemma="Ἑστία">Ἑστίαν</w></rs></persName> καὶ</supplied>
+                          <lb n="51"/><supplied reason="lost">τὸν</supplied> <persName type="divine" key="Zeus Idates">Ζῆ<supplied reason="lost">ν</supplied><unclear>α</unclear> τὸν <placeName ref="#idaeum_antrum" type="ethnic">Ἰδάτη<supplied reason="lost">ν</supplied></placeName></persName> κα<supplied reason="lost" cert="low">ὶ τὸν <persName type="divine" key="Zeus Tallaios">Ζῆνα τὸν Ταλλαῖον</persName></supplied> <supplied reason="lost">καὶ τὴν</supplied> <persName type="divine" key="Hera"><supplied reason="lost">Ἥ</supplied><lb 
+                        break="no" n="52"/><supplied reason="lost" cert="low">ραν</supplied></persName> κα<supplied reason="lost">ὶ τὸ</supplied>ν <persName type="divine" key="Poseidon">Ποσειδῶ<corr>να</corr></persName> κ<unclear>α</unclear><supplied reason="lost" cert="low">ὶ τὸν <persName type="divine" key="Ares">Ἄρην</persName> καὶ τὴν <persName type="divine" key="Aphrodite">Ἀφροδίτην</persName></supplied>
+                          <lb n="53"/><supplied reason="lost">καὶ</supplied> τ<supplied reason="lost">ὸν</supplied> <persName type="divine" key="Hermes Hegemon"><supplied reason="lost">Ἑρ</supplied>μῆν τὸν Ἡγεμ<supplied reason="lost" cert="low">όνα</supplied></persName> <supplied reason="lost" cert="low">καὶ τὸν <persName type="divine" key="Helios">Ἥλιον</persName></supplied> <supplied reason="lost">καὶ τὴν</supplied> <persName type="divine" key="Britomartis"><supplied reason="lost">Βρι</supplied><lb 
+                        break="no" n="54"/><supplied reason="lost" cert="low">τόμαρτιν</supplied></persName> καὶ <w lemma="θεός">θεοὺς</w> πάντ<supplied reason="lost">ας καὶ πάσας· ἦ μὴν ἐγὼ <placeName ref="#rhodos" type="ethnic">Ῥοδίοις</placeName></supplied>
+                          <lb n="55"/><w lemma="συμμαχέω"><supplied reason="lost">συμμαχήσ</supplied>ω</w> ἀδόλως καὶ <supplied reason="lost">ἀπροφασίστως εἰς τὸν ἅπαντα</supplied>
+                          <lb n="56"/><supplied reason="lost">χρόνον, καὶ</supplied> ἐάν τις ἐπὶ <unclear>π</unclear><supplied reason="lost">όλιν ἢ χώραν <w lemma="στρατεύω">στρατεύηται</w></supplied> <placeName ref="#rhodos" type="ethnic"><supplied reason="lost">Ῥοδί</supplied><lb 
+                        break="no" n="57"/><supplied reason="lost">ων</supplied></placeName> <supplied reason="lost">ἢ τοὺς νόμ</supplied>ους ἢ τὰς π<unclear>ρ</unclear><supplied reason="lost">οσόδους ἢ τὴν καθεστηκυῖαν</supplied>
+                          <lb n="58"/><supplied reason="lost"><w lemma="δημοκρατία">δημοκρατίαν</w> κ</supplied>αταλύη<supplied reason="lost">ι, <w lemma="βοηθέω">βοηθήσω</w> <placeName ref="#rhodos" type="ethnic">Ῥοδίοις</placeName> παντὶ σθένει</supplied>·
+                          <lb n="59"/><supplied reason="lost">ἐὰν δὲ ὁ δῆμος ὁ</supplied> <placeName ref="#rhodos" type="ethnic">Ῥοδίων</placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="60"/><gap reason="lost" extent="unknown" unit="character"/> ἐκ τῆς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="61"/><gap reason="lost" extent="unknown" unit="character"/><orig>ντα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="62"/><gap reason="lost" extent="unknown" unit="character"/><orig>κ<unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                            <lb n="62a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="14"><note><supplied reason="lost">τ</supplied><unclear>ύ</unclear>χαι <bibl><ref target="#bib106"><title>BE</title></ref></bibl>, <bibl><ref target="#bib321"><title>Staatsverträge</title></ref></bibl>; 
+                        <supplied reason="lost">ἀ</supplied><unclear>ρ</unclear>χᾶι <bibl><ref target="#b1426">Orlandos</ref></bibl>, <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>.</note></app>
+                    <app loc="40-41"><note>ἁγεμό<unclear>ν</unclear><supplied reason="lost">ες</supplied> <supplied reason="lost">τῶν</supplied> <supplied reason="lost">Ὀ</supplied><unclear>λουντίων</unclear> δρ<supplied reason="lost">αχμὰς δύο</supplied> ἕκαστος <corr>ἁγούμενοι</corr> ἀ<unclear>ν</unclear>δρῶ<unclear>ν</unclear> μὴ ἐ<supplied reason="lost">λασσόνων εἴκοσι λαμβ</supplied><unclear>α</unclear>νόντων <supplied reason="lost">ἀνδρῶν</supplied> ἕκαστος τᾶς ἁμέρας ἑκάστ<supplied reason="lost">ας</supplied> <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib5"><title>SEG</title></ref></bibl>,
+                        ἁγεμό<unclear>ν</unclear> <supplied reason="lost">ες τῶν Ὀ</supplied>λουντίων ἁ<unclear>γ</unclear>ο<unclear>ύ</unclear>μ<supplied reason="lost">ενο</supplied>ι ἕκαστος ἀνδρῶν μὴ ἐ<supplied reason="lost">λασσόνων πεντήκοντα(?) λαμβ</supplied><unclear>α</unclear>νόντων <supplied reason="lost">αὐτῶν</supplied> ἕκαστος τᾶς ἁμέρας ἑκάστ<supplied reason="lost">ας</supplied> | <supplied reason="lost">δραχμὰς δύο(?)</supplied> <bibl><ref target="#b678">Garlan</ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>Il documento formalmente si configura come un decreto emanato da Rodi, che ricorda l’invio da parte di Olous di decreti e di tre ambasciatori finalizzato alla stipulazione di un’alleanza tra le rispettive <foreign>poleis</foreign> (ll. 1-12) e che ratifica quanto decretato dal <foreign>damos</foreign> di Rodi e dalla <foreign>polis</foreign> di Olous (ll. 16-17; intense relazioni fra le due città sono documentate anche dai decreti <ref type="ins" target="#seg_23_548"><title>SEG</title> 23.548</ref>, <ref type="ins" target="#ic1_22_5"><title>IC</title> I 22 5</ref> e <ref type="ins" target="#ic1_22_4"><title>IC</title> I 22 4</ref> Ι, IV-V, IX-X).</p>
+                    <p>Le condizioni dell’alleanza, che appaiono chiaramente di iniziativa rodia, prevedono un’adesione di Olous alla politica estera di Rodi per quanto riguarda la scelta di amici e alleati ed il coinvolgimento in guerre, che si concretizza nel divieto per la città cretese di stringere altri accordi o prendere parte a conflitti senza il consenso di Rodi (ll. 18-25). Olous è inoltre tenuta a mettere a disposizione ad uso esclusivo di Rodi la propria città ed i propri porti e basi navali e ad aiutare l’alleata qualora qualcuno la attacchi o cerchi di abbatterne le leggi, i riti (?) o il regime democratico (ll. 25-30).</p>
+                    <p>Le clausole alle linee 31-41, inoltre, regolano inoltre le modalità di invio di aiuto militare a Rodi da parte di Olous, che deve essere fornito entro trenta giorni dalla richiesta e che deve consistere in un contingente di non meno di cento uomini in armi di <foreign>status</foreign> libero, almeno per metà aventi la cittadinanza di Olous, il cui spostamento verso Rodi è spesato da quest’ultima; dei militari è stabilita anche la paga, di differente entità per i comandanti e per i soldati semplici.</p>
+                    <p>Il testo restituito dai frammenti B e C, separato da quello precedente da una forse non troppo estesa lacuna, sembra conservare alle linee 45-50 una clausola che prevede che i cosmi di Olous promuovano la pubblica lettura (?) del trattato e facciano prestare il giuramento ai giovani uscenti dall’<foreign>agela</foreign> (indicati forse come ἐπ[ιγινομένοις ἀζώστοις] alla linea 46, espressione che è impiegata in <ref type="ins" target="#ic1_9_1"><title>IC</title> I 9 1</ref>). Le ultime linee conservate del trattato, infine, restituiscono parte del giuramento di Olous, che fra le divinità invocate menziona Zeus <foreign>Idates</foreign> e forse Hestia e che include la promessa di aiuto militare a Rodi (ll. 50-62).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela"><foreign>agela</foreign></ref> (?), <ref type="inst" target="#azostos"><foreign>azostos</foreign></ref> (?), <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#hegemon"><foreign>hegemon</foreign></ref>, <ref type="inst" target="#hestia"><foreign>hestia</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1882">Van Effenterre 1948</ref>, pp. 226-230 (B-C)</bibl>, <bibl><ref target="#b1426">Orlandos 1961-1962</ref> (A)</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 23.547 <ptr type="phi" target="201744"/> <ptr type="phi" target="201745"/> <ptr type="seg" target="a23_547"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 552</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib106"><title>BE</title></ref> 1964.421</bibl>;
+                            <bibl><ref target="#b678">Garlan 1969</ref>, pp. 160-161</bibl>; 
+                            <bibl><ref target="#b650">Gabrielsen 1997</ref>, pp. 46-63</bibl>; 
+                            <bibl><ref target="#b471">De Libero 1997</ref>, pp. 287-290</bibl>; 
+                            <bibl><ref target="#b1506">Perlman 1999</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

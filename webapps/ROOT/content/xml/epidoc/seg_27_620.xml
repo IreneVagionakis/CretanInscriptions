@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Dreros contro l’iterazione del cosmato</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 27.620</idno>
+                        <idno type="projectNo">412</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#neapoli_collection">Collezione archeologica di Neapoli</repository> 
+                                <idno type="invNo">907-908</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#dreros">Dreros, tempio di Apollo <foreign>Delphinios</foreign></origPlace>
+                                    <origDate period="#archaic" notBefore="-0675" notAfter="-0625">650 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1a"/><w lemma="θιός">θιὸς</w> ὁ λοΐον·
+                          <lb n="1"/>ἆδ’ <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#dreros"><w lemma="ϝανδάνω">ἔϝαδε</w></rs> <g type="|"/> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#dreros"><w lemma="πόλις">πόλι</w></rs>· <g type="|"/> ἐπεί κα <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#dreros"><w lemma="κοσμέω">κοσμήσει</w></rs>, <g type="|"/> δέκα ϝετίον <g type="|"/> τὸν ἀ<lb 
+                              break="no" n="2"/>ϝτὸν <g type="|"/> μὴ <rs type="institution" subtype="official" role="exclusion" key="kosmos" ref="#dreros"><w lemma="κοσμέω">κοσμε̃ν</w></rs>· <g type="|"/> αἰ δὲ <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#dreros"><w lemma="κοσμέω">κοσμήσιε</w></rs>, <g type="|"/> ὃπε <w lemma="δικάζω">δικάκσιε</w> <g type="|"/> ἀϝτὸν ὀπῆλεν <g type="|"/> διπλεῖ <g type="|"/> κἀϝτὸν
+                          <lb n="3"/><w lemma="ἄκρηστος">ἄκρηστον</w> <g type="|"/> ἦμεν <g type="|"/> ἆς δόοι, <g type="|"/> κὄτι <rs type="institution" subtype="official" role="incumbent" key="kosmos" ref="#dreros"><w lemma="κοσμέω">κοσμήσιε</w></rs> <g type="|"/> μηδὲν ἤμην. <space extent="unknown" unit="character"/>
+                          <lb n="4"/><g type="⧖"/> <w lemma="ὀμότας">ὀμόται</w> δὲ <g type="|"/> <rs type="institution" subtype="official" role="oath-taking" key="kosmos" ref="#dreros"><w lemma="κόσμος">κόσμος</w></rs> <g type="|"/> κοἰ <rs type="institution" subtype="board" role="oath-taking" key="damios" ref="#dreros" cert="low"><w lemma="δάμιος">δάμιοι</w></rs> <g type="|"/> <rs type="institution" subtype="board" role="oath-taking" key="hoi_ikati_hoi_tas_polios" ref="#dreros" cert="low"><w lemma="οἰ ἴκατι οἰ τᾶς πόλιος">κοἰ ἴκατι <g type="|"/> οἰ τᾶς πό<unclear>λ</unclear><supplied reason="lost">ιο</supplied><unclear>ς</unclear></w></rs>.
+                          </ab>
+                    </div>
+                    <div type="apparatus">
+                <p>
+                    <app loc="1a"><note>ὁ λοΐον <bibl><ref target="#b788">Guarducci</ref></bibl>; ὄλοι ὄν <bibl><ref target="#b212">Buck</ref></bibl>; ὃ λόϊον <bibl><ref target="#b674">Gallavotti</ref></bibl>; ολοιον <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+                    <div type="commentary">
+                        <p>La legge, formalmente redatta nella forma di decreto, è introdotta da una formula di sanzione che indica la <foreign>polis</foreign> di Dreros come responsabile della deliberazione (come avviene anche in <ref type="ins" target="#bile_4">Bile 4</ref> e forse <ref type="ins" target="#seg_23_530"><title>SEG</title> 23.530</ref>). L’espressione θιὸς ὁ λοΐον, che sulla pietra è inserita fra le linee 1 e 2, costituisce molto probabilmente un’aggiunta successiva dell’invocazione benaugurale che avrebbe dovuto trovarsi all’inizio del documento, equivalente al più diffuso θεὸς ἀγαθός (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 222-224</bibl>).</p>
+                    <p>L’oggetto della decisione, alle linee 1-3, vieta l’iterazione del cosmato nei dieci anni successivi alla detenzione della carica e prevede le pene che devono essere applicate ai contravventori, consistenti nell’imposizione di una multa, nell’interdizione dai ruoli pubblici (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 356-362</bibl>, <bibl><ref target="#b553">Ehrenberg 1943</ref></bibl>) o nella revoca dei diritti (cf. <bibl><ref target="#bib122"><title>Laws</title></ref>, p. 202</bibl>, cf. <ref type="lit">Arist. <title>fr. var.</title> 592</ref>) e nell’annullamento di quanto svolto in qualità di cosmi (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 228-229</bibl>). Il divieto, che è simile per natura a quello documentato a Gortyna da <ref type="ins" target="#ic4_14"><title>IC</title> IV 14</ref> G-P, nel quale è proibita l’iterazione del cosmato in un intervallo di tempo di tre anni (oltre che della carica di <foreign>gnomon</foreign> in dieci anni e di quella di <foreign>xenios</foreign> in cinque anni; cf. <bibl><ref target="#b1111">Link 2003</ref></bibl>), è verosimile che interessi non soltanto coloro che ricoprono effettivamente la carica più volte ma anche gli ex magistrati che svolgono le funzioni proprie di un cosmo pur non essendolo, in particolare emettendo giudizi.</p>
+                    <p>L’ultima linea del documento, di notevole importanza, ricorda un giuramento prestato verosimilmente al momento dell’iscrizione del testo dal cosmo, dai δάμιοι e dai venti della <foreign>polis</foreign>. La carica di cosmo, che trova in questa iscrizione la sua più antica attestazione, è verosimile che fosse rivestita da un singolo magistrato – come suggerisce l’impiego al singolare del termine κόσμος alla linea 4 – anziché da un collegio, documentato a Dreros solamente in epoca ellenistica (sull’improbabilità del valore collettivo del termine cf. <bibl><ref target="#bib122"><title>Laws</title></ref>, p. 206</bibl>).
+                           I <foreign>damioi</foreign>, non attestati altrove, su base etimologica parrebbero in qualche modo connessi al <foreign>damos</foreign>, di cui potrebbero essere forse i membri o dei rappresentanti. I venti della <foreign>polis</foreign>, invece, anch’essi attestati in quest’unica iscrizione, non sembrano costituire uno specifico collegio ben definito bensì un insieme di venti cittadini scelti fra i membri della <foreign>polis</foreign> come suoi rappresentanti in occasione del giuramento; un’operazione analoga, peraltro, è attestata in età arcaica a Datala, dove viene ricordata una solenne promessa prestata da cinque individui di ogni tribù scelti come rappresentanti della <foreign>polis</foreign> (<ref type="ins" target="#seg_27_631"><title>SEG</title> 27.631</ref>, ἐσπένσαμες πόλις ... ἀπὸ πυλᾶν πέντε ἀπ’ ἐκάστας).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#damios"><foreign>damios</foreign></ref>, <ref type="inst" target="#hoi_ikati"><foreign>hoi ikati hoi tas polios</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b496">Demargne – Van Effenterre 1937</ref>, pp. 333-348 n. 1</bibl>; 
+                            <bibl><ref target="#b788">Guarducci 1939</ref>, pp. 20-23</bibl>; 
+                            <bibl><ref target="#b553">Ehrenberg 1943</ref></bibl>; 
+                            <bibl><ref target="#b975">Kazanski 1983</ref>, n. 73</bibl>; 
+                            <bibl><ref target="#bib46"><title>EG</title></ref> I, pp. 187-188 n. 4</bibl>; 
+                            <bibl><ref target="#bib26"><title>LSAG</title></ref>, pp. 311-315, 413 n. 1a, tav. 59 n. 1a</bibl>; 
+                            <bibl><ref target="#b838">Hainsworth 1972</ref>, n. 60</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 90</bibl>; 
+                            <bibl><ref target="#b674">Gallavotti 1977</ref>, pp. 130-135</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 27.620 <ptr type="phi" target="201822"/> <ptr type="poinikastas" target="#"/></bibl>); 
+                            <bibl><ref target="#b535">Duhoux 1982</ref>, pp. 28-37 n. 1</bibl>; 
+                            <bibl><ref target="#b536">Duhoux 1983</ref>, pp. 73-74</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 2</bibl>; 
+                            <bibl><ref target="#bib512"><title>ML</title></ref> 2</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 81</bibl>; 
+                            <bibl><ref target="#b898">Hölkeskamp 1994</ref></bibl>;
+                            <bibl><ref target="#b402">Cortés Copete 1999</ref>, pp. 197-199</bibl>; 
+                            <bibl><ref target="#b625">Forssman 2002</ref></bibl>;
+                            <bibl><ref target="#b1181">Mandalaki 2004</ref>, pp. 116-117</bibl>;
+                            <bibl><ref target="#b1691">Seelentag 2009a</ref></bibl>; 
+                            <bibl><ref target="#b1943">Veneciano 2010</ref></bibl>;
+                            <bibl><ref target="#b2071">Youni 2011</ref>, p. 286</bibl>;
+                            <bibl><ref target="#b1694">Seelentag 2014a</ref></bibl>;
+                            <bibl><ref target="#b1695">Seelentag 2015</ref>, pp. 139-155, 250-251</bibl>;
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> Dr1</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 2</bibl>;
+                            <bibl><ref target="#b500">De Rossi 2017</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib401"><title>Axon</title></ref> 36 <ptr type="axon" target="36"/></bibl>);
+                            <bibl><ref target="#bib400"><title>Iscrizioni Greche</title></ref> 4</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b495">Demargne 1938</ref>, p. 194</bibl>; 
+                            <bibl><ref target="#b929">Jacoby 1944</ref></bibl>;
+                            <bibl><ref target="#b212">Buck 1955</ref>, p. 116</bibl>; 
+                            <bibl><ref target="#b1839">Triantaphyllopoulos 1964</ref></bibl>;
+                            <bibl><ref target="#b1827">Tiré – Van Effenterre 1978</ref>, tav. XXIV</bibl>; 
+                            <bibl><ref target="#b655">Gagarin 1986</ref>, pp. 81-86</bibl>; 
+                            <bibl><ref target="#b854">Hansen 1986</ref></bibl>; 
+                            <bibl><ref target="#b1905">Van Effenterre 1989a</ref></bibl>; 
+                            <bibl><ref target="#b1469">Papakonstantinou 1996</ref></bibl>; 
+                            <bibl><ref target="#b899">Hölkeskamp 1999</ref>, pp. 87-95</bibl>; 
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 2</bibl>;
+                            <bibl><ref target="#b1200">Marginesu 2006a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

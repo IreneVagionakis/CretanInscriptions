@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di <foreign>isopoliteia</foreign> fra Hierapytna e un’altra città</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC III 3 6</idno>
+                        <idno type="projectNo">485</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#hierapytna">Hierapytna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0204" notAfter="-0175">fine III - inizi II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><rs type="institution" subtype="month" role="calendar" key="meis" ref="#hierapytna"><w lemma="μείς">μηνὸς</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/>τάδε <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#hierapytna"><w lemma="δοκέω">ἔ<unclear>δ</unclear><supplied reason="lost">οξ</supplied>ε<unclear>ν</unclear></w></rs> τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>αν <rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#hierapytna"><w lemma="συνθήκα">συνθήκαν</w></rs> <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#hierapytna" cert="low"><w part="I" lemma="κοσμέω">κοσμ<gap reason="lost" extent="unknown" unit="character"/></w></rs> <supplied reason="lost">καὶ ἰδίαι</supplied>
+                          <lb n="4"/>καὶ <w lemma="δαμόσιος">δαμοσίαι</w> τοῖς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/>τοῖς <orig><unclear>ῥ</unclear></orig><gap reason="lost" quantity="4" unit="character"/>οις κ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="θῖνος">θίνων</w> καὶ</supplied>
+                          <lb n="6"/><w lemma="ἀνθρώπινος"><unclear>ἀ</unclear>ν<supplied reason="lost">θρωπ</supplied>ίνων</w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/>τοῖς <placeName ref="#hierapytna" type="ethnic">Ἱεραπυτν<supplied reason="lost">ίοις</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/>στον τὰν αν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/>δὲ <w lemma="δαμόσιος">δαμόσια</w> α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" quantity="1" unit="character"/>οσύναι αὐτοῖς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/>τὰ δεδομένα τ<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κα</supplied><lb 
+                        break="no" n="12"/>θὼς ἀπὸ τᾶς α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="13"/>δὲ αἱ <w lemma="θυσία">θυσίαι</w> τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="14"/>τὸν <rs type="institution" subtype="official" role="sacrifices" key="hiereus" ref="#hierapytna"><w lemma="ἱερεύς">ἱερέα</w></rs> α<unclear>β</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="lost" extent="unknown" unit="character"/><orig>σι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento appartiene ad un trattato di <foreign>isopoliteia</foreign> (cf. ll. 4-6) fra Hierapytna ed un secondo contraente di cui non è pervenuto il nome. Alla datazione iniziale del documento, di cui si è conservato solamente il termine μηνός, fa seguito alla linea 2 una formula di sanzione nella quale è verosimile che comparissero congiuntamente gli etnici collettivi delle due <foreign>poleis</foreign>. Nel rimanente testo, piuttosto frammentario, è presente la menzione di uno o più cosmi alla linea 3 in un contesto che non è tuttavia ricostruibile, mentre alle linee 13-14 compare un sacerdote nell’ambito del compimento di sacrifici.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiareus</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#meis"><foreign>meis</foreign></ref>, <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="main_edition"><ref target="#bib3"><title>IC</title> III</ref> 3 6 <ptr type="phi" target="200245"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 35</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

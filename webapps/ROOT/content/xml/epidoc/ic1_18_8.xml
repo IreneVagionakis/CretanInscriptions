@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Rinnovo dell’alleanza fra Lyttos e i propri alleati e Antioco II</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 18 8</idno>
+                        <idno type="projectNo">192</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">86</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lyttos">Lyttos</origPlace>
+                                    <origDate period="#hellenistic" when="-0250">250 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>ῶι πατρὶ <persName type="ruler" key="Antiochos II" ref="#seleukeia"><w lemma="βασιλεύς">βασιλεῖ</w> <name nymRef="Ἀντίοχος">Ἀντιόχωι</name></persName> δε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">κ</supplied>αὶ τὴν <w lemma="εὔνοια">εὔνοιαν</w> καὶ <w lemma="αἵρεσις">αἵρεσιν</w> ἣν ἔχων διετέλε<supplied reason="lost">ι</supplied> <persName type="ruler" key="Antiochos II" ref="#seleukeia"><w lemma="βασιλεύς">βασιλεὺ<supplied reason="lost">ς</supplied></w> <name nymRef="Ἀντίοχος"><supplied reason="lost">Ἀντίο</supplied><lb 
+                        break="no" n="3"/>χος</name></persName> πρός τε <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="symmachoi" ref="#lyttos_symmachia"><placeName ref="#lyttos" type="ethnic">Λυττίους</placeName> καὶ τοὺς <w lemma="σύμμαχος">συμμάχους</w> αὐτῶν</rs> <supplied reason="lost">ὡς Ἀπολ</supplied><lb 
+                        break="no" n="4"/>λώνιος ἐνεφάνιζεν· <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#lyttos"><w lemma="δοκέω">δεδόχθαι</w></rs> <placeName ref="#lyttos" type="ethnic">Λυττίων</placeName> τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#lyttos"><w lemma="κόσμος">κόσμοις</w></rs> <supplied reason="lost">καὶ</supplied>
+                          <lb n="5"/><supplied reason="lost">τῆ</supplied>ι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#lyttos"><w lemma="πόλις">πόλει</w></rs> καὶ τοῖς <rs type="institution" subtype="social_group" role="decreer" key="symmachoi" ref="#lyttos_symmachia">ἄλλοις <w lemma="σύμμαχος">συμμάχοις</w></rs> ἀνανεώσασθαι πρὸς <persName type="ruler" key="Antiochos II" ref="#seleukeia"><w lemma="βασιλεύς"><supplied reason="lost">βασι</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">λ</supplied>έα</w> <name nymRef="Ἀντίοχος">Ἀντίοχον</name> τὸν <name nymRef="Ἀντίοχος" type="patronymic">Ἀντιόχου</name> υἱὸν</persName> καὶ τοὺς <w lemma="ἔσγονος">ἐσγόνους</w> αὐτοῦ <supplied reason="lost">τὴν</supplied>
+                          <lb n="7"/><supplied reason="lost">πρ</supplied>οϋπάρχουσαν αὐτῶι τε καὶ τῶι πατρὶ <w lemma="φιλία">φιλίαν</w> καὶ <w lemma="συμμαχία">συμμαχίαν</w> <supplied reason="lost">κατὰ</supplied>
+                          <lb n="8"/><supplied reason="lost">τ</supplied>ὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#lyttos_symmachia"><w lemma="ψήφισμα">ψήφισμα</w></rs> τὸ αὐτὸ ὃ καὶ τῶι πατρὶ καὶ <surplus>τα</surplus> τὰς <w lemma="στήλη">στήλας</w> <corr>τὰς</corr> προϋ<supplied reason="lost">παρ</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">χ</supplied>ούσας. <w lemma="ἀναγράφω">ἀναγράψαι</w> δὲ τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#lyttos_symmachia"><w lemma="ψήφισμα">ψήφισμα</w></rs> τοῦτο ἐμ μὲν <placeName ref="#lyttos">Λύττωι</placeName> ἐν <supplied reason="lost">τῶι</supplied> <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#lyttos"><supplied reason="lost"><w lemma="ἱερόν">ἱερῶι</w></supplied>
+                          <lb n="10"/><supplied reason="lost">τ</supplied>οῦ <persName type="divine" key="Apollo Poitios">Ἀπόλλωνος τοῦ Ποιτίου</persName></rs>, ἐν δὲ <placeName ref="#seleukeia">Σελευκείαι</placeName> ἐν τῆι ἀγορᾶι. <supplied reason="lost">ἡ δὲ ἀ</supplied><lb 
+                        break="no" n="11"/><supplied reason="lost">να</supplied>νέωσις ἐγένετο τῆς <w lemma="φιλία">φιλίας</w> καὶ <w lemma="συμμαχία">συμμαχίας</w> <w lemma="βασιλεύω">βασιλεύον<supplied reason="lost">τος</supplied></w>
+                          <lb n="12"/><persName type="ruler" key="Antiochos II" ref="#seleukeia"><name nymRef="Ἀντίοχος"><supplied reason="lost">Ἀ</supplied>ντιόχου</name></persName> δευτέρου καὶ ἑξηκοστοῦ ἔτους, μηνὸς Ἀρτεμισί<supplied reason="lost">ου, ἐν δὲ</supplied>
+                          <lb n="13"/><placeName ref="#lyttos">Λύττωι</placeName> <rs type="institution" subtype="tribe" role="eponym" key="Dymanes" ref="#lyttos">ἐπὶ <w lemma="Δυμᾶνες">Δυμάνων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lyttos"><w lemma="κοσμέω">κοσμούντων</w> <corr>τῶν</corr> σὺν <persName type="attested" key="Amnatos"><name nymRef="Ἄμνατος">Ἀμνάτωι</name></persName></rs>.
+                          <lb n="13a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento, che costituisce il rinnovo di un preesistente trattato fra Lyttos e re Antioco II, è datato al sessantaduesimo anno dell’era seleucide, corrispondente all’anno in cui a Lyttos è cosmo eponimo Amnatos della tribù dei <foreign>Dymanes</foreign> (attestata anche a Dreros, Hierapytna, Olous e Gortyna). Nonostante per i contenuti il documento sia considerabile come un trattato, il testo di fatto assume la forma di un decreto, e così viene infatti definito più volte al proprio interno (ψήφισμα, ll. 8 e 9).</p>
+                    <p>La formula di mozione alle linee 4-5, l’unica pervenuta dalla città, mostra i cosmi e la <foreign>polis</foreign> di Lyttos assieme ai suoi alleati come responsabili della decisione di rinnovare la precedente alleanza. La menzione dell’alleanza guidata da Lyttos (sulla quale cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 80</bibl>) ricorre inoltre anche fra le motivazioni del decreto, a proposito della benevolenza mostrata dal re nei suoi confronti.</p>
+                    <p>La formula di esposizione, alle linee 9-10, prevede l’iscrizione del testo a Lyttos nel santuario di Apollo <foreign>Poitios</foreign> – coincidente con il <foreign>Pythion</foreign> attestato da <ref type="ins" target="#seg_61_722"><title>SEG</title> 61.722</ref> – e a Seleucia nell’<foreign>agora</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#symmachia">alleanza di Lyttos</ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, tribù (<ref type="inst" target="#dymanes"><foreign>Dymanes</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b476">De Sanctis 1907</ref>, pp. 369-373 n. 22</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 18 8 <ptr type="phi" target="199336"/></bibl>; 
+                            <bibl><ref target="#b1676">Schmitt 1968</ref>, pp. 145-148 n. 2</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 486</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 80</bibl>;
+                            <bibl><ref target="#bib112"><title>HGIU</title></ref> 336</bibl>; 
+                            <bibl><ref target="#b721">Gondicas – Van Effenterre 2000</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

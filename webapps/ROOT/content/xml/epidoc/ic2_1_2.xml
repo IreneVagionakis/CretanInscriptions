@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> e <foreign>isopoliteia</foreign> a Paros da parte di Allaria</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 1 2</idno>
+                        <idno type="projectNo">093</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#berlin_pergamon_museum">Pergamon Museum, Berlino</repository> 
+                                <idno type="invNo">1547</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele" cert="low">stele?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#allaria">Allaria</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="part" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>αε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ανα</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>δὲ</unclear> καὶ τὰ <rs type="institution" subtype="object" role="foreign_relations" key="gramma" ref="#allaria"><w lemma="γράμμα">γρά<supplied reason="lost">μματα</supplied></w></rs>
+                          <lb n="4"/><supplied reason="lost">τὰ τῶν παραγενομένων</supplied> <unclear>ἀ</unclear>εὶ ἐξ <placeName ref="#allaria">Ἀλλαρίας</placeName> <supplied reason="lost">τοὺς ἄρ</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">χοντ</supplied>α<unclear>ς</unclear> <supplied reason="lost">ἐν τῶι δ</supplied>ημοσίωι μετὰ τοῦ γραμματ<supplied reason="lost">έως</supplied>.
+                          <lb n="6"/><supplied reason="lost">ἐξ</supplied>αποστεῖλαι δὲ τοὺς ἄρχοντας τοὺς περὶ <unclear>Ἄ</unclear><supplied reason="lost">γα</supplied><lb 
+                        break="no" n="7"/><unclear>θ</unclear>ιν τοῦδε τοῦ ψηφίσματος τὸ ἀντίγραφον σφραγι<lb 
+                        break="no" n="8"/>σαμένους τεῖ δημοσίαι σφραγῖδι ὅπως παρακο<lb 
+                        break="no" n="9"/>λουθῶσιν <placeName ref="#allaria" type="ethnic">Ἀλλαριῶται</placeName> τὰ ἐψηφισμένα περὶ τούτων.
+                          <lb n="9a"/><space quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="B">
+                        <ab>
+                          <lb n="1"/><placeName ref="#allaria" type="ethnic">Ἀλλαριωτᾶν</placeName> οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#allaria"><w lemma="κόσμος">κόσμοι</w></rs> καὶ ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#allaria"><w lemma="πόλις">πόλις</w></rs> <placeName ref="#paros" type="ethnic">Παρίων</placeName> τᾶι βουλᾶι
+                          <lb n="2"/>καὶ τῶι δάμωι <w lemma="χαίρω">χαίρεμ</w>. παραγενομένων τῶν πρεσβευ<lb 
+                        break="no" n="3"/>τᾶν ποτ’ ἀμέ, Φάνιός τε καὶ Δόρκω, οὓς ἀπεστείλατε
+                          <lb n="4"/>πρεσβεύσοντας περὶ <w lemma="ἄσυλος">τὠσύλω</w> ποθ’ ἁμέ, καὶ ἀνανε<lb 
+                        break="no" n="5"/>ωσαμένων αὐτῶν ἐν τᾶι πρεσβείαι κατὰ τὸ ψάφισμα
+                          <lb n="6"/>τὸ παρ’ ὑμῶν τάν τε <w lemma="φιλία">φιλίαν</w> καὶ τὰν <w lemma="εὔνοια">εὔνοιαν</w> τὰν ὑ<lb 
+                        break="no" n="7"/>πάρχουσαν ταῖς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#allaria"><w lemma="πόλις">πόλεσι</w></rs> ποτ’ ἀλλάλας διαφυλάτ<lb 
+                        break="no" n="8"/>τεν, <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#allaria">ἐπὶ <w lemma="κόσμος">κόσμων</w> τῶν περὶ <persName type="attested" key="Philonbrotos f. Euthymachos"><name nymRef="Φιλόνβροτος">Φιλόνβροτον</name> τὸν <name nymRef="Φιλόνβροτος" type="patronymic">Εὐθυ<lb 
+                        break="no" n="9"/>μάχω</name></persName></rs>, ἀγαθᾶι τύχαι <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#allaria"><w lemma="δοκέω">δεδόχθαι</w></rs> <placeName ref="#allaria" type="ethnic">Ἀλλαριωτᾶν</placeName>
+                          <lb n="10"/>τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#allaria"><w lemma="κόσμος">κόσμοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#allaria"><w lemma="πόλις">πόλει</w></rs>· <w lemma="ἐπαινέω">ἐπαινέσαι</w> μὲν τὸν
+                          <lb n="11"/>δᾶμον τῶν <placeName ref="#paros" type="ethnic">Παρίων</placeName> διότι διαφυλάττει τὰν <w lemma="φιλία">φιλίαν</w>
+                          <lb n="12"/>καὶ τὰν <w lemma="εὔνοια">εὔνοιαν</w> πρὸς τὰν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#allaria"><w lemma="πόλις">πόλιν</w></rs> τὰν ἁμάν, κατὰ
+                          <lb n="13"/>ταὐτὰ δὲ ὑπάρχειν καὶ <placeName ref="#paros" type="ethnic">Παρίοις</placeName> τὰν φιλίαν καὶ τὰν εὔ<lb 
+                        break="no" n="14"/>νοιαν παρὰ <placeName ref="#allaria" type="ethnic">Ἀλλαριωτᾶν</placeName>, ὅπως φαινώμεθα τὰ ὅμοι<lb 
+                        break="no" n="15"/>α τοῖς προαιρουμένοις ἁμὲ<corr>ς</corr> συντελόντε<corr>ς</corr>. εἶμεν δὲ
+                          <lb n="16"/><placeName ref="#allaria" type="ethnic">Ἀλλαριώταις</placeName> καὶ <placeName ref="#paros" type="ethnic">Παρίοις</placeName> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="isopoliteia" ref="#allaria"><w lemma="ἰσοπολιτεία">ἰσοπολιτείαν</w></rs>, <w lemma="μετέχω">μετέχω<lb 
+                        break="no" n="17"/>σιν</w> τῶι τε <placeName ref="#allaria" type="ethnic">Ἀλλαριώται</placeName> ἐμ <placeName ref="#paros">Πάρωι</placeName> καὶ <w lemma="θέινος">θείνων</w> καὶ <w lemma="ἀνθρώπινος">ἀν<lb 
+                        break="no" n="18"/>θρωπίνων</w>, ὡσαύτως δὲ καὶ τῷ <placeName ref="#paros" type="ethnic">Παρίωι</placeName> ἐν <placeName ref="#allaria">Ἀλλα<lb 
+                        break="no" n="19"/>ρίαι</placeName> <w lemma="μετέχω">μετέχωσι</w> καὶ <w lemma="θέινος">θείνων</w> καὶ <w lemma="ἀνθρώπινος">ἀνθρωπίνων</w>. ἐὰν <corr>δὲ</corr>
+                          <lb n="20"/>συνδοκεῖ ταῦτα τῶι δάμωι τῶι <placeName ref="#paros" type="ethnic">Παρίων</placeName>, <w lemma="ἀναγράφω">ἀναγρα<lb 
+                        break="no" n="21"/>ψάντων</w> αἱ <rs type="institution" subtype="social_group" role="inscriber" key="polis" ref="#allaria"><w lemma="πόλις">πόλεις</w></rs> ἀμφότεραι ἐς <w lemma="στάλα">στάλαν</w> λιθίναν
+                          <lb n="22"/>καὶ <w lemma="ἀνατίθημι">ἀνθέντων</w> <placeName ref="#paros" type="ethnic">Πάριοι</placeName> μὲν ἐς τὸ ἱερὸν τᾶς <persName type="divine" key="Demeter">Δάματρος</persName>,
+                          <lb n="23"/><placeName ref="#allaria" type="ethnic">Ἀλλαριῶται</placeName> δὲ ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#allaria"><w lemma="ἱερόν">ἱερὸν</w> τῶ<surplus>ι</surplus> <persName type="divine" key="Apollo">Ἀπόλλωνος</persName></rs>. ταῦ<lb 
+                        break="no" n="24"/>τα δὲ εἶναι ἐφ’ <w lemma="ὑγίεια">ὑγιείαι</w> καὶ <w lemma="σωτηρία">σωτηρίαι</w> τᾶν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#allaria"><w lemma="πόλις">πόλεων</w></rs>
+                          <lb n="25"/>ἀμφοτερᾶν. ἐὰν δέ τι φαίνηται ὑμε<corr>ῖ</corr>ν προσθεῖναι
+                          <lb n="26"/>ἢ ἀφέλαι, εὐχαριστῶμες. <space extent="unknown" unit="character"/> <w lemma="ῥώννυμι">ἔρρωσθε</w>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>Il documento A è la parte conclusiva di un decreto di Paros riguardante Allaria: da questo si apprende dell’esistenza di epistole consegnate a Paros dagli ambasciatori giunti da Allaria, lettere in cui si richiedeva l’invio di una copia del decreto stesso sigillato mediante il sigillo pubblico pario.</p>
+                    <p>Il documento B, una lettera di Allaria a Paros che include al proprio interno un suo decreto, si apre con il saluto dei cosmi e della <foreign>polis</foreign>, figure che rappresentano la città e che compaiono anche nel decreto incorporato nell’epistola. Quest’ultimo conserva in posizione iniziale la datazione eponimica che ricorda il cosmo Philonbrotos figlio di Euthymachos (ll. B 8-9), a cui fa seguito la formula benaugurale ἀγαθᾶι τύχαι (l. B 9). La formula di mozione, alle linee B 9-10, mostra il collegio dei cosmi e la <foreign>polis</foreign> di Allaria in qualità di responsabili dell’attività deliberativa, come avviene anche nel decreto <ref type="ins" target="#ic2_1_1"><title>IC</title> II 1 1</ref>. La <foreign>polis</foreign>, inoltre, viene menzionata più volte nella sua accezione di collettività civica in relazione alla <foreign>philia</foreign> e all’<foreign>eunoia</foreign> esistente fra le due città e alla salute e salvezza delle due comunità a cui mira il decreto (ll. B 7, 12, 24).</p>
+                    <p>Quanto all’oggetto della deliberazione, oltre al rinnovo della concessione unilaterale di <foreign>asylia</foreign> a Paros da parte di Allaria (ll. 4-5) il decreto prevede anche l’instaurazione di una <foreign>isopoliteia</foreign> reciproca fra le due città (ll. B 15-19).</p>
+                    <p>La formula di esposizione, infine, informa dell’esistenza di un tempio di Apollo ad Allaria, noto solamente da questa iscrizione, destinato ad ospitare i documenti pubblici della città (l. B 23).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#gramma"><foreign>gramma</foreign></ref>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#isopoliteia"><foreign>isopoliteia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 2557</bibl>; 
+                            <bibl><ref target="#b1389">Naber 1853</ref>, pp. 30-36</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 47 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 4940</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 1 2 <ptr type="phi" target="199701"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b788">Guarducci 1939</ref>, pp. 25-26</bibl>; 
+                            <bibl><ref target="#b995">Klaffenbach 1960</ref>, pp. 7-8</bibl>;
+                            <bibl><ref target="#b193">Bravo 1980</ref></bibl>;
+                            <bibl><ref target="#b118">Berranger-Auserve 2000</ref>, pp. 124-126</bibl>; 
+                            <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Concessione di <foreign>asylia</foreign> a Teos da parte di Sybrita</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 26 1*</idno>
+                        <idno type="projectNo">146</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#teos">Teos, tempio di Dioniso</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">lettera contenente un decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#teos">Teos, tempio di Dioniso</origPlace>
+                                    <origDate period="#hellenistic" when="-0201" precision="low">201 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><placeName ref="#sybrita" type="ethnic">Συβριτίων</placeName>.
+                          <lb n="2"/><placeName ref="#sybrita" type="ethnic">Συβριτίων</placeName> ἁ <rs type="institution" subtype="assembly" role="foreign_relations" key="polis" ref="#sybrita"><w lemma="πόλις">πόλις</w></rs> καὶ οἱ <rs type="institution" subtype="board" role="foreign_relations" key="kosmos" ref="#sybrita"><w lemma="κόσμος">κόσμοι</w></rs> <placeName ref="#teos" type="ethnic">Τηίων</placeName> τᾶι βωλᾶι καὶ τῶι
+                          <lb n="3"/>δάμωι <w lemma="χαίρω">χαίρειν</w> <space extent="unknown" unit="character"/> παραγενόμενος Περδίκκας ὁ παρὰ <persName type="ruler" key="Philippos V" ref="#macedonia"><w lemma="βασιλεύς">βασι<lb 
+                        break="no" n="4"/>λέως</w> <name nymRef="Φίλιππος">Φιλίππου</name></persName> πρεσβευτὰς τό τε ψήφισμα ἀπέδωκεν
+                          <lb n="5"/>ὃ ἔφερον οἱ παρ’ ὑμῶν πρεσβευταὶ ἐπεὶ αὐτοῖς συνε<lb 
+                        break="no" n="6"/><supplied reason="lost">πρέσβευσεν</supplied>, ἐν ὧι <w lemma="γράφω">ἐγράψατε</w> ἁμῖν περὶ τᾶς <w lemma="οἰκειότας">οἰκειότα<lb 
+                        break="no" n="7"/>τος</w> καὶ τᾶς <w lemma="φιλία">φιλίας</w>, καὶ ὅτι καλῶς κα ποιήσαιμεν προσ<lb 
+                        break="no" n="8"/>δεξάμενοι τάν τε ἀνιέρωσιν τῶι <persName type="divine" key="Dionysos">Διονύσωι</persName> καὶ τὰν <w lemma="ἀσυλία">ἀσυ<lb 
+                        break="no" n="9"/>λίαν</w> τᾶς τε πόλιος καὶ τᾶς χώρας <supplied reason="lost">ὑμῶν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" quantity="5" unit="character"/> πράσσειν· διελέγη δὲ <supplied reason="lost">καὶ Περδίκκας ὁ ὑμέτερος</supplied>
+                          <lb n="11"/><supplied reason="lost">πολί</supplied>τας ἀκολούθως τοῖς <w lemma="γράφω">γ<supplied reason="lost">εγραμμένοις</supplied></w> <supplied reason="lost">μετὰ πάσας</supplied>
+                          <lb n="12"/><w lemma="σπουδά">σπουδᾶς</w> καὶ <w lemma="φιλοτιμία">φιλοτιμίας</w>· πρό<supplied reason="lost">θυμοι οὖν καὶ ἀπὸ</supplied> <w lemma="πρόγονος"><supplied reason="lost">προ</supplied><lb 
+                        break="no" n="13"/>γόνων</w> πρὸς πάντα τὰ <supplied reason="lost"><w lemma="θεῖος">θεῖα</w> διακείμενοι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰν</supplied>
+                          <lb n="14"/>ἀνιέρωσιν τῶι <persName type="divine" key="Dionysos">Διονύσωι</persName> κ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><gap reason="illegible" quantity="2" unit="character"/> βουλόμενοι ὑμῖν π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="16"/><supplied reason="lost">καὶ τ</supplied>ἄλλα <w lemma="τίμια">τίμια</w> <supplied reason="lost">καὶ ἔνδοξα</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/><supplied reason="lost">καὶ τὰ</supplied>ν <w lemma="ἀσυλία">ἀσυλίαν</w> <supplied reason="lost">τᾶς πόλιος καὶ τᾶς χώρας</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="18"/><gap reason="lost" quantity="5" unit="character"/><orig>ιο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="19"/>πάντα. εἰ δέ τινές κα τῶν ὁρμι<corr>ο</corr>μένων <placeName ref="#sybrita">ἐξυβρί<surplus>σ</surplus>τας</placeName> <w lemma="ἀδικέω">ἀδι<lb 
+                        break="no" n="20"/>κήσωσίν</w> τινα <placeName ref="#teos" type="ethnic">Τηίων</placeName> ἢ τῶν παροίκων ἢ κοινᾶι ἢ ἰδίαι πα<lb 
+                        break="no" n="21"/>ρὰ τὸ <w lemma="γράφω">γραφὲν</w> <rs type="institution" subtype="object" role="decreeing" key="dogma" ref="#sybrita"><w lemma="δόγμα">δόγμα</w></rs> περὶ τᾶς <w lemma="ἀσυλία">ἀσυλίας</w> ὑπὸ τᾶς <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#sybrita"><w lemma="πόλις">πόλεος</w></rs>
+                          <lb n="22"/>τῶν <placeName ref="#sybrita" type="ethnic">Συβριτίων</placeName>, ἐξέστω τῶι παραγενομένωι <placeName ref="#teos" type="ethnic">Τηίων</placeName>
+                          <lb n="23"/>ἢ τῶν παροίκων τῶν ἐν <placeName ref="#teos">Τέῳ</placeName> ἐπιλαβέσθαι καὶ τῶν <w lemma="σῶμα">σω<lb 
+                        break="no" n="24"/>μάτων</w> καὶ <w lemma="χρήματα">χρημάτων</w>, εἴ τίς κα ἄγηι· οἱ δὲ <rs type="institution" subtype="board" role="application_of_the_law" key="kosmos" ref="#sybrita"><w lemma="κόσμος">κόσμοι</w></rs> οἱ τόκα
+                          <lb n="25"/>ἀεὶ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#sybrita"><w lemma="κοσμέω">κοσμίοντες</w></rs> <w lemma="ἐπαναγκάζω">ἐπαναγκαζόντων</w> ἀποδιδό<lb 
+                        break="no" n="26"/>μεν τοὺς ἔχοντας, ἀζήμιοι ὄντες καὶ ἀνυπόδι<lb 
+                        break="no" n="27"/>κοι πάσας ζαμίας. <space extent="unknown" unit="character"/> <w lemma="εὐτυχέω">εὐτυχεῖτε</w>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’epistola contenente il decreto di Sybrita appartiene alla serie dei documenti relativi alla concessione di <foreign>asylia</foreign> a Teos da parte di numerose città (per la quale cf. <bibl><ref target="#bib308">Rigsby, <title>Asylia</title></ref>, pp. 280-325</bibl>, <bibl><ref target="#b208">Brulé 1978</ref>, pp. 93-102</bibl>, <bibl><ref target="#b1040">Kvist 2003</ref></bibl>, <bibl><ref target="#b1947">Vinci 2008-2009</ref></bibl>). Mentre del decreto non si sono conservate le eventuali formule di sanzione e mozione, sono invece pervenuti i saluti iniziali dell’epistola, nei quali compaiono sia la <foreign>polis</foreign> che i cosmi di Sybrita in qualità di rappresentanti della città (ll. 2-3). Quanto alla responsabilità della redazione del documento, l’espressione alle linee 21-22 τὸ γραφὲν δόγμα περὶ τᾶς ἀσυλίας ὑπὸ τᾶς πόλεος τῶν Συβριτίων ne riconduce l’emanazione alla città di Sybrita, che sembrerebbe dunque essere l’organo addetto alla deliberazione.</p>
+                    <p>La concessione di <foreign>asylia</foreign>, stabilita assieme al conferimento di onori all’ambasciatore Perdicca nell’oggetto del decreto (ll. 15-19), viene ulteriormente specificata alle linee 19-27, da cui emerge l’autorità esercitata dai cosmi in carica nel caso di ingiustizia subita dai Teii: in tale circostanza i magistrati di Sybrita hanno infatti il potere di obbligare la restituzione di beni o persone sottratte indebitamente a costoro.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dogma"><foreign>dogma</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib116"><title>CIG</title></ref> 3049</bibl>; 
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 66</bibl>; 
+                            <bibl><ref target="#b267">Cauer 1877</ref>, n. 53</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5170</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 26 1* <ptr type="phi" target="200157"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib57"><title>Teos</title></ref> 52</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib308">Rigsby, <title>Asylia</title></ref> 141</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b901">Holleaux 1913</ref>, p. 141</bibl>; 
+                            <bibl><ref target="#b1476">Papazoglou 1997</ref>, P 5b</bibl>; 
+                            <bibl><ref target="#b277">Ceccarelli 2005</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

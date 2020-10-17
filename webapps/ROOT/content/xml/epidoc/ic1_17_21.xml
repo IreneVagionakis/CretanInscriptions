@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria dei <foreign>naokoroi</foreign> di Lebena</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 17 21</idno>
+                        <idno type="projectNo">227</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion</repository> 
+                                <idno type="invNo">47</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lebena">Lebena, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0070">fine II - inizi I secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>πράτωι μὲν <supplied reason="lost">Σώσωι</supplied> γενέται <persName type="divine" key="Asklepios">Ἀσκληπί</persName>’ ἔδειξας
+                          <lb n="2"/>ὕδατος εὐσήμ<supplied reason="lost">ω</supplied>ς εἰς <rs type="institution" subtype="public_space" role="location" key="naos" ref="#lebena"><w lemma="ναός">ναὸν</w></rs> ἀτραπιτόν,
+                          <lb n="3"/><supplied reason="lost">φ</supplied>ανθεὶς μὲν καθ’ ὕπνον, πένψας δ’ ὕπαρ αὐτὸς ὁδαγὸ<supplied reason="lost">ν</supplied>
+                          <lb n="4"/><w lemma="θεῖος">θεῖον</w> ὄφιν, πᾶσιν θαῦμα βροτοῖσι μέγα,
+                          <lb n="5"/>τῶι <rs type="institution" subtype="official" role="builder" key="naokoros" ref="#lebena"><persName type="attested" key="Sosos f. Aristonymos"><name nymRef="Ἀριστώνυμος" type="patronymic">Ἀριστωνύμω</name><surplus>ι</surplus> υἱῶι</persName>, ἐπεὶ κατὰ πάντα θεουδὴς
+                          <lb n="6"/><w lemma="νακόρος">νακόρος</w></rs> εἰς <rs type="institution" subtype="public_space" role="location" key="naos" ref="#lebena"><w lemma="ναός">ναὸν</w></rs> σαῖς μόλ’ ἐφημοσύναις.
+                          <lb n="7"/>νῦν δὲ <rs type="institution" subtype="official" role="builder" key="naokoros" ref="#lebena"><persName type="attested" key="Soarchos f. Sosos"><name nymRef="Σόαρχος">Σοάρχωι</name></persName> αὖθι φανεὶς κατὰ πᾶν κλυτῶι υἱῶι
+                          <lb n="8"/>ὡσαύτως ὅσιον <w lemma="νακόρος">νακόρον</w></rs> ἀγάγαο,
+                          <lb n="9"/>τεσσαρακοστῶι ἔτει τε καὶ ἑβδομάτωι ἵνα <w lemma="κράνα">κράνας</w>
+                          <lb n="10"/> λειπούσας πλήσηι νάματι τὰς πατέρος.
+                          <lb n="11"/><persName type="divine" key="Paean">Παιάν</persName>, σοὶ δ’ εἴη κεχαρισμένα, καὶ δόμον αὔξοις
+                          <lb n="12"/>τοῦδε καὶ ὑψίσταν <w lemma="πατρίς">πατρίδα</w> <placeName ref="#gortyn">Γόρτυν</placeName> ἀεί.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, redatta in forma di epigramma, documenta più interventi fatti realizzare in momenti diversi – a distanza di quarantasette anni l’uno dall’altro – da due <foreign>naokoroi</foreign> dell’<foreign>Asklepieion</foreign> di Lebena, entrambi pertinenti alla sistemazione delle sorgenti di acqua sacra vicine al tempio (altri interventi edilizi ad opera dei <foreign>naokoroi</foreign> del santuario sono testimoniati da <ref type="ins" target="#seg_47_1403"><title>SEG</title> 47.1403</ref>, <ref type="ins" target="#ic1_17_5"><title>IC</title> I 17 5</ref>, <ref type="ins" target="#ic1_17_38">38</ref> e probabilmente <ref type="ins" target="#ic1_17_8">8</ref>; cf. <bibl><ref target="#b1318">Melfi 2007</ref>, pp. 104-109</bibl>).</p>
+                    <p>Il testo è particolarmente significativo in quanto suggerisce un’ereditarietà della funzione di <foreign>naokoros</foreign>, in quanto i due individui menzionati, Sosos (?) figlio di Aristonymos e Soarchos (forse lo stesso personaggio di <ref type="ins" target="#ic1_17_5"><title>IC</title> I 17 5</ref>), sono padre e figlio. L’epigramma, inoltre, si chiude con un riferimento a Gortyna, che viene definita πατρίδα, indicante dunque la città come <foreign>polis</foreign> di origine dei due <foreign>naokoroi</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#naokoros"><foreign>naokoros</foreign></ref>, <ref type="inst" target="#naos"><foreign>naos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 733-734 n. 182</bibl>; 
+                            <bibl><ref target="#b103">Baunack 1890</ref>, pp. 578-586, 604-606</bibl>; 
+                            <bibl><ref target="#b1311">Meister 1891</ref>, pp. 570-573</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5088</bibl>; 
+                            <bibl><ref target="#b1991">Weinreich 1909</ref>, p. 106</bibl>; 
+                            <bibl><ref target="#b1096">Levi 1922</ref>, p. 367 n. 11</bibl>;
+                            <bibl><ref target="#b890">Herzog 1931</ref>, p. 53 n. 4</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 17 21 <ptr type="phi" target="199287"/></bibl>; 
+                            <bibl><ref target="#b547">Edelstein – Edelstein 1945</ref>, T 791</bibl>; 
+                            <bibl><ref target="#b1132">Longo 1969</ref>, n. 50</bibl>; 
+                            <bibl><ref target="#b1670">Savelkoul 1985-1986</ref>, pp. 48-49</bibl>; 
+                            <bibl><ref target="#b713">Girone 1998</ref>, 3.11</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 20</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#b1318">Melfi 2007</ref>, App. 20</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b105">Baunack 1897</ref></bibl>; 
+                            <bibl><ref target="#b136">Bile 1991</ref></bibl>; 
+                            <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 95-96</bibl>; 
+                            <bibl><ref target="#b503">Detorakis 1995</ref></bibl>; 
+                            <bibl><ref target="#b504">Detorakis 2000</ref></bibl>; 
+                            <bibl><ref target="#b1258">Martínez Fernández 2007</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

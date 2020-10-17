@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Eleutherna e Antigono Dosone</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 20</idno>
+                        <idno type="projectNo">107</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">1</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0227" notAfter="-0224" precision="low">227-224 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><supplied reason="lost">τοὺς <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίους</placeName> ποιεῖν τὸν</supplied> <unclear>π</unclear>όλεμον πρὸς οὓς ἂν
+                          <lb n="2"/><supplied reason="lost"><persName type="ruler" key="Antigonos III" ref="#macedonia"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Ἀντίγονος">Ἀντίγονος</name></persName> πολεμῆ</supplied><unclear>ι</unclear>· μ<unclear>ὴ</unclear> ἐξεῖναι δὲ ἑτέραν <w lemma="συμμαχία">συμ<lb 
+                        break="no" n="3"/><supplied reason="lost">μαχίαν</supplied></w> <supplied reason="lost"><w lemma="τίθημι">τίθεσθαι</w> ἐναντίαν πρ</supplied><unclear>ὸς</unclear> <persName type="ruler" key="Antigonos III" ref="#macedonia"><name nymRef="Ἀντίγονος">Ἀντίγονον</name></persName> καὶ <placeName ref="#macedonia" type="ethnic">Μακεδό<lb 
+                        break="no" n="4"/><supplied reason="lost">νας</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τοὺς</supplied> <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίους</placeName>· κατὰ
+                          <lb n="5"/><supplied reason="lost">δὲ τὰ αὐτὰ μηδὲ</supplied> <persName type="ruler" key="Antigonos III" ref="#macedonia"><supplied reason="lost"><w lemma="βασιλεύς">βασιλέα</w></supplied> <name nymRef="Ἀντίγονος"><supplied reason="lost">Ἀν</supplied>τίγονον</name></persName> μηδὲ τοὺς <w lemma="ἔκγονος">ἐκγό<lb 
+                        break="no" n="6"/><supplied reason="lost">νους</supplied></w> <supplied reason="lost">αὐτοῦ μηδὲ <placeName ref="#macedonia" type="ethnic">Μακεδόνων</placeName></supplied> <unclear>μ</unclear>ηθένα ἐναντίαν <w lemma="συμμαχία">συμμα<lb 
+                        break="no" n="7"/><supplied reason="lost">χίαν</supplied></w> <supplied reason="lost"><w lemma="τίθημι">τίθεσθαι</w> πρὸς αὐτούς</supplied>. ὅταν δὲ <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#eleutherna"><w lemma="ψηφίζω">ψηφίσηται</w></rs> ἡ <rs type="institution" subtype="assembly" role="voter" key="polis" ref="#eleutherna"><w lemma="πόλις">πό<lb 
+                        break="no" n="8"/><supplied reason="lost">λις</supplied></w></rs> <supplied reason="lost"><w lemma="πέμπω">πέμπειν</w> τὴν <w lemma="βοήθεια">βοήθειαν</w>,</supplied> <w lemma="ἀποστέλλω"><supplied reason="lost">ἀπ</supplied>οστελλέτωσαν</w> οἱ <rs type="institution" subtype="board" role="war" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσ<lb 
+                        break="no" n="9"/><supplied reason="lost">μοι</supplied></w></rs><supplied reason="lost">, ἂν μή τι ἀναγκαῖον κωλύσ</supplied>ηι, ἐν ἡμέραις εἴκοσι
+                          <lb n="10"/><supplied reason="lost">ἀφ’ ἧς ἂν <rs type="institution" subtype="practice" role="voting" key="psephizo" ref="#eleutherna"><w lemma="ψηφίζω">ψηφισθῆι</w></rs>. ὅταν δὲ παραγέ</supplied>νωνται πρὸς <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναί<lb 
+                        break="no" n="11"/><supplied reason="lost">ους</supplied></placeName> <supplied reason="lost">πρεσβευταὶ παρὰ</supplied> <persName type="ruler" key="Antigonos III" ref="#macedonia"><name nymRef="Ἀντίγονος"><supplied reason="lost">Ἀντιγ</supplied>όνου</name></persName>, <w lemma="συνάγω">συναγέτωσαν</w>
+                          <lb n="12"/><supplied reason="lost">οἱ <rs type="institution" subtype="board" role="assembly_convocation" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσμοι</w></rs> τὴν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#eleutherna"><w lemma="ἐκλησία">ἐκλησίαν</w></rs> ἐν δέκ</supplied><unclear>α</unclear> ἡμέραις ἀφ’ ἧς ἂν πα<lb 
+                        break="no" n="13"/><supplied reason="lost">ραγένωνται οἱ πρεσβευταί, ἐὰ</supplied><unclear>ν</unclear> μή τι ἀναγκαῖον κωλύ<lb 
+                        break="no" n="14"/><supplied reason="lost">σηι, εἰ δὲ μὴ ὅταν δύνωνται τάχ</supplied>ιστα· ἐν δὲ τῆι <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#eleutherna"><w lemma="ἐκλησία">ἐκλησί<lb 
+                        break="no" n="15"/><supplied reason="lost">αι</supplied></w></rs> <supplied reason="lost">προσαγέτωσαν τοὺς</supplied> <persName type="ruler" key="Antigonos III" ref="#macedonia"><name nymRef="Ἀντίγονος"><supplied reason="lost">Ἀντιγόν</supplied>ου</name> <w lemma="βασιλεύς">βασιλέως</w></persName> πρεσ<lb 
+                        break="no" n="16"/><supplied reason="lost">βευτὰς καὶ <w lemma="χρηματίζω">χρηματιζέτωσαν</w> οἱ</supplied> <rs type="institution" subtype="board" role="war" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσμοι</w></rs> ἄλλο μηθὲν
+                          <lb n="17"/><supplied reason="lost">πρὶν ἢ τοῖς πρεσβευταῖς τὰς</supplied> <w lemma="ἀπόκρισις"><supplied reason="lost">ἀπο</supplied>κρίσεις</w> δῶσιν· ἐὰν
+                          <lb n="18"/><supplied reason="lost">δὲ μὴ <w lemma="ἀποστέλλω">ἀποστείλωσιν</w> τὴν</supplied> <w lemma="βοήθεια"><supplied reason="lost">β</supplied>οήθειαν</w> ἐν τῶι <w lemma="γράφω">γεγρα<lb 
+                        break="no" n="19"/><supplied reason="lost">μένωι</supplied></w> <supplied reason="lost">χρόνωι οἱ <rs type="institution" subtype="board" role="fineable" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσμοι</w></rs> οἱ</supplied> <placeName ref="#eleutherna" type="ethnic"><supplied reason="lost">Ἐλ</supplied><unclear>ε</unclear>υθερναί<unclear>ω</unclear>ν</placeName> ἢ τὴν
+                          <lb n="20"/><supplied reason="lost"><rs type="institution" subtype="object" role="treaty-making" key="syntheka" ref="#eleutherna"><w lemma="συνθήκα">συνθήκαν</w></rs> λύωσιν τρόπωι ὁτ</supplied><unclear>ω</unclear>ιοῦν, <w lemma="ἀποτίνω">ἀποτινέτωσα<supplied reason="lost">ν</supplied></w>
+                          <lb n="21"/><supplied reason="lost"><persName type="ruler" key="Antigonos III" ref="#macedonia"><name nymRef="Ἀντίγονος">Ἀντιγόνωι</name></persName> <w lemma="δραχμή">δραχμὰς</w> μυρίας</supplied> ἐν τῆι <w lemma="συναιρέω">συναιρεθείσηι</w>
+                          <lb n="22"/><supplied reason="lost"><rs type="institution" subtype="social_group" role="judicial_procedure" key="polis" ref="#unknown"><w lemma="πόλις">πόλει</w></rs> <w lemma="ἔκκλητος">ἐκκλήτωι</w>· ἐὰν δὲ μὴ σ</supplied>υναγάγωσιν τὴν <rs type="institution" subtype="assembly" role="foreign_relations" key="ekklesia" ref="#eleutherna"><w lemma="ἐκλησία">ἐ<lb 
+                        break="no" n="23"/><supplied reason="lost">κλησίαν</supplied></w></rs> <supplied reason="lost">ἢ τοὺς πρεσβευτὰς μὴ</supplied> <unclear>πρ</unclear>οσαγάγωσιν ἢ <w lemma="χρηματίζω">χρη<lb 
+                        break="no" n="24"/><supplied reason="lost">ματίσωσιν</supplied></w> <supplied reason="lost">ἄλλο τι πρὶν ἢ</supplied> <w lemma="ἀπόκρισις"><supplied reason="lost">ἀπόκ</supplied><unclear>ρ</unclear>ισιν</w> δοῦναι τοῖς
+                          <lb n="25"/><supplied reason="lost">πρεσβευταῖς, ἔνοχοι ἔστωσαν</supplied> τοῖς ἐπ<corr>ιτ</corr>ιμίοις οἷς<lb 
+                        break="no" n="26"/><supplied reason="lost">περ</supplied> <gap reason="lost" extent="unknown" unit="character"/>ται. <w lemma="ἀποστέλλω">ἀποστέλλειν</w>
+                          <lb n="27"/><supplied reason="lost">δὲ καὶ <persName type="ruler" key="Antigonos III" ref="#macedonia"><w lemma="βασιλεύς">βασιλέα</w></persName> τὴν <w lemma="βοήθεια">βοήθειαν</w> ἐν ἡμέ</supplied><unclear>ραις</unclear> εἴκοσι ἀφ’ ἧς ἂν <w lemma="παραγγέλλω">πα<lb 
+                        break="no" n="28"/><supplied reason="lost">ραγγείλωσιν</supplied></w> <supplied reason="lost">οἱ <rs type="institution" subtype="board" role="foreign_relations" key="presbeutes" ref="#eleutherna"><w lemma="πρεσβευτάς">πρεσβευταί</w></rs>. καὶ</supplied> <unclear>ἐὰν</unclear> μὲν <persName type="ruler" key="Antigonos III" ref="#macedonia"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Ἀντίγονος">Ἀντ<lb 
+                        break="no" n="29"/><supplied reason="lost">ίγονος</supplied></name></persName> <supplied reason="lost">χρείαν ἔχηι <w lemma="σύμμαχος">συμμάχων</w></supplied>, <w lemma="ἀποστέλλω">ἀποστελοῦσιν</w>
+                          <lb n="30"/><supplied reason="lost">αὐτῶι <placeName ref="#eleutherna" type="ethnic">Ἐλευθερναίων</placeName> οἱ <rs type="institution" subtype="board" role="war" key="kosmos" ref="#eleutherna"><w lemma="κόσμος">κόσμοι</w></rs></supplied> <w lemma="ἀνήρ"><unclear>ἄ</unclear>νδρ<unclear>ας</unclear></w> <rs type="institution" subtype="social_status" role="war" key="eleutheros" ref="#eleutherna"><w lemma="ἐλεύθερος"><unclear>ἐλ</unclear>ευθ<corr>έ</corr>ρου<lb 
+                        break="no" n="31"/><supplied reason="lost">ς</supplied></w></rs> <supplied reason="lost">ὅπλα ἔχοντας, τῆι δὲ <w lemma="πέμπω">πεμπομένηι</w></supplied> <w lemma="συμμαχία"><unclear>σ</unclear>υμμαχίαι</w> παρέξε<lb 
+                        break="no" n="32"/><supplied reason="lost">ι <persName type="ruler" key="Antigonos III" ref="#macedonia"><w lemma="βασιλεύς">βασιλεὺς</w> <name nymRef="Ἀντίγονος">Ἀντίγονος</name></persName> ἑκάστης τ</supplied>ῆς ἡμέρας εἰς ἕκα<lb 
+                        break="no" n="33"/><supplied reason="lost">στον τῶν <w lemma="ἀνήρ">ἀνδρῶν</w> Ἀλεξανδρείαν</supplied> <w lemma="δραχμή"><unclear>δ</unclear>ρα<supplied reason="lost">χ</supplied><unclear>μὴ</unclear>ν</w> <w lemma="ὀβολός">ὀβο<supplied reason="lost">λ</supplied>οὺ<lb 
+                        break="no" n="34"/><supplied reason="lost">ς</supplied></w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἢ Ἀντιγονείαν ἢ Ἀττικ</supplied>ήν. <unclear>ἐὰν</unclear> <unclear>δ</unclear><supplied reason="lost">ὲ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="35"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La sezione conservatasi dell’alleanza, la cui parte sinistra è andata perduta, può essere integrata con un buon grado di sicurezza sulla base del trattato fra Hierapytna e Antigono, <ref type="ins" target="#ic3_3_1"><title>IC</title> III 3 1</ref> A, la cui formulazione è assai simile a quella del presente documento.</p>
+                    <p>Dal testo emerge una maggiore autorità in ambito decisionale dell’assemblea della <foreign>polis</foreign> – ovvero l’<foreign>ekklesia</foreign> –, rispetto al collegio dei cosmi, che è chiamato ad inviare gli aiuti al re Antigono una volta che lo abbia messo ai voti la <foreign>polis</foreign>, entro venti giorni dalla votazione (ll. 7-9). I cosmi, inoltre, sono tenuti a convocare l’<foreign>ekklesia</foreign> entro dieci giorni dall’arrivo degli ambasciatori macedoni e a condurre costoro al suo cospetto (ll. 10-16). I cosmi vengono considerati come i referenti di Eleutherna nei confronti degli ambasciatori del re: è da loro, infatti, che deve essere fornita ai legati una risposta ed è a loro che viene richiesto di non occuparsi di altre questioni prima di aver comunicato la decisione presa dall’<foreign>ekklesia</foreign> (ll. 16-17); sono sempre costoro, inoltre, a dover subire una multa in caso di mancato invio di aiuti o di violazione delle altre clausole trattato, quantificata nel pagamento di mille dracme (cf. <ref type="ins" target="#ic3_3_1"><title>IC</title> III 3 1</ref> A) ed eventualmente modificabile mediante l’intervento di una città arbitro (ll. 17-26).</p>
+                    <p>La sezione finale della parte conservata del trattato, seppur sbrigativamente, prevede la reciprocità di aiuti da parte del re, il quale è a sua volta tenuto ad inviare soccorso alla città cretese entro venti giorni dall’arrivo degli ambasciatori di Eleutherna (ll. 26-28). L’aiuto che Eleutherna deve fornire al re viene infine specificato nell’invio da parte dei cosmi di uomini liberi armati, di cui il trattato stabilisce la paga giornaliera (ll. 28-34).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephizo"><foreign>psephizo</foreign></ref>, <ref type="inst" target="#presbeutes"><foreign>presbeutes</foreign></ref> (?), <ref type="inst" target="#syntheka"><foreign>syntheka</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b521">Doublet 1889</ref>, pp. 47-51 n. 1</bibl>; 
+                            <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 582-586 n. 67</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 20 <ptr type="phi" target="199904"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 501</bibl>;
+                            <bibl><ref target="#b1674">Scherberich 2009</ref>, pp. 199-209</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2026">Wilhelm 1911a</ref></bibl>;
+                            <bibl><ref target="#b216">Buraselis 1981</ref></bibl>; 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 47</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib119">Magnetto, <title>Arbitrati</title></ref> 45</bibl>;
+                            <bibl><ref target="#b807">Guizzi 1997</ref></bibl>; 
+                            <bibl><ref target="#b1345">Mikrogiannakis 2000</ref></bibl>; 
+                            <bibl><ref target="#b342">Chaniotis 2011</ref>, pp. 153-154</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

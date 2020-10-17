@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Manomissione di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 48.1208 (IC IV 232)</idno>
+                        <idno type="projectNo">373</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo">GO 352</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#manumission">manomissione</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0160" notAfter="-0140">metà II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="tribe" role="eponym" key="Aithaleis" ref="#gortyn"><supplied reason="lost">ἐπὶ</supplied> τῶν <w lemma="Αἰθαλεῖς">Αἰθαλέων</w></rs> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#gortyn"><w lemma="κορμέω">κορμιόν<supplied reason="lost">των</supplied></w> <supplied reason="lost">τῶν</supplied> συν <persName type="attested" key="Akrisios f. Dorios"><name nymRef="Ἀκρίσιος">Ἀκρισίῳ</name> τῶ <name nymRef="Δόριος" type="patronymic">Δορίω</name></persName></rs> τάδ’ <rs type="institution" subtype="practice" role="decreeing" key="andano" ref="#gortyn"><w lemma="ϝανδάνω">ἔϝαδε</w></rs> <gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost" cert="low">πρὸ</supplied> <supplied reason="lost">τᾶς</supplied>
+                          <lb n="2"/><rs type="institution" subtype="month" role="calendar" key="Eleusinios" ref="#gortyn"><w lemma="Ἐλευσίνιος"><supplied reason="lost">Ἐλ</supplied>ευσινίας</w></rs> <w lemma="νεμονηία">νεμονηΐας</w> τᾶς <gap reason="lost" quantity="6" unit="character" precision="low"/>σας τὸ μὲν γιννόμενον τᾶι <rs type="institution" subtype="assembly" role="payments" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs> τᾶς λ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><w lemma="ἐπιτίθημι"><supplied reason="lost">ἐπ</supplied>ιτιθέτω</w> δὲ ὁ <rs type="institution" subtype="social_status" role="manumission" key="apolagathes" ref="#gortyn"><w lemma="ἀπολαγαίω">ἀπολαγαθθές</w></rs> <supplied reason="lost">τᾶς</supplied> <w lemma="ἀπολάγαξις"><supplied reason="lost">ἀ</supplied>πολαγάξιος</w> καὶ τᾶς <w lemma="χρημάτιξις">χρηματίξιος</w>· αἰ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" quantity="3" unit="character" precision="low"/>ς φιάλαν <w lemma="ἀργύριος">ἀ<supplied reason="lost">ργ</supplied>υρίαν</w> εὕκονσαν <space quantity="1" unit="character"/> <num value="15">ι<unclear>ε</unclear></num> ἐ<supplied reason="lost">ν ταῖ</supplied>δ δεκαδύο ἀφ’ ἇς κ’ ἀμέρας <rs type="institution" subtype="social_status" role="manumission" key="apolagathes" ref="#gortyn"><w lemma="ἀπολαγαίω">ἀπολαγα<supplied reason="lost">θθῆι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><supplied reason="lost">τᾶ</supplied>ι <persName type="divine" key="Hera Kydista">Ἥραι τᾶι <supplied reason="lost">Κ</supplied>υδίσται</persName> ἐν τῶι ϝοίκωι κα<supplied reason="lost">τὰ τ</supplied>αὐτὰ καὶ παρι<supplied reason="lost">στ</supplied>άτω ὁ <rs type="institution" subtype="official" role="onlooker" key="antithens" ref="#gortyn"><w lemma="ἀντιτίθημι">ἀντιθένς</w></rs> τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" quantity="3" unit="character" precision="low"/>. <unclear>π</unclear>ε<unclear>δ</unclear>ὰ <rs type="institution" subtype="official" role="onlooker" key="kosmos" ref="#gortyn"><w lemma="κόρμος">κ<supplied reason="lost">όρ</supplied>μω</w></rs> γένηται <rs type="institution" subtype="social_status" role="manumission" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλεύθερος</w></rs> <gap reason="lost" quantity="4" unit="character" precision="low"/>ι <rs type="institution" subtype="month" role="calendar" key="meis" ref="#gortyn"><w lemma="μείς">μῆνα</w></rs> κ’ ἀμέραν <gap reason="lost" quantity="3" unit="character" precision="low"/> τὸν <rs type="institution" subtype="social_status" role="manumission" key="apolagasas" ref="#gortyn"><w lemma="ἀπολαγαίω">ἀπολαγάσα<supplied reason="lost">ντα</supplied><gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="7"/><gap reason="lost" quantity="3" unit="character" precision="low"/> <rs type="institution" subtype="social_status" role="manumission" key="apolagathes" ref="#gortyn"><w lemma="ἀπολαγαίω">ἀπολαγαθθῆι</w></rs> καὶ τὰν <w lemma="χρημάτιξις">χρημάτιξιν</w> <supplied reason="lost">διὰ τ</supplied>ῶ <rs type="institution" subtype="public_space" role="transactions" key="chreophylakion" ref="#gortyn"><w lemma="χρεοφυλάκιον">χρεοφυλα<supplied reason="lost">κίω</supplied></w></rs>· αἰ δέ τις μὴ ἀνθ<supplied reason="lost">είη</supplied><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">τὰν</supplied>
+                          <lb n="8"/><w lemma="χρημάτιξις"><supplied reason="lost">χρ</supplied>ημάτιξιν</w> <g type="middot"/> τὰ δ’ ἄλλα ἦμεν τῶι τε <rs type="institution" subtype="social_status" role="manumission" key="apolagasas" ref="#gortyn"><w lemma="ἀπολαγαίω">ἀ<supplied reason="lost">πολα</supplied>γάσαντι</w></rs> <supplied reason="lost">καὶ</supplied> τῶι <rs type="institution" subtype="social_status" role="manumission" key="apolagathes" ref="#gortyn"><w lemma="ἀπολαγαίω">ἀπολαγαθθε<supplied reason="lost">ντι</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><supplied reason="lost">ὁ</supplied> <rs type="institution" subtype="social_status" role="manumission" key="apolagathes" ref="#gortyn"><w lemma="ἀπολαγαίω"><supplied reason="lost">ἀπ</supplied>ολελαγασμένος</w></rs> <rs type="institution" subtype="social_status" role="manumission" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλεύθερος</w></rs> μὴ <gap reason="lost" extent="unknown" unit="character"/><orig>κετ</orig><gap reason="lost" quantity="6" unit="character" precision="low"/><orig>ομενο</orig><gap reason="lost" quantity="3" unit="character" precision="low"/><orig>ταδ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" quantity="3" unit="character" precision="low"/>ος πεδὰ τοῦτο τὸ <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#gortyn"><w lemma="ψάφισμα">ψάφισμα</w></rs> παρ<gap reason="lost" extent="unknown" unit="character"/><orig>τω</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><orig>τ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La manomissione si apre con una formula di datazione che commemora il cosmo eponimo Akrisios figlio di Dorios della tribù degli <foreign>Aithaleis</foreign> (attestata anche a Knossos, Malla e Dreros), seguita da una formula di sanzione della quale si conserva solamente la parte iniziale (l. 1, τάδ’ ἔϝαδε).</p>
+                    <p>Il documento, definito come ψάφισμα alla linea 10, prevede che il liberto debba pagare un importo di denaro alla <foreign>polis</foreign> per l’affrancamento e per la connessa operazione economica prima della luna nuova del mese <foreign>Eleusinios</foreign>, attestato anche a Biannos e Olous (ll. 1-3). Affinché l’individuo sia considerabile libero sembra che debba essere offerta una <foreign>phiala</foreign> d’argento ad Hera <foreign>Kydista</foreign> in presenza dell’<foreign>antithens</foreign> – figura non nota altrove – e di un cosmo (ll. 4-6); viene prevista, tuttavia, la possibilità che non vi sia un <foreign>antithens</foreign> (l. 7), sebbene la lacunosità del testo non permetta di capire quale sia la procedura da seguire in tale eventualità.</p>
+                    <p>La sezione finale del testo aggiunge ulteriori informazioni a proposito dell’operazione finanziaria già menzionata, che deve avvenire attraverso il <foreign>chreophylakion</foreign>, la struttura ospitante gli archivi pubblici e nello specifico i registri dei debiti e dei contratti fra privati, a Creta documentata anche a Polyrrhenia, Knossos, Lato e Olous (l. 7; cf. <bibl><ref target="#b450">Dareste 1882</ref></bibl>, <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 356-362</bibl>). Le linee 8-9, inoltre, informano dell’esistenza di un ulteriore ammontare di denaro – o forse di un insieme di beni – che deve essere spartito fra il liberto e colui che l’ha affrancato.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#andano"><foreign>andano</foreign></ref>, <ref type="inst" target="#antithens"><foreign>antithens</foreign></ref>, <ref type="inst" target="#apolagasas"><foreign>apolagasas</foreign></ref>, <ref type="inst" target="#apolagathes"><foreign>apolagathes</foreign></ref>, <ref type="inst" target="#chreophylakion"><foreign>chreophylakion</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, mese <ref type="inst" target="#eleusinios"><foreign>Eleusinios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#psephisma"><foreign>psephisma</foreign></ref>, tribù (<ref type="inst" target="#aithaleis"><foreign>Aithaleis</foreign></ref>).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 693-696 n. 134 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5010 (B)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib4"><title>IC</title> IV</ref> 232 (B) <ptr type="phi" target="200674"/></bibl>; 
+                            <bibl><ref target="#b1163">Magnelli 1997</ref> (A-B)</bibl>; 
+                            <bibl><ref target="#b1165">Magnelli 1998a</ref>, pp. 95-113 (A-B)</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 48.1208 <ptr type="seg" target="a48_1208"/></bibl>); 
+                            <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 20 (A-B)</bibl>; 
+                            <bibl><ref target="#b1169">Magnelli 2008</ref>, pp. 296-301 n. 20 (A-B)</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

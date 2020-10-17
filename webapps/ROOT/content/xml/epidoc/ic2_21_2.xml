@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epigramma funerario da Poikilasion</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 21 2</idno>
+                        <idno type="projectNo">069</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#gortyn_museum">Museo archeologico di Chania</repository> 
+                                <idno type="invNo">E 56</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#poikilasion">Poikilasion</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                                </origin>
+                                <provenance type="observed" resp="#iv"/>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="illegible" quantity="1" unit="character"/><orig>αδ<unclear>ε</unclear></orig><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="2"/><supplied reason="lost">το</supplied>ῦ γὰρ επ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/>μος νέκυς <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><supplied reason="lost">α</supplied>ἰφνιδίως στυγε<supplied reason="lost">ρὸν τέρ</supplied><lb 
+                              break="no" n="5"/>μα λαχὼν βιότου·
+                          <lb n="6"/><supplied reason="lost">π</supplied>ροσφιλὲς <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="astos" ref="#lissos"><w lemma="ἀστός">ἀστοῖσιν</w></rs> <unclear>π</unclear><supplied reason="lost">ᾶσι</supplied>
+                          <lb n="7"/><rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="xenos" ref="#lissos"><w lemma="ξένος"><supplied reason="lost">ξε</supplied>ίνοισί</w></rs> τ’ ἀμεμφὴς
+                          <lb n="8"/><unclear>ν</unclear>αῖον ἐμὸν μόχθοις ἡ<supplied reason="lost">νι</supplied><lb 
+                               n="9" break="no"/>οχῶν βίοτον·
+                          <lb n="10"/>εἰ δέ με <persName type="divine" key="Moirai">Μοιρῶν</persName> νήμα<supplied reason="lost">τα</supplied>
+                          <lb n="11"/>δύσμορον ἢ φθόνος ἷλ<supplied reason="lost">ε</supplied>,
+                          <lb n="12"/>ἀλλὰ θανόνθ’ ἕξει χῶ<supplied reason="lost">ρος</supplied>
+                          <lb n="13"/>ἐν <w lemma="εὐσεβής">εὐσεβέσιν</w>.
+                          <lb n="13a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’espressione ἀστοῖσιν π[ᾶσι ξε]ίνοισι, sebbene appartenga al repertorio di stilemi caratteristici dell’epigramma funerario, fornisce al tempo stesso una testimonianza delle componenti sociali rappresentate dai cittadini e dagli stranieri, da mettere probabilmente in relazione non tanto con Poikilasion – per la quale non è noto lo <foreign>status</foreign> di <foreign>polis</foreign> – quanto piuttosto con la vicina città di Lissos. Il nesso costituito dagli <foreign>astoi</foreign> e dagli <foreign>xenoi</foreign>, ampiamente attestato in ambito epigrammatico, a Creta compare anche in un epitaffio metrico di Kantanos (<ref type="ins" target="#ic2_6_10"><title>IC</title> II 6 10</ref>, ll. 3-4: ἀστοῖς καὶ ξείνοισι).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#astos"><foreign>astos</foreign></ref>, <ref type="inst" target="#xenos"><foreign>xenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 513-515 n. 53</bibl>;
+                            <bibl><ref target="#b1096">Levi 1922</ref>, p. 390 n. 33</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2">IC II</ref> 21 2 <ptr type="phi" target="200028"/></bibl>;
+                            <bibl><ref target="#b1490">Peek 1955</ref>, n. 1139</bibl>; 
+                            <bibl><ref target="#b503">Detorakis 1995</ref>, p. 229</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 34</bibl>. <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1494">Peek 1973-1974</ref>, pp. 520-521 n. 22</bibl>;
+                            <bibl><ref target="#b1229">Martínez Fernández 1992</ref>, p. 121</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

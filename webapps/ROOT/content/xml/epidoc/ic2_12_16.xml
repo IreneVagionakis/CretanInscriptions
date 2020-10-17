@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Eleutherna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 16</idno>
+                        <idno type="projectNo">100</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 18</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0600" notAfter="-0400">VI-V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                    <div type="textpart" subtype="part" n="a">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>ὄσ<unclear>τ</unclear><supplied reason="lost">ις</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ε πλίας ἀ<lb 
+                        break="no" n="3"/>ποδοῖτο <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ν <w lemma="ἄργυρος">ἄργυρο<lb 
+                        break="no" n="5"/>ν</w> υἶ διαμ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> κρε͂σθαι μὲ<lb 
+                        break="no" n="7"/>ν τοῖς ἐνεκ<supplied reason="lost">ύροις</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>εσθαι δὲ μὴ
+                          <lb n="9"/>ἦμεν δὲ τα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>ς ἄπας περ<supplied reason="lost">ὶ</supplied>
+                          <lb n="11"/>τἀπρίατα ἐ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="b">
+                        <ab>
+                          <lb n="1"/>ὄστι<corr>ς</corr> <w lemma="κιθαριστάς">κι<supplied reason="lost">θ</supplied>αριστὰς</w> <unclear>κ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>μη ἰν <rs type="institution" subtype="public_space" role="location" key="aphamia" ref="#eleutherna"><w lemma="ἀπαμία">ἀπαμίαι</w></rs> <unclear>μ</unclear><lb 
+                              break="no" n="3"/><supplied reason="lost">η</supplied>δ’ ἰν <rs type="institution" subtype="public_space" role="location" key="polis" ref="#eleutherna"><w lemma="πόλις">πόλι</w></rs> πλυριτ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> ϝικοτήρας ἐσ<lb 
+                        break="no" n="5"/><gap reason="illegible" quantity="1" unit="character"/>εσθαι κε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ο</unclear>παιον
+                          <lb n="7"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ισ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          </ab>
+                        </div>
+                    <div type="textpart" subtype="part" n="c">
+                        <ab>
+                          <lb n="1"/>ἐνέκυρα <unclear>μ</unclear>ὴ <unclear>π</unclear>έρεν α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>α</unclear>ν<unclear>οε</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig>εο</orig><gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ρομ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="3"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ε</unclear>τ<unclear>εϝ</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>α</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>α</unclear>ρκο</orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ε</unclear>σ<unclear>κ</unclear></orig>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ν το͂ν ἐνεκύρον ν<unclear>ι</unclear>κ<gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="5"/><gap reason="illegible" quantity="1" unit="character"/><orig>οα<unclear>ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>
+                          <lb n="5a"/><gap reason="illegible" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                        </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="7" unit="character"/>
+                          <lb n="2"/><orig><unclear>οεν</unclear>αμ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>γα</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>τ</unclear>α</orig><gap reason="illegible" quantity="1" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>ν<unclear>ε</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4a"/><gap reason="illegible" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    </div>
+                        <div type="apparatus">
+                            <p>
+                                <app loc="Aa1"><note>οσ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; ὄσ<unclear>τ</unclear><supplied reason="lost">ις</supplied> <gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>.</note></app>
+                                <app loc="Aa11"><note>τὰ πριατά <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; τἀπρίατα <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>.</note></app>
+                                <app loc="Ab1"><note>ὄς τι <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; ὄστι<corr>ς</corr> <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>.</note></app>
+                                <app loc="Ab2-3"><note>ἀπαμίαι<unclear>ς</unclear> δ’ <bibl><ref target="#bib2"><title>IC</title></ref></bibl>; ἀπαμίαι <unclear>μ</unclear><supplied reason="lost">η</supplied>δ’ <bibl><ref target="#bib122"><title>Laws</title></ref></bibl>.</note></app>
+                            </p>
+                    </div>
+                    <div type="commentary">
+                        <p>Il blocco conserva parte di quattro testi differenti, fra i quali risulta particolarmente significativo il documento Ab, riguardante un suonatore di cetra. La legge presenta alle linee 2-3 l’interessante contrapposizione «né nell’<foreign>aphamia</foreign> né in città». Tale espressione sembrerebbe verosimilmente da intendere in senso spaziale (cf. <bibl><ref target="#b860">Hansen <foreign>et al.</foreign> 2000</ref>, p. 164</bibl>, <bibl><ref target="#bib122"><title>Laws</title></ref>, p. 243</bibl>, <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 66-67</bibl>); i due termini potrebbero tuttavia essere altrimenti interpretati come raggruppamenti sociali di cui il <foreign>kitharistas</foreign> potrebbe far parte. Quanto all’<foreign>aphamia</foreign>, le sue uniche altre attestazioni epigrafiche sono i trattati ellenistici <ref type="ins" target="#seg_26_1049"><title>SEG</title> 26.1049</ref>, <ref type="ins" target="#ic1_16_5"><title>IC</title> I 16 5</ref> e <ref type="ins" target="#chaniotis_61b">Chaniotis, <title>Verträge</title> 61B</ref>, dove compare chiaramente nell’accezione spaziale di «zona marginale» nell’indicazione dei confini del territorio di Lato; le fonti letterarie, diversamente, testimoniano per <foreign>aphamia</foreign>/<foreign>aphamiotas</foreign> solamente l’accezione sociale di «popolazione asservita» (cf. <ref type="lit" target="#Sosicr4">Sosicr.Hist. <title>FGrHist</title> 461 F 4</ref>, <ref type="lit" target="#HschAphamiotai">Hsch. <foreign>s.v.</foreign> ἀφαμιῶται</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#aphamia"><foreign>aphamia</foreign></ref>, <ref type="inst" target="#polis1"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1532">Petroulakis 1910</ref>, pp. 68-69 n. 1 (Aa)</bibl>; 
+                            <bibl><ref target="#b1533">Petroulakis 1914</ref>, pp. 225-226 n. 4 (A)</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 16 <ptr type="phi" target="199899"/> <ptr type="poinikastas" target="#"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> I 26 (Ab), II 67 (Aa, Ac)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Ele16</bibl>;
+                            <bibl><ref target="#b820">Guizzi 2017</ref>, pp. 329-337 (Ab)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl type="indexed_edition"><ref target="#b1001">Koerner 1993</ref>, n. 114*-115*</bibl>; 
+                            <bibl><ref target="#b860">Hansen <foreign>et al.</foreign> 2000</ref>, p. 164</bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref>, pp. 107-112</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

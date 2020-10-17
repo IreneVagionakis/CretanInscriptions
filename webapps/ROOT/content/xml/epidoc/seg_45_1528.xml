@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Trattato di alleanza fra Lyttos e Cnido</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 45.1528</idno>
+                        <idno type="projectNo">191</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#cnidus">Cnido</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#treaty">trattato</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#cnidus">Cnido</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0300" notAfter="-0200">III secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἐμμ</supplied>ένοιεν τι<unclear>κ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ντι ε<corr>ἰ</corr>ς τὸ ἱερὸν τοῦ <persName type="divine" key="Apollo">Ἀπόλλωνο<supplied reason="lost">ς</supplied></persName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#lyttos"><w lemma="κοσμεύω"><supplied reason="lost">κοσ</supplied>μεύντ<supplied reason="lost">ων</supplied></w> τῶν σὺμ <persName type="attested" key="Porthesilas f. Kyrnios"><name nymRef="Πορθεσίλας">Πορθεσίλαι</name> τῶ<surplus>ι</surplus> <name nymRef="Κύρνιος" type="patronymic">Κυρνί<supplied reason="lost">ω</supplied></name></persName></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">δ</supplied><unclear>ά</unclear>μωι <w lemma="ὀμνύω">ὀμ<supplied reason="lost">ό</supplied>σαι</w> καὶ <placeName ref="#cnidus" type="ethnic">Κνιδίους</placeName> <rs type="institution" subtype="social_group" role="oath-taking" key="polisE" ref="#lyttos"><placeName ref="#lyttos" type="ethnic">Λυττίοις</placeName></rs> τὸν <w lemma="ὅρκος">ὅ<supplied reason="lost">ρκον</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τ</supplied>οὶ δὲ <rs type="institution" subtype="board" role="funds" key="poletes" ref="#lyttos"><w lemma="πωλητής"><unclear>πω</unclear>ληταὶ</w></rs> μ<supplied reason="lost">ε</supplied>τὰ τῶν <rs type="institution" subtype="board" role="funds" key="tamias" ref="#lyttos"><w lemma="ταμίας">ταμιᾶν</w></rs> ἀποδ<supplied reason="lost">όντω</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>υσαι τὰ <w lemma="ὅρκιον">ὅρκια</w> ὡς <unclear>κ</unclear>ομίζετ<supplied reason="lost">αι</supplied>· <w lemma="ὀμνύω">ὀμόσαι</w> δὲ τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">τὰ</supplied>ν <rs type="institution" subtype="assembly" role="oath-taking" key="boule" ref="#lyttos"><w lemma="βουλά">βουλὰν</w></rs> καὶ τοὺς ἄλλους <rs type="institution" subtype="social_group" role="oath-taking" key="polites" ref="#lyttos"><w lemma="πολίτας">πολίτας</w></rs> π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="συμμαχία"><supplied reason="lost">συ</supplied>μμαχίας</w> <w lemma="ἀναγράφω">ἀναγραφῆι</w> εἰς <w lemma="στάλα">στάλ<supplied reason="lost">ας</supplied></w> <supplied reason="lost">λιθίνας</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> τοῦ <persName type="divine" key="Karneios">Καρν<supplied reason="lost">είου</supplied></persName>· <w lemma="ἐπιμελέομαι"><unclear>ἐ</unclear>πιμεληθῆμεν</w> το<supplied reason="lost">ὺς</supplied><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">δόμε</supplied>ν τοὺς <rs type="institution" subtype="board" role="funds" key="tamias" ref="#lyttos"><w lemma="ταμίας">ταμίας</w></rs> ἀπὸ τῶν εἰς <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">α</supplied>νδρος Ἀντιπάτα <space extent="unknown" unit="character"/>
+                          <lb n="11a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il frammento, appartenente ad un trattato stipulato fra Lyttos e Cnido, è datato all’anno in cui nella città cretese è cosmo eponimo Porthesilas figlio di Kyrnios.</p>
+                    <p>La <foreign>polis</foreign> è menzionata a proposito del giuramento da prestare attraverso l’etnico collettivo Λυττίοις. Al giuramento sembra riferirsi anche la menzione della <foreign>boule</foreign> e dei cittadini alla linea 7, sebbene non sia certo che si riferisca all’assemblea e alla cittadinanza di Lyttos (dove una <foreign>boule</foreign> è altrimenti nota solamente dalla legge arcaica <ref type="ins" target="#seg_35_991"><title>SEG</title> 35.991</ref>).</p>
+                    <p>La formula di esposizione alle linee 8-11, che prevede la pubblicazione della stele a Cnido nel santuario di Apollo <foreign>Karneios</foreign>, menziona forse a tale proposito dei <foreign>tamiai</foreign>; non è chiaro, tuttavia, se i tesorieri in questione siano di Lyttos o di Cnido: costoro non sono infatti altrimenti noti a Lyttos (mentre a Creta sono attestati a Gortyna, Aptera e Arkades). I <foreign>tamiai</foreign> compaiono inoltre alla linea 5 assieme a dei <foreign>poletai</foreign> (attestati a Creta solo da questo documento), incaricati di consegnare un ammontare di denaro forse destinato ai sacrifici da compiersi in occasione del giuramento; anche in questo caso non è chiaro se i magistrati siano della città cretese o di Cnido: nel primo caso questa sarebbe l’unica occorrenza nota finora di <foreign>poletai</foreign> in tutta Creta.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#boule"><foreign>boule</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#poletes"><foreign>poletai</foreign></ref>, <ref type="inst" target="#polis2"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref>, <ref type="inst" target="#tamias"><foreign>tamias</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Ed.</emph> <bibl><ref target="#b170">Blümel 1995</ref>, pp. 63-64 n. 34</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 45.1528 <ptr type="seg" target="a45_1528"/></bibl>).</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b310">Chaniotis 1998</ref>, pp. 286-287 n. 37</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

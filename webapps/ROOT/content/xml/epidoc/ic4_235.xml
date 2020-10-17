@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Manomissione di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 235</idno>
+                        <idno type="projectNo">372</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#mitropolis">Mitropolis, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#manumission">manomissione</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block" cert="low">blocco?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0200" notAfter="-0150">200-150 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#gortyn" cert="low"><supplied reason="lost">ἐπ</supplied><unclear>ὶ</unclear> <persName type="attested" key="Antiphatas f. Kydas"><name nymRef="Ἀντιφάτας">Ἀντιφάτα</name> τῶ <name nymRef="Κύδας" type="patronymic">Κύδαντος</name></persName></rs>
+                          <lb n="2"/><rs type="institution" subtype="social_status" role="manumission" key="eleutheros" ref="#gortyn"><gap reason="lost" quantity="1" unit="character"/><persName type="attested" key="-asto"><name nymRef="-αστῴ">αστὼι</name> Σώσιος</persName> <w lemma="ἐλεύθερος">ἐλευθέρα</w></rs> <rs type="institution" subtype="social_status" role="manumission" key="apolagathes" ref="#gortyn"><w lemma="ἀπολαγαίω">ἀπο<lb 
+                        break="no" n="3"/><supplied reason="lost">λ</supplied>αγαθένσα</w></rs> κατέβαλε τᾶι <rs type="institution" subtype="assembly" role="payments" key="polis" ref="#gortyn"><w lemma="πόλις">πόλι</w></rs>
+                          <lb n="4"/><w lemma="ἀργύριον"><supplied reason="lost">ἀ</supplied>ργύ<supplied reason="lost">ρια</supplied></w> τριάκοντα καὶ πέντε <rs type="institution" subtype="social_status" role="manumission" key="apolagasas" ref="#gortyn">παρι<lb 
+                        break="no" n="5"/><supplied reason="lost">ό</supplied>ντο<supplied reason="lost">ς τ</supplied>ῶ <w lemma="ἀπολαγαίω">ἀπολαγάσαντος</w> <persName type="attested" key="Rhanios f. Damares"><name nymRef="Ῥάνιος"><unclear>Ῥ</unclear>ανί<lb 
+                        break="no" n="6"/><supplied reason="lost">ω</supplied></name> <unclear>τ</unclear>ῶ <name nymRef="Δαμάρης" type="patronymic">Δαμάριος</name></persName></rs> α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="2" unit="character"/> ὁ <rs type="institution" subtype="official" role="funds" key="tamias" ref="#gortyn"><w lemma="ταμίας">ταμίας</w> <persName type="attested" key="Rhanios f. Soarchos"><name nymRef="Ῥάνιος"><unclear>Ῥ</unclear>ά<lb 
+                        break="no" n="7"/><unclear>ν</unclear>ιος</name> <name nymRef="Σόαρχος" type="patronymic">Σοάρχω</name></persName></rs> φέρει τὸ <w lemma="ἀργύριον">ἀργύριον</w> <rs type="institution" subtype="month" role="calendar" key="Kanneios" ref="#gortyn"><w lemma="Καννεῖος">Καν<lb 
+                        break="no" n="8"/><unclear>ν</unclear>ήιω</w></rs> τρίται δεκάται. <rs type="institution" subtype="official" role="incumbent" key="prokosmos" ref="#gortyn"><w lemma="πρόκορμος">πρόκορμος</w>
+                          <lb n="9"/><persName type="attested" key="Barythenes f. Samagoras"><name nymRef="Βαρυθένης"><supplied reason="lost">Β</supplied>αρυθένης</name> <name nymRef="Σαμαγόρας" type="patronymic">Σαμαγόρα</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La manomissione si apre con una formula di datazione nella quale viene ricordato il magistrato eponimo Antiphatas figlio di Kydas, verosimilmente un cosmo (cf. <ref type="ins" target="#ic4_233"><title>IC</title> IV 233</ref>, <ref type="ins" target="#ic4_236">236</ref> e <ref type="ins" target="#seg_48_1208"><title>SEG</title> 48.1208</ref>).</p>
+                    <p>L’iscrizione documenta che la serva affrancata, menzionata alla linea 2, ha versato un importo di denaro alla <foreign>polis</foreign> per la propria liberazione in presenza di colui che l’ha liberata, Rhanios figlio di Damares. Il documento, inoltre, conserva l’unica attestazione a Gortyna di un tesoriere, Rhanios figlio di Soarchos, incaricato di ricevere la somma entro il tredicesimo giorno del mese di <foreign>Kanneios</foreign> (noto solamente a Gortyna; cf. <ref type="ins" target="#ic4_172"><title>IC</title> IV 172</ref>).</p>
+                    <p>Il documento si conclude con la menzione del <foreign>prokormos</foreign> Barythenes figlio di Samagoras, che riveste una carica nota esclusivamente dalla presente iscrizione, verosimilmente indicante un funzionario subalterno che agisce in nome dei cosmi (cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 199-203</bibl> e <bibl><ref target="#b1228">Martínez Fernández 1991</ref></bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#apolagasas"><foreign>apolagasas</foreign></ref>, <ref type="inst" target="#apolagathes"><foreign>apolagathes</foreign></ref>, <ref type="inst" target="#eleutheros"><foreign>eleutheros</foreign></ref>, <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref> (?), mese <ref type="inst" target="#kanneios"><foreign>Kanneios</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#prokosmos"><foreign>prokosmos</foreign></ref>, <ref type="inst" target="#tamias"><foreign>tamias</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b840">Halbherr 1890</ref>, pp. 692-694 n. 133</bibl>; 
+                            <bibl><ref target="#b1682">Semenoff 1893</ref>, p. 90 (<foreign>non vidi</foreign>)</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5009</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 235 <ptr type="phi" target="200677"/></bibl>; 
+                            <bibl><ref target="#b1228">Martínez Fernández 1991</ref></bibl>; 
+                            <bibl><ref target="#b752">Gschnitzer 1999</ref>, p. 45 n. 2</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 43</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

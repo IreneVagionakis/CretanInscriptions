@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Salamina per un <foreign>hegemon</foreign> (?) del <foreign>koinon</foreign> cretese</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">Salamine XIII 92</idno>
+                        <idno type="projectNo">595</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#probably_lost">iscrizione probabilmente perduta</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#salamis_cyprus">Salamina di Cipro</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0142" notAfter="-0116">142-131 o 124-116 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="dedicatee" key="hegemon" ref="#koinon_kretaieon"><persName type="attested" key="Diktys -"><name nymRef="Δίκτυς">Δίκτυ<supplied reason="lost">ν</supplied></name> <gap reason="lost" extent="unknown" unit="character"/></persName> <supplied reason="lost">, <w lemma="ἡγεμών">ἡγεμόνα</w> τῶν ἐν <placeName ref="#cyprus">Κύπρωι</placeName> τασσομένων</supplied>
+                          <lb n="2"/><placeName ref="#crete" type="ethnic">Κρητῶ<supplied reason="lost">ν</supplied></placeName></rs><supplied reason="lost">, <placeName ref="#salamis_cyprus" type="ethnic">Σαλαμινίων</placeName> ἡ πόλις <w lemma="ἀρετή">ἀρετῆς</w> ἕνεκεν καὶ <w lemma="εὔνοια">εὐνοίας</w> ἧς ἔχων</supplied>
+                          <lb n="3"/>διατελ<supplied reason="lost">εῖ εἰς <persName type="ruler" key="Ptolemaios VI" ref="#egypt"><w lemma="βασιλεύς">βασιλέα</w> <name nymRef="Πτολεμαῖος">Πτολεμαῖον</name></persName> καὶ <persName type="ruler" key="Kleopatra II" ref="#egypt"><w lemma="βασίλισσα">βασίλισσαν</w> <name nymRef="Κλεοπάτρα">Κλεοπάτραν</name> τὴν ἀδελφὴν</persName> καὶ</supplied>
+                          <lb n="4"/><persName type="ruler" key="Kleopatra III" ref="#egypt"><w lemma="βασίλισσα">βασίλι<supplied reason="lost">σσαν</supplied></w> <supplied reason="lost"><name nymRef="Κλεοπάτρα">Κλεοπάτραν</name> τὴν <w lemma="γυνή">γυναῖκα</w></supplied></persName><supplied reason="lost">, <w lemma="Θεός">Θεοὺς</w> <w lemma="Εὐεργέτης">Εὐεργέτας</w></supplied><supplied reason="lost">, καὶ τὰ τέκνα αὐτῶν, καὶ</supplied>
+                          <lb n="5"/><w lemma="εὐεργεσία">εὐερ<supplied reason="lost">γεσίας</supplied></w> <supplied reason="lost">τῆς εἰς ἑαυτήν</supplied>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica onoraria, posta verosimilmente dalla <foreign>polis</foreign> di Salamina di Cipro, commemora l’<foreign>hegemon</foreign> (?) Diktys, inviato sull’isola dai Cretesi (l. 2, Κρητῶ[ν]), etnico che potrebbe indicare più nello specifico un suo invio da parte del <foreign>koinon</foreign> cretese (cf. i Κρηταιεῖς di <ref type="ins" target="#ig_iv2_1_244"><title>IG</title> IV<hi rend="superscript">2</hi>, 1 244</ref>). Da Salamina, inoltre, proviene una dedica a uno <foreign>stategos</foreign> da parte del κο[ινòν τῶν ἐν τῆι νήσωι] τασσομένων Κρητῶν (<ref type="ins" target="#seg_30_1640"><title>SEG</title> 30.1640</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hegemon"><foreign>hegemon</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1381">Munro <foreign>et al.</foreign> 1891</ref>, pp. 191-192 n. 45</bibl>; 
+                            <bibl><ref target="#bib115"><title>OGIS</title></ref> 108</bibl>; 
+                            <bibl><ref target="#b1355">Mitford 1953</ref>, p. 151 nota 68</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 13.551 <ptr type="seg" target="a13_551"/></bibl>); 
+                            <bibl><ref target="#b1397">Nicolaou 1968</ref>, p. 33</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib75"><title>Salamine</title> XIII</ref> 92 <ptr type="phi" target="209085"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

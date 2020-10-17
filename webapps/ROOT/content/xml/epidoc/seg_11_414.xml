@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Lista dei <foreign>theorodokoi</foreign> e dei prosseni di Epidauro, I-II</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 11.414</idno>
+                        <idno type="projectNo">559</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#epidauros_asklepieion">Magazzino dell’Asklepieion di Epidauro</repository>
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#list">lista</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#epidauros">Epidauro, <foreign>Asklepieion</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0220" notAfter="-0200" precision="low">220-200 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part" n="I">
+                            <ab>
+                          <lb n="1"/><supplied reason="lost">Δα</supplied>μό<supplied reason="lost">κ</supplied>ριτος <gap reason="illegible" quantity="1" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig><gap reason="illegible" quantity="5" unit="character"/>ς <placeName ref="#argos" type="ethnic">Ἀργεῖος</placeName>, Ἀν<supplied reason="lost">υ</supplied>σί<supplied reason="lost">στ</supplied>ρ<supplied reason="lost">α</supplied>τος <gap reason="illegible" quantity="2" unit="character"/>μεος <placeName ref="#argos" type="ethnic">Ἀργεῖος</placeName>, <supplied reason="lost">Ἐ</supplied>π<supplied reason="lost">ισ</supplied>θέ<supplied reason="lost">νης</supplied>
+                          <lb n="2"/><gap reason="illegible" quantity="4" unit="character"/><orig>κ</orig><gap reason="illegible" quantity="1" unit="character"/>α <placeName ref="#argos" type="ethnic">Ἀργεῖος</placeName>, <gap reason="illegible" quantity="7" unit="character"/><orig>ο</orig><gap reason="illegible" quantity="1" unit="character"/> Δαμαρμένου <placeName ref="#argos" type="ethnic">Ἀργεῖος</placeName>, Δαμαγόρας <placeName ref="#megara" type="ethnic">Μεγαρεύς</placeName>, <gap reason="illegible" quantity="3" unit="character"/>
+                          <lb n="3"/><gap reason="lost" quantity="2" unit="character"/><supplied reason="lost">κ</supplied>ράτης Παντάρκευς <placeName ref="#tegea" type="ethnic">Τεγεάτας</placeName>, Διοκλῆ<supplied reason="lost">ς Ση</supplied>ράμβου <placeName ref="#crete" type="ethnic"><supplied reason="lost">Κ</supplied>ρ<supplied reason="lost">ὴ</supplied>ς</placeName> <placeName ref="#knossos" type="ethnic">Κ<supplied reason="lost">νώ</supplied>σ<supplied reason="lost">ι</supplied>ος</placeName>.
+                        </ab>
+                        </div>
+                        <div type="textpart" subtype="part" n="II">
+                            <ab>
+                          <lb n="4"/><supplied reason="lost">Μηνὸς Ἀ</supplied>πελλαίου, ἐπὶ <supplied reason="lost">κα</supplied>τ<supplied reason="lost">α</supplied>λόγω<supplied reason="lost">ν</supplied> βουλᾶς, Μυ<supplied reason="lost">σ</supplied>ιάδος, <supplied reason="lost">Π</supplied>ασιχάρευς, Πρ<supplied reason="lost">α</supplied>τίου, τετ<supplied reason="lost">άρ</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">ται, τ</supplied>ελείαι, ἔδ<supplied reason="lost">ο</supplied>ξ<supplied reason="lost">ε</supplied> θεαροδόκους καὶ προξένους εἶμεν τούσδε· <w lemma="θεαροδόκος">θεαροδόκοι</w>·
+                          <lb n="6"/><supplied reason="lost">Ἀρι</supplied>σ<supplied reason="lost">τ</supplied>οκράτης <supplied reason="lost">Αἰσ</supplied><unclear>χ</unclear>ρίωνος <placeName ref="#cos" type="ethnic">Κῶιος</placeName>, <supplied reason="lost">Δ</supplied>αμοφῶν Ἀριστοκρίτου <placeName ref="#cos" type="ethnic">Κῶιο<supplied reason="lost">ς</supplied></placeName>, Μακαρεὺς Φιλου<supplied reason="lost">μ</supplied>ε<lb 
+                        break="no" n="7"/><supplied reason="lost">νοῦ</supplied> <placeName ref="#crete" type="ethnic">Κῶιος</placeName>, <unclear>Δ</unclear>ι<unclear>ά</unclear>ρης <gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig><gap reason="illegible" quantity="2" unit="character"/>ου <placeName ref="#pheneos" type="ethnic">Φενικός</placeName>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#lappa"><persName type="attested" key="Archon f. Achaiadas"><name nymRef="Ἄρχων">Ἄρχων</name> <name nymRef="Ἀχαιάδας" type="patronymic">Ἀχαιάδα</name> <placeName ref="#crete" type="ethnic">Κρὴς</placeName> <placeName ref="#lappa" type="ethnic">Λαππ<supplied reason="lost">α</supplied>ῖ<supplied reason="lost">ο</supplied>ς</placeName></persName></rs>, Παυσίας <supplied reason="lost">Τ</supplied>ε<supplied reason="lost">λέσ</supplied>τα
+                          <lb n="8"/><placeName ref="#kaphyai" type="ethnic"><supplied reason="lost">Καφ</supplied>υ<supplied reason="lost" cert="low">ῖ</supplied>ος</placeName>, Καλλικράτης Κρατίνου <placeName ref="#tegea" type="ethnic">Τεγεάτας</placeName>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#polyrrhenia"><persName type="attested" key="Sosos f. Eurypidos"><name nymRef="Σῶσος">Σῶσος</name> <del rend="erasure"><gap reason="lost" quantity="2" unit="character"/></del> <name nymRef="Εὐρύπιδος" type="patronymic">Εὐρυπίδο</name> <placeName ref="#crete" type="ethnic">Κρὴς</placeName> <placeName ref="#polyrrhenia" type="ethnic"><supplied reason="lost">Πολυ</supplied>ρρήνιος</placeName></persName></rs>,
+                          <lb n="9"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#kydonia"><persName type="attested" key="Menoitios f. Hieron"><name nymRef="Μενοίτιος"><supplied reason="lost">Μ</supplied>εν<supplied reason="lost">ο</supplied>ίτιος</name> <name nymRef="Ἱέρων" type="patronymic">Ἱέρωνος</name> <placeName ref="#crete" type="ethnic">Κρὴς</placeName> <placeName ref="#kydonia" type="ethnic">Κυδωνιάτας</placeName></persName></rs>, <rs type="institution" subtype="social_status" role="granted_as_privilege" key="theorodokos" ref="#kydonia"><persName type="attested" key="Philodamos f. Hieron"><name nymRef="Φιλόδαμος">Φιλόδαμος</name> <name nymRef="Ἱέρων" type="patronymic">Ἱέρωνος</name> <placeName ref="#crete" type="ethnic">Κρὴς</placeName> <placeName ref="#kydonia" type="ethnic">Κυδωνιάτας</placeName></persName></rs>.
+                          <lb n="10"/><supplied reason="lost">π</supplied>ρ<supplied reason="lost">όξ</supplied>ε<supplied reason="lost">ν</supplied>οι· Κλέανδρος Δαμοσθένευς <placeName ref="#phleious" type="ethnic">Φλειάσιος</placeName>, Φαῖδρος Κλεάνορος
+                          <lb n="11"/><placeName ref="#phleious" type="ethnic"><supplied reason="lost">Φλ</supplied>ε<supplied reason="lost">ιά</supplied>σ<supplied reason="lost">ι</supplied>ος</placeName>, Λύσιππος <supplied reason="lost">Φ</supplied>ειδί<supplied reason="lost">π</supplied>που <placeName ref="#argos" type="ethnic">Ἀργεῖος</placeName>.
+                          </ab>
+                        </div>
+                    </div>
+                    <div type="commentary">
+                        <p>All’interno della più ampia lista dei prosseni e <foreign>theorodokoi</foreign> di Epidauro le sezioni I e II restituiscono i nomi di più Cretesi, fra i quali figurano come individui addetti all’accoglienza degli ambasciatori sacri un cittadino di Knossos (?), Diokles figlio di Serambos, uno di Lappa, Archon figlio di Achaiadas, uno di Polyrrhenia, Sosos figlio di Eurypides, e due fratelli di Kydonia, Menoitios e Philodamos figli di Hieron. Oltre ad essi, nella lista compaiono anche altri tre individui originari di Creta in qualità di prosseni di Epidauro, due cittadini di Aptera (III) ed apparentemente uno di Axos (VI).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#theorodokos"><foreign>theorodokos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1356">Mitsos 1933</ref></bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 11.414 <ptr type="seg" target="a11_414"/></bibl>); 
+                            <bibl><ref target="#b1507">Perlman 2000</ref>, n. E5 + pros.cat. 214, 308</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1662">Salač 1940</ref></bibl>; 
+                            <bibl><ref target="#b923">Inglese 1996</ref></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> p. 52 n. 2.9</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

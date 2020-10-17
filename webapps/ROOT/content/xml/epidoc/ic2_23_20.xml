@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaffio di un membro dell’<foreign>agela</foreign> di Polyrrhenia</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 23 20</idno>
+                        <idno type="projectNo">006</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#polyrrhenia">Polyrrhenia, in due case</repository>
+                        <idno type="invNo"></idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#epitaph">epitaffio</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> di marmo bianco pario, rotta verticalmente in due
+                                    <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#polyrrhenia">Polyrrhenia</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0200" notAfter="-0100">II secolo a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><supplied reason="lost">κλ</supplied><unclear>ει</unclear>τὸν ἐ<unclear>ξ</unclear> <rs type="institution" subtype="age_class" role="belonging" key="agela" ref="#polyrrhenia"><w lemma="ἀγέλα">ἀγέλα<unclear>ς</unclear></w></rs> <supplied reason="lost">σε</supplied> πολύστονον εἰς Ἀχέροντα,
+                        <lb n="2"/>Ἄδραστε, στυγερὰ μοῖρα καταγάγετο.
+                        <lb n="3"/>μάτηρ δ’ οὐχ’ ὑμέναιον ἀπὸ στομάτων Πολυμήδα
+                        <lb n="4"/>ἧκε πρὸ νυμφιδίων <corr>ἱ</corr>σταμένα θαλάμων,
+                        <lb n="5"/>ἀλλά τοι ἀντὶ <w lemma="γάμος">γάμου</w> γοερὸμ μέλος ἴαχε θρήνων,
+                        <lb n="6"/>στέρνον ἀμετρήτωι πένθει τειρομένα·
+                        <lb n="7"/>μαρμάρου ἐκ <placeName ref="#paros">Παρία<surplus>ι</surplus>ς</placeName> δὲ τελεσσαμένα τόδε <w lemma="σᾶμα">σᾶμα</w>
+                        <lb n="8"/>πατρὶ σὺν Ἀρχίνωι σὸν δέμας ἐκτέρισεν.
+                </ab>
+            </div>
+            <div type="commentary">
+                <p>L’epitaffio, in distici elegiaci, è uno dei cinque epigrammi funerari rinvenuti a Polyrrhenia (assieme a <ref type="ins" target="#ic2_23_21"><title>IC</title> II 23 21</ref>-<ref type="ins" target="#ic2_23_22">22</ref>, <ref type="ins"><title>SEG</title> 16.532</ref> e <ref type="ins" target="#ipolyr_23"><title>I.Polyr.</title> 23</ref>). La composizione <foreign>ad personam</foreign>, il prestigioso materiale impiegato – estremamente raro a Creta – e l’eleganza del tracciato delle lettere rivelano l’elevato livello sociale della famiglia del defunto. Il testo, pur assecondando i <foreign>topoi</foreign> letterari, mette in risalto il nesso esistente a Creta fra il (mancato) completamento dell’<foreign>agela</foreign> e le (mancate) nozze (cf. <bibl><ref target="#b620">Foderà 2009</ref>, p. 1016</bibl>), confermando pertanto quanto testimoniato dalle fonti letterarie: stando agli autori antichi, la consuetudine cretese prevede infatti che tutti i giovani si sposino in matrimoni collettivi celebrati al termine del periodo di addestramento, al raggiungimento della maggiore età – fra i 17 e i 20 anni – (<ref type="lit" target="#Ephor149">Ephor. <title>FGrHist</title> 70 F 149</ref>, <ref type="lit" target="#HschApagelos">Hsch. <foreign>s.v.</foreign> ἀπάγελος</ref>; cf. <bibl><ref target="#b137">Bile 1992</ref></bibl>, <bibl><ref target="#b1364">Montecchi 2007</ref></bibl>). Il matrimonio viene tuttavia di poco posticipato nei casi dei giovani più illustri – come sarebbe stato probabilmente quello di Adrastos –, che all’uscita dall’<foreign>agela</foreign> subiscono un’iniziazione omoerotica per mezzo dell’ἁρπαγή da parte dei cittadini più onorevoli, presso i quali i ragazzi da loro scelti risiedono per due mesi (<ref type="lit" target="#Ephor149">Ephor. <title>FGrHist</title> 70 F 149</ref>, <ref type="lit" target="#Heraclid15">Heraclid.Lemb. 15</ref>; cf. <bibl><ref target="#b1936">Vattuone 1998</ref></bibl>, <bibl><ref target="#b729">Graf 1994</ref>, pp. 26-31</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#agela"><foreign>agela</foreign></ref>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b474">De Sanctis 1901</ref>, pp. 475-476, n. 2</bibl>; 
+                    <bibl><ref target="#b1096">Levi 1922</ref>, pp. 391-392 n. 35</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 23 20 <ptr type="phi" target="200058"/></bibl>; 
+                    <bibl><ref target="#b1490">Peek 1955</ref>, n. 1470</bibl>; 
+                    <bibl><ref target="#b719">Gondicas 1988</ref>, n. 45</bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 35</bibl>; 
+                    <bibl><ref target="#b620">Foderà 2009</ref></bibl>; 
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> 24</bibl>. 
+                    <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b2065">Xanthoudidis 1908</ref>, pp. 242-243, n. VI (ll. 1-4)</bibl>; 
+                    <bibl><ref target="#b1488">Peek 1933</ref>, p. 146, n. 4</bibl>; 
+                    <bibl><ref target="#b1229">Martínez Fernández 1992</ref></bibl>; 
+                    <bibl><ref target="#b503">Detorakis 1995</ref>, p. 229 (ll. 1-6)</bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

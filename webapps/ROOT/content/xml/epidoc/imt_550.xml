@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria del <foreign>koinon</foreign> cretese per un cittadino di Alexandreia Troas (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IMT SuedlTroas 550 VIII</idno>
+                        <idno type="projectNo">588</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#cambridge_museum">Museum of Classical Archaeology, Cambridge (?)</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#plaque">lastra</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#smintheion">Smintheion?</origPlace>
+                                    <origDate period="#hellenistic" when="-0165" precision="low">165 a.C. ca.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <div type="textpart" subtype="part">
+                        <ab>
+                          <lb n="1"/>ἀγαθῆι <w lemma="τύχη">τύχηι</w>· <persName type="honoured" key="Kassandros f. Menestheus" ref="#unknown"><name nymRef="Κάσσανδρος">Κάσσανδρον</name> <name nymRef="Μενεσθεύς" type="patronymic">Μενεσθέως</name></persName> <w lemma="τιμάω">ἐτίμησεν</w>·
+                          </ab>
+                    </div>
+                        <div type="textpart" subtype="part" n="VIII">
+                        <ab>
+                          <lb n="1"/>τὸ <rs type="institution" subtype="assembly" role="dedicant" key="koinon_ton_Kretaieon" ref="#koinon_kretaieon"><w lemma="κοινόν">κοινὸν</w> τῶν <placeName ref="#crete" type="ethnic">Κρηταιῶν</placeName></rs>
+                          <lb n="2"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#koinon_kretaieon"><w lemma="προξενία">προξενίαι</w></rs>.
+                          </ab>
+                    </div>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione conserva il ricordo di ventitré concessioni onorarie di cui ha beneficiato un individuo di nome Kassandros figlio di Menestheus di Alexandreia Troas, fra le quali figura un conferimento di prossenia da lui ottenuto dal <foreign>koinon</foreign> cretese (altri conferimenti di prossenia da parte del <foreign>koinon</foreign> sono documentati in <ref type="ins" target="#ic2_16_9"><title>IC</title> II 16 9</ref> e <ref type="ins" target="#id_1517"><title>ID</title> 1517</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref>, <ref type="inst" target="#proxenos"><foreign>proxenos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b434">Curtius 1855</ref>, pp. 33-40</bibl>; 
+                            <bibl><ref target="#b57">Babington 1855</ref>, pp. 99-105 n. 1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref> 1856, pp. 240-242</bibl>;
+                            <bibl><ref target="#bib231"><title>LBW</title></ref> 1730a</bibl>; 
+                            <bibl><ref target="#bib117"><title>Syll.</title><hi rend="superscript">1</hi></ref> 211</bibl>; 
+                            <bibl><ref target="#bib118"><title>Syll.</title><hi rend="superscript">2</hi></ref> 291</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib114">Michel, <title>Recueil</title></ref> 1312</bibl>; 
+                            <bibl><ref target="#b1402">Nikitsky 1901</ref>, pp. 163-170</bibl>; 
+                            <bibl><ref target="#b1562">Pomtow 1906</ref>, pp. 358-359</bibl>; 
+                            <bibl><ref target="#b932">Janell 1906</ref>, n. 33</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib38"><title>Syll.</title><hi rend="superscript">3</hi></ref> 653A</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib78"><title>IMT</title></ref> SuedlTroas 550 VIII <ptr type="phi" target="288030"/></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

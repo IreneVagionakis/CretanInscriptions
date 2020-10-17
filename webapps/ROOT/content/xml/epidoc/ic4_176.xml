@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Tentativo di mediazione di Magnesia fra Gortyna e Knossos</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC IV 176*</idno>
+                        <idno type="projectNo">313</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#magnesia_agora"><foreign>agora</foreign> di Magnesia</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#decree">decreto</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#magnesia">Magnesia, <foreign>agora</foreign></origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0184" notAfter="-0180">184-180 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>α<unclear>ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>ε</orig><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" quantity="1" unit="character"/><orig>ολ</orig><gap reason="lost" quantity="3" unit="character"/><unclear>ς</unclear> καὶ μετὰ α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/>χῆς <supplied reason="lost">κ</supplied>ατ<unclear>ὰ</unclear> <gap reason="illegible" quantity="1" unit="character"/> <supplied reason="lost">τ</supplied>ῆς κατοικο<gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">δια</supplied><lb 
+                        break="no" n="5"/>λύοντες <supplied reason="lost">αὐ</supplied>τοὺς διαφε<supplied reason="lost">ρ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>τὸ συμφέρον καθιστάν<supplied reason="lost">τες, καὶ πρὸς ἡμᾶς</supplied> <w lemma="ἀποστέλλω"><supplied reason="lost">ἀπο</supplied><lb 
+                        break="no" n="7"/>στείλαντες</w> ψάφισμα καὶ <supplied reason="lost">πρεσβευτὰς ἀξι</supplied><lb 
+                        break="no" n="8"/>οῦσιν διαλυσαμένους <supplied reason="lost">τὸν πόλεμον τὸν</supplied>
+                          <lb n="9"/>πρὸς <placeName ref="#knossos" type="ethnic">Κνωσίους</placeName> ἆραι ἀποκ<supplied reason="lost">ατασταθῆναί τε</supplied>
+                          <lb n="10"/>εἰς <w lemma="φιλία">φιλίαν</w> καὶ τοῖς ἀγαθο<supplied reason="lost">ῖς</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="11"/>καὶ <w lemma="φιλάνθρωπος">φι<corr>λ</corr>άνθρωπα</w> περὶ τῶν <supplied reason="lost">κοινᾶι συμφερόντων</supplied>
+                          <lb n="12"/>πᾶσιν <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηταιεῦσιν</placeName></rs> διελέγ<supplied reason="lost">ησαν ἐᾶν αὐτοὺς</supplied>
+                          <lb n="13"/>ἐλευθέρους ὄντας καὶ <supplied reason="lost">ἀζαμίους ἐν τᾶι</supplied> <rs type="institution" subtype="practice" role="government" key="damokratia" ref="#knossos"><w lemma="δαμοκρατία"><supplied reason="lost">δα</supplied><lb 
+                        break="no" n="14"/>μοκρατίαι</w></rs> <rs type="institution" subtype="social_status" role="regulation" key="polites" ref="#knossos"><w lemma="πολιτεύω">πολιτεύεσθαι</w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="15"/><w lemma="ἀποκρίνω">ἀποκρίνασθαι</w> αὐτοῖς ὅτ<supplied reason="lost">ι</supplied> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γ</supplied>ο<supplied reason="lost">ρ</supplied>τυνίω<supplied reason="lost">ν</supplied></placeName> <supplied reason="lost">ἁ</supplied> <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις"><supplied reason="lost">πό</supplied><lb 
+                        break="no" n="16"/>λις</w></rs> τὰμ μὲν <placeName ref="#magnesia" type="ethnic">Μαγνήτων</placeName> πό<supplied reason="lost">λι</supplied>ν <orig>υπαε<unclear>ι</unclear></orig><gap reason="illegible" quantity="1" unit="character"/><orig>σο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="17"/>ὅτι ποιεῖ ἃ δεῖ τοὺς <w lemma="φίλος">φίλου<supplied reason="lost">ς</supplied></w> <placeName ref="#crete" type="ethnic"><supplied reason="lost">Κρη</supplied>σὶν</placeName> καὶ <w lemma="οἰκεῖος"><supplied reason="lost">ο</supplied><unclear>ἰ</unclear><supplied reason="lost">κεί</supplied><lb 
+                        break="no" n="18"/>ους</w> καὶ τοὺς παραγενομέ<supplied reason="lost">νο</supplied>υς πρε<supplied reason="lost">σβευ</supplied><lb 
+                        break="no" n="19"/>τὰς <w lemma="ἐπαινέω">ἐπαινοῦμεν</w> <gap reason="illegible" quantity="7" unit="character"/><supplied reason="lost">ον Μικίωνος, Χαρί</supplied><lb 
+                        break="no" n="20"/>σιον Νικομάχ<corr>ω</corr> τῶ Νικα<gap reason="illegible" quantity="2" unit="character"/><orig>σα<unclear>λ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/><orig>κα<unclear>τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>Μ <unclear>ὅτ</unclear><supplied reason="lost">ι εὖ</supplied>
+                          <lb n="21"/>διελέγησαν περί τε τῶν ἐξ <w lemma="ἀρχά"><supplied reason="lost">ἀρχ</supplied>ᾶς</w> ὑπ<supplied reason="lost">αρχ</supplied>όντων
+                          <lb n="22"/><placeName ref="#gortyn" type="ethnic">Γορτυνίοις</placeName> καὶ <placeName ref="#magnesia" type="ethnic">Μάγν<supplied reason="lost">ησ</supplied>ι</placeName> <w lemma="φιλάνθρωπος"><supplied reason="lost">φιλαν</supplied>θρώπων</w> καὶ ὅσα
+                          <lb n="23"/>ἐνδέχετο <w lemma="πράσσω">ἔπρασσον</w> ὑπὲ<supplied reason="lost">ρ τᾶς</supplied> ἰ<supplied reason="lost">ρήνα</supplied>ς, καὶ οὐ<lb 
+                        break="no" n="24"/><supplied reason="lost">θ</supplied>ὲν ὑπέλειπον τᾶς <w lemma="φιλοτιμία"><supplied reason="lost">φι</supplied>λοτιμ<supplied reason="lost">ία</supplied>ς</w> οὔθ’ ὁδὸν οὔτε
+                          <lb n="25"/>κακοπαθίαν ἔργοντες, ὅσα συ<supplied reason="lost">μφ</supplied>έροντα καὶ
+                          <lb n="26"/>τᾶι <placeName ref="#crete">Κρήτ<supplied reason="lost">α</supplied>ι</placeName> καὶ <placeName ref="#magnesia">Μαγνησία<supplied reason="lost">ι</supplied></placeName> <supplied reason="lost">ἔσονται. π</supplied>ερὶ ὧν δὲ
+                          <lb n="27"/><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName> καὶ <placeName ref="#knossos" type="ethnic">Κνώσιοι</placeName> διαφέ<supplied reason="lost">ρονται,</supplied> <persName type="ruler" key="Ptolemaios V" ref="#egypt"><w lemma="βασιλεύς"><supplied reason="lost">βασιλ</supplied>εῖ</w> <name nymRef="Πτολεμαῖος">Πτο<lb 
+                        break="no" n="28"/>λεμαίωι</name></persName> κριτᾶι ἐπιτραπόμ<supplied reason="lost">εθα, ὅπως ἁμῖν</supplied> περὶ
+                          <lb n="29"/>τούτων διαλάβηι. διαλεχθέ<supplied reason="lost">ντων δὲ τῶν πρεσ</supplied><lb 
+                        break="no" n="30"/>βευτῶν καὶ περὶ τῶν <rs type="institution" subtype="social_group" role="belonging" key="Kretaieis" ref="#koinon_kretaieon"><placeName ref="#crete" type="ethnic">Κρηται<supplied reason="lost">έων</supplied></placeName></rs> <supplied reason="lost">τῶν εἰς <placeName ref="#miletus">Μίλητον</placeName></supplied>
+                          <lb n="31"/><w lemma="ἀποικίζω">ἀποικιζομένων</w>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#gortyn"><w lemma="δοκέω">ἔδοξεν</w></rs> <supplied reason="lost"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> τοῖς</supplied> <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#gortyn"><w lemma="κόρμος"><supplied reason="lost">κόρ</supplied><lb 
+                        break="no" n="32"/>μοις</w></rs> καὶ τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#gortyn"><w lemma="πόλις"><supplied reason="lost">πό</supplied>λει</w></rs>· ὅσοι ἐμ <placeName ref="#miletus">Μι<supplied reason="lost">λήτωι</supplied></placeName> <placeName ref="#gortyn" type="ethnic"><supplied reason="lost">Γορτύνιοι</supplied></placeName>
+                          <lb n="33"/>ὄντες <w lemma="μετοικέω">με<unclear>τώ</unclear>ι<supplied reason="lost">κη</supplied>σαν</w> εἰς <placeName ref="#miletus">Μίλ<supplied reason="lost">ητον</supplied></placeName> <supplied reason="lost">ἢ</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="34"/>αν ἢ ἄλλω<supplied reason="lost">ς, εἶμ</supplied>εν <placeName ref="#gortyn" type="ethnic">Γορτυνίο<supplied reason="lost">υς</supplied></placeName><supplied reason="lost">, ὅσοι δὲ πολι</supplied><lb 
+                        break="no" n="35"/>τεύουσιν ἐμ <placeName ref="#miletus">Μιλήτωι</placeName>, μὴ εἶμεν <supplied reason="lost">ἐπάνοδον εἰς</supplied>
+                          <lb n="36"/>τὰν ἰδίαν, ἀλλὰ τὰ ὑπάρχον<supplied reason="lost">τα αὐτοῖς εἶμεν</supplied> <w lemma="δαμόσιος"><supplied reason="lost">δα</supplied><lb 
+                        break="no" n="37"/>μόσια</w> καὶ εἶμεν αὐτοῖς τὰ <w lemma="ἐπιτίμια">ἐπ<supplied reason="lost">ιτίμια</supplied></w> <supplied reason="lost">ἅπερ τοῖς ἐπὶ</supplied>
+                          <lb n="38"/>τὰν ἰδίαν <w lemma="στρατεύω">στρατευσαμένοις</w> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">πε</supplied><lb 
+                        break="no" n="39"/>δὰ <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> <rs type="institution" subtype="assembly" role="unknown" key="ekklesia" ref="#gortyn"><w lemma="ἐκκλησία"><supplied reason="lost">ἐκκ</supplied><unclear>λ</unclear>ησίαν</w></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#gortyn"><w lemma="δοκέω">δ<supplied reason="lost">εδόχθαι</supplied></w></rs> <supplied reason="lost">τὰ</supplied> <rs type="institution" subtype="object" role="decreeing" key="psephisma" ref="#gortyn"><w lemma="ψάφισμα"><supplied reason="lost">ψαφίσ</supplied><lb 
+                        break="no" n="40"/>ματα</w></rs> <w lemma="ἀποστέλλω">ἀποστεῖλαι</w> πρός τε <placeName ref="#miletus" type="ethnic">Μιλ<supplied reason="lost">ησίους</supplied></placeName> <supplied reason="lost">καὶ πρὸς</supplied>
+                          <lb n="41"/><supplied reason="lost">το</supplied><unclear>ὺ</unclear>ς μετελθόντας εἰς <placeName ref="#miletus">Μίλητ<supplied reason="lost">ον</supplied></placeName> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="41a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il decreto di Gortyna documenta un tentativo di intervento di Magnesia in una contesa intercorrente fra Gortyna e Knossos, nota anche da un’iscrizione di quest’ultima (<ref type="ins" target="#ic1_8_9"><title>IC</title> I 8 9</ref>). La proposta di mediazione viene rifiutata da entrambe le città cretesi, che preferiscono ricorrere ad altri mediatori (Tolemeo V stando al documento di Gortyna, i rispettivi alleati – ovvero i sistemi di alleanze di Knossos e Gortyna – stando invece al decreto di Knossos; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78-79</bibl>).</p>
+                    <p>Le motivazioni del documento, esposte alle linee 1-14, informano dell’invio da parte di Magnesia di un decreto e di ambasciatori al fine di promuovere la pace fra Gortyna e Knossos e nell’interesse di tutti i Cretesi membri del <foreign>koinon</foreign> (l. 12, πᾶσιν Κρηταιεῦσιν; cf. <bibl><ref target="#b348">Chaniotis 2015</ref></bibl>) con la richiesta che gli abitanti di Knossos possano vivere come cittadini liberi in un regime democratico (ll. 13-14; il termine δαμοκρατία a Creta è attestato solamente qui, in <ref type="ins" target="#ic1_8_9"><title>IC</title> I 8 9</ref> e in <ref type="ins" target="#ic3_3_3ab"><title>IC</title> III 3 3</ref> A).</p>
+                    <p>L’oggetto del decreto, che doveva essere verosimilmente preceduto da una formula di sanzione o mozione alla linea 14, informa della decisione della <foreign>polis</foreign> di Gortyna di lodare Magnesia per la sua buona disposizione nei confronti dei Cretesi (l. 17, [Κρη]σίν) e i suoi ambasciatori per il proprio operato (ll. 15-26). La <foreign>polis</foreign>, inoltre, informa Magnesia di essersi già rivolta al re Tolemeo V poiché emettesse un giudizio riguardo alla disputa intercorrente con Knossos, rifiutando quindi di fatto la proposta di intervento avanzata dai suoi ambasciatori (ll. 26-29).</p>
+                    <p>Alle linee 29-41, inoltre, il decreto si occupa della questione sollevata dagli ambasciatori di Magnesia relativa ai Cretesi membri del <foreign>koinon</foreign> (l. 30, Κρηται[έων]) stanziatisi nella sua avversaria Mileto. A tale proposito i cosmi e la <foreign>polis</foreign> di Gortyna (cf. la formula di sanzione in <ref type="ins" target="#ig_xii_6_1_144"><title>IG</title> XII, 6 1 144</ref>; la deliberazione dipende invece dalla sola <foreign>polis</foreign> in <ref type="ins" target="#ic4_165"><title>IC</title> IV 165</ref>, <ref type="ins" target="#ic4_231">231</ref>, <ref type="ins" target="#ic4_378">378</ref> e forse <ref type="ins" target="#ic4_162">162</ref> e <ref type="ins" target="#ic4_195">195</ref>) decretano di concedere il mantenimento della cittadinanza gortynia a quanti fra i cittadini di Gortyna residenti a Mileto sono solamente residenti. Quanto a coloro che hanno ottenuto la cittadinanza milesia, invece, i cosmi e la <foreign>polis</foreign> di Gortyna vietano loro il rientro in patria e stabiliscono l’espropriazione dei loro beni e l’imposizione su di loro delle multe proprie dei traditori della patria; l’<foreign>ekklesia</foreign>, a Gortyna attestata solamente in questa iscrizione e in <ref type="ins" target="#ic4_168"><title>IC</title> IV 168</ref>, risulta in qualche modo connessa a tali decisioni, sebbene non sia chiaro quale possa essere il suo ruolo a tale riguardo.</p>
+                    <p>Le ultime linee del documento, infine, stabiliscono mediante una formula di mozione priva del ricordo delle figure istituzionali deliberanti l’invio dei decreti (<foreign>i.e.</foreign> di più copie del presente decreto, apparentemente) ai Milesii e ai Gortynii residenti a Mileto (ll. 39-41).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#damokratia"><foreign>damokratia</foreign></ref>, <ref type="inst" target="#dokeo"><foreign>dokeo</foreign></ref>, <ref type="inst" target="#ekklesia"><foreign>ekklesia</foreign></ref>, <ref type="inst" target="#koinon"><foreign>koinon</foreign> cretese</ref> (?), <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>, <ref type="inst" target="#polites"><foreign>polites</foreign></ref> (<foreign>politeuo</foreign>), <ref type="inst" target="#psephisma"><foreign>psaphisma</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#bib109"><title>I.Magnesia</title></ref> 65a e 75</bibl>; 
+                            <bibl><ref target="#b489">Deiters 1904a</ref></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> 5153</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib4"><title>IC</title> IV</ref> 176* <ptr type="phi" target="200615"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib56"><title>Magnesia</title></ref> 29</bibl>; 
+                            <bibl><ref target="#b4">Ager 1996</ref>, n. 127</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib119">Magnetto, <title>Arbitrati</title></ref> 43.1</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 40c</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b289">Chaniotis 1988</ref>, D28</bibl>; 
+                            <bibl><ref target="#b1466">Papadakis 2000</ref></bibl>; 
+                            <bibl><ref target="#b327">Chaniotis 2005</ref>, pp. 185-186</bibl>; 
+                            <bibl><ref target="#b333">Chaniotis 2006a</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

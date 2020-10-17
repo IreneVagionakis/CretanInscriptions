@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trattato di alleanza fra Polyrrhenia e Phalasarna</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">SEG 50.936</idno>
+                        <idno type="projectNo">072</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#kissamos_museum">Museo archeologico di Kissamos</repository>
+                        <idno type="invNo">E 191</idno>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> con un frontone raffigurante 
+                                    iconografie marine (un tridente, due delfini, un polipo e un pesce) <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#tylifos">Santuario di Tylifos</origPlace>
+                            <origDate period="#hellenistic" notBefore="-0300" notAfter="-0272">300-272 a.C.</origDate>
+                        </origin>
+                        <provenance type="observed" resp="#iv"/>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="1"/><w lemma="θεός">θεοί</w>·
+                        <lb n="2"/>τάδε <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#polyrrhenia"><placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#phalasarna"><placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName></rs> ἐναντίον Κλεωνύμου καὶ τῶ<supplied reason="lost">ν</supplied>
+                        <lb n="3"/>ἄλλων <placeName ref="#sparta" type="ethnic">Λακεδαιμονίων</placeName> οὓς ἀπέστειλε ἁ πόλις, Ἰσοδάμου, Κερβίδα, Ἀναδέος· <w lemma="φίλος">φί<lb 
+                        break="no" n="4"/>λον</w> καὶ ἐχθρὸν τὸν αὐτὸν ἦμεν ἀπὸ τᾶς πρώτας ἁμέρας νῦν τε καὶ εἰς τὸν ἀεὶ χρόνον
+                        <lb n="5"/>τὰ κατὰ <placeName ref="#crete">Κρήταν</placeName>, <rs type="institution" subtype="public_space" role="possession" key="polis" ref="#polyrrhenia"><rs type="institution" subtype="public_space" role="possession" key="polis" ref="#phalasarna"><w lemma="πόλις">πόλιν</w></rs></rs> καὶ γᾶν ἔχοντας αὐτοὺς τὰν αὐτῶν ἑκατέρους κατὰ τὰ <w lemma="ἀρχαῖος">ἀρχαῖα</w>,
+                        <lb n="6"/><rs type="institution" subtype="object" role="law" key="nomos" ref="#phalasarna"><rs type="institution" subtype="object" role="law" key="nomos" ref="#polyrrhenia"><w lemma="νόμος">νόμοις</w></rs></rs> χρωμένους τοῖς αὐτῶν ἑκατέρους· ὅ<unclear>φφ</unclear>α ἂν ἐκ τῶν πολεμίων λανβάνωμεν
+                        <lb n="7"/><w lemma="καλέω"><supplied reason="lost">κ</supplied>αλούν<unclear>τ</unclear>ων</w> τῶν <placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίων</placeName> ἂν παραγένωνται μέστε εἴκοσι <w lemma="ἀνήρ">ἄνδρες</w> λανχανόν<lb 
+                        break="no" n="8"/>των τὸ τέταρτον μέρος οἱ <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName> τῶν <w lemma="λάφυρον">λαφύρων</w> καὶ τῶν <w lemma="χρήματα">χρημάτων</w>. ἐξελέσθω<corr>ν</corr> δὲ
+                        <lb n="9"/>τῶι <w lemma="θεός">θεῶι</w> τὰ νομιζόμενα οἱ <placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName>· ἂν δὲ οἱ <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName> τοὺς <placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίους</placeName> <w lemma="παρακαλέω">πα<lb 
+                        break="no" n="10"/>ρακαλῶσι</w> καὶ παραγένωνται μέστε εἰς τεσσαράκοντα <w lemma="ἀνήρ">ἄνδρες</w> λανχανόντων
+                        <lb n="11"/>τὸ τέταρτον μέρος τῶν <w lemma="λάφυρον">λαφύρων</w> καὶ τῶν <w lemma="χρήματα">χρημάτων</w> οἱ <placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName>· ἐξελέ<lb 
+                        break="no" n="12"/>σθων δὲ τῶι <w lemma="θεός">θεῶι</w> τὰ νομιζόμενα οἱ <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName>· οἱ δὲ <placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName> τοῖς <placeName ref="#phalasarna" type="ethnic">Φαλα<lb 
+                        break="no" n="13"/>σαρνίοις</placeName> παρεχόντων τὰ ἐπιτάδεια ἐν τᾶι <placeName ref="#polyrrhenia">Πολυρηνίαι</placeName> καὶ οἱ <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName> τοῖς
+                        <lb n="14"/><placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίοις</placeName> ἐν τᾶι <placeName ref="#phalasarna">Φαλασαρνίαι</placeName>· ἂν δὲ εἰς τὰν ἀλλοτρίαν <w lemma="στρατεύω">στρατεύωνται</w>
+                        <lb n="15"/><unclear>π</unclear>αρεχέσθων τὰ ἐπιτάδεια αὐτοὶ αὐτοῖς ἑκάτεροι· ἀγείσθων δὲ τῶν κατὰ γᾶν
+                        <lb n="16"/>οἱ <placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName> τῶν δὲ κατὰ θάλασσαν οἱ <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName>· ἂν δέ τις ἄρχηι τοὺς      
+                        <lb n="17"/><placeName ref="#phalasarna" type="ethnic">Φαλασαρνίους</placeName> πολέμου <w lemma="βοαθέω">βοαθοε͂ν</w> τοὺς <placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίους</placeName> παντὶ σθένει εἰς τὸ δυν<supplied reason="lost">α</supplied><lb 
+                        break="no" n="18"/>τὸν καὶ τοὺς <placeName ref="#phalasarna" type="ethnic">Φαλασαρνίους</placeName> τοῖς <placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίοις</placeName> κατὰ ταὐτά· μηδὲ <w lemma="πρεσβεύω">πρεσβευόντων</w> οἱ
+                        <lb n="19"/><placeName ref="#phalasarna" type="ethnic">Φαλασάρνιοι</placeName> ἄνευ τῶν <placeName ref="#polyrrhenia" type="ethnic">Πολυρηνίων</placeName> μηδὲ οἱ <placeName ref="#polyrrhenia" type="ethnic">Πολυρήνιοι</placeName> ἄνευ τῶν <placeName ref="#phalasarna" type="ethnic">Φαλασαρνί<lb 
+                        break="no" n="20"/>ων</placeName> τὰ κατὰ <placeName ref="#crete">Κρήταν</placeName> περὶ πολέμου καὶ ἱράνας· ἁ δὲ γᾶ ἁ <placeName ref="#polyrrhenia">Πολυρηνία</placeName> εἰς <placeName ref="#polyrrhenia">Πολυ<unclear>ρ</unclear>ήν<supplied reason="lost">α</supplied></placeName>
+                        <lb n="21"/><w lemma="τελέω"><supplied reason="lost">τ</supplied>ε<unclear>λ</unclear>είτ<unclear>ω</unclear></w>, ἁ δὲ <placeName ref="#phalasarna">Φαλασαρνία</placeName> εἰς <placeName ref="#phalasarna" type="ethnic">Φαλάσαρναν</placeName>· <w lemma="ἐνωνά">ἐνωνὰ</w> δὲ γᾶς ἔστω τῶι <placeName ref="#phalasarna" type="ethnic">Φαλασαρν<supplied reason="lost">ί</supplied><lb 
+                        break="no" n="22"/><supplied reason="lost">ω</supplied>ι</placeName> ἐν τᾶι <placeName ref="#polyrrhenia">Πολυρηνίαι</placeName>· τὰν δὲ <placeName ref="#polyrrhenia">Πολυρηνίαν</placeName> <w lemma="ἐργάζομαι">ἐργαζέσθω</w> ὁ βουλόμενος καὶ <w lemma="τελέω">τελείτω</w>
+                        <lb n="23"/><supplied reason="lost">εἰς</supplied> <placeName ref="#polyrrhenia">Πολυρήνα</placeName>· τὸν δὲ <orig>α<unclear>ι</unclear>ακον</orig> <w lemma="μέγαρον"><unclear>μεγ</unclear>άρου</w> <gap reason="lost" extent="unknown" unit="character"/> <orig>αδελ<unclear>φυ</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/>νομᾶι καὶ θήραι χρήσθω 
+                        <lb n="24"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#polyrrhenia"><supplied reason="lost">Πο</supplied><unclear>λ</unclear>υρ<unclear>η</unclear><supplied reason="lost">ν</supplied>ίαν</placeName> <gap reason="lost" quantity="2" unit="character"/><orig><unclear>ι</unclear></orig> <placeName ref="#phalasarna">Φα<unclear>λα</unclear><supplied reason="lost">σαρνι</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>μ</unclear>ο<unclear>χ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λασ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig>ω</orig><gap reason="lost" extent="unknown" unit="character"/>.
+                </ab>
+            </div>            
+            <div type="apparatus">
+                <p>
+                    <app loc="21"><note><supplied reason="lost">τ</supplied>ε<unclear>λ</unclear>είτ<unclear>ω</unclear> <bibl><ref target="#bib40"><title>I.Polyr.</title></ref></bibl>; <gap reason="lost" quantity="1" unit="character"/>εν <orig><unclear>ϝ</unclear>ισιο</orig><gap reason="lost" quantity="1" unit="character"/> <bibl><ref target="#b1217">Markoulaki</ref></bibl>; 
+                        ἐνσίτιος Chaniotis in <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> 50.936.</note></app>
+                    <app loc="23"><note><orig>α<unclear>ι</unclear>ακον</orig> <unclear>μεγ</unclear>άρου <gap reason="lost" extent="unknown" unit="character"/> <orig>αδελ<unclear>φυ</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/>νομᾶι καὶ θήραι χρήσθω <bibl><ref target="#b1217">Markoulaki</ref></bibl>; Αἰακὸν <unclear>ἐπ</unclear>αρό<unclear>μ</unclear><supplied reason="lost">ενοι</supplied><gap reason="lost" 
+                        extent="unknown" unit="character"/><unclear>ς</unclear> ἀδελφ<supplied reason="lost">ὸν νο</supplied>μᾶι καὶ θήραι χρήσθω<corr>ν</corr> <bibl><ref target="#bib40"><title>I.Polyr.</title></ref></bibl></note></app>
+                     <app loc="24"><note><gap reason="lost" extent="unknown" unit="character"/><unclear>λ</unclear>υρ<unclear>η</unclear><supplied reason="lost">ν</supplied>ία. ν<gap reason="lost" quantity="2" 
+                         unit="character"/><unclear>ι</unclear> Φα<unclear>λα</unclear><gap reason="lost" extent="unknown" unit="character"/> <bibl><ref target="#b1217">Markoulaki</ref></bibl>; 
+                         <supplied reason="lost">Πο</supplied><unclear>λ</unclear>υρη<supplied reason="lost">ν</supplied>ίαν <supplied reason="lost">τὸ</supplied><unclear>ν</unclear> 
+                         Φα<unclear>λα</unclear><supplied reason="lost" cert="low">σάρνιον</supplied> <gap reason="lost" extent="unknown" unit="character"/> Chaniotis in <bibl><ref target="#bib5"><title>SEG</title></ref></bibl> 50.936; 
+                         <supplied reason="lost">ἐν τᾶι Πο</supplied>λυ<unclear>ρη</unclear><supplied reason="lost">ν</supplied>ί<unclear>αι</unclear> <supplied reason="lost">ο</supplied><unclear>ἱ</unclear> <unclear>Φαλα</unclear><supplied 
+                                     reason="lost">σάρνιοι</supplied> <gap reason="lost" extent="unknown" unit="character"/><orig><unclear>λασ</unclear></orig><gap reason="lost" extent="unknown" 
+                                         unit="character"/> <bibl><ref target="#bib40"><title>I.Polyr.</title></ref></bibl></note></app>
+            </p>
+            </div>
+            <div type="commentary">
+                <p>La stele, mutila inferiormente, costituisce la copia di Phalasarna del trattato, precedentemente noto dalla stele <ref type="ins" target="#ic2_11_1"><title>IC</title> II 11 1</ref> esposta nel <foreign>Diktynnaion</foreign>: sebbene il luogo di rinvenimento del documento si trovi sul confine fra Polyrrhenia e Phalasarna, la sua attribuzione alla seconda città è fortemente suggerita dalle iconografie marine scolpite sul frontone, alcune delle quali ricorrono insistentemente nella coeva monetazione di Phalasarna (il delfino ed il tridente: cf. <bibl><ref target="#b1793">Svoronos 1890</ref>, tav. XXV nn. 4-19</bibl>).</p>
+                    <p>La presenza alla conclusione del trattato di una delegazione spartana composta da quattro uomini, fra cui il figlio del re spartano Cleomene II Cleonimo, induce a pensare che la città lacedemone sia stata coinvolta come arbitro dalle due parti in causa, forse per risolvere dispute di natura economica riguardanti i confini fra le due <foreign>poleis</foreign>. L’ufficialità dell’ambasceria spinge a datare il trattato prima del tentato colpo di stato a Sparta di Cleonimo assieme a Pirro del 272 a.C., quando il giovane della casata agiade agisce ancora dalla parte della patria.</p>
+                    <p>I due contraenti dell’alleanza, Polyrrhenia e Phalasarna, non sono mai designati con il termine <foreign>polis</foreign> – che è usato invece in senso territoriale alla linea 5 – bensì con gli etnici collettivi Πολυρήνιοι e Φαλασάρνιοι. Occorre notare che oltre a tali etnici, impiegati abitualmente nel mondo greco per indicare la relativa <foreign>polis</foreign>, nel trattato compaiono più volte anche gli aggettivi sostantivati Πολυρηνία e Φαλασαρνία (<foreign>scil</foreign>. χώρα) indicanti i territori delle due città e persino i loro toponimi nelle espressioni εἰς Πολυρήν[α] ed εἰς Φαλάσαρναν alle linee 20-21. La scelta di utilizzare queste ultime locuzioni, nello specifico, risulta piuttosto inusuale dal momento che sono impiegate per indicare i destinatari dei proventi della terra messa a coltura, beneficiari che evidentemente sono da identificarsi negli abitanti in persona delle due città.</p>
+                    <p>Fra le varie clausole della <foreign>symmachia</foreign>, che prevede <foreign>in primis</foreign> il reciproco soccorso in guerra (ll. 16-18) e l’adozione di una stessa politica estera all’interno di Creta (ll. 3-5, 18-20), vengono previsti il mantenimento dei confini, delle leggi, delle usanze e dell’indipendenza delle due città (ll. 5-6) e la separazione dei proventi dei rispettivi territori (ll. 20-21).</p>
+                    <p>Successivamente all’ampia sezione dedicata alle norme riguardanti la spartizione del bottino (ll. 6-12), di cui una parte è da destinarsi alla divinità venerata nel santuario di Tylifos, il trattato sancisce che ciascuna città fornisca «il necessario» agli alleati all’interno del proprio territorio (ll. 12-14). Tale clausola, a meno che non sia da intendersi semplicemente come promessa di ospitalità reciproca nei rispettivi territori, potrebbe forse riferirsi alla fornitura dei pasti da parte di ciascuna <foreign>polis</foreign> agli immigrati così come ai propri cittadini all’interno del sistema del sissizio (cf. <ref type="lit" target="#AristPol">Arist. <title>Pol.</title> II 1272a</ref>, <ref type="lit" target="#Dosiad">Dosiad. <title>FGrHist.</title> 458 F 1</ref>; cf. <bibl><ref target="#b1797">Talamo 1987</ref></bibl>, <bibl><ref target="#b807">Guizzi 1997</ref></bibl>).</p>
+                    <p>Le clausole economiche alle linee 21-24 comportano inoltre concessioni non reciproche tra le due città, dovute all’evidente necessità di terra coltivabile da parte della sola Phalasarna, stretta tra le montagne e il mare (secondo Angelos Chaniotis causata da una crisi economica; cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, pp. 104, 109-113</bibl>): ai cittadini di Phalasarna viene garantita la possibilità di comprare o lavorare dietro tassa o affitto la terra sul territorio di Polyrrhenia, mentre non è previsto che i cittadini di Polyrrhenia possano farlo nell’area di Phalasarna. Alle linee 23-24, in parte perdute, sembra di intravedere ulteriori concessioni unilaterali da parte di Polyrrhenia verso Phalasarna, forse concernenti il diritto di pascolo e di caccia nel proprio territorio; il termine μέγαρον, che in quanto singolare sembra indicare un santuario più che un’abitazione o una stanza, potrebbe essere connesso alla concessione di usufrutto di terreni ‒ boschi forse ‒ appartenenti ad un’area sacra pertinente alla prima <foreign>polis</foreign>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#nomos"><foreign>nomos</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl><ref target="#b1217">Markoulaki 2000</ref>, pp. 239-258</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 50.936 <ptr type="seg" target="a50_936" /></bibl>);
+                    <bibl type="indexed_edition"><ref target="#bib40"><title>I.Polyr.</title></ref> pp. 46-48 n. 2.2, p. 208</bibl>. 
+                    <foreign>Ect</foreign>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1216">Markoulaki 1994-1996</ref>, pp. 216-217</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 45.1335</bibl>).</p>
+            </div>
+        </body>
+    </text>
+</TEI>

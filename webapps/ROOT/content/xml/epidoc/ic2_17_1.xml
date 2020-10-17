@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Trattato di alleanza fra gli <foreign>Oreioi</foreign> e re Maga di Cirene</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <idno type="filename">IC II 17 1</idno>
+                        <idno type="projectNo">076</idno>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository ref="#probably_lost">iscrizione probabilmente perduta, prima nel Museo archeologico di Chania</repository>
+                        <idno type="invNo"/>
+                    </msIdentifier>
+                    <msContents> <summary corresp="#treaty">trattato</summary></msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support><objectType ref="#stele">stele</objectType> <dimensions/><width/><depth/><height/></support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout></layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote><height/></handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace ref="#lissos">Lissos, <foreign>Diktynnaion</foreign></origPlace>
+                            <origDate period="#hellenistic" notBefore="-0278" notAfter="-0270">278-270 a.C.</origDate>
+                        </origin>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <revisionDesc>
+            <change when="2017-10-07" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" xml:lang="grc" xml:space="preserve">
+                <ab>
+                        <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                        <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>εε</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ο</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig><gap reason="lost" extent="unknown" unit="character"/>
+                        <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>μ<unclear>α</unclear> ἐφ’ οἷς <persName type="ruler" key="Magas" ref="#cyrene"><w lemma="βασιλεύς">βασιλεῖ</w> <name nymRef="Μάγας">Μ<supplied reason="lost">ά</supplied><lb 
+                        break="no" n="3"/><unclear>γαι</unclear></name></persName> καθάπ<unclear>ερ</unclear> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτύνιοι</placeName></rs> <w lemma="συμμαχία">σ<supplied reason="lost">υμ</supplied><lb 
+                        break="no" n="4"/><supplied reason="lost">μαχ</supplied>ίαν</w> ποιήσασθαι <rs type="institution" subtype="social_group" role="onlooker" key="symmachoi" ref="#gortyn_symmachia">παρόν<supplied reason="lost">τω</supplied><lb 
+                        break="no" n="5"/><supplied reason="lost">ν</supplied> <placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName> καὶ τῶν <w lemma="σύμμαχος">συμμ<unclear>ά</unclear><lb 
+                        break="no" n="6"/>χων</w></rs>, καὶ <w lemma="στάλα">στ<unclear>άλ</unclear>αν</w> <w lemma="γράφω">γράψαντ<supplied reason="lost">ας</supplied></w>
+                        <lb n="7"/><w lemma="ἀνατίθημι">ἀναθέμεν</w> ἐς τὸ <rs type="institution" subtype="public_space" role="inscription_setup" key="hieron" ref="#oreioi"><persName type="divine" key="Diktynna"><w lemma="Δικτυνναῖον">Δικτυννα<supplied reason="lost">ῖο</supplied><lb 
+                        break="no" n="8"/>ν</w></persName></rs> ἐλ <placeName ref="#lissos">Λισῶι</placeName>, <unclear>τὸ</unclear>ν αὐτὸν <w lemma="φίλος">φίλο<unclear>ν</unclear></w>
+                        <lb n="9"/>κἠχθρὸν ἑξε͂ν, καὶ εἴ τίς κα ἐ<supplied reason="lost">πὶ</supplied>
+                        <lb n="10"/><placeName ref="#cyrene">τὰν <persName type="ruler" key="Magas" ref="#cyrene"><name nymRef="Μάγας">Μάγα</name></persName> <w lemma="ἐπαρχεία"><unclear>ἐπ</unclear>αρχείαν</w></placeName> <w lemma="επιστρατεύω">ἐπιστρ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="11"/>τεύει</w> <w lemma="βοαθέω">βοαθησε͂ν</w> τὸς <rs type="institution" subtype="assembly" role="treaty-making" key="koinonE" ref="#oreioi"><placeName ref="#oreioi" type="ethnic">Ὀρείος</placeName></rs>, κ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="12"/>τὰ τὰ αὐτὰ δὲ καὶ εἴ τίς κα ἐπὶ τ<supplied reason="lost">ὰ</supplied><lb 
+                        break="no" n="13"/>ν <placeName ref="#oreioi">Ὀρείαν</placeName> <w lemma="επιστρατεύω">ἐπιστρατεύει</w> <w lemma="βοαθέω">βοαθ<supplied reason="lost">η</supplied><lb 
+                        break="no" n="14"/>σε͂μ</w> <persName type="ruler" key="Magas" ref="#cyrene"><name nymRef="Μάγας">Μάγαν</name></persName>. <w lemma="ὅρκος">ὅρκος</w>· <space quantity="1" unit="line"/>
+                        <lb n="15"/><w lemma="ὀμνύω">ὀμνύω</w> τὰν <persName type="divine" key="Diktynna">Δίκτυνναν</persName> καὶ τὸ<supplied reason="lost">ς</supplied>
+                        <lb n="16"/>ὁμοτεμένεας τᾶς <persName type="divine" key="Diktynna">Δικτύννα<supplied reason="lost">ς</supplied></persName>
+                        <lb n="17"/>καὶ τὸς ἐμ <placeName ref="#poikilasion">Ποικιλασίωι</placeName> <w lemma="θεός">θεὸς</w> <unclear>κα</unclear><supplied reason="lost">ὶ</supplied>
+                        <lb n="18"/>τὸν <persName type="divine" key="Zeus Kretagenes">Δία τὸν Κρηταγενῆ</persName> καὶ <w lemma="θεός"><unclear>θε</unclear><supplied reason="lost">ὸ</supplied><lb 
+                        break="no" n="19"/><unclear>ς</unclear></w> πάντας καὶ πάσας <w lemma="εὐνοέω">εὐνοησε͂<unclear>ν</unclear> </w>
+                        <lb n="20"/><persName type="ruler" key="Magas" ref="#cyrene"><w lemma="βασιλεύς">βασιλεῖ</w> <name nymRef="Μάγας">Μάγαι</name></persName>· <w lemma="εὐορκέω">εὐορκῶσι</w> μὲν <supplied reason="lost">πο</supplied><lb 
+                        break="no" n="21"/>λλὰ κἀγαθ’ ἦμεν, <w lemma="ἐφιορκέω">ἐφιορκῶσι</w> δὲ
+                        <lb n="22"/>τἀναντία. <space quantity="1" unit="line"/>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <p>
+                    <app loc="1"><note><gap reason="lost" extent="unknown" unit="character"/><orig>εε</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ο</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ε</orig> <bibl><ref target="#bib2"><title>IC</title></ref></bibl>, <bibl><ref target="#bib321"><title>Staatsverträge</title></ref></bibl>; <orig>λ</orig><gap reason="illegible" quantity="2" unit="character"/><orig>εεδοξε</orig> <bibl><ref target="#b848">Halbherr</ref></bibl>.</note></app>
+                    <app loc="3-4"><note>Γορτύνιοι (?) σ<supplied reason="lost">υμμαχ</supplied>ίαν <bibl><ref target="#bib321"><title>Staatsverträge</title></ref></bibl>, <bibl><ref target="#bib15">Chaniotis</ref></bibl>; Γορτυνίοις <supplied reason="lost">συμμαχ</supplied>ίαν <bibl><ref target="#bib2"><title>IC</title></ref></bibl>.</note></app>
+                </p>
+            </div>
+            <div type="commentary">
+                <p>Il trattato costituisce un documento di straordinaria importanza per la conoscenza del <foreign>koinon</foreign> degli <foreign>Oreioi</foreign> e testimonia il riconoscimento politico della confederazione anche al di fuori dell’isola. L’alleanza, che pare dovuta all’iniziativa del re di Cirene Maga, è molto probabilmente da datare ai primi anni di regno del sovrano, periodo in cui costui avrebbe potuto avere bisogno di supporto in occasione dell’instaurazione e del consolidamento del proprio dominio sulla Cirenaica (275 a.C. ca.) o dei successivi scontri con Tolemeo II, avvenuti tra il 274 e il 272 a.C. (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, p. 34</bibl>; cf. inoltre <bibl><ref target="#b281">Chamoux 1956</ref></bibl>, <bibl><ref target="#b63">Bagnall 1976</ref>, pp. 26-27</bibl>). Tenuto conto dell’apparente scarso potere militare e politico detenuto dagli <foreign>Oreioi</foreign>, il sostegno ricercato da Maga nell’area di Creta antistante alla propria <foreign>eparcheia</foreign> potrebbe essere individuato principalmente nella fornitura di legname per la flotta cirenea, risorsa naturale di cui l’<foreign>Oreia</foreign> era ricca (<ref type="lit">Theophr. <title>hist.plant.</title> II 2.2, III 2.6, 3.3-4, IV 1.3</ref>; cf. <bibl><ref target="#b1702">Sekunda 2000</ref>, pp. 344 -345</bibl>, <bibl><ref target="#b912">Hunter 2011</ref>, pp. 106-107</bibl>).</p>
+                    <p>Sebbene il termine <foreign>koinon</foreign> non vi venga mai impiegato, il trattato attesta gli <foreign>Oreioi</foreign> come entità politica autonoma connessa ad un proprio territorio, l’<foreign>Oreia</foreign>. La perdita della sezione iniziale del trattato impedisce di comprendere se nella stipulazione del trattato fossero coinvolti eventuali organi istituzionali federali.</p>
+                    <p>La clausola che prevede la collocazione della stele nel <foreign>Diktynnaion</foreign> di Lissos e il suo effettivo ritrovamento nei pressi dei resti dell’edificio testimoniano l’appartenenza della città alla confederazione e sembrano inoltre suggerire un ruolo centrale del tempio locale di Diktynna nella vita sacra degli <foreign>Oreioi</foreign>, per i quali potrebbe verosimilmente aver funto da santuario federale (cf. <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 102-113</bibl>). Un ruolo importante doveva svolgere anche il santuario di Poikilasion, di cui si menzionano le divinità nel giuramento, nel quale vengono invocati anche Zeus <foreign>Kretagenes</foreign>, Diktynna e i suoi <foreign>homotemeneis</foreign>.</p>
+                    <p>La presenza alla stipulazione del trattato di rappresentanti di Gortyna e dei propri alleati e l’informazione fornita dalle linee 3-4 sull’esistenza di un’alleanza fra la <foreign>polis</foreign> e Maga avente le stesse clausole del presente trattato suggeriscono con forza l’appartenenza degli <foreign>Oreioi</foreign> al sistema di alleanze instaurato da Gortyna nel primo terzo del III secolo a.C. (cf. <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref>, pp. 34-35 e n. 78</bibl>, <bibl><ref target="#b251">Capdeville 1997</ref>, pp. 209-301</bibl>). È possibile, dunque, che in quanto alleati di Gortyna gli <foreign>Oreioi</foreign> fossero tenuti a seguirne le scelte concernenti la politica estera, in questo caso individualmente (cf. invece il trattato stipulato collettivamente da Gortyna assieme ai propri alleati con Demetrio II <ref type="ins" target="#ic4_167"><title>IC</title> IV 167</ref>). Un’ulteriore possibile motivazione dell’intromissione di Gortyna nell’attività diplomatica degli <foreign>Oreioi</foreign> sembra essere l’interesse che questa nutre per l’area sud-occidentale di Creta: la città, infatti, almeno dagli inizi del III secolo a.C. detiene il controllo diretto dell’isola di Kaudos, situata tra l’<foreign>Oreia</foreign> e la Cirenaica (cf. <ref type="ins" target="#ic4_184"><title>IC</title> IV 184 + <title>SEG</title> 23.589</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#symmachia">alleanza di Gortyna</ref>, <ref type="inst" target="#koinon"><foreign>koinon ton Oreion</foreign></ref><hi rend="superscript">e</hi>, <ref type="inst" target="#hieron"><foreign>hieron</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref><hi rend="superscript">e</hi>.</p>
+            </div>
+            <div type="bibliography">
+                <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib2"><title>IC</title> II</ref> 17 1 <ptr type="phi" target="200003"/></bibl>; 
+                    <bibl><ref target="#b1676">Schmitt 1968</ref>, pp. 141-145</bibl>; 
+                    <bibl type="main_edition"><ref target="#bib321"><title>Staatsverträge</title></ref> III 468</bibl>; 
+                    <bibl><ref target="#b152">Bile 2005</ref></bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 28</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b848">Halbherr 1924</ref>, pp. 96-97</bibl>; 
+                    <bibl><ref target="#b786">Guarducci 1938</ref></bibl>; 
+                    <bibl><ref target="#b119">Bertrand 1982</ref>, pp. 167-168</bibl>; 
+                    <bibl><ref target="#b121">Bertrand 1992</ref>, n. 98</bibl>; 
+                    <bibl><ref target="#b213">Bultrighini 1993</ref>, pp. 108-113</bibl>; 
+                    <bibl><ref target="#bib15">Chaniotis, <title>Verträge</title></ref> 78a</bibl>; 
+                    <bibl><ref target="#bib112"><title>HGIU</title></ref> 313</bibl>; 
+                    <bibl><ref target="#b1702">Sekunda 2000</ref></bibl>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
+

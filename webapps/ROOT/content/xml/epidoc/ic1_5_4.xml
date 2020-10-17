@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica ad Atena da Arkades</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 5 4</idno>
+                        <idno type="projectNo">202</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#afrati">Afrati, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#votive_dedication">dedica votiva</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#arkades">Arkades</origPlace>
+                                    <origDate period="#classical" notBefore="-0500" notAfter="-0400">V secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/>α Λεοντι<supplied reason="lost">δ</supplied><lb 
+                        break="no" n="2"/>ίοι καὶ Τίλον<unclear>ι</unclear>
+                          <lb n="3"/><w lemma="ἀνατίθημι">ἀνέθηκαν</w> δὲ <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#arkades"><supplied reason="lost">ἐ</supplied><lb 
+                        break="no" n="4"/>πὶ <w lemma="κοσμέω">κοσμιόντ<lb 
+                        break="no" n="5"/>ον</w> <persName type="attested" key="Thamyndaris f. Telegnotos"><name nymRef="Θαμύνδαρις">Θαμυνδά<supplied reason="lost">ρ</supplied><lb 
+                        break="no" n="6"/><supplied reason="lost">ι</supplied>ος</name> το͂ <name nymRef="Τηλέγνοτος" type="patronymic">Τηλεγν<lb 
+                        break="no" n="7"/>ότο</name></persName></rs> καὶ <rs type="institution" subtype="board" role="eponym" key="kosmos" ref="#arkades"><persName type="attested" key="Pantandridas f. Nikolaos"><name nymRef="Παντανδρίδας">Πανταν<lb 
+                        break="no" n="8"/>δρίδα</name> το͂ <name nymRef="Νικόλαος" type="patronymic">Νικολ<lb 
+                        break="no" n="9"/>άο</name></persName></rs> <g type="tripunct"/> ὄστι<supplied reason="lost">ς</supplied> ἀπο<lb 
+                        break="no" n="10"/>στερί<supplied reason="lost">δδ</supplied>οι το͂ν ἰ<lb 
+                        break="no" n="11"/>ο͂ν ἔμανιν ἦμε<lb 
+                        break="no" n="12"/><unclear>ν</unclear> αὐτο͂ι τὰν <persName type="divine" key="Athena">Ἀθ<supplied reason="lost">α</supplied><lb 
+                        break="no" n="13"/>ναίαν</persName>.
+                          <lb n="n13a"/><space quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica, verosimilmente effettuata da Leontidios e Tilon, è datata all’anno in cui sono cosmi Thamyndaris figlio di Telegnotos e Pantandridas figlio di Nikolaos. Il testo si chiude inoltre con un’imprecazione nei confronti degli eventuali ladri di frecce, che dovevano costituire l’oggetto della dedica (o una sua parte). Il fatto che la dedica sia iscritta su di una stele e non su una base farebbe propendere per l’identificazione dell’offerta in un certo numero di frecce consacrate ad Atena, come suggerisce Didier Viviers (<bibl><ref target="#b1949">Viviers 1994</ref>, p. 241</bibl>), piuttosto che in una statua di Atena armata di arco e faretra (come proposto invece in <bibl><ref target="#bib1"><title>IC</title> I</ref>, p. 9</bibl>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib65"><title>SGDI</title></ref> IV, p. 1038 n. 20</bibl>; 
+                            <bibl><ref target="#b845">Halbherr 1901</ref>, pp. 397-398</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib1"><title>IC</title> I</ref> 5 4 <ptr type="phi" target="199026"/></bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 83</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 18</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1949">Viviers 1994</ref>, p. 241</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

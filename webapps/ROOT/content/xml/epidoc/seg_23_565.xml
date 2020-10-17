@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Axos menzionante un cosmo</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 23.565</idno>
+                        <idno type="projectNo">122</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository>
+                                <idno type="invNo">39</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#axos">Axos</origPlace>
+                                    <origDate period="#archaic" notBefore="-0500" notAfter="-0450">500-450 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                    <div type="textpart" subtype="face" n="A">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>νταπ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>εκ</orig><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>ι</unclear>τον</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">αἰ δὲ μ</supplied><unclear>ὴ</unclear> <w lemma="πράσσω">πράξαι<supplied reason="lost">εν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>το τὸν π<unclear>υ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">ἠμ</supplied><unclear>ί</unclear>νας <unclear>θ</unclear>α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πράσσω"><supplied reason="lost">π</supplied>ράξαι<unclear>εν</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><unclear>α</unclear>ι τὸ ιε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#axos"><w lemma="κόσμος">κόσμο<unclear>ι</unclear></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ο</unclear>τ</orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="textpart" subtype="face" n="B">
+                        <ab>
+                          <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ν</unclear>ισ</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>δ</unclear>υο<unclear>δ</unclear>ε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>τοκα<unclear>μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>ασ<unclear>θ</unclear>ον</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>οντι</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                </div>
+                 <div type="commentary">
+                        <p>Nell’iscrizione, notevolmente frammentaria, compare due volte il verbo relativo all’esazione di multe, <foreign>praxaien</foreign> (ll. 3 e 6). La ravvicinata menzione di uno o più cosmi alla linea 8 sembrerebbe confermare il ruolo di tale magistrato nella riscossione di multe ad Axos, già testimoniato dalle leggi arcaiche <ref type="ins" target="#ic2_5_9"><title>IC</title> II 5 9</ref> e forse <ref type="ins" target="#bile_27">Bile 27</ref>. Quanto al numero dei cosmi attestati, sulla base dei paralleli di Axos è più probabile che il termine κόσμοι sia da intendere come un dativo singolare piuttosto che come nominativo plurale: i cosmi, infatti, compaiono sempre al singolare nelle iscrizioni di VI e V secolo a.C. della città (<ref type="ins" target="#ic2_5_5-6"><title>IC</title> II 5 5-6</ref>, <ref type="ins" target="#ic2_5_9"><title>IC</title> II 5 9</ref>, <ref type="ins" target="#bile_27">Bile 27</ref>; nei documenti ellenistici, invece, si hanno un cosmo solo in <ref type="ins" target="#ic2_5_24"><title>IC</title> II 5 24</ref>, più cosmi in <ref type="ins" target="#seg_23_563"><title>SEG</title> 23.563</ref>, <ref type="ins" target="#seg_23_566"><title>SEG</title> 23.566</ref>, <ref type="ins" target="#ic2_5_17"><title>IC</title> II 5 17</ref>, <ref type="ins" target="#ic2_5_19">19</ref>, <ref type="ins" target="#ic2_5_28">28</ref> e <ref type="ins" target="#ic2_5_35">35</ref>).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#kosmos"><foreign>kosmos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1184">Manganaro 1965</ref>, pp. 304-305</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 23.565 <ptr type="phi" target="201762"/> <ptr type="phi" target="201763"/> <ptr type="seg" target="a23_565"/> <ptr type="poinikastas" target="#"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 18</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib13">Bile</ref> 45</bibl>; 
+                            <bibl type="indexed_edition"><ref target="#bib122"><title>Laws</title></ref> Axos2</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

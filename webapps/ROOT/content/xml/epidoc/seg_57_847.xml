@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Lappa per il console Marco Vipsanio Agrippa</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 57.847</idno>
+                        <idno type="projectNo">090</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 256</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base">base</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lappa">Lappa</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0017" notAfter="-0013">17-13 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="honoured" key="Markos Agrippas f. Leukios" ref="#rome"><name nymRef="Μᾶρκος"><supplied reason="lost">Μᾶρ</supplied>κον</name> <name nymRef="Ἀγρίππας">Ἀγρίππαν</name> <name nymRef="Λεύκιος" type="patronymic">Λευκίου</name> υἱόν</persName>, <space quantity="1" unit="character"/>
+                          <lb n="2"/><supplied reason="lost">τρὶς</supplied> <w lemma="ὕπατος">ὕπατον</w> καὶ δημαρχικῆς ἐξου<lb 
+                        break="no" n="3"/><supplied reason="lost">σία</supplied>ς, <placeName ref="#lappa" type="ethnic">Λαππαίων</placeName> ἁ <rs type="institution" subtype="assembly" role="dedicant" key="polis" ref="#lappa"><w lemma="πόλις">πόλις</w></rs> τὸν ἑατᾶς
+                          <lb n="4"/><rs type="institution" subtype="social_status" role="granted_as_privilege" key="patron" ref="#lappa"><w lemma="πάτρων">πάτρωνα</w></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La base di statua conserva la dedica della stessa da parte della <foreign>polis</foreign> di Lappa al console Marco Vipsanio Agrippa. L’illustre dedicatario, di cui viene indicato il <foreign>cursus honorum</foreign> alla linea 2, viene definito patrono della città, occupando quindi un posto privilegiato fra gli individui onorati da Lappa: tutti i beneficiari dei suoi decreti onorari, infatti, sono insigniti solamente della prossenia (cf. <ref type="ins" target="#ic2_16_4"><title>IC</title> II 16 4-8</ref> e <ref type="ins" target="#seg_57_846"><title>SEG</title> 57.846</ref>).</p>
+                    <p>Il termine patrono a Creta ricorre nella formulazione τὸν ἑατᾶς πάτρωνα con alcune varianti in altre due iscrizioni pubbliche della tarda età ellenistica o della prima età imperiale: occorre infatti nella forma τὸν ἑαυτᾶς πάτρωνα sia nel decreto onorario emanato dalla <foreign>polis</foreign> di Gortyna <ref type="ins" target="#ic4_293"><title>IC</title> IV 293</ref> che nella dedica votiva della <foreign>polis</foreign> di Itanos (?) <ref type="ins" target="#ic3_4_17"><title>IC</title> III 4 17</ref> (cf. inoltre le due dediche onorarie di Lyttos del II secolo d.C. <ref type="ins"><title>IC</title> I 18 55</ref> e <ref type="ins">58</ref>, in cui compaiono rispettivamente τὸν ἑαυτοῦ πάτρωνα e τὸν ἴδιον πάτρωνα). Il termine <foreign>patron</foreign>, inoltre, è attestato a Creta anche nei contesti privati costituiti dall’epitaffio <ref type="ins" target="#ic2_2_1"><title>IC</title> II 2 1</ref> e dalla dedica votiva <ref type="ins" target="#ic3_3_11"><title>IC</title> III 3 11</ref>.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#patron"><foreign>patron</foreign></ref>, <ref type="inst" target="#polis"><foreign>polis</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1859">Tzifopoulos 2007</ref>, pp. 1465-1466 n. 4</bibl> (= <bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 57.847 <ptr type="seg" target="a57_847"/></bibl>);
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 256 <ptr type="thetima" target="e256"/></bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b88">Baldwin Bowsky 2007</ref>, pp. 197-202</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Dedica onoraria di Eleutherna per Tolemeo III (?)</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC II 12 25</idno>
+                        <idno type="projectNo">111</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#prines">Prines, in una casa</repository> 
+                                <idno type="invNo"/>
+                            </msIdentifier>
+                            <msContents><summary corresp="#honorific_dedication">dedica onoraria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#base" cert="low">base di statua?</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0246" notAfter="-0204">246-204 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><persName type="ruler" key="Ptolemaios III" ref="#egypt" cert="low"><w lemma="βασιλεύς">βασιλέα</w> <name nymRef="Πτολεμαῖος">Πτολεμαῖο<supplied reason="lost">ν</supplied></name> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><space extent="unknown" unit="character"/> <w lemma="Εὐεργέτης">Εὐεργέ<supplied reason="lost">την</supplied></w>.</persName>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La dedica è stata posta molto verosimilmente dalla <foreign>polis</foreign> di Eleutherna, responsabile dell’unica altra dedica onoraria pubblica pervenuta dalla città, <ref type="ins" target="#ic2_12_30"><title>IC</title> II 12 30</ref>.</p>
+                    <p>Se il termine conservato alla seconda linea è da intendere come un epiteto regale, l’individuo menzionato è da identificarsi in Tolemeo III Evergete, onorato anche da altre città di Creta occidentale e centro-occidentale (in <ref type="ins" target="#ic2_19_2"><title>IC</title> II 19 2</ref> da Phalasarna e probabilmente in <ref type="ins" target="#ic2_16_11"><title>IC</title> II 16 11</ref> da Lappa), oltre che da Itanos (in <ref type="ins" target="#ic3_4_4"><title>IC</title> III 4 4</ref>; sulle relazioni fra Creta e Tolemei cf. <bibl><ref target="#b1014">Kreuter 1992</ref>, pp. 17-45</bibl>, <bibl><ref target="#b1740">Spyridakis 1970</ref></bibl>). Nel caso in cui εὐεργέτην sia invece un’onorificenza concessa da Eleutherna al re lagide – come avviene ad esempio nelle dediche di Polyrrhenia <ref type="ins" target="#ic2_23_13"><title>IC</title> II 23 13</ref> e <ref type="ins" target="#ic2_23_14">14</ref>, rispettivamente per Cornelio Scipione Ispallo e per Metello Cretico – resterebbe aperta la possibilità che si tratti del sovrano successivo e cioè Tolemeo IV, onorato nella dedica <ref type="ins" target="#ic3_4_18"><title>IC</title> III 4 18</ref> proveniente da Itanos.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: nessuno nello specifico.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl type="indexed_edition"><ref target="#bib41">Spratt</ref> II, p. 425 n. 6</bibl>; 
+                            <bibl><ref target="#b1814">Thenon 1868</ref>, p. 296</bibl>; 
+                            <bibl><ref target="#b841">Halbherr 1896</ref>, pp. 580-582 n. 66</bibl>; 
+                            <bibl type="main_edition"><ref target="#bib2"><title>IC</title> II</ref> 12 25 <ptr type="phi" target="199909"/></bibl>; 
+                            <bibl><ref target="#b1009">Kotsidou 2000</ref>, *350</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

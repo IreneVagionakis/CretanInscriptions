@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Epigramma funerario per un cittadino di Lato</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">IC I 16 48</idno>
+                        <idno type="projectNo">471</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#herakleion_museum">Museo archeologico di Herakleion (fr. a); </repository> 
+                                <idno type="invNo">89</idno>
+                                <altIdentifier> <repository ref="#agios_nikolaos_museum">Museo archeologico di Agios Nikolaos (fr. b)</repository> <idno type="invNo">4040</idno></altIdentifier>
+                            </msIdentifier>
+                            <msContents><summary corresp="#epitaph">epitaffio</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#lato_kamara">Lato <foreign>pros</foreign> Kamara</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0130" notAfter="-0100">fine II secolo a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                            <lb n="1"/><supplied reason="lost">Αἴχμαιος</supplied>
+                            <lb n="2"/><supplied reason="lost">Κλητ</supplied><unclear>ω</unclear><supplied reason="lost">νύ</supplied>μω
+                            <lb n="3"/><w lemma="χαίρω"><supplied reason="lost">χ</supplied>α<unclear>ῖ</unclear>ρ<supplied reason="lost">ε</supplied></w>·
+                            <lb n="4"/><supplied reason="lost">ἔσ</supplied>τας μυρί’ ἔπ’ ἄκ<supplied reason="lost">ρος, ὅ</supplied>τ’ ἐς κ<unclear>ρί</unclear>σιν <unclear>ἤλυ</unclear><supplied reason="lost">θ</supplied><unclear>ε</unclear>  ῥώμα
+                            <lb n="5"/><supplied reason="lost">χειρ</supplied>ός, ἄριστ’ Αἴχμα<supplied reason="lost">ι’</supplied>, <w lemma="ἀνήρ"><unclear>ἀ</unclear>νδρ<unclear>ά</unclear>σι</w> γ’ ἀ<unclear>γχιμ</unclear>ά<unclear>χ</unclear>αις·
+                            <lb n="6"/><supplied reason="lost">ἔ</supplied>στας ἀτρέστωι σὺ<supplied reason="lost">ν λ</supplied>ήματι θοῦρον ἐς ἀλκὰν
+                            <lb n="7"/><unclear>ἀ</unclear>ντιπάλων, στέρ<supplied reason="lost">ξ</supplied>ας ἆμα<unclear>ρ</unclear> <w lemma="ἐλευθερία"><unclear>ἐλε</unclear>υθερίας</w>·
+                            <lb n="8"/><supplied reason="lost">που</supplied><unclear>λ</unclear>ύ <unclear>γ</unclear>’ ὑπὲρ <w lemma="πάτρα">πάτρ<supplied reason="lost">α</supplied>ς</w> ἐπιδοὺς ἐ<supplied reason="lost">ν</supplied> <persName type="divine" key="Ares"><supplied reason="lost">Ἄρ</supplied><unclear>ηο</unclear>ς</persName> <unclear>ἁ</unclear>μίλλαις
+                            <lb n="9"/><w lemma="σῶμα"><supplied reason="lost">σῶμα</supplied></w>, δοριθρασέω<supplied reason="lost">ν</supplied> <unclear>κ</unclear>οῦρε γεγὼς <w lemma="πατήρ">πατέρων</w>.
+                            <lb n="10"/><supplied reason="lost"><w lemma="σᾶμα">σᾶμα</w> δὲ</supplied> σεῖο <w lemma="πατήρ">πατ<supplied reason="lost">ὴρ</supplied></w> <supplied reason="lost">Κ</supplied>λητώνυμος α<supplied reason="lost">ὖθ</supplied>ι <unclear>κ</unclear>α<unclear>ὶ</unclear> <rs type="institution" subtype="social_group" role="builder" key="astos" ref="#lato"><w lemma="ἀστός">ἀστο<unclear>ὶ</unclear></w></rs>
+                            <lb n="11"/><supplied reason="lost"><w lemma="τίθημι">θῆκαν</w>, ἐ</supplied>πεὶ <placeName ref="#lato">Λα<unclear>τ</unclear><supplied reason="lost">ὼ</supplied></placeName> <w lemma="πατρίς"><supplied reason="lost">πα</supplied>τρίδ’</w> ἐπαγλ<supplied reason="lost">ά</supplied>ϊσας·
+                            <lb n="12"/><supplied reason="lost">ἐνθάδε νῦν</supplied> καὶ <w lemma="σῶμα">σ<supplied reason="lost">ῶμα</supplied></w> <unclear>κ</unclear>ατὰ χθον<supplied reason="lost">ό</supplied>ς ἐ<supplied reason="lost">σ</supplied>τι θανόντος,
+                            <lb n="13"/><supplied reason="lost">σῆς δ’ <w lemma="ἀρετή">ἀρετῆς</w> <w lemma="μνήμη">μνήμη</w> ἔ</supplied>σσεται ἀέν<unclear>α</unclear>ος.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>Il nome del defunto, Aichmaios figlio di Kletonymos, è seguito alle linee 4-13 da un epigramma in distici elegiaci, incentrato sull’elogio delle virtù militari del giovane. Dell’epitaffio risultano particolarmente significative le linee 11-12, nelle quali viene commemorata l’erezione del presente <foreign>sama</foreign> funerario da parte del padre del defunto e dei suoi concittadini: il segnacolo, dunque, risulta essere un monumento pubblico posto ad Archmaios per aver onorato con il proprio valore la patria Lato (Λατ[ὼ πα]τρίδ’, menzionata anche come πάτρ[α]ς alla linea 8).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#astos"><foreign>astos</foreign></ref>.</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b2065">Xanthoudidis 1908</ref>, pp. 219-220 n. 8 (fr. a)</bibl>; 
+                            <bibl><ref target="#b1096">Levi 1922</ref>, p. 376 n. 20 (fr. a)</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib1"><title>IC</title> I</ref> 16 48 (fr. a) <ptr type="phi" target="199257"/></bibl>; 
+                            <bibl><ref target="#b1494">Peek 1973-1974</ref>, pp. 506-508 n. 5 (fr. a)</bibl>;
+                            <bibl><ref target="#b1495">Peek 1977</ref>, pp. 64-66 n. 1</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 28.749, frr. a+b</bibl>); 
+                            <bibl><ref target="#b1900">Van Effenterre 1986</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 37.751, frr. a+b</bibl>); 
+                            <bibl><ref target="#b1231">Martínez Fernández 1999b</ref></bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 47.1399, frr. a+b</bibl>); 
+                            <bibl type="main_edition"><ref target="#bib107">Martínez Fernández, <title>Epigramas</title></ref> 15 (frr. a+b)</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1488">Peek 1933</ref>, p. 138</bibl>; 
+                            <bibl><ref target="#b327">Chaniotis 2005</ref>, p. 204</bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

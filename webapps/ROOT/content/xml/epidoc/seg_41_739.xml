@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Legge di Eleutherna contro l’ebbrezza</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 41.739</idno>
+                        <idno type="projectNo">101</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#rethymno_museum">Museo archeologico di Rethymno</repository> 
+                                <idno type="invNo">E 125</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#law">legge</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#stele">stele</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><p>bustrofedica</p> <height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#eleutherna">Eleutherna</origPlace>
+                                    <origDate period="#archaic" notBefore="-0550" notAfter="-0500">550-500 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/>μὴ <w lemma="ἰνπίνω">ἰνπίνεν</w>· α<gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="2"/><gap reason="lost" quantity="1" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>με <rs type="institution" subtype="age_class" role="regulation" key="dromeus" ref="#eleutherna"><w lemma="δρομεύς">δρομέα</w></rs> <corr>ἰ</corr><unclear>σ</unclear><lb 
+                        break="no" n="3"/>ς <persName type="divine" key="Zeus">Δῖον</persName> Ἄκρον <rs type="institution" subtype="practice" role="prohibition" key="symposion" ref="#eleutherna" cert="low"><w lemma="συνινπίνω">σ<lb 
+                        break="no" n="4"/>υνινπίνοντα</w></rs>
+                          <lb n="5"/><w lemma="πίνω">πίνεν</w>. <space quantity="1" unit="line"/>
+                          <lb n="6"/><rs type="institution" subtype="official" role="regulation" key="hiereus" ref="#eleutherna"><w lemma="ἰαρεύς">ἰαρέα</w></rs> δὲ μή αἰ δ’
+                          <lb n="7"/><w lemma="ἱαρόω">ἰαρόϝϝοι</w> το͂ι <w lemma="θιός">θ<lb 
+                        break="no" n="8"/>ιο͂ι</w> αἰ μ<unclear>ὴ</unclear> <supplied reason="lost">υ</supplied>ἶ τεκ<supplied reason="lost">ν</supplied><lb 
+                        break="no" n="9"/><supplied reason="lost">ό</supplied>ϝστεν <w lemma="ἀρκαῖος">ἀρκαῖ<lb 
+                        break="no" n="10"/>όν</w> ἐστι. ὄσστ<unclear>ι</unclear><supplied reason="lost">ς</supplied>
+                          <lb n="11"/><gap reason="lost" atLeast="3" atMost="4" unit="character"/>τῆρας τ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>
+                          <lb n="12"/><gap reason="lost" atLeast="5" atMost="6" unit="character"/><orig><unclear>μηι</unclear></orig><gap reason="lost" atLeast="2" atMost="3" unit="character"/>
+                          <lb n="12a"/><gap reason="lost" quantity="1" unit="line"/>
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>La legge è particolarmente significativa per i suoi contenuti, notevolmente affini ad una regolamentazione cretese del consumo di vino tramandata da Platone, che costui vuole emanata da Minosse (<ref type="lit" target="#PlatoLeg635-666"><title>Leg.</title> 666a-b</ref>, <ref type="lit" target="#PlatoMinos"><title>Minos</title> 320a</ref>). L’antichità della legge, che giustificherebbe l’attribuzione letteraria al mitico re e legislatore di Creta, è confermata dall’interessante rimando ad una consolidata tradizione locale alle linee 8-10.</p>
+                    <p>La legge, che proibisce il bere in eccesso, prevede un’eccezione che interessa la classe d’età dei <foreign>dromeis</foreign>, gli adulti, e che sembra testimoniare l’esistenza di pratiche simposiali: sebbene il termine <foreign>symposion</foreign> non venga impiegato direttamente, il verbo <foreign>syninpinein</foreign> sembra rimandare ad un contesto di bevuta collettiva da parte dell’insieme degli adulti (su un possibile senso spaziale del verbo <foreign>inpinein</foreign>, inteso come «bere all’interno», cf. <bibl><ref target="#b699">Genevrois 2017</ref>, pp. 288-290</bibl>). La deroga, inoltre, limita la possibilità di ebbrezza ad una specifica circostanza, che oltre che spaziale è verosimilmente anche temporale: le bevute collettive possono avvenire esclusivamente nel luogo chiamato <foreign>Dion Akron</foreign> (noto anche da <ref type="lit">Ptol. III 15.5</ref>), molto probabilmente soltanto in occasione di festività o episodi simposiali che vi hanno luogo.
+                            Nella legge, inoltre, è ribadito il divieto di bevuta eccessivo per i sacerdoti nel momento in cui si trovano a compiere sacrifici, anche in questo caso con una deroga, che interessa i contesti in cui ciò faccia parte della tradizione (ἀρκαῖόν ἐστι).</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#dromeus"><foreign>dromeus</foreign></ref>, <ref type="inst" target="#hiereus"><foreign>hiereus</foreign></ref>, <foreign>syninpino</foreign> (<ref type="inst" target="#symposion"><foreign>symposion</foreign></ref>?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1929">Van Effenterre <foreign>et al.</foreign> 1991</ref>, pp. 17-21 n. 1</bibl> (= <bibl type="indexed_edition"><ref target="#bib5"><title>SEG</title></ref> 41.739 <ptr type="phi" target="202100"/> <ptr type="seg" target="a41_739"/></bibl>); 
+                            <bibl type="indexed_edition"><ref target="#bib123"><title>Nomima</title></ref> II 98</bibl>; 
+                            <bibl><ref target="#bib236"><title>NGSL</title></ref> 22</bibl>; 
+                            <bibl><ref target="#b1762">Stampolidis 2004</ref>, p. 154 n. 9</bibl>;
+                            <bibl type="indexed_edition"><ref target="#bib420"><title>ΘΕΤΙΜΑ</title></ref> E 125 <ptr type="thetima" target="e125"/></bibl>; 
+                            <bibl type="main_edition"><ref target="#bib122"><title>Laws</title></ref> Eleutherna1</bibl>;
+                            <bibl type="indexed_edition"><ref target="#b161">Bile 2016</ref>, n. 7</bibl>;
+                            <bibl><ref target="#b820">Guizzi 2017</ref>, pp. 326-329</bibl>.</p>
+                <p><emph>Cf.</emph> <bibl><ref target="#b1924">Van Effenterre – Van Effenterre 1995</ref></bibl>; 
+                            <bibl><ref target="#b1511">Perlman 2004</ref></bibl>.</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>

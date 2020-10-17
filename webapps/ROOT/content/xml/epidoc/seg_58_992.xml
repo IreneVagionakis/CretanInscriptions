@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title>Iscrizione edificatoria di un ex <foreign>hiarorgos</foreign> (?) di Gortyna</title>
+                        <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <authority>Cretan Institutional Inscriptions</authority>
+                        <idno type="filename">SEG 58.992</idno>
+                        <idno type="projectNo">366</idno>
+                        <availability>
+                            <licence target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attributions-NonCommercial 4.0 International License</licence>
+                        </availability>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <msDesc>
+                            <msIdentifier>
+                                <repository ref="#agioi_deka_saia_storeroom">Magazzino SAIA, Agioi Deka</repository> 
+                                <idno type="invNo">GO 395</idno>
+                            </msIdentifier>
+                            <msContents><summary corresp="#building_inscription">iscrizione edificatoria</summary></msContents>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc>
+                                        <support><objectType ref="#block">blocco</objectType>
+                                            <dimensions><width/><depth/><height/></dimensions></support>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <layout/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc>
+                                    <handNote><height/></handNote>
+                                </handDesc>
+                            </physDesc>
+                            <history>
+                                <origin>
+                                    <origPlace ref="#gortyn">Gortyna</origPlace>
+                                    <origDate period="#hellenistic" notBefore="-0100" notAfter="-0075">100-75 a.C.</origDate>
+                                </origin>
+                            </history>
+                        </msDesc>
+                    </sourceDesc>
+                </fileDesc>
+                <revisionDesc>
+                    <change when="2017-11-08" who="#iv">added</change>
+                    <change when="2018-12-20" who="#iv">completed</change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" xml:lang="grc" xml:space="preserve">
+                        <ab>
+                          <lb n="1"/><rs type="institution" subtype="official" role="builder" key="hiarorgos" ref="#gortyn"><w lemma="ἱαροργέω"><supplied reason="lost">ἱαροργήσαν</supplied></w></rs> <w lemma="ἐπιμελέομαι"><supplied reason="lost">ἐπε</supplied>μελήθη</w>
+                          <lb n="2"/><rs type="institution" subtype="official" role="builder" key="hiarorgos" ref="#gortyn"><persName type="attested" key="-s f. Eukles"><name nymRef="-ς"><gap reason="lost" extent="unknown" unit="character"/>ς</name> τῶ <name nymRef="Εὐκλῆς" type="patronymic">Εὐκλῆιος</name></persName></rs>.
+                          </ab>
+                    </div>
+                    <div type="commentary">
+                        <p>L’iscrizione edificatoria, piuttosto frammentaria, conserva solamente il verbo [ἐπε]μελήθη, riferito al promotore dell’attività di costruzione o restauro commemorata dal documento, e parte dell’onomastica di quest’ultimo. L’individuo, figlio di un tale Eukles, è verosimile che abbia ricoperto la carica di <foreign>hiarorgos</foreign>, figura che a Gortyna occorre anche nelle iscrizioni edificatorie <ref type="ins" target="#ic4_259"><title>IC</title> IV 259-261</ref> e <ref type="ins" target="#ic1_17_4"><title>IC</title> I 17 4</ref> B.</p>
+                <p><emph>Elementi istituzionali o altri termini rilevanti</emph>: <ref type="inst" target="#hiarorgos"><foreign>hiarorgos</foreign></ref> (?).</p>
+                    </div>
+                    <div type="bibliography">
+                        <p><emph>Edd.</emph> <bibl><ref target="#b1167">Magnelli 2000</ref>, n. 22</bibl>;
+                            <bibl><ref target="#b1169">Magnelli 2008</ref>, pp. 304-306 n. 22</bibl> (<bibl type="main_edition"><ref target="#bib5"><title>SEG</title></ref> 58.992 <ptr type="seg" target="a58_992"/></bibl>).</p>
+                    </div>
+                </body>
+            </text>
+        </TEI>
