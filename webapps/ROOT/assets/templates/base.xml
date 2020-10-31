@@ -78,9 +78,11 @@
                 <a href="https://www.unive.it/"><img style="height:3.5em; padding-right:1em" alt="CaFoscari" src="{$kiln:assets-path}/images/cafoscari.png"/></a>
                 <a href="https://www.unive.it/pag/39287"><img style="height:2.5em; padding-right:0.7em; padding-left:0.5em" alt="vedph" src="{$kiln:assets-path}/images/vedph.png"/></a>
                 <a href="https://www.scuoladiatene.it/"><img style="height:5.5em; padding-right:1em; padding-left:0.5em" alt="SAIA" src="{$kiln:assets-path}/images/saia.png"/></a>
-                <a href="https://tei-c.org/"><img style="height:4em; padding-right:1em; padding-left:0.7em" alt="TEI" src="{$kiln:assets-path}/images/tei.png"/></a>
-                <a href="https://www.stoa.org/epidoc/gl/latest/"><img style="height:3em; padding-right:1em; padding-left:0.8em" alt="epidoc" src="{$kiln:assets-path}/images/epidoc.png"/></a>
-                <a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="CC BY-NC" style="padding-left:0.9em; padding-right:1.2em; padding-bottom:0.2em" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
+                
+                <a href="http://www.ilc.cnr.it/"><img style="height:4em; padding-right:1em; padding-left:0.5em" alt="ILC CRN" src="{$kiln:assets-path}/images/ilc-cnr.png"/></a>
+                <a href="http://www.clarin-it.it/it"><img style="height:4.5em; padding-right:1em" alt="CLARIN IT" src="{$kiln:assets-path}/images/clarin-it.png"/></a>
+                <a href="https://www.stoa.org/epidoc/gl/latest/"><img style="height:3em; padding-right:1em; padding-left:0.8em" alt="epidoc" src="{$kiln:assets-path}/images/epidoc.png"/></a></p>
+              <p><a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="CC BY-NC" style="padding-left:0.9em; padding-right:1.2em; padding-bottom:0.2em" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
                 <span>Irene Vagionakis, <i>Cretan Institutional Inscriptions</i> (2020)</span>
               </p>
             </footer>
