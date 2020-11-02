@@ -30,6 +30,7 @@
   </xsl:template>
     
     <xsl:template name="creta-body-structure">
+      <xsl:call-template name="navigation"/>
       <div id="creta-inscription-body" class="creta">
         <div id="title" class="creta">
           <h1><xsl:if test="//t:idno[@type='projectNo']/text()"><xsl:value-of select="number(//t:idno[@type='projectNo'])"/>. </xsl:if><xsl:apply-templates select="//t:titleStmt/t:title"/></h1>
@@ -217,5 +218,45 @@
       </xsl:otherwise>
     </xsl:choose>
     </xsl:template>
+  
+  <!-- arrows pointing to previous/next inscription -->
+  <xsl:template name="navigation">
+    <xsl:variable name="filename"><xsl:value-of select="//t:idno[@type='projectNo']"/></xsl:variable>
+    <xsl:variable name="list" select="document(concat('file:',system-property('user.dir'),'/all_inscriptions.xml'))//t:list"/>
+    <xsl:variable name="prev" select="$list/t:item[@sortKey=$filename]/preceding-sibling::t:item[1]/@n"/>
+    <xsl:variable name="next" select="$list/t:item[@sortKey=$filename]/following-sibling::t:item[1]/@n"/>
+    
+    <div class="row">
+      <div class="large-12 columns">
+        <ul class="pagination left">
+          <xsl:if test="$prev">
+            <li class="arrow">
+              <a>
+                <xsl:attribute name="href">
+                    <xsl:text>./</xsl:text>
+                    <xsl:value-of select="$prev"/>
+                    <xsl:text>.html</xsl:text>
+                </xsl:attribute>
+                <xsl:text>&#171;</xsl:text>
+              </a>
+            </li>
+          </xsl:if>
+          
+          <xsl:if test="$next">
+            <li class="arrow">
+              <a>
+                <xsl:attribute name="href">
+                    <xsl:text>./</xsl:text>
+                    <xsl:value-of select="$next"/>
+                    <xsl:text>.html</xsl:text>
+                </xsl:attribute>
+                <xsl:text>&#187;</xsl:text>
+              </a>
+            </li>
+          </xsl:if>
+        </ul>
+      </div>
+    </div>
+  </xsl:template>
   
 </xsl:stylesheet>
