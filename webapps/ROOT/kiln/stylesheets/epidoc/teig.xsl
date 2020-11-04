@@ -83,7 +83,7 @@
                   <xsl:text>&#x2020;&#x2020;</xsl:text>
                   <xsl:call-template name="g-unclear-symbol"/>
                </xsl:when>
-               <xsl:when test="@type='denarius'">
+               <!--<xsl:when test="@type='denarius'">
                   <xsl:text>&#x10196;</xsl:text>
                   <xsl:call-template name="g-unclear-symbol"/>
                </xsl:when>
@@ -94,7 +94,7 @@
                <xsl:when test="@type='sestercius'">
                   <xsl:text>&#x10198;</xsl:text>
                   <xsl:call-template name="g-unclear-symbol"/>
-               </xsl:when>
+               </xsl:when>-->
                <xsl:when test="@type='year'">
                   <xsl:text>L</xsl:text>
                   <xsl:call-template name="g-unclear-symbol"/>
@@ -338,10 +338,10 @@
                 <xsl:text>&#x2627;</xsl:text>
                 <xsl:call-template name="g-unclear-symbol"/>
             </xsl:when>
-            <xsl:when test="@type='century'">
+            <!--<xsl:when test="@type='century'">
                 <xsl:text>&#x1019B;</xsl:text>
                 <xsl:call-template name="g-unclear-symbol"/>
-            </xsl:when>
+            </xsl:when>-->
             <xsl:when test="@type='milliaria'">
                 <xsl:text>&#x2180;</xsl:text>
                 <xsl:call-template name="g-unclear-symbol"/>
@@ -366,14 +366,14 @@
                 <xsl:apply-templates/>
                 <xsl:call-template name="g-unclear-symbol"/>
             </xsl:when>
-            <xsl:when test="@type='sestertius' and not(node())">
+            <!--<xsl:when test="@type='sestertius' and not(node())">
                 <xsl:text>&#x10198;</xsl:text>
                 <xsl:call-template name="g-unclear-symbol"/>
             </xsl:when>
             <xsl:when test="@type='sestertius' and node()">
                 <xsl:apply-templates/>
                 <xsl:call-template name="g-unclear-symbol"/>
-            </xsl:when>
+            </xsl:when>-->
             <xsl:when test="@type='denarius'">
                 <xsl:text>&#x2E19;</xsl:text>
                 <xsl:call-template name="g-unclear-symbol"/>
@@ -432,14 +432,6 @@
             <xsl:text>∟</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='chirho'">
-            <xsl:text>☧</xsl:text>
-            <xsl:call-template name="g-unclear-symbol"/>
-         </xsl:when>
-         <xsl:when test="@type='stauros'">
-            <xsl:text>†</xsl:text>
-            <xsl:call-template name="g-unclear-symbol"/>
-         </xsl:when>
          <xsl:when test="@type='swastika'">
             <xsl:text>卐</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
@@ -457,7 +449,7 @@
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
          <xsl:when test="@type='denarius'">
-            <xsl:text>&#x10196;</xsl:text>
+            <xsl:text>(denarius)</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
          <xsl:when test="@type='ligo'">
