@@ -69,7 +69,7 @@
                           <lb n="9"/><rs type="institution" subtype="social_status" role="fineable" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλευθέρο</w></rs> <w lemma="στατήρ">στατε͂ρα</w>, το͂ <rs type="institution" subtype="social_status" role="fineable" key="doulos" ref="#gortyn"><w lemma="δῶλος">δόλο</w></rs> <w lemma="δαρκνά"><supplied reason="lost">δα</supplied>ρκν<lb 
                         break="no" n="10"/>ὰν</w> τ<unclear>ᾶς</unclear> ἀμέρας ϝεκάστας, πρίν κα λα<lb 
                         break="no" n="11"/>γάσει· το͂ δὲ κρόνο τὸν <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικαστάς">δι<supplied reason="lost">κ</supplied>αστ<lb 
-                        break="no" n="12"/>ὰν</w></rs> <w lemma="ὀμνύω">ὀ<unclear>μ</unclear>νύντα</w> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρίνεν</w></rs>. <g type="palmula"/> αἰ δ’ ἀννίοιτο
+                        break="no" n="12"/>ὰν</w></rs> <w lemma="ὀμνύω">ὀ<unclear>μ</unclear>νύντα</w> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρίνεν</w></rs>. <g ref="palmula"/> αἰ δ’ ἀννίοιτο
                           <lb n="13"/>μὲ ἄγεν, τὸν <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικαστάς">δικαστὰν</w></rs> <w lemma="ὀμνύω">ὀμνύντ<lb 
                         break="no" n="14"/>α</w> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρ<supplied reason="lost">ί</supplied>νεν</w></rs> αἰ μὲ ἀποπονίοι <w lemma="μαῖτυς">μαῖτυς</w>.
                           <lb n="15"/>αἰ δέ κα μολε͂ι ὀ μὲν <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλεύθε<unclear>ρ</unclear>ον</w></rs>
@@ -302,23 +302,23 @@
                         break="no" n="6"/>μιον</w> οἰ σὺν <persName type="attested" key="Kyllos"><name nymRef="Κύλλος">Κύ<supplied reason="lost">λ</supplied><unclear>λ</unclear>οι</name></persName></rs>, ταύτ<lb 
                         break="no" n="7"/>ας μὲν <unclear>ἀπ</unclear>ολανκάνεν, ταῖ<lb 
                         break="no" n="8"/>δ δὲ πρόθθα μὲ <w lemma="ἔνδικος">ἔ<supplied reason="lost">ν</supplied>δικον</w> ἔμ<lb 
-                        break="no" n="9"/>εν. <g type="leaf"/>  κ’ ἀποθάνει <rs type="institution" subtype="social_status" role="regulation" key="aner" ref="#gortyn"><w lemma="ἀνήρ">ἀνὲρ</w></rs> ἒ <rs type="institution" subtype="social_status" role="regulation" key="gyna" ref="#gortyn"><w lemma="γυνά">γυν<lb 
+                        break="no" n="9"/>εν. <g ref="leaf"/>  κ’ ἀποθάνει <rs type="institution" subtype="social_status" role="regulation" key="aner" ref="#gortyn"><w lemma="ἀνήρ">ἀνὲρ</w></rs> ἒ <rs type="institution" subtype="social_status" role="regulation" key="gyna" ref="#gortyn"><w lemma="γυνά">γυν<lb 
                         break="no" n="10"/>ά</w></rs>, αἰ μέν κ’ ι τέ<unclear>κν</unclear>α ἒ ἐς τέ<lb 
                         break="no" n="11"/>κνον τέκ<unclear>να</unclear> ἒ ἐς τούτον τέ<lb 
                         break="no" n="12"/>κνα, τούτος ἔκε<supplied reason="lost">ν</supplied> τὰ <w lemma="κρήματα">κρέμα<lb 
-                        break="no" n="13"/>τα</w>. <g type="palmula"/> αἰ δέ κ<unclear>α</unclear> μέτις ι τούτο<lb 
+                        break="no" n="13"/>τα</w>. <g ref="palmula"/> αἰ δέ κ<unclear>α</unclear> μέτις ι τούτο<lb 
                         break="no" n="14"/>ν, ἀ<surplus>α</surplus>δελπιοὶ δὲ το͂ ἀποθανόν<lb 
                         break="no" n="15"/>τος κἐκς ἀδε<supplied reason="lost">λ</supplied>πιο͂ν τέκν<lb 
                         break="no" n="16"/>α ἒ ἐς τούτον τέκνα, τούτ<lb 
-                        break="no" n="17"/>ος ἔκεν τὰ <w lemma="κρήματα">κρέματα</w>. <g type="palmula"/> αἰ δέ κα
+                        break="no" n="17"/>ος ἔκεν τὰ <w lemma="κρήματα">κρέματα</w>. <g ref="palmula"/> αἰ δέ κα
                           <lb n="18"/>μέτις ι τούτον, ἀδευπιαὶ δ<lb 
                         break="no" n="19"/>ὲ το͂ ἀποθανόντος κἐς ταυτ<lb 
                         break="no" n="20"/>ᾶν τέκνα ἒ ἐς το͂ν τέκνον τέ<lb 
                         break="no" n="21"/>κνα, τούτος ἔκεν τὰ <w lemma="κρήματα">κρέμα<lb 
-                        break="no" n="22"/>τα</w>. <g type="palmula"/> αἰ δέ κα μέτις ι τούτον,
+                        break="no" n="22"/>τα</w>. <g ref="palmula"/> αἰ δέ κα μέτις ι τούτον,
                           <lb n="23"/>οἶς κ’ ἐπιβάλλει ὄπο κ’ ι τὰ <w lemma="κρήματα">κρ<lb 
                         break="no" n="24"/>έματ<unclear>α</unclear></w>, τούτος ἀναιλε͂θθα<lb 
-                        break="no" n="25"/>ι. <g type="palmula"/> αἰ δὲ μὲ εἶεν ἐπιβάλλοντε<lb 
+                        break="no" n="25"/>ι. <g ref="palmula"/> αἰ δὲ μὲ εἶεν ἐπιβάλλοντε<lb 
                         break="no" n="26"/>ς, τᾶς ϝοικίας οἴτινές κ’
                           <lb n="27"/>ἴοντι ὀ <rs type="institution" subtype="social_group" role="regulation" key="klaros" ref="#gortyn"><w lemma="κλᾶρος">κλᾶρος</w></rs>, τούτονς ἔ<lb 
                         break="no" n="28"/>κεν τὰ <w lemma="κρήματα">κρέματα</w>. <space extent="unknown" unit="character"/> αἰ δέ κ’ οἰ
@@ -344,7 +344,7 @@
                         break="no" n="48"/>ατα</w>· κὄς κα πλεῖστον διδ<lb 
                         break="no" n="49"/>ο͂ι ἀποδόμενοι τᾶν <w lemma="τιμά">τιμᾶν</w>
                           <lb n="50"/>δια<supplied reason="lost">λ</supplied>ακόντον τὰν ἐπαβο<lb 
-                        break="no" n="51"/>λὰν ϝέκαστος. <g type="palmula"/> δατιομέ<lb 
+                        break="no" n="51"/>λὰν ϝέκαστος. <g ref="palmula"/> δατιομέ<lb 
                         break="no" n="52"/>νοιδ δὲ <w lemma="κρήματα">κρέματα</w> <w lemma="μαῖτυς">μαίτυρα<lb 
                         break="no" n="53"/>νς</w> παρέμεν <rs type="institution" subtype="age_class" role="judicial_procedure" key="dromeus" ref="#gortyn"><w lemma="δρομεύς">δρομέανς</w></rs> <rs type="institution" subtype="social_status" role="judicial_procedure" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλε<lb 
                         break="no" n="54"/>υθέρονς</w></rs> τρίινς ἒ πλίανς.
@@ -360,7 +360,7 @@
                         break="no" n="6"/>αι ἒ ἀπολάκει ἀποδιδόθθο,
                           <lb n="7"/>αἴ κα λε͂ι. μεδὲ τὸν <w lemma="πατήρ">πατέρα</w> τὰ το͂<lb 
                         break="no" n="8"/>ν τέκνον ἄτι κ’ αὐτοὶ πάσον<lb 
-                        break="no" n="8"/>ται ἒ ἀπολάκοντι. <g type="palmula"/> μεδὲ τὰ τ<lb 
+                        break="no" n="8"/>ται ἒ ἀπολάκοντι. <g ref="palmula"/> μεδὲ τὰ τ<lb 
                         break="no" n="10"/>ᾶς <rs type="institution" subtype="social_status" role="regulation" key="gyna" ref="#gortyn"><w lemma="γυνά">γυναικὸς</w></rs> τὸν <rs type="institution" subtype="social_status" role="regulation" key="aner" ref="#gortyn"><w lemma="ἀνήρ">ἄνδρα</w></rs> ἀπο<lb 
                         break="no" n="11"/>δόθαι μεδ’ ἐπισπένσαι, μεδ’
                           <lb n="12"/>υἰὺν τὰ τᾶς <w lemma="μάτηρ">ματρός</w>. <space extent="unknown" unit="character"/> αἰ δ<lb 
@@ -415,7 +415,7 @@
                           <lb n="1"/>ἐπὶ τὰν <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλευθέρα">ἐλευθέραν</w></rs> ἐλθὸν ὀπυίει,
                           <lb n="2"/><rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλεύθερ’</w></rs> ἔμεν τὰ τέκνα. αἰ δέ κ’
                           <lb n="3"/>ἀ <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλευθέρα">ἐλευθέρα</w></rs> ἐπὶ τὸν <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλος">δο͂λον</w></rs>, <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλος">δο͂λ’</w></rs> ἔμ<lb 
-                        break="no" n="4"/>εν τὰ τέκνα. <g type="palmula"/> αἰ δέ κ’ ἐς τᾶς αὐτ<lb 
+                        break="no" n="4"/>εν τὰ τέκνα. <g ref="palmula"/> αἰ δέ κ’ ἐς τᾶς αὐτ<lb 
                         break="no" n="5"/>ᾶς <w lemma="μάτηρ">ματρὸς</w> <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλευθέρα">ἐλεύθερα</w></rs> καὶ <rs type="institution" subtype="social_status" role="regulation" key="doulos" ref="#gortyn"><w lemma="δῶλα">δο͂λα</w></rs>
                           <lb n="6"/>τέκνα γένεται,  κ’ ἀποθάνει ἀ
                           <lb n="7"/><w lemma="μάτηρ">μάτερ</w>, αἴ κ’ ι <w lemma="κρήματα">κρέματα</w>, τὸνς <rs type="institution" subtype="social_status" role="regulation" key="eleutheros" ref="#gortyn"><w lemma="ἐλεύθερος">ἐλε<lb 
@@ -440,7 +440,7 @@
                         break="no" n="26"/>λπιο͂ν, ἄλλοι ὀπυίεθαι το͂ι ἐπ<lb 
                         break="no" n="27"/>ὶ το͂ι ἐς <supplied reason="lost">τ</supplied>ο͂ πρει<unclear>γ</unclear><supplied reason="lost">ί</supplied>στο. μίαν δ’
                           <lb n="28"/>ἔκεν <w lemma="πατροιόκος">πατροι<supplied reason="lost">ο͂</supplied>κον</w> τὸν ἐπιβάλ<lb 
-                        break="no" n="29"/>λοντα, πλίαδ δὲ <supplied reason="lost">μ</supplied>έ. <g type="leaf"/> ἆδ δέ κ’ <rs type="institution" subtype="age_class" role="regulation" key="anoros" ref="#gortyn"><w lemma="ἄνωρος">ἄν<lb 
+                        break="no" n="29"/>λοντα, πλίαδ δὲ <supplied reason="lost">μ</supplied>έ. <g ref="leaf"/> ἆδ δέ κ’ <rs type="institution" subtype="age_class" role="regulation" key="anoros" ref="#gortyn"><w lemma="ἄνωρος">ἄν<lb 
                         break="no" n="30"/>ορος</w></rs> ι ὀ ἐπι<unclear>β</unclear>άλλον ὀπυίεν ἒ
                           <lb n="31"/>ἀ <w lemma="πατροιόκος">πατροιο͂κος</w>, <supplied reason="lost">σ</supplied>τέγαν μέν, αἴ
                           <lb n="32"/>κ’ ι, ἔκεν τὰν <w lemma="πατροιόκος">πατροιο͂κον</w>, τᾶδ
@@ -451,7 +451,7 @@
                         break="no" n="37"/>ίεν <rs type="institution" subtype="age_class" role="regulation" key="ebion" ref="#gortyn"><w lemma="ἠβίων">ἐβίον</w></rs> <rs type="institution" subtype="age_class" role="regulation" key="ebion" ref="#gortyn"><w lemma="ἠβίων">ἐβίονσαν</w></rs> μὲ λε͂ι ὀπ<lb 
                         break="no" n="38"/>υίεν, ἐπὶ τᾶι <w lemma="πατροιόκος">πατροιόκοι</w> ἔμε<lb 
                         break="no" n="39"/>ν τὰ <w lemma="κρήματα">κρέματα</w> πάντα καὶ τὸν κ<lb 
-                        break="no" n="40"/>αρπόν, πρείν κ’ ὀπυίει. <g type="leaf"/> αἰ δέ κα
+                        break="no" n="40"/>αρπόν, πρείν κ’ ὀπυίει. <g ref="leaf"/> αἰ δέ κα
                           <lb n="41"/><rs type="institution" subtype="age_class" role="regulation" key="dromeus" ref="#gortyn"><w lemma="δρομεύς">δρομεὺς</w></rs> ἰὸν ὀ ἐπιβάλλον <rs type="institution" subtype="age_class" role="regulation" key="ebion" ref="#gortyn"><w lemma="ἠβίων">ἐ<lb 
                         break="no" n="42"/>βίονσαν</w></rs> λείονσαν ὀπυίε<lb 
                         break="no" n="43"/>θαι μὲ λε͂ι ὀπυίεν, μολὲν τὸς
@@ -478,12 +478,12 @@
                         break="no" n="5"/>ιαλακόνσαν ἄλλοι ὀπυίεθ<lb 
                         break="no" n="6"/>αι τᾶς <rs type="institution" subtype="social_group" role="belonging" key="phyle" ref="#gortyn"><w lemma="πυλά">πυλᾶς</w></rs> το͂ν αἰτιόντον
                           <lb n="7"/>ὄτιμί κα λε͂ι. <space extent="unknown" unit="character"/> ἀποδατε͂θαι δ<lb 
-                        break="no" n="8"/>ὲ το͂ν <w lemma="κρήματα">κρεμάτον</w> ἰο͂ι. <g type="leaf"/> αἰ δὲ μὲ
+                        break="no" n="8"/>ὲ το͂ν <w lemma="κρήματα">κρεμάτον</w> ἰο͂ι. <g ref="leaf"/> αἰ δὲ μὲ
                           <lb n="9"/>εἶεν ἐπιβάλλοντες τᾶι <surplus>παι</surplus> <w lemma="πατροιόκος">π<lb 
                         break="no" n="10"/>ατροιόκοι</w> ἆ<supplied reason="lost">ι</supplied> <w lemma="ἐγράφω"><supplied reason="lost">ἔ</supplied>γρατται</w>, τὰ <w lemma="κρήματα">κρ<lb 
                         break="no" n="11"/>έματα</w> πάντ’ ἔκ<supplied reason="lost">ον</supplied>σαν τᾶς <rs type="institution" subtype="social_group" role="belonging" key="phyle" ref="#gortyn"><w lemma="πυλά">πυ<lb 
                         break="no" n="12"/>λᾶς</w></rs> ὀπυίεθ<supplied reason="lost">α</supplied>ι ὄτιμί κα λε͂ι.
-                          <lb n="13"/><g type="leaf"/> αἰ δὲ τᾶς <rs type="institution" subtype="social_group" role="belonging" key="phyle" ref="#gortyn"><w lemma="πυλά">πυλ<supplied reason="lost">ᾶ</supplied>ς</w></rs> μέτι<corr>ς</corr> λε<lb 
+                          <lb n="13"/><g ref="leaf"/> αἰ δὲ τᾶς <rs type="institution" subtype="social_group" role="belonging" key="phyle" ref="#gortyn"><w lemma="πυλά">πυλ<supplied reason="lost">ᾶ</supplied>ς</w></rs> μέτι<corr>ς</corr> λε<lb 
                         break="no" n="14"/>ίοι <unclear>ὀ</unclear><supplied reason="lost">π</supplied>υίεν, τὸς καδεστὰνς
                           <lb n="15"/>τὸς τᾶς <w lemma="πατροιόκος">πατροιόκο</w> ϝε<unclear>ίπ</unclear>αι κ<lb 
                         break="no" n="16"/>ατὰ <supplied reason="lost">τὰν</supplied> <rs type="institution" subtype="social_group" role="belonging" key="phyle" ref="#gortyn"><w lemma="πυλά"><supplied reason="lost">πυλ</supplied>ὰν</w></rs> ὄτι οὐ <unclear>λ</unclear><supplied reason="lost">ε͂ι ὀ</supplied>πυ<lb 
@@ -553,7 +553,7 @@
                           <lb n="21"/>ὀ <rs type="institution" subtype="official" role="judicial_procedure" key="dikastas" ref="#gortyn"><w lemma="δικαστάς">δ<supplied reason="lost">ικ</supplied>αστὰς</w></rs> <w lemma="ὀμνύω">ὀμνὺς</w> <rs type="institution" subtype="practice" role="judicial_procedure" key="krino" ref="#gortyn"><w lemma="κρίνω">κρινέτο</w></rs>· αἰ
                           <lb n="22"/>δὲ <w lemma="νικάω">νικάσαι</w> μὲ τᾶς <w lemma="πατροιόκος">πατρ<supplied reason="lost">οι</supplied>όκ<lb 
                         break="no" n="23"/>ο</w> ἔ<unclear>με</unclear>ν, μολὲν ὄπε κ’ ἐπιβάλλει, 
-                          <lb n="24"/>ϝεκάστο <w lemma="ἐγράφω">ἔγρατται</w>. <g type="⧖"/> αἰ ἀν<supplied reason="lost">δ</supplied>εκσ<lb 
+                          <lb n="24"/>ϝεκάστο <w lemma="ἐγράφω">ἔγρατται</w>. <g ref="hourglass"/> αἰ ἀν<supplied reason="lost">δ</supplied>εκσ<lb 
                         break="no" n="25"/>ά<unclear>μ</unclear><supplied reason="lost">ε</supplied>νος ἒ <w lemma="νικάω">νενικαμένο<supplied reason="lost">ς</supplied></w> <supplied reason="lost">ἒ ἐν</supplied><unclear>κ</unclear><lb 
                         break="no" n="26"/>οιοτὰνς ὀπέλο<unclear>ν</unclear> ἒ διαβαλόμε<lb 
                         break="no" n="27"/>νος ἒ διαϝειπάμενος ἀποθά<lb 
@@ -572,7 +572,7 @@
                         break="no" n="40"/>ανς</w> <w lemma="νικάω">νικε͂ν</w> τὸ ἀπλόον. <space extent="unknown" unit="character"/> υἰὺς α<lb 
                         break="no" n="41"/>ἴ κ’ ἀνδέκσεται, ἆς κ’ ὀ <w lemma="πατήρ">πατὲ<corr>δ</corr></w> δόει,
                           <lb n="42"/>αὐτὸν ἀτε͂θαι καὶ τὰ <w lemma="κρήματα">κρέματα</w>
-                          <lb n="43"/>ἄτι κα πέπαται. <g type="⧖"/> αἴ τίς κα πέρα<lb 
+                          <lb n="43"/>ἄτι κα πέπαται. <g ref="hourglass"/> αἴ τίς κα πέρα<lb 
                         break="no" n="44"/>ι συναλ<supplied reason="lost">λάκ</supplied>σει,  ἐς πε͂ρ<supplied reason="lost">α</supplied>ν ἐπι<lb 
                         break="no" n="45"/>θέντι μὲ ἀποδιδο͂ι, αἰ μέν κ’ ἀ<lb 
                         break="no" n="46"/>ποπονίοντι <w lemma="μαῖτυς">μαίτυρες</w> <rs type="institution" subtype="age_class" role="judicial_procedure" key="ebion" ref="#gortyn"><w lemma="ἠβίων">ἐβίοντ<lb 
@@ -612,7 +612,7 @@
                         break="no" n="22"/>ολιομένας <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα">δίκας</w></rs> δοίε, αἰ
                           <lb n="23"/>μὲ εἴε τὰ λοιπὰ ἄκσια τᾶς ἄ<lb 
                         break="no" n="24"/>τας, μεδὲν ἐς κρέος ἔμεν τὰν
-                          <lb n="25"/><w lemma="δόσις">δόσιν</w>. <g type="ligo"/> <w lemma="ἄντρωπος">ἄντρο<supplied reason="lost">π</supplied>ον</w> μὲ <w lemma="ὠνέομαι">ὀνε͂θα<lb 
+                          <lb n="25"/><w lemma="δόσις">δόσιν</w>. <g ref="ligo"/> <w lemma="ἄντρωπος">ἄντρο<supplied reason="lost">π</supplied>ον</w> μὲ <w lemma="ὠνέομαι">ὀνε͂θα<lb 
                         break="no" n="26"/>ι</w> κατακείμενον πρίν κ’ ἀλλύσ<lb 
                         break="no" n="27"/>εται ὀ καταθένς, μεδ’ <w lemma="ἀμπίμολος">ἀμπίμο<lb 
                         break="no" n="28"/>λον</w>, μεδὲ δέκσαθαι μεδ’ <w lemma="ἐπισπένδω">ἐπισ<lb 

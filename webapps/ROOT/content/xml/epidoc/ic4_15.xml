@@ -63,7 +63,7 @@
                     <div type="textpart" subtype="part" n="C">
                         <ab>
                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> τιτοϝτὸς <unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ντος <g type="|"/> τον π<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ντος <g ref="long-vertical-bar"/> τον π<gap reason="lost" extent="unknown" unit="character"/>
                           </ab>
                     </div>
                     </div>

@@ -91,7 +91,7 @@
                         <ab>
                           <lb n="0"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="1"/><w lemma="πατήρ"><supplied reason="lost">πα</supplied><unclear>τ</unclear>ήρ</w> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ῤά</supplied><unclear>β</unclear>δοι <g type="|"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ῤά</supplied><unclear>β</unclear>δοι <g ref="long-vertical-bar"/>
                           <lb n="2a"/><gap reason="lost" quantity="1" unit="line"/>
                          </ab>
                         </div>
@@ -127,7 +127,7 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="L">
                         <ab>  
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>αι</orig> <g type="|"/> <orig>π</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>αι</orig> <g ref="long-vertical-bar"/> <orig>π</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>τα</orig><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2a"/><gap reason="lost" quantity="1" unit="line"/>
                          </ab>
@@ -186,14 +186,14 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="U">
                         <ab> 
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὀδελός"><supplied reason="lost">ὀ</supplied>δελὸς</w> <g type="|"/> θηλεια<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὀδελός"><supplied reason="lost">ὀ</supplied>δελὸς</w> <g ref="long-vertical-bar"/> θηλεια<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><orig><unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="4" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2a"/><gap reason="lost" quantity="1" unit="line"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="V">
                         <ab> 
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> ὄς κα δ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g ref="long-vertical-bar"/> ὄς κα δ<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2a"/><gap reason="lost" quantity="1" unit="line"/>
                          </ab>

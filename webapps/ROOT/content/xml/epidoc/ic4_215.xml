@@ -79,7 +79,7 @@
                           <lb n="1"/><persName type="honoured" key="Gaios Lytatios Krispos" ref="#ptolemais"><name nymRef="Γάιος"><expan><abbr>Γ</abbr><ex>άϊος</ex></expan></name> <name nymRef="Λυτάτιος">Λυτ<surplus>ο</surplus>άτιος</name> <name nymRef="Κρίσπος">Κρίσπος</name></persName> <rs type="institution" subtype="official" role="honoured" key="stratiotes" ref="#gortyn"><w lemma="στρατιώτης">στρα<lb 
                             break="no" n="2"/>τιώτης</w> <placeName ref="#ptolemais" type="ethnic"><expan><abbr>Πτο</abbr><ex>λεμαιεὺς</ex></expan></placeName></rs> <rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξε<lb 
                             break="no" n="3"/>νος</w></rs> καὶ <rs type="institution" subtype="social_status" role="granted_as_privilege" key="polites" ref="#gortyn"><w lemma="πολίτας">πολίτας</w></rs> αὐτὸς καὶ <w lemma="ἔγγονος">ἔγγονοι</w>.
-                          <lb n="4"/><g type="leaf"/>
+                          <lb n="4"/><g ref="leaf"/>
                           </ab>
                     </div>
                     </div>

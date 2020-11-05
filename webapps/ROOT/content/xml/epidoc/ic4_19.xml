@@ -55,8 +55,8 @@
                 <body>
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>σθαι <g type="|"/> ὄζοι <unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς δ’ ἄτερος <g type="|"/> μι<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>σθαι <g ref="long-vertical-bar"/> ὄζοι <unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ς δ’ ἄτερος <g ref="long-vertical-bar"/> μι<unclear>σ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> κ’ ἐς <rs type="institution" subtype="social_group" role="belonging" key="phyle" ref="#gortyn"><w lemma="πυλή">πυλ<unclear>ᾶ</unclear><supplied reason="lost">ς</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
                           </ab>
                     </div>

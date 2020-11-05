@@ -55,14 +55,14 @@
                 <body>
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>οι <g type="|"/> <rs type="institution" subtype="age_class" role="regulation" key="kouros" ref="#lyttos" cert="low"><w lemma="ϙόρος">ϙορο<lb 
-                        break="no" n="2"/>ι</w></rs> <g type="|"/> ὀξοι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>οι <g ref="long-vertical-bar"/> <rs type="institution" subtype="age_class" role="regulation" key="kouros" ref="#lyttos" cert="low"><w lemma="ϙόρος">ϙορο<lb 
+                        break="no" n="2"/>ι</w></rs> <g ref="long-vertical-bar"/> ὀξοι<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig><unclear>ι</unclear></orig>ο ἀποδ<lb 
                         break="no" n="4"/>ομενο<gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ιοι <g type="|"/> ὀ <placeName ref="#lyttos" type="ethnic">Λύ<lb 
-                        break="no" n="6"/>κτιος</placeName> <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>δοι <g type="|"/> ὀνυ<lb 
-                        break="no" n="8"/>μεν <g type="|"/> αἰ ἀπ<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>ιοι <g ref="long-vertical-bar"/> ὀ <placeName ref="#lyttos" type="ethnic">Λύ<lb 
+                        break="no" n="6"/>κτιος</placeName> <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>δοι <g ref="long-vertical-bar"/> ὀνυ<lb 
+                        break="no" n="8"/>μεν <g ref="long-vertical-bar"/> αἰ ἀπ<unclear>ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">α</supplied>ἰ <w lemma="ἐγράφω"><supplied reason="lost">ἔ</supplied>γρατ<supplied reason="lost">τ</supplied><lb 
                         break="no" n="10"/><supplied reason="lost">αι</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="10a"/><gap reason="lost" quantity="1" unit="line"/>

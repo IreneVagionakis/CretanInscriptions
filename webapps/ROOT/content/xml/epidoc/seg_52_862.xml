@@ -55,7 +55,7 @@
                 <body>
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
-                          <lb n="1"/>Παῖστος <g type="|"/> <w lemma="ἀνατίθημι">ἀνέθηκε</w> <g type="|"/> Συβρίτας <g type="|"/> τ<unclear>ὰ</unclear>ν <w lemma="δεκάτα"><supplied reason="lost">δ</supplied>ε<supplied reason="lost">κ</supplied>ά<unclear>τα</unclear>ν</w>.
+                          <lb n="1"/>Παῖστος <g ref="long-vertical-bar"/> <w lemma="ἀνατίθημι">ἀνέθηκε</w> <g ref="long-vertical-bar"/> Συβρίτας <g ref="long-vertical-bar"/> τ<unclear>ὰ</unclear>ν <w lemma="δεκάτα"><supplied reason="lost">δ</supplied>ε<supplied reason="lost">κ</supplied>ά<unclear>τα</unclear>ν</w>.
                           </ab>
                     </div>
                     <div type="commentary">

@@ -55,7 +55,7 @@
                 <body>
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
-                          <lb n="1"/><g type="year"/> <num value="14"><unclear>ι</unclear>δ</num> Ἀπελλαίου <rs type="institution" subtype="official" role="dedicatee_deceased" key="theoros" ref="#apollonia"><persName type="attested" key="-a-ar- f. Tharsyphas"><name nymRef="-α-αρ-"><gap reason="illegible" quantity="1" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>αρ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/></name>
+                          <lb n="1"/><g ref="year"/> <num value="14"><unclear>ι</unclear>δ</num> Ἀπελλαίου <rs type="institution" subtype="official" role="dedicatee_deceased" key="theoros" ref="#apollonia"><persName type="attested" key="-a-ar- f. Tharsyphas"><name nymRef="-α-αρ-"><gap reason="illegible" quantity="1" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>αρ</unclear></orig><gap reason="illegible" quantity="2" unit="character"/></name>
                           <lb n="2"/><name nymRef="Θαρσυφᾶς" type="patronymic">Θαρσύφα</name></persName>
                           <lb n="3"/><w lemma="θεωρός">θεωρὸς</w> <placeName ref="#crete" type="ethnic">Κρ<supplied reason="lost">ὴς</supplied></placeName>
                           <lb n="4"/><placeName ref="#apollonia" type="ethnic">Ἀπολλων<supplied reason="lost">ι</supplied>ε<supplied reason="lost">ὺς</supplied></placeName></rs>

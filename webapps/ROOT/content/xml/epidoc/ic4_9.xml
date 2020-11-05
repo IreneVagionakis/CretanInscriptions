@@ -59,12 +59,12 @@
                     <div type="textpart" subtype="part">
                     <div type="textpart" subtype="fragment" n="A-B">
                         <ab>
-                          <lb n="1"/><supplied reason="lost">τ</supplied>ο͂ <rs type="institution" subtype="public_space" role="unknown" key="agreion" ref="#gortyn"><w lemma="ἀγρήιον">ἀγρήιο</w></rs> <g type="|"/> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>α<unclear>λ</unclear>ρ</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><supplied reason="lost">τ</supplied>ο͂ <rs type="institution" subtype="public_space" role="unknown" key="agreion" ref="#gortyn"><w lemma="ἀγρήιον">ἀγρήιο</w></rs> <g ref="long-vertical-bar"/> <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><orig>α<unclear>λ</unclear>ρ</orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="C-G">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ι</orig><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>ος <g type="|"/> ἄγεν <g type="|"/> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> πον<unclear>ό</unclear>σει <g type="|"/> ἢ <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα"><unclear>δ</unclear>ίκ<supplied reason="lost">αν</supplied></w></rs> <w lemma="δικάζω">δ<supplied reason="lost">ι</supplied>κάζ<unclear>ε</unclear><supplied reason="lost">ν</supplied></w> <g type="|"/> ἢ ἀ<unclear>ϝτ</unclear>ὸ<supplied reason="lost">ς</supplied> κατα<gap reason="lost" extent="unknown" unit="character"/><orig>ηι</orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/><orig>ε</orig><gap reason="illegible" quantity="2" unit="character"/><orig>ι</orig><gap reason="lost" extent="unknown" unit="character"/><unclear>ι</unclear>ος <g ref="long-vertical-bar"/> ἄγεν <g ref="long-vertical-bar"/> <gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/> πον<unclear>ό</unclear>σει <g ref="long-vertical-bar"/> ἢ <rs type="institution" subtype="practice" role="judicial_procedure" key="dika" ref="#gortyn"><w lemma="δίκα"><unclear>δ</unclear>ίκ<supplied reason="lost">αν</supplied></w></rs> <w lemma="δικάζω">δ<supplied reason="lost">ι</supplied>κάζ<unclear>ε</unclear><supplied reason="lost">ν</supplied></w> <g ref="long-vertical-bar"/> ἢ ἀ<unclear>ϝτ</unclear>ὸ<supplied reason="lost">ς</supplied> κατα<gap reason="lost" extent="unknown" unit="character"/><orig>ηι</orig><gap reason="illegible" quantity="1" unit="character"/><orig><unclear>γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="H">
@@ -74,7 +74,7 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="I-L">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ελες <g type="|"/> ον <g type="|"/> ἐλ<supplied reason="lost">ὸ</supplied>ν <g type="|"/> μ<unclear>η</unclear> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>λεν <g type="|"/> <unclear>το͂</unclear> <rs type="institution" subtype="public_space" role="unknown" key="agreion" ref="#gortyn"><w lemma="ἀγρήιον"><unclear>ἀ</unclear>γρήιο </w></rs><g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ελες <g ref="long-vertical-bar"/> ον <g ref="long-vertical-bar"/> ἐλ<supplied reason="lost">ὸ</supplied>ν <g ref="long-vertical-bar"/> μ<unclear>η</unclear> <gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="2" unit="character"/>λεν <g ref="long-vertical-bar"/> <unclear>το͂</unclear> <rs type="institution" subtype="public_space" role="unknown" key="agreion" ref="#gortyn"><w lemma="ἀγρήιον"><unclear>ἀ</unclear>γρήιο </w></rs><g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="M-N">
@@ -87,7 +87,7 @@
                     <div type="textpart" subtype="part">
                     <div type="textpart" subtype="fragment" n="A*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> <orig><unclear>η</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig><unclear>η</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g ref="long-vertical-bar"/> <orig><unclear>η</unclear></orig><gap reason="illegible" quantity="3" unit="character"/><orig><unclear>η</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="B*">
@@ -137,12 +137,12 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="N*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὄρϙος">ὄρϙοι</w> <g type="|"/> ἢ ἐ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὄρϙος">ὄρϙοι</w> <g ref="long-vertical-bar"/> ἢ ἐ<gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="O*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν μολοῖ <g type="|"/> ἢ <rs type="institution" subtype="official" role="unknown" key="propolos" ref="#gortyn"><w part="I" lemma="πρόπολος">προπο<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν μολοῖ <g ref="long-vertical-bar"/> ἢ <rs type="institution" subtype="official" role="unknown" key="propolos" ref="#gortyn"><w part="I" lemma="πρόπολος">προπο<unclear>λ</unclear><gap reason="lost" extent="unknown" unit="character"/></w></rs>
                           </ab>
                     </div>
                     </div>

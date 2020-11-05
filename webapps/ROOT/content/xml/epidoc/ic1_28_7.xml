@@ -57,14 +57,14 @@
                     <div type="textpart" subtype="face" n="A">
                         <ab>
                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">παν</supplied>σεϝδὶ ἀποϝει<supplied reason="lost">π</supplied> <gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>κα ϝέκτος <g type="|"/> α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> πέρηται <g type="|"/> πσε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>εν <g type="|"/> ἐπεὶ τάδε <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>κα ϝέκτος <g ref="long-vertical-bar"/> α<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> πέρηται <g ref="long-vertical-bar"/> πσε<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>εν <g ref="long-vertical-bar"/> ἐπεὶ τάδε <gap reason="lost" extent="unknown" unit="character"/>
                           </ab>
                         </div>
                     <div type="textpart" subtype="face" n="B">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ι <g type="|"/> τρισϝε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ι <g ref="long-vertical-bar"/> τρισϝε<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="3" unit="character"/><orig>νο</orig><gap reason="lost" extent="unknown" unit="character"/>
                           </ab>
                         </div>
@@ -79,7 +79,7 @@
                         <ab>
                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="preisgeia" ref="#rhittenia"><w lemma="πρεισγήια">πρεισγήια</w></rs>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>μενεα ἢ συν πλι<gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="preisgeia" ref="#rhittenia"><w lemma="πρεισγήια">πρεσγήιαι</w></rs> <g type="|"/> ο
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="preisgeia" ref="#rhittenia"><w lemma="πρεισγήια">πρεσγήιαι</w></rs> <g ref="long-vertical-bar"/> ο
                           </ab>
                     </div>
                     </div>

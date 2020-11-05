@@ -60,7 +60,7 @@
                         <div type="textpart" subtype="part">
                     <div type="textpart" subtype="fragment" n="A">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> κ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g ref="long-vertical-bar"/> κ<gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="B">
@@ -70,12 +70,12 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="C-E">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατι</supplied><unclear>σ</unclear>τάντον <g type="|"/> καὶ <unclear>τ</unclear>ο͂ν δενδρέ<supplied reason="lost">ον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατι</supplied><unclear>σ</unclear>τάντον <g ref="long-vertical-bar"/> καὶ <unclear>τ</unclear>ο͂ν δενδρέ<supplied reason="lost">ον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="F-H">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> κατισ<supplied reason="lost">τά</supplied> <gap reason="lost" extent="unknown" unit="character"/>ν <g type="|"/> πεντήϙοντα <w lemma="λέβης"><unclear>λ</unclear><supplied reason="lost">έβητας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> κατισ<supplied reason="lost">τά</supplied> <gap reason="lost" extent="unknown" unit="character"/>ν <g ref="long-vertical-bar"/> πεντήϙοντα <w lemma="λέβης"><unclear>λ</unclear><supplied reason="lost">έβητας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="I">
@@ -85,32 +85,32 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="K-L">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="λέβης"><supplied reason="lost">λέβ</supplied>ητας</w> <g type="|"/> ϝέκαστον <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="λέβης"><supplied reason="lost">λέβ</supplied>ητας</w> <g ref="long-vertical-bar"/> ϝέκαστον <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="M-N">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="λέβης"><supplied reason="lost">λ</supplied>έβητας</w> <g type="|"/> ϝὲκς το<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="λέβης"><supplied reason="lost">λ</supplied>έβητας</w> <g ref="long-vertical-bar"/> ϝὲκς το<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="O-P">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> αἰ κ’ ἐσδέκσεται <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g ref="long-vertical-bar"/> αἰ κ’ ἐσδέκσεται <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="Q-R">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ον <g type="|"/> διπλῆι <g type="|"/> παντο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ον <g ref="long-vertical-bar"/> διπλῆι <g ref="long-vertical-bar"/> παντο<gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="S-T">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ϝί</supplied><unclear>κ</unclear>ατι <w lemma="λέβης">λέβητας</w> <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ϝί</supplied><unclear>κ</unclear>ατι <w lemma="λέβης">λέβητας</w> <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="U">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατισ</supplied><unclear>τ</unclear>άντον <g type="|"/> ἐ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατισ</supplied><unclear>τ</unclear>άντον <g ref="long-vertical-bar"/> ἐ<gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="V">
@@ -125,17 +125,17 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="Z">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear>οι <g type="|"/> κατιστάτο <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear>οι <g ref="long-vertical-bar"/> κατιστάτο <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="A*-B*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατιστάντ</supplied><unclear>ο</unclear>ν <g type="|"/> π<unclear>ε</unclear>ντήϙοντ<unclear>α</unclear> <w lemma="λέβης"><supplied reason="lost">λέβητας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατιστάντ</supplied><unclear>ο</unclear>ν <g ref="long-vertical-bar"/> π<unclear>ε</unclear>ντήϙοντ<unclear>α</unclear> <w lemma="λέβης"><supplied reason="lost">λέβητας</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="C*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>ν <g type="|"/> <unclear>τ</unclear>ο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>ν <g ref="long-vertical-bar"/> <unclear>τ</unclear>ο<gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="D*">
@@ -160,7 +160,7 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="H*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ς <g type="|"/> ὄς κ<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ς <g ref="long-vertical-bar"/> ὄς κ<supplied reason="lost">α</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="I*">
@@ -170,12 +170,12 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="K*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g type="|"/> λαγα<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g ref="long-vertical-bar"/> λαγα<gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="L*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ι <g type="|"/> το τ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ι <g ref="long-vertical-bar"/> το τ<gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="M*">
@@ -185,22 +185,22 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="N*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν <g type="|"/> ἐν μὲν <unclear>οσ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν <g ref="long-vertical-bar"/> ἐν μὲν <unclear>οσ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="O*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν ἀϝτὰν <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν ἀϝτὰν <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="P*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear> <w lemma="λέβης">λέβητα</w> <g type="|"/> <unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ς</unclear> <w lemma="λέβης">λέβητα</w> <g ref="long-vertical-bar"/> <unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="Q*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ς <rs type="institution" subtype="assembly" role="unknown" key="demos" ref="#gortyn"><w lemma="δᾶμος">δᾶμον</w></rs> <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ς <rs type="institution" subtype="assembly" role="unknown" key="demos" ref="#gortyn"><w lemma="δᾶμος">δᾶμον</w></rs> <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="R*">
@@ -210,7 +210,7 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="S*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ον <g type="|"/> <unclear>τ</unclear>α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ον <g ref="long-vertical-bar"/> <unclear>τ</unclear>α<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
@@ -223,12 +223,12 @@
                     <div type="textpart" subtype="part" n="a">
                     <div type="textpart" subtype="fragment" n="P*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>ρετυος <g type="|"/> κατὰ <unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ε</unclear>ρετυος <g ref="long-vertical-bar"/> κατὰ <unclear>τ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="Q*">
                         <ab>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ερμει <g type="|"/> μή ποκα <unclear>δ</unclear><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ερμει <g ref="long-vertical-bar"/> μή ποκα <unclear>δ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                          </ab>
                         </div>
                     <div type="textpart" subtype="fragment" n="R*">

@@ -54,7 +54,7 @@
         <body>
             <div type="edition" xml:lang="grc" xml:space="preserve">
                 <ab>
-                        <lb n="1"/><supplied reason="lost"><g type="year"/></supplied> <num value="18"><unclear>ι</unclear>η</num>, Περιτίου <num value="11">ια</num>,
+                        <lb n="1"/><supplied reason="lost"><g ref="year"/></supplied> <num value="18"><unclear>ι</unclear>η</num>, Περιτίου <num value="11">ια</num>,
                         <lb n="2"/><supplied reason="lost">διὰ Σ</supplied>αραπίωνος
                         <lb n="3"/><rs type="institution" subtype="official" role="dedicatee_deceased" key="presbeutes" ref="#polyrrhenia"><persName type="attested" key="-r- f. Menon"><name nymRef="-ρ-"><gap reason="lost" quantity="4" unit="character"/>ρ<gap reason="lost" quantity="5" unit="character"/></name> <name nymRef="Μένων" type="patronymic">Μένωνος</name></persName>
                         <lb n="4"/><placeName ref="#polyrrhenia" type="ethnic"><supplied reason="lost">Πολ</supplied>υρήνιος</placeName>, 

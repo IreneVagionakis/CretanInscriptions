@@ -59,11 +59,11 @@
                           <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
                           <lb n="1"/>ιοσιτε η<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="dikastas" ref="#lyttos"><w lemma="δικαστάς"><supplied reason="lost">δ</supplied>ικαστα<lb 
-                        break="no" n="3"/>ὶ</w></rs> ἰς τ<corr>ὰ</corr>ν <g type="|"/> α<gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ασι <g type="|"/> <orig>αια</orig>
-                          <lb n="5"/><orig>ια</orig> <g type="|"/> <orig>η</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ουο</orig>
-                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>αιτο <g type="|"/> ἔ<lb 
-                        break="no" n="7"/>τι <g type="|"/> το͂ι το<gap reason="illegible" quantity="1" unit="character"/>
+                        break="no" n="3"/>ὶ</w></rs> ἰς τ<corr>ὰ</corr>ν <g ref="long-vertical-bar"/> α<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ασι <g ref="long-vertical-bar"/> <orig>αια</orig>
+                          <lb n="5"/><orig>ια</orig> <g ref="long-vertical-bar"/> <orig>η</orig><gap reason="illegible" quantity="1" unit="character"/><orig>ουο</orig>
+                          <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>αιτο <g ref="long-vertical-bar"/> ἔ<lb 
+                        break="no" n="7"/>τι <g ref="long-vertical-bar"/> το͂ι το<gap reason="illegible" quantity="1" unit="character"/>
                           <lb n="7a"/><space quantity="1" unit="line"/>
                           </ab>
                     </div>
@@ -71,11 +71,11 @@
                         <ab>
                           <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig>ημε</orig><gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><g type="|"/> τον ἀλ<unclear>λ</unclear><supplied reason="lost">ο</supplied> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><g ref="long-vertical-bar"/> τον ἀλ<unclear>λ</unclear><supplied reason="lost">ο</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/> τὸν <persName type="divine" key="Hermes">Ἐρ<unclear>μ</unclear><lb 
                               break="no" n="4"/><unclear>ε̃ν</unclear></persName> ἢ ἐν <gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>αν<unclear>ρ</unclear>ατε</orig>
-                          <lb n="6"/><gap reason="illegible" quantity="1" unit="character"/><orig>αοι</orig> <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/><gap reason="illegible" quantity="1" unit="character"/><orig>αοι</orig> <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>νιπα</orig>
                           <lb n="7a"/><space quantity="1" unit="line"/>
                           </ab>

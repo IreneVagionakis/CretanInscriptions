@@ -56,13 +56,13 @@
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
                           <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>οίη <g type="|"/> ἀ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>οιτο <g type="|"/> ἠ<gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>οίη <g ref="long-vertical-bar"/> ἀ<gap reason="illegible" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear>σ</unclear>οιτο <g ref="long-vertical-bar"/> ἠ<gap reason="illegible" quantity="1" unit="character"/><orig>ο</orig><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ι ἢ <rs type="institution" subtype="board" role="incumbent" key="kosmos" ref="#lyttos"><w lemma="ϙοσμέω">ϙοσμίο<gap reason="lost" extent="unknown" unit="character"/></w></rs>
-                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ι <g type="|"/> παριοντο<gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_group" role="unknown" key="polites" ref="#lyttos"><w lemma="πολιάτας">πολιατᾶν</w></rs> <g type="|"/> ἠ <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ι <g ref="long-vertical-bar"/> παριοντο<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_group" role="unknown" key="polites" ref="#lyttos"><w lemma="πολιάτας">πολιατᾶν</w></rs> <g ref="long-vertical-bar"/> ἠ <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> δ’ ἀλᾶι <w lemma="τίθημι">θεῖε<supplied reason="lost" cert="low">ν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ιον <g type="|"/> μὴ πημ<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>ιον <g ref="long-vertical-bar"/> μὴ πημ<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/>α <unclear>δ</unclear>’ ἀλᾶι <w lemma="τίθημι">θε<supplied reason="lost" cert="low">ῖεν</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="8a"/><gap reason="lost" quantity="1" unit="line"/>
                           </ab>

@@ -56,7 +56,7 @@
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="social_group" role="unknown" key="polisE" ref="#rhittenia" cert="low"><placeName ref="#rhittenia"><supplied reason="lost">Ῥ</supplied><unclear>ι</unclear>ζενία</placeName></rs> <gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>οι</orig> <g type="|"/> <orig><unclear>ϝ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/><orig>οι</orig> <g ref="long-vertical-bar"/> <orig><unclear>ϝ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
                           </ab>
                     </div>
                     <div type="commentary">

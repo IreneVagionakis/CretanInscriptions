@@ -143,8 +143,8 @@
                           <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>ον τὸν κεχα<corr>ρ</corr><supplied reason="lost" cert="low">αγμένον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/>υεος λίμνας <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> ἐπὶ τὸ μείλιο<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>οτο αν <g type="middot"/> ος <gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>υτριο <g type="middot"/> οι<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>οτο αν <g ref="middot"/> ος <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="10"/><gap reason="lost" extent="unknown" unit="character"/>υτριο <g ref="middot"/> οι<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="11"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost" cert="low">κ</supplied>εχα<corr>ρα</corr><supplied reason="lost" cert="low">γμένον</supplied> <gap reason="lost" extent="unknown" unit="character"/>
                           </ab>
                             </div>

@@ -58,10 +58,10 @@
                         <ab>
                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" quantity="1" unit="character"/>ς ϝίκα<lb 
                         break="no" n="2"/><supplied reason="lost">τι</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">ἀ</supplied>ϝυτὰν
-                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>το͂</unclear> <rs type="institution" subtype="social_status" role="regulation" key="oikeus" ref="#gortyn"><w lemma="ϝοικεύς">ϝοικ<unclear>ή</unclear>ος</w></rs> <g type="|"/>
-                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear> ἐσβολὰν ἤμ<supplied reason="lost">ε</supplied>ν <g type="|"/>
+                          <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>το͂</unclear> <rs type="institution" subtype="social_status" role="regulation" key="oikeus" ref="#gortyn"><w lemma="ϝοικεύς">ϝοικ<unclear>ή</unclear>ος</w></rs> <g ref="long-vertical-bar"/>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear>ν</unclear> ἐσβολὰν ἤμ<supplied reason="lost">ε</supplied>ν <g ref="long-vertical-bar"/>
                           <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear>τε</unclear>σθαι <gap reason="illegible" quantity="2" unit="character"/><orig>οτο</orig><gap reason="illegible" quantity="1" unit="character"/>ς
-                          <lb n="6"/>αι το͂ ϝο͂ ἀποδόμεν <g type="|"/> <gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="6"/>αι το͂ ϝο͂ ἀποδόμεν <g ref="long-vertical-bar"/> <gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/> <unclear>α</unclear>ἰ μὴ ϙ’ ὀπυστυῖ μ<unclear>η</unclear>
                           <lb n="8"/><w lemma="ἐννϝοικέω"><supplied reason="lost">ἐ</supplied>νϝοικε͂ν</w> <unclear>ε</unclear> <space quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> τὸν <placeName ref="#gortyn" type="ethnic"><unclear>Γ</unclear><supplied reason="lost">ο</supplied>ρτ<unclear>ύ</unclear>νιον</placeName>
                           <lb n="9"/><orig>τι</orig><gap reason="lost" extent="unknown" unit="character"/>

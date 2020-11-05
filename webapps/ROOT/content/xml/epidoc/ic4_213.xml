@@ -56,7 +56,7 @@
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                     <div type="textpart" subtype="part" n="A">
                         <ab>
-                          <lb n="1"/><persName type="honoured" key="Markos Minykios Rhouphos" ref="#rome"><name nymRef="Μᾶρκος"><expan><abbr>Μ</abbr><ex>ᾶρκος</ex></expan></name> <g type="middot"/> <name nymRef="Μινύκιος">Μινύκι<supplied reason="lost">ος</supplied></name> <name nymRef="Ῥοῦφος">Ῥο<supplied reason="lost">ῦφος</supplied></name></persName>
+                          <lb n="1"/><persName type="honoured" key="Markos Minykios Rhouphos" ref="#rome"><name nymRef="Μᾶρκος"><expan><abbr>Μ</abbr><ex>ᾶρκος</ex></expan></name> <g ref="middot"/> <name nymRef="Μινύκιος">Μινύκι<supplied reason="lost">ος</supplied></name> <name nymRef="Ῥοῦφος">Ῥο<supplied reason="lost">ῦφος</supplied></name></persName>
                           <lb n="2"/><rs type="institution" subtype="assembly" role="decreer" key="polisE" ref="#gortyn"><placeName ref="#gortyn" type="ethnic">Γορτυνίων</placeName></rs> <supplied reason="lost"><rs type="institution" subtype="social_status" role="granted_as_privilege" key="proxenos" ref="#gortyn"><w lemma="πρόξενος">πρόξενος</w></rs></supplied>
                           <lb n="3"/>αὐτὸς κ<unclear>α</unclear><supplied reason="lost">ὶ <w lemma="ἔγγονος">ἔγγονοι</w></supplied>.
                          </ab>

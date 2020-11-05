@@ -54,7 +54,7 @@
         <body>
             <div type="edition" xml:lang="grc" xml:space="preserve">
                 <ab>
-                        <lb n="1"/><g type="year"/> <num value="2">β</num>, μηνὸς Πανήμου, διὰ Θευδότου
+                        <lb n="1"/><g ref="year"/> <num value="2">β</num>, μηνὸς Πανήμου, διὰ Θευδότου
                         <lb n="2"/><rs type="institution" subtype="official" role="dedicatee_deceased" key="presbeutes" ref="#phalasarna"><persName type="attested" key="Androkles f. Epigenes"><name nymRef="Ἀνδροκλῆς">Ἀνδρο<unclear>κ</unclear>λῆς</name> <name nymRef="Ἐπιγένης" type="patronymic">Ἐπιγένους</name> <placeName ref="#phalasarna" type="ethnic">Φαλασάρνιος</placeName> <placeName ref="#crete" type="ethnic">Κρής</placeName></persName></rs>.
                 </ab>
             </div>

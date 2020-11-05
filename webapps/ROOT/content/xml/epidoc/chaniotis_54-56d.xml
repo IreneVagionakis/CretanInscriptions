@@ -56,7 +56,7 @@
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
                           <lb n="1"/><rs type="institution" subtype="assembly" role="dedicant" key="polisE" ref="#lato"><placeName ref="#lato" type="ethnic"><supplied reason="lost">Λάτιο</supplied>ι</placeName></rs> <persName type="divine" key="Aphrodite">Ἀφροδίται</persName>
-                          <lb n="2"/><w lemma="νικάω">νικάσ<g type="⨇"/>αντες</w>
+                          <lb n="2"/><w lemma="νικάω">νικάσ<g ref="linear-B-je"/>αντες</w>
                           <lb n="3"/><rs type="institution" subtype="tribe" role="eponym" key="Aischeis" ref="#lato">ἐπὶ τῶν <w lemma="Αἰσχεῖς">Αἰσχέων</w></rs>
                           <lb n="4"/><placeName ref="#olous" type="ethnic">Βολοντίος</placeName>.
                         </ab>

@@ -62,7 +62,7 @@
                         break="no" n="4"/>μοῦντα</w></rs> κατ’ ἔτος ἢ <rs type="institution" subtype="official" role="distributor" key="epimeletes" ref="#lyttos"><w lemma="ἐπιμελέομαι">ἐπιμελούμε<lb 
                         break="no" n="5"/>νον</w></rs> διδόναι διανομὴν <rs type="institution" subtype="festivity" role="calendar" key="Thiodaisia" ref="#lyttos"><w lemma="Θεοδαίσια">Θεο<corr>δα</corr>ι<lb 
                         break="no" n="6"/>σίοις</w></rs> ἐκ τῶν <w lemma="δόσις">δόσεων</w> ὧν οἱ <rs type="institution" subtype="social_group" role="payments" key="startos" ref="#lyttos"><w lemma="σταρτός">στάρ<lb 
-                        break="no" n="7"/>τοι</w></rs> λαμβάνουσιν <g type="denarius"/> <num value="1500">αφ</num> καὶ Μα<lb 
+                        break="no" n="7"/>τοι</w></rs> λαμβάνουσιν <g ref="denarius"/> <num value="1500">αφ</num> καὶ Μα<lb 
                         break="no" n="8"/>ΐαις <expan><abbr>Καλ</abbr><ex>άνδαις</ex></expan> ἐκ τῶν ταῖς <rs type="institution" subtype="social_group" role="payments" key="phyle" ref="#lyttos"><w lemma="φυλά">φυλαῖς</w></rs> δι<lb 
                         break="no" n="9"/>δομένων <w lemma="χρήματα">χρημάτων</w>, τὸ ἐνδέον
                           <lb n="10"/>οἴκοθεν προσεισφέροντα ἀμφοτέ<lb 

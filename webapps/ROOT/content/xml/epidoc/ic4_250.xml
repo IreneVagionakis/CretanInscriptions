@@ -58,7 +58,7 @@
                           <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="Kretarchas" ref="#koinon_kretaieon">ἐπὶ <persName type="attested" key="Kydas f. Kydas (3)"><name nymRef="Κύδας">Κύδαντος</name> τῶ
                           <lb n="2"/><name nymRef="Κύδας" type="patronymic">Κύδαντος</name></persName> <w lemma="Κρητάρχας">Κρητάρ<lb 
                         break="no" n="3"/>χα</w></rs> καὶ <rs type="institution" subtype="official" role="eponym" key="archos" ref="#gortyn"><w lemma="ἀρχός">ἀ<unclear>ρ</unclear>χῶ</w> ὅ<unclear>κ</unclear>α τὸ <num value="10">ι</num></rs>
-                          <lb n="4"/><rs type="institution" subtype="official" role="dedicant" key="agoranomos" ref="#gortyn"><persName type="attested" key="Kydas f. Apnatos Pontikos"><name nymRef="Κύδας">Κύδας</name> <name nymRef="Ἄπνατος" type="patronymic">Ἀπ<unclear>ν</unclear>άτω</name> <g type="|"/> τῶ <name nymRef="Ποντικός" type="patronymic">Π<g type="|"/>οντι<g type="|"/>κῶ</name></persName>
+                          <lb n="4"/><rs type="institution" subtype="official" role="dedicant" key="agoranomos" ref="#gortyn"><persName type="attested" key="Kydas f. Apnatos Pontikos"><name nymRef="Κύδας">Κύδας</name> <name nymRef="Ἄπνατος" type="patronymic">Ἀπ<unclear>ν</unclear>άτω</name> <g ref="long-vertical-bar"/> τῶ <name nymRef="Ποντικός" type="patronymic">Π<g ref="long-vertical-bar"/>οντι<g ref="long-vertical-bar"/>κῶ</name></persName>
                           <lb n="5"/><w lemma="ἀγορανομέω">ἀγορανομήσας</w></rs>
                           <lb n="6"/><persName type="divine" key="Eueteria">Εὐετηρίᾳ</persName>.
                           </ab>

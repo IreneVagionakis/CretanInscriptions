@@ -56,8 +56,8 @@
                     <div type="edition" xml:lang="grc" xml:space="preserve">
                         <ab>
                           <lb n="0"/><gap reason="lost" quantity="1" unit="line"/>
-                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>κίαι <g type="|"/> πε<gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>σι <g type="|"/> αἰν<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>κίαι <g ref="long-vertical-bar"/> πε<gap reason="lost" extent="unknown" unit="character"/>
+                          <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>σι <g ref="long-vertical-bar"/> αἰν<gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="board" role="unknown" key="kosmos" ref="#gortyn"><w lemma="ϙόσμος"><supplied reason="lost">ϙ</supplied>όσμοι</w></rs> <unclear>κ</unclear><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="3a"/><gap reason="lost" quantity="1" unit="line"/>
                           </ab>

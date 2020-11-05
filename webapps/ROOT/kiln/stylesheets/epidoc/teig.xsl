@@ -408,56 +408,56 @@
     <!-- creta specific template -->
    <xsl:template name="g-creta">
       <xsl:choose>
-         <xsl:when test="@type='dipunct'">
+         <xsl:when test="@ref='dipunct'">
             <xsl:text>∶</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='tripunct'">
+         <xsl:when test="@ref='tripunct'">
             <xsl:text>⋮</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='|'">
+         <xsl:when test="@ref='long-vertical-bar'">
             <xsl:text>|</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='middot'">
+         <xsl:when test="@ref='middot'">
             <xsl:text>·</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='leaf'">
+         <xsl:when test="@ref='leaf'">
             <xsl:text>❦</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='year'">
+         <xsl:when test="@ref='year'">
             <xsl:text>∟</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='swastika'">
+         <xsl:when test="@ref='swastika'">
             <xsl:text>卐</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='palmula'">
+         <xsl:when test="@ref='palmula'">
             <xsl:text>⸙</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='⧖'">
+         <xsl:when test="@ref='hourglass'">
             <xsl:text>⧖</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>         
-         <xsl:when test="@type='⨇'">
+         <xsl:when test="@ref='linear-B-je'">
             <xsl:text>⨇</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='denarius'">
+         <xsl:when test="@ref='denarius'">
             <xsl:text>(denarius)</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
-         <xsl:when test="@type='ligo'">
+         <xsl:when test="@ref='ligo'">
             <xsl:text>(ligo)</xsl:text>
             <xsl:call-template name="g-unclear-symbol"/>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:value-of select="@type"/>
+            <xsl:value-of select="@ref"/>
             <xsl:call-template name="g-unclear-string"/>
          </xsl:otherwise>
       </xsl:choose>
