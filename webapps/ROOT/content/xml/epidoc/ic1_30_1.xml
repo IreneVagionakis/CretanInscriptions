@@ -101,7 +101,7 @@
                         </div>
                     <div type="textpart" subtype="fragment" n="a">
                         <ab>
-                          <lb n="1"/><w lemma="τύχα"><gap reason="lost" extent="unknown" unit="character"/> τύχα<supplied reason="lost">ι</supplied></w> <supplied reason="lost" cert="low">ἀγαθᾶι</supplied>
+                          <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="τύχα">τύχα<supplied reason="lost">ι</supplied></w> <supplied reason="lost" cert="low">ἀγαθᾶι</supplied>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <placeName ref="#argos" type="ethnic"><unclear>Ἀ</unclear>ρ<supplied reason="lost">γ</supplied>ει<supplied reason="lost">ο</supplied></placeName><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig>α</orig><gap reason="illegible" quantity="1" unit="character"/><orig>τ</orig><gap reason="illegible" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig>να</orig><gap reason="lost" extent="unknown" unit="character"/>

@@ -58,7 +58,7 @@
                           <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>ν μητα<unclear>υ</unclear>ιον τριπεδο<unclear>ν</unclear><gap reason="lost" extent="unknown" unit="character"/>
                           <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>αριον ἐπιστάμην <w lemma="μέδιμνος" part="I">μεδι<supplied reason="lost">μνο</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
                           <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">κατασ</supplied>τᾶσαι ὄτοι κα καταθίοντ<supplied reason="lost">ι</supplied> <gap reason="lost" extent="unknown" unit="character"/>
-                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="unknown" key="xenios_kosmos" ref="#gortyn"><w lemma="κσένιος ϙόσμος">κσένιον ϙόσμο<supplied reason="lost">ν</supplied> <gap reason="lost" extent="unknown" unit="character"/></w></rs>
+                          <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <rs type="institution" subtype="official" role="unknown" key="xenios_kosmos" ref="#gortyn"><w lemma="κσένιος ϙόσμος">κσένιον ϙόσμο<supplied reason="lost">ν</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
                           </ab>
                     </div>
                     <div type="commentary">

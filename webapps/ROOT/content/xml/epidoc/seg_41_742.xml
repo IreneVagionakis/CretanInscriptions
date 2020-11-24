@@ -54,7 +54,7 @@
         <body>
             <div type="edition" xml:lang="grc" xml:space="preserve">
                 <ab>
-                        <lb n="1"/><w lemma="συμμαχία"><supplied reason="lost">σ</supplied><unclear>υ</unclear><supplied reason="lost" cert="low">μμαχία</supplied> </w>
+                        <lb n="1"/><w lemma="συμμαχία"><supplied reason="lost">σ</supplied><unclear>υ</unclear><supplied reason="lost" cert="low">μμαχία</supplied></w>
                         <lb n="2"/>ἀγ<unclear>α</unclear><supplied reason="lost">θ</supplied><unclear>ᾶι</unclear> <w lemma="τύχα"><unclear>τύχ</unclear>αι</w>.
                         <lb n="3"/>ἀγαθᾶι <w lemma="τύχα">τύχ<unclear>α</unclear><supplied reason="lost">ι</supplied></w><supplied reason="lost">. τάδε <w lemma="συντίθημι">συνέθεντο</w> <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#aptera"><placeName ref="#aptera" type="ethnic">Ἀπταραῖοι</placeName></rs> καὶ <rs type="institution" subtype="assembly" role="treaty-making" key="polisE" ref="#eleutherna"><placeName ref="#eleutherna" type="ethnic">Ἐλευθενναῖοι</placeName></rs>,</supplied>
                         <lb n="4"/><placeName ref="#aptera">Ἀπτάρ<unclear>αι</unclear></placeName> <supplied reason="lost">μὲν</supplied> <rs type="institution" subtype="board" role="eponym" key="damiorgos" ref="#aptera" cert="low"><supplied reason="lost" cert="low">ἐπὶ <w lemma="δαμιουργός">δαμιουργῶν</w></supplied> <persName type="attested" key="-ras f. Timochos" cert="low"><name nymRef="-ρας" cert="low"><gap reason="lost" extent="unknown" unit="character"/><lb 

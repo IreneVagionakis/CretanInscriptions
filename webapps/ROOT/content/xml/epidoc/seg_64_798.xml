@@ -58,7 +58,7 @@
                 <ab>
                         <lb n="1"/><rs type="institution" subtype="official" role="eponym" key="kosmos" ref="#polyrrhenia">ἐπὶ <w lemma="κόσμος">κόσμω</w>
                         <lb n="2"/><persName type="attested" key="Kephalos f. Sosos"><name nymRef="Κέφαλος">Κεφάλω</name> τῶ 
-                        <lb n="3"/><name nymRef="Σῶσος" type="patronymic">Σώσω</name></persName></rs>, <w lemma="μείς">μηνὸ<supplied reason="lost">ς</supplied> </w>
+                        <lb n="3"/><name nymRef="Σῶσος" type="patronymic">Σώσω</name></persName></rs>, <w lemma="μείς">μηνὸ<supplied reason="lost">ς</supplied></w>
                         <lb n="4"/><rs type="institution" subtype="month" role="calendar" key="Potamios" ref="#polyrrhenia"><w lemma="Ποτάμιος">Πο<unclear>τ</unclear>αμίω</w></rs>, <rs type="institution" subtype="practice" role="decreeing" key="dokeo" ref="#polyrrhenia"><w lemma="δοκέω">ἔ<unclear>δ</unclear><supplied reason="lost">ο</supplied><lb 
                         break="no" n="5"/>ξε</w></rs> τᾶι <rs type="institution" subtype="assembly" role="decreer" key="polis" ref="#polyrrhenia"><w lemma="πόλις">πό<unclear>λ</unclear>ει</w></rs>
                         <lb n="6"/>καὶ τοῖς <rs type="institution" subtype="board" role="decreer" key="kosmos" ref="#polyrrhenia"><w lemma="κόσμος">κ<unclear>ό</unclear><supplied reason="lost">σ</supplied><unclear>μ</unclear>οι<supplied reason="lost">ς</supplied></w></rs>

@@ -72,7 +72,7 @@
                         <lb n="15"/>ἇι πεποίηνται ἀξίως τᾶς πόλιός τε τῶν <placeName ref="#teos" type="ethnic">Τηΐων</placeName>
                         <lb n="16"/>καὶ <placeName ref="#hyrtakina" type="ethnic">Ὑρτακινίων</placeName> <rs type="institution" subtype="social_group" role="good_relations_or_behaviour" key="polis" ref="#hyrtakina"><w lemma="πόλις">πόλιος</w></rs> καὶ αὐσαυτῶν· <w lemma="καλέω">κα<lb 
                             break="no" n="17"/>λέσαι</w> δὲ καὶ ἐπὶ <w lemma="ξένια">ξένια</w> τὸς πρεγγευτὰς
-                        <lb n="18"/>ἐπὶ τὰν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#hyrtakina"><w lemma="ἑστία">κοινὰν ἑστίαν</w></rs> ἐς τὸ <persName type="divine" key="Delphinios"><rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hieron" ref="#hyrtakina"><w lemma="Δελφίνιον">Δ<supplied reason="lost">ελφ</supplied>ίνιον</w></rs></persName>.
+                        <lb n="18"/>ἐπὶ τὰν <rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hestia" ref="#hyrtakina">κοινὰν <w lemma="ἑστία">ἑστίαν</w></rs> ἐς τὸ <persName type="divine" key="Delphinios"><rs type="institution" subtype="public_space" role="hospitality_and_commensality" key="hieron" ref="#hyrtakina"><w lemma="Δελφίνιον">Δ<supplied reason="lost">ελφ</supplied>ίνιον</w></rs></persName>.
                         <lb n="19"/><space extent="unknown" unit="character"/> <w lemma="ῥώννυμι">ἔρρωσθε</w>.
                 </ab>
             </div>
