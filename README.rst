@@ -1,47 +1,29 @@
+Cretan Institutional Inscriptions
+====
+
+The database **Cretan Institutional Inscriptions** was created by Irene Vagionakis as part of her PhD research project 
+at the University of Venice Ca’ Foscari (2016-2019; supervisors: Claudia Antonetti and Gabriel Bodard). 
+The database, built by using the **EpiDoc Front-End Services (EFES)** platform, collects the EpiDoc editions of 
+600 inscriptions shedding light on the institutions of the political entities of Crete from the VII to the I century BC.
+
+
 EFES: EpiDoc Front-End Services
 ====
 
-**EFES is envisioned as a delivery, search and browse platform 
-that can be set up and customized for an individual EpiDoc 
-XML-based project with only minimal training and technical 
-skill on the part of a project team.**
-The authors of Kiln plan to offer advanced, follow-up training workshops for 
-students already familiar with EpiDoc, but lacking further 
-technical skills, with a view to empowering them to create and 
-manage all stages of their digital publication, from modelling 
-to indexing to publishing online.
+**EpiDoc Front-End Services (EFES)** is a free, easy to use, highly customisable platform for the online 
+publication of ancient texts in EpiDoc XML. EFES allows the creation of multiple indices, search and browse 
+interface, geographical visualisation, and integration with linked open data.
 
-EFES is a fork of the **Kiln** publication plaform, described 
-below.
+EFES is a fork of **Kiln**, an open source multi-platform framework for building 
+and deploying complex websites whose source content is primarily in XML.
 
-EFES code repository:
+EFES code and documentation
 ----
-
-https://github.com/EpiDoc/EFES
-
-EFES Documentation home:
-----
-
-https://github.com/EpiDoc/EFES/wiki/
-
-Kiln
-----
-
-Kiln is an open source multi-platform framework for building and deploying
-complex websites whose source content is primarily in XML. It brings together
-various independent software components into an integrated whole that provides
-the infrastructure and base functionality for such sites.
-
-Kiln is developed and maintained by a team at the King's Digital Lab (KDL), King’s College London. 
-Over the past years and versions, Kiln has been used to generate more than 50 websites
-which have very different source materials and customised
-functionality. It has been adapted to work on a variety of flavours of
-TEI and other XML vocabularies, and has been used to publish data held
-in relational databases.
+* https://github.com/EpiDoc/EFES
+* https://github.com/EpiDoc/EFES/wiki/
 
 Kiln code and documentation
 ----
-
 * https://github.com/kcl-ddh/kiln/
 * http://kiln.readthedocs.org/en/latest/
 ----
