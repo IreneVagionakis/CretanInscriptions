@@ -1,7 +1,7 @@
 Cretan Institutional Inscriptions
 ====
 
-The database **Cretan Institutional Inscriptions** was created by Irene Vagionakis as part of her PhD research project 
+**Cretan Institutional Inscriptions** was created by Irene Vagionakis as part of her PhD research project 
 at the University of Venice Ca’ Foscari (2016-2019; supervisors: Claudia Antonetti and Gabriel Bodard). 
 The database, built by using the **EpiDoc Front-End Services (EFES)** platform, collects the EpiDoc editions of 
 600 inscriptions shedding light on the institutions of the political entities of Crete from the VII to the I century BC.
