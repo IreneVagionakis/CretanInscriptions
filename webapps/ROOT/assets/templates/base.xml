@@ -82,7 +82,7 @@
                 <a href="http://www.ilc.cnr.it/"><img style="height:4.2em; padding-right:1.3em; padding-left:0.5em" alt="ILC CRN" src="{$kiln:assets-path}/images/ilc-cnr.png"/></a>
                 <a href="http://www.clarin-it.it/it"><img style="height:4.7em; padding-right:1em" alt="CLARIN IT" src="{$kiln:assets-path}/images/clarin-it.png"/></a></p>
               <p><a href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="CC BY-NC" style="padding-left:0.9em; padding-right:1.2em; padding-bottom:0.2em" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></a>
-                <span>Irene Vagionakis, <i>Cretan Institutional Inscriptions</i> (2020)</span>
+                <span>Irene Vagionakis, <i>Cretan Institutional Inscriptions</i> (2021)</span>
               </p>
             </footer>
           </kiln:block>
