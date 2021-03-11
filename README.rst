@@ -1,47 +1,44 @@
-EFES: EpiDoc Front-End Services
+Cretan Institutional Inscriptions
 ====
 
-**EFES is envisioned as a delivery, search and browse platform 
-that can be set up and customized for an individual EpiDoc 
-XML-based project with only minimal training and technical 
-skill on the part of a project team.**
-The authors of Kiln plan to offer advanced, follow-up training workshops for 
-students already familiar with EpiDoc, but lacking further 
-technical skills, with a view to empowering them to create and 
-manage all stages of their digital publication, from modelling 
-to indexing to publishing online.
+**Cretan Institutional Inscriptions** was created by Irene Vagionakis as part of her PhD research project 
+at the University of Venice Ca’ Foscari (2016-2019; supervisors: Claudia Antonetti and Gabriel Bodard). 
+The database, built by using the **EpiDoc Front-End Services (EFES)** platform, collects the EpiDoc editions of 
+600 inscriptions shedding light on the institutions of the political entities of Crete from the VII to the I century BC.
 
-EFES is a fork of the **Kiln** publication plaform, described 
-below.
+**EpiDoc Front-End Services (EFES)** is a free, easy to use, highly customisable platform for the online 
+publication of ancient texts in EpiDoc XML. EFES allows the creation of multiple indices, search and browse 
+interface, geographical visualisation, and integration with linked open data.
+EFES is a fork of **Kiln**, an open source multi-platform framework for building 
+and deploying complex websites whose source content is primarily in XML.
 
-EFES code repository:
-----
 
-https://github.com/EpiDoc/EFES
+How to access the database locally (for git users)
+====
 
-EFES Documentation home:
-----
+* Clone the repository
+* Go to your local copy of the repository via the Terminal with **cd folder_path**
+* Run the command **build.sh** (Mac OS X/Linux) or **build.bat** (Windows) on the Terminal and leave its window open
+* If you get a Java error message, install the latest JDK from https://www.oracle.com/java/technologies/javase-jdk15-downloads.html
+* Open your browser and go to http://127.0.0.1:9999/ (NB: it takes a while to load)
 
-https://github.com/EpiDoc/EFES/wiki/
 
-Kiln
-----
+How to access the database locally (for other users)
+====
+* Download the repository from ‘Code’ > ‘Download ZIP’
+* Unzip the downloaded file and move the unzipped folder to your desktop, without changing its name
+* Open the Terminal / Command Line / Command Prompt (Windows: type **cmd** in the search box in the Start menu; Mac OS X/Linux: type **terminal** in the search box in the menu bar)
+* Type in the Terminal the command **cd Desktop\\CretanInscriptions-master** (Windows) or **cd Desktop/CretanInscriptions-master** (Mac OS X/Linux) and then press Enter (NB: if you saved the folder in a different place, e.g. inside another folder on the desktop or in Downloads, you should replace **Desktop** in the command with the actual path of the folder)
+* Type in the Terminal the command **build.sh** (Mac OS X/Linux) or **build.bat** (Windows), then press Enter and leave the Terminal window open
+* If the messages that appear in the Terminal include **Development server is running at http://127.0.0.1:9999**, everything is fine. If not, you need to install a more recent version of Java (7 or later) from here https://www.oracle.com/java/technologies/javase-jdk15-downloads.html, choosing the download option corresponding to your Operating System and then selecting ‘Accept License Agreement’
+* Open your browser and go to http://127.0.0.1:9999/ (NB: it takes a while to load)
 
-Kiln is an open source multi-platform framework for building and deploying
-complex websites whose source content is primarily in XML. It brings together
-various independent software components into an integrated whole that provides
-the infrastructure and base functionality for such sites.
 
-Kiln is developed and maintained by a team at the King's Digital Lab (KDL), King’s College London. 
-Over the past years and versions, Kiln has been used to generate more than 50 websites
-which have very different source materials and customised
-functionality. It has been adapted to work on a variety of flavours of
-TEI and other XML vocabularies, and has been used to publish data held
-in relational databases.
+EFES and Kiln code and documentation
+====
 
-Kiln code and documentation
-----
-
+* https://github.com/EpiDoc/EFES
+* https://github.com/EpiDoc/EFES/wiki/
 * https://github.com/kcl-ddh/kiln/
 * http://kiln.readthedocs.org/en/latest/
 ----
