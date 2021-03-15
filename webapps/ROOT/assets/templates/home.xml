@@ -19,7 +19,8 @@
           <div class="large-12 columns">
             <div class="panel radius">
               <div class="homepage_text">
-                <p><i18n:text i18n:key="site_description">Una raccolta della documentazione epigrafica relativa alle istituzioni cretesi del periodo compreso tra il VII e il I secolo a.C., con approfondimenti sulle realtà politiche di Creta e sulle loro istituzioni</i18n:text>.</p></div>
+                <p><i18n:text i18n:key="site_description">A collection of the epigraphic records pertaining to the Cretan institutions of the period between VII and I century BC, with insights into the political realities of Crete and their institutions.</i18n:text>.</p>
+              </div>
               
               <div class="boxcontainer">
                 <span class="box"><a href="inscriptions/"><img class="imagebox" src="{$kiln:assets-path}/images/1.jpg" alt="Asb [GFDL (http://www.gnu.org/copyleft/fdl.html) or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via Wikimedia Commons" /><span class="textbox"><i18n:text i18n:key="inscriptions">Iscrizioni</i18n:text></span></a></span>
