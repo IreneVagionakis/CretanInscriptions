@@ -81,8 +81,13 @@ footer p {
     text-align: center;
 }
 
-footer span {
+p#licence span {
     font-size: 13px;
+}
+
+p#logos {
+    text-align: center;
+    line-height: 4em;
 }
 
 #site-name {
