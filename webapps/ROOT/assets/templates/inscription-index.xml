@@ -36,6 +36,7 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
+          <p>All the source EpiDoc XML files are available in a <a href="{kiln:url-for-match('local-epidoc-zip', ($language), 0)}">ZIP archive</a> and can be reused under the terms of the <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC</a> license.</p>
           <xsl:apply-templates mode="text-index" select="/aggregation/response" />
         </div>
       </div>
