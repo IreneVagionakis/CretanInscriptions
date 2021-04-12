@@ -5,13 +5,15 @@
         <fileDesc>
             <titleStmt>
                 <title>Institution types and areas of competence</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
             </titleStmt>
             <publicationStmt>
-                <p/>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License</licence>
+                </availability>
             </publicationStmt>
-            <sourceDesc>
-                <p/>
-            </sourceDesc>
+            <sourceDesc><p/></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>

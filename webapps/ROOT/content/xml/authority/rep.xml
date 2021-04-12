@@ -5,9 +5,15 @@
         <fileDesc>
             <titleStmt>
                 <title>Current locations</title>
+                <editor xml:id="iv"><persName>Irene Vagionakis</persName></editor>
             </titleStmt>
-            <publicationStmt><p></p></publicationStmt>
-            <sourceDesc><p></p></sourceDesc>
+            <publicationStmt>
+                <authority>Cretan Institutional Inscriptions</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attributions-NonCommercial-ShareAlike 4.0 International License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc><p/></sourceDesc>
         </fileDesc>
     </teiHeader>
     <text>
