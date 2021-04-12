@@ -1,4 +1,0 @@
-<!-- Cocoon mount table. -->
-<mount-table>
-  <mount uri-prefix="" check-reload="yes" src="sitemaps/config.xmap"/>
-</mount-table>
