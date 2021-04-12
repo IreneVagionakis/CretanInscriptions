@@ -46,3 +46,5 @@ EFES and Kiln code and documentation
 EFES is licensed under the Apache 2.0 open software license,
 and is copyright the University of London, King's College London,
 and all listed individual contributors.
+
+The *Cretan Institutional Inscriptions* data (https://github.com/IreneVagionakis/CretanInscriptions/tree/master/webapps/ROOT/content/xml) are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (https://creativecommons.org/licenses/by-nc-sa/4.0/).
