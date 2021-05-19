@@ -2,6 +2,7 @@
 <!-- $Id$ -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" 
+  xmlns:fn="http://www.w3.org/2005/xpath-functions"
   version="2.0">
   <!-- Contains named templates for creta file structure (aka "metadata" aka "supporting data") -->  
   <!-- Called from htm-tpl-structure.xsl -->
@@ -221,6 +222,7 @@
   
   <!-- arrows pointing to previous/next inscription -->
   <xsl:template name="navigation">
+    <xsl:if test="doc-available(concat('file:',system-property('user.dir'),'/all_inscriptions.xml')) = fn:true()">
     <xsl:variable name="filename"><xsl:value-of select="//t:idno[@type='projectNo']"/></xsl:variable>
     <xsl:variable name="list" select="document(concat('file:',system-property('user.dir'),'/all_inscriptions.xml'))//t:list"/>
     <xsl:variable name="prev" select="$list/t:item[@sortKey=$filename]/preceding-sibling::t:item[1]/@n"/>
@@ -257,6 +259,7 @@
         </ul>
       </div>
     </div>
+    </xsl:if>
   </xsl:template>
   
 </xsl:stylesheet>
