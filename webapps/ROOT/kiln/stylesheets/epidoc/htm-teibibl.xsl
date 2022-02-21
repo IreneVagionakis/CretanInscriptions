@@ -266,6 +266,18 @@ bibliography. All examples only cater for book and article.
 			</xsl:otherwise>
 		</xsl:choose>
 	</xsl:template>
+	
+	<xsl:template match="t:title[not(ancestor::t:titleStmt)]" mode="#default inslib-dimensions inslib-placename sample-dimensions creta">
+		<xsl:param name="parm-edn-structure" tunnel="yes" required="no"/>
+		<xsl:choose>
+			<xsl:when test="$parm-edn-structure='inslib' or $parm-edn-structure='sample' or $parm-edn-structure='creta'">
+				<i><xsl:apply-templates/></i>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:apply-templates/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:template>
 
 
 </xsl:stylesheet>
