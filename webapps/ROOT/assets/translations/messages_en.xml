@@ -9,7 +9,7 @@
   <message key="language">Language</message>
   <message key="indices">Indices</message>
   <message key="person_name">Personal names</message>
-  <message key="prosopography">Prosopography</message>
+  <message key="persons">Prosopography</message>
   <message key="mentioned_places">Places</message>
   <message key="institutions">Institutions</message>
   <message key="divinities">Divinities</message>
