@@ -165,62 +165,42 @@
       </div>
     </xsl:template> 
   
-  <!-- links to external resources in bibliography  -->
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='phi']">
-    ➚<a target="_blank" href="http://epigraphy.packhum.org/text/{@target}">PHI</a>
-  </xsl:template>
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='aio']">
-    ➚<a target="_blank" href="https://www.atticinscriptions.com/inscription/{@target}">AIO</a>
-  </xsl:template>
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='seg']">
-    ➚<a target="_blank" href="http://dx.doi.org/10.1163/1874-6772_seg_{@target}">SEG</a>
-  </xsl:template>
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='cgrn']">
-    ➚<a target="_blank" href="http://cgrn.ulg.ac.be/file/{@target}">CGRN</a>
-  </xsl:template>
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='thetima']">
-    ➚<a target="_blank" href="http://ancdialects.greek-language.gr/inscriptions/{@target}">ΘΕΤΙΜΑ</a>
-  </xsl:template>
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='axon']">
-    ➚<a target="_blank" href="https://mizar.unive.it/axon/public/axon/anteprima/anteprima/idSchede/{@target}">Axon</a>
-  </xsl:template>
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='poinikastas']">
-    ➚<a target="_blank" href="http://poinikastas.csad.ox.ac.uk/search-browse.shtml{@target}">Poinikastas</a>
-  </xsl:template>
-  <xsl:template mode="creta" match="t:div[@type='bibliography']/t:p/t:bibl/t:ptr[@target][@type='ela']">
-    ➚<a target="_blank" href="http://www.epigraphiclandscape.unito.it/index.php/browse/{@target}">ELA</a>
+  
+  
+  <!-- MODED TEMPLATES, APPLIED IN BIBLIOGRAPHY AND COMMENTARY -->
+  <!-- external links  -->
+  <xsl:template mode="creta" match="t:bibl/t:ptr[@target][@type]">➚
+    <xsl:choose>
+      <xsl:when test="@type='phi'"><a target="_blank" href="http://epigraphy.packhum.org/text/{@target}">PHI</a></xsl:when>
+      <xsl:when test="@type='aio'"><a target="_blank" href="https://www.atticinscriptions.com/inscription/{@target}">AIO</a></xsl:when>
+      <xsl:when test="@type='seg'"><a target="_blank" href="http://dx.doi.org/10.1163/1874-6772_seg_{@target}">SEG</a></xsl:when>
+      <xsl:when test="@type='cgrn'"><a target="_blank" href="http://cgrn.ulg.ac.be/file/{@target}">CGRN</a></xsl:when>
+      <xsl:when test="@type='thetima'"><a target="_blank" href="http://ancdialects.greek-language.gr/inscriptions/{@target}">ΘΕΤΙΜΑ</a></xsl:when>
+      <xsl:when test="@type='axon'"><a target="_blank" href="https://mizar.unive.it/axon/public/axon/anteprima/anteprima/idSchede/{@target}">Axon</a></xsl:when>
+      <xsl:when test="@type='poinikastas'"><a target="_blank" href="http://poinikastas.csad.ox.ac.uk/search-browse.shtml{@target}">Poinikastas</a></xsl:when>
+      <xsl:when test="@type='ela'"><a target="_blank" href="http://www.epigraphiclandscape.unito.it/index.php/browse/{@target}">ELA</a></xsl:when>
+    </xsl:choose>
   </xsl:template>
   
-  <!-- links to full bibliographic references -->
-  <xsl:template mode="creta" match="t:div[@type='bibliography' or @type='commentary']/t:p/t:bibl/t:ref[@target]">
-    <a target="_blank" href="../texts/bibliografia.html#{substring-after(@target,'#')}" class="link"><xsl:apply-templates mode="creta"/></a>
+  <!-- internal links -->
+  <xsl:template mode="creta" match="t:ref[@target]">
+    <xsl:choose>
+      <xsl:when test="@type='ins'"><a target="_blank" href="./{substring-after(@target,'#')}.html"><xsl:apply-templates mode="creta"/></a></xsl:when>
+      <xsl:when test="@type='lit'"><a target="_blank" href="../texts/fonti_letterarie.html{@target}"><xsl:apply-templates mode="creta"/></a></xsl:when>
+      <xsl:when test="@type='inst'"><a target="_blank" href="../texts/istituzioni.html{@target}"><xsl:apply-templates mode="creta"/></a></xsl:when>
+      <xsl:when test="ancestor::t:bibl"><a target="_blank" href="../texts/bibliografia.html{@target}" class="link"><xsl:apply-templates mode="creta"/></a></xsl:when>
+    </xsl:choose>
   </xsl:template>
-  
-  <!-- links to inscriptions and literary sources in the commentary -->
-  <xsl:template mode="creta" match="t:div[@type='commentary']/t:p/t:ref[@target][@type='ins']">
-    <a target="_blank" href="./{substring-after(@target,'#')}.html"><xsl:apply-templates mode="creta"/></a></xsl:template>
-  
-  <xsl:template mode="creta" match="t:div[@type='commentary']/t:p/t:ref[@target][@type='lit']">
-    <a target="_blank" href="../texts/fonti_letterarie.html{substring-after(@target, '#')}"><xsl:apply-templates mode="creta"/></a></xsl:template>
-  
-  <!-- links to institution sections in the commentary -->
-  <xsl:template mode="creta" match="t:div[@type='commentary']/t:p/t:ref[@target][@type='inst']">
-    <a target="_blank" href="../texts/istituzioni.html{@target}"><xsl:apply-templates mode="creta"/></a></xsl:template>
 
-
-  <!-- bold chosen edition in bibliography  -->
-  <xsl:template mode="creta" match="t:bibl[@type='main_edition']"><strong><xsl:apply-templates mode="creta"/></strong></xsl:template>
-
-  <!-- p in bibliography, commentary, translation -->
-  <xsl:template mode="creta" match="t:div[@type='bibliography' or @type='commentary' or @type='translation']/t:p"><p><xsl:apply-templates mode="creta"/></p></xsl:template>
+  <!-- bold chosen edition, emph, apices, p  -->
+  <xsl:template mode="creta" match="t:bibl[@type='main_edition']|t:emph"><strong><xsl:apply-templates mode="creta"/></strong></xsl:template>
+  <xsl:template mode="creta" match="t:hi[@rend='superscript']"><sup><xsl:apply-templates/></sup></xsl:template>
+  <xsl:template mode="creta" match="t:p"><p><xsl:apply-templates mode="creta"/></p></xsl:template>
   
-  <!-- emph in bibliography and commentary -->
-  <xsl:template mode="creta" match="t:div[@type='bibliography' or @type='commentary']/t:p//t:emph"><strong><xsl:apply-templates/></strong></xsl:template>
   
-  <!-- apices in bibliography, commentary, apparatus -->
-  <xsl:template mode="creta" match="t:div[@type='bibliography' or @type='commentary' or @type='apparatus']//t:hi[@rend='superscript']"><sup><xsl:apply-templates/></sup></xsl:template>
   
-  <!-- arrows pointing to previous/next inscription -->
+  
+  <!-- ARROWS POINTING TO PREVIOUS/NEXT INSCRIPTION -->
   <xsl:template name="creta-navigation">
     <xsl:if test="doc-available(concat('file:',system-property('user.dir'),'/all_inscriptions.xml')) = fn:true()">
     <xsl:variable name="filename"><xsl:value-of select="//t:idno[@type='projectNo']"/></xsl:variable>
