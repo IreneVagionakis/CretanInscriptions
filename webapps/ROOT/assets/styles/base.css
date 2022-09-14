@@ -134,7 +134,7 @@ p.bibl {
     padding-bottom: 1em;
 }
 
-div#cities div, div#Crete div {
+div#cities div, div#Crete div, div #toponomastics div, div #historical_events div, div #cults div, div #varia div {
     padding-bottom: 2em;
 }
 
