@@ -5,4 +5,5 @@ sw/jetty/logs
 sw/jetty/temp
 webapps/ROOT/WEB-INF/logs
 .git
+.DS_Store
 #webapps/openrdf-sesame/app_dir
