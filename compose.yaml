@@ -1,0 +1,14 @@
+services:
+  cretan-inscriptions:
+    build:
+      context: .
+    image: cretan-inscriptions:local
+    ports:
+      - "9999:9999"
+    environment:
+      WEBAPP_CONTEXT_PATH: /cretaninscriptions
+      JAVA_XMS: 256m
+      JAVA_XMX: 2560m
+      JAVA_MAX_METASPACE: 384m
+    mem_limit: 4g
+    restart: unless-stopped

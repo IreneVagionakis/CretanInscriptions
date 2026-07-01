@@ -24,7 +24,7 @@
   <target depends="init, init.jetty" description="Runs the Jetty webserver"
     name="runserver">
     <mkdir dir="${jetty.home}/logs"/>
-    <echo>Development server is running at http://127.0.0.1:${jetty.port}</echo>
+    <echo>Development server is running at http://127.0.0.1:${jetty.port}${webapp.context.path}</echo>
     <echo>Quit the server with CONTROL-C.</echo>
     <jetty.run jettyXml="${jetty.home}/etc/jetty.xml"
                tempDirectory="${jetty.home}/temp">
@@ -37,7 +37,7 @@
         <connector port="${jetty.port}" />
       </connectors>
 
-      <webApp contextPath="/" war="${basedir}/webapps/ROOT" />
+      <webApp contextPath="${webapp.context.path}" war="${basedir}/webapps/ROOT" />
       <webApp contextPath="/openrdf-sesame"
               war="${basedir}/webapps/openrdf-sesame" />
       <webApp contextPath="/openrdf-workbench"

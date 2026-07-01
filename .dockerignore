@@ -1,0 +1,14 @@
+.git
+.github
+.DS_Store
+*.xpr
+*~
+*.log
+
+sw/jetty/logs/
+sw/jetty/temp/
+webapps/ROOT/WEB-INF/logs/
+
+logs/
+docs/_build/
+dist/

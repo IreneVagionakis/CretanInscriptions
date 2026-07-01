@@ -1,0 +1,5 @@
+build.sh text eol=lf
+*.sh text eol=lf
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+compose.yaml text eol=lf
